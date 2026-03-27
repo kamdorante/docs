@@ -126,6 +126,6 @@ Realice el procedimiento regular para generar un cierre de caja, explicado en el
 
 Imagen 30. Cierre de Caja Administrativo
 
-::: note
+::: tip
 Para identificar los cobros sin registros en Solop ERP, se debe realizar el procedimiento explicado en el proceso Pagos/Cobros sin Registros del documento **Conciliaciones Automáticas**.
 :::
