@@ -63,7 +63,7 @@ En las líneas de cada entrada se visualiza:
 
 ![Entradas](/assets/img/docs/balance-management/bam-default19.png)
 
-::: note
+::: tip
 Si el check “No Muestra Deuda” está marcado, también se mostrarán facturas no vencidas.
 Si el check no está marcado, facturas con días de vencido < 0 no se mostrarán.
 :::
@@ -152,6 +152,6 @@ El proceso garantiza:
 
 * Envío automático de notificaciones con trazabilidad.
 
-::: note
+::: tip
 Se recomienda siempre revisar la Cola de Notificaciones para confirmar que no existan rebotes o errores de envío.
 :::

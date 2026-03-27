@@ -20,7 +20,7 @@ En el cálculo de morosidad se obtiene y asigna al campo "Total de Tarifa" el im
 
 Para esto, si el nivel de morosidad tiene marcado el check "Cargo", primero se intenta obtener la tasa financiera definida en el SDN, si no existe entonces se toma la del nivel de morosidad, y como última opción se tomará desde el campo "Total de Tarifa" en el propio nivel de morosidad.
 
-::: note
+::: tip
 Cálculo de la Tasa Financiera:
 Tasa Final = (Días Vencido / Días del Mes) * Tasa de Interés
 :::
@@ -58,7 +58,7 @@ El proceso genera un lote de transacción financiera para cada factura procesada
 Si el término de pago de la factura tiene definido días de gracia, se considera esto para comparar con los días de vencido de la factura, y en caso que los días de vencido sean menores o  
 iguales a los días de gracia, entonces se genera el lote pero con importe en cero, y el informe de gasto no se genera.
 
-::: note
+::: tip
 Si el informe financiero tiene vinculado un lote de transacción financiera, entonces se asigna a la factura generada el tipo de documento correspondiente de "Nota de Débito" según la organización y grupo de impuestos del SDN (estos documentos Nota de débito no generan cálculo por mora).
 :::
 
@@ -129,6 +129,6 @@ En la asignación indica que se trata de una asignación de nota de crédito, es
 
 Cuando la factura tiene más de una asignación, se considera los días de vencido de la línea de asignación, y no los del cabezal de la factura. Tambíen se hace un prorrateo para saber qué porcentaje de la factura se ha asignado en cada una de las asignaciones.
 
-::: note
+::: tip
 Los lotes de transacción financiera se generan según la cantidad de asignaciones que tenga la factura.
 :::
