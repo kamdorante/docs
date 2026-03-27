@@ -48,6 +48,28 @@ export default defineConfig({
           { text: 'Preguntas Frecuentes', link: '/frequently-asked-questions' },
           { text: 'Verticales Oficiales de Solop ERP', link: '/verticals' },
         ]
+      },
+      {
+        text: 'Diccionario de Aplicación',
+        items: [
+          { text: 'Índice General', link: '/dictionary/' },
+          { text: 'Gestión de Ventas', link: '/dictionary/sales-management/' },
+          { text: 'Gestión de Compras', link: '/dictionary/purchase-management/' },
+          { text: 'Gestión de Saldos Pendientes', link: '/dictionary/balance-management/' },
+          { text: 'Gestión Financiera', link: '/dictionary/financial-management/' },
+          { text: 'Gestión Contable', link: '/dictionary/accounting-management/' },
+          { text: 'Gestión de Materiales', link: '/dictionary/material-management/' },
+          { text: 'Gestión de Producción', link: '/dictionary/production-management/' },
+          { text: 'Gestión Humana', link: '/dictionary/human-management/' },
+          { text: 'Gestión de Distribución', link: '/dictionary/distribution-management/' },
+          { text: 'Gestión de Devoluciones', link: '/dictionary/return-management/' },
+          { text: 'Gestión de Activos', link: '/dictionary/asset-management/' },
+          { text: 'Facturación Electrónica', link: '/dictionary/electronic-billing/' },
+          { text: 'Gestión de Relaciones', link: '/dictionary/customer-relationship-management/' },
+          { text: 'Verticales', link: '/dictionary/verticals/' },
+          { text: 'Reglas Básicas', link: '/dictionary/basic-rules/' },
+          { text: 'Dispositivos', link: '/dictionary/devices/' },
+        ]
       }
     ],
 
