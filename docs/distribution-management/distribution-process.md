@@ -86,7 +86,7 @@ A medida que se van seleccionando las órdenes a entregar en la parte superior, 
 
 Dentro de esas líneas, si se utliza el inventario correctamente, el ERP realiza una comparación entre la cantidad a entregar y la cantidad en existencia.
 
-::: note
+::: tip
 Desde el proceso Generar Orden de Salida desde OV se puede visualizar la columna Cantidad Existencia, que muestra la cantidad en existencia para el producto y el almacén de la Orden de Venta.
 :::
 
@@ -221,7 +221,7 @@ La facturación se realiza desde la orden de salida (en estado completo) en la v
 
 ![Filtros Facturas](/assets/img/docs/distribution-management/dim-distribution-image26.png)
 
-:::
+::: tip
 Los procesos "Generar entregas desde orden de salida" y "Generar factura desde orden de salida", permiten entregar y facturar por cantidad mayor a la ordenada (por ejemplo para aquellos productos que se vendan por bolsa y su valor sea por unidad, pero su peso pueda variar).
 ::: 
 
@@ -250,7 +250,7 @@ Esto agiliza el proceso de facturación y facilita la gestión logística y admi
 
 * El sistema agrupa todas las facturas asociadas a las órdenes de venta incluidas en la orden de salida.
 
-::: note
+::: tip
 Ejemplo: si la orden de salida contiene 8 órdenes de venta, se generará un lote de 8 facturas listas para imprimir.
 :::
 
