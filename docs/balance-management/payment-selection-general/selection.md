@@ -35,7 +35,7 @@ En esta modalidad, todo se resuelve en un único documento:
 
 * Completar el documento y confirmar la emisión de los pagos.
 
-::: note
+::: tip
 Esta forma es útil cuando una sola persona gestiona tanto la selección de facturas como la definición de pagos.
 :::
 
@@ -71,7 +71,7 @@ Existen dos escenarios principales para crear una orden de pago:
 
 ![Campo](/assets/img/docs/balance-management/bam-balance-image237.png)
 
-::: note
+::: tip
 En ambos casos, el resultado es un documento de Orden de Pago, que lista los documentos seleccionados para cancelar.
 :::
 
