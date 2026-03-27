@@ -145,6 +145,6 @@ Los tipos de transacción pueden ser:
 
 * El Estado de Cuentas Bancario debe completarse luego de realizar la identificación de los pagos y cobros (para que impacte en el saldo de la cuenta). 
 
-::: note
+::: tip
 Es importante que estos estado de cuentas bancarios se completen de forma cronológica para que los saldos se actualocen correctamente
 :::
