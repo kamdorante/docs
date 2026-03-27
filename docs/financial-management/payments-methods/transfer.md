@@ -69,7 +69,7 @@ Seleccione la opción **OK**, para generar en Solop ERP la transferencia entre c
 
 Podrá apreciar el resultado del proceso luego de su ejecución.
 
-::: note
+::: tip
 Al realizar el proceso de transferencia bancaria, es generado un egreso en la cuenta seleccionada en el campo **Cuenta bancaria desde** y un ingreso en la cuenta seleccionada en el campo **Cuenta Bancaria a Transferir**.
 :::
 
@@ -97,7 +97,7 @@ Si en la transferencia bancaria en el campo **Cuenta Bancaria a Transferir** fue
 
 Imagen 19. Cobro en Ventana Pago/Cobro
 
-::: note
+::: tip
 Si en el campo **Documento Destino** de la transferencia bancaria no se colocó el número de la transacción, el número de documento a mostrar del cobro en la ventana **Pago/Cobro** será el mismo que se número colocado en el campo **No. del Documento** de la transferencia bancaria.
 :::
 
@@ -107,7 +107,7 @@ Si en la transferencia bancaria en el campo **Cuenta Bancaria a Transferir** fue
 
 Imagen 20. Cobro en Ventana Caja
 
-::: note
+::: tip
 Si en el campo **Documento Destino** de la transferencia bancaria no se colocó el número de la transacción, el número de documento a mostrar del cobro en la ventana **Caja** será el mismo que se número colocado en el campo **No. del Documento** de la transferencia bancaria.
 :::
 
@@ -121,7 +121,7 @@ Si usted utiliza un txt para transferirle a todo el personal puede realizar una 
 
 Si usted paga particularmente a cada uno de sus empleados debe realizar una transferencia por cada pago que fué realizado para cada uno de sus empleados.
 
-::: warning
+::: tip
 Recuerde que al realizar la transferencia usted esta es registrando cada uno de los pagos que salen del banco. Por tal motivo debe tener especial cuidado en cuanto a monto y a número de referencia
 :::
 
@@ -151,7 +151,7 @@ Seleccione en el campo **Fecha Contable** la misma fecha con la que registró su
 
 Imagen 1. Transferencia Bancaria
 
-::: warning
+::: tip
 Por favor NO tildar el check que dice conciliación automática
 :::
 
