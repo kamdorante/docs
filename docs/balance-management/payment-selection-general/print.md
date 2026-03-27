@@ -50,7 +50,7 @@ Campo **N° de Documento** en este campo se puede colocar el número de document
 
 Imagen 5. Campo Nro de documento de ventana de búsqueda Selección de Pago
 
-::: note
+::: tip
 Es importante recordar que Solop ERP cuenta con un comodín de búsqueda el cual es signo porcentual **(%)** el cual puede ser utilizado dentro de un campo de búsqueda colocando un valor de búsqueda con el signo del porcentaje estando al inicio y final de la palabra o valor que se desea buscar ejemplo: %77%.
 :::
 
@@ -88,7 +88,7 @@ Sí al momento de crear la selección de pago de cuentas por pagar, fue asociada
 
 Imagen 10. Campo Cuenta Bancaria
 
-::: note
+::: tip
 Para realizar la creación de una selección de pagos de cuentas por pagar visite el documento Registro desde Selección de Pago.
 :::
 
@@ -252,7 +252,7 @@ Ubique y seleccione en el menú de Solop ERP, la carpeta **Gestión de Saldos Pe
 
 Imagen 28. Ventana Selección de Pago
 
-::: note
+::: tip
 Recuerde que toda ventana en Solop ERP cuenta en la barra de herramientas la opción de búsqueda **Encontrar Registros** la cual puede ser utilizada para ubicar la selección de pagos.
 :::
 
@@ -322,6 +322,6 @@ Imagen 4. Archivo Descargado
 
 Al culminar este proceso automáticamente serán generados los pagos a cada empleado en Solop ERP
 
-::: note
+::: tip
 Para este ejemplo de Transferencia Bancaria se trabajo con la cuenta de la caja asociada al Banco Nacional de Crédito, y el archivo descargado contiene todos los requisitos exigidos por este banco para su aprobación
 :::
