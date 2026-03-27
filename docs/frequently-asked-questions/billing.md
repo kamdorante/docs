@@ -46,7 +46,7 @@ El criterio que se maneja es que sólo será Contado una factura si junto al com
 
 En caso de que el Cobro no se genere automáticamente con la facturación, se entiende que serán siempre a crédito aunque su crédito sea con un plazo de vencimiento "inmediato".
 
-::: note
+::: tip
 Para poder generar una factura con Regla de Pago "Efectivo" será necesario crear una caja chica (en ventana Definición de Cajas) en la organización en cuestión.
 :::
 
@@ -106,7 +106,7 @@ Hay varios procesos de generar Notas de Crédito (Nota de Débito es otra cosa, 
 2. Copiar Líneas. (Factura)
 3. Proceso de Crear NC desde Devolución.
 
-::: note
+::: tip
 Educación y Agencia utilizan el primero generalmente.
 :::
 
@@ -154,7 +154,7 @@ Las Notas de Débito Proveedor son Facturas que el Proveedor le emite al CLIENTE
 
 Para luego cobrarle al cliente se genera una Nota de Débito al Cliente por este mismo importe.
 
-::: note
+::: tip
 Estas Notas de Débito NO TIENEN IVA, son todas exentas, ya que el que descuenta el iva compras  es el Cliente.
 :::
 
@@ -235,7 +235,7 @@ Al momento de ejecutarse este proceso, se verifica que cada una de las facturas 
 
 Al completarse la Nota de Crédito de Documento por Cobrar, se verifican las líneas de orden de los Documentos por Cobrar asignados en pestaña "CFE Referidos", y en caso de que ninguna línea tenga cantidad ordenada distinta a la facturada, se quita el check de "En Negociacion" del Documento por Cobrar.
 
-::: note
+::: tip
 EL SISTEMA NO REALIZA ASIGNACIONES POR LÍNEA SINO POR FACTURA, por lo que si los pagos no cancelan totalmente los Documentos por Cobrar no se deben asignar parcialmente.
 :::
 
@@ -293,7 +293,7 @@ Realiza la identificación del descuento porque el CFE Recibido posee dos campos
 Uno es el campo Precio de Lista (I_Invoice.PriceList) donde se agrega el precio del producto sin descuento y el segundo es el Precio Actual (I_Invoice.PriceActual) donde muestra el precio con descuento.
 
 
-::: note
+::: tip
 En el xml de respuesta, el MontoTiemTotal viene multiplicado por la cantidad, el sistema procede a dividir la cantidad para tener el monto de item por el valor real. De esta forma el Precio Actual refleja correctamente el monto con descuento.
 :::
 
@@ -313,7 +313,7 @@ Esto se debe a que no puede determinar que término de pago se desea definir en 
 
 **Solución:** Para solucionarlo lo ideal sería abrir en la ventana de “Órdenes de Venta” todas las Ordenes de venta que se están intentando facturar Varios Términos de Pago en las Órdenes de Venta seleccionadas.
 
-::: note
+::: tip
 Ver las mismas en formato “Grilla” para identificar qué Orden de Venta tiene un Término de Pago diferente.
 Para modificarlo deberá Rectivar la Orden, modificar el Término de Pago y luego completarla nuevamente.
 :::
