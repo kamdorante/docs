@@ -73,7 +73,7 @@ Si el campo de Regla de Reabastecimiento está vacío en el producto, el sistema
 
 Si se especifica una regla en el producto, esta tendrá prioridad sobre la del almacén.
 
-::: note
+::: tip
 ✅ Recomendaciones
 Verificar regularmente los valores mínimos y máximos para cada producto.
 
@@ -116,7 +116,7 @@ Esta guía explica paso a paso cómo se configura el sistema para aplicar reglas
 
 * Orden de distribución
 
-::: note
+::: tip
 📌 Si no se realiza ninguna de estas acciones, la fecha de corte no se actualiza, lo que puede causar duplicación de sugerencias o errores de cálculo en períodos posteriores.
 :::
 
@@ -130,7 +130,7 @@ Esta guía explica paso a paso cómo se configura el sistema para aplicar reglas
 
 * 🧰 Herramienta para visualizar: “Reabastecimiento de Producto”
 
-::: note
+::: tip
 Se debe usar el smart browser llamado Reabastecimiento de Producto, y no el de Reabastecimiento de Almacén (este último solo aplica para mínimos y máximos y no soporta reglas personalizadas).
 :::
 
@@ -168,7 +168,7 @@ Algunos tipos como “calculado” o “EDM del proyecto” no están habilitado
 
 * 📝 Notas clave
 
-::: note
+::: tip
 Importante: Si un producto no tiene regla asignada, no aparecerá en el módulo de reabastecimiento, incluso si tuvo ventas.
 
 El sistema solo relaciona ventas (o salidas) que se produjeron entre la última fecha de corte y la fecha actual.
@@ -206,7 +206,7 @@ Para mejorar la eficiencia del proceso, el sistema permite aplicar múltiples fi
 
 ✅ Socio de negocio (importante si el producto requiere ser adquirido a un proveedor)
 
-::: note
+::: tip
 📌 Nota: Si el producto no tiene un socio de negocio definido, no podrá ser reabastecido mediante una orden de compra.
 :::
 
@@ -264,7 +264,7 @@ Todos los productos llegarán al almacén destino original.
 
 El sistema registrará una fecha de reabastecimiento por producto, que puede consultarse luego en la ficha del ítem. Esta fecha se actualiza según la configuración del proceso (manual o automática).
 
-::: note
+::: tip
 ✅ Recomendaciones
 Definí correctamente los almacenes fuente y destino antes de comenzar.
 
@@ -313,7 +313,7 @@ En el módulo de Conteo de Inventario → Crear Lista de Conteo Personalizada.
 
 ✅ Límite configurable (ejemplo: hasta 20 productos). 
 
-::: note
+::: tip
 💡 Ideal para: empresas con alto volumen de SKUs diarios (500–600), que no pueden hacer conteo completo a diario. Usan este método para controlar solo una muestra diaria (20 productos, por ejemplo). 
 :::
 
@@ -336,7 +336,7 @@ Es posible definir un nombre de clase personalizada que determine la lógica de 
 
 Una empresa puede pedir una clase que cree listas de conteo semanales basadas en los productos más vendidos de los últimos 7 días. 
 
-::: note
+::: tip
 🧠 Recomendaciones 
 
 Usar el reabastecimiento por categoría para reducir tareas repetitivas. 
