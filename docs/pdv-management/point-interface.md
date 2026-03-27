@@ -43,7 +43,7 @@ Permite buscar productos por:
 * Precio Estándar
 * Precio de Lista
 
-::: note
+::: tip
 La búsqueda se ejecuta automáticamente al ingresar el código del producto.
 :::
 
