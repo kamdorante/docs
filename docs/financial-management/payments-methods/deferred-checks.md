@@ -181,7 +181,7 @@ Cheque a Pagar
 * Se debe anular el pago del cheque original.
 * Se concilia el “Rechazo del Cheque” que está positivo con la “Reversión” del Pago.
 
-::: note
+::: tip
 El asiento se neutraliza.
 :::
 
@@ -193,7 +193,7 @@ Cheque a Cobrar
 * Se debe anular el cobro del cheque original.
 * Se concilia el “Rechazo del Cheque” que está positivo con la “Reversión” del cobro.
 
-::: note
+::: tip
 El asiento se neutraliza.
 :::
 
@@ -205,7 +205,7 @@ Cheque a Diferido a Pagar
 * Se debe anular el pago del cheque original.
 * Se concilia el “Rechazo del Cheque” que está positivo con la “Reversión” del Pago.
 
-::: note
+::: tip
 El asiento se neutraliza.
 :::
 
@@ -217,11 +217,11 @@ Cheque Diferido a Cobrar
 * Se debe anular el cobro del cheque original.
 * Se concilia el “Rechazo del Cheque” que está positivo con la “Reversión” del cobro.
 
-::: note
+::: tip
 El asiento se neutraliza.
 :::
 
-::: warning
+::: tip
 Importante: cuando un Pago/Cobro se encuentra vinculado a una línea de estado de cuenta bancario, al anularlo se marcará (tanto en el documento original como en el reverso) el check **Asignado** mientras que el check **Conciliado** se mantendrá sin marcar. Esto permite conciliar el rechazo del cheque con la reversión del cobro.
 :::
 
