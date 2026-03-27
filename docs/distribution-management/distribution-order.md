@@ -95,7 +95,7 @@ Asegurar que los movimientos de inventario entre locales/almacenes:
 
       * Ubicación destino.
 
-::: note
+::: tip
 - Si cantidad confirmada > existencia, el sistema solo mueve lo disponible (ej. existencia 20 → moverá 20).
 - Solo se moverá lo cantidad mayor a existencia si la orden está marcada como regla de entrega forzada.
 :::
