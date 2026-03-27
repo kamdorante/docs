@@ -79,7 +79,7 @@ También puede generarse de manera manual permitiendo así una agrupación de or
 7. Luego las lineas de las órdenes de ventas (Productos)
 8. Finalmente seleccionamos la opción ok.
 
-::: note
+::: tip
 En este punto de manera automática, se genera la orden de distribución y movimiento de inventario para mover la mercancia a la puerta de embarque o almacén de venta.
 :::
 
@@ -94,7 +94,7 @@ En este punto de manera automática, se genera la orden de distribución y movim
 
 1. Cree una orden de Venta de manera habitual.
 
-::: note
+::: tip
 En este punto de manera automática, se genera la orden de Salida,orden de distribución y movimiento de inventario para mover la mercancia a la puerta de embarque o almacén de venta.
 :::
 
