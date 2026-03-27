@@ -29,7 +29,7 @@ Adicionalmente, se crea un registro en Cierre de Caja, con la cuenta Caja POS, a
 6. Aceptar.
 
 
-::: note
+::: tip
 * Este proceso debe realizarse antes de iniciar las ventas del día.
 
 * No se debe realizar la apertura de caja sin haber entregado físicamente el dinero correspondiente. De lo contrario, los saldos en Solop ERP no coincidirán con los saldos físicos.
@@ -70,7 +70,7 @@ El proceso de Copiar Orden Desde Otra permite duplicar una orden de venta manten
 * Seleccionar la opción Copiar Orden.
 
 
-::: note
+::: tip
 * Si el terminal requiere un PIN de usuario, se debe ingresar antes de ejecutar el proceso.
 
 * Una vez copiada, la orden se generará en estado Borrador con la fecha actual.
@@ -245,7 +245,7 @@ Un retiro de fondos ocurre cuando se extrae dinero de una caja del punto de vent
 * Seleccionar [Transferir Fondos].
 * Aceptar
 
-::: note
+::: tip
 Por cada retiro realizado, Solop ERP genera en la ventana Caja:
 * Un documento de pago asociando la caja POS.
 * Un documento de cobro asociando la caja administrativa.
@@ -335,7 +335,7 @@ Para habilitar el cambio en otra moneda:
 
 * Activar el campo “Is Allowed To Refund”.
 
-::: note
+::: tip
 Este check es indispensable para que el método de pago esté disponible en la pantalla de cambio.
 :::
 
@@ -361,7 +361,7 @@ Para que sea posible cobrar en una moneda distinta a la de la factura, el métod
 
 #### Ejemplo funcional: El método de pago Mastercard permite seleccionar una moneda diferente porque no tiene moneda fija asignada.
 
-::: note
+::: tip
 Excepción: El método de pago Efectivo tiene una moneda fija configurada, por lo tanto no permite seleccionar otra moneda al momento del cobro.
 :::
 
