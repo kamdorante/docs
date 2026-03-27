@@ -12,7 +12,7 @@ article: false
 
 Para abrir un periodo se debe ingresar en la ventana Año Calendario y Periodo, seleccionar el período que corresponda y luego, en Control de periodo se podrán visualizar todos los documentos para los cuales ese periodo está abierto.
 
-::: note
+::: tip
 Si un período se cierra “Permanentemente”, luego no se puede volver a abrir, ya que el control que realiza el sistema, filtra para no tomar en cuenta los registros con estado “P” (cerrado permanentemente). En ese caso se debe solicitar actualizar los registros cambiando su estado a “C” (Cerrado).
 :::
 
@@ -25,7 +25,7 @@ Para gestionar diferentes cuentas contables definidas para un impuesto, como por
 En el caso que una cuenta quede sin número y por fuera del árbol en Elemento Contable. El problema con esta cuenta será que ha sido incorrectamente creada (qued sin tener definido el MENÚ). 
 Es una funcionalidad del sistema que lo necesita para que se pueda ver en el árbol. cuando pasa esto hay que verificar si tiene bien definido el Árbol en el elemento contable (Cuenta contable).
 
-::: note
+::: tip
 Seguramente esto sucedió debido a que se creó manualmente sin "Copiar Cuenta" por lo que no se está seteando el menú por defecto. 
 :::
 
@@ -59,7 +59,7 @@ En los casos en los que el documento esta reversado, se debe actualizar por base
 
 TODO cambio de documentos que involucre cambio de fecha, requiere que luego del cambio se toque el boton de “Recontabilizar” dado que el cambio de fecha implica la ubicacion en el tiempo de movimientos contables y si no se reorganiza las cantidades, el resultado del analisis contable no será correcto.
 
-::: note
+::: tip
 El Período de la fecha que dicho asiento fue contabilizado debe estar ABIERTO para permitir re-contabilizar.
 :::
 
@@ -67,7 +67,7 @@ El Período de la fecha que dicho asiento fue contabilizado debe estar ABIERTO p
 
 Para poder sortear los controles de "Cuenta Controlada" en los asientos diarios en Lote se debe marcar en "Y" el check de Apertura/Cierre de Ejercicio. 
 
-::: warning
+::: tip
 CUIDADO esto no se debe realizar sin verificación de un consultor.
 :::
 
@@ -166,7 +166,7 @@ El saldo inicial del Balance de Prueba sólo brinda el saldo que posee la cuenta
 
 Esta funcionalidad presenta un comportamiento correcto si la empresa tiene como Cierre de Ejercicio el 31/12 y si realiza el Cierre y Apertura del Ejercicio. Pero si la empresa tiene como fecha de cierre de ejercicio en una fecha DIFERENTE al 31/12, este reporte presentará inconvenientes. 
 
-::: note
+::: tip
 En este caso de se debería definir un Saldo Inicial según dicha Fecha (Diferente al 31/12). 
 :::
 
