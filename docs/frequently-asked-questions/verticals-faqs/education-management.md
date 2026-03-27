@@ -99,7 +99,7 @@ Anular conceptos recurrentes: posee filtro de Socio del Negocio obligatorio (se 
 
 Anular conceptos no recurrentes: posee filtros de producto y fecha obligatorios (se utiliza para anular los conceptos no recurrentes).
 
-::: note
+::: tip
 El check "Self-Service" se traduce como "No Recurrente"
 :::
 
