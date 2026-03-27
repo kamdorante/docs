@@ -135,21 +135,33 @@ En ningún caso se toman en cuenta las lineas de CFE referidos que no tienen fac
 
 #### Pago (contado)
 
-\+=============================+============+==========+ [|](https://docs.solop.io/luy/procedures/open-items/allocations/allocations.html#id1)21300 - Payment Selection [|](https://docs.solop.io/luy/procedures/open-items/allocations/allocations.html#id3)4\.700,00 [|](https://docs.solop.io/luy/procedures/open-items/allocations/allocations.html#id5)0\.00 | +—————————–+————+———-+ [|](https://docs.solop.io/luy/procedures/open-items/allocations/allocations.html#id7)11110 - Checking In-Transfer [|](https://docs.solop.io/luy/procedures/open-items/allocations/allocations.html#id9)143\.459,81 [|](https://docs.solop.io/luy/procedures/open-items/allocations/allocations.html#id11)4\.700,00 | +—————————–+————+———-+
+| Descripción | Cargo | Abono |
+| :--- | :--- | :--- |
+| 21300 - Payment Selection | 4.700,00 | 0.00 |
+| 11110 - Checking In-Transfer | 143.459,81 | 4.700,00 |
 
 ### Cheque Diferido
 
 **Emisión de Cheque**
 
-\+=============================+===========+==========+ [|](https://docs.solop.io/luy/procedures/open-items/allocations/allocations.html#id13)Cuenta Puente Diferidos [|](https://docs.solop.io/luy/procedures/open-items/allocations/allocations.html#id15)3\.000,00 [|](https://docs.solop.io/luy/procedures/open-items/allocations/allocations.html#id17)0\.00 | +—————————–+———–+———-+ [|](https://docs.solop.io/luy/procedures/open-items/allocations/allocations.html#id19)Documentos a Pagar Diferidos [|](https://docs.solop.io/luy/procedures/open-items/allocations/allocations.html#id21)0\.00 [|](https://docs.solop.io/luy/procedures/open-items/allocations/allocations.html#id23)3\.000,00 | +—————————–+———–+———-+
+| Descripción | Debe | Haber |
+| :--- | :---: | :---: |
+| Cuenta Puente Diferidos | 3.000,00 | 0.00 |
+| Documentos a Pagar Diferidos | 0.00 | 3.000,00 |
 
 **Nota de Crédito Automática.**
 
-\+===============================+===================+ [|](https://docs.solop.io/luy/procedures/open-items/allocations/allocations.html#id25)21100 - Accounts Payable Trade [|](https://docs.solop.io/luy/procedures/open-items/allocations/allocations.html#id27)3\.000,00 [|](https://docs.solop.io/luy/procedures/open-items/allocations/allocations.html#id29)0\.00 | +——————————-+———+———+ [|](https://docs.solop.io/luy/procedures/open-items/allocations/allocations.html#id31)Cuenta Puente Diferidos [|](https://docs.solop.io/luy/procedures/open-items/allocations/allocations.html#id33)0\.00 [|](https://docs.solop.io/luy/procedures/open-items/allocations/allocations.html#id35)3\.000,00 | +——————————-+———+———+
+| Cuenta | Debe | Haber |
+| :--- | :---: | :---: |
+| 21100 - Accounts Payable Trade | 3.000,00 | 0.00 |
+| Cuenta Puente Diferidos | 0.00 | 3.000,00 |
 
 ### Asignación de Pagos
 
-\+===============================+======+=====+ [|](https://docs.solop.io/luy/procedures/open-items/allocations/allocations.html#id37)21100 - Accounts Payable Trade [|](https://docs.solop.io/luy/procedures/open-items/allocations/allocations.html#id39)500 [|](https://docs.solop.io/luy/procedures/open-items/allocations/allocations.html#id41)0\.00 | +——————————-+——+—–+ [|](https://docs.solop.io/luy/procedures/open-items/allocations/allocations.html#id43)21300 - Payment Selection [|](https://docs.solop.io/luy/procedures/open-items/allocations/allocations.html#id45)0\.00 [|](https://docs.solop.io/luy/procedures/open-items/allocations/allocations.html#id47)500 | +——————————-+——+—–+
+| Cuenta | Debe | Haber |
+| :--- | :---: | :---: |
+| 21100 - Accounts Payable Trade | 500 | 0.00 |
+| 21300 - Payment Selection | 0.00 | 500 |
 
 #### Asignación por Depósito
 
