@@ -61,7 +61,7 @@ Seleccione la opción **Completar**, ubicada en la parte inferior del documento.
 
 Seleccione la acción **Completar** y la opción **OK**, para completar el documento.
 
-::: note
+::: tip
 Recuerde que el procedimiento para gestionar el cierre de caja debe realizarce diariamente.
 :::
 
@@ -87,7 +87,7 @@ Luego nos aparecerá una ventana donde estará seleccionada el nombre de nuestra
 
 Posteriormente aparecen los movimientos que tenga registrados en su caja, en la fecha que determinó en su búsqueda. En este caso nos aparecen el pago generado a los empleados en la selección de pago y por otro lado tendremos el monto total de la transferencia que realizamos con el monto total de la nómina.
 
-::: note
+::: tip
 Cabe destacar que en el ejemplo que presentamos se evidencia la transferencia realizada y el pago de un solo empleado que fue con el que realizamos el proceso de nómina, sólo para este caso en específico, en su proceso le deben aparecer todos los empleados qué le procesaron la nómina
 :::
 
@@ -97,7 +97,7 @@ Seguidamente nos dirigimos a la ventana principal de nuestro cierre de caja y en
 
 Por último nos dirigimos a la ventana principal de nuestro cierre de caja y en el campo **Saldo Final** nos debe quedar un saldo de cero (0), eso quiere decir que los montos de la caja están correctos, el egreso de dinero que salió de nuestra caja para el pago de la nómina de los empleados y en monto ingresado a nuestra caja a través de la transferencia bancaria está correcto.
 
-::: warning
+::: tip
 Cabe destacar que el saldo final del cierre de la caja siempre debe quedar en cero 0. Sí no es así posiblemente esté realizando un procedimiento incorrecto
 :::
 
