@@ -126,7 +126,7 @@ Seleccionar con qué medio de pago se estará cobrando. Contado, Cheque al día,
 
 En caso de que exista una diferencia entre los Medios de Pago y los Documentos a Asignar, se podrá enviar dicha diferencia a un Cargo.
 
-::: note
+::: tip
 Si existe una diferencia pero no se selecciona un Cargo, los importes no cerrarán por lo que no se generará la Asignación automática.
 :::
 
@@ -204,7 +204,7 @@ Aquí **SI** deberemos marcar el check de Redondeo.
 
 * **Asignación Parcial:** Para poder hacer una asignación Parcial de las Facturas se deberá seleccionar las mismas desde el Smartbrowser de Asignar Facturas por el importe que se desea asignar.
 
-::: note 
+::: tip 
 Para poder asignar parcialmente un DxC en un recibo de cobro, al asignarlo, deben modificar en la columna "total del pago" el importe (inferior al total de la factura) que quieran aplicar. Esto dejará un importe abierto del Documento por Cobrar
 :::
 
@@ -212,7 +212,7 @@ Para poder asignar parcialmente un DxC en un recibo de cobro, al asignarlo, debe
 
 Como último paso en todos los casos se deberá Completar el documento mediante el botón Completar.
 
-::: note
+::: tip
 El sistema NO PERMITE asignar de más si no se marca el check de Redondeo.
 :::
 
