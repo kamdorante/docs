@@ -212,7 +212,7 @@ Solo se puede pagar una Factura y ver las opciones de Banco cuando la factura es
 
 Las facturas una vez generadas no podrán borrarse por motivo de auditoría, lo que se debe hacer con ellas en estos casos es anularlas.
 
-::: note
+::: tip
 El sistema permite anular facturas que se encuentren en estado borrador.
 :::
 
