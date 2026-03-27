@@ -110,7 +110,7 @@ Al seleccionar el registro del produto, se habilita el campo de la columna **Can
 
 Seleccione en el campo **Crear**, el documento que requiere crear para reabastecer el producto en el almacén seleccionado.
 
-::: note
+::: tip
 Cuando se requiere generar el documento **Orden de Compra**, es obligatorio seleccionar el socio del negocio proveedor en la columna **Socio del Negocio** de la ventana **Reabastecimiento de Almacén**.
 :::
 
