@@ -10,9 +10,9 @@ article: false
 
 ## Descripción
 
-Flujo de trabajo para la configuración inicial del módulo de manufactura. Guía paso a paso para configurar los parámetros de producción.
+Flujo de trabajo de configuración para la manufactura discreta. Una vez completado el proceso de planificación de producción, este asistente guía la verificación de actividades de ejecución para asegurar que se pueda cumplir el plan de materiales. Permite verificar la disponibilidad de componentes, fechas de liberación y vencimiento, y responde la pregunta: ¿Qué necesito hacer para cumplir el MPS?
 
 ## Acceso
 
-Menú: Gestión de Producción → Configuración de Manufactura
+Menú: Gestión de Producción → Producción → Manufactura Discreta → Configuración de Manufactura Discreta
 

@@ -10,11 +10,12 @@ article: false
 
 ## Descripción
 
-Proceso para generar automáticamente la localización (dirección) de los socios del negocio.
+Proceso para generar automáticamente la localización (dirección) de los socios del negocio en el sistema.
 
 ## Acceso
 
 Menú: Gestión de Relaciones → Generar Localización de SdN
 
+## Parámetros
 
-
+Este proceso no requiere parámetros adicionales.

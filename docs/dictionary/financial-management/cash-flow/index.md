@@ -11,7 +11,7 @@ article: false
 Gestión del flujo de caja.
 
 ## Ventanas
-- [Flujo de Caja](cash-flow)
+- [Flujo de Efectivo](cash-flow)
 
 ## Reportes
-- [Revisión de Flujo de Caja](review-cashflow)
+- [Detalle de Flujo de Efectivo](review-cashflow)

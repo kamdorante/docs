@@ -1,18 +1,23 @@
 ---
-title: Flujo de Caja
+title: Flujo de Efectivo
 category: Documentation
 star: 9
 sticky: 9
 article: false
 ---
 
-# Flujo de Caja
+# Flujo de Efectivo
 
 ## Descripción
 
-Ventana para definir y gestionar el flujo de caja de la organización. Permite planificar y monitorear los movimientos de efectivo.
+La ventana de Flujo de Efectivo es utilizada para registrar los ingresos o egresos estimados o misceláneos. Permite planificar y monitorear los movimientos de efectivo de la organización, tanto para transacciones de ventas como de compras.
 
 ## Acceso
 
-Menú: Gestión Financiera → Flujo de Caja → Flujo de Caja
+Menú: Gestión de Flujo de Efectivo → Flujo de Efectivo
 
+## Pestañas
+
+### Flujo de Efectivo
+
+Pestaña principal para el registro de ingresos y egresos misceláneos de flujo de efectivo. Incluye datos del socio del negocio, cuenta bancaria, moneda, montos y fechas de vencimiento.
