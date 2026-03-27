@@ -44,7 +44,7 @@ Seleccione el icono |Nueva Orden|, ubicado en la barra de herramientas superior 
 
 Podrá visualizar la ventana Selecciona |Terminal PDV|, para seleccionar el terminal del punto de venta con el cual va a gestionar la toma de pedido y posteriormente la opción **OK** para cargar la ventana |Punto de Venta| para el terminal seleccionado.
 
-::: note
+::: tip
 Esta opción es habilitada cuando el socio del negocio vendedor tiene configurado más de un terminal de punto de venta.
 :::
 
@@ -80,7 +80,7 @@ A continuación indique el código del cliente (Cédula/RIF) en el campo **Códi
 
 Imagen 7. Código Socio de Negocio
 
-::: warning
+::: tip
 Solop ERP actualiza de modo automático el campo **Número Identificación**, este campo es utilizado para reportes fiscales (Ejemplo:IGTF).
 :::
 
@@ -94,7 +94,7 @@ Imagen 7. Nombre Socio de Negocio
 
 Seleccionar Cliente para la Venta
 
-::: note
+::: tip
 Recuerde que debe cambiar la información del socio **Cliente Unico** por la información del cliente real de la venta, ya que esta información saldrá impresa en la factura fiscal generada al concluir la venta.
 :::
 
@@ -123,7 +123,7 @@ Si se requiere más de una forma de pago:
 3. Para eliminar una forma de pago, seleccione Menos.
 4. Presione OK para confirmar el cobro.
 
-::: note
+::: tip
 Cada forma de pago genera un documento de cobro en la ventana Caja.
 :::
 
@@ -131,7 +131,7 @@ Cada forma de pago genera un documento de cobro en la ventana Caja.
 
 Seleccione en el campo **Forma de Pago**, la forma utilizada por el cliente para pagar los productos cargados en la orden de venta.
 
-::: note
+::: tip
 Para la forma de pago **Caja**, no es obligatorio ingresar un valor en el campo **No. de Referencia**. Sin embargo, se utiliza para ingresar el serial del billete recibido o cualquier otra forma de identificación del cobro.
 :::
 
@@ -151,7 +151,7 @@ Seleccione el icono **Cancelar**, para cancelar el registro del cobro que encuen
 
 Seleccione en el campo **Forma de Pago**, la forma utilizada por el cliente para pagar los productos cargados en la orden de venta.
 
-::: note
+::: tip
 Para la forma de pago **Caja**, no es obligatorio ingresar un valor en el campo **No. de Referencia**. Sin embargo, se utiliza para ingresar el serial del billete recibido o cualquier otra forma de identificación del cobro.
 :::
 
@@ -167,7 +167,7 @@ Seleccione en el campo **Banco**, el banco donde fue efectuada la transacción.
 
 Seleccione el icono **Más**, para habilitar otro grupo de campos de pago e ingresar la siguiente forma de pago utilizada por el cliente para terminar de cancelar la orden de venta.
 
-::: note
+::: tip
 Si requiere cargar otra forma de pago adicional a las dos anteriores, puede seleccionar nuevamente el icono **Más** y proceder a cargar el cobro con dicha forma de pago.
 :::
 
@@ -175,7 +175,7 @@ Para eliminar una forma de pago ya seleccionada previamente, seleccione el icono
 
 Seleccione la opción **OK**, para generar el cobro de los productos cargados en la orden de venta.
 
-::: note
+::: tip
 Al completar el proceso para generar el cobro de los productos ingresados a la orden de venta POS, se crea automáticamente un documento de cobro en la ventana **Caja**, por cada forma de pago utilizada.
 :::
 
