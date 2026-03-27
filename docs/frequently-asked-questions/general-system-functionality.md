@@ -48,7 +48,7 @@ Se debe solicitar un update cuando se desea modificar un dato en un documento y 
   * Botón derecho en el campo, seleccionar Bitácora de Cambios. copiar el nombre del campo.
 * Busco el ID del Registro que se quiere definir en el campo de la tabla mediante una actualización y aclarararlo.
 
-::: note
+::: tip
 *(No siempre es un ID lo que se quiere actualizar, también puede ser un código por ejemplo o cualquier campo de una tabla.)
 :::
 
@@ -68,7 +68,7 @@ En un documento podemos saber si un registro está guardado visualizando el mism
 
 Cuando el usuario selecciona una Lista de precios, cuya fecha de validez es posterior a la fecha del documento que se está creando, el campo de la moneda no se actualiza. Esto se debe a que en la ventana “Lista de Precios”, seleccionando la lista de precios en cuestion, luego pestaña “Version”, el campo “Valido desde” corresponde a una fecha posterior al documento (por ejemplo Orden de Compra), entonces el campo moneda no refleja el tipo de moneda de la lista de precios en el documento que se esta creando.
 
-::: note
+::: tip
 Para que una lista de precios sea correctamente considerada por un Documento la misma debe tener una Fecha (Válido desde) Desde en la Versión Activa igual o mayor al día del Documento.
 :::
 
@@ -184,7 +184,7 @@ Es posible realizar esta acción desde el proceso "Socio del Negocio de la Organ
 El proceso permite cambiar y/o verificar la propiedad de la organización de la entidad Socios del Negocio.
 Es posible seleccionar cualquier grupo de Socios del Negocio o un Socio del Negocio especifico.
 
-:::note
+::: tip
 En el caso de seleccionar un grupo de socio del negocio, se actualizará la organización para todos los socios de negocios ligados a ese grupo
 :::
 
