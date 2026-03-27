@@ -80,3 +80,7 @@ Esta documentación está destinada a definir cada uno de los procedimientos par
 ### Navegadores de Entregas
 
 - [Generar Entrega desde Línea de Orden](deliveries/generate-delivery-fromorderline)
+
+## Pronóstico de Ventas
+
+- [Comparación de Pronóstico de Ventas](forecast/sales-forecast-comparison)
