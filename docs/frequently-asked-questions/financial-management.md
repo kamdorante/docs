@@ -103,7 +103,7 @@ Este comportamiento es el deseado, debido a que de no realizarse de esta manera 
 
 Para poder sortear los controles de "Cuenta Controlada" en los asientos diarios en Lote se debe marcar en Y el check de Apertura/Cierre de Ejercicio. 
 
-::: warning
+::: tip
 Esto no se debe realizar sin verificación de un consultor
 :::
 
@@ -257,7 +257,7 @@ El asiento se neutraliza.
 
 Al navegar al pago deberíamos ver el movimiento de la cuenta que deja en 0 a la misma.
 
-::: note
+::: tip
 El Saldo Inicial no permite editarlo con 0.
 El campo saldo inicial se puede modificar a mano, pero nunca podrá ser cero.
 :::
@@ -268,7 +268,7 @@ El “Saldo Actual” de la Cuenta Bancaria  (pestaña Cuenta de la ventana Ban
 
 se calcula con los saldos de las conciliaciones Completas o Cerradas (que es un estado posterior a Completo).
 
-::: note
+::: tip
 Es importante que no haya conciliaciones en estado CERRADO, ya que pueden no ser consideradas en los reportes.
 :::
 
@@ -299,7 +299,7 @@ Cuando se requiere "Contabilizar" el Cobro (de la transferencia) en una cuenta c
 
 El saldo de la cuenta bancaria se nutre de todas los movimientos de las conciliaciones en estado completo por eso es vital siempre crear nuevas conciliaciones luego de haber completado la anterior.
 
-::: note
+::: tip
 No se recomiennda dejar conciliaciones vivas(en estado borrador).
 :::
 
