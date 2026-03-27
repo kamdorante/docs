@@ -21,11 +21,11 @@ Puede ser por 4 motivos:
 * Verificar en la línea de la Orden que no tenga Cantidades facturadas
 * Ver que Regla de facturación tiene la misma:
 
-::: note
+::: tip
 Si la regla de facturacion es "Despues de entrega" entonces la cantidad entregada de la linea debe ser mayor a la facturada
 :::
 
-::: note
+::: tip
 Si la regla de facturacion NO es  "Despues de entrega" entonces la cant.  facturada debe ser distinta a la cant ordenada
 :::
 
@@ -113,7 +113,7 @@ Muestra líneas de proyectos a partir de las cuales se crearán las líneas de �
 
 Al procesar se debe indicar la fecha de las OV a crear y el estado para las mismas.
 
-::: note
+::: tip
 El proceso generará una Orden de Venta por cada proyecto, en el estado y fecha seleccionados
 :::
 
