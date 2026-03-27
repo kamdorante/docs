@@ -18,3 +18,4 @@ Esta documentación está destinada a definir cada uno de los procedimientos par
 - [Configuración Contable (Maestros)](configuration)
 - [Elemento Contable](element)
 - [Esquema Contable](accounting-scheme)
+- [Cola de Contabilidad](accounting-queue)
