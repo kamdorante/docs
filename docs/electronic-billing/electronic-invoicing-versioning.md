@@ -30,6 +30,7 @@ Casos típicos:
 Sistema → Soporte de Aplicación API
 Compañía → Crear Configuración de Funcionalidad
 Compañía → Proveedor Fiscal
+Compañía → Organización → Información de la Organización
 
 Tabla principal: Soporte de Aplicación, Proveedor Fiscal
 
@@ -78,6 +79,8 @@ Activar la funcionalidad de la nueva versión para una organización específica
 - Configurar por **Organización** (no a nivel de compañía completa)
 - Seleccionar la organización donde se probará/implementará la nueva versión
 
+**Importante**: El proceso **Crear Configuración de Funcionalidad** con la versión seleccionada (ej: Invoicy_V2) **solo puede ejecutarse una vez por cliente (compañía)**. Para las demás organizaciones, se debe copiar el proveedor fiscal generado con versión V2 (ver paso 4).
+
 ### 3. Procesamiento de Definición de Configuración
 
 Ejecutar el proceso que genera automáticamente el proveedor fiscal:
@@ -86,9 +89,9 @@ Ejecutar el proceso que genera automáticamente el proveedor fiscal:
 - Ejecutar el proceso **Procesar**
 - El sistema crea automáticamente un nuevo registro de proveedor fiscal
 
-### 4. Verificación del Proveedor Fiscal Generado
+### 4. Verificación y Copia del Proveedor Fiscal Generado
 
-Confirmar que el nuevo proveedor fiscal se creó correctamente:
+Confirmar que el nuevo proveedor fiscal se creó correctamente y replicarlo para las demás organizaciones:
 
 
 - Acceder a **Compañía → Proveedor Fiscal**
@@ -99,8 +102,23 @@ Confirmar que el nuevo proveedor fiscal se creó correctamente:
   - Nombre descriptivo (ej: "Invoicy Uruguay V2")
   - Configuración heredada de la versión anterior
   - Parámetros generados automáticamente
+- **Copiar el proveedor fiscal** con versión V2 para todas las organizaciones restantes que requieran la nueva versión
 
-### 5. Configuración de Parámetros
+**Nota**: Dado que el proceso de Crear Configuración de Funcionalidad solo se puede ejecutar una vez por cliente, la forma de habilitar la nueva versión en las demás organizaciones es copiando el proveedor fiscal V2 generado y asignándolo a cada organización.
+
+### 5. Asignación del Proveedor Fiscal en cada Organización
+
+Configurar el nuevo proveedor fiscal V2 en cada organización:
+
+- Acceder a la ventana **Organización**
+- Ir a la pestaña **Información de la Organización**
+- En el campo **Proveedor Fiscal**, seleccionar el nuevo proveedor con versión V2
+- Guardar los cambios
+- **Repetir este paso para todas las organizaciones** que deban utilizar la nueva versión del proveedor fiscal
+
+**Importante**: Este paso es obligatorio para que cada organización utilice efectivamente la nueva versión. Si no se actualiza el proveedor fiscal en la pestaña Información de la Organización, la organización continuará usando la versión anterior.
+
+### 6. Configuración de Parámetros
 
 Revisar y ajustar los parámetros del nuevo proveedor fiscal:
 
@@ -111,7 +129,7 @@ Revisar y ajustar los parámetros del nuevo proveedor fiscal:
 
 **Importante**: Esta configuración puede aplicarse a todas las organizaciones o solo a organizaciones específicas según los requerimientos.
 
-### 6. Prueba de Configuración
+### 7. Prueba de Configuración
 
 Validar que la configuración funciona correctamente:
 
@@ -121,7 +139,7 @@ Validar que la configuración funciona correctamente:
 - Confirmar que las organizaciones no configuradas mantienen la versión anterior
 - Validar conectividad con el servicio del proveedor
 
-### 7. Validación Operativa
+### 8. Validación Operativa
 
 Probar la funcionalidad en un escenario real:
 
@@ -142,7 +160,7 @@ Probar la funcionalidad en un escenario real:
 - Verificar que no se presenten errores debido a nuevos campos requeridos por la nueva versión
 - Confirmar que el documento electrónico se genera correctamente
 
-### 8. Confirmación Final
+### 9. Confirmación Final
 
 Verificar la configuración completa del sistema:
 
@@ -162,6 +180,8 @@ Verificar la configuración completa del sistema:
 - **Los parámetros se heredan automáticamente** de la versión anterior, pero deben revisarse ya que pueden haber cambios en endpoints o configuraciones del proveedor.
 - **Las organizaciones no configuradas** con la nueva versión continuarán usando la versión anterior del proveedor fiscal sin afectación.
 - **Nuevos campos requeridos**: Al migrar a versiones nuevas, pueden existir campos adicionales requeridos por el proveedor que deben ser configurados.
+- **Crear Configuración de Funcionalidad es único por cliente**: El proceso solo puede ejecutarse una vez por compañía para cada versión. Para las demás organizaciones, se debe copiar el proveedor fiscal generado.
+- **Asignación obligatoria en Organización**: Después de crear o copiar el proveedor fiscal V2, se debe asignar en la ventana Organización → Información de la Organización para que la organización lo utilice efectivamente.
 - **Convivencia de versiones**: El sistema soporta que diferentes organizaciones de la misma compañía usen versiones distintas del mismo proveedor fiscal.
 
 ## Ejemplo de uso
@@ -179,42 +199,49 @@ Verificar la configuración completa del sistema:
 - Se va a Crear Configuración de Funcionalidad
 - Se selecciona "Invoicy_V2"
 - Se configura para la organización "A"
+- Este proceso solo puede ejecutarse una vez por cliente
 
 **Paso 3 - Procesamiento**:
 - Se procesa la definición de configuración "Invoicy_V2"
 - El sistema genera automáticamente el proveedor fiscal
 
-**Paso 4 - Verificación**:
+**Paso 4 - Verificación y Copia**:
 - Se accede a Proveedor Fiscal y se refresca
 - Aparece nuevo registro:
   - Organización: "A"
   - Versión: 2.0
   - Nombre: "Invoicy Uruguay V2"
   - Configuración y parámetros generados automáticamente
+- Se copia el proveedor fiscal V2 para las organizaciones "B", "C", etc.
 
-**Paso 5 - Parámetros**:
+**Paso 5 - Asignación en Organizaciones**:
+- Se accede a la ventana Organización → Información de la Organización
+- Se asigna el proveedor fiscal V2 en la organización "A"
+- Se repite para las organizaciones "B", "C" y todas las que requieran V2
+
+**Paso 6 - Parámetros**:
 - Los parámetros apuntan al servicio de prueba
 - Se revisa que las URLs y credenciales sean correctas
 
-**Paso 6 - Prueba de Configuración**:
+**Paso 7 - Prueba de Configuración**:
 - Se ejecuta proceso de prueba
 - Se confirma conectividad correcta con el proveedor
 
-**Paso 7 - Validación en PDV**:
+**Paso 8 - Validación en PDV**:
 - Usuario POS inicia sesión
 - Se crea apertura de caja
 - Se procesa una venta normal
 - Se realiza una devolución de producto
 - Ambas operaciones generan CFE correctamente con Invoicy_V2
 
-**Paso 8 - Confirmación**:
-- Organización "A" usa Invoicy_V2 (versión 2.0)
-- Otras organizaciones continúan con Invoicy_V1 (versión 1.0)
+**Paso 9 - Confirmación**:
+- Organización "A", "B", "C" usan Invoicy_V2 (versión 2.0)
+- Organizaciones no migradas continúan con Invoicy_V1 (versión 1.0)
 - Se documenta la migración
-- Se programa migración gradual de organizaciones restantes
+- Se programa migración gradual de organizaciones restantes (si aplica)
 
 **Resultado**:
-- Migración exitosa de una organización a Invoicy_V2
+- Migración exitosa de las organizaciones a Invoicy_V2
 - Convivencia estable de V1 y V2 en la misma compañía
 - Proceso validado para migrar organizaciones restantes
 
