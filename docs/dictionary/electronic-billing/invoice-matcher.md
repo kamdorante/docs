@@ -10,9 +10,14 @@ article: false
 
 ## Descripción
 
-Ventana para realizar el cruce entre facturas electrónicas recibidas y documentos internos del sistema.
+Ventana para configurar las reglas de cruce entre facturas electrónicas recibidas y documentos internos del sistema. Permite definir las clases Java que implementan la lógica de emparejamiento (matching) entre documentos electrónicos entrantes y los registros existentes en Solop ERP.
 
 ## Acceso
 
 Menú: Facturación Electrónica → Cruce de Facturas
 
+## Pestañas
+
+### Cruce de Facturas
+
+Definición de los procesadores de cruce de facturas electrónicas. Cada registro define una implementación específica de lógica de emparejamiento entre documentos electrónicos entrantes y registros del sistema.

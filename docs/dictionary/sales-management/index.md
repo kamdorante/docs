@@ -146,3 +146,37 @@ Documentación de referencia del diccionario de aplicación para el módulo de G
 ### Navegadores
 
 - [Generar OC para Instalación de Producto](sales-management-crm/generate-po-for-product-installation)
+
+## Proyectos
+
+### Ventanas
+
+- [Proyectos](projects/project)
+- [Tipo de Proyecto](projects/project-type)
+- [Grupo de Proyecto](projects/project-group)
+- [Clase de Proyecto](projects/project-class)
+- [Categoría de Proyecto](projects/project-category)
+- [Categoría del Status de Proyecto](projects/project-status-category)
+- [Tipo de Miembro de Proyecto](projects/project-member-type)
+- [Presupuesto de Proyecto](projects/project-budget)
+- [Información del Proyecto](projects/project-info)
+- [Orden de Trabajo](projects/work-order)
+
+### Navegadores
+
+- [Navegador de Proyectos](projects/project-browser)
+- [Navegador de Líneas de Proyectos](projects/project-lines-browser)
+
+### Reportes
+
+- [Rendimiento de Proyecto](projects/project-performance)
+- [Detalle de Avance de Proyecto](projects/project-advance-detail)
+
+## Mercado
+
+### Ventanas
+
+- [Tipo de Tema de Subasta](market-place/auction-topic-type)
+- [Tema de Subasta](market-place/bid-topic)
+- [Vendedor de la Subasta](market-place/auction-seller)
+- [Comprador de la Subasta](market-place/auction-buyer)

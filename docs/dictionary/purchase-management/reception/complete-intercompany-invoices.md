@@ -10,14 +10,12 @@ article: false
 
 ## Descripción
 
-Proceso para completar automáticamente las facturas de compra generadas en operaciones entre compañías.
+Proceso que completa automáticamente las facturas de compra generadas en operaciones entre compañías del mismo grupo empresarial.
 
 ## Acceso
 
 Menú: Gestión de Compras → Recepción → Completar Facturas de Compra Intercompañía
 
+## Parámetros
 
-
-## Comportamiento
-
-Completar facturas de compra intercompañía
+Este proceso no requiere parámetros. Se ejecuta directamente para completar todas las facturas de compra intercompañía pendientes.

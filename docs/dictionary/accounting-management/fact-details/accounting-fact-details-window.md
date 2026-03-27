@@ -10,9 +10,14 @@ article: false
 
 ## Descripción
 
-Ventana para consultar los hechos contables registrados en el sistema. Permite buscar y filtrar por cuenta, período, organización y otros criterios.
+Ventana de consulta de los hechos contables (Fact_Acct) registrados en el sistema. Permite buscar y filtrar las entradas del libro mayor generadas por los documentos procesados. Provee una vista de solo lectura de todos los movimientos contables para auditoría y consulta.
 
 ## Acceso
 
-Menú: Gestión Contable → Hechos Contables → Detalle
+Menú: Gestión Contable → Hechos Contables → Detalle de Hechos Contables
 
+## Pestañas
+
+### Detalle de Hechos Contables
+
+Muestra los hechos contables registrados por cada documento procesado en el sistema. Cada línea corresponde a un débito o crédito generado automáticamente por el proceso de contabilización. Incluye tabla de origen, combinación de cuenta, moneda, montos de débito/crédito, y dimensiones contables.

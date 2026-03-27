@@ -10,7 +10,7 @@ article: false
 
 ## Descripción
 
-La ventana permite definir la recepción de un producto o material desde un proveedor. La recepción puede ser entrada manualmente o puede ser generada desde una orden de compra o factura de proveedor.
+La ventana permite definir la recepción de un producto o material desde un proveedor. La recepción puede ser ingresada manualmente o generada desde una orden de compra o factura de proveedor.
 
 ## Acceso
 
@@ -18,22 +18,22 @@ Menú: Gestión de Compras → Recepción → Recepción de Productos
 
 ## Pestañas
 
-### Material Receipt
+### Recepción de Material
 
-The Shipments Tab allows you to generate, maintain, enter and process Shipments from a Vendor.
+Encabezado de la recepción. Permite generar, mantener, ingresar y procesar recepciones de material de proveedor.
 
-### Receipt Line
+### Línea de Recepción
 
-The Shipment Line Tab defines the individual items in a Shipment.
+Líneas individuales de la recepción con los productos, cantidades y ubicaciones en almacén.
 
-### Confirmations
+### Confirmaciones
 
-The quantities are in the storage Unit of Measure!
+Confirmación de las cantidades recibidas en la unidad de medida de almacenamiento.
 
-### Matched POs
+### OC Conciliadas
 
-Purchase Order Lines matched to this Material Receipt Line
+Líneas de órdenes de compra conciliadas con esta línea de recepción de material.
 
-### Matched Invoices
+### Facturas Conciliadas
 
-Invoice Lines matched to this Material Receipt Line
+Líneas de facturas conciliadas con esta línea de recepción de material.

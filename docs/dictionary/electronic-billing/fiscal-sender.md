@@ -10,9 +10,18 @@ article: false
 
 ## Descripción
 
-Ventana para configurar los emisores fiscales que se conectan con los proveedores de facturación electrónica.
+Ventana para crear y mantener los emisores fiscales que conectan Solop ERP con proveedores externos de facturación electrónica. Permite configurar los parámetros de conexión, host, puerto y credenciales necesarios para el envío de documentos electrónicos.
 
 ## Acceso
 
 Menú: Facturación Electrónica → Emisor Fiscal
 
+## Pestañas
+
+### Emisor
+
+Configuración principal del emisor fiscal: nombre, host, puerto, tiempo de espera, versión del conector, usuario, formato de documento y opción de guardar archivos enviados.
+
+### Parámetros
+
+Parámetros de configuración adicionales para la conexión con el proveedor externo, en formato clave-valor.

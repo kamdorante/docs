@@ -10,7 +10,7 @@ article: false
 
 ## Descripción
 
-La ventana define una orden de compra para una organización. Cuando una orden de compra ya ha sido entrada, es posible generar un documento de entrega o factura desde esta orden.
+La ventana define una orden de compra para una organización. Cuando una orden de compra ha sido ingresada, es posible generar un documento de entrega o factura desde esta orden.
 
 ## Acceso
 
@@ -18,26 +18,26 @@ Menú: Gestión de Compras → Órdenes de Compra → Órdenes de Compra
 
 ## Pestañas
 
-### Purchase Order
+### Orden de Compra
 
-The Order Header Tab defines the parameters of an order.  The field values defined will determine how the Order Lines are processed.
+Encabezado de la orden de compra. Define los parámetros que determinan cómo se procesarán las líneas de la orden.
 
-### PO Line
+### Línea OC
 
-The Purchase Order Line Tab defines the individual items in an order.
+Líneas individuales de la orden de compra con productos, cantidades y precios.
 
-### Estimated Landed Cost
+### Costo de Desembarque Estimado
 
-Estimated Landed Cost
+Costos de desembarque estimados para la orden de compra.
 
-### Estimated Landed Cost Allocation
+### Asignación de Costo de Desembarque
 
-Estimate landed cost allocation for order line
+Distribución del costo de desembarque estimado entre las líneas de la orden.
 
-### Order Tax
+### Impuesto de Orden
 
-The Order Tax Tab displays the tax associated with the Order Lines.
+Muestra el impuesto asociado a las líneas de la orden de compra.
 
-### Transport Unit Assignment
+### Asignación de Unidad de Transporte
 
-Assignment of Transport Unit
+Asignación de la unidad de transporte para la entrega de la orden.

@@ -10,9 +10,14 @@ article: false
 
 ## Descripción
 
-Ventana para visualizar los registros de actividad y eventos de las integraciones con marketplaces.
+Ventana para visualizar los registros de actividad y eventos de las integraciones con marketplaces/shoppings. Muestra el historial de envíos y sincronizaciones ordenado por fecha descendente.
 
 ## Acceso
 
 Menú: Gestión de Compras → Gestión de Shopping → Registro de Shopping
 
+## Pestañas
+
+### Log
+
+Registro de eventos de envío y sincronización con los canales de ventas externos, incluyendo fecha, estado y detalles de cada operación.

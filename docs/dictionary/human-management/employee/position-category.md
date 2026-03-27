@@ -1,18 +1,23 @@
 ---
-title: Categoría de Puesto
+title: Categoría de Posición
 category: Documentation
 star: 9
 sticky: 9
 article: false
 ---
 
-# Categoría de Puesto
+# Categoría de Posición
 
 ## Descripción
 
-Ventana para mantener las categorías de puestos de trabajo. Permite clasificar los puestos por categoría.
+Ventana para mantener las categorías de posiciones de trabajo. Permite clasificar los puestos de trabajo por categoría para una mejor organización del recurso humano.
 
 ## Acceso
 
-Menú: Gestión Humana → Recursos Humanos → Categoría de Puesto
+Menú: Recursos Humanos y Nómina → Recursos Humanos → Categoría de Posición
 
+## Pestañas
+
+### Categoría de Posición
+
+Define las categorías disponibles para clasificar los puestos de trabajo de la organización.

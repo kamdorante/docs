@@ -35,7 +35,7 @@ Documentacion de referencia del diccionario de aplicacion para el modulo de Gest
 
 ## Subcategorias
 
-- [Reglas de Materiales](material-rules/)
+- [Reglas de Materiales](material-rules/) — Producto, Categoria, Almacen, Lista de Precios, Unidad de Medida y mas configuraciones maestras
 - [Atributos de Producto](product-attributes/)
 - [Gestion de Inventario](inventory-management/)
 - [Produccion Ligera](production-light/)

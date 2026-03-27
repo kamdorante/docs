@@ -10,14 +10,14 @@ article: false
 
 ## Descripción
 
-Proceso que sincroniza la información de la organización desde el servidor del marketplace.
+Proceso que obtiene y sincroniza la información de la organización desde el servidor del marketplace/shopping conectado.
 
 ## Acceso
 
 Menú: Gestión de Compras → Gestión de Shopping → Obtener Información de Organización
 
+## Parámetros
 
-
-## Comportamiento
-
-Obtener información de organización desde el servidor de shopping
+| Parámetro | Descripción | Tipo | Obligatorio |
+|-----------|-------------|------|-------------|
+| Conexión de Shopping | Conexión al servidor de shopping | Búsqueda | No |

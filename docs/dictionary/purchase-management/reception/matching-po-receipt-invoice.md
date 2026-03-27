@@ -1,24 +1,25 @@
 ---
-title: Cruce OC-Recepción-Factura
+title: Conciliación OC-Recepción-Factura
 category: Documentation
 star: 9
 sticky: 9
 article: false
 ---
 
-# Cruce OC-Recepción-Factura
+# Conciliación OC-Recepción-Factura
 
 ## Descripción
 
-Formulario para realizar el cruce entre órdenes de compra, recepciones de material y facturas de proveedor. Permite verificar que las cantidades y montos coinciden entre los tres documentos.
+Formulario para realizar la conciliación entre órdenes de compra, recepciones de material y facturas de proveedor. Permite verificar y conciliar las cantidades y montos entre los tres documentos del proceso de compra: OC → Recepción → Factura.
 
 ## Acceso
 
-Menú: Gestión de Compras → Recepción → Cruce OC-Recepción-Factura
+Menú: Gestión de Compras → Recepción → Conciliación OC-Recepción-Factura
 
 ## Funcionalidad
 
-Este formulario permite:
-- Seleccionar la orden de compra, recepción y factura a cruzar
-- Verificar las diferencias entre documentos
-- Realizar el cruce automático o manual de los documentos
+Este formulario especial permite:
+- Seleccionar la orden de compra, recepción de material y factura a conciliar
+- Verificar las diferencias de cantidades y precios entre documentos
+- Realizar la conciliación automática o manual de los documentos
+- Identificar y resolver discrepancias entre lo ordenado, recibido y facturado

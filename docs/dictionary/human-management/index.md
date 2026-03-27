@@ -11,8 +11,9 @@ article: false
 Documentación de referencia del diccionario de aplicación para el módulo de Gestión Humana y Nómina de Solop ERP.
 
 ## Recursos Humanos
-- [Categoría de Puesto](employee/position-category)
-- [Puesto](employee/position)
+- [Empleado](employee/)
+- [Categoría de Posición](employee/position-category)
+- [Posición](employee/position)
 
 ## Módulos
 - [Nómina](payroll/)

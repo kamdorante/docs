@@ -10,14 +10,14 @@ article: false
 
 ## Descripción
 
-Proceso que exporta las transacciones de venta a los marketplaces/shoppings conectados.
+Proceso que exporta las transacciones de venta desde el sistema hacia los marketplaces/shoppings conectados, según las conexiones configuradas.
 
 ## Acceso
 
 Menú: Gestión de Compras → Gestión de Shopping → Exportar Ventas a Shoppings
 
+## Parámetros
 
-
-## Comportamiento
-
-Exportar ventas a shoppings según las conexiones creadas
+| Parámetro | Descripción | Tipo | Obligatorio |
+|-----------|-------------|------|-------------|
+| Conexión de Shopping | Conexión al marketplace destino | Búsqueda | No |

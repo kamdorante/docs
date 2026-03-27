@@ -10,16 +10,19 @@ article: false
 
 ## Descripción
 
-Navegador inteligente para aplicar costos de desembarque a productos recibidos.
+Navegador inteligente que permite aplicar costos de desembarque basados en porcentaje a productos recibidos. Se debe seleccionar la recepción sobre la cual ejecutar el proceso.
 
 ## Acceso
 
-Menú: Gestión de Compras → Recepción → Aplicar Costo de Desembarque
-
-## Criterios de búsqueda
-
-Este navegador permite filtrar y seleccionar registros según diversos criterios.
+Menú: Gestión de Compras → Recepción → Aplicar Costo de Desembarque al Producto PDV
 
 ## Columnas de resultado
 
-Muestra los registros que coinciden con los criterios de búsqueda seleccionados.
+| Campo | Descripción |
+|-------|-------------|
+| Producto | Producto al que se aplica el costo |
+| Clave de Búsqueda | Código de búsqueda del producto |
+| Nombre | Nombre del producto |
+| Precio OC | Precio de la orden de compra |
+| Último Precio de Desembarque | Último precio de costo de desembarque registrado |
+| Moneda | Moneda del precio |
