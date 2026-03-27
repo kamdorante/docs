@@ -86,7 +86,7 @@ Proyecto de RRP                                 Agencia RRPP
 
 Proyecto de Medios Digitales             Agencia de Medios Digitales
 
-::: note
+::: tip
 Si no se obtuvo sello de origen se lanza una excepción.
 :::
 
@@ -211,7 +211,7 @@ Por lo tanto al generarse la Orden de venta Honorarios esta no discrimina por ca
 
 En el caso de recibo de canje, si no se ingresa el número del recibo de canje, entonces se obtiene desde la secuencia correspondiente del tipo de documento Recibo de Cobro (secuencia automática incremental)
 
-::: note
+::: tip
  Este cambio aplica solamente a la ventana de "Recibo de Pago", en la ventana de "Recibo de Cobro" el número de recibo de canje seguirá siendo obligatorio su ingreso manual
 :::
 
