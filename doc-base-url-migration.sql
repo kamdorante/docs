@@ -1075,6 +1075,27 @@ UPDATE AD_Process SET DocBaseURL = '/dictionary/accounting-management/processes/
 -- Esquema de Descuentos - Window 479
 UPDATE AD_Window SET DocBaseURL = '/dictionary/material-management/material-rules/discount-schema' WHERE AD_Window_ID = 479;
 
+-- === Gestión de Permisos (Leave Management) ===
+
+-- Motivos de Permiso
+UPDATE AD_Window SET DocBaseURL = '/dictionary/human-management/leave-management/leave-reasons' WHERE AD_Window_ID = 53324;
+-- Tipo de Permiso
+UPDATE AD_Window SET DocBaseURL = '/dictionary/human-management/leave-management/leave-type' WHERE AD_Window_ID = 53325;
+-- Solicitud de Permiso
+UPDATE AD_Window SET DocBaseURL = '/dictionary/human-management/leave-management/leave-request' WHERE AD_Window_ID = 53629;
+-- Crear Permiso Repetido para Empleado
+UPDATE AD_Process SET DocBaseURL = '/dictionary/human-management/leave-management/create-repeated-leave' WHERE AD_Process_ID = 54259;
+
+-- AD_Menu entries for Leave Management
+-- Motivos de Permiso (menu)
+UPDATE AD_Menu SET DocBaseURL = '/dictionary/human-management/leave-management/leave-reasons' WHERE AD_Menu_ID = 53724;
+-- Tipo de Permiso (menu)
+UPDATE AD_Menu SET DocBaseURL = '/dictionary/human-management/leave-management/leave-type' WHERE AD_Menu_ID = 53725;
+-- Solicitud de Permiso (menu)
+UPDATE AD_Menu SET DocBaseURL = '/dictionary/human-management/leave-management/leave-request' WHERE AD_Menu_ID = 54383;
+-- Crear Permiso Repetido para Empleado (menu)
+UPDATE AD_Menu SET DocBaseURL = '/dictionary/human-management/leave-management/create-repeated-leave' WHERE AD_Menu_ID = 54489;
+
 -- === Notas sobre slugs sin DocBaseURL ===
 -- /dictionary/financial-management/investments/loan-simulator → Form 53075 (AD_Form no tiene DocBaseURL)
 -- /dictionary/accounting-management/journal-entries/gl-journal → Window 132 (ya asignado a gl-journal-batch)
