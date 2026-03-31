@@ -1,0 +1,111 @@
+1
+00:00:00,110 --> 00:00:04,690
+Vamos a hacer la prueba acá en solo 985 para importar las
+
+2
+00:00:04,691 --> 00:00:07,330
+facturas CFE, los documentos CFE.
+
+3
+00:00:07,950 --> 00:00:10,270
+Eh, primero la configuración,
+
+4
+00:00:11,310 --> 00:00:13,470
+en tipo de documento,
+
+5
+00:00:14,250 --> 00:00:16,800
+este tipo de documento de factura, documento CFE. por pagar interfaz,
+
+6
+00:00:16,860 --> 00:00:19,200
+vemos que documento por pagar es de compra,
+
+7
+00:00:20,060 --> 00:00:22,920
+por eso acá se marcó documento de compra electrónico,
+
+8
+00:00:23,480 --> 00:00:26,220
+para que muestre estos dos campos, tipo de documento fiscal,
+
+9
+00:00:26,380 --> 00:00:28,880
+factura, tipo de transacción fiscal es factura.
+
+10
+00:00:32,403 --> 00:00:37,063
+Tipo de transacción fiscal, factura. Esto es para poder relacionar el documento
+
+11
+00:00:37,064 --> 00:00:41,323
+que se reciba con esto. Se debe de configurar todos los documentos según ya
+
+12
+00:00:41,324 --> 00:00:45,983
+sea la de factura, de ticket, el resguardo y esas cosas que se vayan
+
+13
+00:00:45,984 --> 00:00:50,543
+a recibir. También tenemos que en compañía,
+
+14
+00:00:51,643 --> 00:00:55,163
+en información de la compañía, tenemos el check acá de crear socios al importar
+
+15
+00:00:55,164 --> 00:00:57,463
+documentos para que se creen los socios automáticamente.
+
+16
+00:00:57,483 --> 00:01:02,243
+según la información en caso de que no se encuentre ninguno y
+
+17
+00:01:02,244 --> 00:01:07,183
+en la organización también está pero aquí no se ve aquí
+
+18
+00:01:07,184 --> 00:01:12,523
+podemos verlo en ZK organización en esta OpenMap.td tenemos
+
+19
+00:01:12,524 --> 00:01:24,483
+también de la
+
+20
+00:01:24,484 --> 00:01:28,503
+misma forma en socio del negocio voy a abrirlo antes de acá porque en
+
+21
+00:01:28,504 --> 00:01:29,303
+estos momentos
+
+22
+00:01:36,183 --> 00:01:39,783
+En estos momentos hay un problema en vivo con esta instancia,
+
+23
+00:01:40,363 --> 00:01:44,923
+en la ventana de socio-negocio. Acá,
+
+24
+00:01:45,003 --> 00:01:49,023
+si en socio-negocio, se coloca cargo por defecto,
+
+25
+00:01:49,603 --> 00:01:54,143
+vamos a colocar cargo por defecto, vamos a gastos bancarios
+
+26
+00:01:54,144 --> 00:01:58,283
+por ejemplo, se lo voy a colocar aquí a Banco Santander,
+
+27
+00:01:59,063 --> 00:02:01,663
+esto va a ser que al momento de importar por defecto le coloque este
+
+28
+00:02:01,664 --> 00:02:05,943
+cargo cargo a las líneas de factura de este socio.

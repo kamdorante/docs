@@ -1,0 +1,235 @@
+1
+00:00:00,210 --> 00:00:04,370
+Vamos a hacer una prueba en Deide.dev para la facturación manual.
+
+2
+00:00:05,410 --> 00:00:08,490
+Vamos a ver la configuración, eh,
+
+3
+00:00:08,990 --> 00:00:13,550
+tipo de documento. Para
+
+4
+00:00:13,551 --> 00:00:16,130
+los documentos que son órdenes de venta y órdenes de distribución.
+
+5
+00:00:16,160 --> 00:00:20,720
+distribución. Aparece acá abajo el check
+
+6
+00:00:20,721 --> 00:00:25,880
+genera documento manual. Acá creé manualmente
+
+7
+00:00:25,881 --> 00:00:28,900
+a candide.dev manual post order ticket,
+
+8
+00:00:29,140 --> 00:00:33,680
+una copia del post order ticket. pero que tiene esto
+
+9
+00:00:33,681 --> 00:00:37,520
+marcado como genera documento manual y apunta el tipo de documento para la factura,
+
+10
+00:00:37,740 --> 00:00:38,680
+este manual etiquette.
+
+11
+00:00:42,980 --> 00:00:47,520
+Este manual etiquette en su configuración acá es una copia
+
+12
+00:00:47,521 --> 00:00:50,820
+del etiquette pero tienen tipo de transacción fiscal,
+
+13
+00:00:51,100 --> 00:00:55,760
+etiquette, contingencia. Esta es una configuración que se debe generar en
+
+14
+00:00:55,761 --> 00:00:58,120
+las instancias, al menos por ahora,
+
+15
+00:00:59,280 --> 00:01:02,260
+los dos tipos de documentos de contingencia, el etiquette,
+
+16
+00:01:02,480 --> 00:01:06,080
+el de factura, el nota de crédito. y debito de ticket y de factura,
+
+17
+00:01:07,720 --> 00:01:09,760
+el remito,
+
+18
+00:01:10,500 --> 00:01:12,520
+el resguardo y todos los demás, los de contingencia.
+
+19
+00:01:13,580 --> 00:01:18,380
+Deben ser creados manualmente. Deben
+
+20
+00:01:18,381 --> 00:01:20,460
+ser creados para esta configuración.
+
+21
+00:01:20,480 --> 00:01:25,080
+los documentos de contingencia. El resto es
+
+22
+00:01:25,081 --> 00:01:29,000
+igual que un e-ticket, aparte de esto. La factura.
+
+23
+00:01:31,240 --> 00:01:33,800
+¿Verdad? Y de la misma forma,
+
+24
+00:01:33,960 --> 00:01:36,540
+si tuviera una, si hubiera un,
+
+25
+00:01:38,820 --> 00:01:43,420
+el remito de contingencia sería acá el tipo de documento para la entrega,
+
+26
+00:01:43,620 --> 00:01:48,140
+el remito de contingencia, se debería crear un tipo de documento
+
+27
+00:01:48,141 --> 00:01:51,320
+de remito de contingencia y configurarse acá,
+
+28
+00:01:52,040 --> 00:01:55,180
+esos tipos de documentos. documentos, aparte del tipo de transacción fiscal no tienen ninguna
+
+29
+00:01:55,181 --> 00:01:57,860
+otra configuración o un cheque de manual ni nada por el estilo.
+
+30
+00:02:01,140 --> 00:02:05,520
+Esto acá en grupo de impuestos, también este para facturación electrónica,
+
+31
+00:02:06,200 --> 00:02:08,620
+se agregaron los campos tipo documento manual factura,
+
+32
+00:02:08,621 --> 00:02:11,840
+Subtítulos por.org Nota de crédito y nota de débito, documentos manuales,
+
+33
+00:02:11,900 --> 00:02:16,040
+de forma que automáticamente el sistema según si es un documento electrónico,
+
+34
+00:02:16,400 --> 00:02:19,180
+según el grupo de impuestos del socio de negocio,
+
+35
+00:02:19,560 --> 00:02:22,320
+utilice, si es manual utiliza el manual,
+
+36
+00:02:22,540 --> 00:02:27,200
+si no utiliza el tipo de factura normal. de ticket o manual de ticket
+
+37
+00:02:27,201 --> 00:02:33,140
+para que se configuren correctamente las facturas de
+
+38
+00:02:33,141 --> 00:02:37,980
+la misma forma con las notas de débito y crédito acá solamente configure
+
+39
+00:02:37,981 --> 00:02:40,840
+en data.deb solamente he configurado de ticket no he configurado de
+
+40
+00:02:50,880 --> 00:02:54,580
+La otra configuración en punto de venta,
+
+41
+00:02:55,020 --> 00:03:00,870
+en terminal de punto de venta. configurado
+
+42
+00:03:00,871 --> 00:03:06,170
+acá en Smart Caja 2, podemos ver en vendedores asignados
+
+43
+00:03:10,670 --> 00:03:15,460
+digamos acá POS usuario post tenemos al final
+
+44
+00:03:15,461 --> 00:03:20,680
+este documento de permite crear documentos manuales
+
+45
+00:03:20,681 --> 00:03:27,019
+vamos a poner esto acá y
+
+46
+00:03:27,020 --> 00:03:31,839
+lo que hace es que según el agente comercial
+
+47
+00:03:31,840 --> 00:03:36,189
+que esté utilizando el punto, pueda o no pueda utilizar generar documentos anuales.
+
+48
+00:03:37,289 --> 00:03:43,289
+De la misma forma tenemos en asignación de tipo de documento
+
+49
+00:03:45,429 --> 00:03:49,969
+acá vemos que cree para este punto nada más esta asignación se
+
+50
+00:03:49,970 --> 00:03:52,149
+le asignó el documento anual manual post order,
+
+51
+00:03:53,309 --> 00:03:57,809
+la orden de venta manual, acá en tipo de documento,
+
+52
+00:03:58,209 --> 00:04:01,689
+en caso de ser necesario en tipo de documento para devolución también generar un
+
+53
+00:04:01,690 --> 00:04:04,609
+documento, si en caso de que fuera remito,
+
+54
+00:04:05,849 --> 00:04:10,489
+un documento del remito post de contingencia. Teniendo configurado
+
+55
+00:04:10,490 --> 00:04:14,429
+ya la orden que va a generar la factura y la asignación acá de
+
+56
+00:04:14,430 --> 00:04:19,769
+documento, con esto tenemos las configuraciones necesarias.
+
+57
+00:04:20,509 --> 00:04:25,019
+Importante de nuevo generar los tipo de transacción fiscal,
+
+58
+00:04:25,779 --> 00:04:30,379
+para los documentos de contingencia y también generar los tipos de documentos
+
+59
+00:04:30,380 --> 00:04:31,119
+de contingencia.

@@ -19,4 +19,8 @@ La facturación electrónica consiste en la emisión de comprobantes fiscales qu
 - [Configuración Comprobantes Fiscales Electrónicos](configuration)
 - [Emisión Comprobantes Fiscales Electrónicos](issuance)
 - [Validación de Tasa de Cambio en Documentos Referenciados](exchange-rate-referenced-documents)
+- [Facturación de Contingencia](contingency-billing)
+- [Validaciones en Notas de Crédito Electrónicas](credit-note-validations)
+- [Tipo de Documento según Grupo de Impuestos](document-type-by-tax-group)
+- [Reversión de Documentos Electrónicos](reverse-electronic-documents)
 - [Preguntas Frecuentes - Comprobantes Fiscales Electrónicos](frequently_ask)

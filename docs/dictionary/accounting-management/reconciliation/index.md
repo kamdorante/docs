@@ -15,6 +15,7 @@ Herramientas para conciliar hechos y transacciones contables.
 
 ## Formularios
 - [Conciliación de Hechos Contables (Manual)](accounting-fact-reconciliation-manual)
+- [Asignación de Estado de Cuenta con Diferencia](bank-statement-assignment-with-difference)
 
 ## Reportes
 - [Hechos Contables sin Conciliar](unreconciled-accounting-facts)
