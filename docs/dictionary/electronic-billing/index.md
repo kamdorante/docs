@@ -10,6 +10,17 @@ article: false
 
 Documentación de referencia del diccionario de aplicación para el módulo de Facturación Electrónica de Solop ERP.
 
+
+## Funcionalidades
+- [Notas de Crédito — Validaciones de Moneda y Tasa de Cambio](credit-note-currency-validations)
+- [Tipos de Conversión para Facturación Electrónica](conversion-types)
+- [Facturación de Contingencia](contingency-billing)
+- [Importación de Facturas Electrónicas (CxP)](get-electronic-invoices)
+- [Tipo de Documento según Grupo de Impuestos](document-type-by-tax-group)
+- [Contra e-Remito y Contra Resguardo](reverse-electronic-documents)
+- [Retenciones en Facturación Electrónica](retentions-electronic-billing)
+- [Funcionalidades Complementarias](complementary-features)
+
 ## Ventanas
 - [Emisor Fiscal](fiscal-sender)
 - [Tipo de Transacción Fiscal](fiscal-transaction-type)
