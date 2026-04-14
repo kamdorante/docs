@@ -12,6 +12,7 @@ Documentación de referencia del diccionario de aplicación para el módulo de F
 
 
 ## Funcionalidades
+- [Proceso de Facturación Electrónica](electronic-billing-process)
 - [Notas de Crédito — Validaciones de Moneda y Tasa de Cambio](credit-note-currency-validations)
 - [Tipos de Conversión para Facturación Electrónica](conversion-types)
 - [Facturación de Contingencia](contingency-billing)
