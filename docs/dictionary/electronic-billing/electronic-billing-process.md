@@ -40,7 +40,7 @@ Existen varios puntos de acceso según la tarea:
 
 ### Tipo de Documento
 
-Cada tipo de documento que se emita como CFE debe tener configurado:
+Cada tipo de documento que se emita como CFE debe tener configurado lo siguiente:
 
 - **Maneja Facturación Electrónica** = Sí.
 - **Tipo de Documento Fiscal**: clasificación según la entidad fiscal del país (eFactura, eTicket, eBoleta, Nota de Crédito, etc.).
