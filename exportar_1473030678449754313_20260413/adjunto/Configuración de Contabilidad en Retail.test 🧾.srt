@@ -1,0 +1,43 @@
+1
+00:00:01,930 --> 00:00:04,390
+Para aclarar, en Retail.test,
+
+2
+00:00:04,450 --> 00:00:06,650
+que esto está configurado a la contabilidad como en cola,
+
+3
+00:00:06,830 --> 00:00:09,180
+vemos aquí una factura. que acabo de crear,
+
+4
+00:00:09,340 --> 00:00:14,440
+la completé y no tiene información contable aquí no tiene nada aquí
+
+5
+00:00:14,441 --> 00:00:19,380
+podemos recontabilizar y contabilizar el documento directamente en
+
+6
+00:00:19,381 --> 00:00:23,600
+caso de que está en cola y quieran contabilizar algo directamente o tengan que
+
+7
+00:00:23,601 --> 00:00:28,360
+recontabilizarlo. eso funciona no no da ningún problema lo único
+
+8
+00:00:28,361 --> 00:00:32,100
+que sí es que la instancia debe tener estos campos nuevos tiene que haberse
+
+9
+00:00:32,101 --> 00:00:34,400
+corregido los XML, para que tenga estos campos.
+
+10
+00:00:36,100 --> 00:00:38,320
+Si ya tiene estos campos, funciona,
+
+11
+00:00:40,390 --> 00:00:41,550
+correctamente.

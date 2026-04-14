@@ -1,0 +1,79 @@
+1
+00:00:01,390 --> 00:00:03,650
+Bueno, vamos a probar un envío de factura,
+
+2
+00:00:03,830 --> 00:00:07,050
+un envío SFE. Ya configuramos para, para que se envía testing,
+
+3
+00:00:08,070 --> 00:00:10,810
+este, para que se envía prueba retail,
+
+4
+00:00:11,650 --> 00:00:15,480
+este. Así que, y vamos a hacerlo desde Renier,
+
+5
+00:00:15,720 --> 00:00:20,380
+que es la organización que está habilitada para Bonimar
+
+6
+00:00:20,381 --> 00:00:22,580
+y la orden 242-600.
+
+7
+00:00:24,240 --> 00:00:29,280
+Generamos Factura de Línea de Orden, elegimos
+
+8
+00:00:29,281 --> 00:00:30,100
+a Bonimar.
+
+9
+00:00:35,340 --> 00:00:37,360
+Esta es la orden, la 242.600,
+
+10
+00:00:37,500 --> 00:00:40,300
+perfecto. El periodo está habilitado.
+
+11
+00:00:41,980 --> 00:00:44,820
+y vamos a ponerle completar directamente.
+
+12
+00:00:58,590 --> 00:01:01,570
+Terminó, aquí y acá. Procesado,
+
+13
+00:01:01,690 --> 00:01:04,590
+genera A39268
+
+14
+00:01:13,640 --> 00:01:17,480
+Esta es la otra lija que me había fallado. Y acá está la A39268.
+
+15
+00:01:21,040 --> 00:01:23,260
+Archivo firmado correctamente.
+
+16
+00:01:24,200 --> 00:01:29,480
+OpenAppSolutions.pruebas.migrate O
+
+17
+00:01:29,481 --> 00:01:34,040
+sea que acá deberíamos verla. Y acá
+
+18
+00:01:34,041 --> 00:01:36,820
+está, Bonimar, en ambiente de pruebas,
+
+19
+00:01:36,960 --> 00:01:40,140
+39268, 1976 con 40.
+
+20
+00:01:40,680 --> 00:01:44,260
+Así que esto está funcionando correctamente.

@@ -1,0 +1,111 @@
+1
+00:00:00,000 --> 00:00:03,660
+Vamos a hacer una prueba acá en www.movemage.tep.
+
+2
+00:00:04,680 --> 00:00:07,540
+Quediré en www.movemage.tep porque ehm,
+
+3
+00:00:07,541 --> 00:00:10,680
+ehm, ehm, ehm, ehm. La intensidad que se merece tiene una versión un poco
+
+4
+00:00:10,681 --> 00:00:13,180
+de subtalizante, tiene un problema, tiene un error,
+
+5
+00:00:13,440 --> 00:00:15,580
+un bonito atalé ingresador.
+
+6
+00:00:17,380 --> 00:00:22,500
+los recursos un problema del vacío y
+
+7
+00:00:22,501 --> 00:00:25,550
+eso ya está ¿Cómo tal se haya acordado?
+
+8
+00:00:26,630 --> 00:00:31,350
+Vamos a hacer la placa Vamos a crear una oportunidad sociococacola
+
+9
+00:00:32,400 --> 00:00:35,720
+Tapa de venta va a hacerle descripción lo que se vea pedido,
+
+10
+00:00:35,900 --> 00:00:40,520
+vamos a creer, rela, descripción ¿Dos?
+
+11
+00:00:41,020 --> 00:00:43,280
+Bien, por acá, otro, por allá, tiene otra.
+
+12
+00:00:44,060 --> 00:00:45,700
+Por acá, por allá, esto, acá.
+
+13
+00:00:50,560 --> 00:00:54,600
+Trato. Tenga y guardar.
+
+14
+00:00:56,160 --> 00:01:00,860
+Ok vamos a crear cotización la protección
+
+15
+00:01:00,861 --> 00:01:05,460
+importante del listo de precio, vener a el último venta que
+
+16
+00:01:05,461 --> 00:01:08,900
+la que tiene, la tea y lo que se muestra. Vamos a darle el
+
+17
+00:01:08,901 --> 00:01:12,400
+recurso. 1,
+
+18
+00:01:12,401 --> 00:01:14,460
+2, 3, 4, 1, 1,
+
+19
+00:01:14,560 --> 00:01:14,720
+1, 2
+
+20
+00:01:20,460 --> 00:01:27,680
+y vamos a crear el pollón y
+
+21
+00:01:27,681 --> 00:01:32,000
+ahorita vamos a ver si hay muchos videos.
+
+22
+00:01:33,780 --> 00:01:35,920
+¿Qué he hecho? ¿Ok?
+
+23
+00:01:40,560 --> 00:01:43,000
+Un proyecto de caja, un proyecto de 20 de tres.
+
+24
+00:01:43,260 --> 00:01:45,420
+Un proyecto de 20 de tres.
+
+25
+00:01:50,840 --> 00:01:54,020
+que tenemos en el nombre,
+
+26
+00:01:54,200 --> 00:01:58,440
+tiene Coca-Cola, el nombre de esos negocios. En la descripción tiene la descripción que
+
+27
+00:01:58,441 --> 00:02:05,060
+se coloco en la oportunidad y tiene lista de precio seleccionado
+
+28
+00:02:05,061 --> 00:02:08,900
+acá que se ve seleccionado en la cotización de la oportunidad.

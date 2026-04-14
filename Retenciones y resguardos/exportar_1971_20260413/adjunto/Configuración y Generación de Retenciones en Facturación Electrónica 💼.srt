@@ -1,0 +1,167 @@
+1
+00:00:01,010 --> 00:00:05,070
+Vamos a hacer, teniendo ya la configuración de retenciones,
+
+2
+00:00:05,410 --> 00:00:07,910
+vamos a hacer una prueba, el socionegocio,
+
+3
+00:00:08,010 --> 00:00:10,300
+el, Este es Coca-Cola, Montevideo Refrescos,
+
+4
+00:00:10,380 --> 00:00:13,240
+que se cambia la base de datos. La factura es FacturaDemo.
+
+5
+00:00:13,980 --> 00:00:16,060
+Organización Giralor, la tipología.
+
+6
+00:00:16,080 --> 00:00:20,660
+de comisión en la configuración del tipo documento de la definición está
+
+7
+00:00:20,661 --> 00:00:24,980
+configurado con asterisco Tiene su línea,
+
+8
+00:00:25,440 --> 00:00:26,260
+vamos a completar.
+
+9
+00:00:32,950 --> 00:00:37,170
+Completado, vamos a ver acá y vemos que hay una reteción generada.
+
+10
+00:00:41,050 --> 00:00:43,650
+acá tenemos la retención generada, el monto base,
+
+11
+00:00:43,950 --> 00:00:46,690
+el porcentaje de retención y el monto de retención,
+
+12
+00:00:47,090 --> 00:00:51,440
+como se explicó en la configuración. configuración se cambió para que la facturación electrónica
+
+13
+00:00:51,441 --> 00:00:56,200
+agarre la información del porcentaje de retención de acá y el código
+
+14
+00:00:56,220 --> 00:01:00,160
+El código de retención lo agarra desde acá, desde la funcionalidad.
+
+15
+00:01:01,460 --> 00:01:04,440
+Por eso ésta tiene, le confiaré el mismo código que tiene el en la
+
+16
+00:01:04,441 --> 00:01:06,800
+retención, para que lo saques desde acá,
+
+17
+00:01:06,860 --> 00:01:09,320
+desde la funcionalidad que es el tipo de,
+
+18
+00:01:12,240 --> 00:01:15,980
+de retención, acá en el tipo de retención esto,
+
+19
+00:01:16,060 --> 00:01:20,800
+configuración de retención ok
+
+20
+00:01:20,801 --> 00:01:26,960
+teniendo entonces esto vamos a generar retención retenciones
+
+21
+00:01:30,320 --> 00:01:33,320
+Tiene que tener moneda de este, moneda asia,
+
+22
+00:01:40,860 --> 00:01:43,380
+Y, ¿dónde está creciendo? Ah,
+
+23
+00:01:43,440 --> 00:01:46,120
+creo que no. Reinicio el caché.
+
+24
+00:01:46,560 --> 00:01:49,700
+Un problema que hay que cambiar en mueve más en Cuba.
+
+25
+00:01:51,540 --> 00:01:57,700
+La consultoría. inteligente esto no tiene no tenía el alias acá procesado lo
+
+26
+00:01:57,701 --> 00:02:01,550
+subí, lo exporté y, Nada.
+
+27
+00:02:06,420 --> 00:02:12,000
+La organización. Gíralo. aquí está la
+
+28
+00:02:12,001 --> 00:02:15,740
+retención generada vamos a Vamos a procesar esto,
+
+29
+00:02:17,120 --> 00:02:17,940
+a darle en completar.
+
+30
+00:02:25,030 --> 00:02:30,100
+generado ok, número de documento 10 Vamos a,
+
+31
+00:02:30,101 --> 00:02:32,540
+,comentos por, ,probar...
+
+32
+00:02:39,320 --> 00:02:41,860
+Debería ser, aquí está. R es cuarto,
+
+33
+00:02:42,000 --> 00:02:44,480
+c por c, ¿verdad?
+
+34
+00:02:44,880 --> 00:02:49,580
+configuración del documento y podemos imprimir
+
+35
+00:02:49,581 --> 00:02:53,280
+comprobando ¿Sí?
+
+36
+00:02:57,630 --> 00:03:00,310
+y vemos que acá se imprime el R4,
+
+37
+00:03:01,210 --> 00:03:08,060
+directo desde invoice por $1680 Ya
+
+38
+00:03:08,061 --> 00:03:12,980
+se ve la configuración, ya sale el resguardo por facturación electrónica.
+
+39
+00:03:14,920 --> 00:03:19,840
+y funciona de una manera que es general,
+
+40
+00:03:20,300 --> 00:03:23,480
+funciona para cualquiera. de cualquier tipo de ordenación de cualquier país o de cualquier
+
+41
+00:03:23,481 --> 00:03:27,440
+configuración que se haga. Tengo que utilizar las tablas bases de Adempiero,
+
+42
+00:03:27,600 --> 00:03:28,860
+obtener la información de las tablas bases.

@@ -1,0 +1,171 @@
+1
+00:00:01,070 --> 00:00:05,810
+Vamos a ver acá en movimagin.net la creación de órdenes
+
+2
+00:00:05,811 --> 00:00:09,880
+de ventas de esta oportunidad para el día de la configuración del socio negocio
+
+3
+00:00:09,881 --> 00:00:12,640
+enfalturar, se ve el contrato.
+
+4
+00:00:12,840 --> 00:00:17,620
+El error estaba en que 1 la cotización no tenía
+
+5
+00:00:17,621 --> 00:00:24,300
+porque no se le estaba pasando el contrato a la cotización de
+
+6
+00:00:24,301 --> 00:00:27,020
+la orden que se genera, sucede a lo mismo,
+
+7
+00:00:27,480 --> 00:00:31,460
+el proyecto generado no se le colocava el contrato desde la oportunidad.
+
+8
+00:00:32,220 --> 00:00:36,800
+Y la orden no conseguía ese proyecto de igual
+
+9
+00:00:36,801 --> 00:00:40,240
+forma también importante que normalmente el contrato debe de estar comprado.
+
+10
+00:00:41,180 --> 00:00:47,620
+este contrato no está completo pero los momentos deben estar completo para que la
+
+11
+00:00:48,300 --> 00:00:54,780
+proyectos a tomen automáticamente el contrato deliso de ese negocio cuando
+
+12
+00:00:54,781 --> 00:00:55,280
+se guardan
+
+13
+00:00:59,690 --> 00:01:04,250
+y bueno aparte de eso ya se colocó parte del proyecto tenga este
+
+14
+00:01:04,380 --> 00:01:07,260
+y no lo vuelvas a buscar,
+
+15
+00:01:07,560 --> 00:01:10,540
+no lo colo que menos uno, si la oportunidad tiene contrato,
+
+16
+00:01:10,760 --> 00:01:13,180
+el proyecto generado va a tener, tener el mismo contrato,
+
+17
+00:01:13,740 --> 00:01:15,860
+la menos que por el que se le cambió el socio en negocio,
+
+18
+00:01:16,020 --> 00:01:18,660
+que ahí se iba a buscar un contrato completo de ese socio en negocio,
+
+19
+00:01:18,760 --> 00:01:23,420
+de la misma organización. el proyecto. Teniendo eso,
+
+20
+00:01:23,440 --> 00:01:25,600
+el macho en este contrato,
+
+21
+00:01:25,700 --> 00:01:28,320
+un vídeo refresco, que pueden Gracias.
+
+22
+00:01:28,500 --> 00:01:31,440
+que tiene socio, negocio, factorar, a manera eleciana.
+
+23
+00:01:31,740 --> 00:01:33,860
+Oye, más de un punto de número 8.
+
+24
+00:01:35,300 --> 00:01:37,460
+¿verdad? Vamos a crear potización,
+
+25
+00:01:37,940 --> 00:01:42,600
+potización de venta, ok
+
+26
+00:01:42,601 --> 00:01:45,120
+y vemos acá que, la cotización,
+
+27
+00:01:45,740 --> 00:01:48,160
+efectivamente el corco de su ciudad, negociar, factorar, maner el,
+
+28
+00:01:48,280 --> 00:01:52,600
+lo que viene del contrato, porque la cotización no se ve acá.
+
+29
+00:01:52,920 --> 00:01:55,060
+tiene el contrato,
+
+30
+00:01:55,220 --> 00:01:59,840
+el mismo contrato que está acá ok vamos a agregar
+
+31
+00:01:59,841 --> 00:02:03,100
+la caja la niña se ha esto
+
+32
+00:02:08,880 --> 00:02:13,480
+va a dar un extra de uparking ok vamos
+
+33
+00:02:13,481 --> 00:02:14,360
+a crear proyecto
+
+34
+00:02:23,860 --> 00:02:27,380
+, , , , , , , el proyecto, vamos a buscar acá por
+
+35
+00:02:27,381 --> 00:02:32,420
+el excelente, vamos a
+
+36
+00:02:32,421 --> 00:02:36,980
+verla orden de venta y vemos que la orden de venta también tiene esos
+
+37
+00:02:36,981 --> 00:02:40,320
+unigosos a factorar manera y lece a igual que la cotización.
+
+38
+00:02:44,750 --> 00:02:48,330
+La Constitución no tiene proyectos, porque el proyecto no había sido cerrado después de
+
+39
+00:02:48,331 --> 00:02:51,720
+la Constitución. este sitio. sucio negocio.
+
+40
+00:02:51,840 --> 00:02:53,900
+un nuevo video. sucio negocio. a factorar. manera.
+
+41
+00:02:55,740 --> 00:02:58,120
+esto está. ¿A qué estes que se va a subir también,
+
+42
+00:02:58,220 --> 00:03:01,220
+Pedro? A ver,
+
+43
+00:03:01,300 --> 00:03:01,500
+feliz.

@@ -1,0 +1,207 @@
+1
+00:00:01,170 --> 00:00:06,070
+Bueno, vamos a verificar el cambio realizado para que la descarga a la importación
+
+2
+00:00:06,071 --> 00:00:08,490
+de facturas electrónicas, eh,
+
+3
+00:00:09,210 --> 00:00:11,650
+considere el término de pago del proveedor,
+
+4
+00:00:11,850 --> 00:00:15,210
+eh, eh, cuando éste lo tiene y,
+
+5
+00:00:15,310 --> 00:00:19,000
+y no directamente ¡Gracias por es el término de pago que viene desde invoicy,
+
+6
+00:00:19,180 --> 00:00:22,660
+que simplemente es solamente contado o crédito.
+
+7
+00:00:23,360 --> 00:00:26,060
+Para eso estamos en la estancia de Nord de Testing,
+
+8
+00:00:27,220 --> 00:00:30,660
+para este caso. Estamos en invoicy,
+
+9
+00:00:33,720 --> 00:00:38,260
+Y bueno, vemos que tenemos
+
+10
+00:00:38,261 --> 00:00:42,220
+algunos registros hasta el 24 de marzo,
+
+11
+00:00:43,100 --> 00:00:47,680
+20 de marzo, yo ya vi que algunos socios
+
+12
+00:00:47,681 --> 00:00:52,540
+de negocios, como como FAVAMOR y PLUSULTRA tienen definidos
+
+13
+00:00:52,541 --> 00:00:55,780
+términos de pago,
+
+14
+00:00:56,080 --> 00:00:59,460
+así que vamos a importar para estas fechas.
+
+15
+00:01:02,220 --> 00:01:04,240
+Importamos facturas electrónicas.
+
+16
+00:01:04,280 --> 00:01:09,080
+desde el 20 hasta
+
+17
+00:01:09,081 --> 00:01:11,120
+hoy, para el North Souls.
+
+18
+00:01:17,200 --> 00:01:21,720
+Acá ocurre este problema, esto es un Es una
+
+19
+00:01:21,721 --> 00:01:24,140
+cosa al margen de esto, hay que analizarlo después,
+
+20
+00:01:24,440 --> 00:01:29,060
+pero no tiene relación con el término de pago. Entiendo que puede ser por
+
+21
+00:01:29,061 --> 00:01:33,740
+alguna cantidad que viene vacía de alguna de las líneas de factura
+
+22
+00:01:33,741 --> 00:01:35,840
+que se descargaron. Pero igualmente,
+
+23
+00:01:36,460 --> 00:01:41,120
+Descargó, tenemos 19 y vamos
+
+24
+00:01:41,121 --> 00:01:43,920
+a verificar, si repito,
+
+25
+00:01:44,220 --> 00:01:47,780
+acá tenemos por ejemplo Henderson y compañía,
+
+26
+00:01:48,680 --> 00:01:54,700
+sucio negocio, Henderson, asignó código inmediato vamos
+
+27
+00:01:54,701 --> 00:01:57,220
+a verificar que sea cierto,
+
+28
+00:01:57,221 --> 00:02:00,220
+vamos a proveedor,. y aquí vemos que si,
+
+29
+00:02:00,440 --> 00:02:05,660
+que tiene el término de pago, para compra inmediato así que está correcto
+
+30
+00:02:08,000 --> 00:02:10,900
+verificamos, y Si llegamos a algún otro, bueno también estos,
+
+31
+00:02:11,180 --> 00:02:15,860
+bueno lo que decíamos, Favamore, también tiene
+
+32
+00:02:15,861 --> 00:02:18,820
+el término de pago, vencimiento del documento,
+
+33
+00:02:19,040 --> 00:02:22,560
+código 1.200.000, si vamos al socio de negocio.
+
+34
+00:02:24,560 --> 00:02:27,660
+Tiene vencimiento del documento,
+
+35
+00:02:27,980 --> 00:02:30,300
+un millón dos, así que también estaría ok.
+
+36
+00:02:32,620 --> 00:02:36,580
+Y alguna más. Bien,
+
+37
+00:02:36,760 --> 00:02:39,440
+ya con eso está. Acá,
+
+38
+00:02:39,980 --> 00:02:43,600
+vemos que Es lo puso código 1, ¿si?.
+
+39
+00:02:43,601 --> 00:02:48,260
+Esto es porque, vamos a verificar que no tenga este socionegocio
+
+40
+00:02:48,261 --> 00:02:52,700
+que no tendría pago y no,
+
+41
+00:02:52,800 --> 00:02:55,120
+no lo tiene siquiera está marcado como proveedor,
+
+42
+00:02:55,920 --> 00:02:58,620
+así que no esta escribido No lo tiene definido
+
+43
+00:03:12,740 --> 00:03:19,320
+No sé qué le pasa a este, Bien,
+
+44
+00:03:19,321 --> 00:03:21,780
+este, Un ejemplo más. Bueno,
+
+45
+00:03:22,180 --> 00:03:24,980
+acá también. Acá, una aclaración.
+
+46
+00:03:25,100 --> 00:03:29,760
+En este caso, en el caso de que no encuentre
+
+47
+00:03:29,761 --> 00:03:35,080
+el socionegocio, porque no hay, no lo pudo enlazar,
+
+48
+00:03:36,540 --> 00:03:38,900
+en este caso no asigna,
+
+49
+00:03:39,060 --> 00:03:41,100
+por supuesto, el socionegocio comercial.
+
+50
+00:03:41,120 --> 00:03:45,660
+no existe, no tiene término de pago, y en ese caso tampoco asigna
+
+51
+00:03:45,661 --> 00:03:50,360
+el código de término de pago desde el CFE
+
+52
+00:03:50,361 --> 00:03:53,140
+referido en Invoice.

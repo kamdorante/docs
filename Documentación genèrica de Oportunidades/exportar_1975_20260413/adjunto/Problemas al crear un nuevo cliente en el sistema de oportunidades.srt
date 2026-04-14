@@ -1,0 +1,83 @@
+1
+00:00:01,120 --> 00:00:05,640
+Bueno, estoy tratando de crear un nuevo cliente desde la ventana
+
+2
+00:00:05,641 --> 00:00:07,980
+del campo de oportunidad de Socio Negocio.
+
+3
+00:00:09,140 --> 00:00:11,200
+Desde la ventana de oportunidad en el campo de Socio Negocio.
+
+4
+00:00:12,100 --> 00:00:16,560
+Crear un nuevo cliente, vengo aquí, pongo empresas 5.
+
+5
+00:00:18,040 --> 00:00:23,140
+Ponemos acá ROOT, ponemos ROOT,
+
+6
+00:00:23,860 --> 00:00:27,400
+agregar dirección, oficinas,
+
+7
+00:00:28,080 --> 00:00:33,660
+calle, ponemos acá Uruguay.
+
+8
+00:00:37,000 --> 00:00:39,060
+Montevideo, Montevideo,
+
+9
+00:00:39,200 --> 00:00:43,340
+perfecto. Acá no me aparece esto como para darle ok,
+
+10
+00:00:43,500 --> 00:00:48,100
+pero bueno si le pongo el código.
+
+11
+00:00:48,540 --> 00:00:51,660
+Bueno, le pongo el código acá.
+
+12
+00:00:52,320 --> 00:00:55,400
+Ahí sí. Ya existe.
+
+13
+00:00:56,500 --> 00:01:00,740
+Ok. Le pongo otro.
+
+14
+00:01:02,540 --> 00:01:04,720
+Y la creo. Ok,
+
+15
+00:01:04,980 --> 00:01:08,400
+me pone este error, llenar campos obligatorios plantillas de negocio,
+
+16
+00:01:08,860 --> 00:01:11,860
+ya no se van a llenarlo, porque la verdad que lo puse por todos
+
+17
+00:01:11,861 --> 00:01:16,460
+lados, la plantilla de negocio en una terminal punto de
+
+18
+00:01:16,461 --> 00:01:18,800
+venta, no sé si es ahí donde va.
+
+19
+00:01:20,540 --> 00:01:22,720
+Pero me quiero hacer ese negocio, todo bien,
+
+20
+00:01:23,360 --> 00:01:27,600
+pero la localización, no me genera la localización,
+
+21
+00:01:27,760 --> 00:01:29,080
+no logro que me cree la localización.

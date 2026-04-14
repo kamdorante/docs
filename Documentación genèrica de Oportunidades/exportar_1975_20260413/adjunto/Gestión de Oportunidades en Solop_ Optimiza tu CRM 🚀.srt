@@ -1,0 +1,583 @@
+1
+00:00:01,660 --> 00:00:06,380
+Presentación de cómo visualizar la gestión de oportunidades
+
+2
+00:00:06,381 --> 00:00:08,900
+directamente desde Solop.
+
+3
+00:00:10,220 --> 00:00:13,040
+Eh, para el caso de, de las oportunidades,
+
+4
+00:00:13,360 --> 00:00:16,100
+podemos contar con una ventana de oportunidades.
+
+5
+00:00:19,020 --> 00:00:24,160
+ubicado en la sección de CRM. También se puede acceder directamente
+
+6
+00:00:24,161 --> 00:00:28,780
+desde la gestión de
+
+7
+00:00:28,781 --> 00:00:31,140
+CRM, donde tenemos las oportunidades,
+
+8
+00:00:31,620 --> 00:00:34,380
+la definición de las de los clientes potenciales,
+
+9
+00:00:34,460 --> 00:00:37,040
+si queremos agregar los contactos, bueno,
+
+10
+00:00:37,080 --> 00:00:41,600
+las configuraciones correspondientes a lo que involucra las
+
+11
+00:00:41,601 --> 00:00:44,660
+oportunidades. O sea, todos los leads se podrían ingresar en el sistema.
+
+12
+00:00:45,920 --> 00:00:48,400
+Y una vez tenemos todo ese, todos esos datos,
+
+13
+00:00:48,420 --> 00:00:52,840
+podemos gestionar las mismas mediante la ventana de oportunidades.
+
+14
+00:00:53,680 --> 00:00:58,560
+En este caso, podemos visualizarlas y poder filtrar
+
+15
+00:00:58,561 --> 00:01:01,780
+las mismas por el agente comercial, por qué vendedora la tiene asignada,
+
+16
+00:01:02,580 --> 00:01:06,120
+qué etapa puede contener la cada una de las oportunidades.
+
+17
+00:01:06,760 --> 00:01:10,180
+Si ingresamos y vemos una oportunidad en concreto,
+
+18
+00:01:11,380 --> 00:01:14,780
+podemos visualizar que la misma puede contar con diferentes etapas.
+
+19
+00:01:15,400 --> 00:01:20,320
+Estas etapas son totalmente definidas por el cliente,
+
+20
+00:01:20,360 --> 00:01:22,480
+por la empresa. para manejar su funnel,
+
+21
+00:01:22,760 --> 00:01:27,440
+o sea, su canal de ventas, con cada una de las etapas correspondientes.
+
+22
+00:01:28,600 --> 00:01:31,400
+Adicionalmente, cada etapa tendrá una probabilidad,
+
+23
+00:01:31,500 --> 00:01:35,260
+por lo cual, si un presupuesto total tiene 700.000,
+
+24
+00:01:35,860 --> 00:01:39,160
+si tenemos el 60% En el tenemos un importe ponderado,
+
+25
+00:01:39,500 --> 00:01:43,860
+que esto nos puede servir para también la obtención de reportes y ver una
+
+26
+00:01:43,861 --> 00:01:47,260
+situación más real de la realidad.
+
+27
+00:01:48,320 --> 00:01:50,900
+Si cambiamos, esto se me cambia a 80,
+
+28
+00:01:51,420 --> 00:01:56,460
+y bueno, hay guardar. se actualiza y el importe ponderado va acercándose
+
+29
+00:01:56,461 --> 00:02:00,720
+a lo que podría ser un eventual cierre de este proyecto.
+
+30
+00:02:01,560 --> 00:02:06,080
+Vamos a ver cómo se configura este importe.
+
+31
+00:02:06,960 --> 00:02:11,380
+Ahora, dentro de estas oportunidades, Podemos agregar comentarios,
+
+32
+00:02:12,600 --> 00:02:16,480
+podemos agregar con qué usuario, contacto del cliente estamos hablando,
+
+33
+00:02:17,380 --> 00:02:20,600
+a partir de un cliente que sería, en este caso Coca-Cola,
+
+34
+00:02:21,180 --> 00:02:24,120
+podemos tener un listado de diferentes contactos,
+
+35
+00:02:24,900 --> 00:02:30,520
+por diferentes cargos que podemos tener dentro de la estructura
+
+36
+00:02:30,521 --> 00:02:32,620
+o de la ficha del cliente. En este caso,
+
+37
+00:02:32,700 --> 00:02:37,460
+si vamos al cliente Coca-Cola, podemos visualizar dentro de la pestaña con contactos.
+
+38
+00:02:38,520 --> 00:02:41,020
+Y aquí podemos tener todo un archivo.
+
+39
+00:02:41,040 --> 00:02:43,140
+agrupación de los contactos.
+
+40
+00:02:43,800 --> 00:02:46,840
+Vamos a cerrar aquí. Y aquí tenemos todos los contactos.
+
+41
+00:02:47,580 --> 00:02:50,320
+En este caso, un nombre, una descripción, un comentario,
+
+42
+00:02:50,460 --> 00:02:52,680
+teléfono, cumpleaños, bueno,
+
+43
+00:02:52,740 --> 00:02:55,940
+un correo para mandarle e-mails directamente desde el sistema.
+
+44
+00:02:56,540 --> 00:03:00,280
+Y también podemos hacer podemos hacer una definición de la posición dentro de la
+
+45
+00:03:00,281 --> 00:03:03,560
+empresa. Podemos definir cómo le vamos a notificar,
+
+46
+00:03:04,200 --> 00:03:06,600
+tenemos diferentes formas de notificación,
+
+47
+00:03:07,560 --> 00:03:12,900
+teléfono móvil, bueno, todos los datos relacionados a cada
+
+48
+00:03:12,901 --> 00:03:16,540
+uno de los los contactos. Volviendo a las oportunidades,
+
+49
+00:03:19,860 --> 00:03:24,960
+podemos entonces definir datos
+
+50
+00:03:24,961 --> 00:03:27,800
+de la misma Y obviamente,
+
+51
+00:03:28,420 --> 00:03:30,540
+¿quién es el agente con el comercial que está trabajando?
+
+52
+00:03:30,680 --> 00:03:34,160
+¿Quién es el vendedor dentro de la empresa que está manejando esta oportunidad?
+
+53
+00:03:35,080 --> 00:03:37,560
+A partir de esto, nosotros podemos, de esta información,
+
+54
+00:03:37,680 --> 00:03:40,060
+la podemos visualizar tanto como por grilla.
+
+55
+00:03:40,540 --> 00:03:42,980
+Podemos hacer un filtro de,
+
+56
+00:03:43,520 --> 00:03:49,140
+ok, quiero ver solamente las
+
+57
+00:03:49,141 --> 00:03:53,020
+oportunidades asignadas a Nicolás.
+
+58
+00:03:54,950 --> 00:03:59,960
+Y podemos ver todas las oportunidades que tiene Nicolás
+
+59
+00:03:59,961 --> 00:04:02,300
+en curso, con sus impuestos. y demás.
+
+60
+00:04:03,980 --> 00:04:08,540
+Adicionalmente, para poder analizar y poder ejecutar estas oportunidades
+
+61
+00:04:08,541 --> 00:04:13,140
+de manera más práctica, podemos tener una visual del embudo de ventas.
+
+62
+00:04:14,840 --> 00:04:19,780
+El embudo de ventas me resumen cuál es la situación y
+
+63
+00:04:19,781 --> 00:04:24,420
+perfectamente podemos con drag and drop pasar de una de un estado
+
+64
+00:04:24,421 --> 00:04:28,960
+a otro para permitir una una acción fácil de todo lo
+
+65
+00:04:28,961 --> 00:04:31,540
+que son las diferentes oportunidades que tenemos.
+
+66
+00:04:32,740 --> 00:04:36,640
+También con el más podemos pasar venir y directamente crear una nueva oportunidad desde
+
+67
+00:04:36,641 --> 00:04:38,820
+esta ventana de una manera mucho más ágil,
+
+68
+00:04:40,640 --> 00:04:45,820
+definiendo la información, únicamente la información que necesiten o consideren
+
+69
+00:04:45,821 --> 00:04:49,140
+como válida o necesaria.
+
+70
+00:04:49,920 --> 00:04:54,500
+Bueno, volviendo un poco a la definición
+
+71
+00:04:54,501 --> 00:04:59,860
+de las oportunidades. Dentro de una oportunidad vamos
+
+72
+00:04:59,861 --> 00:05:04,420
+a poder agregar de manera ágil
+
+73
+00:05:04,421 --> 00:05:09,660
+los diferentes, los diferentes medios
+
+74
+00:05:09,661 --> 00:05:14,600
+que queremos, soportes o recursos que estemos vendiendo.
+
+75
+00:05:15,540 --> 00:05:20,680
+En este caso, por ejemplo, podemos agregar uno nuevo y mediante la fecha
+
+76
+00:05:20,681 --> 00:05:22,980
+desde, fecha hasta.
+
+77
+00:05:24,220 --> 00:05:26,300
+Podemos definirlo con fecha desde,
+
+78
+00:05:26,460 --> 00:05:30,140
+fecha hasta, o mismo con la cantidad de meses.
+
+79
+00:05:32,040 --> 00:05:35,380
+Definimos el tiempo, qué tipo de recurso.
+
+80
+00:05:35,640 --> 00:05:38,260
+Acá tenemos los tipos de recurso para que sea más fácil de definir.
+
+81
+00:05:41,420 --> 00:05:45,960
+asignar la diferente cantidad de recursos y justamente
+
+82
+00:05:45,961 --> 00:05:52,140
+a partir de esto podemos obtener fácilmente la disponibilidad
+
+83
+00:05:52,141 --> 00:05:55,800
+de cada uno de los recursos que seleccionemos. para las fechas asignadas.
+
+84
+00:05:56,980 --> 00:06:01,660
+Acá podemos, con el clic, podemos agregar un recurso tras otro de manera
+
+85
+00:06:01,661 --> 00:06:06,080
+bien ágil. Y este se va a poder visualizar de la manera que vemos
+
+86
+00:06:06,081 --> 00:06:09,600
+a continuación. En este caso tenemos tres meses y vamos a ver de esto.
+
+87
+00:06:09,680 --> 00:06:11,780
+Tengo solamente un recurso. el curso a tres meses.
+
+88
+00:06:11,920 --> 00:06:14,640
+Si tuviésemos más, podemos ver esto más para abajo.
+
+89
+00:06:15,800 --> 00:06:20,520
+Ahora, al agregar eso, automáticamente el recurso se
+
+90
+00:06:20,521 --> 00:06:25,140
+nos agrega como una asignación de recursos con fecha desde hasta,
+
+91
+00:06:25,720 --> 00:06:27,800
+el precio, etcétera. la cantidad de recursos,
+
+92
+00:06:28,400 --> 00:06:30,640
+el importe, la cantidad de periodos,
+
+93
+00:06:30,760 --> 00:06:35,180
+bueno, toda la información pertinente a lo que es la gestión de las cotizaciones
+
+94
+00:06:35,181 --> 00:06:41,560
+de vía pública con sus necesidades
+
+95
+00:06:41,561 --> 00:06:44,380
+y también tenemos la las instalaciones requeridas,
+
+96
+00:06:44,920 --> 00:06:47,000
+que si ustedes completan la información,
+
+97
+00:06:47,440 --> 00:06:52,560
+se puede definir de manera automática si tiene un costo incluido de instalación o
+
+98
+00:06:52,561 --> 00:06:57,420
+si tiene un costo incluido de la producción del soporte que estamos comercializando.
+
+99
+00:06:58,800 --> 00:07:03,480
+Una vez tenemos aquí todo, podemos también agregar las diferentes actividades que
+
+100
+00:07:03,481 --> 00:07:08,840
+vamos a tener. En este caso podemos hacer fácilmente y editar
+
+101
+00:07:08,841 --> 00:07:12,640
+y poner nuevas llamadas, nuevas acciones.
+
+102
+00:07:14,880 --> 00:07:17,600
+tenemos a partir de una oportunidad en cuestión.
+
+103
+00:07:18,300 --> 00:07:20,540
+Ponerle llamada, fecha,
+
+104
+00:07:21,040 --> 00:07:24,960
+correo y planificar a futuro.
+
+105
+00:07:25,920 --> 00:07:30,880
+Esto también lo podemos ver mismo en un calendario para poder ver todas las
+
+106
+00:07:30,881 --> 00:07:34,920
+tareas que redes de llamadas que tenemos a futuro. O mismo crear una solicitud
+
+107
+00:07:34,921 --> 00:07:39,740
+donde ver acá cada una de las llamadas o correos que tenemos pendientes.
+
+108
+00:07:41,020 --> 00:07:44,640
+Esto lo podemos ampliar en un futuro.
+
+109
+00:07:45,200 --> 00:07:49,920
+Y lo que Lo que también es importante de visualizar sería
+
+110
+00:07:49,921 --> 00:07:53,540
+la orden de venta, o sea, esta oportunidad una vez que me piden la
+
+111
+00:07:53,541 --> 00:07:58,220
+cotización, podemos generar automáticamente la información que tenemos
+
+112
+00:07:58,221 --> 00:08:02,940
+ya definida, podemos asignarle y definir una cotización de
+
+113
+00:08:02,941 --> 00:08:07,770
+venta. Esta cotización puede ser lo
+
+114
+00:08:07,771 --> 00:08:10,430
+que se envíe al,
+
+115
+00:08:11,240 --> 00:08:16,940
+Hay cliente y también podemos agregarlo de la manera que quieran agregar
+
+116
+00:08:16,941 --> 00:08:22,200
+mayor riqueza. información, información de cada uno de estos soportes
+
+117
+00:08:22,201 --> 00:08:26,740
+con fotos, ubicaciones y bueno toda la información
+
+118
+00:08:26,741 --> 00:08:31,300
+que podemos tener a partir de los soportes lo podemos agregar aquí para que
+
+119
+00:08:31,320 --> 00:08:36,000
+un reporte unifique todo lo que se trate de esta
+
+120
+00:08:36,001 --> 00:08:38,400
+solicitud,
+
+121
+00:08:38,780 --> 00:08:43,500
+de esta acotización y poder enviársela directamente desde
+
+122
+00:08:43,501 --> 00:08:46,020
+el PDF, desde el sistema.
+
+123
+00:08:46,021 --> 00:08:50,740
+si me damos aquí por, Vamos a enviar y podemos poner Coca-Cola al
+
+124
+00:08:50,741 --> 00:08:53,960
+contacto de Coca-Cola y ya le podemos enviar con un template,
+
+125
+00:08:54,120 --> 00:08:58,640
+o sea un diseño, por correo electrónico y dejar todo
+
+126
+00:08:58,641 --> 00:09:03,860
+el estado en el sistema para también tener de
+
+127
+00:09:03,861 --> 00:09:07,200
+que enviamos esto, que bueno, tantos días luego,
+
+128
+00:09:07,780 --> 00:09:12,420
+hacer una consulta a ver cómo viene la cotización,
+
+129
+00:09:12,780 --> 00:09:17,180
+se entería alguna banda, si demás, y bueno, facilitarle la gestión del seguimiento tan
+
+130
+00:09:17,181 --> 00:09:19,600
+importante a cada uno de los vendedores.
+
+131
+00:09:19,620 --> 00:09:24,020
+a partir de los correos enviados, para hacer un seguimiento activo de los mismos.
+
+132
+00:09:26,000 --> 00:09:30,920
+Dentro de la cotización, considerar que también podemos agregar si
+
+133
+00:09:30,921 --> 00:09:34,820
+vamos a lo que es el recurso,
+
+134
+00:09:35,100 --> 00:09:39,880
+vamos a navegar al recurso podemos ir a
+
+135
+00:09:39,881 --> 00:09:45,280
+recurso o el soporte vamos
+
+136
+00:09:45,281 --> 00:09:49,860
+a buscar ese que estamos trabajando que es el deto este y
+
+137
+00:09:49,861 --> 00:09:54,480
+bueno en un recurso podemos tener El tipo de recurso y podemos contar con
+
+138
+00:09:54,481 --> 00:09:57,700
+la definición y agregar datos.
+
+139
+00:09:58,700 --> 00:10:02,840
+Ya sea fotos, Bueno acá este es el link pero bueno podemos cerrar todas
+
+140
+00:10:02,841 --> 00:10:07,780
+las fotos o pdf para que estos datos que estén adjuntos se puedan agregar
+
+141
+00:10:07,781 --> 00:10:12,760
+de manera automática a cada uno de los de
+
+142
+00:10:12,761 --> 00:10:17,840
+las cotizaciones que enviemos, también se puede agregar dentro de un producto la
+
+143
+00:10:17,841 --> 00:10:21,840
+definición mapa, si queremos agregar una ubicación,
+
+144
+00:10:22,120 --> 00:10:26,800
+una geo ubicación para se
+
+145
+00:10:26,801 --> 00:10:31,380
+pueda agregar con un link para que también puedan brindarle toda la
+
+146
+00:10:31,381 --> 00:10:35,840
+información. este que sea de utilidad al cliente que se está cotizado.

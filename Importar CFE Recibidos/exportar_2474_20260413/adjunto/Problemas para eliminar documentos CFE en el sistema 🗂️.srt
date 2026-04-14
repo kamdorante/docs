@@ -1,0 +1,67 @@
+1
+00:00:02,920 --> 00:00:07,820
+Se solicita poder abrirte a alguna manera una opción
+
+2
+00:00:07,821 --> 00:00:12,440
+de que permita este eliminar un registro que tenemos
+
+3
+00:00:12,441 --> 00:00:15,540
+en la ventana documentos por Coca. En este caso,
+
+4
+00:00:15,640 --> 00:00:19,480
+por ejemplo. si quiero anular el documento no me lo permite,
+
+5
+00:00:20,020 --> 00:00:22,520
+porque me dice que el documento no puede ser reversado,
+
+6
+00:00:23,180 --> 00:00:26,820
+ahora si quiero eliminarlo, porque no quiero tener más un documento un morrador,
+
+7
+00:00:26,821 --> 00:00:29,240
+dice que no se puede volver. Ahora,
+
+8
+00:00:29,640 --> 00:00:34,370
+el tema es que Tenemos
+
+9
+00:00:34,371 --> 00:00:38,170
+que agarrir el proceso, que hay muchos procesos acá,
+
+10
+00:00:38,470 --> 00:00:41,050
+duplicados,
+
+11
+00:00:41,330 --> 00:00:43,370
+recalcular O sea,
+
+12
+00:00:43,530 --> 00:00:46,030
+en muchos procesos,
+
+13
+00:00:46,031 --> 00:00:50,560
+solicitúrate. y no está acá el proceso
+
+14
+00:00:50,561 --> 00:00:55,240
+de permitir anular o volver
+
+15
+00:00:55,241 --> 00:00:59,780
+a enviar un cfe y no fue enviado y
+
+16
+00:00:59,781 --> 00:01:04,380
+se debe poder habilitar y ¿Qué es
+
+17
+00:01:04,381 --> 00:01:08,260
+ese proceso este correctamente definido en la ventana documentos corcobra?

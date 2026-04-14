@@ -1,0 +1,35 @@
+1
+00:00:01,100 --> 00:00:03,420
+Ok, entonces, órdenes de venta,
+
+2
+00:00:03,460 --> 00:00:07,360
+que es una ventana, va a tener, ya se crearon los módulos y submódulos,
+
+3
+00:00:07,500 --> 00:00:10,760
+eso ya se creó. Esto se va a configurar aquí en la ventana de
+
+4
+00:00:10,761 --> 00:00:15,460
+menú, su módulo y su submódulo, pero órdenes de venta en la carpeta
+
+5
+00:00:15,461 --> 00:00:18,580
+no se le va a configurar nada, igual que a gestión de venta no
+
+6
+00:00:18,581 --> 00:00:19,680
+se le va a configurar nada.
+
+7
+00:00:24,060 --> 00:00:27,480
+la estructura, lo que dice que módulo y submódulo va a estar es en
+
+8
+00:00:27,481 --> 00:00:30,320
+la ventana, en los que no son sumarios.
+
+9
+00:00:32,100 --> 00:00:33,420
+en cantidad acumulada.

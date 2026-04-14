@@ -1,0 +1,127 @@
+1
+00:00:00,370 --> 00:00:04,530
+Ok, ahora vamos a abrir la ventana de Tienda,
+
+2
+00:00:04,650 --> 00:00:06,150
+Tienda
+
+3
+00:00:20,320 --> 00:00:23,340
+Web. Es uno de diferentes tipos de Tienda,
+
+4
+00:00:23,540 --> 00:00:26,100
+en este caso vamos a mercado libre, eh, eBay,
+
+5
+00:00:27,160 --> 00:00:30,040
+Shopify, entre otros, en este caso vamos a,
+
+6
+00:00:30,180 --> 00:00:32,840
+tenemos esta de mercado libre, eh,
+
+7
+00:00:33,020 --> 00:00:35,920
+ya es su nombre, eh, la dirección web,
+
+8
+00:00:36,080 --> 00:00:38,940
+en caso de creer la abrirá una URL,
+
+9
+00:00:39,440 --> 00:00:43,760
+es importante colocarle el tipo de tienda,
+
+10
+00:00:44,580 --> 00:00:49,200
+en este caso aquí
+
+11
+00:00:49,201 --> 00:00:51,680
+llevamos lo que es la gente comercial el vendedor,
+
+12
+00:00:51,740 --> 00:00:54,080
+el almacén es importante que el almacén,
+
+13
+00:00:54,120 --> 00:00:59,640
+debido a que te representa todo el stock en
+
+14
+00:00:59,641 --> 00:01:02,560
+el sistema de que va hacia la tienda,
+
+15
+00:01:03,380 --> 00:01:08,380
+es decir si un producto tiene allí una cantidad en stock de 3 eso
+
+16
+00:01:08,381 --> 00:01:11,040
+es lo que va a publicar en la tienda en este caso mercado libre
+
+17
+00:01:11,041 --> 00:01:14,580
+que tiene existencia igualmente la lista de precios,
+
+18
+00:01:15,020 --> 00:01:19,560
+esta lista de precios es la que representa el
+
+19
+00:01:19,561 --> 00:01:24,560
+donde
+
+20
+00:01:25,280 --> 00:01:28,220
+se va a tomar los precios para la publicación de los productos,
+
+21
+00:01:28,380 --> 00:01:32,980
+si es el mismo producto que tiene existencia 5 y cada unidad vale 3
+
+22
+00:01:32,981 --> 00:01:35,060
+dólares en esta lista de presos,
+
+23
+00:01:35,180 --> 00:01:39,920
+esa lista de presos es de donde va a tomar los presos
+
+24
+00:01:39,921 --> 00:01:42,000
+para publicarlo en este caso mercado libre,
+
+25
+00:01:42,480 --> 00:01:47,000
+tenemos aquí la ORL para categoría y la ORL de
+
+26
+00:01:47,001 --> 00:01:49,160
+atributos, esto apuntan a N8N,
+
+27
+00:01:49,500 --> 00:01:55,380
+donde tienen unos juegos para poder así escuchar
+
+28
+00:01:55,381 --> 00:02:00,180
+cuando hay una publicación o
+
+29
+00:02:00,181 --> 00:02:04,720
+mediante el esmoabroso de categoría o el proceso de asignación
+
+30
+00:02:04,721 --> 00:02:08,380
+de tributos, pues el país se encarga de hacer el flujo hacia mercado libre,
+
+31
+00:02:08,760 --> 00:02:17,360
+de transformar los datos desde que
+
+32
+00:02:17,361 --> 00:02:17,360
+se

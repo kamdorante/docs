@@ -1,0 +1,135 @@
+1
+00:00:00,140 --> 00:00:02,240
+Vamos a hacer una prueba de rubro de Shopping.
+
+2
+00:00:02,940 --> 00:00:04,980
+Si vemos acá en la ventana, rubro de Shopping,
+
+3
+00:00:05,240 --> 00:00:07,840
+nada más tenemos de organización MVD.
+
+4
+00:00:08,500 --> 00:00:10,560
+Así que vamos a correr el proceso,
+
+5
+00:00:10,980 --> 00:00:13,560
+obtener información de organización Shopping.
+
+6
+00:00:14,420 --> 00:00:17,280
+Aquí vamos a conexión de Shopping, vamos a seleccionar la de piedras,
+
+7
+00:00:17,760 --> 00:00:22,980
+piedras shopping, procesamos y
+
+8
+00:00:22,981 --> 00:00:25,720
+si acá en rubro de shopping refrescamos,
+
+9
+00:00:26,360 --> 00:00:28,560
+aquí tenemos las de ositos las piedras,
+
+10
+00:00:29,520 --> 00:00:34,020
+vamos a trabajar con restos locales grupo de materiales de producto esto es lo
+
+11
+00:00:34,021 --> 00:00:38,737
+que se relaciona a un producto acá
+
+12
+00:00:38,738 --> 00:00:41,037
+en producto tengo uno que modifiqué,
+
+13
+00:00:41,257 --> 00:00:45,817
+le coloqué el grupo de materiales restos locales si vamos al grupo
+
+14
+00:00:45,818 --> 00:00:50,437
+de materiales tenemos restos locales verdad y tenemos aquí asignación de
+
+15
+00:00:50,438 --> 00:00:52,657
+rubro de shopping. Aquí podemos crear uno.
+
+16
+00:00:54,177 --> 00:00:59,017
+Aquí tenemos restos locales que es el de las piedras.
+
+17
+00:00:59,797 --> 00:01:04,837
+Podemos guardar. Si hubiera otro rubro igual para otra organización
+
+18
+00:01:04,838 --> 00:01:09,497
+o que se produzca. o que el resto de locales tenga otro código,
+
+19
+00:01:09,677 --> 00:01:12,357
+en otro shopping o en otro proveedor,
+
+20
+00:01:12,897 --> 00:01:15,217
+acá también se seleccionarían todos esos, por ejemplo,
+
+21
+00:01:15,357 --> 00:01:18,337
+digamos que este sea el mismo que esté relacionado.
+
+22
+00:01:19,357 --> 00:01:23,217
+Por ahora vamos a dejarlo así. Teniendo esta configuración,
+
+23
+00:01:23,357 --> 00:01:26,397
+el producto tiene ese material, vamos a documentos por cobrar,
+
+24
+00:01:34,243 --> 00:01:41,363
+Acá tenemos un documento por cobrar de Ositos Las Piedras que
+
+25
+00:01:41,364 --> 00:01:43,683
+tiene el producto mordillo que tenéis.
+
+26
+00:01:43,780 --> 00:01:48,500
+como esta bolsa chicositos los dos están configurados con el mismo para nada
+
+27
+00:01:48,501 --> 00:01:53,140
+más para la prueba aquí vamos en acciones tenemos exportar documentos
+
+28
+00:01:53,160 --> 00:01:55,720
+a shopping. Seleccionamos el shopping,
+
+29
+00:01:56,620 --> 00:02:01,020
+procesar y exportar el documento a shopping,
+
+30
+00:02:01,240 --> 00:02:03,940
+a shopping ejecutado, ver histórico de procesos.
+
+31
+00:02:04,160 --> 00:02:09,060
+Si venimos acá abajo, bitácora de envío a shopping A
+
+32
+00:02:09,061 --> 00:02:13,460
+ver, aquí está grabado correctamente con su número de referencia,
+
+33
+00:02:14,180 --> 00:02:19,360
+la conexión del shopping y todo lo demás. Con esto queda el rubro
+
+34
+00:02:19,361 --> 00:02:19,700
+de shopping.

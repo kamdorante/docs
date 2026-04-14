@@ -1,0 +1,219 @@
+1
+00:00:00,780 --> 00:00:05,720
+Bueno, para resolver el tema, entiendo que bastaría con definir
+
+2
+00:00:05,721 --> 00:00:08,640
+1 dividido 41, 0 con 2,
+
+3
+00:00:08,740 --> 00:00:10,900
+3, 0 con 0, 2,
+
+4
+00:00:10,940 --> 00:00:13,340
+4, 3, 9. Vamos a hacer entonces,
+
+5
+00:00:13,580 --> 00:00:15,600
+vamos a ir acá, porque las facturas están en dólares.
+
+6
+00:00:16,180 --> 00:00:18,500
+Entonces para empezar acá.
+
+7
+00:00:20,580 --> 00:00:22,640
+Bien, no me deja convertir, dejando en pesos.
+
+8
+00:00:23,060 --> 00:00:25,840
+Ok, entonces tendría que poner siempre en dólares aquí.
+
+9
+00:00:26,200 --> 00:00:28,440
+Vamos a hacer este Distrilux,
+
+10
+00:00:29,220 --> 00:00:32,180
+el mismo ejemplo que tengo facturas creadas. Voy a ir,
+
+11
+00:00:32,200 --> 00:00:34,560
+definir dólares, perfecto.
+
+12
+00:00:34,940 --> 00:00:39,480
+Vamos a hacer multimoneda, vamos a hacer una tasa negociada y acá voy a
+
+13
+00:00:39,481 --> 00:00:48,220
+definir 0,0,0,2,3,4,3,9.
+
+14
+00:00:49,030 --> 00:00:51,590
+Ok, esto es mucho más fácil al revés,
+
+15
+00:00:51,690 --> 00:00:54,210
+¿no? Poner siempre considerando el otro lado.
+
+16
+00:00:54,810 --> 00:00:57,050
+Se genera, vamos arriba, genera de Destilux.
+
+17
+00:00:57,230 --> 00:01:00,750
+Voy a ir, solo cuentas por pagar.
+
+18
+00:01:01,130 --> 00:01:03,570
+Vamos a generar. Perfecto,
+
+19
+00:01:03,750 --> 00:01:05,960
+y ahí tenemos una junta. bien hecho,
+
+20
+00:01:06,940 --> 00:01:11,340
+más relativamente bien hecho. Vamos a hacer entonces con el 36.
+
+21
+00:01:13,260 --> 00:01:15,920
+Perfecto, aquí tenemos y esto me va a asignar,
+
+22
+00:01:16,100 --> 00:01:18,660
+yo estoy asignando 99, 99,
+
+23
+00:01:19,000 --> 00:01:22,580
+voy a poner acá Ah,
+
+24
+00:01:22,600 --> 00:01:24,760
+me lo ajustó la diferencia. No me pone,
+
+25
+00:01:24,880 --> 00:01:28,040
+así que esto me va a permitir. Vamos a generar una asignación.
+
+26
+00:01:29,300 --> 00:01:32,240
+Me hizo la asignación 845. Vamos a analizar.
+
+27
+00:01:33,920 --> 00:01:38,300
+Consulta de asignación. Para visualizar aquí,
+
+28
+00:01:38,660 --> 00:01:42,060
+¿qué asiento realiza? 845.
+
+29
+00:01:42,640 --> 00:01:48,120
+Vamos a ver el asiento. Y
+
+30
+00:01:48,121 --> 00:01:52,730
+esto está incorrecto. Porque esto está incorrecto,
+
+31
+00:01:53,150 --> 00:01:58,210
+porque en verdad, mostrar información
+
+32
+00:01:58,211 --> 00:02:02,870
+fuente, aquí estamos sacando pagos seleccionados 40
+
+33
+00:02:02,871 --> 00:02:06,200
+con 150 que es Es la conversión de los dólares,
+
+34
+00:02:08,540 --> 00:02:11,520
+pero en verdad, en pagos seleccionados,
+
+35
+00:02:12,040 --> 00:02:18,180
+si yo voy al pago correspondiente.
+
+36
+00:02:20,980 --> 00:02:23,820
+este pago está incorrecto,
+
+37
+00:02:23,900 --> 00:02:26,260
+por lo cual acá ya tenemos algo para trabajar.
+
+38
+00:02:29,340 --> 00:02:34,220
+Y acá tenemos que el pago es 41. La contabilización de este pago mandó
+
+39
+00:02:34,221 --> 00:02:38,340
+pago seleccionado 41. En este caso tenemos que tenemos que tomar el 100% de
+
+40
+00:02:38,341 --> 00:02:42,680
+este pago que fue 41 y acá no está tomando el 100% sino que
+
+41
+00:02:42,681 --> 00:02:48,380
+está convirtiendo este pago y
+
+42
+00:02:48,381 --> 00:02:52,860
+la asignación la hizo, digo y esto está mal porque acá me pone 99
+
+43
+00:02:52,861 --> 00:02:58,060
+dólares perfecto, pero si no este y solamente canceló por esta conversión,
+
+44
+00:02:58,160 --> 00:03:03,560
+por la tasa de cambio del día. Acá tendría que haber enviado en
+
+45
+00:03:03,561 --> 00:03:08,200
+la contabilidad de la asignación. Paos tendría
+
+46
+00:03:08,201 --> 00:03:13,120
+que haber tomado el saldo contable real que está asignado
+
+47
+00:03:13,121 --> 00:03:17,040
+este pago, porque para este pago además, ahora quedó como asignado 100%?
+
+48
+00:03:18,660 --> 00:03:23,720
+No, capaz que por el por
+
+49
+00:03:23,721 --> 00:03:26,000
+el puchito ese que quedó. Abierto.
+
+50
+00:03:27,940 --> 00:03:33,360
+Saldos pendientes. A ver si voy
+
+51
+00:03:33,361 --> 00:03:35,220
+a Distrilux.
+
+52
+00:03:41,820 --> 00:03:45,120
+A ver si ahora me puede, me saca el reporte.
+
+53
+00:03:55,740 --> 00:04:00,820
+No está saliendo el reporte. Bueno, no sé
+
+54
+00:04:00,821 --> 00:04:04,600
+por qué no quedó asignado al 100%, pero acá tenemos un problema y esto
+
+55
+00:04:04,601 --> 00:04:08,440
+lo vamos a presentar. en otro video como estamos haciendo la asignación nosotros.

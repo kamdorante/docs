@@ -1,0 +1,571 @@
+1
+00:00:01,360 --> 00:00:04,960
+Vamos, ahm, probar los camis que se han hecho de invoice,
+
+2
+00:00:05,120 --> 00:00:07,940
+¿sí? Voy a hacer acá,
+
+3
+00:00:08,040 --> 00:00:11,060
+una nota de crédito, la guarda relacionar a distintas facturas,
+
+4
+00:00:11,240 --> 00:00:15,200
+vamos a ver que creo que son de este tenien estas.
+
+5
+00:00:16,080 --> 00:00:18,120
+3, 2, 3, 4, 3, 4, 2, 3,
+
+6
+00:00:18,180 --> 00:00:23,420
+3, 4, 4. Sí, señor esta. Aquí tengo unas facturas más
+
+7
+00:00:23,421 --> 00:00:26,660
+que detener. fechas ateriores del 12 de noviembre,
+
+8
+00:00:27,300 --> 00:00:32,140
+por ejemplo, tiene una línea esta,
+
+9
+00:00:32,160 --> 00:00:34,360
+U-ah! No!
+
+10
+00:00:34,620 --> 00:00:37,040
+No! Christ!
+
+11
+00:00:41,620 --> 00:00:44,620
+Vamos a buscar esta acá.
+
+12
+00:00:46,900 --> 00:00:52,040
+Tijuana desde el, misma fecha están en dólar también esta
+
+13
+00:00:52,041 --> 00:00:56,600
+tiene tres líneas y tengo
+
+14
+00:00:56,601 --> 00:00:58,500
+otra como en otra fecha el 26 de noviembre.
+
+15
+00:01:03,130 --> 00:01:05,790
+26 de de noviembre igual con Melina,
+
+16
+00:01:06,190 --> 00:01:10,340
+toda que está en dólares. Vamos a relacionar
+
+17
+00:01:16,380 --> 00:01:19,460
+Vamos a intentar relazar esta nota de crédito con pocha de hoy,
+
+18
+00:01:19,740 --> 00:01:24,560
+entonces los cargos que las
+
+19
+00:01:24,561 --> 00:01:28,760
+valaciones que he tenido INBOYSY, que es uno de que las documentos referenciados tienen
+
+20
+00:01:28,761 --> 00:01:31,900
+que tener la misma tasa de cabe que el documento que se está enviando.
+
+21
+00:01:32,460 --> 00:01:35,560
+No tiene que declarar las mismas tasas de documenta, las mismas tasas en ambas
+
+22
+00:01:35,561 --> 00:01:39,820
+documentas. Entonces lo que se hizo fue dos validaciones.
+
+23
+00:01:39,821 --> 00:01:43,360
+una que lo, documentos referenciados y la nota de crédito tiene que tener la
+
+24
+00:01:43,361 --> 00:01:47,500
+misma moneda y y deben de tener.
+
+25
+00:01:48,540 --> 00:01:51,700
+Bueno, no, no. Queden las documentos que se relacionen.
+
+26
+00:01:51,840 --> 00:01:55,500
+Debe todos de donde tener la misma igual a la misma manera y la
+
+27
+00:01:55,501 --> 00:02:00,930
+misma tasa. teniendo esto cuando se relaciona
+
+28
+00:02:00,931 --> 00:02:04,590
+esta nota de crédito con algún documento se va a creer.
+
+29
+00:02:04,620 --> 00:02:07,980
+una tasa de conversión personalizado,
+
+30
+00:02:08,460 --> 00:02:11,380
+especialmente para este tipo de documento, esto para las tasas negociadas.
+
+31
+00:02:12,660 --> 00:02:15,900
+Se ha creado una tasa negociada para esta nota de crédito que va a
+
+32
+00:02:15,901 --> 00:02:18,880
+ser igual a la tasa de el documento referencial.
+
+33
+00:02:20,700 --> 00:02:23,320
+Vamos a dar la cara en crear este factura.
+
+34
+00:02:25,080 --> 00:02:28,580
+Vamos a realizar este factura y vamos a,
+
+35
+00:02:29,680 --> 00:02:31,120
+esta de acá
+
+36
+00:02:35,680 --> 00:02:39,200
+esta factura que tiene un aire ¿Qué ni? ¿Qué?
+
+37
+00:02:44,920 --> 00:02:51,020
+Vamos a crear otra vez crear desde factura vamos
+
+38
+00:02:51,021 --> 00:02:53,140
+a intentar esta Sacto la que, de una fecha diferente.
+
+39
+00:02:57,060 --> 00:03:01,700
+¿Ehh, esto acá? Si intentamos
+
+40
+00:03:01,701 --> 00:03:08,350
+relacionar esta factura nos da error porque
+
+41
+00:03:08,351 --> 00:03:11,730
+la tasa de cambio de la documento de referencia 3 4 2 que es
+
+42
+00:03:11,731 --> 00:03:15,520
+39 es diferente al del documento que estamos intentando referencia,
+
+43
+00:03:15,980 --> 00:03:19,980
+que es 39 de este 34. Entonces quedan casi en pareció.
+
+44
+00:03:21,560 --> 00:03:26,300
+pero son diferentes entonces no permite relacionar
+
+45
+00:03:26,301 --> 00:03:29,540
+distintos documentos con distintas tasas de cambio.
+
+46
+00:03:30,600 --> 00:03:33,140
+O sea, hay documentos con distintas tasas de cambio. Sin embargo,
+
+47
+00:03:33,880 --> 00:03:39,730
+si intentamos su register acá. Esta
+
+48
+00:03:39,731 --> 00:03:44,390
+factura que es del mismo día Esta factura tiene tres líneas
+
+49
+00:03:44,850 --> 00:03:47,830
+Voy a seleccionar de estas tres líneas una sola línea
+
+50
+00:03:52,420 --> 00:03:57,580
+Esa persona está así la relaciona correctamente y Y
+
+51
+00:03:57,581 --> 00:03:59,700
+también esta factura,
+
+52
+00:04:00,040 --> 00:04:03,240
+aunque no se muestra por acá, tiene una tasa de conversión.
+
+53
+00:04:06,960 --> 00:04:10,380
+un tipo de conversión este,
+
+54
+00:04:10,580 --> 00:04:15,140
+acá personalizado que es este consumidor final de
+
+55
+00:04:15,141 --> 00:04:19,960
+R4 48, se relaciona directamente con
+
+56
+00:04:19,961 --> 00:04:24,660
+la ferturo y una tasa el cambio con esta misma típica conversión.
+
+57
+00:04:29,340 --> 00:04:29,440
+Gracias.
+
+58
+00:04:37,430 --> 00:04:42,130
+Vamos a buscar un tipo de conversión Y
+
+59
+00:04:42,131 --> 00:04:45,150
+ahora lo voy a importar que es la misma. Este.
+
+60
+00:04:48,960 --> 00:04:53,420
+Acá es el tipo de conversión con eso.
+
+61
+00:04:58,100 --> 00:05:01,180
+esto es para de esa misma fatura, esa fatura específica.
+
+62
+00:05:01,500 --> 00:05:07,320
+un jugador alitador al agro. Entonces,
+
+63
+00:05:07,460 --> 00:05:09,520
+teniendo esto podemos acá completar.
+
+64
+00:05:19,000 --> 00:05:23,620
+Y se completa esta nota de crédito, vamos a verla acá en un bici.
+
+65
+00:05:25,040 --> 00:05:29,600
+un instancia de prueba para la 4 o 1 noticia
+
+66
+00:05:29,640 --> 00:05:31,040
+en el 3 de agresor, sí.
+
+67
+00:05:35,910 --> 00:05:40,610
+Podemos ver acá en total es que la cotización es de 39.
+
+68
+00:05:40,920 --> 00:05:44,200
+de 50 de ahí lo que se ha creado para esa nota de crédito
+
+69
+00:05:44,201 --> 00:05:46,740
+y si vamos acá en referencias.
+
+70
+00:05:48,960 --> 00:05:51,020
+Vamos a ver los campos nuevos que se ha ingresado,
+
+71
+00:05:51,220 --> 00:05:55,960
+y voy a ir ahora a uno de los campos
+
+72
+00:05:55,961 --> 00:05:58,940
+nuevos que se ha agregado. que se agregaron que están actualmente en prueba son
+
+73
+00:05:58,941 --> 00:06:01,260
+montos del documento referenciado,
+
+74
+00:06:01,520 --> 00:06:04,960
+la moneda del documento referenciado y su cotización o en su tasa,
+
+75
+00:06:04,980 --> 00:06:08,860
+Campeo, vemos que los dos documentos referenciados tienen la misma cotización,
+
+76
+00:06:09,520 --> 00:06:16,500
+la misma manera y así ya se le me manda el monto de
+
+77
+00:06:16,501 --> 00:06:20,940
+estos documentos actualmente, yo personalmente infiero.
+
+78
+00:06:21,060 --> 00:06:25,060
+que el monto que se pasa por acá es el monto que se va
+
+79
+00:06:25,061 --> 00:06:31,390
+a ser relacionado de la nota de crédito a ese documento referenciado,
+
+80
+00:06:32,130 --> 00:06:36,470
+por ejemplo una de estas acturas, deberían ser esta la 4-3.
+
+81
+00:06:37,080 --> 00:06:41,820
+Vamos que el monto que tiene responsable 1799 y también
+
+82
+00:06:41,821 --> 00:06:44,820
+el clavono 21.
+
+83
+00:06:45,120 --> 00:06:47,380
+un tome de 9, 17,
+
+84
+00:06:47,780 --> 00:06:49,980
+un poco de 9, 3,
+
+85
+00:06:50,120 --> 00:06:54,740
+9, 8 y la nota de que hay tocar ,
+
+86
+00:06:55,700 --> 00:06:57,780
+3, 9, 9, 7, 7, 7.
+
+87
+00:06:58,080 --> 00:07:02,600
+Veo que hay un detalle cada una pequeña diferencia en los tesimales,
+
+88
+00:07:03,120 --> 00:07:06,100
+pero eso es lo que,
+
+89
+00:07:06,120 --> 00:07:10,100
+que se relaciona de la factura, donde una de las facturas fue nada más
+
+90
+00:07:10,101 --> 00:07:13,120
+de,
+
+91
+00:07:13,920 --> 00:07:17,400
+Este día es el 7 de nuevo, porque sería a esta mi mano.
+
+92
+00:07:21,360 --> 00:07:23,000
+lo que se asina la factura
+
+93
+00:07:28,520 --> 00:07:31,360
+lo que se hace en la factura es lo que se manda a invoici
+
+94
+00:07:31,361 --> 00:07:34,880
+no el valor total de la factura original que este el valor total era
+
+95
+00:07:34,881 --> 00:07:39,460
+de 39 y 9, eso son los
+
+96
+00:07:39,461 --> 00:07:42,280
+cambios que se han agregado o a talmente a la factura.
+
+97
+00:07:43,820 --> 00:07:48,620
+bueno no lo coloque por acá pero también sí
+
+98
+00:07:48,621 --> 00:07:53,450
+bueno pueden hacer incluso esto vamos a hacer
+
+99
+00:07:53,451 --> 00:07:58,620
+una nueva etiqueta de crédito con
+
+100
+00:07:58,621 --> 00:08:04,080
+su, con su indor,
+
+101
+00:08:04,081 --> 00:08:05,300
+final,
+
+102
+00:08:09,440 --> 00:08:12,040
+Vamos a crear lo de seca de esta
+
+103
+00:08:20,360 --> 00:08:23,480
+y vemos que esta tiene dos líneas al otro clínio,
+
+104
+00:08:23,560 --> 00:08:24,660
+por más seleccionar dos clínios.
+
+105
+00:08:30,980 --> 00:08:33,920
+Siguimos acá en facturas a asignar como este por línea,
+
+106
+00:08:34,440 --> 00:08:36,680
+en facturas a asignar hay dos registros.
+
+107
+00:08:44,400 --> 00:08:46,960
+¿Verdad? ¿Tot tiene, los registro. Entonces,
+
+108
+00:08:47,100 --> 00:08:50,780
+si nosotros completamos acá, también una validación que tiene invoici,
+
+109
+00:08:53,520 --> 00:08:58,920
+no pueden haber dos o más referencias apuntando al mismo documento
+
+110
+00:09:00,660 --> 00:09:03,140
+Vamos para acá, vamos para acá,
+
+111
+00:09:03,141 --> 00:09:07,700
+vamos a ver el inicio. Sigue a
+
+112
+00:09:07,701 --> 00:09:08,200
+la 3-4
+
+113
+00:09:13,320 --> 00:09:17,900
+referencias vemos que se manda una sola referencia por el total o
+
+114
+00:09:17,901 --> 00:09:21,960
+la suma de los los montos de los montasino.
+
+115
+00:09:22,580 --> 00:09:25,740
+Se agrupa y se suma por documento y los montasino.
+
+116
+00:09:26,820 --> 00:09:29,880
+para evitar un error con una validación que tiene invoices y que es de
+
+117
+00:09:29,881 --> 00:09:34,100
+eso que las referencias no pago ver 2 con el mismo número,
+
+118
+00:09:34,860 --> 00:09:37,380
+tipo y sérica.
+
+119
+00:09:44,930 --> 00:09:51,760
+Ok, con esto 5,001 5-0-1,
+
+120
+00:09:51,880 --> 00:09:56,740
+5-0-1, el total, y esto lo para valida igualmente
+
+121
+00:09:56,741 --> 00:10:00,520
+que se está mandando el, y correcto,
+
+122
+00:10:00,560 --> 00:10:03,200
+vamos a quedar un logregistro y tiquet
+
+123
+00:10:08,230 --> 00:10:09,490
+un poco de pino
+
+124
+00:10:17,730 --> 00:10:20,450
+¿Sabezca,
+
+125
+00:10:21,070 --> 00:10:22,270
+Productor?
+
+126
+00:10:28,430 --> 00:10:31,110
+Confecho de Pueblo, completamos completar
+
+127
+00:10:40,640 --> 00:10:44,900
+¿Veces? ¿Veces?
+
+128
+00:10:45,600 --> 00:10:50,920
+total es lo que
+
+129
+00:10:51,240 --> 00:10:54,220
+la cotización de la moneda de que en el menos de esta fecha explície
+
+130
+00:10:54,221 --> 00:10:56,800
+de cuarenta Sí,
+
+131
+00:10:56,940 --> 00:11:01,920
+está mandando la tasa. se estaba mandando en las
+
+132
+00:11:01,921 --> 00:11:03,620
+notas de crédito la tasa nueva genera
+
+133
+00:11:07,750 --> 00:11:10,490
+A ver, no sé si aquí hay información contables,
+
+134
+00:11:10,850 --> 00:11:13,630
+se ve también, pues vamos a apreciar.
+
+135
+00:11:15,360 --> 00:11:15,920
+Gracias por estar
+
+136
+00:11:27,700 --> 00:11:31,360
+Pero aquí está la nueva validación este.
+
+137
+00:11:31,440 --> 00:11:36,100
+Hoy sí, ya con eso está lo principal que
+
+138
+00:11:36,101 --> 00:11:38,240
+se validas por cada ampere.
+
+139
+00:11:40,200 --> 00:11:44,440
+No que tener relación con el IP, las valaciones para evitar cualquier error.
+
+140
+00:11:46,300 --> 00:11:49,300
+Y levantar la información. Vala, no piensas trabajas que sí es,
+
+141
+00:11:49,620 --> 00:11:54,580
+vale dar lo que, lo que dije es que el la referencia
+
+142
+00:11:54,581 --> 00:11:58,960
+tiene que el monto que se le asocia y no el monto del documento
+
+143
+00:11:58,961 --> 00:11:59,180
+original

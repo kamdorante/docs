@@ -1,0 +1,187 @@
+1
+00:00:00,000 --> 00:00:03,980
+Bueno, esta es una prueba para los nuevos cambios de DJI,
+
+2
+00:00:04,120 --> 00:00:08,140
+desde Denzu, que están en Denzu 2257,
+
+3
+00:00:08,880 --> 00:00:13,620
+QA, acá incorporamos el tema de que la línea de
+
+4
+00:00:13,621 --> 00:00:18,200
+SFE también pueda cargar los
+
+5
+00:00:18,201 --> 00:00:21,040
+datos correspondientes al nombre y la unidad de medida,
+
+6
+00:00:21,940 --> 00:00:24,360
+este, este no es,
+
+7
+00:00:24,960 --> 00:00:29,340
+este, este, este, acabemos que con el sistema fibrator carregado,
+
+8
+00:00:29,680 --> 00:00:32,740
+logra cargar el nombre y la unidad de medida,
+
+9
+00:00:33,100 --> 00:00:35,180
+el sistema fibrator es el que está acá,
+
+10
+00:00:35,520 --> 00:00:41,280
+es el mismo para todas las instancias con el código legacy y
+
+11
+00:00:41,281 --> 00:00:46,380
+teniendo esta factura que es la A9477,
+
+12
+00:00:46,800 --> 00:00:51,400
+procedemos a generar también la nota de corrección
+
+13
+00:00:51,401 --> 00:00:56,000
+importante, esto es del 11 de ayer y la que vamos a crear
+
+14
+00:00:56,001 --> 00:01:00,040
+hoy es del 12 de hoy, vamos a hacer una nota de crédito,
+
+15
+00:01:00,320 --> 00:01:05,000
+la factura
+
+16
+00:01:05,001 --> 00:01:12,500
+nota de crédito, la
+
+17
+00:01:12,501 --> 00:01:17,500
+vamos
+
+18
+00:01:17,800 --> 00:01:20,820
+a definir con fecha de hoy y genera el USB,
+
+19
+00:01:21,820 --> 00:01:24,500
+acá también está el tema de la tasa de cambio que sea la misma
+
+20
+00:01:24,501 --> 00:01:28,100
+para las notas de corrección, que sea el cambio principal de esto,
+
+21
+00:01:29,480 --> 00:01:33,340
+copemos las líneas, ponemos la captura correspondiente,
+
+22
+00:01:33,980 --> 00:01:38,360
+esto no me debería haber generado,
+
+23
+00:01:38,800 --> 00:01:44,060
+no me generado nada tan el aterisco y
+
+24
+00:01:44,061 --> 00:01:48,140
+yo acá directamente le voy a dar completar y
+
+25
+00:01:58,280 --> 00:02:01,780
+si tomemos un honor registro como que tiene la foto vinculada a los montos
+
+26
+00:02:01,781 --> 00:02:06,580
+y toda la información necesaria. Vamos a la factura completamos,
+
+27
+00:02:06,720 --> 00:02:08,900
+completamos,
+
+28
+00:02:09,300 --> 00:02:14,670
+acá deberíamos ver este es el anterior, acá Podríamos ver un nuevo documento,
+
+29
+00:02:14,671 --> 00:02:16,950
+no está de crédito, importa o justito que haya.
+
+30
+00:02:17,950 --> 00:02:21,570
+Y firma. Si no fijamos acá,
+
+31
+00:02:22,310 --> 00:02:25,530
+que yo tenía tazas de cambio diferente,
+
+32
+00:02:25,690 --> 00:02:28,510
+soy. Una taza de cambio a 39,
+
+33
+00:02:28,930 --> 00:02:32,130
+quiera parayer y otra taza de cambio a 40,
+
+34
+00:02:32,370 --> 00:02:35,390
+quiera para el día de hoy, para probar el tema de la diferencia de
+
+35
+00:02:35,391 --> 00:02:37,370
+cotizaciones. acá
+
+36
+00:02:47,420 --> 00:02:51,940
+tenemos para el 11, 39 para
+
+37
+00:02:51,941 --> 00:02:54,320
+el 11, 39 y para el 12,
+
+38
+00:02:54,600 --> 00:02:56,800
+40 y al revés,
+
+39
+00:02:57,480 --> 00:02:59,960
+40 también. Entonces,
+
+40
+00:03:00,240 --> 00:03:02,680
+si nos fijamos acá en Probaritale,
+
+41
+00:03:02,880 --> 00:03:07,820
+vamos a ver que está en la referencia, deberemos tener la cotización del 39,
+
+42
+00:03:08,060 --> 00:03:12,780
+nada de ayer y en general debería haber algo parecido.
+
+43
+00:03:13,780 --> 00:03:18,300
+o en total es 39.
+
+44
+00:03:18,940 --> 00:03:23,300
+Siendo que igual se emitió hoy, pero creo con la taza de 39 que
+
+45
+00:03:23,301 --> 00:03:26,540
+le da ayer la misma que la factura original,
+
+46
+00:03:26,800 --> 00:03:33,380
+esto sería la nota de crédito y
+
+47
+00:03:33,381 --> 00:03:34,520
+esto sería la pero,

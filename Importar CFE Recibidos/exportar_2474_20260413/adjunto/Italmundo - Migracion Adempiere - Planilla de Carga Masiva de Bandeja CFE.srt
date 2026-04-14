@@ -1,0 +1,367 @@
+1
+00:00:00,000 --> 00:00:04,620
+Bueno, ehm, la, me voy a presentar cómo debería
+
+2
+00:00:04,621 --> 00:00:09,120
+ser el formato de la tabla para hacer una bandeja actualizable,
+
+3
+00:00:09,160 --> 00:00:12,280
+o sea, cargar, tanto un fdb 108,
+
+4
+00:00:12,860 --> 00:00:14,920
+como también otro, este, la,
+
+5
+00:00:15,080 --> 00:00:18,080
+la, la cara que hacen por excel, eh,
+
+6
+00:00:18,140 --> 00:00:22,180
+la ventana bandeja cfe, para cargar los comprobantes,
+
+7
+00:00:22,520 --> 00:00:25,960
+las, los cabezales y las líneas para ser generados,
+
+8
+00:00:26,260 --> 00:00:29,880
+las facturas de manera masiva y facturación electrónica.
+
+9
+00:00:31,000 --> 00:00:35,740
+entiendo que lo que ustedes están carando ahora sería este cabezal,
+
+10
+00:00:36,500 --> 00:00:39,140
+me pasaron una bandeja actualizable,
+
+11
+00:00:39,440 --> 00:00:44,920
+que traía esta planilla con este cabezal y
+
+12
+00:00:44,921 --> 00:00:47,300
+aquí esta planilla con estas líneas,
+
+13
+00:00:47,340 --> 00:00:49,380
+esto es un ejemplo,
+
+14
+00:00:49,620 --> 00:00:54,920
+que en el ejemplo tiene 166.000 líneas
+
+15
+00:00:54,921 --> 00:00:58,500
+y cabezales tiene 26.000 cabezales,
+
+16
+00:00:59,100 --> 00:01:03,900
+parece que estamos en el orden de la cantidad de facturas que
+
+17
+00:01:03,901 --> 00:01:07,080
+generan por bandeja CFA. Ahora,
+
+18
+00:01:07,480 --> 00:01:11,780
+para poder hacer esto en el formato nuevo,
+
+19
+00:01:12,120 --> 00:01:17,280
+en la estructura de Solop, básicamente la idea ahora es es no
+
+20
+00:01:17,281 --> 00:01:21,080
+necesaria tener dos planillas,
+
+21
+00:01:21,500 --> 00:01:26,180
+una de Cabezal y una de detalle, sino que me
+
+22
+00:01:26,181 --> 00:01:31,620
+mejor tener una única planilla con el mayor detalle posible y
+
+23
+00:01:31,621 --> 00:01:37,420
+el sistema hará la agrupación y crear por sí solo el
+
+24
+00:01:37,421 --> 00:01:40,440
+Cabezal según un criterio que apliquemos.
+
+25
+00:01:40,600 --> 00:01:45,340
+Por ejemplo, el criterio de por socio de negocio y fecha
+
+26
+00:01:45,341 --> 00:01:50,020
+y tipo de documento y moneda va a generar por si
+
+27
+00:01:50,021 --> 00:01:54,220
+solo su cabezal. De esta manera,
+
+28
+00:01:54,820 --> 00:01:58,220
+tomé estos ejemplos,
+
+29
+00:01:58,280 --> 00:02:02,120
+algunos aleatorios, algunos números de los cabezales,
+
+30
+00:02:02,121 --> 00:02:06,680
+por ejemplo, de estos cuatro, y busqué sus detalles,
+
+31
+00:02:07,120 --> 00:02:09,520
+sus correspondientes detalles, por ejemplo,
+
+32
+00:02:11,980 --> 00:02:16,640
+y veía que había uno que tenía una sola línea y había otro
+
+33
+00:02:16,641 --> 00:02:20,580
+que tenía dos líneas, no entiendo que esto es el número de factura,
+
+34
+00:02:20,700 --> 00:02:25,000
+por lo cual esta etiqueta de grita tendría dos líneas,
+
+35
+00:02:25,980 --> 00:02:30,740
+estas 2 líneas, estas 1, entonces la planilla
+
+36
+00:02:30,741 --> 00:02:33,700
+se va a similar más a esta cantidad de líneas,
+
+37
+00:02:33,800 --> 00:02:37,040
+con el número, si repetimos el número de factura se va a generar un
+
+38
+00:02:37,041 --> 00:02:39,520
+único número de factura, o sea,
+
+39
+00:02:39,660 --> 00:02:44,100
+tenemos la manera que lo están haciendo está perfecto en esta planilla de detalle.
+
+40
+00:02:44,101 --> 00:02:46,140
+yo para que quede más claro,
+
+41
+00:02:46,460 --> 00:02:50,860
+me separe algunos cabezales,
+
+42
+00:02:52,220 --> 00:02:56,800
+esto es solamente a chiquel la cantidad para
+
+43
+00:02:56,801 --> 00:03:01,600
+que sea más claro y hacer el 100% de los casos para
+
+44
+00:03:01,601 --> 00:03:06,140
+que lo puedan ver, les pinté de
+
+45
+00:03:06,141 --> 00:03:10,680
+color de este color las columnas que sí utilicen,
+
+46
+00:03:10,681 --> 00:03:14,480
+necesitaríamos en la planija,
+
+47
+00:03:14,960 --> 00:03:17,040
+que es el tipo de falta de café,
+
+48
+00:03:17,480 --> 00:03:20,500
+la fecha, el tipo de documento, el número de comprobante,
+
+49
+00:03:21,220 --> 00:03:24,660
+la fecha de la factura,
+
+50
+00:03:24,661 --> 00:03:26,720
+el comprobante,
+
+51
+00:03:26,780 --> 00:03:29,180
+el motivo, el texto, la cédula,
+
+52
+00:03:29,280 --> 00:03:34,360
+el nombre, esto es importante, porque esto lo vamos a necesitar
+
+53
+00:03:34,361 --> 00:03:36,780
+porque en caso de que no exista, lo vamos a crear.
+
+54
+00:03:37,740 --> 00:03:40,600
+Por lo cual, toda esa información es importante,
+
+55
+00:03:40,820 --> 00:03:43,080
+perfecto, lo que lo tiene en la moneda, ok,
+
+56
+00:03:43,540 --> 00:03:46,040
+es pesos o dólares,
+
+57
+00:03:46,500 --> 00:03:48,840
+el término de pago. O sea,
+
+58
+00:03:48,900 --> 00:03:51,560
+que lo que están cargando ahora de cabeza, les irían solamente de estas las
+
+59
+00:03:51,561 --> 00:03:56,560
+monedas, las columnas que tenemos necesitando.
+
+60
+00:03:57,420 --> 00:04:02,440
+Desde detalle le marcé que solamente estaríamos
+
+61
+00:04:02,441 --> 00:04:05,980
+necesitando lo que hace referencia a las líneas.
+
+62
+00:04:06,500 --> 00:04:10,860
+El producto, la cantidad y todos estos datos que están agregando a nivel de
+
+63
+00:04:10,861 --> 00:04:12,920
+las líneas. Como ven,
+
+64
+00:04:13,280 --> 00:04:18,320
+el total ya no es necesario porque no vamos a agregar el
+
+65
+00:04:18,321 --> 00:04:20,440
+total, este poco basado por línea,
+
+66
+00:04:20,680 --> 00:04:24,340
+el total se va a calcurar solo, podemos aplicar a algún autor tipo de
+
+67
+00:04:24,341 --> 00:04:28,840
+control, así que desean el posteriormente. Entonces,
+
+68
+00:04:29,060 --> 00:04:32,600
+de estos dos ejemplos, como ven la detalle y las líneas son,
+
+69
+00:04:32,720 --> 00:04:35,840
+estos son los cabezales, son bastante menos líneas,
+
+70
+00:04:36,340 --> 00:04:38,500
+lógicamente el que acaba porque se repite,
+
+71
+00:04:38,580 --> 00:04:41,480
+por ejemplo, acá tengo varias líneas por una factura,
+
+72
+00:04:41,800 --> 00:04:46,460
+por un etiquet. Entonces, en esta planilla última van a poder ver finalmente
+
+73
+00:04:46,461 --> 00:04:50,080
+cómo debería ser la planicia correspondiente,
+
+74
+00:04:50,880 --> 00:04:56,760
+unificando la tabla cabezal y
+
+75
+00:04:56,761 --> 00:05:01,860
+acá las tablas de las líneas y en
+
+76
+00:05:01,861 --> 00:05:04,620
+color les puse, no sé si ayuda o marea,
+
+77
+00:05:05,160 --> 00:05:09,720
+por ejemplo usted evita que está poniendo este cabezal con estas
+
+78
+00:05:09,721 --> 00:05:13,360
+dos facturas, pero claro como cuando las facturas se repito se tiene líneas,
+
+79
+00:05:13,840 --> 00:05:16,000
+se tiene que repetir la información,
+
+80
+00:05:16,240 --> 00:05:21,240
+por eso lo pinte de barde, entonces si el documento tiene dos líneas,
+
+81
+00:05:21,241 --> 00:05:25,880
+tenemos que venir aquí y repetir la información
+
+82
+00:05:25,881 --> 00:05:28,520
+y el sistema no lo va a duplicar,
+
+83
+00:05:28,600 --> 00:05:32,300
+entonces le va a asignar dos líneas a este cabezal,
+
+84
+00:05:32,500 --> 00:05:37,860
+se entiende así, lo entiende solo, que esto tiene este cabezal
+
+85
+00:05:37,861 --> 00:05:41,480
+de repito, o sea que es un cabezal, que tiene dos líneas,
+
+86
+00:05:41,600 --> 00:05:46,120
+estas dos líneas, lo mismo con
+
+87
+00:05:46,121 --> 00:05:49,140
+el etiquet, el etiquet, por ejemplo, era un cabezal,
+
+88
+00:05:49,141 --> 00:05:53,800
+que era este, pero en verdad vimos que tenía todas
+
+89
+00:05:53,801 --> 00:05:58,000
+estas líneas, por lo cual acá le ponemos las cinco líneas,
+
+90
+00:05:58,140 --> 00:06:03,400
+ya relacionadas y esto ya lo podemos cargar de
+
+91
+00:06:03,401 --> 00:06:07,980
+masivamente al el sistema. Les comparto esto y
+
+92
+00:06:07,981 --> 00:06:10,920
+cualquier consulta que tengan, estamos a las órganes.

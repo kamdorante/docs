@@ -31,6 +31,7 @@ Documentación de referencia del diccionario de aplicación para el módulo de G
 - [Hechos sin Conciliar](reconciliation/unreconciled-accounting-facts)
 
 ## Procesos Contables
+- [Contabilización y Costeo por Cola](processes/accounting-cost-queue)
 - [Generar Ganancia/Pérdida No Realizada](processes/generate-not-realized-gain-loss)
 - [Cierre de Ejercicio](processes/fiscal-year-end)
 - [Consulta Arbitraje de Moneda BCU](processes/currency-arbitration)

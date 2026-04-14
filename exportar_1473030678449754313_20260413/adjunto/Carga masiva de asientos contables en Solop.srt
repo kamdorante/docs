@@ -1,0 +1,619 @@
+1
+00:00:01,490 --> 00:00:06,190
+Presentación de cómo hacer una carga masiva de asiento diario desde
+
+2
+00:00:06,191 --> 00:00:10,210
+Solop. En este caso, vamos a hacer un ejemplo de una carga de asiento
+
+3
+00:00:10,211 --> 00:00:15,610
+de sueldos que lo podemos visualizar con
+
+4
+00:00:15,611 --> 00:00:18,940
+la siguiente con el siguiente procedimiento.
+
+5
+00:00:19,200 --> 00:00:23,800
+Ya tenemos una planilla donde realizamos la
+
+6
+00:00:23,801 --> 00:00:28,540
+conversión y el ajuste que les vamos a compartir,
+
+7
+00:00:29,060 --> 00:00:33,340
+donde se tiene que definir de esa manera las líneas líneas para hacer el
+
+8
+00:00:33,341 --> 00:00:36,040
+asiento contado. En este caso lo que vamos a hacer,
+
+9
+00:00:36,180 --> 00:00:38,620
+una vez que ya tenemos el archivo, es definir,
+
+10
+00:00:39,760 --> 00:00:43,200
+vamos a buscar cargador de archivos,
+
+11
+00:00:43,280 --> 00:00:46,880
+es una ventana aquí, es un proceso donde nos va a permitir hacer diferentes
+
+12
+00:00:46,881 --> 00:00:51,560
+cargas masivas. En este caso vamos a elegir importar nota
+
+13
+00:00:51,561 --> 00:00:56,120
+de contabilidad y vamos a carga de asiento
+
+14
+00:00:56,121 --> 00:01:00,660
+contable. Dejamos esta lista de conjuntos de caracteres y vamos a ir
+
+15
+00:01:00,661 --> 00:01:03,660
+al siguiente paso. Una vez tenemos el siguiente paso,
+
+16
+00:01:04,380 --> 00:01:11,940
+vamos a Vamos a seleccionar de nuestro equipo
+
+17
+00:01:11,941 --> 00:01:16,460
+la carga que queramos hacer y aquí vamos a visualizar cómo
+
+18
+00:01:16,461 --> 00:01:18,700
+tenemos en estas cuentas.
+
+19
+00:01:19,080 --> 00:01:21,960
+Acá me carga la primera, dan cuenta que tengo los títulos,
+
+20
+00:01:22,160 --> 00:01:26,080
+por eso se visualiza de esta manera. Y ya a partir de la segunda
+
+21
+00:01:26,081 --> 00:01:28,960
+línea, ya tengo las líneas que vamos a estar cargando.
+
+22
+00:01:30,060 --> 00:01:34,700
+Estos dos datos vienen por defecto y aquí estos son los que empezamos a
+
+23
+00:01:34,701 --> 00:01:38,820
+definir, números de cuenta. Debe,
+
+24
+00:01:38,840 --> 00:01:43,480
+a ver, y
+
+25
+00:01:43,481 --> 00:01:48,000
+acá debe contabilizado, esto es para cuando también podemos hacer carga en pesos
+
+26
+00:01:48,001 --> 00:01:50,140
+o en dólares, por eso las dos cuentas.
+
+27
+00:01:50,660 --> 00:01:52,860
+Las que va a importar obviamente van a ser esta columna.
+
+28
+00:01:52,880 --> 00:01:55,280
+una debe contabilizado y el crédito contabilizado.
+
+29
+00:01:55,920 --> 00:01:58,880
+Tenemos aquí y tenemos también,
+
+30
+00:01:59,440 --> 00:02:01,480
+agregamos también una línea de descripción,
+
+31
+00:02:01,820 --> 00:02:04,980
+donde se la vamos a visualizar y la vamos a poder ver de esta
+
+32
+00:02:04,981 --> 00:02:08,700
+manera aquí para poder comparar y confirmar que esté todo correcto.
+
+33
+00:02:09,360 --> 00:02:12,360
+Bien, esto lo podemos navegar aquí,
+
+34
+00:02:12,540 --> 00:02:15,400
+podemos navegar por este, perdón, vamos al siguiente paso.
+
+35
+00:02:15,900 --> 00:02:19,540
+Podemos navegar en las líneas acá para ver los importes,
+
+36
+00:02:19,780 --> 00:02:24,560
+crédito fuente y la descripción,
+
+37
+00:02:24,880 --> 00:02:31,020
+la fecha. fecha. Vemos que toda la fecha tiene el
+
+38
+00:02:31,021 --> 00:02:35,540
+31 de octubre que es la fecha que le definimos y
+
+39
+00:02:35,541 --> 00:02:41,100
+después vamos al siguiente paso y acá damos guardar.
+
+40
+00:02:41,120 --> 00:02:45,700
+y solo guardar por acá y le vamos a
+
+41
+00:02:45,701 --> 00:02:50,680
+dar para este guardar y procesar
+
+42
+00:02:50,681 --> 00:02:53,160
+y elegimos, no perdón, vamos a solo guardar,
+
+43
+00:02:53,320 --> 00:02:56,780
+así lo hacemos en dos pasos o podemos hacer guardar y procesar y elegir
+
+44
+00:02:56,781 --> 00:03:00,600
+ya el el paso segundo, pero está bueno hacerlo en dos pasos,
+
+45
+00:03:00,700 --> 00:03:03,440
+después le podemos poner manejar todo en un paso.
+
+46
+00:03:04,300 --> 00:03:07,680
+Generamos y esto me va a generar y acá me carga 13 líneas de
+
+47
+00:03:07,681 --> 00:03:12,520
+13. O sea, esto es un mensaje exitoso de que la cantidad de líneas
+
+48
+00:03:12,521 --> 00:03:16,000
+se cargó. ¿Cómo sigue el paso?
+
+49
+00:03:16,360 --> 00:03:21,840
+Bueno, vamos a ir a importar diario
+
+50
+00:03:21,841 --> 00:03:24,520
+contable, que podemos buscarlo desde el menú,
+
+51
+00:03:24,920 --> 00:03:27,940
+o lo vamos a visualizar en la carpeta que vemos aquí abajo de importar
+
+52
+00:03:27,941 --> 00:03:31,500
+datos. aquí abajo está importar dinero contable.
+
+53
+00:03:32,280 --> 00:03:36,780
+En esta línea nos vamos a ver todas las cargas y vamos a ver
+
+54
+00:03:36,781 --> 00:03:40,580
+en este caso que tengo una carga de prueba que decimos primero para validar,
+
+55
+00:03:40,760 --> 00:03:44,540
+que está importado o sí y después tenemos otra que está importado o no.
+
+56
+00:03:45,040 --> 00:03:49,680
+En este caso No, ¿qué hacemos? Solamente vamos a poder visualizar el
+
+57
+00:03:49,681 --> 00:03:53,820
+importado. Vamos a buscar el Importado o no?
+
+58
+00:03:54,500 --> 00:03:59,660
+Importado. Este importado.
+
+59
+00:04:05,880 --> 00:04:09,240
+Vamos a ver importado y buscamos no.
+
+60
+00:04:10,000 --> 00:04:13,520
+Así vemos todas las líneas que hemos cargado,
+
+61
+00:04:13,640 --> 00:04:18,260
+las 13 tenemos aquí. Y
+
+62
+00:04:18,261 --> 00:04:21,920
+aquí podemos verificar y controlar lo que estaremos cargando.
+
+63
+00:04:22,740 --> 00:04:27,280
+Debe haber a qué descripción y en cada una de ellas
+
+64
+00:04:27,281 --> 00:04:29,900
+tenemos a qué cuenta se va a generar,
+
+65
+00:04:30,020 --> 00:04:33,060
+que la tenemos definida aquí.
+
+66
+00:04:34,140 --> 00:04:38,600
+Bien, en este caso podemos hacer dos pasos si queremos.
+
+67
+00:04:38,780 --> 00:04:43,120
+Todas estas cuentas son datos que tenemos cargado y acá podemos hacer una acción
+
+68
+00:04:43,121 --> 00:04:47,720
+de importar diario contable. En esta acción podemos visualizar,
+
+69
+00:04:47,820 --> 00:04:50,800
+elegir la organización, elegir la fecha contable,
+
+70
+00:04:51,620 --> 00:04:54,640
+en este caso vamos a elegir 31 de octubre,
+
+71
+00:04:55,420 --> 00:04:58,440
+y solo validar datos pueden poner para,
+
+72
+00:05:00,060 --> 00:05:03,340
+si pueden modificar. Bien,
+
+73
+00:05:03,580 --> 00:05:06,960
+acá me da un error, claro, porque importé,
+
+74
+00:05:07,200 --> 00:05:11,800
+como vemos, la primera línea, que la primera línea era el título.
+
+75
+00:05:12,780 --> 00:05:15,720
+Por eso no tengo datos de ningún asiento,
+
+76
+00:05:15,840 --> 00:05:17,920
+de nada. Así que esta línea la voy a exportar.
+
+77
+00:05:17,960 --> 00:05:20,940
+eliminar o la puedo visualizar acá.
+
+78
+00:05:21,800 --> 00:05:25,060
+Este es el título del Excel que tenemos,
+
+79
+00:05:25,620 --> 00:05:29,940
+el asiento arrancaría de acá para abajo. Así que vamos a elegir esta,
+
+80
+00:05:30,520 --> 00:05:35,500
+me paro en la línea con doble Esta que era la de descripción,
+
+81
+00:05:35,580 --> 00:05:40,140
+estaba mal, voy a eliminarla. Esto lo
+
+82
+00:05:40,141 --> 00:05:44,660
+podrían evitar si cargan un archivo
+
+83
+00:05:44,661 --> 00:05:50,000
+que no considere eso y ya la cargan automáticamente.
+
+84
+00:05:50,120 --> 00:05:52,700
+sin el cabezal. Lo voy a mostrar después en el archivo.
+
+85
+00:05:53,540 --> 00:05:56,920
+Ahora tenemos todas las líneas con todos los asientos,
+
+86
+00:05:57,180 --> 00:06:01,800
+los importes y ya aquí podemos venir,
+
+87
+00:06:02,020 --> 00:06:06,120
+monoregistro, importar y acá elegimos lo mismo.
+
+88
+00:06:06,280 --> 00:06:09,480
+la organización, solo validar datos,
+
+89
+00:06:09,900 --> 00:06:12,240
+buscamos y acá me dice ok, cero errores,
+
+90
+00:06:12,420 --> 00:06:17,020
+perfecto y ahí ya podemos proceder a importar y
+
+91
+00:06:17,021 --> 00:06:19,880
+esta vez le ponemos la fecha, le ponemos la organización,
+
+92
+00:06:20,480 --> 00:06:22,900
+importar soluciones de errores, le dejamos aquí. y esto no,
+
+93
+00:06:23,400 --> 00:06:26,720
+solamente así y generamos.
+
+94
+00:06:32,580 --> 00:06:38,400
+Bien y ahí ya terminó y ya vemos que todo esto completó.
+
+95
+00:06:38,420 --> 00:06:40,740
+y me generó la nota contable 4.
+
+96
+00:06:41,740 --> 00:06:44,780
+Si acercamos acá, lo que genera esto es una,
+
+97
+00:06:45,060 --> 00:06:49,820
+en la ventana diario contable, es un asiento contable.
+
+98
+00:06:51,740 --> 00:06:54,020
+No navego bien.
+
+99
+00:06:54,160 --> 00:06:56,880
+Bueno, ahora bien. ¿Por qué no navego bien? Pero bueno, podemos sacar el filtro
+
+100
+00:06:56,881 --> 00:07:00,680
+y buscar. Y aquí me va a haber hecho,
+
+101
+00:07:03,480 --> 00:07:06,260
+me navegó. Ah, claro, porque navegué al 4,
+
+102
+00:07:06,640 --> 00:07:11,140
+tendría que haber navegado. acá,
+
+103
+00:07:11,800 --> 00:07:13,840
+al lote tendríamos que haberlo navegado.
+
+104
+00:07:13,980 --> 00:07:17,260
+Voy a cerrar la ventana. A este,
+
+105
+00:07:17,780 --> 00:07:21,440
+porque tenemos un lote con n notas contables.
+
+106
+00:07:21,600 --> 00:07:24,860
+La nota contable es el asiento, finalmente, y el lote es lo que estamos
+
+107
+00:07:24,861 --> 00:07:29,420
+importando. Nosotros podemos sacar importar, muchos asientos en un único solo.
+
+108
+00:07:29,800 --> 00:07:34,840
+Así que acá lo vamos a ver. Y aquí tengo ejemplo demo.
+
+109
+00:07:37,320 --> 00:07:42,220
+El número 3, la fecha de creación de
+
+110
+00:07:42,221 --> 00:07:46,740
+este cabello. Pero bueno,
+
+111
+00:07:46,860 --> 00:07:50,160
+vamos a definirle el periodo, esto lo tenemos que definir,
+
+112
+00:07:50,240 --> 00:07:54,020
+lo tendría que definir automáticamente, hay que guardarlo por si no nos va a
+
+113
+00:07:54,021 --> 00:07:58,600
+dar error. Y con este periodo,
+
+114
+00:07:58,940 --> 00:08:05,880
+En la nota contable vamos a poder ver que tenemos el asiento definido y
+
+115
+00:08:05,881 --> 00:08:10,480
+con sus correspondientes líneas que esto
+
+116
+00:08:10,481 --> 00:08:13,980
+lo vamos a ver directamente en el asiento lo vamos a poder visualizar.
+
+117
+00:08:15,020 --> 00:08:17,380
+¿Qué hacemos aquí con este diario?
+
+118
+00:08:17,620 --> 00:08:22,240
+Simplemente lo completamos. Mejor completarlo desde
+
+119
+00:08:22,241 --> 00:08:25,200
+acá, desde acá arriba. Completamos.
+
+120
+00:08:27,380 --> 00:08:31,140
+Y de esta manera ya podemos ver.
+
+121
+00:08:31,760 --> 00:08:37,520
+visualizar. Acá tenemos todas las líneas que
+
+122
+00:08:37,521 --> 00:08:41,220
+hemos cargado, pero la mejor manera de verlo es desde la nota contable,
+
+123
+00:08:41,860 --> 00:08:46,900
+contabilizado. Acá no se puede visualizar.
+
+124
+00:08:54,180 --> 00:08:57,660
+Bien. Este botón como está en la pestaña no se visualiza,
+
+125
+00:08:57,920 --> 00:09:01,860
+ya lo vamos a corregir. Y si vamos a
+
+126
+00:09:17,420 --> 00:09:20,660
+Para visualizarte, estoy tratando de mostrarlo. les cómo se puede visualizar,
+
+127
+00:09:21,540 --> 00:09:23,940
+porque no se puede ver desde esa ventana,
+
+128
+00:09:25,060 --> 00:09:28,040
+pero ya el asiento quedó aplicado,
+
+129
+00:09:28,340 --> 00:09:32,980
+quedó aplicado. Lo único que no les he podido mostrar
+
+130
+00:09:32,981 --> 00:09:35,460
+es el asiento porque está en esta versión.
+
+131
+00:09:36,160 --> 00:09:41,040
+Aquí vemos y todo esto ya quedó correctamente aplicado a
+
+132
+00:09:41,041 --> 00:09:45,760
+estas combinaciones, a estas cuentas y ya tengo acá cada una de las cuentas
+
+133
+00:09:45,761 --> 00:09:50,160
+definida. Está la descripción, pero si vamos aquí,
+
+134
+00:09:50,380 --> 00:09:55,180
+vamos a ver cada una de las cuentas. cuentas. Cada una de las cuentas
+
+135
+00:09:55,181 --> 00:09:59,740
+que se definió, no está muy bonito de cómo se muestra el asiento,
+
+136
+00:09:59,860 --> 00:10:03,620
+que sí que eso les voy a mostrar, pero bueno esto ya contabilizó y
+
+137
+00:10:03,621 --> 00:10:09,660
+si sacamos un balance de prueba Vamos
+
+138
+00:10:09,661 --> 00:10:13,540
+a ver un diario contable, un mayor contable.
+
+139
+00:10:14,100 --> 00:10:17,560
+Vamos a ver la fecha del 31 al 31.
+
+140
+00:10:24,310 --> 00:10:28,610
+Aquí deberíamos ver cada una de las,
+
+141
+00:10:28,930 --> 00:10:32,350
+la aplicación de los asientos,
+
+142
+00:10:32,870 --> 00:10:36,390
+lo ven dos veces porque lo cargué en dos asientos,
+
+143
+00:10:37,690 --> 00:10:39,830
+ven el 4 y el 2, así.
+
+144
+00:10:39,860 --> 00:10:44,800
+son dos asientos, que fueron justamente la prueba y
+
+145
+00:10:44,801 --> 00:10:47,140
+aquí tenemos todo aplicado correctamente.
+
+146
+00:10:47,400 --> 00:10:50,400
+Me quedo pendiente, viste, ahí con todos los movimientos de sueldo y demás,
+
+147
+00:10:51,000 --> 00:10:53,040
+todo duplicado, porque como les comenté,
+
+148
+00:10:53,900 --> 00:10:58,940
+lo cargamos dos veces. y también viste que te dice en la descripción
+
+149
+00:10:58,941 --> 00:11:01,620
+que hayan puesto, te aparece también en la descripción del asiento.
+
+150
+00:11:04,340 --> 00:11:08,220
+Bien, aquí podrían modificar y visualizarlo.
+
+151
+00:11:08,360 --> 00:11:11,140
+Ahí va, lo vemos acá por asiento.
+
+152
+00:11:11,960 --> 00:11:16,060
+Acá vemos por documento y acá vemos todo junto en los dopos que son
+
+153
+00:11:16,061 --> 00:11:20,680
+de la misma fecha. Bien, tenemos todo aquí otra forma.
+
+154
+00:11:20,820 --> 00:11:25,360
+Pero bueno, queda pendiente de mostrar fácilmente desde la
+
+155
+00:11:25,361 --> 00:11:27,960
+ventana cómo visualizar ese asiento.

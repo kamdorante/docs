@@ -1,0 +1,1259 @@
+1
+00:00:01,230 --> 00:00:03,730
+Capacitación de gestión contable,
+
+2
+00:00:04,050 --> 00:00:06,230
+bueno, de IDE en Solop, eh.
+
+3
+00:00:06,810 --> 00:00:10,470
+Vamos a ver ahora, eh, explicar un poco lo que es la lógica de
+
+4
+00:00:10,471 --> 00:00:14,750
+los asientos contables, partiendo para un producto en,
+
+5
+00:00:14,751 --> 00:00:19,740
+en concreto. reto y ver algunos ejemplos de documentos
+
+6
+00:00:19,741 --> 00:00:21,900
+y cómo contabilizan los mismos.
+
+7
+00:00:22,760 --> 00:00:25,860
+Vamos a comenzar con la ventana Producto,
+
+8
+00:00:28,360 --> 00:00:33,600
+para ver un ejemplo que
+
+9
+00:00:33,601 --> 00:00:38,120
+manejamos y
+
+10
+00:00:38,121 --> 00:00:41,460
+ver a partir del mismo, vamos a ver por ejemplo estufa de supergás,
+
+11
+00:00:42,460 --> 00:00:47,820
+en este caso que tiene categoría de productos electrodomésticos y
+
+12
+00:00:47,821 --> 00:00:51,980
+vamos a ver cómo está configurado y cómo aplican algunos movimientos del mismo.
+
+13
+00:00:53,460 --> 00:00:58,120
+En el producto vamos a poder ver que su
+
+14
+00:00:58,121 --> 00:01:02,680
+contabilidad que vamos a ver van a estar detalladas en
+
+15
+00:01:02,681 --> 00:01:05,220
+esta pestaña de aquí. de contabilidad.
+
+16
+00:01:06,140 --> 00:01:10,320
+Si lo dejamos y lo abrimos como mono, vamos a ver todos los datos
+
+17
+00:01:10,321 --> 00:01:15,860
+y las cuentas que vamos a ver utilizadas
+
+18
+00:01:15,861 --> 00:01:18,940
+en los diferentes documentos. Específicamente,
+
+19
+00:01:19,080 --> 00:01:22,080
+bueno, las cuentas que vamos a de ley. va a ser inventario de producto,
+
+20
+00:01:23,520 --> 00:01:27,000
+costo de ventas del producto,
+
+21
+00:01:28,220 --> 00:01:32,900
+conciliación de inventario y bueno
+
+22
+00:01:32,901 --> 00:01:36,640
+ventas de producto cuando se va a vendrá el mismo,
+
+23
+00:01:37,700 --> 00:01:42,660
+para recetar la ganancia. Bueno,
+
+24
+00:01:43,120 --> 00:01:47,680
+habiendo explicado estas cuentas, podemos ver que las mismas serán
+
+25
+00:01:47,681 --> 00:01:49,740
+actualizadas o definidas,
+
+26
+00:01:50,620 --> 00:01:54,520
+si bien uno puede modificar las aquí una cuenta para un producto en concreto,
+
+27
+00:01:55,260 --> 00:01:59,480
+el camino más ágil y el más utilizado es definir todas las cuentas de
+
+28
+00:01:59,481 --> 00:02:04,380
+todos los productos de manera masiva a partir de la
+
+29
+00:02:04,381 --> 00:02:09,140
+categoría de productos. En esta categoría de productos es como la categoría entidad padre,
+
+30
+00:02:10,300 --> 00:02:15,320
+que donde se puede definir ciertos productos asignados,
+
+31
+00:02:15,460 --> 00:02:20,680
+que lo vemos aquí. En este caso tenemos
+
+32
+00:02:20,681 --> 00:02:23,420
+380 productos asignados a esta categoría.
+
+33
+00:02:24,060 --> 00:02:28,280
+la cual es, tenemos una definición contable aquí,
+
+34
+00:02:28,920 --> 00:02:33,780
+donde se definen todas las cuentas que vimos y con este procesito
+
+35
+00:02:33,781 --> 00:02:38,440
+de acá, se pueden, definir todas estas cuentas
+
+36
+00:02:38,441 --> 00:02:41,340
+y actualizar los productos correspondientes.
+
+37
+00:02:41,860 --> 00:02:44,460
+O sea que en el caso de que se quiera modificar, se puede modificar
+
+38
+00:02:44,461 --> 00:02:47,780
+acá la cuenta y con este proceso se puede llevar esto,
+
+39
+00:02:47,940 --> 00:02:53,900
+esta decisión. definición a todos los productos. Así sucesivamente con todas las categorías o
+
+40
+00:02:53,901 --> 00:02:56,860
+también con todas las definiciones de datos masiva.
+
+41
+00:02:57,140 --> 00:03:02,060
+Esta lógica es replicable también para lo que es el socio de negocio y
+
+42
+00:03:02,061 --> 00:03:06,600
+el grupo de socios de negocio. donde se pueden definir las cuentas contables
+
+43
+00:03:06,601 --> 00:03:10,620
+en el grupo de socionegocio y mediante un proceso exportarlos a todos los socios
+
+44
+00:03:10,621 --> 00:03:14,540
+de negocio definidos en ese grupo. Bien,
+
+45
+00:03:14,860 --> 00:03:18,780
+habiendo aclarado eso, vamos a ver ahora algunos ejemplos de documentos.
+
+46
+00:03:19,620 --> 00:03:24,760
+Para empezar, Para este producto, vemos que tenemos
+
+47
+00:03:24,761 --> 00:03:28,160
+las transacciones que tuvo el producto, las podemos ver en esta pestaña de aquí.
+
+48
+00:03:29,460 --> 00:03:34,260
+En este caso tenemos algunos documentos específicos que
+
+49
+00:03:34,261 --> 00:03:39,780
+creamos, para poder con
+
+50
+00:03:39,781 --> 00:03:44,120
+fines del vídeo, donde agregamos una línea de inventario,
+
+51
+00:03:44,500 --> 00:03:48,220
+que esto es la carga masiva inicial de inventario,
+
+52
+00:03:48,760 --> 00:03:51,240
+para explicar un poco lo que sería la salida en vivo.
+
+53
+00:03:52,140 --> 00:03:54,780
+Y luego tenemos, como veremos, diferentes tipos de documentos,
+
+54
+00:03:54,880 --> 00:03:57,500
+embarque al cliente o recibos de proveedor.
+
+55
+00:03:58,900 --> 00:04:02,480
+Y vamos a ver cómo va a ser el comportamiento de los mismos y
+
+56
+00:04:02,481 --> 00:04:07,780
+cómo va a influir, a afectar en el costo y la contabilidad
+
+57
+00:04:07,781 --> 00:04:12,340
+de los documentos. el producto. Para
+
+58
+00:04:12,341 --> 00:04:15,800
+comenzar, vamos a navegar a lo que es el inventario de producto.
+
+59
+00:04:17,740 --> 00:04:20,240
+Podemos acercar desde aquí, que esto es la línea,
+
+60
+00:04:20,380 --> 00:04:23,380
+entonces no me va a navegar correctamente, pero me abrí la ventana,
+
+61
+00:04:24,300 --> 00:04:26,360
+Vamos a buscar y aquí tenemos, bueno,
+
+62
+00:04:26,620 --> 00:04:31,260
+en esto de D&D, tenemos este inventario de prueba que
+
+63
+00:04:31,261 --> 00:04:35,580
+lo hicimos para el primero de julio, para el almacén D&D y organización D&D.
+
+64
+00:04:36,080 --> 00:04:39,380
+En este caso vemos que agregamos solamente una línea de un producto.
+
+65
+00:04:40,380 --> 00:04:42,980
+que tenemos aquí, en la estufa,
+
+66
+00:04:43,420 --> 00:04:45,880
+con la cantidad 100, una cantidad de ejemplo,
+
+67
+00:04:46,960 --> 00:04:50,020
+y le pusimos el costo actual 2.040 pesos.
+
+68
+00:04:50,320 --> 00:04:54,080
+¿Cómo llegamos a este costo? Bueno, multiplicamos,
+
+69
+00:04:54,320 --> 00:04:59,090
+si vamos a la ficha del producto, Vimos que tomamos
+
+70
+00:04:59,091 --> 00:05:03,750
+como referencia el precio que tenía definido en la versión
+
+71
+00:05:03,751 --> 00:05:08,750
+2. Último costo versión 2 51 con 56 a
+
+72
+00:05:08,751 --> 00:05:12,090
+51 con 56 lo multiplicamos por la tasa de cambio del día que era
+
+73
+00:05:12,091 --> 00:05:16,620
+40 con 56. 55 y me terminó
+
+74
+00:05:16,621 --> 00:05:20,340
+dando el 2040,
+
+75
+00:05:21,380 --> 00:05:25,700
+que fue lo que justamente estábamos buscando,
+
+76
+00:05:27,060 --> 00:05:31,580
+para poder con el fin de hacer el ejemplo de
+
+77
+00:05:31,581 --> 00:05:36,580
+costeo.
+
+78
+00:05:37,000 --> 00:05:41,820
+Tengo acá el documento. Y aquí entonces entramos
+
+79
+00:05:41,821 --> 00:05:44,100
+que había una cantidad contada de 100,
+
+80
+00:05:44,560 --> 00:05:48,900
+cantidad cantidad en el libro 0, porque no tenía, y tiene este tipo de
+
+81
+00:05:48,901 --> 00:05:51,080
+inventario que a partir de esta definición,
+
+82
+00:05:51,140 --> 00:05:54,980
+que es un cargo, nos aplica una cuenta contable,
+
+83
+00:05:55,440 --> 00:05:58,400
+que lo vamos a ver a continuación. Veamos la contabilidad y vemos que,
+
+84
+00:05:59,540 --> 00:06:04,260
+bueno, 204.000 por 100 por 2040
+
+85
+00:06:04,261 --> 00:06:06,300
+y contra ajuste de inventa.
+
+86
+00:06:06,360 --> 00:06:10,600
+Esta cuenta es variable, es la que uno desee para lo que es el
+
+87
+00:06:10,601 --> 00:06:12,920
+movimiento, el ajuste que hagamos.
+
+88
+00:06:14,260 --> 00:06:17,960
+Y aquí lo importante es que mandamos a la cuenta de activo del inventario,
+
+89
+00:06:19,040 --> 00:06:21,660
+las 100 unidades al costo definido.
+
+90
+00:06:22,920 --> 00:06:28,420
+Ahora, lo primero que hicimos fue generar una entrega.
+
+91
+00:06:29,760 --> 00:06:32,440
+Una entrega. Las entregas las podemos ver aquí.
+
+92
+00:06:32,460 --> 00:06:34,640
+Bueno, si bien la podemos ver desde aquí,
+
+93
+00:06:36,560 --> 00:06:39,100
+desde las transacciones del producto,
+
+94
+00:06:41,220 --> 00:06:46,160
+podemos visualizarlo aquí, también podemos verlo desde
+
+95
+00:06:46,161 --> 00:06:48,400
+el reporte de detalle de transacciones.
+
+96
+00:06:48,420 --> 00:06:53,160
+Voy a copiar acá. Aquí podríamos navegar a la entrega
+
+97
+00:06:53,161 --> 00:06:58,040
+752 y vamos a ir a la
+
+98
+00:06:58,041 --> 00:07:01,620
+entrega cliente.
+
+99
+00:07:01,800 --> 00:07:04,060
+Voy a buscar la entrega cliente 752.
+
+100
+00:07:23,070 --> 00:07:29,550
+perdón este 752 y
+
+101
+00:07:29,551 --> 00:07:33,950
+aquí tenemos una entrega de ejemplo que hicimos para este para este caso con
+
+102
+00:07:33,951 --> 00:07:40,630
+fecha 10 de julio Entregamos
+
+103
+00:07:40,631 --> 00:07:45,210
+y vemos que tenemos una entrega de 10 unidades de la estufa supergás que
+
+104
+00:07:45,211 --> 00:07:48,470
+estamos validando. En esta entrega,
+
+105
+00:07:48,610 --> 00:07:51,760
+si vamos Vamos a ver la información contable.
+
+106
+00:07:53,380 --> 00:07:58,120
+Vamos a ver dos líneas. Estas dos líneas en verdad se
+
+107
+00:07:58,121 --> 00:08:01,540
+corresponden a dos tipos de contabilidad diferente.
+
+108
+00:08:01,660 --> 00:08:04,580
+Una compromiso, que es la que baja ¡Gracias por el vídeo!
+
+109
+00:08:04,620 --> 00:08:09,380
+la contabilidad de compromiso que fue generada en
+
+110
+00:08:09,381 --> 00:08:14,420
+la orden de venta. Nosotros podemos manejar el manejo de compromisos
+
+111
+00:08:14,421 --> 00:08:17,820
+contables, que esto no es una contabilidad actual o sea fiscal,
+
+112
+00:08:18,040 --> 00:08:20,520
+sino que es una contabilidad adicional.
+
+113
+00:08:20,760 --> 00:08:25,600
+que contabiliza las
+
+114
+00:08:25,601 --> 00:08:30,020
+órdenes de compra, contabiliza también los compromisos.
+
+115
+00:08:30,580 --> 00:08:32,800
+Es una contabilidad de compromiso que bueno,
+
+116
+00:08:32,820 --> 00:08:35,100
+si no quieren se puede ocultar, digamos,
+
+117
+00:08:35,980 --> 00:08:41,360
+que te agrega todo lo que es lo que
+
+118
+00:08:41,361 --> 00:08:44,500
+se compromete de vender. Acá tenés venta prometida,
+
+119
+00:08:44,640 --> 00:08:48,200
+como es como hacer una planificación y tener una idea de qué tenés ya
+
+120
+00:08:48,201 --> 00:08:51,120
+generado en un ordenador. de venta. La entrega,
+
+121
+00:08:51,180 --> 00:08:54,120
+¿qué hace? Cuando se entrega, se entiende que se realiza eso,
+
+122
+00:08:54,220 --> 00:08:57,560
+por lo cual le baja la cuota aparte a lo que se entregó.
+
+123
+00:08:58,640 --> 00:09:00,940
+Ahora, en este caso igual no,
+
+124
+00:09:00,960 --> 00:09:03,220
+no es relevante para lo que es la contabilidad actual,
+
+125
+00:09:03,320 --> 00:09:06,460
+que es la que nos importa, así que podemos poner acá actual y ver
+
+126
+00:09:06,461 --> 00:09:09,480
+solamente las líneas de la del asiento que son actual.
+
+127
+00:09:10,540 --> 00:09:15,620
+Estas son las contabilidad real y ese movimiento que hace al hacer
+
+128
+00:09:15,621 --> 00:09:20,520
+una entrega. vemos claramente que manda contra inventario y manda contra costo
+
+129
+00:09:20,521 --> 00:09:25,320
+de producto. Este
+
+130
+00:09:25,321 --> 00:09:28,940
+costo de producto lo toma de la definición del producto,
+
+131
+00:09:29,240 --> 00:09:33,080
+no del costo de producto y el inventario justamente del stock.
+
+132
+00:09:33,240 --> 00:09:37,660
+que tenía. También siempre tenemos la etiqueta y la dimensión,
+
+133
+00:09:37,700 --> 00:09:40,540
+digamos, de producto para poder jugar con el mayor contable,
+
+134
+00:09:40,640 --> 00:09:43,580
+que es lo que vamos a hacer a continuación de terminar el ejercicio este.
+
+135
+00:09:44,920 --> 00:09:48,380
+Bien, entonces ya bajó stock y lo mandó a costo de ventas.
+
+136
+00:09:49,620 --> 00:09:56,040
+Ahora, este producto,
+
+137
+00:09:56,260 --> 00:10:01,500
+podemos ver que también lo generó
+
+138
+00:10:03,400 --> 00:10:05,420
+y este costo, que es lo que queríamos mostrarles,
+
+139
+00:10:05,460 --> 00:10:11,260
+mostrar, lo tomó del costo
+
+140
+00:10:11,261 --> 00:10:13,460
+que tenía el producto. ¿Cómo podemos ver ese costo?
+
+141
+00:10:13,600 --> 00:10:15,980
+Bueno, hay un reporte que es muy útil para esto,
+
+142
+00:10:16,080 --> 00:10:19,600
+que es inventario analítico.
+
+143
+00:10:20,440 --> 00:10:23,030
+El inventario analítico Me detalla,
+
+144
+00:10:23,170 --> 00:10:29,410
+transacción a transacción de un producto. ¿Cuál
+
+145
+00:10:29,411 --> 00:10:34,770
+es el número? Transacción a transacción de un producto especificando su costo
+
+146
+00:10:34,771 --> 00:10:39,580
+actualizado del mismo. La actualización se hace por un
+
+147
+00:10:39,581 --> 00:10:42,020
+promedio de facturación. Vamos a poner acá el producto,
+
+148
+00:10:42,260 --> 00:10:45,780
+estufa, supergás. Y acá vamos a poner en este reporte fechas,
+
+149
+00:10:46,000 --> 00:10:48,560
+porque es importante el tema de las fechas contables.
+
+150
+00:10:48,640 --> 00:10:50,760
+Vamos a poner desde aquí, por ejemplo,
+
+151
+00:10:52,400 --> 00:10:54,440
+un esquema contable. y una organización.
+
+152
+00:10:54,740 --> 00:10:57,520
+Esto lo puedo sacar por producto o por más de un producto por categoría
+
+153
+00:10:57,521 --> 00:11:01,420
+si queremos. Y lo que vamos a ver aquí es el detalle.
+
+154
+00:11:01,440 --> 00:11:04,920
+de justamente cómo se compone este producto.
+
+155
+00:11:06,000 --> 00:11:08,820
+Y aquí vemos que lo primero que tuvimos fue el primero del siete,
+
+156
+00:11:09,040 --> 00:11:11,800
+una entrada de inventario con el número,
+
+157
+00:11:11,980 --> 00:11:17,100
+una entrada de inventario, cuánto es el costo total.
+
+158
+00:11:17,540 --> 00:11:20,520
+Entradas, saldo inicial, salidas,
+
+159
+00:11:20,940 --> 00:11:24,720
+valor de la transacción y el costo de cada transacción.
+
+160
+00:11:24,860 --> 00:11:28,520
+Acá me lo detalla. Ahora bien,
+
+161
+00:11:29,200 --> 00:11:32,080
+cuando hicimos la entrega entonces me salió,
+
+162
+00:11:32,500 --> 00:11:35,040
+me salieron 90, y el saldo terminó,
+
+163
+00:11:35,440 --> 00:11:38,100
+perdón, salieron 10 y el saldo terminó 90.
+
+164
+00:11:38,560 --> 00:11:41,140
+¿A qué costó? Al 2040,
+
+165
+00:11:41,300 --> 00:11:45,000
+justamente el asiento que vimos recién. Ahora,
+
+166
+00:11:45,440 --> 00:11:50,340
+siguiendo con el ejemplo, vamos a ver que vamos a Hicimos
+
+167
+00:11:50,341 --> 00:11:55,200
+una recepción de un proveedor. Vamos a ir a recepción y
+
+168
+00:11:55,201 --> 00:11:58,160
+vamos a buscar la 58. Recepción de productos.
+
+169
+00:12:05,550 --> 00:12:09,250
+La 58. Si vemos aquí la recepción,
+
+170
+00:12:10,990 --> 00:12:13,230
+hicimos una orden de compra,
+
+171
+00:12:13,430 --> 00:12:17,010
+ejemplo, a un sociomedicio cualquiera,
+
+172
+00:12:17,310 --> 00:12:22,450
+no importa cualquiera, y le definimos aquí la
+
+173
+00:12:22,451 --> 00:12:24,550
+lista de precios, la misma lista de precios,
+
+174
+00:12:24,650 --> 00:12:30,810
+o sea que son los mismos dólares pero en otra fecha y
+
+175
+00:12:30,811 --> 00:12:35,510
+esta orden de compra le pusiste el mismo precio 51,56 que
+
+176
+00:12:35,511 --> 00:12:38,920
+tenía en la lista de precios. ahora son otros dólares.
+
+177
+00:12:39,820 --> 00:12:44,480
+Entonces esta orden de compra se recepcionó el
+
+178
+00:12:44,481 --> 00:12:49,200
+24 del 7 y el 24 del 7 había otro dólar.
+
+179
+00:12:49,380 --> 00:12:54,040
+Por lo cual, las cien unidades ahora
+
+180
+00:12:54,041 --> 00:12:57,140
+no me valen 2.204.000,
+
+181
+00:12:57,640 --> 00:12:59,710
+sino que me valedó 2.606.000,
+
+182
+00:13:01,150 --> 00:13:05,490
+¿Por qué me convirtió por,
+
+183
+00:13:05,520 --> 00:13:08,480
+el costo. Esto es importante que a nivel del costo,
+
+184
+00:13:08,720 --> 00:13:15,940
+si vamos a ver el asiento, podemos ver mostrar información de documento,
+
+185
+00:13:16,000 --> 00:13:18,200
+información fue integrada.
+
+186
+00:13:19,140 --> 00:13:24,340
+Esta siento es Empecios. y me lo convierte a
+
+187
+00:13:24,341 --> 00:13:30,380
+la tasa de cambio del día. Los dolenes y
+
+188
+00:13:30,381 --> 00:13:34,900
+se recepciona según la tasa de
+
+189
+00:13:34,901 --> 00:13:37,300
+cambio del día y el precio.
+
+190
+00:13:37,680 --> 00:13:40,720
+de la orden de compra. Ahora bien,
+
+191
+00:13:41,260 --> 00:13:43,900
+esto que se contabilizó a esa tasa de cambio,
+
+192
+00:13:44,540 --> 00:13:49,200
+tuvimos otro en escenario, ¿qué es
+
+193
+00:13:49,201 --> 00:13:53,340
+terrasivo o desde el orden de compra podemos ver?
+
+194
+00:13:55,030 --> 00:13:59,510
+Como al rato me llega una factura,
+
+195
+00:13:59,511 --> 00:14:02,070
+esto no se si les va a pasar mucho o poco a ustedes que
+
+196
+00:14:02,071 --> 00:14:04,350
+reciban en una fecha y le facturen en otra,
+
+197
+00:14:04,550 --> 00:14:09,410
+no tanto, pero bueno aprovechamos para hacer la explicación de esta funcionalidad.
+
+198
+00:14:09,900 --> 00:14:13,480
+que podría valerse.
+
+199
+00:14:13,680 --> 00:14:15,980
+Puedes diferenciar a mí, o mismo por diferencia de precios,
+
+200
+00:14:16,080 --> 00:14:20,820
+entre una hora de compra y una factura. Aquí tenemos la
+
+201
+00:14:20,821 --> 00:14:23,580
+factura, pero con otra fecha.
+
+202
+00:14:24,360 --> 00:14:29,300
+Si bien tenemos en Mismo aprecio. tenemos una fecha diferente y
+
+203
+00:14:29,301 --> 00:14:33,820
+si vamos a la información contable
+
+204
+00:14:33,821 --> 00:14:36,900
+de esta factura, aquí tenemos el lo siento que hace.
+
+205
+00:14:38,280 --> 00:14:40,580
+La facturandole les tienen los precios, no,
+
+206
+00:14:40,720 --> 00:14:44,500
+la mismo es del documento. y acá me detacha la tasa de cambio 40-16,
+
+207
+00:14:45,420 --> 00:14:49,440
+diferente la tasa de cambio lo había en la fecha en cuestión,
+
+208
+00:14:50,040 --> 00:14:53,520
+que la fecha de la de la recepción,
+
+209
+00:14:54,060 --> 00:15:01,700
+por lo cual aquí Vamos
+
+210
+00:15:01,701 --> 00:15:06,540
+a ver que lo mandamos a una cuenta que me hace una cuenta puente.
+
+211
+00:15:06,980 --> 00:15:09,060
+Esta cuenta puente de clearing de inventario,
+
+212
+00:15:09,800 --> 00:15:13,840
+actualmente es una cuenta de gastos para ir con,
+
+213
+00:15:13,860 --> 00:15:17,800
+Saberisando el gasto. Llegó esa, pero bueno, podrían usar una de activos,
+
+214
+00:15:17,940 --> 00:15:20,500
+si quieren, en realidad esto como, como ustedes se en,
+
+215
+00:15:21,500 --> 00:15:24,060
+pero es una cuenta puente. ¿A qué vamos?
+
+216
+00:15:24,520 --> 00:15:26,600
+Esta cuenta puente es generada,
+
+217
+00:15:26,820 --> 00:15:28,980
+está siendo por el documento por pagar.
+
+218
+00:15:29,940 --> 00:15:34,500
+Ahora bien, esto es un cliente indimentario que luego se va a
+
+219
+00:15:34,501 --> 00:15:39,140
+conciliar, digamos, o a asignar con la recepción correspondiente.
+
+220
+00:15:39,980 --> 00:15:44,620
+¿Cómo se realiza esa asignación entre línea de factura y línea de
+
+221
+00:15:44,621 --> 00:15:49,240
+recepción de productura? Lo podemos visualizar desde los documentos
+
+222
+00:15:49,241 --> 00:15:51,580
+relacionados que tenemos en la línea de factura.
+
+223
+00:15:52,420 --> 00:15:57,300
+Vamos a ver que tenemos este señor acá que es facturas asignadas a recepciones.
+
+224
+00:15:58,480 --> 00:16:00,720
+¿Esta documento que se genera de manera automática?
+
+225
+00:16:01,980 --> 00:16:05,740
+me llama Match In Voice, que es lo que enlaza una línea de factura
+
+226
+00:16:05,741 --> 00:16:10,580
+con una línea de recepción y esto lo
+
+227
+00:16:10,581 --> 00:16:13,900
+que realiza es actualizar el precio.
+
+228
+00:16:14,920 --> 00:16:17,200
+llevando al costo real que es el costo de la factura,
+
+229
+00:16:17,600 --> 00:16:21,020
+es el valor real de el costo de la marcaría de compraste,
+
+230
+00:16:21,180 --> 00:16:23,400
+no es de la recepción, ni el de la orden de compra,
+
+231
+00:16:23,540 --> 00:16:26,860
+sino que va a ser el de la factura. ¿Y aquí qué vemos?
+
+232
+00:16:27,660 --> 00:16:31,580
+¿Por qué lo podemos ver primero aquí? En documentos por pagar,
+
+233
+00:16:32,220 --> 00:16:37,300
+tenemos un asiento que
+
+234
+00:16:37,301 --> 00:16:39,900
+la cuenta, o sea, el saldo,
+
+235
+00:16:40,100 --> 00:16:42,760
+en pesos, no, no, no, no. Empezo,
+
+236
+00:16:42,860 --> 00:16:47,620
+me da 207.000, diferente a la cientos lo habíamos visto en
+
+237
+00:16:47,621 --> 00:16:51,760
+la recepción de que era 206 mil,
+
+238
+00:16:52,040 --> 00:16:54,640
+¿no? Ok,
+
+239
+00:16:55,260 --> 00:16:59,800
+entonces ¿Qué pasa? En la recepción lo mandamos a una cuenta puente
+
+240
+00:16:59,801 --> 00:17:02,420
+que es Recepciones sin factura proveedor,
+
+241
+00:17:03,040 --> 00:17:06,900
+subiendo inventario obviamente esto no ayuda,
+
+242
+00:17:07,520 --> 00:17:12,460
+y no mandamos una cuenta puente. Recepciones sin factura ¿Y
+
+243
+00:17:12,461 --> 00:17:16,860
+qué pasa? Con esta cuenta, cuando llega la factura,
+
+244
+00:17:17,360 --> 00:17:21,360
+es que se genera automáticamente si está bien generado,
+
+245
+00:17:21,520 --> 00:17:26,700
+o sea, si se enlaza correctamente, que es la factura con esta entrega dicien
+
+246
+00:17:26,701 --> 00:17:31,920
+unidades y esto este documento es lo que hace justamente el
+
+247
+00:17:31,921 --> 00:17:36,900
+ajuste para actualizar si acabe a diferencia,
+
+248
+00:17:37,120 --> 00:17:40,220
+primero lo saca de esta cuenta. cuenta que es lo que tenía, saca de
+
+249
+00:17:40,221 --> 00:17:45,360
+la cuenta puente del clínero indimentario por sus correspondientes alo de cada una y
+
+250
+00:17:45,361 --> 00:17:48,120
+la diferencia la va a aplicar,
+
+251
+00:17:48,121 --> 00:17:50,460
+según corresponda al debe o lavar,
+
+252
+00:17:51,040 --> 00:17:55,460
+en este caso era el débil a diferencia entonces ahí te ajusta el inventario.
+
+253
+00:17:56,340 --> 00:18:01,040
+¿Qué haces esto? También puede ser replicable a
+
+254
+00:18:01,041 --> 00:18:06,990
+nivel de el inventario analítico que hayamos visto en el reporte Si
+
+255
+00:18:06,991 --> 00:18:09,790
+vemos esta recepción,
+
+256
+00:18:10,010 --> 00:18:14,690
+primera era por 266 mil, 266 mil era porque cuando se recepcionó
+
+257
+00:18:14,691 --> 00:18:18,150
+el precio, el valor del dólar a esa a esa recepción general.
+
+258
+00:18:19,210 --> 00:18:23,820
+Y me daba un costo final ¿Por qué esto era por la cientos
+
+259
+00:18:23,821 --> 00:18:26,020
+noventa unidades, no? Era 207,
+
+260
+00:18:26,180 --> 00:18:29,680
+más esto. O sea, es un promedio,
+
+261
+00:18:30,000 --> 00:18:32,020
+me daba que el costo me subió un poquito.
+
+262
+00:18:35,120 --> 00:18:38,140
+Y luego aquí nos actualizó,
+
+263
+00:18:38,160 --> 00:18:42,760
+y definió un costo total que le actualizó con la
+
+264
+00:18:42,761 --> 00:18:45,880
+factura los 600 pesos,
+
+265
+00:18:46,660 --> 00:18:51,740
+entonces la próxima Factura va a ser con este costo
+
+266
+00:18:51,741 --> 00:18:54,100
+actualizado, tanto con el auto,
+
+267
+00:18:54,120 --> 00:18:56,860
+la última recepción. El inventario pone, o sea,
+
+268
+00:18:57,880 --> 00:19:02,640
+el promedio y también actualizando
+
+269
+00:19:02,641 --> 00:19:06,680
+cualquier diferencia que tenga depresión aceptada en la factura,
+
+270
+00:19:06,760 --> 00:19:10,000
+porque cada vez una factura que completaron y que aceptaron el que había una
+
+271
+00:19:10,001 --> 00:19:14,420
+diferencia. el precio y eso impacta directamente en el costo.
+
+272
+00:19:14,520 --> 00:19:18,420
+Entonces ahí tenemos los tres documentos, los tres acientos de la recepción y la
+
+273
+00:19:18,421 --> 00:19:23,120
+factura y podemos ver cómo se impacta
+
+274
+00:19:23,121 --> 00:19:25,520
+contra el,
+
+275
+00:19:26,280 --> 00:19:28,760
+se visualiza el costo, esto es de un producto, me metí esto,
+
+276
+00:19:28,840 --> 00:19:33,600
+es para largo, por cada documento la transacción
+
+277
+00:19:33,601 --> 00:19:39,520
+suceso. En lo único haciendo que entiendo que nos falta visualizar
+
+278
+00:19:39,521 --> 00:19:42,340
+es el de la factura.
+
+279
+00:19:42,360 --> 00:19:47,100
+que al cliente que si vamos a darlo aquí tenemos
+
+280
+00:19:47,101 --> 00:19:52,000
+un documento por cobrar y este documento cobrar si
+
+281
+00:19:52,001 --> 00:19:56,600
+la entrega te baja el activo del alimentario y te lo manda
+
+282
+00:19:56,601 --> 00:19:59,580
+al costo Al costo de ventas,
+
+283
+00:20:00,300 --> 00:20:05,200
+en cada factura vamos a poder visualizar que
+
+284
+00:20:05,201 --> 00:20:07,880
+lo mandamos contra ganancias las ventas de productos,
+
+285
+00:20:09,220 --> 00:20:15,220
+por lo cual acá… la transacción tenemos el margen de ganancia bien claro de
+
+286
+00:20:15,221 --> 00:20:20,300
+cómo se aplica y cómo se podemos visualizar
+
+287
+00:20:20,301 --> 00:20:24,320
+esto para entendernos un poco también a nivel contable como podemos verlo podemos ver
+
+288
+00:20:24,321 --> 00:20:31,180
+el mayor contable baila el áncer de prueba y
+
+289
+00:20:31,181 --> 00:20:31,760
+balance de prueba
+
+290
+00:20:45,380 --> 00:20:51,680
+Vamos a poder verificar que vamos
+
+291
+00:20:51,681 --> 00:20:55,400
+a hacer una búsqueda vamos a hacer para los
+
+292
+00:20:59,960 --> 00:21:03,120
+vamos a dar fecha contable en la organización y vamos a filtrar el producto
+
+293
+00:21:05,880 --> 00:21:08,600
+vamos a filtrar por estufa y vamos a
+
+294
+00:21:20,850 --> 00:21:24,510
+Y aquí tenemos todo esto, los movimientos que se generaron a partir de este
+
+295
+00:21:24,511 --> 00:21:27,010
+salo, este, este, esta transacciones.
+
+296
+00:21:27,850 --> 00:21:28,370
+Bien.
+
+297
+00:21:33,360 --> 00:21:35,400
+y acá entonces tenemos, bueno, justamente,
+
+298
+00:21:35,940 --> 00:21:38,760
+chiquitinimentario, quedo en cero,
+
+299
+00:21:39,320 --> 00:21:41,700
+quedo en cero, está bien, quedo en cero,
+
+300
+00:21:41,740 --> 00:21:47,060
+tendría que quedar en cero, y vemos aquí los Bueno,
+
+301
+00:21:47,440 --> 00:21:52,060
+el producto que documentos lo
+
+302
+00:21:52,061 --> 00:21:55,400
+generaron que tabla el corresponder y la factura,
+
+303
+00:21:55,620 --> 00:22:01,300
+perfecto, la mente de productos 29 y
+
+304
+00:22:01,301 --> 00:22:04,400
+acabamos dos aquí. la venta de productos, esto lo podemos ordenar un poco porque
+
+305
+00:22:04,401 --> 00:22:08,200
+me da venta de productos, me hace el costo 20,
+
+306
+00:22:08,860 --> 00:22:11,020
+aquí tenemos la diferencia,
+
+307
+00:22:11,340 --> 00:22:17,060
+la garancia neta es bruto digamos que hubo de esta
+
+308
+00:22:17,061 --> 00:22:21,580
+transacción con que, así que podemos
+
+309
+00:22:21,581 --> 00:22:24,600
+yo listar y bueno tenemos a la juta de material, la carga de inventario,
+
+310
+00:22:25,100 --> 00:22:31,080
+correspondiente y podemos yo listar cada una de estas de
+
+311
+00:22:31,081 --> 00:22:33,800
+estas de ¿Qué tal? ¿Qué tal?
+
+312
+00:22:33,980 --> 00:22:38,940
+este balance lo podemos haber sacado con otros parámetros para
+
+313
+00:22:38,941 --> 00:22:44,900
+ir jugando un poco también y viendo los resultados pero
+
+314
+00:22:44,901 --> 00:22:51,260
+bueno, entiendo que con esto está bastante un
+
+315
+00:22:51,261 --> 00:22:55,920
+resumen a una presentación genérica de general de toda la definición con

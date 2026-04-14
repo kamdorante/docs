@@ -1,0 +1,211 @@
+1
+00:00:00,910 --> 00:00:04,530
+Vamos a probar acá en retail.es o vamos a ver lo que es la
+
+2
+00:00:04,531 --> 00:00:07,730
+nueva configuración para la contabilidad.
+
+3
+00:00:08,120 --> 00:00:11,900
+y el procesamiento de costo en colas,
+
+4
+00:00:12,280 --> 00:00:15,980
+de esta forma para que estos procesos no ocurran al momento que se den
+
+5
+00:00:15,981 --> 00:00:20,680
+por presentando los documentos y así sean estas operaciones diarias sean
+
+6
+00:00:20,681 --> 00:00:25,200
+más rápidas. La configuración inicial es que Primero por
+
+7
+00:00:25,201 --> 00:00:29,600
+compañía se debe crear configuración de funcionalidad.
+
+8
+00:00:32,950 --> 00:00:36,890
+acá en definición vamos a ver accounting at cost setup,
+
+9
+00:00:37,470 --> 00:00:40,780
+este setup es para la contabilidad y y los costos.
+
+10
+00:00:40,900 --> 00:00:43,400
+Muy importante, se debe correr esto para cada compañía.
+
+11
+00:00:45,900 --> 00:00:51,040
+Corremos acá. ok ok
+
+12
+00:00:51,041 --> 00:00:54,480
+esto va a generar lo que es la,
+
+13
+00:00:54,481 --> 00:01:01,200
+esto se llama de, Programación
+
+14
+00:01:04,380 --> 00:01:09,340
+de programador de procesos y
+
+15
+00:01:09,341 --> 00:01:12,840
+vamos a ver que aquí hay dos programadores de procesos que se es uno
+
+16
+00:01:12,841 --> 00:01:15,200
+es de la contabilidad,
+
+17
+00:01:15,500 --> 00:01:18,020
+el otro es del costeo,
+
+18
+00:01:18,380 --> 00:01:22,940
+vamos a ver qué pasa. Estos
+
+19
+00:01:22,941 --> 00:01:25,020
+están corriendo lo que es cada minuto,
+
+20
+00:01:25,160 --> 00:01:28,040
+cada 5 minutos, ambos están corriendo cada 5 minutos.
+
+21
+00:01:30,200 --> 00:01:34,840
+y vemos que acá tienen los parámetros,
+
+22
+00:01:35,140 --> 00:01:39,780
+10 lotes a procesar Así el registro por lote no elimina registros y el
+
+23
+00:01:39,781 --> 00:01:42,760
+tipo de cola es este, bueno,
+
+24
+00:01:42,880 --> 00:01:47,820
+es el parámetro que está en tipo de cola. para contabilidad
+
+25
+00:01:47,821 --> 00:01:50,540
+y el otro tiene la tipo de cola para costeo.
+
+26
+00:01:52,430 --> 00:01:56,770
+el del costeo Ok,
+
+27
+00:01:57,110 --> 00:02:02,060
+esa es la otra configuración es por compañía Vamos a ver que se agregaron
+
+28
+00:02:02,061 --> 00:02:05,320
+dos campos nuevos, configuración de contabilidad y configuración de costo.
+
+29
+00:02:09,380 --> 00:02:12,300
+vamos a ver que aquí ya no está el campo o no se muestra
+
+30
+00:02:12,301 --> 00:02:16,840
+o no se ve el campo de costreo inmediato y aquí que ese campo
+
+31
+00:02:16,841 --> 00:02:21,180
+se va a hacer ahora se cambió para que funcione con este campo de
+
+32
+00:02:21,181 --> 00:02:24,400
+acá, configuración de costo, está lista, que ambos vemos aquí.
+
+33
+00:02:24,420 --> 00:02:27,840
+que van a tener tres configuraciones, inmediato,
+
+34
+00:02:28,400 --> 00:02:31,420
+deshabilitado o en cola. Igualmente acá la contabilidad,
+
+35
+00:02:31,560 --> 00:02:34,280
+inmediato, deshabilitado o o en cola. De la misma forma,
+
+36
+00:02:34,420 --> 00:02:39,880
+esta configuración de contabilidad va a sustituir lo que era el
+
+37
+00:02:39,881 --> 00:02:44,700
+configurador. el sistema, lo
+
+38
+00:02:44,701 --> 00:02:48,380
+que es este de cliente accounting, este de acá.
+
+39
+00:02:50,570 --> 00:02:55,190
+ya no se va a utilizar como tal esta variable del sistema,
+
+40
+00:02:55,470 --> 00:02:57,720
+que es la counting, sino que que se va a utilizar por acá por
+
+41
+00:02:57,721 --> 00:03:02,420
+compañía de la
+
+42
+00:03:02,421 --> 00:03:06,440
+misma forma en el actual en el en el migrador.
+
+43
+00:03:07,040 --> 00:03:11,960
+Se colocó para que se actualice según la configuración que detenga la
+
+44
+00:03:11,961 --> 00:03:14,520
+compañía. ,o el sistema, si está a nivel de sistema,
+
+45
+00:03:14,660 --> 00:03:17,080
+utiliza lo que tenga el nivel de sistema acá.
+
+46
+00:03:17,320 --> 00:03:19,660
+Y si hay una configuración por compañía, lo que tenga,
+
+47
+00:03:19,920 --> 00:03:23,840
+lo que esa compañía diga, se coloca acá. Actualmente está en inmediato.
+
+48
+00:03:23,960 --> 00:03:26,740
+Igualmente en configuración de costo. Si esto tenía costo inmediato,
+
+49
+00:03:26,860 --> 00:03:30,800
+se coloca inmediato. Si no tenía costo costo inmediato se colocan en cola.
+
+50
+00:03:33,320 --> 00:03:36,640
+Ok, esta es lo que es la configuración inicial.
+
+51
+00:03:36,660 --> 00:03:41,160
+para el nuevo costeo y el nuevo costo por cola.
+
+52
+00:03:41,280 --> 00:03:43,320
+Voy a colocar esto en cola, lo voy a dejar acá.
+
+53
+00:03:44,700 --> 00:03:45,820
+para los próximos videos.

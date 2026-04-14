@@ -1,0 +1,311 @@
+1
+00:00:00,820 --> 00:00:02,860
+Vamos a ver esto aquí de MercadoLibre.
+
+2
+00:00:02,940 --> 00:00:05,580
+El primer paso que tenemos que hacer es,
+
+3
+00:00:06,780 --> 00:00:09,980
+eh, crear la aplicación.
+
+4
+00:00:10,580 --> 00:00:15,620
+Esto lo vamos a hacer en la página. de mercado libre aquí
+
+5
+00:00:15,621 --> 00:00:20,280
+de hecho ya cree la aplicación y para crear la aplicación pues es
+
+6
+00:00:20,281 --> 00:00:24,020
+muy sencillo entre comillas,
+
+7
+00:00:24,160 --> 00:00:28,400
+lo que hace es solicitar el nombre de la aplicación Por aquí,
+
+8
+00:00:28,640 --> 00:00:33,320
+por aquí, por aquí. aquí le damos aquí donde
+
+9
+00:00:33,321 --> 00:00:38,500
+dice mis aplicaciones y que se debe verlo en pedros.mercadolibre.com.b
+
+10
+00:00:38,501 --> 00:00:41,380
+o de mis aplicaciones,
+
+11
+00:00:42,020 --> 00:00:44,800
+aquí yo tengo varias. Este,
+
+12
+00:00:44,801 --> 00:00:48,240
+aquí, bueno, Le damos nuevo,
+
+13
+00:00:48,780 --> 00:00:50,880
+Llenamos esto aquí, Continuar,
+
+14
+00:00:50,881 --> 00:00:55,700
+y bueno, lo va a pedir el, el que lo podemos poner aquí app
+
+15
+00:00:55,701 --> 00:00:58,880
+de prueba app de prueba
+
+16
+00:01:04,190 --> 00:01:07,300
+¡Gracias por el logo, ponemos el logo,
+
+17
+00:01:07,940 --> 00:01:10,520
+continuar y aquí venimos con esto.
+
+18
+00:01:12,610 --> 00:01:16,130
+Nos pide el Redirect, que si nos vamos a integrar a MercadoLibre,
+
+19
+00:01:16,290 --> 00:01:19,710
+nos pide aquí el acceso y bueno,
+
+20
+00:01:19,890 --> 00:01:24,580
+por último le pide vamos aquí porque lo explico así bueno porque particularmente
+
+21
+00:01:24,581 --> 00:01:29,420
+ya tengo una aplicación que es esta, voy a cerrar aquí donde
+
+22
+00:01:29,421 --> 00:01:32,020
+tengo el app id, el client secret,
+
+23
+00:01:33,380 --> 00:01:37,080
+el redirect o los remotes Redirecto.
+
+24
+00:01:37,300 --> 00:01:41,480
+Estos redirects que están aquí apuntan directamente a N8M,
+
+25
+00:01:41,600 --> 00:01:44,480
+que es donde yo quiero capturar mis textos.
+
+26
+00:01:44,500 --> 00:01:48,000
+token o mi primer token de refresh,
+
+27
+00:01:48,820 --> 00:01:51,620
+si lo tengo para prueba y para producción normal.
+
+28
+00:01:53,440 --> 00:01:56,380
+Ven que donde dice Mercado Libre están pildados también aquí,
+
+29
+00:01:58,080 --> 00:02:00,560
+pero particularmente de Mercado Libre Mexico.
+
+30
+00:02:00,580 --> 00:02:02,940
+Lo que interesa es publicación y sincronización,
+
+31
+00:02:03,220 --> 00:02:06,340
+lectura y escritura, publicidad de producto,
+
+32
+00:02:06,480 --> 00:02:08,600
+lectura y escritura. Así lo dejé, lo demás no me interesa.
+
+33
+00:02:09,400 --> 00:02:12,640
+Para el caso de las órdenes, le coloque orden B2 y esto es que
+
+34
+00:02:12,641 --> 00:02:15,020
+cuando alguien me haga un pedido en MercadoLibre,
+
+35
+00:02:15,400 --> 00:02:19,380
+él me avise con un, webhook. ¿Dónde me avisa?
+
+36
+00:02:19,780 --> 00:02:23,220
+Bueno, esto se configura aquí abajo. Sí.
+
+37
+00:02:23,880 --> 00:02:27,120
+Ahí, Mercado Cuando me haga un pedido en mi cuenta,
+
+38
+00:02:28,020 --> 00:02:31,900
+va a enviarme toda la información del pedido a este URL.
+
+39
+00:02:32,740 --> 00:02:38,510
+este url a propósito en n8n Lo
+
+40
+00:02:38,511 --> 00:02:45,560
+dejé aquí simplemente así todavía no he trabajado con esto el
+
+41
+00:02:45,561 --> 00:02:48,660
+que tenemos aquí arriba que es a donde nos va a mandar el token
+
+42
+00:02:48,661 --> 00:02:52,060
+así que es este y este se colocan Esto responde con esto que tengo
+
+43
+00:02:52,061 --> 00:02:55,360
+aquí, que sería este webhook.
+
+44
+00:02:56,920 --> 00:02:59,200
+Cuando le mande el token me va a enviar un correo también,
+
+45
+00:02:59,500 --> 00:03:03,200
+o sea, yo proceso el token y reviso el correo.
+
+46
+00:03:04,840 --> 00:03:08,920
+Bien, esto ya para explicarles un poco cómo es esto de la configuración de
+
+47
+00:03:08,921 --> 00:03:12,600
+Mercado Libre. Aquí en esta página que la dejo en el issue también.
+
+48
+00:03:12,900 --> 00:03:15,680
+Explica como es el token de acceso y todo,
+
+49
+00:03:15,820 --> 00:03:19,260
+osea que se debe seguir. En este caso lo que dice que se debe
+
+50
+00:03:19,261 --> 00:03:22,660
+colocar es tu url, en mi caso puse vee,
+
+51
+00:03:23,600 --> 00:03:28,200
+y donde dice appid. voy a colocar este etiqueta
+
+52
+00:03:28,201 --> 00:03:33,340
+aquí donde dice redirect url Voy
+
+53
+00:03:33,341 --> 00:03:36,160
+a colocar el redirecto a donde quiero que me envíe,
+
+54
+00:03:36,240 --> 00:03:40,180
+en este caso lo voy a enviar al url de n8n de producción que
+
+55
+00:03:40,181 --> 00:03:43,520
+es este que la única diferencia es que el de prueba dice aquí test
+
+56
+00:03:43,521 --> 00:03:45,740
+después de wq Y este no.
+
+57
+00:03:46,380 --> 00:03:48,520
+¿Sí? Eh, bien.
+
+58
+00:03:48,720 --> 00:03:52,600
+Entonces, vamos a, Aquí que está más fácil,
+
+59
+00:03:53,620 --> 00:03:57,200
+vamos a poner aquí la documentación, documentación.
+
+60
+00:04:00,040 --> 00:04:03,160
+Ya yo aquí tengo el URL armado que es este que está aquí,
+
+61
+00:04:03,440 --> 00:04:06,720
+ven que ahí se ve la autorización. el tipo de código,
+
+62
+00:04:06,860 --> 00:04:08,960
+o sea voy a pedir el código inicial,
+
+63
+00:04:10,360 --> 00:04:13,280
+el client ID y el redirect que ven que apunta al delante.
+
+64
+00:04:13,300 --> 00:04:18,060
+producción. Vamos a darle clic aquí y nos dijo que el workflow
+
+65
+00:04:18,061 --> 00:04:21,320
+ya inició. Si yo me voy a N8,
+
+66
+00:04:21,340 --> 00:04:25,460
+8n y veo las ejecuciones de este flujo,
+
+67
+00:04:25,640 --> 00:04:29,140
+acaba de ejecutarse una, vamos a verlo.
+
+68
+00:04:30,640 --> 00:04:35,420
+que es esta que está aquí. Ya él recibió
+
+69
+00:04:35,421 --> 00:04:38,050
+la información de MercadoLibre. Bueno,
+
+70
+00:04:40,030 --> 00:04:44,770
+con todo esto vamos a ponerle JSON, todo esto particularmente me interesa,
+
+71
+00:04:44,910 --> 00:04:47,620
+esto que está aquí. que debería,
+
+72
+00:04:47,760 --> 00:04:52,000
+si, yo creo que el Thunderbird debería llegarme,
+
+73
+00:04:52,440 --> 00:04:56,960
+este código creo que fue el último. Este
+
+74
+00:04:56,961 --> 00:05:01,140
+es un ejemplo de cómo me llega el código.
+
+75
+00:05:01,360 --> 00:05:05,900
+va aquí me acaba de llegar el otro este sería El código es
+
+76
+00:05:05,901 --> 00:05:10,520
+este y esto fue lo que solicitaron. Este señor que está aquí es
+
+77
+00:05:10,521 --> 00:05:12,900
+el que me interesa, que es mi primer código.
+
+78
+00:05:13,420 --> 00:05:15,300
+y ya vamos a ver qué hacer con él

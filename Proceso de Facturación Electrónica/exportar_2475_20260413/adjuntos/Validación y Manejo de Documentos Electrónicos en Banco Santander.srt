@@ -1,0 +1,183 @@
+1
+00:00:00,660 --> 00:00:04,000
+Ya se actualizó de IDE.DE con el último cambio.
+
+2
+00:00:04,680 --> 00:00:09,150
+Vamos a hacerlo de nuevo. registro,
+
+3
+00:00:09,530 --> 00:00:13,010
+una transferencia diferida, que es lo que vamos a entender,
+
+4
+00:00:14,290 --> 00:00:18,880
+lo vamos a guardar. y se mantiene en transparencia diferida.
+
+5
+00:00:24,570 --> 00:00:26,030
+Vamos a subirlo al final.
+
+6
+00:00:32,580 --> 00:00:35,740
+Lo guardamos y se mantiene el cheque diferido.
+
+7
+00:00:36,400 --> 00:00:40,260
+Pero si yo coloco el ticket y lo coloco otra vez a,
+
+8
+00:00:40,870 --> 00:00:42,130
+Banco Santander
+
+9
+00:00:46,650 --> 00:00:49,400
+Banco Santander es un, root,
+
+10
+00:00:49,820 --> 00:00:53,780
+colocare factura y si aquí coloco consignor final
+
+11
+00:01:02,230 --> 00:01:06,920
+Aquí se coloca un etiquete. De la misma forma vamos a validar
+
+12
+00:01:06,921 --> 00:01:08,160
+el toro de venta acá.
+
+13
+00:01:12,435 --> 00:01:15,845
+naranja. si colocamos,
+
+14
+00:01:15,846 --> 00:01:17,465
+vamos a buscar acá por ejemplo
+
+15
+00:01:25,385 --> 00:01:28,085
+Un post order de ticket. Vamos a ponerlo acá.
+
+16
+00:01:30,845 --> 00:01:33,765
+,el logístico, ,curar...
+
+17
+00:01:34,785 --> 00:01:35,525
+,ok... ,y eso es todo.
+
+18
+00:01:39,859 --> 00:01:42,699
+Vemos que aunque se colocó etiquette,
+
+19
+00:01:42,799 --> 00:01:45,759
+colocó estatura según el ROOT de la aplicación.
+
+20
+00:01:45,799 --> 00:01:48,979
+el socionegocio Banco Santander.
+
+21
+00:01:54,559 --> 00:01:57,779
+Funciona correctamente si el tipo estaba listo.
+
+22
+00:01:57,799 --> 00:02:03,079
+La validación lo que tiene es, como se
+
+23
+00:02:03,080 --> 00:02:07,639
+ha mostrado, si el tipo de documento tiene ética Si
+
+24
+00:02:07,640 --> 00:02:08,759
+tienes maneja de facturación electrónica.
+
+25
+00:02:13,879 --> 00:02:16,019
+y tiene tipo de documento fiscal.
+
+26
+00:02:17,759 --> 00:02:19,779
+Bueno, si manejan facturación electrónica,
+
+27
+00:02:20,419 --> 00:02:22,779
+según el tipo de documento que se esté usando, Si es una factura,
+
+28
+00:02:22,859 --> 00:02:26,079
+él va a buscar la factura del grupo de impuestos.
+
+29
+00:02:26,639 --> 00:02:29,579
+Si es una nota, él va a buscar la nota del grupo de impuestos.
+
+30
+00:02:29,899 --> 00:02:34,559
+y el documento utilizado maneja facturación electrónica pero no tiene configurado
+
+31
+00:02:34,560 --> 00:02:37,919
+tipo documento fiscal, el va a tomar por defecto el documento.
+
+32
+00:02:37,939 --> 00:02:38,999
+documento de factura.
+
+33
+00:02:45,979 --> 00:02:49,079
+Una chequea diferente al tercero,
+
+34
+00:02:49,699 --> 00:02:51,959
+solo rápidamente para la avaliación,
+
+35
+00:02:53,179 --> 00:02:57,159
+maneja facturación. electrónica. Bueno,
+
+36
+00:02:57,479 --> 00:03:01,139
+no puedo colocar la calidad de la cámara. Pero si hay un dado caso
+
+37
+00:03:01,140 --> 00:03:07,959
+de que maneja fantásticamente bien. y no tiene nada configurado toma
+
+38
+00:03:07,960 --> 00:03:13,039
+por defecto lo que es una factura. con
+
+39
+00:03:13,040 --> 00:03:18,059
+esto queda la valencia de cualquier documento que no sea de manufacturación
+
+40
+00:03:18,079 --> 00:03:21,799
+electrónica, no tiene ningún tipo de validación de factorización electrónica,
+
+41
+00:03:21,859 --> 00:03:26,099
+como es el colocar el tipo de documento según el grupo de impuestos.
+
+42
+00:03:26,119 --> 00:03:30,759
+Y también cómo era la agrupación de facturación.
+
+43
+00:03:34,209 --> 00:03:36,329
+para la línea CFE,
+
+44
+00:03:36,469 --> 00:03:38,589
+lo que es el resumen de facturación electrónica.
+
+45
+00:03:39,109 --> 00:03:43,899
+Esa validación tampoco se lleva a a cabo en documentos que no manejen
+
+46
+00:03:43,900 --> 00:03:44,859
+facturación electrónica.

@@ -1,0 +1,191 @@
+1
+00:00:00,370 --> 00:00:04,010
+En este video vamos a ver cómo es que se confibir a los rubros,
+
+2
+00:00:04,190 --> 00:00:08,790
+en los productos, para hacer los envíos posteriormente a la administración
+
+3
+00:00:08,791 --> 00:00:11,930
+del Shopee. Eh,
+
+4
+00:00:12,190 --> 00:00:16,710
+a nivel concepto hay que destacar que el producto es compartido por
+
+5
+00:00:16,711 --> 00:00:21,270
+toda la organización entre las diferentes, por toda la compañía entre las diferentes
+
+6
+00:00:21,271 --> 00:00:22,150
+organizaciones.
+
+7
+00:00:30,370 --> 00:00:32,610
+que enviar cada producto se hace la siguiente manera.
+
+8
+00:00:35,810 --> 00:00:38,410
+Nosotros se abrimos la ventana del producto,
+
+9
+00:00:38,850 --> 00:00:43,710
+cualquier producto. Vamos a tener un campo que se va a llevar grupos
+
+10
+00:00:43,711 --> 00:00:47,010
+de materiales, que es aquí,
+
+11
+00:00:47,870 --> 00:00:51,430
+que es donde nosotros definimos a nivel general los materiales.
+
+12
+00:00:52,010 --> 00:00:55,090
+Tanto el producto, como el grupo de materiales de producto,
+
+13
+00:00:55,630 --> 00:01:00,570
+todo esto es definido una sola vez y se define
+
+14
+00:01:00,571 --> 00:01:04,990
+para toda la compañía, o sea que lo comparten entre las diferentes organizaciones.
+
+15
+00:01:05,730 --> 00:01:12,250
+A su vez tenemos otra ventana que se llama Rubro
+
+16
+00:01:12,251 --> 00:01:16,830
+de Shopping, que es justamente lo que esperan la
+
+17
+00:01:16,831 --> 00:01:20,190
+interfaz de comunicación para la administración del Shopping,
+
+18
+00:01:21,310 --> 00:01:25,750
+acá pueden a ver rugros semejantes entre diferentes organizaciones,
+
+19
+00:01:26,310 --> 00:01:29,330
+pero cada una es recibida con un código diferente.
+
+20
+00:01:30,290 --> 00:01:32,490
+Por ejemplo las de Montevideo Shopping se llaman así,
+
+21
+00:01:33,810 --> 00:01:38,490
+y lo podemos ubicar porque cuando suicar esa información podemos apreciar que acá
+
+22
+00:01:38,491 --> 00:01:51,790
+se llaman MSC, lo mismo para tres cruces y
+
+23
+00:01:51,791 --> 00:01:56,570
+las Lo primero que tenemos que hacer es definir en esta ventana cada
+
+24
+00:01:56,571 --> 00:02:01,370
+uno de los rubros que son exclusivos para cada shopping,
+
+25
+00:02:01,910 --> 00:02:06,490
+teniendo en cuenta de mantener que
+
+26
+00:02:06,491 --> 00:02:09,170
+queden en la organización correspondiente,
+
+27
+00:02:09,310 --> 00:02:12,870
+por ejemplo si yo cargo un rubro para tres cruces,
+
+28
+00:02:13,870 --> 00:02:16,650
+asegurarnos que tenga la organización de tres cruces,
+
+29
+00:02:17,330 --> 00:02:21,110
+lo mismo para de videojopin y lo mismo para las piedras.
+
+30
+00:02:23,650 --> 00:02:28,290
+Después en grupo de materiales nosotros tenemos definido estos rubros,
+
+31
+00:02:28,390 --> 00:02:30,790
+ya me hemos leído, que son a nivel general.
+
+32
+00:02:32,450 --> 00:02:36,990
+Entonces entre estas dos ventanas hay que hacer un enlace para poder
+
+33
+00:02:36,991 --> 00:02:41,630
+vincularlas y que el sistema sepa según desde que organización
+
+34
+00:02:41,631 --> 00:02:44,970
+se que a rubro cargarle,
+
+35
+00:02:45,310 --> 00:02:49,890
+que sería el que espera el shopping correspondiente,
+
+36
+00:02:50,750 --> 00:02:55,330
+entonces por ejemplo nosotros estamos en el rubro de portes y abajo
+
+37
+00:02:55,331 --> 00:03:00,210
+tenemos una pestaña que nos permite asociarlo con un registro
+
+38
+00:03:00,211 --> 00:03:04,510
+de la ventana a rubro, nosotros cambiamos a mono,
+
+39
+00:03:04,750 --> 00:03:09,390
+vemos que acá tenemos Esto es importante también que
+
+40
+00:03:09,391 --> 00:03:14,270
+tenga la organización correspondiente al
+
+41
+00:03:14,271 --> 00:03:18,850
+igual que el rubro. Acabemos que estoy enlazado a través
+
+42
+00:03:18,851 --> 00:03:23,670
+de este porque estamos en deportes y lo enlazamos al rubro
+
+43
+00:03:23,671 --> 00:03:30,870
+de shopping correspondiente que es Montevideo shopping y
+
+44
+00:03:30,871 --> 00:03:35,470
+esta sería la asociación en totalidad una vez tenemos definido esto
+
+45
+00:03:35,471 --> 00:03:40,190
+nosotros vamos a poder enviar un documento desde la interfaz y va
+
+46
+00:03:40,191 --> 00:03:44,890
+a saber el sistema dependiendo de esta parametrización a que
+
+47
+00:03:44,891 --> 00:03:49,550
+es ruro correspondiente a que shopping es que se tiene que mandar la
+
+48
+00:03:49,551 --> 00:03:50,150
+información

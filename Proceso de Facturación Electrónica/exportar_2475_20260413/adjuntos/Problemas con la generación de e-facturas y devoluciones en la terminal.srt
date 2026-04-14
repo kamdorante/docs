@@ -1,0 +1,63 @@
+1
+00:00:01,520 --> 00:00:06,220
+Bueno, estoy en la instancia DeiDTest y antes de
+
+2
+00:00:06,221 --> 00:00:10,810
+generar el caso desde Vue. que dicen que generan una
+
+3
+00:00:10,811 --> 00:00:15,250
+e-factura para un cliente con root y cuando la persona viene a hacer la
+
+4
+00:00:15,251 --> 00:00:20,130
+devolución Hace la devolución y genera un e-ticket y
+
+5
+00:00:20,160 --> 00:00:25,060
+y le da error. Acá lo que yo veo es que en la terminal
+
+6
+00:00:26,140 --> 00:00:28,900
+smart De caja 1,
+
+7
+00:00:30,500 --> 00:00:33,340
+si yo navego desde,
+
+8
+00:00:40,740 --> 00:00:43,760
+Estoy en la de factura.
+
+9
+00:00:45,250 --> 00:00:49,290
+y quiero navegar a el documento que tiene de devolución.
+
+10
+00:00:50,070 --> 00:00:52,350
+Bueno, voy a ver,
+
+11
+00:00:52,380 --> 00:00:58,460
+el documento de devolución y tiene definido e-ticket-nota de crédito o
+
+12
+00:00:58,461 --> 00:01:00,720
+sea que ese es el documento que le va a generar un Cuanto a
+
+13
+00:01:00,721 --> 00:01:06,700
+la devolución, quizás esto es lo que está mal, está mal definido para
+
+14
+00:01:06,701 --> 00:01:10,340
+este tipo de devolución, ¿no? Autorización. Revolución cliente,
+
+15
+00:01:10,460 --> 00:01:13,320
+TSC, la de factura.
+
+16
+00:01:13,920 --> 00:01:15,460
+Básicamente eso es lo que veo en principio.

@@ -1,0 +1,83 @@
+1
+00:00:00,370 --> 00:00:04,630
+Bueno, vamos, primero que todo vamos a aprobar la funcionalidad,
+
+2
+00:00:04,770 --> 00:00:07,270
+tengo esto que se llama Y Factura, sí,
+
+3
+00:00:07,430 --> 00:00:11,210
+pero para esta persona, que si lo voy a acercar,
+
+4
+00:00:11,290 --> 00:00:14,610
+ehm, ser que, ok,
+
+5
+00:00:14,910 --> 00:00:17,470
+vemos que ella tiene grupo y puesto sedora entidad,
+
+6
+00:00:17,970 --> 00:00:22,930
+aquí en grupo y puesto sedora entidad, facturación electrónica,
+
+7
+00:00:23,370 --> 00:00:28,410
+tenemos ya configurado esto, quiere decir que esta persona le debe corresponder etiquet horneros,
+
+8
+00:00:28,630 --> 00:00:31,210
+vamos a copiar esto,
+
+9
+00:00:31,550 --> 00:00:34,830
+copiamos,
+
+10
+00:00:35,390 --> 00:00:38,830
+como le dije, el primer evento es cuando le damos nuevo,
+
+11
+00:00:39,610 --> 00:00:42,150
+en este caso estoy nuevo y guardar,
+
+12
+00:00:42,310 --> 00:00:46,870
+guardar y en el cambio aquí el etiquet hornero
+
+13
+00:00:46,871 --> 00:00:51,530
+automáticamente. Vamos a copiar
+
+14
+00:00:51,531 --> 00:00:56,230
+las líneas, el otro vento y vamos
+
+15
+00:00:56,231 --> 00:01:00,770
+a completarlo. Para ese tipo
+
+16
+00:01:00,771 --> 00:01:05,290
+de documento al completar, simplemente lo que hace
+
+17
+00:01:05,291 --> 00:01:08,030
+es completarlo, no lo envío automáticamente.
+
+18
+00:01:08,810 --> 00:01:12,230
+Yo lo tengo que dar aquí de manera manual o usar la cola de
+
+19
+00:01:12,231 --> 00:01:15,430
+ejecución no parece que lo envía, se ve que lo envió,
+
+20
+00:01:15,930 --> 00:01:19,230
+lo podemos ver aquí en la Vitacora de Documento Electrónico,
+
+21
+00:01:19,370 --> 00:01:20,910
+que está todo esto y como el PDS.

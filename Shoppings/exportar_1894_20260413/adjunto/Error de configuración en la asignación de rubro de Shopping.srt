@@ -1,0 +1,47 @@
+1
+00:00:01,360 --> 00:00:04,340
+Bueno, hago un video rápido para verificar esto.
+
+2
+00:00:05,700 --> 00:00:09,020
+Este es el documento que no se se envió a Shopping.
+
+3
+00:00:12,240 --> 00:00:17,920
+Es un documento, de
+
+4
+00:00:17,921 --> 00:00:20,660
+Smart. Voy a las líneas,
+
+5
+00:00:21,820 --> 00:00:25,980
+viajo al producto. Me fijo cuál es el grupo de material,
+
+6
+00:00:26,520 --> 00:00:31,900
+dice 6 papelería, que es el que dio error, y
+
+7
+00:00:31,901 --> 00:00:34,860
+si viajo a Si voy grupo y me fijo en asignación de rubro de
+
+8
+00:00:34,861 --> 00:00:39,100
+Shopping, no tiene nada. Entonces esto es un error de configuración.
+
+9
+00:00:39,340 --> 00:00:41,760
+Porque si voy a otro, ,que no dio error,
+
+10
+00:00:42,820 --> 00:00:47,580
+por ejemplo el 1, tiene asignación de rubro de shopping para
+
+11
+00:00:47,581 --> 00:00:50,240
+cada una de las, organizaciones.
+
+12
+00:00:51,160 --> 00:00:54,680
+Así que este es un tema exclusivamente de configuración.

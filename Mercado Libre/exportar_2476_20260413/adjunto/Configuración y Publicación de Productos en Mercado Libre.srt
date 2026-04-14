@@ -1,0 +1,227 @@
+1
+00:00:00,840 --> 00:00:05,580
+Para la configuración o la publicación de productos en el Mercado
+
+2
+00:00:05,581 --> 00:00:08,300
+Libre de la UI,
+
+3
+00:00:08,660 --> 00:00:10,920
+primero hay que configurar una tienda web.
+
+4
+00:00:12,180 --> 00:00:15,640
+Una tienda web se configuró, en este caso se le colocó el nombre Mercado
+
+5
+00:00:15,641 --> 00:00:20,340
+Libre. hay que agregarle los webhooks de donde
+
+6
+00:00:20,341 --> 00:00:25,020
+vas a obtener las categorías y los atributos del
+
+7
+00:00:25,021 --> 00:00:30,580
+mercado libre estos webhooks se ubican aquí y 8n lo
+
+8
+00:00:30,581 --> 00:00:35,380
+podemos obtener de aquí y esta seria el atributo
+
+9
+00:00:35,381 --> 00:00:39,980
+tambien lo tenemos de aquí ok vamos de nuevo a la
+
+10
+00:00:39,981 --> 00:00:44,660
+tienda web web amazon
+
+11
+00:00:56,280 --> 00:00:58,580
+que tengan cantidades disponibles en ese almacén,
+
+12
+00:00:58,720 --> 00:01:03,660
+en almacén de organización retail. En este caso tenemos almacén
+
+13
+00:01:03,661 --> 00:01:07,900
+de administración retail, y que trabaje con la versión de lista de precios,
+
+14
+00:01:08,060 --> 00:01:12,400
+ventas o OCD. En este caso ya,
+
+15
+00:01:12,420 --> 00:01:14,420
+Tengo uno aquí preparado, que es,
+
+16
+00:01:20,400 --> 00:01:25,640
+Como podemos ver, tenemos, 9.998 de
+
+17
+00:01:25,641 --> 00:01:28,080
+existencia, y también el precio de la lista de precios,
+
+18
+00:01:28,140 --> 00:01:28,480
+que al pasar
+
+19
+00:01:34,320 --> 00:01:37,660
+En este caso vamos a configurarlo,
+
+20
+00:01:39,660 --> 00:01:44,200
+vamos a colocarle un modelo, un color y
+
+21
+00:01:44,201 --> 00:01:48,580
+pongamos Ya lo tenemos por defecto, vamos a subir las categorías,
+
+22
+00:01:49,740 --> 00:01:53,140
+seleccionamos todas las categorías.
+
+23
+00:01:58,450 --> 00:02:03,190
+ha creado 76 de teoría correcto entonces ahora vamos a publicar el producto
+
+24
+00:02:06,730 --> 00:02:11,390
+ok aquí no lo publicó porque debe ser que este producto ya está
+
+25
+00:02:11,391 --> 00:02:15,980
+en una publicación en ese tiempo en ese
+
+26
+00:02:15,981 --> 00:02:20,680
+momento vamos a la ventana de publicación en la tienda web como podemos ver
+
+27
+00:02:20,681 --> 00:02:25,560
+ya tenemos un producto que está publicando con este mismo producto
+
+28
+00:02:25,561 --> 00:02:31,400
+en la misma tienda que se está publicando debemos proceder
+
+29
+00:02:31,401 --> 00:02:37,020
+a desactivar publicación ya
+
+30
+00:02:37,021 --> 00:02:43,100
+que ya la desactivo ahora si nos va a permitir publicar vamos,
+
+31
+00:02:43,340 --> 00:02:45,480
+selecciono la tienda publicamos.
+
+32
+00:02:50,320 --> 00:02:52,580
+Ahora si, como podemos ver,
+
+33
+00:02:53,180 --> 00:02:56,000
+dice que creo uno, vamos a la tienda,
+
+34
+00:02:57,160 --> 00:03:00,600
+la ventana de publicación está en la web, lo buscamos aquí.
+
+35
+00:03:02,480 --> 00:03:07,240
+Tenemos el producto sin publicar. Vamos ahora a proceder.
+
+36
+00:03:07,880 --> 00:03:10,280
+Desde la ventana publicaciones,
+
+37
+00:03:10,420 --> 00:03:12,460
+tienda web, también podemos cambiar los parámetros.
+
+38
+00:03:12,940 --> 00:03:16,940
+En este momento, yo quiero cambiar,
+
+39
+00:03:16,980 --> 00:03:22,360
+de por
+
+40
+00:03:22,361 --> 00:03:23,760
+defecto.
+
+41
+00:03:33,000 --> 00:03:35,700
+de lo que se configuró en la ventana Producto,
+
+42
+00:03:36,100 --> 00:03:39,780
+vamos a agregarle un nuevo atributo que sea Panasol en la marca.
+
+43
+00:03:41,720 --> 00:03:44,700
+Lo guardo correctamente, ahora vamos a publicarlo.
+
+44
+00:03:44,701 --> 00:03:47,260
+Saludos, comunicación.
+
+45
+00:03:50,790 --> 00:03:55,470
+y procedió a publicarlo, aquí hay que hacer un trabajo con
+
+46
+00:03:55,471 --> 00:04:00,030
+n8n ya que como podemos ver aquí
+
+47
+00:04:00,031 --> 00:04:04,820
+está el servicio aquí está el buque donde se realiza la publicación
+
+48
+00:04:04,821 --> 00:04:07,300
+pero no está cambiando el estado,
+
+49
+00:04:08,180 --> 00:04:12,720
+aquí debería setear el url del estado de
+
+50
+00:04:12,721 --> 00:04:15,960
+la publicación Si nos acercamos aquí,
+
+51
+00:04:16,760 --> 00:04:19,200
+ya el estado se publicó,
+
+52
+00:04:19,500 --> 00:04:22,100
+en este caso se ha publicado con la cuenta de Yammer, que fue con
+
+53
+00:04:22,101 --> 00:04:26,720
+la que se configuró. Podemos ver los
+
+54
+00:04:26,721 --> 00:04:31,860
+atributos que se agregaron. y
+
+55
+00:04:31,861 --> 00:04:37,160
+la versión del liste de precios que se ha creado en ese momento
+
+56
+00:04:39,100 --> 00:04:43,920
+ok, comprobamos 15 la versión del liste de precios y los productos
+
+57
+00:04:43,921 --> 00:04:46,300
+por ojo Bien.

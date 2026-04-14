@@ -1,0 +1,151 @@
+1
+00:00:01,020 --> 00:00:04,320
+Bueno, se presentó una situación meda extraña,
+
+2
+00:00:04,660 --> 00:00:08,300
+este, en Movimagen. Acaban de crear este,
+
+3
+00:00:09,320 --> 00:00:12,100
+DxP, o sea, este DxP,
+
+4
+00:00:12,500 --> 00:00:17,440
+una factura proveedor. que bueno
+
+5
+00:00:17,441 --> 00:00:22,120
+no veo mucho dato acá pero lo acaban de generar y le definieron la
+
+6
+00:00:22,121 --> 00:00:27,060
+fecha primero de febrero,
+
+7
+00:00:27,460 --> 00:00:30,980
+no veo la fecha contable acá pero vamos a ver la fecha contable,
+
+8
+00:00:31,140 --> 00:00:34,300
+bueno acá me muestra No puedo ver la fecha,
+
+9
+00:00:35,340 --> 00:00:37,640
+información del documento,
+
+10
+00:00:38,200 --> 00:00:40,700
+acá tengo otra fecha,
+
+11
+00:00:40,920 --> 00:00:44,400
+información fuente, fecha contable,
+
+12
+00:00:44,700 --> 00:00:47,900
+fecha de transacción. El primero de febrero.
+
+13
+00:00:48,560 --> 00:00:53,040
+Y si veo, este es el documento 117,
+
+14
+00:00:53,340 --> 00:00:57,040
+generó una retención, que la retención la tengo acá abierta,
+
+15
+00:00:58,060 --> 00:01:01,820
+primero de febrero, el 117,
+
+16
+00:01:03,900 --> 00:01:06,980
+pero le digo que definió a esta retención,
+
+17
+00:01:07,080 --> 00:01:11,920
+la creo con la fecha, es como que la cruzó,
+
+18
+00:01:12,120 --> 00:01:14,760
+no se si puedo ver esto de alguna manera,
+
+19
+00:01:15,620 --> 00:01:17,960
+si, digo no es que este,
+
+20
+00:01:18,940 --> 00:01:21,560
+no entiendo, no entiendo, es el error aclarado. acá, es como que le puso,
+
+21
+00:01:21,880 --> 00:01:26,460
+le cambió los, no sé
+
+22
+00:01:26,461 --> 00:01:28,520
+si podría haber entrado en inglés, y ya,
+
+23
+00:01:28,740 --> 00:01:31,860
+por error, que nunca entra, no creo que haya pasado,
+
+24
+00:01:32,380 --> 00:01:35,980
+pero bueno, yo voy a, estoy mostrando esto porque no podían,
+
+25
+00:01:36,060 --> 00:01:38,900
+no querían generar ningún en el resguardo con esto generado,
+
+26
+00:01:41,260 --> 00:01:44,240
+y esto lo acaban de generar, para que vean, mismo usuario,
+
+27
+00:01:44,360 --> 00:01:47,720
+misma fecha, raro.
+
+28
+00:01:48,440 --> 00:01:51,900
+Lo que yo voy a hacer es, voy a.
+
+29
+00:01:53,250 --> 00:01:57,850
+¿Volver a generar acá? ¿Generar
+
+30
+00:01:57,851 --> 00:02:02,130
+retención? ¿Procesar retenciones?
+
+31
+00:02:05,550 --> 00:02:08,650
+Se ve que ya no funciona más.
+
+32
+00:02:09,010 --> 00:02:11,610
+Esto funcionaba,
+
+33
+00:02:11,810 --> 00:02:16,430
+¿no? Generar retenciones, pero
+
+34
+00:02:16,431 --> 00:02:19,650
+parece que no funciona. Reprocesar retención.
+
+35
+00:02:22,150 --> 00:02:26,820
+Tampoco. No sé qué pasó.
+
+36
+00:02:27,600 --> 00:02:30,300
+Generar la tensión. Bueno, esto no funciona,
+
+37
+00:02:30,380 --> 00:02:32,520
+hay que sacarlo. Procesar las tensiones.
+
+38
+00:02:33,760 --> 00:02:37,280
+Ok. No, no sé cómo pudo haber pasado esto.

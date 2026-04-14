@@ -1,0 +1,167 @@
+1
+00:00:02,910 --> 00:00:05,730
+Bueno, vamos a ver lo que es la funcionalidad de, eh, fomulario,
+
+2
+00:00:06,370 --> 00:00:08,310
+eh, para deje y 2, 1, 8, 1.
+
+3
+00:00:13,290 --> 00:00:18,240
+Vamos a la ventana. y bueno
+
+4
+00:00:18,241 --> 00:00:21,900
+tenemos la organización para cual se va a generar es la que está lo
+
+5
+00:00:21,901 --> 00:00:26,580
+ya y aquí le dijimos el periodo sería agosto del 2025
+
+6
+00:00:26,581 --> 00:00:31,560
+sin los que guardamos el cabezal vamos
+
+7
+00:00:31,561 --> 00:00:36,900
+primero a obtener los datos mediante este botón,
+
+8
+00:00:37,020 --> 00:00:41,880
+aquí dice que termina un situación y en
+
+9
+00:00:41,881 --> 00:00:45,740
+la pestaña de documentos vamos a ver El detalle de todos los documentos que
+
+10
+00:00:45,741 --> 00:00:48,520
+encontró, tanto para compra como para venta,
+
+11
+00:00:48,680 --> 00:00:50,840
+aquí vemos que tenemos si facturas, futuras proveedor, sí,
+
+12
+00:00:51,320 --> 00:00:54,920
+son 25 líneas. Si huieran inconsistencias,
+
+13
+00:00:55,440 --> 00:00:58,700
+acá aparecerían, acá tenemos,
+
+14
+00:00:59,180 --> 00:01:01,780
+este, bueno, este capito, Bueno, está muy chico,
+
+15
+00:01:02,160 --> 00:01:06,940
+está que llega a grandarlo, pero básicamente lo que
+
+16
+00:01:06,941 --> 00:01:11,900
+nos mostraría aquí es en
+
+17
+00:01:11,901 --> 00:01:16,000
+el caso por ejemplo de que acá la puedo ver mejor.
+
+18
+00:01:16,880 --> 00:01:21,160
+este socio negocio no tiene rupt definido y el otro bajo tampoco.
+
+19
+00:01:22,060 --> 00:01:25,100
+Otra mensaje podría hacer que tuviera un rupt definido pero que no fuera válido
+
+20
+00:01:25,101 --> 00:01:29,620
+para deje y bueno eso es específica acá en los inconsistencias por lo cual
+
+21
+00:01:29,621 --> 00:01:32,420
+les recomendable corregirlos.
+
+22
+00:01:32,440 --> 00:01:36,980
+los datos, los errores que se encuentran en esta pestaña y luego de
+
+23
+00:01:36,981 --> 00:01:40,060
+corregirlos se vuelve a ejecutar el proceso,
+
+24
+00:01:40,680 --> 00:01:46,580
+cada vez que se ejecuta se borra en la anterior así que no
+
+25
+00:01:46,581 --> 00:01:51,340
+hay consistencias, ¿sí? luego de esto simplemente con el botón a generarte
+
+26
+00:01:51,341 --> 00:01:56,140
+xt lo que se va a hacer generar archivo texto plano xt que
+
+27
+00:01:56,141 --> 00:02:01,900
+es el archivo para diger xt acá existe la opción de agrupar
+
+28
+00:02:01,901 --> 00:02:04,640
+por socio negocio, lo que va a hacer.
+
+29
+00:02:04,660 --> 00:02:09,340
+Es generar en el TXT de manera agrupada una sola línea por cada
+
+30
+00:02:09,341 --> 00:02:12,740
+socio negocio que tenga documentos.
+
+31
+00:02:13,520 --> 00:02:18,160
+Por defecto es una agrupada por lo cual en el TXT van a visualizar
+
+32
+00:02:18,161 --> 00:02:20,660
+una línea por cada documento.
+
+33
+00:02:21,660 --> 00:02:27,920
+vamos a hacer un ejemplo de dos tipos este
+
+34
+00:02:27,921 --> 00:02:33,560
+sin agrupar y otra
+
+35
+00:02:33,561 --> 00:02:38,170
+agrupando Ahí
+
+36
+00:02:38,171 --> 00:02:41,990
+está. Esto, el archivo generado del TXT,
+
+37
+00:02:42,310 --> 00:02:46,150
+luego lo van a poder observar desde los adjuntos.
+
+38
+00:02:46,630 --> 00:02:50,430
+Acá dices sin datos, a cada de momento no se están ajuntando,
+
+39
+00:02:50,690 --> 00:02:55,460
+esto va a quedar corregido nos vemos en el para que puedan visualizarlos
+
+40
+00:02:55,461 --> 00:03:00,440
+de aquí los archivos te quisten, pero de momento vamos a
+
+41
+00:02:59,960 --> 00:03:06,120
+a pasarles los ejemplos de cómo quedan generados
+
+42
+00:03:06,121 --> 00:03:07,920
+para este caso que quisimos la prueba.

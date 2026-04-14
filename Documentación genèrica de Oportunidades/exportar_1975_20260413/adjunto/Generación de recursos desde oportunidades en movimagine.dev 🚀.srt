@@ -1,0 +1,39 @@
+1
+00:00:02,740 --> 00:00:05,100
+Vamos a ver acá, en movimagine.dev,
+
+2
+00:00:05,260 --> 00:00:07,420
+eh, le intentaré generar desde esta oportunidad.
+
+3
+00:00:08,440 --> 00:00:10,740
+Tenemos una oportunidad que no tiene cotización.
+
+4
+00:00:12,200 --> 00:00:14,980
+y si intentamos acá generar un recurso,
+
+5
+00:00:15,360 --> 00:00:19,200
+hacemos un nuevo registro, desde este hasta,
+
+6
+00:00:25,680 --> 00:00:28,120
+Vemos que ya el error es orden de venta,
+
+7
+00:00:28,121 --> 00:00:30,540
+¿no? Por favor, que haga una orden de meta desde la oportunidad de volver
+
+8
+00:00:30,541 --> 00:00:32,780
+a intentarlo. No,
+
+9
+00:00:32,900 --> 00:00:36,000
+sale el mensaje de NullPointer o,
+
+10
+00:00:36,180 --> 00:00:40,260
+de que hay valores nulos en la inserción del secuela.

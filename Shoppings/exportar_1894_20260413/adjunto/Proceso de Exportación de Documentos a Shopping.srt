@@ -1,0 +1,135 @@
+1
+00:00:00,590 --> 00:00:03,830
+Bueno, acá tengo, eh, el problema, uno de los problemas reportados,
+
+2
+00:00:04,110 --> 00:00:06,870
+¿verdad? Este es el problema, este es Mart, este número,
+
+3
+00:00:07,710 --> 00:00:10,490
+y en este caso no tengo ningún dato acá. Por lo cual,
+
+4
+00:00:10,650 --> 00:00:13,550
+lo que vamos a hacer ahora es, vamos a venir aquí.
+
+5
+00:00:16,480 --> 00:00:21,080
+Vamos a ir a la pestaña, vamos a ir a
+
+6
+00:00:21,081 --> 00:00:25,800
+la invoice, voy a
+
+7
+00:00:25,801 --> 00:00:30,780
+guardar exportar documento a Shopping, voy a agregar a la ventana y documento
+
+8
+00:00:30,781 --> 00:00:36,140
+para exportar a Shopping, estos dos. Vamos a ver cómo
+
+9
+00:00:36,141 --> 00:00:40,920
+queda con esto y a ver si hay otro check que
+
+10
+00:00:40,921 --> 00:00:45,620
+sea documento exportado Shopping.
+
+11
+00:00:52,320 --> 00:00:54,460
+Vamos a buscar a ver acá, CTRL F,
+
+12
+00:00:59,060 --> 00:01:01,120
+Shopping, solamente esos dos, perfecto.
+
+13
+00:01:01,160 --> 00:01:05,160
+Vamos arriba, lo guardo, bien. Y acá,
+
+14
+00:01:05,720 --> 00:01:08,620
+para evitar, voy a, bueno,
+
+15
+00:01:08,820 --> 00:01:11,960
+voy a venir acá, voy a copiar este número, voy a hacer el proceso
+
+16
+00:01:11,961 --> 00:01:16,040
+acá haciendo exporto en la ventana nomás,
+
+17
+00:01:16,160 --> 00:01:18,380
+y esto último lo voy lo confirmamos luego,
+
+18
+00:01:18,540 --> 00:01:21,360
+¿tá? Smart Motio Shopping y lo generamos.
+
+19
+00:01:22,640 --> 00:01:26,620
+Vamos a ir al documento por cobrar. documento por cobrar.
+
+20
+00:01:27,740 --> 00:01:31,480
+Y vengamos acá. Y vengamos aquí.
+
+21
+00:01:32,040 --> 00:01:35,100
+Y esto. Vemos que documento enviado.
+
+22
+00:01:37,580 --> 00:01:39,920
+Y acá. Bueno,
+
+23
+00:01:40,320 --> 00:01:45,500
+no tiene nada. Tiene esto, ok voy a reiniciar cache por las dudas
+
+24
+00:01:45,501 --> 00:01:49,260
+y vamos a documento por cobrar,
+
+25
+00:01:49,420 --> 00:01:56,240
+a ver si lo vemos de vuelta y
+
+26
+00:01:56,241 --> 00:01:58,840
+acá tenemos. o sea, tiene como enviado,
+
+27
+00:01:59,860 --> 00:02:04,640
+pero acá no tengo nada. Así que lo que vamos a hacer ahora es,
+
+28
+00:02:04,960 --> 00:02:08,740
+esto es producción, enviamos. Conexión a Shopping,
+
+29
+00:02:08,920 --> 00:02:13,220
+ok. Monté a Shopping.
+
+30
+00:02:13,240 --> 00:02:17,980
+Pero elijo, uso este proceso para exportar la venta realizada
+
+31
+00:02:17,981 --> 00:02:22,640
+en un rango de fecha, supongo que esto es para este proceso acá,
+
+32
+00:02:23,760 --> 00:02:26,560
+y aquí si me define y me confirmo el error,
+
+33
+00:02:28,640 --> 00:02:33,360
+me confirmo Firma en error. Asignación de rubro no encontrado 411.
+
+34
+00:02:34,240 --> 00:02:37,220
+Smart Montevideo Shopping. Y vamos a analizar este caso.

@@ -1,0 +1,43 @@
+1
+00:00:01,740 --> 00:00:04,600
+Otra prueba, aquí vamos a ver otra factura,
+
+2
+00:00:05,300 --> 00:00:08,960
+que tiene resumen de facturación electrónica, tiene su detalle de la campaña de ejemplo,
+
+3
+00:00:09,520 --> 00:00:14,300
+y le colocamos acá un nombre, nombre ejemplo, con una unidad de medida caja
+
+4
+00:00:14,301 --> 00:00:16,440
+por doce, y vamos a completar esta prueba. factura.
+
+5
+00:00:30,440 --> 00:00:33,740
+Ok, completada la 648. Vamos a ver acá,
+
+6
+00:00:34,740 --> 00:00:38,180
+648, ah bueno,
+
+7
+00:00:38,300 --> 00:00:41,280
+voy a darle a imprimir por allá, a imprimir,
+
+8
+00:00:41,660 --> 00:00:44,540
+y aquí Aquí vemos que en el nombre tiene el nombre de ejemplo que
+
+9
+00:00:44,541 --> 00:00:49,240
+es el que se le había colocado por acá, con descripción de
+
+10
+00:00:49,241 --> 00:00:52,820
+detalle de la campaña de ejemplo, porque si se le coloca hago el nombre,
+
+11
+00:00:52,920 --> 00:00:55,640
+se manda el nombre colocado ahí.

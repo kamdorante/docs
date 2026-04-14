@@ -1,0 +1,415 @@
+1
+00:00:01,690 --> 00:00:04,110
+Estos son los tipos de documentos que va a generar.
+
+2
+00:00:05,610 --> 00:00:08,790
+Y tipo de documento para declaración, estos son los que se usan para declaración,
+
+3
+00:00:08,930 --> 00:00:11,550
+ellos no los usan. Ok. Luego tiene la otra pestaña,
+
+4
+00:00:11,750 --> 00:00:15,530
+eso es una retención de cuenta, por favor. Entonces tiene los documentos configurados.
+
+5
+00:00:15,790 --> 00:00:20,380
+Ok. La configuración es en que evento y tabla se
+
+6
+00:00:20,381 --> 00:00:22,760
+va a ejecutar. Por ejemplo, el evento se ejecuta en la tabla same body,
+
+7
+00:00:24,020 --> 00:00:28,820
+cuando completa. Cuando completa va a generar la retención automáticamente.
+
+8
+00:00:28,860 --> 00:00:30,940
+Y va a mandar esto. Eso es,
+
+9
+00:00:30,980 --> 00:00:35,600
+el evento y la tabla. El siguiente, se ejecuta,
+
+10
+00:00:35,660 --> 00:00:38,200
+es manual, es cuando se genera el proceso de retención.
+
+11
+00:00:39,460 --> 00:00:42,340
+Entonces está manual. Cuando ejecuta el proceso de retención,
+
+12
+00:00:42,660 --> 00:00:45,040
+genera retención, es manual, él lo ejecuta.
+
+13
+00:00:45,420 --> 00:00:47,900
+Ejecuta esta funcionalidad que es la clase G, hace el cálculo.
+
+14
+00:00:48,180 --> 00:00:50,540
+Ok. Luego hay otras pestañas que no las veis,
+
+15
+00:00:50,620 --> 00:00:53,720
+que son los tipos de documentos aplicados. Pues no.
+
+16
+00:00:56,680 --> 00:00:59,640
+No sé por qué no está ahí. Ya.
+
+17
+00:01:01,220 --> 00:01:03,820
+Vete a retención. Hay otra que se llama retención.
+
+18
+00:01:04,200 --> 00:01:09,000
+Entonces ahí es donde estamos. Protesandolo bien.
+
+19
+00:01:09,420 --> 00:01:13,640
+Generar, procesar el RK. Protesar la batería.
+
+20
+00:01:13,840 --> 00:01:16,320
+Generar el RK. Protesar el RK.
+
+21
+00:01:17,720 --> 00:01:22,420
+¿Verdad? Bueno, el mismo detalle si usamos el ¿Tipo de retención?
+
+22
+00:01:22,680 --> 00:01:27,140
+Pellada, le pido hasta los 3 puntitos. Rico. Manejo de retención.
+
+23
+00:01:28,920 --> 00:01:33,180
+Yo le decía más retención. ¿Retención generada?
+
+24
+00:01:33,440 --> 00:01:35,680
+No, retención. ¿Lo de retención? No.
+
+25
+00:01:36,760 --> 00:01:41,560
+definición de reacción entonces
+
+26
+00:01:41,561 --> 00:01:46,980
+que es la interacción de la retención ok,
+
+27
+00:01:47,560 --> 00:01:51,900
+mira, este es el tipo de retención y la retención ¿verdad?
+
+28
+00:01:52,960 --> 00:01:55,560
+Aquí podemos sobre escribir, aquí le decimos cuál es el cargo que va a
+
+29
+00:01:55,561 --> 00:01:58,140
+generar. Los tipos como ellos sobre escriben y todo.
+
+30
+00:01:58,280 --> 00:02:01,840
+Fíjate que uno es detective. Oye,
+
+31
+00:02:02,080 --> 00:02:05,540
+tienen una por acá. Oye, me dice,
+
+32
+00:02:05,541 --> 00:02:08,280
+No, espérate, no te voy a decir que es la repetición.
+
+33
+00:02:09,220 --> 00:02:12,320
+Me imagino que tendría 2 ligas de pasaporte. La retención general,
+
+34
+00:02:12,480 --> 00:02:17,040
+que es la que ellos usan, en la factura de cuentas
+
+35
+00:02:17,041 --> 00:02:19,100
+por cualquiera de esas generaciones, es como este cargo ahora,
+
+36
+00:02:20,040 --> 00:02:24,020
+tiene el nombre la cuestión, pero bajo, documento aplica en el filtro,
+
+37
+00:02:24,340 --> 00:02:28,700
+¿ves? para esta factura que va a aplicar el,
+
+38
+00:02:28,701 --> 00:02:33,220
+Para la factura prevedor. Ajá, y la siguiente? Para esa
+
+39
+00:02:33,221 --> 00:02:36,700
+dosis que le vas a completar. Por lo tanto, este tipo de retenciones,
+
+40
+00:02:36,840 --> 00:02:39,780
+en el tipo de retención, está malo.
+
+41
+00:02:39,960 --> 00:02:42,680
+Porque aquí, y es el documento que va en la vida que está en
+
+42
+00:02:42,681 --> 00:02:45,440
+la autonomía de la sultipa que vamos a retención.
+
+43
+00:02:46,720 --> 00:02:49,600
+El rejo Ardo Serial. Y eso es ¿qué pasa?
+
+44
+00:02:49,740 --> 00:02:52,060
+Si le has copiado. Vale, luego no.
+
+45
+00:02:54,660 --> 00:02:55,380
+Allá, copiano.
+
+46
+00:03:04,660 --> 00:03:09,440
+Tiene que ser el equipo de momento irrecuardo y
+
+47
+00:03:09,441 --> 00:03:11,680
+el otro tiene que ser irrecuardo, no te crees.
+
+48
+00:03:12,600 --> 00:03:16,920
+que no que no hay creado que vaya a crear más aquí y luego
+
+49
+00:03:16,921 --> 00:03:19,020
+hay deliberación que es cualquiera, no?
+
+50
+00:03:19,060 --> 00:03:22,120
+Volviera si pues no lo usan ellos, debía hacer el guardo de relación y
+
+51
+00:03:22,121 --> 00:03:25,660
+lo que y con los otros. Guarra.
+
+52
+00:03:26,100 --> 00:03:30,780
+Y con el sol de Guadiera. Ahí se llama el
+
+53
+00:03:30,781 --> 00:03:32,880
+cuadro de los cuartos de puertas por pura.
+
+54
+00:03:33,180 --> 00:03:36,720
+De estos casos, el el que se llama el cuadro.
+
+55
+00:03:36,860 --> 00:03:39,200
+Se llama un código para identificar lo que lo podemos saber.
+
+56
+00:03:40,360 --> 00:03:41,920
+El cuadro de puertas por pura.
+
+57
+00:03:47,220 --> 00:03:49,680
+Pero vayas, si se hace este mal, vayas.
+
+58
+00:03:53,000 --> 00:03:54,640
+Aquí, cómplete lo mismo que tiene el otro.
+
+59
+00:04:02,590 --> 00:04:05,410
+Y en retención,
+
+60
+00:04:05,510 --> 00:04:07,750
+te vas a crear una,
+
+61
+00:04:08,270 --> 00:04:10,670
+así como te la otras copiadas, pero desde tu retención.
+
+62
+00:04:11,830 --> 00:04:15,890
+Reinicia el servicio, porque el paquete es de 20 dólares y el remueble tiene
+
+63
+00:04:15,891 --> 00:04:19,130
+que reiniciar el servicio. verifica que el validado de moda de los judíos de
+
+64
+00:04:19,131 --> 00:04:22,230
+orden, hay un sistema de orden, está activo, si está activo,
+
+65
+00:04:22,390 --> 00:04:24,670
+al completar un tipo de documento, lo que agregue es abajo,
+
+66
+00:04:25,370 --> 00:04:29,910
+y no los agregados a esa agregación, al
+
+67
+00:04:29,911 --> 00:04:32,850
+completarlo, él tiene que pasar por ahí y va a generar un documento.
+
+68
+00:04:32,880 --> 00:04:36,460
+documento. ¿Experiencia? Entonces, se los para y le dicen a alguien.
+
+69
+00:04:37,120 --> 00:04:39,400
+¿Ya te pringues a patroa? Esa configuración la hace tú.
+
+70
+00:04:40,040 --> 00:04:42,700
+Luego, para tú generar desde la retención generada,
+
+71
+00:04:42,840 --> 00:04:44,960
+que es como una ventana.
+
+72
+00:04:45,760 --> 00:04:48,780
+Sí, esa me parece que era como una ventana de cálculo.
+
+73
+00:04:48,900 --> 00:04:53,500
+El precálculo lo llamamos, ahí no
+
+74
+00:04:53,501 --> 00:04:58,320
+hay nada, el precálculo de la tensión
+
+75
+00:04:58,321 --> 00:05:01,600
+es, fíjate, orden de origen,
+
+76
+00:05:02,040 --> 00:05:04,960
+línea de factura de origen y factura fuente, eso que está aquí es.
+
+77
+00:05:05,250 --> 00:05:08,390
+Desde la factura tal, se generó esta retención,
+
+78
+00:05:08,510 --> 00:05:10,970
+esto es como que le tienes que descontar tantos dólares,
+
+79
+00:05:11,130 --> 00:05:13,770
+¿verdad? Luego,
+
+80
+00:05:14,110 --> 00:05:16,830
+él se genera automático. ¿Qué haces tú?
+
+81
+00:05:19,630 --> 00:05:22,700
+¿Qué haces tú? Como esto se genera automático,
+
+82
+00:05:23,160 --> 00:05:27,860
+ahora tu generas la cuenta por cobrar, tienes la cuenta por cobrar Una
+
+83
+00:05:27,861 --> 00:05:29,960
+nota de crédito,
+
+84
+00:05:30,040 --> 00:05:33,500
+que va a ser la que va a descontarle a la factura original,
+
+85
+00:05:34,220 --> 00:05:37,040
+se genera desde aquí ¿Cómo se genera?
+
+86
+00:05:37,160 --> 00:05:41,340
+El esmorazo es la más genial retención, mismo lo veía aquí,
+
+87
+00:05:41,341 --> 00:05:46,080
+en el punto. Genial retención.
+
+88
+00:05:46,940 --> 00:05:49,240
+Este. No, es un proceso.
+
+89
+00:05:49,620 --> 00:05:50,900
+Hay un esmorazo en el que tú lo ves.
+
+90
+00:05:59,270 --> 00:06:03,290
+No hay porque no hay. La retención es en la ventana de retención generada.
+
+91
+00:06:04,270 --> 00:06:07,250
+Ahí es como va a generar la factura. Selecciona las retenciones,
+
+92
+00:06:07,970 --> 00:06:12,640
+genera y va a generar la y
+
+93
+00:06:12,641 --> 00:06:17,080
+la va a asignar automátilamente al documenturito para rebargarle para que cuando le vayas
+
+94
+00:06:17,081 --> 00:06:20,300
+para que le paga les paga es menos, es decir que se genera como
+
+95
+00:06:20,301 --> 00:06:22,520
+nota que es un vídeo de el que se va a ver para que
+
+96
+00:06:22,521 --> 00:06:25,340
+se le rejuara, es un poco. Vale,
+
+97
+00:06:25,420 --> 00:06:28,580
+aquí está el anularlo, se puede hacer el botellano,
+
+98
+00:06:28,880 --> 00:06:32,280
+el hígrederse.
+
+99
+00:06:34,860 --> 00:06:40,400
+Y al anularlo ya es el hígrederse.
+
+100
+00:06:41,280 --> 00:06:44,240
+cuando se está anulando no se está marcando. ¿Por qué lo hagas?
+
+101
+00:06:44,420 --> 00:06:47,720
+¿Lo hagas en el video o en el paní video pero lo hagas separando
+
+102
+00:06:47,721 --> 00:06:51,580
+todo el futuro, lo que está esteando? ¿Dó? más vamos a otro paro que
+
+103
+00:06:51,581 --> 00:06:55,120
+vamos a saber que es la tensión en cuenta de tu locura,
+
+104
+00:06:55,620 --> 00:06:57,200
+que no las hagan.

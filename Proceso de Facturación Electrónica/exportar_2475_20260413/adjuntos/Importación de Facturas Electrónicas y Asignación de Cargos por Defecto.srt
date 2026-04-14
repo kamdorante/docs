@@ -1,0 +1,155 @@
+1
+00:00:01,840 --> 00:00:07,220
+Bien, vamos a probar el cambio por el cual al importar
+
+2
+00:00:07,221 --> 00:00:09,820
+facturas electrónicas, o sea, CFR recibidos,
+
+3
+00:00:10,520 --> 00:00:15,400
+en el caso de que el socio de negocio del
+
+4
+00:00:15,401 --> 00:00:16,060
+CFR recibido
+
+5
+00:00:26,640 --> 00:00:30,100
+En el caso de que el socio tenga definido un cargo por defecto,
+
+6
+00:00:30,460 --> 00:00:35,180
+al importarse el CFE El registro en la tabla
+
+7
+00:00:35,181 --> 00:00:41,120
+intermedia debe quedar con este cargo asignado
+
+8
+00:00:41,121 --> 00:00:45,660
+y no debe asignarse el código del producto
+
+9
+00:00:45,661 --> 00:00:50,500
+del CFR recibido. para evitar error posterior y tener que
+
+10
+00:00:50,501 --> 00:00:53,960
+corregir luego de hacer la descarga de los EFE.
+
+11
+00:00:54,580 --> 00:00:58,860
+Vamos a ver el invoice y tenemos para febrero,
+
+12
+00:00:59,740 --> 00:01:04,160
+tenemos todos estos, tenemos Banco Santander por ejemplo.
+
+13
+00:01:04,260 --> 00:01:06,900
+No, tiene cargo, sí,
+
+14
+00:01:07,820 --> 00:01:12,500
+acá está el Santander acá,
+
+15
+00:01:13,540 --> 00:01:18,220
+vemos que tiene el cargo de gastos bancarios,
+
+16
+00:01:18,660 --> 00:01:22,800
+así que vamos a probarla. la importación.
+
+17
+00:01:23,720 --> 00:01:28,360
+La hacemos para febrero. Primero al
+
+18
+00:01:28,361 --> 00:01:28,760
+28.
+
+19
+00:01:38,420 --> 00:01:41,260
+Vamos a pausar mientras, hasta que termine el proceso.
+
+20
+00:01:42,380 --> 00:01:46,440
+Bueno, ahí ya terminó. Aquí,
+
+21
+00:01:46,760 --> 00:01:51,120
+si refrescamos, yo tenía filtrado para que muestre lo que no está importado.
+
+22
+00:01:54,030 --> 00:01:57,030
+Si refresco veo los 24 registros.
+
+23
+00:01:57,310 --> 00:02:01,710
+Perfecto. Y si vemos los registros para Santander,
+
+24
+00:02:02,910 --> 00:02:03,850
+aquí empiezan.
+
+25
+00:02:09,140 --> 00:02:14,640
+y bueno vamos a buscar el cargo acá está el cargo gastos bancarios y
+
+26
+00:02:14,641 --> 00:02:19,440
+perfecto no no definió un código producto
+
+27
+00:02:19,441 --> 00:02:24,380
+sí así que estaría correcto si vamos
+
+28
+00:02:24,381 --> 00:02:27,500
+a darle aquí A ver si vemos acá alguno que sí le haya definido
+
+29
+00:02:27,501 --> 00:02:31,240
+código de producto. Acá,
+
+30
+00:02:31,500 --> 00:02:36,440
+en este definió código de producto. Este es el socio
+
+31
+00:02:36,441 --> 00:02:40,240
+de negocio. Este.
+
+32
+00:02:41,110 --> 00:02:43,870
+Valfry Company, Sociedad Anónima,
+
+33
+00:02:44,710 --> 00:02:49,950
+vamos a verificar que este socio de negocio no tenga definido un cargo
+
+34
+00:02:49,951 --> 00:02:54,470
+por defecto y que por eso le deseteó el código de
+
+35
+00:02:54,471 --> 00:02:56,730
+producto. Acercamos que es más fácil.
+
+36
+00:03:06,080 --> 00:03:10,600
+Si vamos al cargo por defecto, no tiene cargo por
+
+37
+00:03:10,601 --> 00:03:12,760
+defecto, por lo cual está correcto.
+
+38
+00:03:12,780 --> 00:03:14,800
+Define el código de producto,
+
+39
+00:03:15,660 --> 00:03:18,440
+así que estaría funcionando correctamente.

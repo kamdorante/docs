@@ -1,0 +1,19 @@
+1
+00:00:01,760 --> 00:00:05,060
+Vamos a modificar la ventana de oportunidades.
+
+2
+00:00:05,280 --> 00:00:07,340
+No me está dicho lo que hicimos, pero bueno.
+
+3
+00:00:13,810 --> 00:00:16,290
+Ya está resuelto el problema.
+
+4
+00:00:16,320 --> 00:00:20,480
+,que estaba dando. No se si tiene algo que ver con esto.
+
+5
+00:00:25,980 --> 00:00:28,820
+Bueno, no agarro 400.

@@ -1,0 +1,71 @@
+1
+00:00:00,780 --> 00:00:04,500
+Ahora que tenemos ya configurado todo para que funcione,
+
+2
+00:00:05,520 --> 00:00:09,100
+eh, hay algo muy importante. Nada impide para que esto funciona porque tiene que
+
+3
+00:00:09,101 --> 00:00:11,420
+estar una historia creada,
+
+4
+00:00:11,660 --> 00:00:13,880
+la sociedad no está abierta.
+
+5
+00:00:16,180 --> 00:00:20,020
+Aquí vamos a ver los datos básicos que son la lista de precios,
+
+6
+00:00:20,160 --> 00:00:23,940
+el almacén, y el nivel de capacidad de un vendedor.
+
+7
+00:00:27,830 --> 00:00:32,230
+No tiene ninguna importancia. Lo que sí tiene importancia son estas dos cosas.
+
+8
+00:00:33,140 --> 00:00:35,200
+este tipo, categoria url,
+
+9
+00:00:35,540 --> 00:00:42,760
+atributos url esto lo vamos a sacar Gracias.
+
+10
+00:00:48,840 --> 00:00:52,080
+Tenemos el webhook de categoría.
+
+11
+00:00:56,800 --> 00:00:59,900
+de la producción, lo propio.
+
+12
+00:01:00,280 --> 00:01:04,400
+Esa es la vela, y va para acá.
+
+13
+00:01:13,120 --> 00:01:15,980
+Lo hicieron, lo monté,
+
+14
+00:01:16,000 --> 00:01:20,300
+lo quité, y ahora vamos a guardarlo.
+
+15
+00:01:22,220 --> 00:01:26,980
+Bueno, listo. Esa sería cómo configurar en NPR a dónde
+
+16
+00:01:26,981 --> 00:01:29,720
+buscar información. Vamos a ver este perfumador,
+
+17
+00:01:30,020 --> 00:01:34,560
+que es el que hace
+
+18
+00:01:34,561 --> 00:01:35,080
+con esto.

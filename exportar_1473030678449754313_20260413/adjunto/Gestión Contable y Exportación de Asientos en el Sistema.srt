@@ -1,0 +1,3327 @@
+1
+00:00:01,700 --> 00:00:03,760
+Bueno, comienzo, eh,
+
+2
+00:00:04,020 --> 00:00:09,080
+la grabación. La idea hoy es profundizar o ver temas contables,
+
+3
+00:00:09,340 --> 00:00:13,040
+¿no? Ustedes pueden llegar a consulta de cómo se puede exportar o,
+
+4
+00:00:13,041 --> 00:00:16,580
+o descargar, este, asientos.
+
+5
+00:00:17,600 --> 00:00:20,660
+En verdad tampoco, no sé cómo ustedes lo venían manejando actualmente.
+
+6
+00:00:20,960 --> 00:00:24,800
+¿Ustedes están manejando un sistema, un sistema contable interno o les pasan,
+
+7
+00:00:25,980 --> 00:00:28,480
+eh, O sea, ustedes utilizan memory,
+
+8
+00:00:28,620 --> 00:00:31,620
+¿no? Nosotros lo trabajamos memory y lo exportamos.
+
+9
+00:00:31,860 --> 00:00:36,920
+de los estudios. Nosotros usamos Memory y exportamos desde Conti
+
+10
+00:00:36,921 --> 00:00:40,360
+todos los asientos y el balance y todo lo que necesita el estudio.
+
+11
+00:00:41,400 --> 00:00:45,980
+Bien, perfecto. Yo entonces un poco les voy a mostrar cómo se gestionan
+
+12
+00:00:45,981 --> 00:00:48,790
+los asientos para que tengan una idea. En verdad,
+
+13
+00:00:49,250 --> 00:00:53,910
+¿ustedes solamente exportan los asientos manuales o todos los asientos
+
+14
+00:00:53,911 --> 00:00:56,210
+de las facturas, de los documentos,
+
+15
+00:00:56,330 --> 00:00:59,390
+se los pasan todos al estudio? Se pasa todo.
+
+16
+00:00:59,530 --> 00:01:01,930
+Primero se exporta de Fidaro a Conti,
+
+17
+00:01:02,250 --> 00:01:06,340
+que es todo lo facturado, todo todas las facturas que ingresaron y después que
+
+18
+00:01:06,341 --> 00:01:10,380
+queda cargado se hace las conciliaciones y luego de las conciliaciones se saca balances
+
+19
+00:01:10,381 --> 00:01:14,200
+que va con toda la información completa y mayores de lo que existe en
+
+20
+00:01:14,201 --> 00:01:17,260
+el estudio. Bien, y ustedes siguen queriendo,
+
+21
+00:01:17,620 --> 00:01:19,920
+capaz que es una pregunta más para vos Mauricio. Pero,
+
+22
+00:01:20,180 --> 00:01:25,100
+¿ustedes siguen queriendo que ustedes pasarle al estudio la información
+
+23
+00:01:25,101 --> 00:01:28,480
+o querrían darle a un usuario el estudio para que ingrese ellos mismos a
+
+24
+00:01:28,481 --> 00:01:30,640
+visualizar y generar todo el sistema?
+
+25
+00:01:32,200 --> 00:01:35,440
+Y capaz que se siga mandando para que nosotros mismos controlamos.
+
+26
+00:01:35,460 --> 00:01:38,900
+también y no sea que ellos simplemente descargan y capaz que nosotros no lo
+
+27
+00:01:38,901 --> 00:01:42,100
+vimos antes y podamos tener el control de lo que estamos mandando.
+
+28
+00:01:42,760 --> 00:01:47,560
+Ok, bien, perfecto. Bueno, les muestro
+
+29
+00:01:47,561 --> 00:01:50,540
+un poco cómo es la gestión contable del sistema.
+
+30
+00:01:52,100 --> 00:01:55,560
+Voy a mostrarles un poco lo que ya hemos estado viendo,
+
+31
+00:01:56,220 --> 00:01:59,100
+documentos por pagar,
+
+32
+00:02:01,460 --> 00:02:03,560
+una factura para ver un poco,
+
+33
+00:02:04,600 --> 00:02:09,000
+comprender un poco cómo se pueden visualizar los asientos. Cada uno de los documentos
+
+34
+00:02:09,001 --> 00:02:12,040
+en el sistema tiene un asiento definido previamente,
+
+35
+00:02:12,460 --> 00:02:15,040
+el documento. Puntualmente la factura,
+
+36
+00:02:15,620 --> 00:02:20,140
+tomará los datos primero del cabezal para ver las cuentas por
+
+37
+00:02:20,141 --> 00:02:22,500
+pagar o cuentas por cobrar, digamos, activo o pasivo,
+
+38
+00:02:23,120 --> 00:02:27,360
+según el societal. de negocio, y de sus líneas va a tomar la configuración
+
+39
+00:02:27,361 --> 00:02:31,920
+que hayamos definido en los cargos o productos que tengan el documento en cuestión.
+
+40
+00:02:33,260 --> 00:02:36,140
+En este caso, este fue un ejemplo simple que hicimos la vez pasada,
+
+41
+00:02:37,420 --> 00:02:43,220
+en el cual podemos visualizar sus asientos a través aquí vemos
+
+42
+00:02:43,221 --> 00:02:47,840
+las cuentas, obviamente los
+
+43
+00:02:47,841 --> 00:02:50,860
+datos básicos de la cuenta,
+
+44
+00:02:51,100 --> 00:02:54,980
+el debe y el haber y este es el importe contabilizado.
+
+45
+00:02:55,620 --> 00:02:57,740
+Generalmente, nosotros si podemos hacer clic aquí,
+
+46
+00:02:58,320 --> 00:03:01,800
+en las tres líneas, podemos habilitar lo que es la información,
+
+47
+00:03:02,040 --> 00:03:04,400
+perdón, la información fuente,
+
+48
+00:03:06,420 --> 00:03:08,720
+para ver una factura en dólares,
+
+49
+00:03:08,800 --> 00:03:11,060
+por ejemplo, para poder ver los importes en dólares.
+
+50
+00:03:11,640 --> 00:03:15,820
+y los importes convertidos, claro.
+
+51
+00:03:16,500 --> 00:03:19,600
+Y vamos a ver aquí la tasa, para poder visualizar.
+
+52
+00:03:19,680 --> 00:03:22,720
+Nosotros cargamos la tasa automáticamente todos los días desde el Banco Central,
+
+53
+00:03:23,120 --> 00:03:26,000
+así que se van a ir aplicando estas conversiones de manera automática.
+
+54
+00:03:29,630 --> 00:03:33,010
+Bueno, adicionalmente, ya que estamos viendo lo que es el mayor,
+
+55
+00:03:33,450 --> 00:03:35,870
+además de tener los datos básicos, estándar,
+
+56
+00:03:35,910 --> 00:03:38,330
+digamos, de la cuenta, la organización,
+
+57
+00:03:38,430 --> 00:03:43,410
+que es la empresa, la cuenta, el debe haber y la fecha de contabilización.
+
+58
+00:03:43,740 --> 00:03:47,680
+moneda, débito fuente y crédito fuente y la tasa.
+
+59
+00:03:48,500 --> 00:03:52,080
+Adicionalmente vamos a tener otros campos que son de gran utilidad,
+
+60
+00:03:52,300 --> 00:03:55,300
+más que nada para el análisis posterior y cruzar información,
+
+61
+00:03:55,920 --> 00:03:58,420
+que va a ser el tema del producto, el tema del socio de negocio
+
+62
+00:03:58,421 --> 00:04:04,420
+y el proyecto. Básicamente estos tres nos van a permitir visualizar
+
+63
+00:04:04,421 --> 00:04:07,360
+de manera,
+
+64
+00:04:07,760 --> 00:04:12,120
+en informes financieros, ver la información contablemente,
+
+65
+00:04:12,280 --> 00:04:14,660
+pero desde otras ópticas. Como por ejemplo,
+
+66
+00:04:14,760 --> 00:04:19,560
+a ver si un producto. proyecto fue positivo o negativo su resultado.
+
+67
+00:04:31,320 --> 00:04:36,040
+paso para tener un poco de conocimiento y contexto de lo que podemos llegar
+
+68
+00:04:36,041 --> 00:04:39,540
+a obtener. Cine por las ramas,
+
+69
+00:04:40,860 --> 00:04:45,760
+nosotros vemos esta factura y podemos ver los reportes contables,
+
+70
+00:04:45,840 --> 00:04:49,880
+el reporte contable va a va a ser el balance de prueba que nosotros
+
+71
+00:04:49,881 --> 00:04:54,400
+llamamos que es el mayor contable, donde vamos
+
+72
+00:04:54,401 --> 00:04:56,740
+a poder visualizar aquí en un balance de prueba,
+
+73
+00:04:58,040 --> 00:05:02,380
+poder generar un mayor contable como queramos.
+
+74
+00:05:03,360 --> 00:05:07,380
+En este caso, podemos filtrar por todos los datos que vemos a continuación,
+
+75
+00:05:09,080 --> 00:05:11,220
+podemos filtrar por un periodo,
+
+76
+00:05:11,400 --> 00:05:13,660
+por fecha contable, por organización,
+
+77
+00:05:14,060 --> 00:05:18,780
+para una cuenta, para una
+
+78
+00:05:18,781 --> 00:05:20,920
+moneda, etc. para un centro de costos,
+
+79
+00:05:21,040 --> 00:05:23,600
+para un producto, bueno, las dimensiones que les comentaba anteriormente.
+
+80
+00:05:25,280 --> 00:05:27,520
+Ahora, en el caso, para entender un poco el alcance de esto,
+
+81
+00:05:27,680 --> 00:05:30,000
+vamos a buscarlo para la cuenta 2-1,
+
+82
+00:05:30,760 --> 00:05:32,780
+vamos a buscar el cuentas por, este,
+
+83
+00:05:33,440 --> 00:05:37,130
+por pagar. 2,
+
+84
+00:05:37,290 --> 00:05:41,510
+1, cuentas por pagar comerciales.
+
+85
+00:05:42,530 --> 00:05:44,850
+Perdón, esto vendría, se saca en un mayor, digamos.
+
+86
+00:05:45,510 --> 00:05:47,570
+Exacto, acá, este es un mayor contable.
+
+87
+00:05:49,190 --> 00:05:52,940
+Ponen el número de cuenta. que pueden filtrar por periodo o por fecha.
+
+88
+00:05:54,500 --> 00:05:57,120
+Y generamos, para así lo mantenemos simple.
+
+89
+00:05:58,600 --> 00:06:02,240
+Y esto nos va a generar, nos vamos a poder visualizar directamente un mayor
+
+90
+00:06:02,241 --> 00:06:06,900
+contable. En este mayor contable nosotros podemos
+
+91
+00:06:07,380 --> 00:06:10,760
+Bueno, agrupar o discriminar por diferentes conceptos,
+
+92
+00:06:10,900 --> 00:06:13,080
+en este caso tenemos un saldo inicial,
+
+93
+00:06:14,720 --> 00:06:19,200
+que lo vamos a visualizar arriba, y abajo tenemos todos los movimientos,
+
+94
+00:06:19,760 --> 00:06:22,300
+hago zoom, me avisen si ven bien. Sí,
+
+95
+00:06:22,400 --> 00:06:25,800
+sí, sí. Y acá tenemos una peculiaridad,
+
+96
+00:06:25,960 --> 00:06:28,100
+que podemos hacer scroll lateralmente,
+
+97
+00:06:30,520 --> 00:06:32,560
+no podemos ir horizontalmente,
+
+98
+00:06:32,660 --> 00:06:35,640
+perdón, así. Y podemos,
+
+99
+00:06:36,400 --> 00:06:39,220
+estas columnas pueden quedar fijas, esto es totalmente customizado.
+
+100
+00:06:39,240 --> 00:06:42,320
+para poder visualizar la información que queramos.
+
+101
+00:06:43,680 --> 00:06:46,320
+La fecha contable debe crédito,
+
+102
+00:06:46,500 --> 00:06:48,980
+el debe AVAR, el monto de fuente de balance,
+
+103
+00:06:49,880 --> 00:06:52,560
+el debe crédito contabilizado,
+
+104
+00:06:53,160 --> 00:06:55,180
+por ejemplo acá si fuese en dólares, vamos a ver,
+
+105
+00:06:55,181 --> 00:06:57,860
+vamos el importe en dólares y el importe en pesos.
+
+106
+00:06:58,300 --> 00:07:02,760
+O sea, el importe en la moneda fuente y finalmente lo que realmente nos
+
+107
+00:07:02,761 --> 00:07:05,620
+va a importar es este número que está aquí.
+
+108
+00:07:06,980 --> 00:07:08,680
+Vamos acá y el saldo.
+
+109
+00:07:12,760 --> 00:07:15,520
+Y aquí tenemos también lo que son los socios de negocio,
+
+110
+00:07:16,340 --> 00:07:20,120
+o sea, la información adicional que podemos tener.
+
+111
+00:07:20,800 --> 00:07:22,980
+Socios de negocio, producto, descripción,
+
+112
+00:07:23,600 --> 00:07:27,220
+periodo. Y acá si queremos desde un mayor contexto.
+
+113
+00:07:27,240 --> 00:07:35,920
+puedes navegar a la factura correspondiente
+
+114
+00:07:35,921 --> 00:07:37,940
+para ver el asiento en concreto.
+
+115
+00:07:41,720 --> 00:07:45,400
+Estos documentos es sobre cualquier cosa. cualquier documento podemos ir y navegar.
+
+116
+00:07:49,120 --> 00:07:52,780
+Y también tenemos el número, bueno, la descripción agrega automáticamente lo que es la
+
+117
+00:07:52,781 --> 00:07:55,220
+descripción del documento, si hubiese tenido un dato, o sea,
+
+118
+00:07:55,240 --> 00:07:59,260
+cada documento va a tener su correspondiente descripción que copia y pega desde el
+
+119
+00:07:59,280 --> 00:08:01,460
+digo, por ejemplo, acá estoy viendo una cuenta de balance.
+
+120
+00:08:02,040 --> 00:08:04,740
+Pero si vamos a ver, podemos sacar otro balance.
+
+121
+00:08:05,340 --> 00:08:09,340
+Y si sacamos la cuenta y saco la fecha contable,
+
+122
+00:08:09,520 --> 00:08:14,160
+saco para todo el mes y genero.
+
+123
+00:08:22,700 --> 00:08:27,300
+Y aquí tenemos algún tema que podemos ir explicando.
+
+124
+00:08:27,480 --> 00:08:30,520
+Esto de verdad es análisis de cómo se gestionan los reportes,
+
+125
+00:08:30,560 --> 00:08:34,680
+que todavía no lo vimos. detalladamente, pero se los presento aquí.
+
+126
+00:08:34,840 --> 00:08:39,480
+El mayor contable es un reporte que tiene su lógica correspondiente por mayor contable,
+
+127
+00:08:40,520 --> 00:08:45,280
+pero tenemos este es un reporte más que nos permite bueno justamente navegar
+
+128
+00:08:45,281 --> 00:08:48,720
+así como podemos. como vimos recién.
+
+129
+00:08:49,420 --> 00:08:52,360
+Y también nos permite, por ejemplo, usar el tema del check de resumido.
+
+130
+00:08:53,240 --> 00:08:56,620
+Acá me resume para todo. Entonces yo tengo acá una sumarización de todos los
+
+131
+00:08:56,621 --> 00:08:59,040
+resultados por cada una de las cuentas. Si quiero abrir,
+
+132
+00:08:59,920 --> 00:09:02,520
+veo sus movimientos directamente desde aquí.
+
+133
+00:09:04,340 --> 00:09:07,140
+este caso estamos arrupando por por moneda,
+
+134
+00:09:07,141 --> 00:09:12,940
+voy a caer esta vista un segundo si me dejan porque
+
+135
+00:09:12,941 --> 00:09:21,620
+no no necesaria en este caso, entonces
+
+136
+00:09:21,621 --> 00:09:24,960
+lo que no previden a sobre, con todas estas dimensiones que vemos aquí,
+
+137
+00:09:25,280 --> 00:09:27,760
+ustedes pueden jugar y tener muchas,
+
+138
+00:09:28,320 --> 00:09:30,700
+o sea, querer sus diferentes vistas,
+
+139
+00:09:31,500 --> 00:09:35,320
+para ir moviendo ¿Cómo puede sacar así con algo que,
+
+140
+00:09:35,321 --> 00:09:37,980
+o sea, hay un bombal que dirías mostrarle por ejemplo el estudio,
+
+141
+00:09:38,420 --> 00:09:40,540
+o sea, se estará así, ¿no es que te desilasas todo?
+
+142
+00:09:41,600 --> 00:09:45,440
+¿Cómo quieras? Sí, se puede dejar así resumido o abierto.
+
+143
+00:09:45,810 --> 00:09:49,350
+No realmente para descargarlo. Tieno que mejorar abierto,
+
+144
+00:09:49,430 --> 00:09:53,650
+¿no? Esto es una vista,
+
+145
+00:09:54,250 --> 00:09:58,510
+pero si ustedes quieren, por eso quiero ver, no sé cómo quieren generar esta
+
+146
+00:09:59,270 --> 00:10:02,050
+la configuración y qué información le quieren pasar,
+
+147
+00:10:02,630 --> 00:10:06,150
+si los mayores así serían suficientes, les pasan todo el mayor de todo lo
+
+148
+00:10:06,151 --> 00:10:08,450
+movimiento de NISTO. Bueno,
+
+149
+00:10:08,590 --> 00:10:11,930
+nanistico. No, no, creo que estamos muy parecidas lo que hacemos acualmente y les
+
+150
+00:10:11,931 --> 00:10:16,290
+va a tocar que aparecen por los mismos. Después lo vemos igual cuando veamos
+
+151
+00:10:16,291 --> 00:10:18,970
+el día de vuelta. Hay cosas que comentamos.
+
+152
+00:10:19,250 --> 00:10:21,830
+Por ejemplo, cuando vas a visitar también por mayor nota,
+
+153
+00:10:21,850 --> 00:10:25,050
+vamos a bajar muchas cosas que no necesitamos que estén y la idea era
+
+154
+00:10:25,051 --> 00:10:27,210
+de limpiarlas también. Ok,
+
+155
+00:10:27,330 --> 00:10:29,970
+pero podemos quitar realmente. Sí,
+
+156
+00:10:30,490 --> 00:10:34,490
+pero no, viendo esto, o es de acuerdo de que trabajamos No,
+
+157
+00:10:34,491 --> 00:10:37,610
+no hay nada que hacer. Esto es bien,
+
+158
+00:10:37,970 --> 00:10:40,210
+de aquí podemos, o sea, primero,
+
+159
+00:10:42,050 --> 00:10:46,050
+apuntemos y va, me parece bien, a manejar lo básico,
+
+160
+00:10:46,350 --> 00:10:50,530
+o sea, lo que vienen trabajando ahora para no alterar nada y poder hacer
+
+161
+00:10:50,531 --> 00:10:52,810
+el cambio, lo más ágil posible.
+
+162
+00:10:53,490 --> 00:10:56,170
+Y luego de que logren todo eso sin ningún problema,
+
+163
+00:10:56,890 --> 00:11:00,610
+podemos ver de cómo podemos ir obteniendo mayor información o algo,
+
+164
+00:11:00,690 --> 00:11:03,070
+a medida que vayan a usar un salto, si les parece bien.
+
+165
+00:11:06,730 --> 00:11:09,590
+bien, este sol,
+
+166
+00:11:09,591 --> 00:11:13,570
+le voy a permitir de un segundo porque no quiero ir por por esto,
+
+167
+00:11:14,310 --> 00:11:17,270
+voy a,
+
+168
+00:11:17,310 --> 00:11:21,530
+por ejemplo, refrescar, que es un poco capaz de me fácil,
+
+169
+00:11:21,770 --> 00:11:27,370
+lo que vamos a avisar, mis servicios ahora, ahí va,
+
+170
+00:11:27,630 --> 00:11:30,830
+entonces ahora no me está agrupando por panea, entonces ya es un saldo inicial
+
+171
+00:11:30,831 --> 00:11:34,310
+y ve lo movimientos, por eso te sumariza de esto,
+
+172
+00:11:34,311 --> 00:11:39,050
+obviamente esto lo puedo mostrar así porque en verdad hay muy pocos
+
+173
+00:11:39,051 --> 00:11:43,770
+movimientos, ¿no? Y igual esto tiene paginación,
+
+174
+00:11:43,950 --> 00:11:46,410
+o sea que ustedes podrían sacar esto y te va a cargar y te
+
+175
+00:11:46,411 --> 00:11:49,710
+va a paginar y cómo lo hacen para descargarlo,
+
+176
+00:11:49,850 --> 00:11:53,590
+venimos aquí, podemos sacar el resumido para a dar lo todo abierto,
+
+177
+00:11:53,850 --> 00:11:57,520
+junto a los movimientos que tuvieron, ven por ejemplo lo haga 20 productos.
+
+178
+00:11:58,020 --> 00:12:01,960
+Acá las cuentas de ingresos no lo la hemos clasificado,
+
+179
+00:12:02,160 --> 00:12:05,360
+solamente tenemos 20 productos, la podemos definir mucho más específicamente,
+
+180
+00:12:05,720 --> 00:12:08,640
+según el balance que nos pasaron, si quieren, eso lo podemos configurar.
+
+181
+00:12:09,780 --> 00:12:12,400
+Y acá tengo lo que abren los productos, se acaba uno de los productos,
+
+182
+00:12:12,720 --> 00:12:16,720
+podría mandar, por ejemplo, esta a un ingreso por el rendamiento,
+
+183
+00:12:17,240 --> 00:12:21,200
+esto, un ingreso por producción, me siguen.
+
+184
+00:12:21,201 --> 00:12:26,180
+Todo esto se puede ir condicionando y configurando a
+
+185
+00:12:26,181 --> 00:12:30,380
+partir del producto. Ese producto puede tomar las cuentas del producto o a partir
+
+186
+00:12:30,381 --> 00:12:35,200
+de su categoría de productos. Para poder hacer una definición lo
+
+187
+00:12:35,201 --> 00:12:38,440
+más ágil posible y tener todos los datos que tienen para definir.
+
+188
+00:12:40,700 --> 00:12:43,020
+Este es lo que les decía mostrar que tengo esto abierto,
+
+189
+00:12:43,300 --> 00:12:45,660
+cómo la hacen para descargar, vienen aquí, compartir,
+
+190
+00:12:45,840 --> 00:12:50,740
+descargar. y esto el hígeno en Excel descargar,
+
+191
+00:12:51,100 --> 00:12:55,960
+y así simplemente se debería descargar y poder visualizar el archivo
+
+192
+00:12:55,961 --> 00:12:59,820
+en PDF, como broma,
+
+193
+00:13:00,480 --> 00:13:02,720
+en PDF, se puede sacar también sí,
+
+194
+00:13:02,800 --> 00:13:05,480
+un mayor contar en PDF, sí,
+
+195
+00:13:06,000 --> 00:13:09,400
+no, para descargar solamente en Excel,
+
+196
+00:13:09,401 --> 00:13:13,560
+¿por qué querías descargar un PDF? Porque hoy en día lo mandamos en PDF,
+
+197
+00:13:14,720 --> 00:13:17,900
+parece consumilado.
+
+198
+00:13:19,940 --> 00:13:22,160
+Ok, y como controla,
+
+199
+00:13:22,260 --> 00:13:24,440
+y como, Bueno, si quieren,
+
+200
+00:13:24,740 --> 00:13:26,880
+puedo activar y puedo agregarle su reporte,
+
+201
+00:13:27,000 --> 00:13:29,580
+que sea, Porque como veis esto,
+
+202
+00:13:29,600 --> 00:13:32,780
+mucho más flexible y permeable,
+
+203
+00:13:33,200 --> 00:13:36,060
+y acá no podemos pasar esto a PDF,
+
+204
+00:13:36,860 --> 00:13:41,280
+solamente lo ves web o en Excel. lo que tenemos en PDF,
+
+205
+00:13:41,440 --> 00:13:43,720
+es un reporte mucho más estructurado,
+
+206
+00:13:43,920 --> 00:13:46,860
+fijo, que si desean lo podemos generar,
+
+207
+00:13:47,000 --> 00:13:51,180
+lo exportan como quién.
+
+208
+00:13:52,500 --> 00:13:56,780
+Así yo cuando terminamos esta reunión de pasamos a ver cómo es que nos
+
+209
+00:13:56,781 --> 00:14:00,940
+portar código para que tengas una idea y la verdad es que sí,
+
+210
+00:14:01,120 --> 00:14:04,820
+lo exportamos en PDF porque el encontrar previo,
+
+211
+00:14:05,020 --> 00:14:07,420
+lo digamos, la se velen y el que todas las puestas.
+
+212
+00:14:10,120 --> 00:14:13,200
+lo que agarra el estudio exceso y veis que para los jugueras mayor y
+
+213
+00:14:13,201 --> 00:14:16,840
+por eso son peréferes. Todo lo que hace una cosa muy puntual que yo
+
+214
+00:14:16,841 --> 00:14:19,100
+le sé a ver en el Google, le va a celebrar el AIC que
+
+215
+00:14:19,101 --> 00:14:22,920
+mandamos en Excel en las cosas, pero la realidad que es la mayoría de
+
+216
+00:14:22,921 --> 00:14:26,860
+la unilación que mandamos en su interés. Pero tal eso se ve igual de
+
+217
+00:14:26,861 --> 00:14:29,220
+dos. ¿Quién está conmenda oyergóse?
+
+218
+00:14:29,500 --> 00:14:32,360
+Bueno, ahí viste, te estoy mostrando ahora como como descargué todos los datos,
+
+219
+00:14:33,460 --> 00:14:36,760
+eso encieran que esto está ok así.
+
+220
+00:14:37,880 --> 00:14:40,020
+Sí, creo que yo lo refiero a lo que voy a hacer,
+
+221
+00:14:41,040 --> 00:14:43,280
+las fechas, los mordos, las viendas.
+
+222
+00:14:43,660 --> 00:14:47,440
+Ese es así, está resumido, ¿verdad? Este no está resumido,
+
+223
+00:14:47,600 --> 00:14:50,900
+pero está, puede sacar a lo que me voy a resumir. El 80-80 va
+
+224
+00:14:50,901 --> 00:14:54,060
+a ser muy largo en el semestre. Sí, la idea también es que sí
+
+225
+00:14:54,061 --> 00:14:57,600
+se va a dar un par, ¿no? Como lo le estaba reciendo por traducos,
+
+226
+00:14:58,100 --> 00:15:00,580
+por que entrevaría. Bueno,
+
+227
+00:15:00,640 --> 00:15:05,080
+claro, pero es el cliente.
+
+228
+00:15:05,300 --> 00:15:12,120
+Ok, entonces por qué digo, parece caso capaz que mejor manda
+
+229
+00:15:12,121 --> 00:15:16,660
+su malancia. Acá
+
+230
+00:15:16,661 --> 00:15:19,280
+no bajé grupado, ¿eh? ¿No? Queríamos dar dos cosas,
+
+231
+00:15:19,440 --> 00:15:22,400
+puede trabajar con los cosas, entonces a vos, si quieres sacar un mayor o
+
+232
+00:15:22,401 --> 00:15:27,060
+el que venden por arrendamiento tal,
+
+233
+00:15:27,260 --> 00:15:29,560
+de sacar el mayor y ahí sí, está empezado todos los datos,
+
+234
+00:15:29,720 --> 00:15:33,420
+pero también necesitamos saber cómo sacar el balance y que sería los números grandes,
+
+235
+00:15:33,900 --> 00:15:36,880
+que están en la comunidad. Claro, a ver, esto es lo que viste,
+
+236
+00:15:37,000 --> 00:15:40,020
+lo exporté con el check, y me lo exportó así. Bien,
+
+237
+00:15:40,300 --> 00:15:42,500
+sí, para perfecto, sí, sí. Ahora,
+
+238
+00:15:42,501 --> 00:15:44,540
+lo que yo he comentado es que para exportar esto,
+
+239
+00:15:44,541 --> 00:15:50,700
+capaz que mejor sacar un informe financiero que en
+
+240
+00:15:50,701 --> 00:15:55,300
+esta ventana es donde configuramos lo que son todos los reportes o sea los
+
+241
+00:15:55,301 --> 00:15:59,840
+reportes más analíticos de financieros o
+
+242
+00:15:59,841 --> 00:16:04,180
+sea por ejemplo tenemos el 800 acá tenemos les cuento un poco cómo funciona
+
+243
+00:16:04,181 --> 00:16:08,940
+la funcionalidad ésta el informe financiero usted es acá nosotros podemos gestionar
+
+244
+00:16:08,941 --> 00:16:13,760
+ver la información contable y estructurar los datos
+
+245
+00:16:13,761 --> 00:16:16,640
+como uno quiera. Inicialmente tenemos 7,
+
+246
+00:16:16,720 --> 00:16:20,700
+que es el 800, que es un balad, con capítulos digamos entonces tengo un
+
+247
+00:16:20,701 --> 00:16:25,320
+grupo de líneas que ustedes pueden definir en grupo de líneas ustedes pueden jugar
+
+248
+00:16:25,321 --> 00:16:30,260
+con diferentes inputs digamos por ejemplo ver clientes como
+
+249
+00:16:30,261 --> 00:16:34,960
+líneas productos como líneas o cuentas contables como líneas
+
+250
+00:16:34,961 --> 00:16:39,500
+que sería un balance estándar por eso tenemos esto y en grupo de
+
+251
+00:16:39,501 --> 00:16:44,460
+columnas ustedes pueden jugar también y mover y crear diferentes columnas
+
+252
+00:16:44,461 --> 00:16:46,900
+según ustedes quieran analizar.
+
+253
+00:16:47,740 --> 00:16:49,800
+Esto te da la capacidad de, por ejemplo,
+
+254
+00:16:49,801 --> 00:16:54,900
+ver en líneas los proyectos del mes y en columnas
+
+255
+00:16:54,901 --> 00:16:57,440
+los ingresos, los gastos y el resultado.
+
+256
+00:16:57,740 --> 00:17:00,820
+No sé si me siguen. Sí, sí, sí. Todo esto animal contable,
+
+257
+00:17:00,860 --> 00:17:02,940
+o sea que va a dar lo mismo eso que estás viendo ahí con
+
+258
+00:17:02,941 --> 00:17:06,940
+tu balance, hace un poco de la ventaja de manejar la contabilidad de cómo
+
+259
+00:17:06,941 --> 00:17:10,200
+la manejamos. Ahora, lleno a una simple,
+
+260
+00:17:10,400 --> 00:17:14,600
+voy a sacar este el 800 y esto es,
+
+261
+00:17:14,601 --> 00:17:16,740
+con la información está en la radiamos del sistema,
+
+262
+00:17:17,280 --> 00:17:22,800
+te pueden definir para que emés, vamos a sacarlo para 202511,
+
+263
+00:17:23,220 --> 00:17:26,320
+que es el que vimos que teníamos datos, te pueden hacer los trabajos que
+
+264
+00:17:26,321 --> 00:17:29,460
+quieras, que quieran, pueden regir la realización,
+
+265
+00:17:29,500 --> 00:17:33,120
+hace la empresa, usted solamente te va a tener una por ahora y podría
+
+266
+00:17:33,121 --> 00:17:37,960
+filtrar por todo esto o por nada y ahí tenés
+
+267
+00:17:37,961 --> 00:17:42,640
+un reporte de un balance que bueno sería mandar un resumen
+
+268
+00:17:42,641 --> 00:17:47,280
+de lo saldo finales por cuenta, o sea en este informe financiado también
+
+269
+00:17:47,281 --> 00:17:51,200
+ustedes pueden tener una columna que sea los movimientos del mes y otra columna
+
+270
+00:17:51,201 --> 00:17:53,760
+de lo que sea el acumulado,
+
+271
+00:17:53,761 --> 00:17:59,060
+esto como
+
+272
+00:17:59,061 --> 00:18:02,640
+por ejemplo ya tenía el check de resumido por eso me lo está resumiendo
+
+273
+00:18:02,641 --> 00:18:04,680
+en su capítulos, pero si lo abro,
+
+274
+00:18:05,000 --> 00:18:07,880
+me lo abrará todas las cuentas. Claro,
+
+275
+00:18:08,260 --> 00:18:10,760
+sí, bien. Esa es el inicial. Sí, no sé ni siquiera.
+
+276
+00:18:11,780 --> 00:18:16,340
+Bueno, hay dos cuentas. Ella va a ir a las cuentas.
+
+277
+00:18:16,460 --> 00:18:19,940
+Nosotros, es que nos tenemos que adoptar nuestro plan de cuentas actualmente,
+
+278
+00:18:20,100 --> 00:18:22,380
+¿no? Sí, si quieren,
+
+279
+00:18:22,500 --> 00:18:25,080
+me hemos juntos lo que me mandaron.
+
+280
+00:18:26,020 --> 00:18:28,300
+Realmente eso va a ser un proceso en este,
+
+281
+00:18:28,301 --> 00:18:31,100
+en este, En este primer mes,
+
+282
+00:18:31,180 --> 00:18:33,320
+digamos, no hay urgencia que nos pasen ahora,
+
+283
+00:18:33,600 --> 00:18:35,780
+el saldo de apertura.
+
+284
+00:18:36,840 --> 00:18:39,060
+Ustedes, vos, Belén y Ramina,
+
+285
+00:18:39,220 --> 00:18:42,160
+son los dos conocimientos contables, la gestión administrativa,
+
+286
+00:18:42,220 --> 00:18:44,880
+la maneja de ustedes, está perfecto.
+
+287
+00:18:45,480 --> 00:18:48,480
+Entonces, cualquier consulta que tengan en este sentido,
+
+288
+00:18:49,120 --> 00:18:52,840
+sientas totalmente libres de hacer las preguntas que tengan porque,
+
+289
+00:18:52,880 --> 00:18:59,800
+claro, es vital que ustedes tengan la correcta capacitación
+
+290
+00:18:59,801 --> 00:19:04,340
+para que puedan accionar y la primera cumplea por la toda
+
+291
+00:19:04,341 --> 00:19:06,920
+este tema en un número porque eso es totalmente,
+
+292
+00:19:07,580 --> 00:19:11,380
+soy consciente de eso por eso de que ustedes nosotros igual vamos a hacer
+
+293
+00:19:11,381 --> 00:19:14,060
+una capacitación que es que un poco yo ya le estoy mostrando,
+
+294
+00:19:14,061 --> 00:19:20,080
+pero que apájensemos otra o las que tengan necesario para profundizar
+
+295
+00:19:20,081 --> 00:19:23,240
+en este sentido, pero el tema contado,
+
+296
+00:19:23,300 --> 00:19:27,980
+igual, no es mucho experimentar. Lo que sí lo que podemos ver es bueno,
+
+297
+00:19:28,280 --> 00:19:31,880
+la definición de los bancos, si se los muestro,
+
+298
+00:19:32,040 --> 00:19:36,300
+si quieren, esperemos a Mauricio, si quieren para hacerlo a todos juntos o bueno,
+
+299
+00:19:36,340 --> 00:19:38,960
+como ustedes digan, si no lo podemos hacer con ustedes solas,
+
+300
+00:19:39,100 --> 00:19:42,240
+no hay ningún problema. La realidad es que la operativa,
+
+301
+00:19:42,720 --> 00:19:46,400
+la que más se estaba desvelieron, y nada,
+
+302
+00:19:46,500 --> 00:19:48,980
+que lo damos ahora. Taba perfecto.
+
+303
+00:19:49,280 --> 00:19:52,880
+Entonces, yo le mostro un poco para que tengan una idea así de saber
+
+304
+00:19:52,881 --> 00:19:56,500
+y les quedan el video, así ustedes pueden indagar,
+
+305
+00:19:56,960 --> 00:19:59,000
+tocar, modificar lo que quieran.
+
+306
+00:19:59,060 --> 00:20:02,200
+Entonces, en la base de testing, que la van a mantener igual,
+
+307
+00:20:02,920 --> 00:20:07,400
+les comento un poco cómo funciona. Ustedes van a mantener esta instancia de testing
+
+308
+00:20:07,401 --> 00:20:09,980
+de pruebas. Y lo que vamos a hacer es, en producción,
+
+309
+00:20:10,240 --> 00:20:16,860
+vamos a quedar otro link, otra instancia, ¿Ustedes van a tener acceso
+
+310
+00:20:16,861 --> 00:20:19,460
+a producción?
+
+311
+00:20:19,800 --> 00:20:23,920
+Entonces, vas a tener una imagen solo de producción y un muy imagen de
+
+312
+00:20:23,921 --> 00:20:27,140
+esto para que así ustedes pueden tocar,
+
+313
+00:20:27,340 --> 00:20:32,430
+modificar lo que quiere. Siendo un poco la línea está perfecto
+
+314
+00:20:32,431 --> 00:20:36,030
+viendo te balance si me pueden pasar te balance también como excel capaz estaría
+
+315
+00:20:36,031 --> 00:20:42,050
+bueno Así podemos hacer la comparativa Y
+
+316
+00:20:42,051 --> 00:20:45,960
+esto es lo solo como lo manejamos bueno una ventana importante va a ser
+
+317
+00:20:45,961 --> 00:20:50,540
+el elemento contable la ventana elemento contable es
+
+318
+00:20:50,541 --> 00:20:55,180
+donde se define el plan de cuentas si vamos acá plan de
+
+319
+00:20:55,181 --> 00:20:59,900
+cuentas bien vamos a ver que aquí los cerramos me
+
+320
+00:20:59,901 --> 00:21:03,880
+voy a las líneas a la pesta Tania, y si lo vemos como mono,
+
+321
+00:21:04,960 --> 00:21:07,460
+podemos visualizar lo que es el árbol del plan de cuentas.
+
+322
+00:21:08,920 --> 00:21:13,860
+Entonces acá hay como que vamos, empezamos a hablar de temas conocidos y
+
+323
+00:21:13,861 --> 00:21:16,980
+acá obviamente nosotros porque hacemos esto.
+
+324
+00:21:17,160 --> 00:21:22,240
+Nosotros tenemos una rol de cuentas, son planes de cuentas ya previamente configurado
+
+325
+00:21:22,241 --> 00:21:25,260
+con todas las dimensiones y para el sistema de la necesita,
+
+326
+00:21:25,800 --> 00:21:30,340
+entonces normalmente nuestro plan de cuentas es mucho más rico de lo que es
+
+327
+00:21:30,341 --> 00:21:35,340
+el plan de cuentas de los clientes. eso simplemente porque está adaptado
+
+328
+00:21:35,341 --> 00:21:39,980
+y perfectamente configurado con lo que es este el
+
+329
+00:21:39,981 --> 00:21:44,500
+sistema un ejemplo que voy a ver aquí como lo
+
+330
+00:21:44,501 --> 00:21:49,160
+manejan ustedes el tema del bueno está el activo y el pasío te
+
+331
+00:21:49,260 --> 00:21:51,760
+lo manejan, va. Dentro de esto tenés,
+
+332
+00:21:52,360 --> 00:21:57,140
+esto es una diferencia, por ejemplo. Como mismo nosotros nuestras cuentas,
+
+333
+00:21:57,141 --> 00:21:59,740
+nuestras cuentas tenemos la moneda,
+
+334
+00:21:59,860 --> 00:22:03,300
+la definé el documento,
+
+335
+00:22:03,580 --> 00:22:06,500
+por lo cual ustedes van a tener una única moneda. una única cuenta que
+
+336
+00:22:06,501 --> 00:22:09,940
+es a que lo ves por compras o en nuestro caso.
+
+337
+00:22:12,880 --> 00:22:15,060
+Claro, ustedes lo tienen abierto.
+
+338
+00:22:16,460 --> 00:22:19,920
+Exacto. No solo tenemos una única cuenta, pero lo que van a poder ver
+
+339
+00:22:19,921 --> 00:22:24,640
+es lo Bueno, bueno, bueno. organizando por moneda así vas a poder visualizar
+
+340
+00:22:24,641 --> 00:22:26,500
+este mismo importe sin ningún problema
+
+341
+00:22:37,260 --> 00:22:39,980
+tenemos actualizaciones por diferencia creemos de manera automática,
+
+342
+00:22:40,680 --> 00:22:44,840
+diferentes así que si quieren luego vemos en una siguiente reunión o bueno a
+
+343
+00:22:44,841 --> 00:22:49,240
+medida que vayan este, ahora no confiasa y aprendiendo un poco más el sistema.
+
+344
+00:22:49,700 --> 00:22:51,780
+A ver, sí, es un tema muy bueno para la Poletá.
+
+345
+00:22:52,060 --> 00:22:57,700
+Si va a mandar dos a la misma, el
+
+346
+00:22:57,701 --> 00:23:00,200
+mismo, totalmente, obviamente,
+
+347
+00:23:00,580 --> 00:23:03,720
+solamente era una de las diferencias, no sé si ustedes a ver en cuenta
+
+348
+00:23:03,721 --> 00:23:06,720
+por socióreos si ustedes? No.
+
+349
+00:23:07,100 --> 00:23:10,100
+No. Más cosas a ver. Perfecto.
+
+350
+00:23:10,180 --> 00:23:12,840
+Bien, eso puede haberse de los clientes este concundi,
+
+351
+00:23:13,020 --> 00:23:16,340
+este tiene ese tema. Toda la cuenta de amortización y demás,
+
+352
+00:23:16,560 --> 00:23:19,120
+en la que tenemos que crear, vamos a tener que crear,
+
+353
+00:23:19,300 --> 00:23:24,580
+perfecto, lo tenemos. Tenemos que
+
+354
+00:23:24,581 --> 00:23:29,160
+ver el tema de los y va a estar igual para ver cómo se
+
+355
+00:23:29,161 --> 00:23:32,980
+configuran cada uno de ellos, no me voy a configurar y los cheques están.
+
+356
+00:23:33,060 --> 00:23:35,840
+Esto si quieren, me la pueden pasar por excel, así lo verificó.
+
+357
+00:23:35,920 --> 00:23:39,160
+Sí, yo te voy a pasar que llamo si lo acabamos y lo acabamos
+
+358
+00:23:39,161 --> 00:23:41,180
+acabamos. No, perfecto, muchas gracias. Bien.
+
+359
+00:23:41,280 --> 00:23:44,540
+entonces acá que tenemos bueno todo lo que se plane cuentas ah y como
+
+360
+00:23:44,541 --> 00:23:48,960
+aumenta también nosotros tenemos que es bien abierto lo que es el universo de
+
+361
+00:23:48,961 --> 00:23:53,540
+gastos ah ya todo con un capítulo y su capítulo
+
+362
+00:23:53,541 --> 00:23:58,160
+y dentro tienen su correspondiente cuenta esto
+
+363
+00:23:58,161 --> 00:24:02,920
+ustedes pueden crear las cuentas que quieran o mismo
+
+364
+00:24:02,921 --> 00:24:07,540
+si quieren esta por ejemplo gasto diario de viaje no pasa nada
+
+365
+00:24:07,541 --> 00:24:11,900
+venen acá y le cambian el nombre y si quieren recordar el número o
+
+366
+00:24:11,901 --> 00:24:13,140
+sea sientan sientan
+
+367
+00:24:23,480 --> 00:24:27,840
+lo que les recomiendo lo que normalmente hacemos nosotros es,
+
+368
+00:24:28,080 --> 00:24:31,620
+compartimos en un excel el plan de cuentas de uno y el plan de
+
+369
+00:24:31,621 --> 00:24:36,340
+cuentas de otro, el desolop y lo ustedes y yo les comento primero cuáles
+
+370
+00:24:36,341 --> 00:24:38,580
+son similares.
+
+371
+00:24:40,440 --> 00:24:43,300
+¿Cómo ustedes ven de cuál es cuál?
+
+372
+00:24:43,620 --> 00:24:46,700
+Y ahí sí, le pueden caminar en nombre como aquí. pero se explica a
+
+373
+00:24:46,701 --> 00:24:51,260
+la familia después obviamente
+
+374
+00:24:51,261 --> 00:24:55,340
+que nosotros podemos tener el otro tema a ver cómo se mueve los resultados
+
+375
+00:24:55,341 --> 00:24:59,380
+los resultados no sólo los podemos los podemos lo entiendo ustedes lo quieren mover
+
+376
+00:24:59,381 --> 00:25:04,500
+al facturar así que eso le puedo mostrar que si
+
+377
+00:25:04,501 --> 00:25:09,680
+voy a explicarles cómo se configura las asientos para
+
+378
+00:25:09,681 --> 00:25:13,720
+entender un poco la lógica,
+
+379
+00:25:13,860 --> 00:25:18,420
+si voy el documento por par vamos a ver la
+
+380
+00:25:18,421 --> 00:25:23,940
+que hay un momento de seguir a esta, este movimiento vieron que movió
+
+381
+00:25:26,490 --> 00:25:31,080
+cuentas probadas comerciales y gasto de producto
+
+382
+00:25:31,081 --> 00:25:34,680
+esto ¿Dónde se definió esta cuenta?
+
+383
+00:25:34,900 --> 00:25:37,280
+Bueno, primero vamos a lo que es el resultado.
+
+384
+00:25:37,540 --> 00:25:39,960
+El resultado le definimos en este caso con el producto,
+
+385
+00:25:40,840 --> 00:25:45,620
+yo puedo navegar al producto para visualizar la
+
+386
+00:25:45,621 --> 00:25:47,220
+configuración contable que tiene el mismo.
+
+387
+00:25:56,340 --> 00:25:59,020
+Entonces acá hay que tenemos, por ejemplo, producción lunetas,
+
+388
+00:25:59,540 --> 00:26:02,440
+tenemos aquí abajo y tenemos dentro de sus prestáneas,
+
+389
+00:26:02,720 --> 00:26:08,530
+una pestaña que es de contabilidad. Si
+
+390
+00:26:08,531 --> 00:26:10,650
+bajamos acá la contabilidad, lo vemos como mono,
+
+391
+00:26:11,170 --> 00:26:13,450
+podemos ver toda la configuración contable que tiene este producto,
+
+392
+00:26:13,950 --> 00:26:18,490
+obviamente que ustedes van a tener hay cuentas
+
+393
+00:26:18,491 --> 00:26:20,850
+que no la van a utilizar, no se preocupen.
+
+394
+00:26:22,900 --> 00:26:25,500
+Pero bueno, no, nunca sabes, pero bueno,
+
+395
+00:26:25,520 --> 00:26:30,380
+básicamente, ahora tenemos configurado que cuando vas manda
+
+396
+00:26:30,381 --> 00:26:38,240
+el costo de pronto a esa cuenta, entonces usted le puede modificar directamente te
+
+397
+00:26:38,241 --> 00:26:40,640
+puede pasar que un producto lo compre si lo vende, como por ejemplo puede
+
+398
+00:26:40,641 --> 00:26:45,300
+ser la producción entiendo, el producto de venda
+
+399
+00:26:45,301 --> 00:26:50,260
+lo tenés aquí, esto es igual si quieren lo
+
+400
+00:26:50,261 --> 00:26:53,620
+vemos juntos y los se los actualizó y lo definimos y lo,
+
+401
+00:26:53,640 --> 00:26:58,200
+que lo hicimos todo junto. Yo un poco para que ustedes entiendan
+
+402
+00:26:58,201 --> 00:27:00,940
+y sepan de dónde viene configurado las cosas. Sí,
+
+403
+00:27:01,180 --> 00:27:04,620
+igual es, o sea, el destino con esos otros formatos,
+
+404
+00:27:04,740 --> 00:27:07,440
+pero es lo mismo que hacemos cuando te dan los artículos o algo.
+
+405
+00:27:08,100 --> 00:27:10,700
+No, perfecto. El primero. Bien,
+
+406
+00:27:11,040 --> 00:27:14,260
+ahora una salvedad de si ustedes crean los artículos o nuevos productos,
+
+407
+00:27:14,261 --> 00:27:16,960
+con mi nuevo social de negocio, probadores clientes,
+
+408
+00:27:17,620 --> 00:27:21,900
+no solo tomamos esta configuración contable a partir de entero que son los padres,
+
+409
+00:27:22,100 --> 00:27:26,920
+o sea, la categoría, tenemos una categoría de productos que si vemos aquí,
+
+410
+00:27:28,400 --> 00:27:34,520
+esta categoría de producto vemos que podemos
+
+411
+00:27:34,521 --> 00:27:39,240
+definir para esta categoría que es producción determinada
+
+412
+00:27:39,241 --> 00:27:44,670
+configuración contable. de
+
+413
+00:27:44,671 --> 00:27:49,350
+costo de producto acá de costo de producto acá viste que
+
+414
+00:27:49,351 --> 00:27:53,970
+vemos aquí y las ventas entonces
+
+415
+00:27:53,971 --> 00:27:56,310
+una vez definimos esto bien usted puede modificar,
+
+416
+00:27:56,311 --> 00:27:58,880
+podemos modificar lo hacemos nosotros juntos se quieren,
+
+417
+00:27:59,060 --> 00:28:01,460
+definimos las cuentas primero en ese excel,
+
+418
+00:28:02,080 --> 00:28:05,280
+si quieren, les quedamos las cuentas y después las configuramos acá en ningún problema
+
+419
+00:28:05,281 --> 00:28:09,940
+y esto en esta categoría podemos ver que tenemos estos productos asignados,
+
+420
+00:28:10,300 --> 00:28:15,300
+entonces Todos estos productos asignados,
+
+421
+00:28:15,380 --> 00:28:17,920
+que vemos que son tantos como 57.
+
+422
+00:28:20,100 --> 00:28:22,840
+Claro, directamente aquí, desde la sección montabilia,
+
+423
+00:28:22,920 --> 00:28:26,120
+puedo copiar cuentas y voy a copiar las cuentas a todos los productos.
+
+424
+00:28:29,720 --> 00:28:33,020
+Esto también lo mismo pasa con el socio de negocio.
+
+425
+00:28:33,700 --> 00:28:36,160
+¿Por qué explico esto? ¿Por qué mal a ustedes cuando creen un socio de
+
+426
+00:28:36,161 --> 00:28:40,080
+negocio o cuando creen un producto, si le definen cuando lo van a crear,
+
+427
+00:28:40,120 --> 00:28:45,040
+que es un campo obligatorio, su correspondiente categoría de producto o su correspondiente
+
+428
+00:28:45,041 --> 00:28:48,660
+grupo. los negocios va a agredar a esa configuración contable así que no tienen
+
+429
+00:28:48,661 --> 00:28:51,860
+que configurar nada más ya que la toma.
+
+430
+00:28:51,900 --> 00:28:55,280
+Ya está. Ya está.
+
+431
+00:28:55,520 --> 00:28:59,040
+Entonces ya se configura todo heredado de la categoridad correspondiente.
+
+432
+00:28:59,800 --> 00:29:02,960
+de clave y finil todo esto. ¿Por eso?
+
+433
+00:29:03,400 --> 00:29:06,160
+Sí, totalmente clave, porque si no, es un trabajo.
+
+434
+00:29:07,740 --> 00:29:11,340
+Obviamente grabar al principio no se preocupen porque no solo esto tampoco es tan
+
+435
+00:29:11,341 --> 00:29:15,260
+determinante desde el vamos, obviamente que si está bien configurado mejor,
+
+436
+00:29:15,760 --> 00:29:19,580
+pero lo que sí vamos a tener que definiendo y cuando lo definamos no
+
+437
+00:29:19,581 --> 00:29:23,260
+sólo podemos recontabilizar todo relativamente o sea para dar a todo lo que haya
+
+438
+00:29:23,261 --> 00:29:26,340
+lo configuramos de huelte y le mandamos todo el reglizar y se generan todas
+
+439
+00:29:26,341 --> 00:29:31,020
+las transacciones de huelta vamos a que lo mejor que
+
+440
+00:29:31,021 --> 00:29:35,460
+podamos bien suma ¿Cómo?
+
+441
+00:29:36,240 --> 00:29:38,580
+Que si partimos en la base de esta solidad,
+
+442
+00:29:38,760 --> 00:29:43,700
+muchísimo mejor, ¿no? Sí, por menos se va a dejar la pequeña
+
+443
+00:29:43,701 --> 00:29:48,420
+diferencia, digo. Porque obviamente que el primer mes es de mucha ajuste y diversificación.
+
+444
+00:29:49,200 --> 00:29:52,180
+Bueno, pero no, no, no, no. Me problema, si hay algo más ping,
+
+445
+00:29:52,460 --> 00:29:56,420
+se vuelve a responsabilizar y y responsabilizamos todo lo documento del mes sin ningún
+
+446
+00:29:56,421 --> 00:30:01,560
+problema. Esa virtual en un pletar mes de salida
+
+447
+00:30:01,561 --> 00:30:03,760
+Amigo. Bien,
+
+448
+00:30:04,220 --> 00:30:07,600
+bueno. De ahí entonces explicamos lo que es cómo serían las cuentas,
+
+449
+00:30:07,720 --> 00:30:10,160
+producto, también pasa lo mismo con el social negocio.
+
+450
+00:30:10,520 --> 00:30:13,640
+Si vamos acá, lo cuento por pagar para aplicar un poco cómo lo van
+
+451
+00:30:13,641 --> 00:30:18,340
+a visualizar del social negocio, pueden para llegar al social negocio y
+
+452
+00:30:18,341 --> 00:30:22,340
+el social negocio va a tomar las cuentas el grupo de esos años,
+
+453
+00:30:23,360 --> 00:30:27,980
+si
+
+454
+00:30:27,981 --> 00:30:30,960
+entramos aquí podemos ver que este tenemos esta,
+
+455
+00:30:31,220 --> 00:30:36,390
+el grupo de esos por ejemplo acá, es algo que ustedes no definieron,
+
+456
+00:30:36,510 --> 00:30:39,760
+no se definió. automáticamente con la carga masiva,
+
+457
+00:30:40,100 --> 00:30:43,180
+porque no estaba estipulado,
+
+458
+00:30:43,380 --> 00:30:45,880
+o sea que ustedes ahora podrían ir y lo van definiendo,
+
+459
+00:30:45,920 --> 00:30:50,100
+lo que son clientes, lo que son proveedores, si es que quieren clasificarlo de
+
+460
+00:30:50,101 --> 00:30:52,620
+manera diferente, es verdad.
+
+461
+00:30:54,160 --> 00:30:58,800
+si vamos a hacer el siguiente y al mismo tiempo proveedor también nos vamos
+
+462
+00:30:58,801 --> 00:31:04,080
+a reír más en ponderamos en verdad bueno o podrían poner otro
+
+463
+00:31:04,081 --> 00:31:08,660
+grupo o ustedes pueden quedar tantos grupos como quieran entonces
+
+464
+00:31:08,661 --> 00:31:11,440
+esos tercires tan También para después filtrar palos,
+
+465
+00:31:11,500 --> 00:31:15,540
+porque capaz que una cosa es un proveedor que también es cliente,
+
+466
+00:31:15,820 --> 00:31:18,360
+y otra cosa es un proveedor directo, puro.
+
+467
+00:31:18,780 --> 00:31:21,580
+La mayoría de las agencias son y sí el depróleo.
+
+468
+00:31:22,040 --> 00:31:24,620
+Por eso entonces capaz que ustedes pueden hacer un grupo que es agencias.
+
+469
+00:31:25,740 --> 00:31:30,440
+a todos esos agencias la definís y eso puede definir eso y
+
+470
+00:31:30,441 --> 00:31:34,720
+otras cosas más a partir del grupo a ver aquí el grupo tenemos y
+
+471
+00:31:34,721 --> 00:31:38,000
+tenemos unas cuentas y acá se pone todas las cuentas por cobrar,
+
+472
+00:31:38,380 --> 00:31:41,180
+cuentas por par, anticipos,
+
+473
+00:31:41,200 --> 00:31:45,600
+cuentas hay muchos datos que se pueden configurar a quimil.
+
+474
+00:31:47,080 --> 00:31:51,720
+Bien todo esto igual usted lo pueden visualizar en la
+
+475
+00:31:51,721 --> 00:31:56,340
+documentación de todo esto porque obviamente no me echan a aprenderse
+
+476
+00:31:56,341 --> 00:31:58,960
+al principio toda la gestión y toda la configuración.
+
+477
+00:32:00,740 --> 00:32:04,840
+Nosotros tenemos acá toda la gestión contable que eso lo podemos.
+
+478
+00:32:05,940 --> 00:32:08,400
+Visualizar la explica,
+
+479
+00:32:08,401 --> 00:32:10,980
+digamos, claro, haciendo.
+
+480
+00:32:11,160 --> 00:32:13,920
+Es la base de fuerza, ¿no? O es otro.
+
+481
+00:32:14,460 --> 00:32:16,480
+¿Cómo? Que esto, este,
+
+482
+00:32:16,600 --> 00:32:19,780
+este es una cosa en el viácter, ¿no? Puedes hacer,
+
+483
+00:32:19,920 --> 00:32:24,240
+¿sí? ¿Sobramente? No. Yo no lo acabamos de decir de las revillas de vuelta
+
+484
+00:32:24,241 --> 00:32:26,780
+así y lo vemos conmigo. Vale,
+
+485
+00:32:27,020 --> 00:32:29,540
+asiento contarle por el documento, por ejemplo, ahorita que tenemos al clato de los
+
+486
+00:32:29,541 --> 00:32:33,380
+documentos, asiento contarles y yo les paso si quieren.
+
+487
+00:32:38,160 --> 00:32:40,180
+esto lo pueden ver desde el menú.
+
+488
+00:32:41,420 --> 00:32:44,920
+A todos de los de los de los y la de impulsión.
+
+489
+00:32:45,040 --> 00:32:49,220
+Sí, estamos llevando esto. Si ya tengo un problema con el link o algo
+
+490
+00:32:49,221 --> 00:32:52,680
+me vise, estamos haciendo un cambio de la desgraciación.
+
+491
+00:32:54,120 --> 00:32:58,700
+de la documentación y y hay veces que algunas algunas links quedaron
+
+492
+00:32:58,701 --> 00:33:03,440
+se rompieron pero ya estamos en eso así que en breves ya quedará suelto.
+
+493
+00:33:04,180 --> 00:33:08,660
+Si vuelche los pasos porque es muy útil,
+
+494
+00:33:10,820 --> 00:33:13,000
+ahora se lo paso por acá pero después se lo paso en el doc,
+
+495
+00:33:17,080 --> 00:33:21,880
+bien se los va a hacer el mit. Bueno,
+
+496
+00:33:22,200 --> 00:33:25,140
+bajando un poco, recibiendo un poco.
+
+497
+00:33:25,340 --> 00:33:29,220
+Entonces, el chave más lo que es el elemento contable, como se las configuraciones
+
+498
+00:33:29,221 --> 00:33:32,280
+de cuentas, que eso solamente para tener una idea de cómo funciona,
+
+499
+00:33:32,940 --> 00:33:34,960
+lo vamos a poder ir avanzando. Paso paso,
+
+500
+00:33:35,700 --> 00:33:38,080
+el reporte es muy rico que es el balance,
+
+501
+00:33:38,700 --> 00:33:41,280
+tenemos otro que es el balance de prueba navegable,
+
+502
+00:33:41,500 --> 00:33:45,220
+balance de prueba navegable,
+
+503
+00:33:45,360 --> 00:33:49,960
+que permite un control bien agil
+
+504
+00:33:49,961 --> 00:33:54,920
+de lo que mayor un balance, si
+
+505
+00:33:54,921 --> 00:33:58,960
+voy a haber hasta periodo un cubo o ustedes no tienen cubo,
+
+506
+00:33:59,120 --> 00:34:04,320
+uno genérico no más y acá se tenemos todos los saldos del periodo,
+
+507
+00:34:04,460 --> 00:34:06,440
+acá tenemos todos los movimientos de cuentas.
+
+508
+00:34:13,760 --> 00:34:18,320
+Si lo puedes cargar aquí o lo bueno que también esto es navegable
+
+509
+00:34:18,321 --> 00:34:22,700
+que quiere decir esto, si vienen aquí pueden hacer clic acá,
+
+510
+00:34:22,940 --> 00:34:27,660
+y puede decir al reporte,
+
+511
+00:34:27,880 --> 00:34:32,040
+te able el mayor contable de lo que le jite,
+
+512
+00:34:35,060 --> 00:34:38,020
+con con los movimientos, suman los movimientos,
+
+513
+00:34:38,240 --> 00:34:42,780
+viste que es se puede navegar mucho más fácil a los
+
+514
+00:34:42,781 --> 00:34:47,860
+mayores, directamente desde un balance. Si
+
+515
+00:34:47,861 --> 00:34:51,260
+ustedes en un momento que vienen a usar presupuestos, a cada te puede comparar
+
+516
+00:34:51,261 --> 00:34:54,580
+con el presupuesto, Si no, le podemos ocultar el,
+
+517
+00:34:54,600 --> 00:34:59,280
+supuesto y acá también tenemos el acumulado entonces tenés el movimiento actual
+
+518
+00:34:59,281 --> 00:35:03,980
+y el acumulado, y
+
+519
+00:35:03,981 --> 00:35:06,080
+si no quieren mostrar el acumulado no no no no,
+
+520
+00:35:06,081 --> 00:35:10,600
+ni si
+
+521
+00:35:10,601 --> 00:35:14,300
+no el perío lo pueden ocultar para acá tenés un mayor completo,
+
+522
+00:35:14,600 --> 00:35:18,260
+un malancia perdón completo. Bien,
+
+523
+00:35:18,261 --> 00:35:22,860
+bien, no sé si bueno el dos uno ocho
+
+524
+00:35:22,861 --> 00:35:27,520
+uno lo pudieron ver lo pudieron replicar obviamente me voy a dejar ahora sí.
+
+525
+00:35:27,820 --> 00:35:30,080
+Taba perfecto. A medida que tenga más datos,
+
+526
+00:35:30,260 --> 00:35:34,280
+me va a ser más rico. Bien,
+
+527
+00:35:34,460 --> 00:35:36,760
+no sé qué otro reporte que rían ver.
+
+528
+00:35:37,360 --> 00:35:39,800
+No, no, no. No,
+
+529
+00:35:39,860 --> 00:35:45,110
+no, no, no, no, no. y así de refinar
+
+530
+00:35:45,111 --> 00:35:49,970
+y generar reguardos bien te genera reguardos
+
+531
+00:35:49,971 --> 00:35:54,210
+y reguardos generan bien a ¿A quién?
+
+532
+00:35:54,790 --> 00:35:59,420
+Manuel es da uno. ¿A quién retiene
+
+533
+00:35:59,421 --> 00:36:02,580
+ustedes? ¿O le genera ustedes?
+
+534
+00:36:03,560 --> 00:36:05,660
+¿Qué le hago a nosotros a Cali,
+
+535
+00:36:05,780 --> 00:36:08,620
+que le pagamos por pantagas, a nosotros los seis de primeros de un horno,
+
+536
+00:36:09,740 --> 00:36:12,600
+o sea, que le pagamos a proveedores,
+
+537
+00:36:12,780 --> 00:36:16,040
+por que tal nos enfrentan el fácil. lo que tenemos con Dasha y hechos
+
+538
+00:36:16,041 --> 00:36:21,160
+que tiene a recuerdo y después también si no genera recuerdo cuando llegue
+
+539
+00:36:21,161 --> 00:36:26,000
+de los aintes públicos, pero a los principales son los que generan
+
+540
+00:36:26,001 --> 00:36:29,520
+nosotros a las proveedades que tal vez se nos equivocaron.
+
+541
+00:36:30,540 --> 00:36:35,200
+por el fácil y a la fiscina
+
+542
+00:36:35,201 --> 00:36:39,880
+también se genera un recuardo bien perfecto eso si lo muestro porque
+
+543
+00:36:39,881 --> 00:36:43,100
+no lo tengo ahora en el rol no se lo sabré así que se
+
+544
+00:36:43,101 --> 00:36:48,340
+los se los se los agrego y lo vemos en la próxima capacitación
+
+545
+00:36:48,341 --> 00:36:52,900
+y igual por esto que hemos hecho hoy nos ponemos con veis
+
+546
+00:36:52,901 --> 00:36:55,680
+y voy a ver todo y tal o ayer lo que se va de
+
+547
+00:36:55,681 --> 00:37:00,180
+aquí está perfecto a ver cualquier Las que tengan de venir a Ocea si
+
+548
+00:37:00,181 --> 00:37:04,860
+quieren digo, podemos ver, podemos en un pago cobro también porque obviamente que
+
+549
+00:37:04,861 --> 00:37:08,300
+tenemos una capacitación pendiente de lo que es la consideración mancaria.
+
+550
+00:37:09,940 --> 00:37:14,620
+Ahí tiene también su su su su su su su forma de contabilizar.
+
+551
+00:37:14,900 --> 00:37:17,400
+este con cuenta puente de maja con la conciliación bancaria,
+
+552
+00:37:17,540 --> 00:37:19,920
+usted es actualmente la conciliación bancaria, como la están haciendo,
+
+553
+00:37:20,340 --> 00:37:22,460
+hacen con la conciliación bancaria, exercistema,
+
+554
+00:37:22,620 --> 00:37:27,080
+pero fuera de sistema o dentro.
+
+555
+00:37:30,720 --> 00:37:35,500
+la planilla, que es que lo tiene el salo de los frangos y sacamos
+
+556
+00:37:35,501 --> 00:37:37,960
+un mayor de la cuenta de los peditaúbricos,
+
+557
+00:37:38,040 --> 00:37:41,900
+comparamos si tienes el tío de la costa de la planilla o de lo
+
+558
+00:37:41,901 --> 00:37:45,180
+largo, y lo hace medio eso,
+
+559
+00:37:45,220 --> 00:37:47,580
+y es más o menos más nuevo a lo largo. que tal se pasa
+
+560
+00:37:47,581 --> 00:37:50,680
+a una planilla, se chequea, se hace accurte,
+
+561
+00:37:50,800 --> 00:37:53,780
+se pasa de verdad el cielo, que tal se es nomática.
+
+562
+00:37:54,260 --> 00:37:58,200
+Ok, perfecto. Aquí le fue un poco como no solo nos manejamos,
+
+563
+00:37:58,460 --> 00:38:02,980
+si quieren para ver el ejemplo, y ya se
+
+564
+00:38:08,020 --> 00:38:12,660
+En este caso lo que tenemos es
+
+565
+00:38:12,661 --> 00:38:16,920
+en un pao le podemos definir una cuenta baccárea y
+
+566
+00:38:21,900 --> 00:38:26,200
+tenemos una vuelta bancaria la que tenemos aquí, un pago y tenemos obviamente esos
+
+567
+00:38:26,201 --> 00:38:30,740
+generos este pago está por haber sido generado por ejemplo es un recibo
+
+568
+00:38:30,741 --> 00:38:33,960
+de pago o de un recibo de cobro en el caso que es un
+
+569
+00:38:33,961 --> 00:38:36,000
+cobro Pero todos los símptimos en movimiento,
+
+570
+00:38:36,120 --> 00:38:38,720
+es un pago que es el movimiento de dinero,
+
+571
+00:38:39,400 --> 00:38:42,360
+o sea, vendría a ser lo que es el medio de pago. Puede ser
+
+572
+00:38:42,361 --> 00:38:44,600
+transferencia, puede ser cheque, puede ser,
+
+573
+00:38:45,020 --> 00:38:48,360
+o sea, un recibo de pago, por ejemplo, adentro, puede tener múltiples medios de
+
+574
+00:38:48,361 --> 00:38:55,200
+pago. vamos de buen par en donde chiquit una
+
+575
+00:38:55,201 --> 00:38:59,840
+diferencia y en el pago cobro que es esta ventana que es pago
+
+576
+00:38:59,841 --> 00:39:03,800
+cobro en su visoriza tenemos y esto tenemos contabilizado,
+
+577
+00:39:04,140 --> 00:39:06,460
+acá tenemos una diferencia, porque no se lo da.
+
+578
+00:39:06,540 --> 00:39:10,920
+al utilizar la conciliación bancaria de nuestro sistema, por un lado utilizamos una cuenta
+
+579
+00:39:10,921 --> 00:39:15,320
+que es que es la cuenta de pendiente de consiguar digamos que es una
+
+580
+00:39:15,321 --> 00:39:20,000
+cuenta de hecha, esto es lo que está por entrar o por salir
+
+581
+00:39:20,001 --> 00:39:24,340
+del banco, ¿me sigue? como previamente la conciliación,
+
+582
+00:39:24,760 --> 00:39:26,860
+cuando se haga la conciliación,
+
+583
+00:39:27,100 --> 00:39:30,140
+es que se va a salir este importe,
+
+584
+00:39:30,240 --> 00:39:33,160
+vamos a hacer una corrección,
+
+585
+00:39:33,240 --> 00:39:37,660
+digamos, de esto y le vamos a mandar esto al leve y vamos a
+
+586
+00:39:37,661 --> 00:39:42,140
+mandar en la cientos y… y ahí la cuenta correspondiente del banco correspondiente con
+
+587
+00:39:42,141 --> 00:39:46,960
+la conciliación es que se genera realmente y se mueve lo que es el
+
+588
+00:39:46,961 --> 00:39:51,740
+banco en cuestión de manera que esta este saldo está siempre actualizado
+
+589
+00:39:51,741 --> 00:39:55,660
+porque lo vas a generar con la conciliación Ah,
+
+590
+00:39:55,760 --> 00:39:59,700
+eso es automático. Ahora, antes lo tenés en este saldo y tenemos también un
+
+591
+00:39:59,701 --> 00:40:02,460
+reporte de que es pagos sin conciliar.
+
+592
+00:40:03,060 --> 00:40:06,360
+Justamente para que veas todo, ¿cómo se te general Realista en lo que vives
+
+593
+00:40:06,361 --> 00:40:09,880
+en esta cuenta, que pagos tenés pendiente de conciliar.
+
+594
+00:40:12,430 --> 00:40:16,450
+esto es una presentación rápida que después de esto está bueno ustedes lo vean
+
+595
+00:40:16,451 --> 00:40:20,010
+en caso si bueno vamos a la práctica y pues veamos cómo se puede
+
+596
+00:40:20,011 --> 00:40:21,570
+realizar con mayor profundidad
+
+597
+00:40:32,420 --> 00:40:34,540
+lo comprende y lo maneja, pero claro,
+
+598
+00:40:34,720 --> 00:40:38,740
+el sistema maneja las cuentas puente en estos casos y es para que el
+
+599
+00:40:38,741 --> 00:40:42,340
+quede completamente asignado, entonces digo hay diferencias con,
+
+600
+00:40:42,410 --> 00:40:46,430
+cuando vienen de contigo de memoria con estos en este sentido.
+
+601
+00:40:48,930 --> 00:40:52,250
+Y la otra cuenta apuenta que utilizamos es el tema del pago seleccionados.
+
+602
+00:40:52,990 --> 00:40:56,670
+No sólo separamos, lo que es en el pago, no como vemos cuentas de
+
+603
+00:40:58,080 --> 00:41:02,880
+en el paro no bajamos tu activo o tu pasivo de
+
+604
+00:41:02,881 --> 00:41:05,060
+la cuenta por pagar, capaz de decir,
+
+605
+00:41:05,220 --> 00:41:07,680
+cuando se paga ya automáticamente se baja,
+
+606
+00:41:07,860 --> 00:41:10,160
+se han creado algo de algo.
+
+607
+00:41:10,540 --> 00:41:12,620
+Exacto, solo si yo lo tenemos también separado,
+
+608
+00:41:12,700 --> 00:41:16,440
+¿por qué? porque lo que tenemos lo manejamos en diferentes cuentas.
+
+609
+00:41:16,760 --> 00:41:19,240
+Esto es un pago seleccionados, o que os situe un pago,
+
+610
+00:41:20,200 --> 00:41:24,100
+pero está como este pago podría estar asignado a una factura o no,
+
+611
+00:41:24,300 --> 00:41:26,540
+¿no?, ¿no?, ¿no?, ¿no?, ¿no?
+
+612
+00:41:26,541 --> 00:41:28,760
+Entonces, si no está asignado a una factura,
+
+613
+00:41:29,060 --> 00:41:32,200
+lo manejamos en una cuenta. A parte. En Paldes y en secar.
+
+614
+00:41:32,680 --> 00:41:34,760
+En secar. En secar. Ahora. Claro.
+
+615
+00:41:35,580 --> 00:41:37,640
+Bueno. Bien.
+
+616
+00:41:37,760 --> 00:41:39,800
+Ahora y acá no solo tenemos este orden es importante.
+
+617
+00:41:40,340 --> 00:41:43,800
+La asignación es un documento vital para nosotros,
+
+618
+00:41:43,801 --> 00:41:46,180
+que es lo que me laza un pa�.
+
+619
+00:41:46,200 --> 00:41:49,880
+o cobró con sus correspondentes documentos asignados.
+
+620
+00:41:50,400 --> 00:41:54,480
+Me sigan en el caso tengo el pago que está asignado.
+
+621
+00:41:55,100 --> 00:42:00,020
+Puedo ir acá y mi solía qué factura afronta.
+
+622
+00:42:02,160 --> 00:42:06,080
+de mirar aquí y puedo verlo acá directamente en este caso yo puedo dar
+
+623
+00:42:06,081 --> 00:42:10,640
+la factura de fascinada porque fue una sola pero si faci muchas no voy
+
+624
+00:42:10,641 --> 00:42:12,700
+a dar ninguna factura acá lo que sí siempre voy a ver en la
+
+625
+00:42:12,701 --> 00:42:17,340
+asignación, esta asignación tengo una sola porque
+
+626
+00:42:17,341 --> 00:42:21,560
+sí suena por el total. y este documento asignación es el que va a
+
+627
+00:42:21,561 --> 00:42:26,240
+terminar a ser el trabajo que ustedes conocen va a
+
+628
+00:42:26,241 --> 00:42:32,940
+sacar la cuenta de que pasamos seleccionados a cueltas
+
+629
+00:42:32,941 --> 00:42:37,460
+por bar. acá sí,
+
+630
+00:42:37,840 --> 00:42:43,060
+porque es vos acaso acancelaste la factura entonces siempre nuestro
+
+631
+00:42:43,061 --> 00:42:47,640
+sal dos pendientes dan igual al saldo de
+
+632
+00:42:47,641 --> 00:42:54,000
+la cuenta de cuenta por poder comerciales Y
+
+633
+00:42:54,001 --> 00:42:56,960
+no tenemos pao coro, entonces como que cada uno se manejan sus cuentas,
+
+634
+00:42:57,300 --> 00:42:59,500
+es una pequeña diferencia, pero claro,
+
+635
+00:42:59,840 --> 00:43:03,300
+obviamente que cambia la gestión,
+
+636
+00:43:03,500 --> 00:43:05,700
+bueno, tendremos bastante más Exacto,
+
+637
+00:43:05,701 --> 00:43:08,350
+este, para manejarlo en esos casos.
+
+638
+00:43:08,970 --> 00:43:12,390
+Es un poco la mayor complejidad que puede tener el sistema digamos en un
+
+639
+00:43:12,391 --> 00:43:14,430
+cambio porque se maneja diferente.
+
+640
+00:43:17,480 --> 00:43:19,870
+Bien. Bueno,
+
+641
+00:43:20,350 --> 00:43:23,900
+bienvenidos a acá este, No sé si quieren acá los pago cogros,
+
+642
+00:43:23,940 --> 00:43:26,080
+los hacen ustedes, los recibo de pago, también esas ustedes.
+
+643
+00:43:26,840 --> 00:43:29,440
+Sí. Está. Este,
+
+644
+00:43:29,660 --> 00:43:32,960
+en marada, es bastante simple, pero bueno, tenemos un poco de documentos generados,
+
+645
+00:43:33,240 --> 00:43:35,940
+y eso me parece que estaría buena, que puedan generar más casos, yo le
+
+646
+00:43:35,941 --> 00:43:38,080
+pedí a que pida,
+
+647
+00:43:38,220 --> 00:43:41,160
+si usted factura o quién factura usted está en factura.
+
+648
+00:43:43,840 --> 00:43:46,800
+Trabajate, bueno, se esquenere en ustedes mismas algunos casos,
+
+649
+00:43:47,040 --> 00:43:50,980
+que veis leabentas que se esquenere unos casos para las facturas.
+
+650
+00:43:51,140 --> 00:43:54,480
+Viste porque si no hay o es como que es difícil. No es de
+
+651
+00:43:54,481 --> 00:43:57,700
+ventas como también una etapa con su visión,
+
+652
+00:43:58,000 --> 00:44:02,660
+ayer de todo lo como que no nos damos que hagan povita,
+
+653
+00:44:02,680 --> 00:44:05,620
+dependemos de esa para avanzar nosotros también,
+
+654
+00:44:05,940 --> 00:44:08,400
+que sean lo ha hecho reales y no tiramos las dos,
+
+655
+00:44:08,540 --> 00:44:12,020
+no, no, no, no. Yo, si no lo de momento daba y capaz que
+
+656
+00:44:12,021 --> 00:44:15,420
+ustedes ponen en avanzando de esa manera es lo que generaron ustedes en la
+
+657
+00:44:15,421 --> 00:44:19,820
+factura del contigo, porque yo lo comenté en Mauricio es Perfecto si puede venir
+
+658
+00:44:19,821 --> 00:44:22,780
+con todo el procedimiento completo, pero si no,
+
+659
+00:44:23,060 --> 00:44:28,720
+pero si no, ustedes pueden hacerlo menor ni Y
+
+660
+00:44:28,721 --> 00:44:31,020
+en realidad no lo que ya teníamos factivamente que esperaba.
+
+661
+00:44:31,400 --> 00:44:33,540
+Claro, por ejemplo, pueden investigar esto,
+
+662
+00:44:33,860 --> 00:44:38,400
+esa es un ejemplo. Tidamos la factura cualquiera,
+
+663
+00:44:39,020 --> 00:44:42,880
+una vez generaste así poco. para que,
+
+664
+00:44:42,881 --> 00:44:44,940
+que, que, que nos trae una.
+
+665
+00:44:46,440 --> 00:44:49,240
+Dios, si quieres me va, me va editando y yo lo voy haciendo y
+
+666
+00:44:49,241 --> 00:44:51,580
+ustedes ven como. Vengo al documento por cobrar,
+
+667
+00:44:51,960 --> 00:44:52,440
+pongo nuevo.
+
+668
+00:44:58,440 --> 00:45:03,160
+acá no estás muy cortita de producción
+
+669
+00:45:03,161 --> 00:45:09,780
+la deseo chate
+
+670
+00:45:09,781 --> 00:45:10,400
+mío
+
+671
+00:45:22,730 --> 00:45:25,330
+¿Te digo? Sí me.
+
+672
+00:45:27,550 --> 00:45:33,100
+Para que se me salga. Bueno,
+
+673
+00:45:33,140 --> 00:45:35,580
+solo tenemos como segundos, se haré en 2.000 años.
+
+674
+00:45:36,880 --> 00:45:41,560
+Sí. Bueno,
+
+675
+00:45:41,700 --> 00:45:43,840
+por ejemplo, venimos acá. No, no, no,
+
+676
+00:45:43,841 --> 00:45:44,100
+no, no, no, no.
+
+677
+00:45:48,280 --> 00:45:50,340
+Sí, no estamos viendo igual, ¿eh?
+
+678
+00:45:51,380 --> 00:45:53,540
+¿Qué ha trancado? Sí, sí, sí,
+
+679
+00:45:53,541 --> 00:45:55,740
+está dando las bandas ya,
+
+680
+00:45:55,820 --> 00:45:58,740
+pero, Bien, y factura,
+
+681
+00:45:59,120 --> 00:46:01,600
+vamos a aquí proveedor primero, o aquí,
+
+682
+00:46:05,940 --> 00:46:13,960
+Vas a comentar papás
+
+683
+00:46:13,961 --> 00:46:18,500
+aquí al General Lujo,
+
+684
+00:46:18,700 --> 00:46:21,180
+esto es lo que tomare porque el socio y negocio está definido así.
+
+685
+00:46:21,760 --> 00:46:24,160
+Ok. El 20,
+
+686
+00:46:24,540 --> 00:46:28,840
+perfecto, tenemos acá 20. Usted es acá,
+
+687
+00:46:28,980 --> 00:46:32,920
+digo bueno, la medida que lo echamos, ustedes estaría bueno que puedan por un
+
+688
+00:46:32,921 --> 00:46:38,000
+proyecto. para poder agrupar de donde viene esto y que ingreso corresponde
+
+689
+00:46:38,001 --> 00:46:42,520
+pero bueno si no tiene un proyecto de visto pueden manejarlo pero bueno vamos
+
+690
+00:46:42,521 --> 00:46:43,680
+a ir teniendo menos información
+
+691
+00:46:49,620 --> 00:46:51,640
+la estructura, ¿verdad? La venda va acá.
+
+692
+00:46:51,900 --> 00:46:55,540
+Ah, ok. Bien,
+
+693
+00:46:55,840 --> 00:46:59,420
+bien. Ah, acá ponen la venda de lo que quiera.
+
+694
+00:47:00,440 --> 00:47:03,860
+Con su edad. Bueno, nosotros seleccionamos el proyecto.
+
+695
+00:47:04,240 --> 00:47:08,060
+Ahí se rendilos automáticamente. No,
+
+696
+00:47:11,040 --> 00:47:15,680
+bueno, sí, digo, estos proyectos son generados automáticamente
+
+697
+00:47:15,681 --> 00:47:18,720
+cuando se confirma la oportunidad. El tema aquí va,
+
+698
+00:47:19,180 --> 00:47:22,940
+si usted es ahora, no, no, no, no, no. ¿Por qué no me lejos?
+
+699
+00:47:23,800 --> 00:47:26,380
+Es que no van a tener ninguno que reado ni siquiera, o sea,
+
+700
+00:47:26,500 --> 00:47:28,780
+podrían tirarle uno, por lo menos para catarroarlo.
+
+701
+00:47:29,200 --> 00:47:31,700
+Eso lo tenemos que definir igual a ver como quieren salir.
+
+702
+00:47:31,880 --> 00:47:35,020
+Por ahora no te preocupes, no lo definen nada, pero sí,
+
+703
+00:47:35,460 --> 00:47:37,720
+si ustedes tienen que facturar y no te creo toda la oportunidad,
+
+704
+00:47:38,120 --> 00:47:41,500
+chulo. que le dije a Mauricio es, es mejor ahora que comienzan a utilizar
+
+705
+00:47:41,501 --> 00:47:43,860
+solo como usan conti,
+
+706
+00:47:43,880 --> 00:47:46,640
+¿no? ¿Entendés?
+
+707
+00:47:46,840 --> 00:47:51,180
+O sea, ¿no? ¿No? ¿No? ¿Dejan usar conti y usan lo mismo que usan
+
+708
+00:47:51,181 --> 00:47:54,520
+en contiga, si no usan la funcionalidad de si pueden,
+
+709
+00:47:54,580 --> 00:47:57,000
+después de mejorar, me explico. Claro,
+
+710
+00:47:57,140 --> 00:47:59,620
+porque cuando se ha creado el proyecto, o sea,
+
+711
+00:47:59,740 --> 00:48:02,760
+directamente faldrán un edificio, o sea, no te tenéis que ir por dentro de
+
+712
+00:48:02,761 --> 00:48:05,520
+mi mesa, por eso, por eso, claro, va a ser mucho más fácil luego,
+
+713
+00:48:05,620 --> 00:48:09,020
+pero está como para re salir y salir acostumbrándose,
+
+714
+00:48:09,340 --> 00:48:11,460
+y bueno, va a entrenar mejor, en diferentes aspectos,
+
+715
+00:48:11,520 --> 00:48:14,040
+bueno, no contamos con esto,
+
+716
+00:48:14,180 --> 00:48:17,080
+entonces por eso está de bueno a ustedes, todo lo que pueden,
+
+717
+00:48:17,260 --> 00:48:19,660
+lo que tienen que hacer, lo que hacen actualmente lo puedan pasar.
+
+718
+00:48:20,660 --> 00:48:24,000
+Sí, o eso no puede ser un problema,
+
+719
+00:48:24,200 --> 00:48:26,860
+acá está de Ya, bueno, pues, eh, yo, Ahora voy a empezar a probar
+
+720
+00:48:26,861 --> 00:48:29,140
+y bueno, cualquier duda me haría. Sí,
+
+721
+00:48:29,141 --> 00:48:31,420
+sí. Si vamos este ejemplo. Guardo,
+
+722
+00:48:31,740 --> 00:48:34,260
+le puse, comentario, sigamos.
+
+723
+00:48:34,520 --> 00:48:38,160
+No voy a definir nada más. Debo poner antes de guardar el término del
+
+724
+00:48:38,161 --> 00:48:41,040
+pago. El término del pago. ¿Qué término del pago utilizan en este,
+
+725
+00:48:41,100 --> 00:48:43,800
+por ejemplo, en este caso? 30 días, perfecto,
+
+726
+00:48:43,820 --> 00:48:46,760
+30 días y ahí sí me dejó guardar,
+
+727
+00:48:46,761 --> 00:48:49,600
+definimos acá, se guardó,
+
+728
+00:48:49,700 --> 00:48:52,320
+se pone un número de draft y listo,
+
+729
+00:48:52,500 --> 00:48:57,300
+bien, ahora si vamos a
+
+730
+00:48:57,301 --> 00:49:01,740
+las líneas vamos a la liña y definimos que que definen por un nuevo
+
+731
+00:49:01,741 --> 00:49:05,900
+que le que le están cobrados.
+
+732
+00:49:06,920 --> 00:49:11,660
+El arneamento de minas. Según los arreglamentos
+
+733
+00:49:11,661 --> 00:49:16,620
+de minas creo que esta tal cual ¿Arendamiento
+
+734
+00:49:16,621 --> 00:49:21,300
+minas? No lo tengo. Puedo ir al carrito y lo podemos buscar
+
+735
+00:49:21,301 --> 00:49:24,300
+por nombre acá. Minas.
+
+736
+00:49:24,800 --> 00:49:26,820
+Puedo buscar por categoría. También.
+
+737
+00:49:27,360 --> 00:49:31,880
+Arendamiento. No tengo una lista de
+
+738
+00:49:31,881 --> 00:49:34,800
+precios. A o ve. General Lucho.
+
+739
+00:49:35,080 --> 00:49:37,200
+No pasa nada. Lo voy a buscar. Vamos a ver.
+
+740
+00:49:39,160 --> 00:49:42,780
+Hay que enviar todos los. Sí. Preguntos y quemiando los en ahí.
+
+741
+00:49:42,960 --> 00:49:46,120
+General Lucho. Venta a uno. Pero para. Vamos a lo bien.
+
+742
+00:49:46,320 --> 00:49:48,660
+la preparada de eso lo tengo definido mal, precios.
+
+743
+00:49:51,300 --> 00:49:53,820
+General Luis Juventa esta la lista de precios,
+
+744
+00:49:53,821 --> 00:49:56,600
+Ok, esa no,
+
+745
+00:49:56,980 --> 00:50:01,560
+así que lo voy a corregir en el socio-negócio para que
+
+746
+00:50:01,561 --> 00:50:04,500
+les, la pareja tristidad de precios y no les pase más ese error.
+
+747
+00:50:05,920 --> 00:50:10,700
+Si les paso ustedes como que va a ser más difícil de
+
+748
+00:50:10,701 --> 00:50:13,680
+que lo de que sea en cuenta un segundo,
+
+749
+00:50:14,060 --> 00:50:18,160
+voy a ya configurarlo y seguimos el ejemplo así ¿no?
+
+750
+00:50:21,880 --> 00:50:26,720
+el que estoy haciendo si es que este socio negocio,
+
+751
+00:50:27,420 --> 00:50:31,200
+bueno ¿qué voy a hacer acá?
+
+752
+00:50:31,380 --> 00:50:34,900
+Voy a ir al socio que vean ustedes,
+
+753
+00:50:35,520 --> 00:50:40,680
+navego al socio-renor en cuestión y este es locio en negocio tiene precios
+
+754
+00:50:40,681 --> 00:50:45,220
+general lista usu, general le cambió la
+
+755
+00:50:45,221 --> 00:50:47,580
+lista de precios, tenía una definía que estaba de sectorista,
+
+756
+00:50:47,840 --> 00:50:51,060
+¿eh? ¿Le definí ahí? en la lista de precios.
+
+757
+00:50:51,280 --> 00:50:53,340
+Ahora, ese error no, no,
+
+758
+00:50:53,440 --> 00:50:56,140
+no, no. Paso nada. Se pudo guardar bien. Como ven,
+
+759
+00:50:56,300 --> 00:50:58,460
+me guardo. Esta lista de precios,
+
+760
+00:50:58,480 --> 00:51:01,340
+la definimos a partir del grupo de socio-nevocio.
+
+761
+00:51:02,960 --> 00:51:06,220
+Ok. Entonces, le voy a definir el grupo de socio-nevocio para que ustedes,
+
+762
+00:51:06,240 --> 00:51:11,240
+Por defecto a todos les quede bien definido General U70 y listo.
+
+763
+00:51:14,660 --> 00:51:19,220
+Esto para que a todos los documentos por cooperar que ustedes crean ese
+
+764
+00:51:19,221 --> 00:51:21,920
+dato se le es de cree de manera automática.
+
+765
+00:51:24,930 --> 00:51:29,750
+Bien, volviendo a la factura, tenemos acá la lista de precios y
+
+766
+00:51:29,751 --> 00:51:34,650
+ahora sí, si voy a las líneas como nuevo y
+
+767
+00:51:34,651 --> 00:51:39,440
+acá dijiste a rendamiento minas
+
+768
+00:51:39,441 --> 00:51:44,100
+si lo buscan así no es más difícil lo buscamos acá y
+
+769
+00:51:44,101 --> 00:51:48,780
+pueden filtrar por acá por arrendamiento o que ya lo definimos en la categoría
+
+770
+00:51:48,781 --> 00:51:52,000
+arrendamiento y en acá pueden por las minas,
+
+771
+00:51:52,260 --> 00:51:55,980
+ya con eso podrían encontrar. todos los arrendamientos que tienen para minas.
+
+772
+00:51:58,280 --> 00:52:03,400
+¿Cuál sería? si te cuito cuantas minas el parano
+
+773
+00:52:03,401 --> 00:52:06,700
+¿dónde clic? ¿sharadijen?
+
+774
+00:52:06,760 --> 00:52:10,060
+¿da? ¿cantía?
+
+775
+00:52:11,320 --> 00:52:13,800
+¿Qué es uno? Bien. Uno?
+
+776
+00:52:14,620 --> 00:52:16,760
+¿Unse bien, Tessas? No,
+
+777
+00:52:17,060 --> 00:52:21,600
+te digo el precio. Ah, sí. ¿Por qué eso debe
+
+778
+00:52:21,601 --> 00:52:24,260
+estar por semana, no? No se gore y se mienan.
+
+779
+00:52:24,380 --> 00:52:27,060
+Entiendo de sí. Por eso,
+
+780
+00:52:27,360 --> 00:52:30,320
+no sé. A ver, prueba, no te necesito.
+
+781
+00:52:30,720 --> 00:52:33,000
+No, está, si no lo ponemos manual igual.
+
+782
+00:52:33,240 --> 00:52:37,360
+No ponemos manual, listo, ¿verdad? 124,
+
+783
+00:52:37,361 --> 00:52:41,900
+531, 158. Esto es importante porque para acá,
+
+784
+00:52:42,240 --> 00:52:47,040
+generamos un descuento, el descuento es comparando el precio de lista con el precio,
+
+785
+00:52:48,560 --> 00:52:52,080
+les comento porque me da, digo, sería importante que digo,
+
+786
+00:52:52,240 --> 00:52:55,020
+si es que el precio tiene descuento,
+
+787
+00:52:55,021 --> 00:52:58,300
+podrá registrarlo. Ustedes ahora seguramente lo tengamos que,
+
+788
+00:53:01,720 --> 00:53:04,900
+lo que pasa esto ya está listo,
+
+789
+00:53:04,960 --> 00:53:07,380
+entonces vamos a no complicar la regra. ¿Cuánto es?
+
+790
+00:53:09,420 --> 00:53:14,100
+225,531. 224,531.
+
+791
+00:53:14,220 --> 00:53:16,800
+21. Perfecto.
+
+792
+00:53:16,880 --> 00:53:17,840
+¿Pongo a tal pressionista?
+
+793
+00:53:31,040 --> 00:53:34,820
+Bien, también, viste que puse lo mismo en ambos,
+
+794
+00:53:35,240 --> 00:53:39,200
+presión de lista y precio, y ya está.
+
+795
+00:53:40,320 --> 00:53:43,400
+¿Cuál es el número que pasamos el diseño número? El IVA que incluido,
+
+796
+00:53:43,480 --> 00:53:43,600
+¿no?
+
+797
+00:53:57,640 --> 00:54:02,920
+en el caso Si
+
+798
+00:54:02,921 --> 00:54:07,160
+lo quieren hacer con facturar manualmente así en un principio,
+
+799
+00:54:07,820 --> 00:54:10,640
+podemos elegir, ¿eh?
+
+800
+00:54:11,440 --> 00:54:15,140
+Capaz que para probar sí, nos hacer eso para dar también el ligano.
+
+801
+00:54:15,560 --> 00:54:17,760
+Por eso que pueden elegir otra lista de precios.
+
+802
+00:54:18,480 --> 00:54:20,980
+le creamos y le creamos todo lo que precios cero.
+
+803
+00:54:21,940 --> 00:54:25,100
+Entonces, volve, volve y digita ser precios sin precios listas,
+
+804
+00:54:25,160 --> 00:54:28,780
+¿verdad? O sea, te dijeron lo que quieras, chao. Sí,
+
+805
+00:54:29,360 --> 00:54:31,440
+mañana ya empiezas a gores.
+
+806
+00:54:31,920 --> 00:54:34,540
+Sí, perfecto. Entonces, ustedes ya pueden, si quieren acá,
+
+807
+00:54:36,040 --> 00:54:39,260
+la direna una descripción en la línea o algo?
+
+808
+00:54:39,700 --> 00:54:42,360
+No, la línea es, ¿Qué coloca en el área en el celular?
+
+809
+00:54:42,480 --> 00:54:45,400
+¿De dónde tú es? ¿De qué? ¿Qué caja? ¿Qué compra nueva?
+
+810
+00:54:45,600 --> 00:54:47,620
+¿Qué compra tanto? Sí,
+
+811
+00:54:47,760 --> 00:54:50,400
+bueno, bueno, de la orden y la policía de la agencia.
+
+812
+00:54:50,820 --> 00:54:54,240
+Bien, detalle de a un mar así,
+
+813
+00:54:54,580 --> 00:54:58,360
+lo ponemos acá, con ese caso,
+
+814
+00:54:58,600 --> 00:55:01,900
+guardo, y vamos a completarlo.
+
+815
+00:55:02,640 --> 00:55:07,320
+¿Cuándo compramos, es que se envía? la facturación
+
+816
+00:55:07,321 --> 00:55:12,940
+electrónica lo dijo y
+
+817
+00:55:12,941 --> 00:55:18,720
+ahí pinta completo cuando completa se cambia el número obviamente y
+
+818
+00:55:18,721 --> 00:55:22,720
+desde acá podemos ver la impresión de Faites en el trónio.
+
+819
+00:55:22,740 --> 00:55:25,080
+el derecho de acá, de repente que después vamos a tener un portal,
+
+820
+00:55:25,240 --> 00:55:27,320
+la afectación electrónica que se lo puede mostrar,
+
+821
+00:55:27,400 --> 00:55:31,160
+en el caso de trabajamos en Invoichi, este es toda la gestión de afectación
+
+822
+00:55:31,161 --> 00:55:33,380
+electrónica. Perfecto.
+
+823
+00:55:33,640 --> 00:55:35,940
+Y ahora teníamos la factura correpotente.
+
+824
+00:55:36,840 --> 00:55:39,980
+Perfecto. Ah, y todo esto. Si ustedes quieren en el maradillo,
+
+825
+00:55:40,040 --> 00:55:42,480
+ahora en lo como auri si quieren, pero en el maradillo bueno, que sean
+
+826
+00:55:42,481 --> 00:55:46,980
+las pruebas que tengan para que sean independientes a la gestión de ventas.
+
+827
+00:55:47,660 --> 00:55:50,280
+Entonces, si ya no, vamos con varias cositas para probar,
+
+828
+00:55:50,700 --> 00:55:53,340
+que vamos a comentar con cualquier momento. Perfecto.
+
+829
+00:55:53,341 --> 00:55:57,240
+si quieren después de no entraron hablamos y vemos seguimos en la gente no
+
+830
+00:55:57,241 --> 00:56:01,300
+podrá instas, gestión de pagos y vemos cualquier duda que tengan.
+
+831
+00:56:02,600 --> 00:56:05,140
+Perfecto. Muchas gracias. Saludos.
+
+832
+00:56:05,141 --> 00:56:05,820
+¡Suscríbete!

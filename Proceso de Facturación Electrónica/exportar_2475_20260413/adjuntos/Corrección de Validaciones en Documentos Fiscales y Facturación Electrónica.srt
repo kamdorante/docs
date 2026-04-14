@@ -1,0 +1,99 @@
+1
+00:00:01,550 --> 00:00:05,530
+Vamos a ver, el error que había es que una validación de acá del
+
+2
+00:00:05,531 --> 00:00:11,300
+tipo documento fiscal para determinar cuáles son es el tipo de documentos del
+
+3
+00:00:11,301 --> 00:00:15,960
+grupo de impuesto, sin embargo cuando él venía cuando un documento tiene esto
+
+4
+00:00:15,961 --> 00:00:18,960
+vacío y no maneja facturación electrónica,
+
+5
+00:00:19,820 --> 00:00:23,700
+el error es estaba acá en una avaliación buscaba nulo y esto no bien
+
+6
+00:00:23,701 --> 00:00:28,940
+llega nulo sino que llega vacío y por eso nunca encontraba el tipo documento
+
+7
+00:00:28,941 --> 00:00:34,260
+correcto en el grupo de impuestos para ya
+
+8
+00:00:34,261 --> 00:00:38,900
+si subió el cambio la validación Se puede probar incluso en D&D,
+
+9
+00:00:38,940 --> 00:00:43,000
+ya lo reinicié en D&D. Pero de una forma,
+
+10
+00:00:43,500 --> 00:00:45,780
+acá en Ivy, está quedando un que se actualice el ZK.
+
+11
+00:00:46,560 --> 00:00:49,460
+Es, por ejemplo, marcar que maneja facturación electrónica,
+
+12
+00:00:49,880 --> 00:00:52,280
+colocarle tipo documento fiscal factura, y,
+
+13
+00:00:52,300 --> 00:00:55,300
+luego desmarcarlo. Ya con esto,
+
+14
+00:00:55,540 --> 00:00:59,120
+si vamos acá a documentos por curar, por ejemplo,
+
+15
+00:00:59,460 --> 00:01:04,560
+existe Subtítulos por la Amara.org Este es Andrés. Este
+
+16
+00:01:04,561 --> 00:01:07,820
+es cheque diferido por cobrar, si lo coloco acá,
+
+17
+00:01:07,920 --> 00:01:11,980
+este es Andrés y guardo, me coloca el ticket por el,
+
+18
+00:01:12,400 --> 00:01:14,600
+de negocio, la configuración del grupo de impuestos.
+
+19
+00:01:17,400 --> 00:01:20,180
+Ya esto como tal está corregido por ejemplo en D&D.
+
+20
+00:01:20,780 --> 00:01:24,740
+GameView que si ya se actualizó Eso,
+
+21
+00:01:25,180 --> 00:01:30,940
+el tipo documento, el cheque diferido, no tiene la configuración esta de acá
+
+22
+00:01:30,941 --> 00:01:35,560
+y funciona. Lo
+
+23
+00:01:35,561 --> 00:01:39,020
+voy a dejar configurado así, por ahora,
+
+24
+00:01:39,140 --> 00:01:42,020
+si quieren probarlo. O si no, me avisa y lo vuelvo a dejar,
+
+25
+00:01:42,640 --> 00:01:44,620
+lo dejo, le quito esto de factor A.

@@ -1,0 +1,187 @@
+1
+00:00:01,640 --> 00:00:06,680
+Vamos a probar acá el movimiento de la creación de órdenes
+
+2
+00:00:06,681 --> 00:00:11,220
+a partir de oportunidades. modificando la que es la cotización y que la orden
+
+3
+00:00:11,221 --> 00:00:15,860
+tenga los mismos datos que la cotización. Para esto ten acá una oportunidad que
+
+4
+00:00:16,140 --> 00:00:19,240
+Decree de prueba. Prueba.
+
+5
+00:00:19,460 --> 00:00:24,800
+Orden. Codización. Aquí
+
+6
+00:00:24,801 --> 00:00:27,800
+tenemos la cotización, que actualmente no tiene ninguna línea,
+
+7
+00:00:27,880 --> 00:00:31,340
+no tiene nada, vamos a agregarlo. Vamos a agregar recursos acá.
+
+8
+00:00:32,220 --> 00:00:34,420
+De doce a trece,
+
+9
+00:00:34,900 --> 00:00:38,060
+uno, uno. Tipo de recurso,
+
+10
+00:00:38,200 --> 00:00:48,270
+van a ir a este del parking. 1,2,3,4,5,6,7,8,9,10,11
+
+11
+00:00:51,230 --> 00:00:53,690
+Con esto, si vemos acá en las líneas,
+
+12
+00:00:54,050 --> 00:00:56,310
+vamos a ver que tenemos producción, arrendamiento,
+
+13
+00:00:56,340 --> 00:01:01,020
+Para tener el ejemplo de la
+
+14
+00:01:01,021 --> 00:01:03,600
+línea que se genera adicionalmente por las instalaciones requeridas.
+
+15
+00:01:06,800 --> 00:01:11,160
+¿verdad? Vamos a abrir esto en la ventana de,
+
+16
+00:01:11,161 --> 00:01:15,750
+o bueno, aquí mismo. vamos
+
+17
+00:01:15,751 --> 00:01:18,010
+a colocar a este, vamos a colocarle cantidad 2
+
+18
+00:01:23,800 --> 00:01:27,160
+y guardar este otro,
+
+19
+00:01:27,300 --> 00:01:28,460
+vamos a colocarle cantidad 2
+
+20
+00:01:32,600 --> 00:01:37,240
+y a este último vamos a colocarle descuento 50% de
+
+21
+00:01:37,241 --> 00:01:39,820
+descuento. Guárdalo.
+
+22
+00:01:41,160 --> 00:01:43,700
+De $7,750 a $3,875.
+
+23
+00:01:45,110 --> 00:01:51,430
+y los demás tienen dos unidades teniendo
+
+24
+00:01:51,431 --> 00:01:54,020
+esto vamos a crear proyecto.
+
+25
+00:01:54,240 --> 00:01:56,340
+Bueno, podemos ver acá que la acotición,
+
+26
+00:01:56,900 --> 00:01:59,560
+bueno, vamos a crear el proyecto.
+
+27
+00:02:02,580 --> 00:02:05,320
+Por acá, acá, acá,
+
+28
+00:02:05,321 --> 00:02:05,600
+y acá.
+
+29
+00:02:13,250 --> 00:02:15,470
+Se creó el proyecto y si vemos aquí,
+
+30
+00:02:15,730 --> 00:02:18,720
+ordena este evento. Aquí aparecen dos,
+
+31
+00:02:18,840 --> 00:02:23,360
+la cotización de $18,147 y la orden de venta
+
+32
+00:02:23,361 --> 00:02:28,040
+generada de $18,147. 1.147 y los
+
+33
+00:02:28,041 --> 00:02:34,060
+datos son iguales. Un detalle a tener en cuenta es que los datos Asignación
+
+34
+00:02:34,061 --> 00:02:34,540
+de recursos
+
+35
+00:02:41,100 --> 00:02:44,900
+,dijera 1, entonces recursos 1 y 1,
+
+36
+00:02:45,540 --> 00:02:48,460
+pero la línea de la orden al final se agregó 2.
+
+37
+00:02:49,680 --> 00:02:50,520
+Dos y dos.
+
+38
+00:02:58,440 --> 00:03:01,580
+Ya lo que es la del descuento,
+
+39
+00:03:01,680 --> 00:03:03,860
+sí, ese no hay ningún problema, solo un detalle,
+
+40
+00:03:04,020 --> 00:03:07,760
+lo de la cinestrucción. de recursos en relación a la orden generada modificada,
+
+41
+00:03:09,400 --> 00:03:14,780
+pero con eso ya la orden de venta generada ,igual a la
+
+42
+00:03:14,781 --> 00:03:18,600
+orden de cotización,
+
+43
+00:03:18,760 --> 00:03:22,040
+el problema era por la asignación de ,con la asignación de recursos,
+
+44
+00:03:22,900 --> 00:03:27,200
+básicamente las líneas de la orden se volvían a generar o se actualizaban con
+
+45
+00:03:27,201 --> 00:03:29,580
+la información del, la asignación de recursos,
+
+46
+00:03:29,740 --> 00:03:32,660
+las cantidades y con el precio del producto normal, al igual que como cuando
+
+47
+00:03:32,661 --> 00:03:34,460
+se crean las líneas de la cotización.

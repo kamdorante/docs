@@ -1,0 +1,107 @@
+1
+00:00:01,200 --> 00:00:03,840
+Bueno, verificando el tema de que no está generando las,
+
+2
+00:00:03,841 --> 00:00:06,040
+las retenciones automáticamente en el J.O.
+
+3
+00:00:06,780 --> 00:00:08,920
+Eh, como comentamos,
+
+4
+00:00:09,160 --> 00:00:12,540
+lo que vimos fue que, eh,
+
+5
+00:00:12,760 --> 00:00:16,100
+se había cambiado, eh, no sé si por una migración o qué.
+
+6
+00:00:16,120 --> 00:00:18,340
+Hay que investigar,
+
+7
+00:00:18,420 --> 00:00:22,020
+pero se había cambiado la clase que se define en el tipo de retención
+
+8
+00:00:22,021 --> 00:00:26,680
+que es la clase del variador de modelo que genera justamente la
+
+9
+00:00:26,681 --> 00:00:31,060
+retención cuando se completa la factura.
+
+10
+00:00:32,200 --> 00:00:35,020
+Ahora ya quedaron activos,
+
+11
+00:00:36,420 --> 00:00:39,260
+perdón, quedaron configurados correctamente con la clase que debe ser.
+
+12
+00:00:40,500 --> 00:00:45,140
+Por lo cual, vamos a probar a hacer una retención para este socio
+
+13
+00:00:45,141 --> 00:00:45,700
+de negocio.
+
+14
+00:00:50,150 --> 00:00:52,770
+Vamos a hacerla desde VIEW
+
+15
+00:01:11,600 --> 00:01:19,070
+¡Adiós! Bien, un
+
+16
+00:01:19,071 --> 00:01:21,730
+documento por cobrar de tipo y factura,
+
+17
+00:01:21,810 --> 00:01:23,690
+tiene que ser, así es como está definido.
+
+18
+00:01:28,540 --> 00:01:37,120
+listo, perfecto,
+
+19
+00:01:37,680 --> 00:01:41,480
+lista de aparición acá no se por que me lo ponen,
+
+20
+00:01:47,930 --> 00:01:50,630
+Un abrazo y nos vemos en el
+
+21
+00:02:06,280 --> 00:02:12,300
+Bien, vamos a crear para el producto 3506
+
+22
+00:02:14,880 --> 00:02:20,340
+Le ponemos 20.000 guardamos
+
+23
+00:02:20,341 --> 00:02:24,240
+con 20.000 24.000 perfecto y completamos esto
+
+24
+00:02:37,260 --> 00:02:42,540
+Ahí completó, entonces vamos a verificar que haya generado desde aquí una
+
+25
+00:02:42,541 --> 00:02:46,600
+retención y efectivamente aquí ya la generó y navegamos.
+
+26
+00:02:50,100 --> 00:02:54,860
+Y la vemos completa en un 5% así
+
+27
+00:02:54,861 --> 00:02:56,580
+que estaría correcto funcionando ahora.

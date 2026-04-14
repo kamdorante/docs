@@ -1,0 +1,131 @@
+1
+00:00:01,580 --> 00:00:03,760
+Bueno, debemos, necesitamos hacer,
+
+2
+00:00:04,000 --> 00:00:06,940
+agregar un proceso a este browser de generar redenciones,
+
+3
+00:00:07,100 --> 00:00:10,740
+en verdad es un generar resguardos esto. Y lo que hace esto es generar
+
+4
+00:00:10,741 --> 00:00:14,940
+resguardos, que normalmente se hace, se selecciona todo y se genera todo en un
+
+5
+00:00:14,941 --> 00:00:19,920
+documento. Pero en ocasiones esto se tiene que poder seleccionar si se
+
+6
+00:00:19,921 --> 00:00:22,360
+desea agrupar o no. En este caso,
+
+7
+00:00:22,480 --> 00:00:27,840
+por ejemplo, las 73 y 77 corresponden
+
+8
+00:00:27,841 --> 00:00:30,440
+a diferentes proyectos,
+
+9
+00:00:31,120 --> 00:00:34,080
+por lo cual se tendría que aplicar. que asignar con diferentes facturas.
+
+10
+00:00:34,260 --> 00:00:38,520
+La 7.3 es de casino y la 7.7 es de los logrados del proyecto.
+
+11
+00:00:39,960 --> 00:00:42,980
+Entonces, ¿qué tenemos que hacer acá? ¿Cuál es el objetivo que se necesita?
+
+12
+00:00:43,620 --> 00:00:48,140
+Si se elige la 7.3 y 7.7,
+
+13
+00:00:49,000 --> 00:00:53,780
+¿Ok? De estos dos me tiene que generar
+
+14
+00:00:53,781 --> 00:00:58,400
+un proceso, perdón en este caso Pimba acá,
+
+15
+00:00:59,320 --> 00:01:02,520
+me tendría que generar si se desea agrupar o no.
+
+16
+00:01:04,350 --> 00:01:08,270
+Por defecto ahora está agrupando, yo creo así y me va a crear,
+
+17
+00:01:09,950 --> 00:01:12,710
+voy a poner acá, esto no importa,
+
+18
+00:01:12,850 --> 00:01:16,990
+el número porque en verdad define otro número, acá lo elijo,
+
+19
+00:01:17,710 --> 00:01:22,340
+tiene dos, están en preparar, Ok,
+
+20
+00:01:22,500 --> 00:01:25,100
+me generó algo, pero no me dijo que generó.
+
+21
+00:01:27,640 --> 00:01:30,580
+Bien, si vamos a los cuentos por cobrar.
+
+22
+00:01:36,580 --> 00:01:38,780
+Vamos a ver que me generó una,
+
+23
+00:01:39,080 --> 00:01:44,200
+puse un proyecto en el cabezal, pero adentro tengo dos líneas,
+
+24
+00:01:44,800 --> 00:01:47,840
+y esto no se asignó,
+
+25
+00:01:48,400 --> 00:01:51,880
+o sea, esto se tendría que también facturas a asignar.
+
+26
+00:01:52,660 --> 00:01:54,780
+¿O facturas pagadas?
+
+27
+00:01:59,520 --> 00:02:01,620
+Pero no tiene una asignación tampoco.
+
+28
+00:02:04,260 --> 00:02:08,380
+Así que, en cuestión, hizo dos líneas con dos,
+
+29
+00:02:10,710 --> 00:02:15,410
+con dos proyectos, cuando en este caso puso los dos al mismo
+
+30
+00:02:15,411 --> 00:02:20,230
+proyecto, peor todavía, cuando una
+
+31
+00:02:20,231 --> 00:02:23,950
+retención era de un proyecto y otra era de otro.
+
+32
+00:02:24,170 --> 00:02:28,100
+Entonces en este caso tenemos que hacer dos documentos de retención,
+
+33
+00:02:28,240 --> 00:02:31,240
+que llamamos actos de punta de retención, para hacer el documento de resguardo.

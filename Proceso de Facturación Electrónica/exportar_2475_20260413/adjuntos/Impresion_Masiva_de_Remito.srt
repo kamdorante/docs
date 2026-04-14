@@ -1,0 +1,31 @@
+1
+00:00:01,100 --> 00:00:03,660
+Vamos a hacer una prueba acá en preview.dev.
+
+2
+00:00:04,380 --> 00:00:08,100
+Orden de salida, vamos a imprimir las entregas electrónicas.
+
+3
+00:00:08,720 --> 00:00:12,960
+Aquí tenemos una entrega que, una orden de salida que tiene varias entregas.
+
+4
+00:00:13,940 --> 00:00:14,760
+Vamos a darle a imprimir.
+
+5
+00:00:20,670 --> 00:00:25,190
+Y aquí se imprimen de forma masiva las entregas relacionadas a la orden
+
+6
+00:00:25,191 --> 00:00:27,950
+de salida. Aquí tenemos el RMITO 134.
+
+7
+00:00:32,220 --> 00:00:33,220
+Rueda 35
+
+8
+00:00:38,660 --> 00:00:40,480
+y aquí tenemos toda la información.

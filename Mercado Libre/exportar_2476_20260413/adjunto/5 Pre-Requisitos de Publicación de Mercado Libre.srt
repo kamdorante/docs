@@ -1,0 +1,151 @@
+1
+00:00:00,080 --> 00:00:02,260
+Bien, estamos aquí en la ventana de producto,
+
+2
+00:00:02,700 --> 00:00:05,680
+específicamente en el registro de balón de fútbol.
+
+3
+00:00:06,560 --> 00:00:11,140
+Y vamos a validar, eh, que el producto cumple con los requisitos para
+
+4
+00:00:11,141 --> 00:00:15,260
+la publicación hacia el mercado libre. Tenemos lo que es el,
+
+5
+00:00:15,720 --> 00:00:20,220
+principalmente, la condición del producto de mercado libre,
+
+6
+00:00:20,560 --> 00:00:22,660
+el tipo de publicación que es tipo plata,
+
+7
+00:00:23,680 --> 00:00:26,280
+que puede ser bronce, gratuita,
+
+8
+00:00:26,360 --> 00:00:30,440
+european, cada vez está carguer en gratuita que lo que eso lo permite uno
+
+9
+00:00:30,441 --> 00:00:35,140
+en existencia, es decir que si el existencia aquí me dice que
+
+10
+00:00:35,141 --> 00:00:39,660
+que tengo en este caso 30
+
+11
+00:00:39,661 --> 00:00:43,680
+y 100, me da el error al publicarlo porque dice que eso lo permite
+
+12
+00:00:43,681 --> 00:00:48,020
+uno, es una una clara que tiene en este presente,
+
+13
+00:00:48,840 --> 00:00:51,180
+en este caso colocamos bronce,
+
+14
+00:00:51,181 --> 00:00:55,220
+de oro, premio en cualquier otra, gratuita solamente para publicar una,
+
+15
+00:00:55,880 --> 00:01:00,300
+el producto de tener imágenes en el tomo de las imágenes para publicarla,
+
+16
+00:01:00,880 --> 00:01:03,000
+aquí se puede juntar distintos tipos de formatos,
+
+17
+00:01:03,580 --> 00:01:05,900
+png, otaprg, web, eco,
+
+18
+00:01:06,620 --> 00:01:11,420
+etcétera, otra consideración que hay que tener,
+
+19
+00:01:11,560 --> 00:01:16,180
+es que debe tener los, debe tener configurado ya los atributos y
+
+20
+00:01:16,181 --> 00:01:18,200
+debe tener también categoría,
+
+21
+00:01:18,201 --> 00:01:22,880
+esto lo valiamos en una ventana de que
+
+22
+00:01:22,881 --> 00:01:25,960
+cuando se seleccionan que el les morosa suger el categoría,
+
+23
+00:01:26,280 --> 00:01:28,420
+agrega la categoría y los atributos,
+
+24
+00:01:29,540 --> 00:01:35,200
+también debes tener precio y
+
+25
+00:01:35,201 --> 00:01:40,600
+valiamos que en categoría
+
+26
+00:01:40,601 --> 00:01:44,620
+de producto, tienda web,
+
+27
+00:01:45,080 --> 00:01:49,900
+aquí
+
+28
+00:01:49,901 --> 00:01:53,800
+la que hemos visto es esta de balones, balones de fútbol y vamos aquí
+
+29
+00:01:53,801 --> 00:01:58,360
+en asignación de producto y vemos que está asignada en este caso este
+
+30
+00:01:58,361 --> 00:02:00,540
+producto, balón de fútbol,
+
+31
+00:02:01,660 --> 00:02:06,400
+o sea es muy importante que tenga esto previamente configurado antes
+
+32
+00:02:06,401 --> 00:02:11,780
+de procesar con el lado que es la publicación, para evitar errores de o
+
+33
+00:02:11,781 --> 00:02:14,000
+mensajes de errores de lado de mercado libre.
+
+34
+00:02:15,000 --> 00:02:19,280
+En resumen es que tenga condición del artículo,
+
+35
+00:02:19,760 --> 00:02:22,220
+tipo de publicación, precio,
+
+36
+00:02:22,860 --> 00:02:27,520
+existencia, configurador de los atributos y las categorías
+
+37
+00:02:27,521 --> 00:02:32,600
+que sugieren el mercado libre, le cumplí con esos cinco
+
+38
+00:02:32,601 --> 00:02:33,400
+ser requisitos.

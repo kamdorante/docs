@@ -1,0 +1,171 @@
+1
+00:00:01,260 --> 00:00:04,080
+Vamos a ver acá en movimagen.dev.
+
+2
+00:00:05,620 --> 00:00:08,020
+Verdad que el tipo de documento de,
+
+3
+00:00:08,120 --> 00:00:10,380
+El resguardo es de cuenta por pagar,
+
+4
+00:00:10,960 --> 00:00:13,060
+no es de transacción de venta, le quité esto de acá.
+
+5
+00:00:14,220 --> 00:00:17,240
+Tiene su configuración de facturación electrónica. electrónica,
+
+6
+00:00:17,860 --> 00:00:22,800
+retención, en tipo de retención importante,
+
+7
+00:00:22,920 --> 00:00:26,840
+acá está configurado para utilizar ese tipo de documento es resguardo este es lo
+
+8
+00:00:26,841 --> 00:00:31,520
+que se va a generar teniendo eso vamos a hacer una prueba un
+
+9
+00:00:31,521 --> 00:00:35,260
+documento por para pagar este serigrafo,
+
+10
+00:00:35,800 --> 00:00:38,740
+factura proveedor que es el documento que está configurado,
+
+11
+00:00:40,160 --> 00:00:42,780
+a ver Vamos a colocarle acá un producto
+
+12
+00:00:50,420 --> 00:00:52,760
+Lo damos y completamos.
+
+13
+00:00:59,480 --> 00:01:04,040
+se completó vemos que acá tiene la retención
+
+14
+00:01:04,041 --> 00:01:07,400
+generada Esta es la 5,
+
+15
+00:01:07,840 --> 00:01:13,940
+vamos a generar retenciones. Aquí
+
+16
+00:01:13,941 --> 00:01:16,440
+aparece nuestro documento, SeriGraf,
+
+17
+00:01:17,000 --> 00:01:18,100
+completar
+
+18
+00:01:27,820 --> 00:01:30,480
+Creado por y si vamos a la ventana resguardos,
+
+19
+00:01:31,480 --> 00:01:35,020
+vamos a refrescar, vemos que aquí está el A153.
+
+20
+00:01:38,020 --> 00:01:40,060
+Este es un tipo de documento,
+
+21
+00:01:40,160 --> 00:01:44,580
+es un resguardo. Vemos que tiene la numeración del tipo de documento de facturación.
+
+22
+00:01:44,600 --> 00:01:49,380
+electrónica y en esta ventana de resguardos yo
+
+23
+00:01:49,381 --> 00:01:54,280
+coloqué manualmente en este instante nada más de movimienten.dev
+
+24
+00:01:54,281 --> 00:01:58,740
+el botón de imprimir comprobante para que podamos validar acá
+
+25
+00:02:02,960 --> 00:02:08,220
+que efectivamente, viene de invoice y un R es guarda generado
+
+26
+00:02:13,300 --> 00:02:16,560
+esto lo coloque acá debido a que la ventana de resguardo se va a
+
+27
+00:02:16,561 --> 00:02:21,160
+hacer nueva con el descentralizado esta para
+
+28
+00:02:21,161 --> 00:02:23,400
+hacer la de retenciones, una ventana de retenciones,
+
+29
+00:02:23,480 --> 00:02:25,700
+retenciones por pagar y por cobrar,
+
+30
+00:02:26,060 --> 00:02:32,440
+vamos a separar las dos ventanas para que quede un y
+
+31
+00:02:32,441 --> 00:02:37,080
+después se le agrega además todo lo que es de factorización electrónica campo.
+
+32
+00:02:37,700 --> 00:02:42,740
+Acá es nada más para validar que funciona lo que es la,
+
+33
+00:02:42,741 --> 00:02:44,820
+se genera el resguardo y se envía automáticamente.
+
+34
+00:02:48,320 --> 00:02:51,360
+No hay que hacer una configuración extraña,
+
+35
+00:02:51,520 --> 00:02:55,160
+simplemente es normal. genera el tipo de documento,
+
+36
+00:02:55,620 --> 00:02:59,920
+el resguardo, cuenta por pagar o cuenta por cobrar,
+
+37
+00:03:00,680 --> 00:03:05,300
+detrás de venta o no, según sea el caso y lo
+
+38
+00:03:05,301 --> 00:03:08,120
+importante es que tenga su configuración de la facturación electrónica,
+
+39
+00:03:08,280 --> 00:03:11,840
+que maneja facturación electrónica. electrónica, retención y enviar después de computar.
+
+40
+00:03:12,140 --> 00:03:15,080
+Con todo eso ya se envía, se genera y se envía automáticamente.
+
+41
+00:03:17,060 --> 00:03:21,780
+pero si la ventana de resguardo se va a rehacer para
+
+42
+00:03:21,781 --> 00:03:25,560
+tener todo bien centrado centralizado,
+
+43
+00:03:25,740 --> 00:03:26,580
+cuando es descentralizado.

@@ -1,0 +1,183 @@
+1
+00:00:00,980 --> 00:00:04,180
+Teniendo ya la configuración, vamos al punto de venta,
+
+2
+00:00:05,920 --> 00:00:10,620
+el Smart Caja 2, y acá en tipo documento voy a seleccionar manual post
+
+3
+00:00:10,621 --> 00:00:12,780
+order etiquette. También se puede,
+
+4
+00:00:12,940 --> 00:00:16,000
+se puede cambiar el nombre a algo, post order etiquette,
+
+5
+00:00:16,100 --> 00:00:21,400
+como contingencia o algo por el estilo. Teniendo esto vamos a generar
+
+6
+00:00:24,200 --> 00:00:28,820
+documento, cobrar y al darle
+
+7
+00:00:28,821 --> 00:00:32,240
+acá va a pedir editar el número de factura, vamos a colocar a día
+
+8
+00:00:32,241 --> 00:00:35,960
+de 19 por ejemplo, 19,
+
+9
+00:00:37,780 --> 00:00:41,520
+si en caso de que esto genera un r-mito también se colocaría modificar número
+
+10
+00:00:41,521 --> 00:00:46,300
+de entrega y colocaremos acá el número de la entrega
+
+11
+00:00:46,301 --> 00:00:50,220
+del r-mito, pero como este no va generar el remito vamos a generar nada
+
+12
+00:00:50,221 --> 00:00:54,232
+más el número de factura ok ya lo guardó Ok,
+
+13
+00:00:54,392 --> 00:00:59,537
+teniendo esto vamos a procesar y
+
+14
+00:00:59,538 --> 00:01:04,257
+completaba el documento. Acá vemos que no nos generó acá el
+
+15
+00:01:04,258 --> 00:01:08,897
+documento de o la impresión o el ticket del
+
+16
+00:01:08,898 --> 00:01:13,457
+documento de la factura. Esto es porque cuando el documento de
+
+17
+00:01:13,458 --> 00:01:15,677
+contingencia, el servicio de invoici,
+
+18
+00:01:16,057 --> 00:01:18,457
+no devuelve un URL de descarga,
+
+19
+00:01:18,897 --> 00:01:22,337
+así que no tenemos un formato de descarga del documento.
+
+20
+00:01:22,357 --> 00:01:26,877
+documento de contingencia, que podría
+
+21
+00:01:26,878 --> 00:01:31,477
+tener sentido ya que se supone que ese documento ya se imprimió o ya
+
+22
+00:01:31,478 --> 00:01:34,457
+se utilizó, impresión manual,
+
+23
+00:01:35,377 --> 00:01:38,197
+por eso no trae información.
+
+24
+00:01:38,437 --> 00:01:43,897
+pero podemos ver acá era el 19 vamos
+
+25
+00:01:43,898 --> 00:01:44,997
+a dar momentos por cobrar
+
+26
+00:01:55,617 --> 00:01:59,957
+y a 19. Acabemos con el tipo de documento destino,
+
+27
+00:02:00,057 --> 00:02:03,677
+manual de ticket. todo está igual,
+
+28
+00:02:04,137 --> 00:02:06,437
+el documento está enviado, no se puede imprimir,
+
+29
+00:02:06,877 --> 00:02:09,697
+dice que no hay url de descarga,
+
+30
+00:02:09,797 --> 00:02:14,477
+no tenemos documento, pero si vemos la bitácora del documento electrónico,
+
+31
+00:02:15,797 --> 00:02:18,057
+acá podemos ver la factura 19, el número de serie,
+
+32
+00:02:18,197 --> 00:02:18,617
+el número de venida.
+
+33
+00:02:26,417 --> 00:02:31,077
+este documento se puede validar en el portal de invoicing de pruebas
+
+34
+00:02:31,078 --> 00:02:33,377
+de test. Están varios a 19, a 18,
+
+35
+00:02:33,497 --> 00:02:35,737
+a 17, no hay problema. algunas pruebas que he hecho por ahí,
+
+36
+00:02:37,057 --> 00:02:44,317
+deben decir etiquette contingencia y
+
+37
+00:02:44,318 --> 00:02:48,037
+vemos que el documento que se generó acá lo marca como documento manual igualmente
+
+38
+00:02:48,038 --> 00:02:52,577
+si fuera sido un remito. lo marcaré como documento manual
+
+39
+00:02:52,578 --> 00:02:56,817
+también. Lo mismo sucede con las órdenes de distribución.
+
+40
+00:03:00,637 --> 00:03:04,077
+Solo para validar, ya que haya salido el error,
+
+41
+00:03:04,197 --> 00:03:08,257
+vamos a generar una nueva orden, compondre la orden de ticket normal,
+
+42
+00:03:11,457 --> 00:03:17,157
+plástico, procesar
+
+43
+00:03:17,158 --> 00:03:19,277
+aquí no pidió el número de documento
+
+44
+00:03:28,957 --> 00:03:32,757
+Ahora bien, pues, procesada y se imprime acá el e-ticket,
+
+45
+00:03:34,257 --> 00:03:37,937
+impreso acá en el documento.
+
+46
+00:03:39,037 --> 00:03:42,857
+por ahora lo que es la facturación manual

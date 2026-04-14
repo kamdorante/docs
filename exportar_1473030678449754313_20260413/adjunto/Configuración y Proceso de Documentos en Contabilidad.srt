@@ -1,0 +1,223 @@
+1
+00:00:01,330 --> 00:00:04,610
+Vamos a probar lo que es la contabilidad en Colo.
+
+2
+00:00:05,710 --> 00:00:08,090
+Primero, ah, ah, para validar las configuraciones.
+
+3
+00:00:08,120 --> 00:00:11,640
+Es que dividía medio progreso,
+
+4
+00:00:12,360 --> 00:00:15,360
+que procesa cautimcual.
+
+5
+00:00:16,180 --> 00:00:20,920
+para la cola tiene que estar configurado con el rol y el supervisor
+
+6
+00:00:20,921 --> 00:00:26,580
+de procesador de tareas Tiene
+
+7
+00:00:26,581 --> 00:00:28,700
+que tener esta configuración, está de esto creado,
+
+8
+00:00:28,800 --> 00:00:31,800
+si no está creado hay que crear configuración de funcionalidad.
+
+9
+00:00:32,240 --> 00:00:34,480
+por acá de esta defección,
+
+10
+00:00:34,800 --> 00:00:39,500
+acá un tino en coste, por la conjugación
+
+11
+00:00:39,501 --> 00:00:43,280
+de esto. Y debería aparecer en el programa de orden y procesos.
+
+12
+00:00:44,440 --> 00:00:48,300
+Tiene todo esto. Si, por la baiwoga vamos a hacer una,
+
+13
+00:00:48,320 --> 00:00:53,080
+Yo, normalmente, me modifica esto para que la frecuencia
+
+14
+00:00:53,081 --> 00:00:56,220
+sea 1, esto normalmente es a 5 minutos, yo os cambio aquí a detalle.
+
+15
+00:00:56,360 --> 00:00:58,960
+Preguncia de uno para hacer más rápido,
+
+16
+00:00:59,540 --> 00:01:02,580
+documentos por cobrar,
+
+17
+00:01:02,740 --> 00:01:05,540
+vamos a colocar acá. para crear un documento nuevo.
+
+18
+00:01:07,040 --> 00:01:09,500
+Sí, porque el etatio hace eso.
+
+19
+00:01:09,960 --> 00:01:14,200
+Por su aso no ve aquí. y luego para la pueda
+
+20
+00:01:20,480 --> 00:01:25,660
+un to de de no voy a cantar completamos
+
+21
+00:01:25,661 --> 00:01:32,040
+iremos de nacho malo no de
+
+22
+00:01:32,041 --> 00:01:35,440
+la persona que no tiene Y que no tiene nada. Fácil,
+
+23
+00:01:35,700 --> 00:01:36,080
+lo que dice.
+
+24
+00:01:40,210 --> 00:01:44,270
+Ok, se complica el documento si le gusta a cada la infancia.
+
+25
+00:01:44,600 --> 00:01:49,180
+No tiene nada, con la del sistema debería haber aparecido por acá.
+
+26
+00:01:53,900 --> 00:01:58,640
+Esta factura está en esta proceso
+
+27
+00:01:58,641 --> 00:02:04,280
+mientras tanto vamos a ver que es la otra las personas aquí en compañía
+
+28
+00:02:04,281 --> 00:02:08,900
+tiene que estar acá la
+
+29
+00:02:08,901 --> 00:02:11,200
+configuración de Conta Vida en cola,
+
+30
+00:02:12,140 --> 00:02:16,420
+esta configuración se genera.
+
+31
+00:02:16,760 --> 00:02:21,300
+Fualiza dependiendo de la configuración
+
+32
+00:02:21,301 --> 00:02:24,780
+del sistema, el configurador del sistema, la variable que había anteriormente de,
+
+33
+00:02:24,800 --> 00:02:29,500
+que está counting, esta configuración se
+
+34
+00:02:29,501 --> 00:02:32,820
+coloca referente a aquella, así que si ya la contabilidad.
+
+35
+00:02:32,840 --> 00:02:35,420
+la pequeña desabilitada, entonces esto que vendrá desabilitado,
+
+36
+00:02:36,140 --> 00:02:38,240
+se ve nada en cola, se ve nada en cola, se ve nada en
+
+37
+00:02:38,241 --> 00:02:40,520
+metrata, esto que tiene en metrata, segura.
+
+38
+00:02:40,990 --> 00:02:44,910
+Aquí está el cola, aunque la compañía anteriormente estaba deshabilitado,
+
+39
+00:02:45,030 --> 00:02:49,720
+pero ahora está el cola y vamos a ver acá en color del sistema,
+
+40
+00:02:51,280 --> 00:02:55,060
+que este no ha procesado probablemente ya el programador de proceso que se fue
+
+41
+00:02:55,061 --> 00:02:59,920
+procesado una. Nos quedó 11 y nos acercamos el ya procesó.
+
+42
+00:03:00,040 --> 00:03:01,760
+Bueno, será ver pues toda la vez.
+
+43
+00:03:07,830 --> 00:03:10,270
+Porque, aunque corra el programador de procesos,
+
+44
+00:03:10,430 --> 00:03:12,630
+el documento como tal el proceso es así.
+
+45
+00:03:13,630 --> 00:03:18,010
+Si ha pasado el tiempo requerido desde la creación de este documento no por
+
+46
+00:03:18,011 --> 00:03:20,630
+la capri, pero vamos a dar el proceso, por eso esto puede ocasionar por
+
+47
+00:03:20,631 --> 00:03:25,020
+hoy. El programa lo corra unas dos veces antes de que te vea la
+
+48
+00:03:25,021 --> 00:03:26,900
+se procesa y aquí en la sectora.
+
+49
+00:03:32,390 --> 00:03:35,530
+Aquí ya se procesó y siga más del documento por cobrar.
+
+50
+00:03:37,160 --> 00:03:38,940
+Si no les voy a esperar acá, si me voy a informar si un
+
+51
+00:03:38,941 --> 00:03:41,460
+contable, una aquí está la configuración contable,
+
+52
+00:03:41,600 --> 00:03:43,700
+pero se procesó automáticamente.
+
+53
+00:03:47,790 --> 00:03:50,150
+Con esto es todo lo de la configuración,
+
+54
+00:03:50,430 --> 00:03:53,150
+y en la validación del Kichrami.
+
+55
+00:03:53,240 --> 00:03:57,860
+de la contabilidad por colas y con el precesor de el programador
+
+56
+00:03:57,861 --> 00:03:58,500
+de procesos.

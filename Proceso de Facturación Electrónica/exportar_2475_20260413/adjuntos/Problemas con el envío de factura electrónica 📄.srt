@@ -1,0 +1,83 @@
+1
+00:00:00,780 --> 00:00:05,480
+Estoy teniendo un problema que tengo una factura que no enviamos y no
+
+2
+00:00:05,481 --> 00:00:07,880
+la estoy viendo para poder empujar,
+
+3
+00:00:08,020 --> 00:00:11,700
+eh, a enviar nuevamente.
+
+4
+00:00:13,860 --> 00:00:16,880
+Eh, no veo el proceso, yo no me parece que pasó.
+
+5
+00:00:18,180 --> 00:00:20,240
+Si voy acá a las acciones,
+
+6
+00:00:20,640 --> 00:00:24,680
+tampoco veo el proceso. Si refresco acá el documento por cobrar,
+
+7
+00:00:25,400 --> 00:00:30,180
+no estoy viendo el proceso. Y
+
+8
+00:00:30,181 --> 00:00:32,200
+necesito enviar este CFI.
+
+9
+00:00:32,220 --> 00:00:39,640
+Lo necesito enviar, autorizar
+
+10
+00:00:39,641 --> 00:00:44,380
+y no
+
+11
+00:00:44,381 --> 00:00:46,860
+lo puedo enviar. Ahora si voy a Invoice,
+
+12
+00:00:47,740 --> 00:00:52,480
+si vamos aquí para empezar. Send
+
+13
+00:00:52,481 --> 00:00:58,100
+Invoice, acá lo veo como IsElectronicDocument,
+
+14
+00:00:58,300 --> 00:01:03,000
+yes, pero por qué quedó
+
+15
+00:01:03,001 --> 00:01:05,140
+como IsElectronicDocument? No.
+
+16
+00:01:09,160 --> 00:01:13,740
+Esto está bien, pero capaz que fue por el
+
+17
+00:01:13,741 --> 00:01:16,780
+tema de la actualización.
+
+18
+00:01:17,000 --> 00:01:20,380
+No, no puede ser. Esto no.
+
+19
+00:01:22,740 --> 00:01:27,720
+Pero parece que quedó como un
+
+20
+00:01:27,721 --> 00:01:31,560
+documento electrónico, ¿no?
+
+21
+00:01:32,460 --> 00:01:34,160
+Vamos a verificar.

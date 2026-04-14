@@ -1,0 +1,63 @@
+1
+00:00:01,580 --> 00:00:04,320
+Vamos a probar acá en IvyDev,
+
+2
+00:00:04,780 --> 00:00:08,000
+el cambio que se hizo de esto de, eh,
+
+3
+00:00:08,660 --> 00:00:10,780
+Se mantiene cheque diferido por cobrar, por ejemplo,
+
+4
+00:00:12,040 --> 00:00:14,360
+en Tánamo este debería mantenerse,
+
+5
+00:00:14,480 --> 00:00:19,350
+se mantiene el cheque diferido. Si yo coloco acá E-Factura,
+
+6
+00:00:20,070 --> 00:00:22,790
+Vamos a duplicar esto,
+
+7
+00:00:22,791 --> 00:00:27,620
+Si yo coloco acá E-Factura, Esto se coloca etiquette.
+
+8
+00:00:28,000 --> 00:00:33,380
+Actualmente está funcionando correctamente esto. Se
+
+9
+00:00:33,381 --> 00:00:38,260
+está cambiando según cuándo el tipo de documento está
+
+10
+00:00:38,261 --> 00:00:41,040
+configurado como documento manejable. Factorización electrónica.
+
+11
+00:00:41,720 --> 00:00:44,760
+Colocar el tipo de documento según el grupo de impuesto y cuando el tipo
+
+12
+00:00:44,761 --> 00:00:48,160
+de documento no está marcado como maneja factorización electrónica.
+
+13
+00:00:48,240 --> 00:00:52,800
+Como por ejemplo el cheque diferido, que va
+
+14
+00:00:52,801 --> 00:00:56,260
+acá, no maneja factores electrónicas, no lo cambia.
+
+15
+00:00:56,280 --> 00:01:00,860
+a un documento electrónico como etiqueto de factura.
+
+16
+00:01:01,880 --> 00:01:02,460
+Está funcionando.

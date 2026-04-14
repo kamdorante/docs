@@ -1,0 +1,175 @@
+1
+00:00:00,700 --> 00:00:04,960
+Bueno, estoy haciendo una venta que acaba de crear este cliente.
+
+2
+00:00:05,200 --> 00:00:07,980
+La orden de venta es esta que tengo acá, la voy a copiar.
+
+3
+00:00:08,620 --> 00:00:11,020
+Y bueno, acá vamos a hacer un cobro en efectivo.
+
+4
+00:00:15,700 --> 00:00:18,560
+Vamos Vamos a, perfecto.
+
+5
+00:00:19,460 --> 00:00:22,540
+Vamos a hacer un cobro en efectivo y completamos.
+
+6
+00:00:22,800 --> 00:00:25,040
+Esto me tendría que serenar una I-Factura,
+
+7
+00:00:27,020 --> 00:00:29,140
+un formato 110 milímetros.
+
+8
+00:00:33,700 --> 00:00:36,120
+Bien, perfecto.
+
+9
+00:00:36,260 --> 00:00:42,660
+comprador y factura. Ahora se
+
+10
+00:00:42,661 --> 00:00:46,760
+va el hombre y vuelve.
+
+11
+00:00:48,030 --> 00:00:51,610
+al rato y diciendo que no le gustó el producto,
+
+12
+00:00:51,750 --> 00:00:54,490
+que lo quiere cambiar o que no está roto, así que tenemos que hacer
+
+13
+00:00:54,491 --> 00:00:57,550
+una devolución. Orden de venta,
+
+14
+00:00:57,690 --> 00:01:02,230
+histórico de órdenes y vamos a
+
+15
+00:01:02,231 --> 00:01:04,710
+elegir esto, que es un orden de venta.
+
+16
+00:01:06,650 --> 00:01:11,430
+Ahora si vamos a hacer una
+
+17
+00:01:11,431 --> 00:01:16,620
+devolución. Vamos
+
+18
+00:01:16,621 --> 00:01:21,140
+a devolver el producto. Vamos
+
+19
+00:01:21,141 --> 00:01:24,420
+a elegir. Y acá,
+
+20
+00:01:28,500 --> 00:01:31,960
+Tendríamos que generar, en este caso, que acabo de hacer,
+
+21
+00:01:32,240 --> 00:01:36,800
+pim, bam, y se ve que acá Ah,
+
+22
+00:01:36,860 --> 00:01:42,480
+no está considerando esto de que tiene que hacer una nota
+
+23
+00:01:42,481 --> 00:01:47,100
+de crédito. ¿Esto está pensando? O no me acuerdo si
+
+24
+00:01:47,101 --> 00:01:49,620
+está pensando. Bueno, vamos a Así, pimba,
+
+25
+00:01:50,940 --> 00:01:55,960
+va a ser la devolución. Esto tendría que ser,
+
+26
+00:01:59,080 --> 00:02:03,620
+Acá tenemos un problema, es un e-ticket, en verdad tendría que haber sido nota
+
+27
+00:02:03,621 --> 00:02:08,140
+de crédito de e-factura. El e-ticket es cuando es cédula,
+
+28
+00:02:08,440 --> 00:02:12,840
+te aplica la misma lógica. Acá asignamos una e-factura.
+
+29
+00:02:12,860 --> 00:02:15,680
+con una nota de credit y ticket, todo estaría mal.
+
+30
+00:02:17,260 --> 00:02:19,760
+Perfecto. Ahora, si sigo con el ejemplo,
+
+31
+00:02:29,880 --> 00:02:34,560
+Y acá voy a borrar esta línea
+
+32
+00:02:34,561 --> 00:02:36,960
+y vamos a cargar cualquier otro producto.
+
+33
+00:02:38,740 --> 00:02:41,120
+Ahora, cuando vamos a cobrar,
+
+34
+00:02:41,700 --> 00:02:47,620
+tengo la nota de crédito. Y si vengo a elegir
+
+35
+00:02:47,621 --> 00:02:49,680
+efectivo del resto,
+
+36
+00:02:50,300 --> 00:02:53,840
+ahí genero el saldo del efectivo. Tengo el pago de Vamos por el completo
+
+37
+00:02:53,841 --> 00:02:58,500
+y cuando voy a completar, acá el cliente notifica que le salta un
+
+38
+00:02:58,501 --> 00:02:58,800
+error.
+
+39
+00:03:05,180 --> 00:03:08,620
+Pasó ningún error y esto generó una defactura,
+
+40
+00:03:10,040 --> 00:03:14,640
+correcto, así que vamos a analizar el caso concreto de que le pasó
+
+41
+00:03:14,641 --> 00:03:18,120
+al cliente, no sé qué pasó, pero bueno,
+
+42
+00:03:18,400 --> 00:03:20,600
+esto igual nos deja claro de que esto sería un error,
+
+43
+00:03:21,020 --> 00:03:24,240
+que la defacturación, la devolución tiene que también ser una nota de crédito y
+
+44
+00:03:24,241 --> 00:03:24,680
+factura.

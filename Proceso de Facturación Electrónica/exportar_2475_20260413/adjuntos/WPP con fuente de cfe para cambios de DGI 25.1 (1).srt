@@ -1,0 +1,223 @@
+1
+00:00:00,000 --> 00:00:03,640
+Bueno, acá estamos probando los campos nuevos, que deje y exige en la nueva
+
+2
+00:00:03,641 --> 00:00:06,500
+versión 25.1, este,
+
+3
+00:00:06,580 --> 00:00:10,980
+los de documentos relacionados de taza de cambio y la cotización de la taza.
+
+4
+00:00:12,060 --> 00:00:16,920
+acá nosotros tenemos el documento y factura que completamos
+
+5
+00:00:16,921 --> 00:00:24,240
+en yamos a invoici el 31 0 6 que se encuentra acá 40
+
+6
+00:00:24,241 --> 00:00:28,880
+y 306 y que se decir 40 y 307 y
+
+7
+00:00:28,881 --> 00:00:31,780
+lo que vamos a hacer ahora es crear una nota de crédito a partir
+
+8
+00:00:31,781 --> 00:00:37,040
+de este documento que vamos a popularlo acá lo
+
+9
+00:00:37,041 --> 00:00:41,840
+vamos a guardar y lo que vamos a hacer es crear desde el documento
+
+10
+00:00:41,841 --> 00:00:45,040
+del cfe original,
+
+11
+00:00:45,960 --> 00:00:51,160
+como la factura original, creamos
+
+12
+00:00:51,161 --> 00:00:53,580
+el documento,
+
+13
+00:00:53,581 --> 00:00:55,820
+o sea creamos las líneas del documento,
+
+14
+00:00:55,821 --> 00:01:01,200
+si no fijamos acá tenemos el documento
+
+15
+00:01:01,201 --> 00:01:06,460
+en sí, la línea copiada, la línea de factura no debe estar creada
+
+16
+00:01:06,461 --> 00:01:11,240
+todavía correcto en esta creada y tenemos el cfe
+
+17
+00:01:11,241 --> 00:01:16,000
+referido que debe
+
+18
+00:01:16,001 --> 00:01:20,660
+haber lo que ha quedado también porque es el que el cual copiamos
+
+19
+00:01:20,661 --> 00:01:26,560
+la linea la
+
+20
+00:01:26,561 --> 00:01:31,140
+factura, la que referencia con los montos entonces lo que vamos a hacer
+
+21
+00:01:31,141 --> 00:01:38,680
+es ir al el cabezal y generar las líneas de factura y
+
+22
+00:01:38,681 --> 00:01:43,220
+en la línea de factura tenemos que completar algunos datos porque eso llegador y
+
+23
+00:01:43,221 --> 00:01:48,200
+el nombre y la unidad de medidas. Bien,
+
+24
+00:01:48,940 --> 00:01:53,460
+esto funciona con el configurador sistema como la parametriz de su inicial
+
+25
+00:01:53,461 --> 00:01:58,040
+de estos cambios. En este caso lo pasamos
+
+26
+00:01:58,041 --> 00:02:03,720
+a no y nosotros intentamos completar y
+
+27
+00:02:03,721 --> 00:02:11,580
+intentamos completar la factura y
+
+28
+00:02:11,581 --> 00:02:20,280
+no disponemos
+
+29
+00:02:20,281 --> 00:02:21,840
+a completar la factura
+
+30
+00:02:26,640 --> 00:02:30,860
+y debería dar un error, una error,
+
+31
+00:02:31,220 --> 00:02:33,360
+así me enfijamos acá,
+
+32
+00:02:33,361 --> 00:02:37,900
+vemos que la nota del crédito o
+
+33
+00:02:37,901 --> 00:02:40,420
+sea, la altura fue y la nota del crédito de error,
+
+34
+00:02:41,080 --> 00:02:51,820
+porque le faltan los campos
+
+35
+00:02:51,821 --> 00:02:56,460
+que al volver acá y configurar esto en
+
+36
+00:02:56,461 --> 00:03:01,540
+Yes, debería activarse la carrera de esos campos para
+
+37
+00:03:01,541 --> 00:03:06,340
+que se han enviado a Invoicy, entonces no vamos completar nuevamente acá,
+
+38
+00:03:06,580 --> 00:03:09,720
+debería realizarse correctamente el envío,
+
+39
+00:03:09,800 --> 00:03:11,140
+hay
+
+40
+00:03:19,460 --> 00:03:22,580
+completo, en que hace un momento había dado error por el flyer,
+
+41
+00:03:22,680 --> 00:03:27,620
+ahora como le habilitamos, que permitió completar el documento
+
+42
+00:03:27,621 --> 00:03:30,680
+de nota de crédito.
+
+43
+00:03:31,020 --> 00:03:34,300
+Si nosotros volvemos a invoici y refrescamos,
+
+44
+00:03:35,100 --> 00:03:39,380
+obtenemos que el documento fue firmado,
+
+45
+00:03:39,520 --> 00:03:44,080
+esto no importa porque el tfx que se carbo ese otro organización
+
+46
+00:03:44,081 --> 00:03:46,740
+y tfx que funcione la instancia de pruebas,
+
+47
+00:03:47,400 --> 00:03:49,820
+pero fue completado el documento,
+
+48
+00:03:50,600 --> 00:03:52,940
+ya no tira más estos mensajes de errores,
+
+49
+00:03:54,120 --> 00:04:00,080
+si nosotros nos vamos a referencias,
+
+50
+00:04:00,600 --> 00:04:05,200
+vemos que tiene la moneda y la
+
+51
+00:04:05,201 --> 00:04:09,720
+cotización correspondiente a la factura que es
+
+52
+00:04:09,721 --> 00:04:14,040
+parte de los campos no que se agregar, esto es la nota de crédito
+
+53
+00:04:14,041 --> 00:04:18,720
+de factura sería número 41-17 que
+
+54
+00:04:18,721 --> 00:04:23,720
+está en prueba retail, que salió de la distancia WRP
+
+55
+00:04:23,721 --> 00:04:28,220
+22-27 desde la organización y ang,
+
+56
+00:04:29,640 --> 00:04:31,180
+y esta sería la prueba completa.

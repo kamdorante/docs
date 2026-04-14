@@ -1,0 +1,623 @@
+1
+00:00:01,170 --> 00:00:06,670
+Presentación de la funcionalidad de generar líneas CFE desde,
+
+2
+00:00:07,110 --> 00:00:13,030
+bueno en este caso, el proceso que usamos es desde el
+
+3
+00:00:13,031 --> 00:00:15,210
+browser de generar facturas de línea de orden.
+
+4
+00:00:16,420 --> 00:00:22,580
+en el cual la idea es generar
+
+5
+00:00:22,581 --> 00:00:27,160
+con las líneas de los documentos de las órdenes
+
+6
+00:00:27,161 --> 00:00:31,860
+de venta que vemos aquí, podemos realizar una agrupación
+
+7
+00:00:32,440 --> 00:00:36,340
+de manera fácil, por el,
+
+8
+00:00:37,380 --> 00:00:39,460
+de las líneas,
+
+9
+00:00:40,340 --> 00:00:42,600
+este, porque acá tenemos dos tipos de agrupación,
+
+10
+00:00:42,820 --> 00:00:45,140
+ya me pasó, voy a comentar también,
+
+11
+00:00:46,300 --> 00:00:48,320
+el primer caso es Order Grouping,
+
+12
+00:00:48,800 --> 00:00:54,180
+podemos seleccionar estas líneas
+
+13
+00:00:54,181 --> 00:01:00,440
+y generar un documento
+
+14
+00:01:00,441 --> 00:01:03,020
+agrupando por estos diferentes criterios.
+
+15
+00:01:03,280 --> 00:01:07,910
+Ese sería el primer punto. que es agregar una lógica de inteligencia en
+
+16
+00:01:07,911 --> 00:01:12,470
+agrupación de todas estas líneas en una factura
+
+17
+00:01:12,471 --> 00:01:16,470
+o en n facturas según estos criterios.
+
+18
+00:01:17,730 --> 00:01:21,020
+Esto permite para facturar masivamente cosas,
+
+19
+00:01:21,420 --> 00:01:26,180
+líneas de órdenes de venta, agrupando en diferentes facturas y corresponde.
+
+20
+00:01:26,240 --> 00:01:29,060
+Por ejemplo, una es la P.O. de cliente.
+
+21
+00:01:29,240 --> 00:01:31,400
+Si tengo diferentes P.O.
+
+22
+00:01:31,460 --> 00:01:34,740
+de cliente, me va a quedar una con este número,
+
+23
+00:01:34,840 --> 00:01:38,700
+por ejemplo, igual a este, entonces este es 2 me las va a agregar,
+
+24
+00:01:38,760 --> 00:01:43,960
+aunque tenga diferentes órdenes, en una misma factura y
+
+25
+00:01:43,961 --> 00:01:47,740
+esta que dice OC, OC, OC, bueno, las va a agregar todas en otra
+
+26
+00:01:47,741 --> 00:01:51,740
+factura. ¿Va? Eso sería un,
+
+27
+00:01:51,880 --> 00:01:56,880
+un, un, forma de agrupación que podemos
+
+28
+00:01:56,881 --> 00:01:59,720
+ver acá a continuación, si hacemos así,
+
+29
+00:01:59,780 --> 00:02:04,360
+si hacemos así, vamos a ir, vamos a hacer un ejemplo y elijo por
+
+30
+00:02:04,361 --> 00:02:06,580
+veo cliente,
+
+31
+00:02:06,800 --> 00:02:10,320
+genero para de hoy,
+
+32
+00:02:10,560 --> 00:02:12,620
+preparar y genero.
+
+33
+00:02:13,760 --> 00:02:16,140
+Esto también me va a generar,
+
+34
+00:02:16,180 --> 00:02:18,560
+que esto es importante, que lo tenemos que corregir también,
+
+35
+00:02:19,000 --> 00:02:22,780
+que ahora no está sucediendo así, me define el número del documento que generó,
+
+36
+00:02:23,180 --> 00:02:29,720
+no la cantidad de órdenes, etc. Vamos
+
+37
+00:02:29,721 --> 00:02:35,640
+al documento por cobrar y
+
+38
+00:02:35,641 --> 00:02:40,700
+podemos ir a buscar por el número del documento.
+
+39
+00:02:40,900 --> 00:02:43,980
+Me dijo recién, es lo que generó.
+
+40
+00:02:44,380 --> 00:02:47,340
+Vamos a buscarlo para que quede más claro.
+
+41
+00:02:47,840 --> 00:02:51,440
+Vamos a generarlo por la fecha. Tenemos estos dos documentos.
+
+42
+00:02:51,700 --> 00:02:54,220
+Una con esta orden de compra y otra con esta orden de compra.
+
+43
+00:02:55,160 --> 00:02:58,000
+Muy importante porque la orden de compra es la que envió. Ahora,
+
+44
+00:03:00,580 --> 00:03:05,120
+dentro de esta vamos a ver que tenemos las
+
+45
+00:03:05,121 --> 00:03:10,020
+dos líneas que habíamos definido, correspondientes a
+
+46
+00:03:10,021 --> 00:03:16,440
+diferentes proyectos,
+
+47
+00:03:16,441 --> 00:03:18,700
+el 28 y el 51.
+
+48
+00:03:19,120 --> 00:03:23,740
+Son dos proyectos diferentes que estaban todas dentro de la misma orden de compra
+
+49
+00:03:23,741 --> 00:03:26,500
+del cliente. Ahora,
+
+50
+00:03:27,140 --> 00:03:30,060
+estos son, obviamente que esto es lo que es la la semifinal,
+
+51
+00:03:30,540 --> 00:03:34,980
+estándar, como vemos, pero ahora tenemos otro tema,
+
+52
+00:03:35,660 --> 00:03:40,400
+de que si bien ahora agrupamos en dos facturas las cinco
+
+53
+00:03:40,401 --> 00:03:45,260
+líneas que veíamos o seis en dos facturas y acá tenemos dos líneas adentro
+
+54
+00:03:46,120 --> 00:03:50,040
+Tenemos otra funcionalidad que se utiliza mucho para la facturación de servicios,
+
+55
+00:03:51,040 --> 00:03:54,400
+que es según la lógica que tengas en el socio negocio,
+
+56
+00:03:54,920 --> 00:03:59,840
+en la ficha cliente, agregamos este campo que es el CFE Billing Criteria.
+
+57
+00:04:01,480 --> 00:04:06,360
+Y materia aplica cuando no se desea generar el CFE
+
+58
+00:04:06,361 --> 00:04:08,680
+con las mismas líneas,
+
+59
+00:04:08,780 --> 00:04:13,340
+o sea, con las invoice line, porque en verdad no le
+
+60
+00:04:13,341 --> 00:04:17,520
+interesa al cliente cómo le está facturando.
+
+61
+00:04:17,620 --> 00:04:19,660
+lo que le está faltando. Entonces,
+
+62
+00:04:19,780 --> 00:04:21,900
+porque en este caso tenemos dos inversiones,
+
+63
+00:04:22,100 --> 00:04:24,820
+ok, pero tenemos aquí inversión básica,
+
+64
+00:04:24,840 --> 00:04:28,300
+pero podría ser cualquier producto definido de medios.
+
+65
+00:04:29,600 --> 00:04:32,940
+Y ellos lo que no quieren es, porque puede ser uno o pueden ser
+
+66
+00:04:32,941 --> 00:04:35,180
+n productos. es el mejor ejemplo.
+
+67
+00:04:35,880 --> 00:04:38,760
+Podrían ser una apertura de pnt,
+
+68
+00:04:39,140 --> 00:04:42,620
+minutos, segundos, impresos,
+
+69
+00:04:42,740 --> 00:04:44,980
+digo muchos productos,
+
+70
+00:04:45,560 --> 00:04:48,120
+que son importantes tener la definición del producto,
+
+71
+00:04:48,240 --> 00:04:51,120
+con la cantidad, con la fecha. hecha y demás,
+
+72
+00:04:51,480 --> 00:04:53,520
+todo lo que tenemos en la seed order line y en la seed invoice
+
+73
+00:04:53,521 --> 00:05:00,000
+line, hará realizar luego su correspondiente checking.
+
+74
+00:05:00,900 --> 00:05:03,480
+Ahora bien, al cliente no le interesa ver todo esto.
+
+75
+00:05:04,240 --> 00:05:06,760
+Y lo único que le interesa en este caso, va a ser,
+
+76
+00:05:07,280 --> 00:05:13,780
+vamos a ir a un proyecto, lo
+
+77
+00:05:13,781 --> 00:05:16,760
+que diga en esta línea,
+
+78
+00:05:16,920 --> 00:05:20,380
+que es detalle de factor. Ahora,
+
+79
+00:05:20,960 --> 00:05:23,600
+en este caso, vamos a Vamos a ver en este caso que tenemos proyecto,
+
+80
+00:05:23,900 --> 00:05:28,260
+podríamos tener todas estas condiciones, las configuraciones,
+
+81
+00:05:28,840 --> 00:05:31,500
+que en el caso de proyecto, lo que va a hacer es simplemente que
+
+82
+00:05:31,501 --> 00:05:35,240
+hace una línea por proyecto, entonces si vos tenés n líneas acá,
+
+83
+00:05:36,020 --> 00:05:41,420
+va a generar una línea por En esta
+
+84
+00:05:41,421 --> 00:05:43,740
+tabla,
+
+85
+00:05:44,880 --> 00:05:50,180
+lo que hacemos
+
+86
+00:05:50,181 --> 00:05:52,400
+es con controles que ya funcionan correctamente,
+
+87
+00:05:52,480 --> 00:05:56,640
+las verificaciones de todas las líneas. para que nunca se facture diferente a lo
+
+88
+00:05:56,641 --> 00:06:01,460
+que es la Simple Slime, obviamente, y es un proceso que en verdad lo
+
+89
+00:06:01,461 --> 00:06:05,360
+lanzamos de diferentes maneras, muchas veces acá capaz que está desactivado el CFE,
+
+90
+00:06:05,460 --> 00:06:07,740
+por eso no ocurrió automáticamente, pero cuando se guarda,
+
+91
+00:06:08,060 --> 00:06:10,400
+se crea automáticamente la línea de facturas CFE.
+
+92
+00:06:12,040 --> 00:06:16,640
+Si yo le cambio el CFE Billing Criteria que lo tenemos
+
+93
+00:06:16,641 --> 00:06:19,720
+acá definido, acá tenemos por línea.
+
+94
+00:06:20,720 --> 00:06:22,760
+Pero si yo hago así y pongo por proyecto,
+
+95
+00:06:22,980 --> 00:06:24,580
+esto tendría que haber funcionado diferente.
+
+96
+00:06:28,900 --> 00:06:32,120
+Si el proyecto, al guardar,
+
+97
+00:06:32,220 --> 00:06:37,160
+acá no se generó, pero al guardar se corre este proceso que es generar
+
+98
+00:06:37,161 --> 00:06:41,760
+líneas de facturas EFE. Este proceso lo que hace
+
+99
+00:06:41,761 --> 00:06:42,620
+es generar líneas
+
+100
+00:06:49,720 --> 00:06:51,960
+en este caso no está funcionando,
+
+101
+00:06:53,200 --> 00:06:57,820
+no sé bien por qué, pero
+
+102
+00:06:57,821 --> 00:07:02,400
+para seguir con el con el ejemplo, tenemos acá el proyecto
+
+103
+00:07:02,401 --> 00:07:08,200
+y con este proyecto tendría que quedar una línea acá y
+
+104
+00:07:08,201 --> 00:07:10,520
+esta línea debería verse,
+
+105
+00:07:11,040 --> 00:07:15,380
+vamos a ver si es por el sender, hay veces que como Como tenemos
+
+106
+00:07:15,381 --> 00:07:20,080
+el Sander desactivado, Note generaba las líneas,
+
+107
+00:07:20,180 --> 00:07:21,220
+debería hacer eso.
+
+108
+00:07:27,990 --> 00:07:31,410
+Si voy al sender, ok,
+
+109
+00:07:31,750 --> 00:07:36,390
+está desactivado, lo
+
+110
+00:07:36,391 --> 00:07:42,290
+voy a activar un segundo, lo voy a venir acá y
+
+111
+00:07:42,291 --> 00:07:44,180
+voy a generar Líneas FE,
+
+112
+00:07:52,380 --> 00:07:56,780
+bien, entonces acá sin importar c****** líneas uno tenga,
+
+113
+00:07:58,360 --> 00:08:01,640
+te va a aplicar el proceso este que está aquí,
+
+114
+00:08:02,260 --> 00:08:07,140
+de generar líneas de factores CFE, te va a aplicar según
+
+115
+00:08:07,141 --> 00:08:10,160
+esta lógica que tengas acá, proyecto,
+
+116
+00:08:10,400 --> 00:08:12,720
+por impuesto, por factores. Fase,
+
+117
+00:08:12,900 --> 00:08:15,460
+por factura, por contrato, en muchas formas.
+
+118
+00:08:16,140 --> 00:08:19,640
+Tarea, línea. Fase,
+
+119
+00:08:19,880 --> 00:08:22,820
+esto debería quedar como podemos hacerlo con la estructura.
+
+120
+00:08:23,640 --> 00:08:27,940
+Pero esto va a generar, a partir de eso, una línea acá con la
+
+121
+00:08:27,941 --> 00:08:30,760
+sumatoria. de las líneas que estamos definiendo,
+
+122
+00:08:30,880 --> 00:08:34,960
+esto no me acuerdo si se ponía bien la cantidad, como era bien esto,
+
+123
+00:08:35,300 --> 00:08:38,780
+pero lo que importa es el total de la línea por la descripción.
+
+124
+00:08:38,960 --> 00:08:44,160
+La descripción la armamos según fuese el tipo
+
+125
+00:08:44,161 --> 00:08:48,360
+de film. Si es proyecto,
+
+126
+00:08:48,780 --> 00:08:51,560
+lo vamos a tomar de la cabeza del proyecto.
+
+127
+00:08:52,060 --> 00:08:56,400
+Si es fase, lo vamos a tomar de el detalle,
+
+128
+00:08:56,560 --> 00:08:58,780
+o sea, en el campo description,
+
+129
+00:08:59,600 --> 00:09:04,310
+de la fase. Esto obviamente lo tenemos que ver y cómo adaptarlo,
+
+130
+00:09:05,070 --> 00:09:07,970
+pero seguimos esa línea. Ahora,
+
+131
+00:09:09,230 --> 00:09:15,210
+todo esto es para que cuando enviamos el,
+
+132
+00:09:20,100 --> 00:09:24,380
+Cuando generamos el documento por cobrar, el importe no va a cambiar porque se
+
+133
+00:09:24,381 --> 00:09:28,040
+genera todo el cabezal según las líneas y que tiene que sumar y ser
+
+134
+00:09:28,041 --> 00:09:30,580
+igual que las líneas FE. ¿Por qué es tan importante?
+
+135
+00:09:30,680 --> 00:09:33,700
+Porque lo que vamos a enviar realmente es el en el HTML,
+
+136
+00:09:34,640 --> 00:09:39,340
+va a ser este detalle. No hay control de
+
+137
+00:09:39,341 --> 00:09:43,320
+código y nombre de productos actualmente, por lo cual acá podes mandar básicamente lo
+
+138
+00:09:43,321 --> 00:09:46,980
+que quieras. Y acá usamos eso para poner la descripción,
+
+139
+00:09:47,720 --> 00:09:52,340
+poner la cantidad. y armamos esa descripción como el cliente lo pida,
+
+140
+00:09:52,800 --> 00:09:57,160
+todo para poder generar una impresión de líneas EFE.
+
+141
+00:09:58,020 --> 00:10:02,560
+Este es un jasper, que lo que hace no es mirar la same voice
+
+142
+00:10:02,561 --> 00:10:07,100
+line, sino que mira la Y
+
+143
+00:10:07,101 --> 00:10:10,320
+te agrupa la descripción, y acá ponemos el nombre del cliente,
+
+144
+00:10:10,660 --> 00:10:12,720
+el nombre del proveedor, la fecha,
+
+145
+00:10:12,840 --> 00:10:15,960
+en este caso tomamos la descripción, pero podemos tener incluso varios datos,
+
+146
+00:10:16,680 --> 00:10:20,300
+para que se pueda facturar fácilmente un proyecto.
+
+147
+00:10:21,040 --> 00:10:23,700
+ponen la descripción que se quiera,
+
+148
+00:10:23,800 --> 00:10:28,480
+que el cliente necesite, y nosotros en las líneas utilizamos
+
+149
+00:10:28,481 --> 00:10:31,240
+la lógica del ARP como corresponde.
+
+150
+00:10:32,020 --> 00:10:37,100
+Esto lo bueno es que se puede cambiar, en
+
+151
+00:10:37,120 --> 00:10:41,680
+esta definición de líneas puede abrirse o reducirse según
+
+152
+00:10:41,681 --> 00:10:47,580
+cómo se defina. Esto lo podemos configurar
+
+153
+00:10:47,581 --> 00:10:50,800
+con este formato. Cuando tenemos especial,
+
+154
+00:10:51,300 --> 00:10:54,600
+si ponemos acá, el especial que el es justamente el que estamos hablando y
+
+155
+00:10:54,601 --> 00:10:59,300
+el tradicional es el que se utiliza cualquier otro cliente y utiliza justamente la
+
+156
+00:10:59,301 --> 00:11:02,800
+creación del xml con el same-web-slide directamente.

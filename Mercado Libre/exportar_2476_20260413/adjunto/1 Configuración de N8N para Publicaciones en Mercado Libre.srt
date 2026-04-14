@@ -1,0 +1,147 @@
+1
+00:00:03,150 --> 00:00:05,790
+Bien, lo primero es entrar aquí en N8N,
+
+2
+00:00:06,250 --> 00:00:10,550
+para hacer lo que es la configuración o por lo menos leer lo que
+
+3
+00:00:10,551 --> 00:00:14,550
+es la URL del webhub, es una configuración que se hace una única vez
+
+4
+00:00:14,551 --> 00:00:18,430
+o por lo menos para el caso de prueba, vamos a entrar aquí,
+
+5
+00:00:18,650 --> 00:00:21,050
+en este caso tenemos este fluj de trabajo, este workflow,
+
+6
+00:00:21,470 --> 00:00:23,570
+de, mercado libre solo.
+
+7
+00:00:24,570 --> 00:00:29,710
+Vamos a abrir este que aquí abajo y
+
+8
+00:00:29,711 --> 00:00:31,970
+le vamos a dar clic derecho,
+
+9
+00:00:33,230 --> 00:00:36,530
+copiar e-URL de pruebas o copite su URL,
+
+10
+00:00:36,990 --> 00:00:41,350
+ese lo vamos a pegar acá y lo guardamos,
+
+11
+00:00:42,030 --> 00:00:47,390
+aquí en esta ventana de web hub es donde se configura
+
+12
+00:00:47,391 --> 00:00:51,210
+para la conexión, hace que ya sea básicamente de lo que valer en el
+
+13
+00:00:51,211 --> 00:00:55,210
+8n, por ahora solo tenemos este único que es el que va a hacer
+
+14
+00:00:55,211 --> 00:00:57,770
+la transformación de lo que se le envía desde la empera,
+
+15
+00:00:57,850 --> 00:01:03,710
+hacia lo último que es básicamente la publicación de mercado
+
+16
+00:01:03,711 --> 00:01:06,230
+libre, o sea por uno nuevo,
+
+17
+00:01:06,670 --> 00:01:09,810
+o por actualización de estado, etcétera.
+
+18
+00:01:10,770 --> 00:01:15,250
+Básicamente el flow que trabaja aquí espera que se haga una publicación,
+
+19
+00:01:15,410 --> 00:01:19,530
+B, si existe, en caso de que no exista,
+
+20
+00:01:19,670 --> 00:01:23,670
+va y crea una nueva, trae los procesos a lo que son los archivos
+
+21
+00:01:23,671 --> 00:01:28,430
+multimedia, en este caso las imágenes, evalúa
+
+22
+00:01:28,431 --> 00:01:32,190
+cuáles son nuevas y cuáles están ya registradas,
+
+23
+00:01:32,430 --> 00:01:37,650
+crea una sola lista, ahora es malo que va para mercador libre toda la
+
+24
+00:01:37,651 --> 00:01:41,010
+estructura que espera mercador libre y simplemente lo crea,
+
+25
+00:01:41,290 --> 00:01:44,810
+es de manera similar de la actualizar, la actualizar en caso de que no
+
+26
+00:01:44,811 --> 00:01:47,970
+sea un cambio de estatus, él hace el infloso similar,
+
+27
+00:01:48,110 --> 00:01:52,130
+simplemente que hace el cambio de imagen, es atributo, descripción etcétera.
+
+28
+00:01:52,290 --> 00:01:55,510
+En el caso de que sea un cambio de estado,
+
+29
+00:01:55,790 --> 00:02:01,730
+el estado de publicación es diferente a publicar
+
+30
+00:02:01,731 --> 00:02:05,610
+o a cerrar, es de perdón a publicar, entiende que es pausar o cerrar,
+
+31
+00:02:05,970 --> 00:02:10,350
+cualquier las dos entra por este otro flujo y simplemente va inactiva la publicación,
+
+32
+00:02:10,490 --> 00:02:14,930
+la pausa y hacer el cambio bien vamos a hacer una praja,
+
+33
+00:02:14,931 --> 00:02:18,110
+ya copiamos el URL de prejo de acá de,
+
+34
+00:02:18,111 --> 00:02:22,630
+vamos a copiarlo, te juro RL y lo vamos a
+
+35
+00:02:22,631 --> 00:02:30,530
+pegar aquí, vamos a pegarlo y guardar y
+
+36
+00:02:30,531 --> 00:02:35,470
+aquí simplemente lo que vamos a es ejecutar el flujo de trabajo y
+
+37
+00:02:35,471 --> 00:02:37,650
+tenemos una publicación que ya sabemos que funciona para

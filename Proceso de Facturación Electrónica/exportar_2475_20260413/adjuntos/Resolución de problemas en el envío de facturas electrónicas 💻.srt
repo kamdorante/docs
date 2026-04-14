@@ -1,0 +1,59 @@
+1
+00:00:01,700 --> 00:00:06,420
+Bueno, en este caso, que, quedo sin enviar la factura en este estado,
+
+2
+00:00:06,800 --> 00:00:11,020
+ehm, encontramos el origen, eh, lo vamos a resolver en proxima actualización,
+
+3
+00:00:11,600 --> 00:00:16,320
+porque es que con, es con la copian un documento Bueno,
+
+4
+00:00:16,420 --> 00:00:20,400
+hay un check que no debería copiarlo y bueno, queda copiado que está enviado.
+
+5
+00:00:21,400 --> 00:00:27,080
+Entonces, en estos casos, hay un proceso que es autorizar.
+
+6
+00:00:28,320 --> 00:00:31,660
+y lo que autorizamos aquí es el envío en realidad.
+
+7
+00:00:33,700 --> 00:00:36,920
+entonces ahora va a permitir volver a enviar, habría otro proceso,
+
+8
+00:00:37,480 --> 00:00:42,080
+pero creo que no está aquí
+
+9
+00:00:42,081 --> 00:00:47,590
+Podemos averiguarlo Ese
+
+10
+00:00:47,591 --> 00:00:51,450
+este enviar factura a servicio de facturación electrónica.
+
+11
+00:00:55,420 --> 00:01:00,900
+y esto es lo que lo vuelve a endiar y
+
+12
+00:01:00,901 --> 00:01:05,580
+ahí lo envió como hacemos para confirmarlo tenemos que
+
+13
+00:01:05,581 --> 00:01:12,120
+refrescar y vamos a ir a la mitad gora y
+
+14
+00:01:12,121 --> 00:01:14,540
+aquí ya fue enviado.
+
+15
+00:01:16,040 --> 00:01:17,840
+Se fue firmado.

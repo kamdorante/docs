@@ -10,7 +10,7 @@ article: false
 
 ## Descripción
 
-Reporte de detalle de los hechos contables registrados en el sistema (proceso: RV_Fact_Acct, ID: 252). Muestra el detalle completo de las transacciones del libro mayor con la posibilidad de filtrar por múltiples criterios contables y dimensiones.
+Reporte que muestra el detalle completo de las transacciones del libro mayor. Lista cada línea de asiento generada por los documentos del sistema con importes fuente y contabilizados, moneda, tasa de cambio, socio de negocio y descripción. Permite filtrar por múltiples criterios contables y exportar a Excel.
 
 ## Acceso
 
@@ -53,3 +53,14 @@ Menú: Gestión Contable → Hechos Contables → Reporte de Detalle de Hechos C
 | Lista de Usuario 2 | Elemento de lista definido por usuario #2 | Tabla | No |
 | Lista de Usuario 3 | Elemento de lista definido por usuario #3 | Tabla | No |
 | Lista de Usuario 4 | Elemento de lista definido por usuario #4 | Tabla | No |
+
+## Consideraciones importantes
+
+- El reporte agrupa las líneas por asiento; un mismo documento puede generar múltiples asientos si tiene líneas con distintas cuentas.
+- Los campos **Importe Fuente** reflejan el monto en moneda original del documento; los campos contabilizados reflejan el monto convertido a moneda funcional.
+- Para ver el mayor de una cuenta con saldos acumulados, usar el reporte **Balance de Prueba** (Mayor Contable), que agrupa todos los movimientos de una cuenta en un período.
+
+## Ventanas Relacionadas
+
+- [Detalle de Hechos Contables](accounting-fact-details-window)
+- [Balance de Hechos Contables](accounting-fact-balances)

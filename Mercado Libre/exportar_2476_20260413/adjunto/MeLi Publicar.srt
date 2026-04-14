@@ -1,0 +1,175 @@
+1
+00:00:00,750 --> 00:00:05,270
+Estamos a ver que en rítil.t, vamos a abrir esta ventana de
+
+2
+00:00:05,271 --> 00:00:15,170
+publicaciones tiendas web Tenemos
+
+3
+00:00:15,171 --> 00:00:20,090
+este producto hay que valiar que tenga existencia y
+
+4
+00:00:20,091 --> 00:00:24,070
+tengo una lista de precios, según la que tengo la configuración del,
+
+5
+00:00:24,071 --> 00:00:28,230
+en el masen de la tienda, por ejemplo este producto también le agregamos Vamos
+
+6
+00:00:28,231 --> 00:00:31,590
+acá, es una serie de juntos,
+
+7
+00:00:32,610 --> 00:00:36,390
+para unas prácticas materiales, por ahora, esto todavía no está.
+
+8
+00:00:37,390 --> 00:00:39,850
+Vamos a abrir otro, bueno,
+
+9
+00:00:39,851 --> 00:00:44,310
+este básicamente es el mismo producto, pero vamos a hacer una publicación con ella.
+
+10
+00:00:45,110 --> 00:00:50,510
+Vamos a procesar la publicación y le vamos a decir que vamos a publicarla.
+
+11
+00:00:51,510 --> 00:00:56,390
+este tiene estado cerrado a que dice publicando vamos a refrescar
+
+12
+00:00:56,391 --> 00:00:59,110
+a ver, el uno que activa,
+
+13
+00:00:59,230 --> 00:01:03,130
+el devuelvo acá y escribe el código de la publicación y el oro de
+
+14
+00:01:03,131 --> 00:01:06,490
+la publicación por ejemplo,
+
+15
+00:01:07,490 --> 00:01:12,530
+en este caso no hizo cambio porque probablemente no vamos
+
+16
+00:01:12,531 --> 00:01:14,070
+a lecer a la desactivar
+
+17
+00:01:38,380 --> 00:01:42,000
+vamos a ver el juego, vamos a ver qué conversación tiene
+
+18
+00:01:49,120 --> 00:01:51,380
+por ahora tenemos este nada más,
+
+19
+00:01:51,500 --> 00:01:53,400
+este dice que está con un deproeo
+
+20
+00:02:14,420 --> 00:02:18,720
+aquí de volvió la red de la de la la red la red la
+
+21
+00:02:18,721 --> 00:02:24,000
+red de la de la de la red y vemos que tiene este el
+
+22
+00:02:24,001 --> 00:02:26,200
+código, básicamente esta serie está acá,
+
+23
+00:02:26,640 --> 00:02:29,120
+M, M, L, B, esto está acá,
+
+24
+00:02:30,080 --> 00:02:32,420
+si lo abrimó el mercado libre,
+
+25
+00:02:32,920 --> 00:02:35,200
+sin siquiera de este lugar reír y dirigir automáticamente igual,
+
+26
+00:02:36,300 --> 00:02:38,880
+que si vemos este mismo código, M,
+
+27
+00:02:39,040 --> 00:02:42,440
+L, B no es el segundo,
+
+28
+00:02:43,080 --> 00:02:45,820
+no es el segundo 7885,
+
+29
+00:02:45,821 --> 00:02:48,760
+¿Qué es este deca? Por ahora no,
+
+30
+00:02:48,860 --> 00:02:51,800
+no estamos manejando lo que es el tema de las imágenes,
+
+31
+00:02:51,980 --> 00:02:55,280
+estamos trabajando en eso. Vamos a hacer una prueba con otro.
+
+32
+00:02:56,600 --> 00:03:01,120
+Vamos a abrir este. y vamos a ver si probablemente
+
+33
+00:03:01,121 --> 00:03:06,540
+de rombo le publicaron,
+
+34
+00:03:06,541 --> 00:03:11,540
+por
+
+35
+00:03:11,900 --> 00:03:16,460
+ejemplo aquí me dice que no tiene cantes disponibles y no tiene
+
+36
+00:03:16,461 --> 00:03:21,040
+la condición, la condición y así no hay abusados y son configuraciones que
+
+37
+00:03:21,041 --> 00:03:24,860
+van a hacerse en el producto antes de para que tomen la publicación,
+
+38
+00:03:25,280 --> 00:03:29,500
+que en este caso el tipo de publicación no,
+
+39
+00:03:30,520 --> 00:03:36,300
+el estado de publicación si es y la
+
+40
+00:03:36,301 --> 00:03:41,020
+condición, si no he abusado el estado de publicación se he posado y
+
+41
+00:03:41,021 --> 00:03:44,400
+la obviamente también el el el stock,
+
+42
+00:03:45,540 --> 00:03:49,740
+el El esto depende de el almacén que se tiene aquí en la tienda,
+
+43
+00:04:02,020 --> 00:04:10,200
+que en este caso el ministro se encuentra en los productos de entender existencia
+
+44
+00:04:10,201 --> 00:04:13,780
+en el almacén que esté configurado la tienda, de la tienda para la publicación.

@@ -1,0 +1,2651 @@
+1
+00:00:00,860 --> 00:00:03,660
+Ya, comenzamos la capacitación.
+
+2
+00:00:03,940 --> 00:00:06,200
+Estamos dentro de la ventana, lo que es documentos por cobrar.
+
+3
+00:00:06,880 --> 00:00:10,820
+Lo que les comentaba que la ventana pueden acceder simplemente buscándola.
+
+4
+00:00:13,040 --> 00:00:15,660
+Documentos por cobrar. Viste, ya me pone todo lo.
+
+5
+00:00:16,000 --> 00:00:21,160
+el filtro para acceder rápidamente, o podemos ir por el menú gestión
+
+6
+00:00:21,161 --> 00:00:23,920
+de ventas, factura de venta,
+
+7
+00:00:24,020 --> 00:00:27,560
+y nos abre una ventana donde podemos acceder a todas las ventanas aquí,
+
+8
+00:00:29,000 --> 00:00:32,490
+de factura de ventas. Bien,
+
+9
+00:00:33,450 --> 00:00:40,210
+en este caso entonces vamos a ver lo que es la la
+
+10
+00:00:40,211 --> 00:00:44,920
+ventana de documentos por cobrar y vamos a generar un una nueva factura nuevamente
+
+11
+00:00:44,921 --> 00:00:50,480
+para confirmar y ver cómo se genera la factura
+
+12
+00:00:50,481 --> 00:00:53,320
+de manera manual. Bueno,
+
+13
+00:00:53,480 --> 00:00:55,680
+vamos a por a nuevo sobre un documento.
+
+14
+00:00:55,880 --> 00:01:01,200
+Ustedes siempre pueden también si desean apretar copiar registro.
+
+15
+00:01:01,360 --> 00:01:04,680
+Entonces ustedes de esta manera copian todos los datos del registro anterior.
+
+16
+00:01:05,260 --> 00:01:10,260
+Esto para ahorrar un poco, algún paso y no tener que digitar todo manualmente.
+
+17
+00:01:10,720 --> 00:01:14,400
+Si no podemos poner simplemente no registro.
+
+18
+00:01:15,820 --> 00:01:18,380
+la ventana se te marcan todos los campos en rojo,
+
+19
+00:01:18,620 --> 00:01:23,240
+los que son obligatorios. En este caso vamos a elegir que es
+
+20
+00:01:23,241 --> 00:01:27,140
+una infractura, lo que vamos a generar y vamos a elegir el socionegocio.
+
+21
+00:01:27,220 --> 00:01:29,800
+En este caso vamos a ver el mismo ejemplo que vimos recién, Jackar.
+
+22
+00:01:30,740 --> 00:01:35,300
+Podemos buscarlo así. con un texto y me va
+
+23
+00:01:35,301 --> 00:01:37,420
+a hacer una búsqueda de lo que puede encontrar,
+
+24
+00:01:38,440 --> 00:01:43,620
+o bien podemos apretar un clic en el botón de socionegocio y
+
+25
+00:01:43,621 --> 00:01:46,700
+nos abre lo que es la ficha para buscar todo lo socionegocio.
+
+26
+00:01:47,740 --> 00:01:51,040
+De esta manera podemos hacer una búsqueda más profunda, por código,
+
+27
+00:01:51,580 --> 00:01:54,120
+por número, por ruta, por nombre.
+
+28
+00:01:55,240 --> 00:01:57,800
+Vamos a buscar acá Shakar. Nico,
+
+29
+00:01:58,320 --> 00:02:02,900
+¿cuándo típeas es tanto la razón social como el nombre de
+
+30
+00:02:02,901 --> 00:02:04,920
+fantasía? No, buen punto.
+
+31
+00:02:05,260 --> 00:02:07,640
+Acá solo aparece la razón social.
+
+32
+00:02:09,100 --> 00:02:11,500
+Y en el otro, cuando vos pusiste jacquard.
+
+33
+00:02:12,200 --> 00:02:14,660
+Vamos a probar, agua helada, helada.
+
+34
+00:02:17,060 --> 00:02:19,760
+Sí, en este sí.
+
+35
+00:02:20,050 --> 00:02:23,930
+Si vos ponés acá el A, sí. ¿Para abrir?
+
+36
+00:02:24,270 --> 00:02:27,250
+¿De dónde trataste? Ah, ahí en el cuadrito.
+
+37
+00:02:27,870 --> 00:02:31,930
+Acá no tengo. El nombre fantasía está acá.
+
+38
+00:02:33,150 --> 00:02:37,360
+Están solo las razones sociales. Y no se puede agregar.
+
+39
+00:02:37,740 --> 00:02:41,060
+Sí, sí, se puede agregar. No es tan de ya,
+
+40
+00:02:41,520 --> 00:02:44,320
+pero me parece correcto agregar el nombre de fantasía y el root que está
+
+41
+00:02:44,321 --> 00:02:47,200
+faltando acá para hacer una búsqueda más fácil cualquier cosa.
+
+42
+00:02:47,680 --> 00:02:50,880
+El root, igual, si pones el root y digitás el root,
+
+43
+00:02:51,220 --> 00:02:54,520
+te lo va a buscar. al igual que te busca acá con el nombre
+
+44
+00:02:54,521 --> 00:02:57,800
+fantasía. Vos digitás el root y te lo va a buscar,
+
+45
+00:02:57,920 --> 00:03:01,740
+¿viste? Acá te lo muestra, ¿viste? Viste que ahí te muestra todos los datos
+
+46
+00:03:01,741 --> 00:03:05,660
+de la ficha del sostenidocio, no solamente el otro que tiene unos campos predefinidos,
+
+47
+00:03:06,120 --> 00:03:09,640
+que ahí te muestra solamente eso. Bueno, al definir el socio-negocio,
+
+48
+00:03:10,340 --> 00:03:13,340
+automáticamente, como vieron, se precargaron,
+
+49
+00:03:13,520 --> 00:03:16,880
+se cargaron, ¿verdad?, datos que eran obligatorios,
+
+50
+00:03:17,300 --> 00:03:20,500
+como la lista de precios, la organización,
+
+51
+00:03:21,140 --> 00:03:24,520
+la regla de pago y el el término de pago.
+
+52
+00:03:25,300 --> 00:03:29,840
+Esta información es muy importante que ustedes la definan o confirmen que esté bien
+
+53
+00:03:29,841 --> 00:03:32,720
+definido a partir de la carga masiva,
+
+54
+00:03:32,800 --> 00:03:35,280
+que es una de las primeras cosas que tienen que validar.
+
+55
+00:03:35,580 --> 00:03:40,820
+Ustedes tienen ahora una carga masiva de muchos de
+
+56
+00:03:40,821 --> 00:03:45,500
+negocio y contratos básicamente, que la idea es hacer una verificación,
+
+57
+00:03:46,280 --> 00:03:48,760
+que los mismos estén correctamente aplicados,
+
+58
+00:03:50,260 --> 00:03:52,820
+y en muchos, bueno, vamos a tener que ir agregando.
+
+59
+00:03:55,300 --> 00:03:58,440
+pasarte. Y también a esa información,
+
+60
+00:03:58,800 --> 00:04:02,920
+hay veces que tenemos que cargarle o completarlo con la información que necesita el
+
+61
+00:04:02,921 --> 00:04:07,480
+sistema para hacerlo más ágil. Un caso concreto es el término de pago
+
+62
+00:04:07,481 --> 00:04:10,060
+que vos le definís a los clientes.
+
+63
+00:04:10,600 --> 00:04:12,620
+Acá tengo 10 clientes. 10 días. Esto es lo que hablamos el otro día.
+
+64
+00:04:13,260 --> 00:04:16,660
+Los 10 días suenan a partir de la fecha de factura y se define
+
+65
+00:04:16,661 --> 00:04:19,480
+por defecto. Entonces,
+
+66
+00:04:19,720 --> 00:04:21,960
+¿cómo se define esto de socio-negocio? Bueno,
+
+67
+00:04:22,060 --> 00:04:26,640
+se puede definir directamente en el socio-negocio o se puede definir en el
+
+68
+00:04:26,641 --> 00:04:32,160
+grupo de socio de negocio. Si
+
+69
+00:04:32,161 --> 00:04:37,140
+vamos a lo que es la ficha de socio-negocio, acá
+
+70
+00:04:37,141 --> 00:04:41,520
+tenemos definido en el cliente lo que es el término de pago.
+
+71
+00:04:42,500 --> 00:04:44,460
+Yo les hice un video Les voy a pasar un video de lo que
+
+72
+00:04:44,461 --> 00:04:48,700
+es una presentación de esta ventana, bien lenta y bien explicada de cada uno
+
+73
+00:04:48,701 --> 00:04:53,740
+de los campos. Pero acá tenemos lo que es el término
+
+74
+00:04:53,741 --> 00:04:58,740
+de pago. Esto lo podemos definir así o
+
+75
+00:04:58,741 --> 00:05:02,980
+lo podemos definir ir directamente a partir del grupo de socios de negocio.
+
+76
+00:05:03,100 --> 00:05:07,800
+Si ustedes tienen por ejemplo diferentes clasificaciones a determinados
+
+77
+00:05:07,801 --> 00:05:12,260
+clientes de si le definen 10 días o 20 días o a todos le
+
+78
+00:05:12,261 --> 00:05:14,380
+definen cuántos días de plazo.
+
+79
+00:05:21,910 --> 00:05:25,030
+Claro, la gran mayoría son 10 días,
+
+80
+00:05:25,130 --> 00:05:29,510
+pero por ejemplo, son 10 días de factura, de la emisión de la factura,
+
+81
+00:05:29,710 --> 00:05:33,140
+y hay un par de clientes que que en lugar de facturar el 20,
+
+82
+00:05:33,480 --> 00:05:36,360
+se factura el primero de cada mes. Entonces,
+
+83
+00:05:37,340 --> 00:05:40,240
+ahí también se puede ver,
+
+84
+00:05:40,241 --> 00:05:43,320
+Siempre va a ser por fechas de altura, el vencimiento.
+
+85
+00:05:44,180 --> 00:05:46,360
+Pero no todos son de día. No,
+
+86
+00:05:46,460 --> 00:05:48,880
+todos son de día. día. Perfecto. ¿Eso lo pueden definir?
+
+87
+00:05:49,300 --> 00:05:51,880
+No, son pocos. Lo que nosotros podemos hacer es,
+
+88
+00:05:51,920 --> 00:05:55,040
+voy a el grupo de socios de negocios, que el sistema tiene esta lógica
+
+89
+00:05:55,041 --> 00:05:57,740
+que la trata de aplicar siempre, es como que si vos tenés una lógica
+
+90
+00:05:57,741 --> 00:06:02,720
+para poder heredar y facilitar los nuevos creaciones.
+
+91
+00:06:02,920 --> 00:06:05,480
+Por ejemplo, en este caso, la nueva creación de un nuevo cliente.
+
+92
+00:06:05,580 --> 00:06:09,280
+Así no le tenés que definir todo. Ustedes pueden definir acá,
+
+93
+00:06:09,900 --> 00:06:12,440
+por ejemplo, término de pago.
+
+94
+00:06:13,420 --> 00:06:16,080
+Entonces, ustedes definen, bueno,
+
+95
+00:06:16,160 --> 00:06:18,860
+una lista de precios o un término de pago por defecto.
+
+96
+00:06:18,880 --> 00:06:21,900
+un esquema, una lista de precios,
+
+97
+00:06:22,420 --> 00:06:27,740
+por ejemplo, 20 pesos y esto se toma automáticamente
+
+98
+00:06:27,741 --> 00:06:32,440
+a los nuevos clientes que querés y
+
+99
+00:06:32,441 --> 00:06:34,820
+los 10 días lo podemos dejar como por defecto si es así.
+
+100
+00:06:35,680 --> 00:06:38,300
+Entonces, ok, que por defecto le ponga 10 igual que hago sabor,
+
+101
+00:06:38,580 --> 00:06:43,560
+lo modificas en caso de ser necesario, en caso de que tener otra otra
+
+102
+00:06:43,561 --> 00:06:47,200
+salvedad. Todas esas cosas nos tienen que ir confirmando para ver que esté ok
+
+103
+00:06:47,201 --> 00:06:51,000
+para que las facturas y para que todos los documentos sean lo más pasaje
+
+104
+00:06:51,001 --> 00:06:54,960
+imposible, básicamente. Cuando decís que chequeemos,
+
+105
+00:06:55,280 --> 00:06:59,920
+¿te referís a que el documento que te pasamos esté bien importado?
+
+106
+00:07:00,460 --> 00:07:02,560
+No, que en la operativa, sí, bueno,
+
+107
+00:07:02,780 --> 00:07:06,100
+cuando chequeemos, sí, ustedes esa verificación la van a hacer.
+
+108
+00:07:07,000 --> 00:07:11,180
+Naturalmente, porque van a hacer pruebas, y tienen que validar que esté todo correctamente.
+
+109
+00:07:11,820 --> 00:07:16,700
+Puede haber errores suyos, errores nuestros, no solemos tener errores porque somos muy cuidadosos
+
+110
+00:07:16,701 --> 00:07:18,900
+con eso, no? Pero bueno, es su base de datos.
+
+111
+00:07:19,500 --> 00:07:22,160
+Entonces digo, las pruebas que hagan ustedes, es tipo, no,
+
+112
+00:07:22,161 --> 00:07:26,340
+no, no, porque mirá qué pasa. Por ejemplo,
+
+113
+00:07:26,460 --> 00:07:28,680
+que el route esté bien. Yo el route no lo controlo,
+
+114
+00:07:28,720 --> 00:07:33,580
+¿entendés? La carga masiva. Controlando dos o tres ya se
+
+115
+00:07:33,581 --> 00:07:36,680
+entiende que queda bien, que la dirección sea correcta.
+
+116
+00:07:38,300 --> 00:07:40,600
+Simplemente son variaciones pequeñas, mínimas,
+
+117
+00:07:40,660 --> 00:07:44,760
+digo, pero para confirmar que, ok. Y después lo que sí van a ir,
+
+118
+00:07:44,880 --> 00:07:46,920
+lo que te digo es que la operativa es, ok,
+
+119
+00:07:47,040 --> 00:07:50,900
+ah, mira, estoy creando una factura a un nuevo cliente y me pide todos
+
+120
+00:07:50,901 --> 00:07:53,900
+los datos, no me lo carga. Bueno, estaría bueno definir a todos los clientes.
+
+121
+00:07:53,920 --> 00:07:59,460
+clientes, 10 días para que quede más ágil
+
+122
+00:07:59,461 --> 00:08:03,620
+el input de datos. Seguimos avanzando.
+
+123
+00:08:06,540 --> 00:08:09,920
+Elijo el socio de negocio y me definió los campos obligatorios.
+
+124
+00:08:09,940 --> 00:08:13,300
+es por defecto. Acá,
+
+125
+00:08:13,400 --> 00:08:15,600
+por ejemplo, hay otra cosa que tengo que corregir.
+
+126
+00:08:15,820 --> 00:08:19,680
+Cuando elijo el cliente, solamente me tendría que mostrar los contratos del cliente en
+
+127
+00:08:19,681 --> 00:08:22,840
+cuestión. Y acá esa validación falta.
+
+128
+00:08:23,580 --> 00:08:25,880
+Entonces, es más, se debería cargar automáticamente.
+
+129
+00:08:25,900 --> 00:08:29,700
+cuando definimos uno de los contratos que tenga activo.
+
+130
+00:08:29,840 --> 00:08:34,900
+Y bueno, si tiene varios, como puede ser Mosca, ustedes modifican entre los contratos
+
+131
+00:08:34,901 --> 00:08:37,400
+del socio de negocio.
+
+132
+00:08:42,600 --> 00:08:46,400
+Bien, creamos el cabezal de la factura,
+
+133
+00:08:46,780 --> 00:08:50,980
+la fecha de factura. Nosotros podemos definir el documento fecha factura y fecha contable.
+
+134
+00:08:51,460 --> 00:08:55,320
+Esto lo comenté porque pueden modificar esto tanto factura de venta como factura de
+
+135
+00:08:55,321 --> 00:08:58,600
+compra. Si quieren que caiga en otro periodo.
+
+136
+00:08:59,160 --> 00:09:02,360
+Normalmente pasa los proveedores, que capaz que te llegue a tarde la factura,
+
+137
+00:09:02,900 --> 00:09:06,020
+pero querés que te impacte contablemente en otro periodo,
+
+138
+00:09:06,080 --> 00:09:08,840
+para adelante o para atrás, porque ya lo cerraste y no querés tocar.
+
+139
+00:09:09,540 --> 00:09:13,020
+Es por eso que tenemos dos fechas contables, una fecha de la facturación y
+
+140
+00:09:13,021 --> 00:09:15,780
+una fecha contable. Bien,
+
+141
+00:09:16,940 --> 00:09:19,600
+avanzando. Bueno,
+
+142
+00:09:19,680 --> 00:09:22,020
+agente comercial, acá lo que va es el vendedor,
+
+143
+00:09:22,160 --> 00:09:23,580
+o sea, es el usuario del sistema.
+
+144
+00:09:31,040 --> 00:09:33,940
+Simplemente es quien genera el documento,
+
+145
+00:09:34,000 --> 00:09:37,820
+o quién es el vendedor. Usted no tiene vendedor por clientes,
+
+146
+00:09:37,821 --> 00:09:40,640
+, si, esto lo podemos ver en un día mañana que quién es el
+
+147
+00:09:40,641 --> 00:09:42,820
+que atiende la cuenta. Hago, hablamos de esto,
+
+148
+00:09:43,240 --> 00:09:45,680
+así que podríamos definirlo para saberlo.
+
+149
+00:09:50,720 --> 00:09:54,000
+¿Quién es la coordinadora asociada a ese cliente?
+
+150
+00:10:01,600 --> 00:10:05,760
+Sí, sí, hoy día no lo tenemos.
+
+151
+00:10:06,440 --> 00:10:09,120
+Bueno, no hay uno puntual.
+
+152
+00:10:09,380 --> 00:10:11,540
+Ahora, agente comercial,
+
+153
+00:10:11,820 --> 00:10:14,120
+no es la persona que factura entonces,
+
+154
+00:10:14,460 --> 00:10:17,360
+es el contacto con el cliente. Normalmente esto,
+
+155
+00:10:17,380 --> 00:10:20,280
+cuando, si no lo tiene definido el cliente,
+
+156
+00:10:20,500 --> 00:10:25,220
+que eso se puede definir por cliente, queda por defecto quien hizo el documento.
+
+157
+00:10:26,180 --> 00:10:29,820
+Igual en la auditoría siempre está, si yo vengo acá a la auditoría,
+
+158
+00:10:30,020 --> 00:10:32,740
+perdón fui rápido, este botoncito de acá,
+
+159
+00:10:33,340 --> 00:10:37,300
+que tenemos. Es una especie de log.
+
+160
+00:10:38,540 --> 00:10:43,340
+Este es el histórico de cambios. Acá cualquier cambio que haga en un documento,
+
+161
+00:10:43,680 --> 00:10:45,840
+yo tengo datos de un ID único,
+
+162
+00:10:46,480 --> 00:10:48,800
+quién lo creó, quién lo actualizó,
+
+163
+00:10:49,380 --> 00:10:53,520
+Si quiero ver todos los cambios, puedo abrir y veo qué cambios apliqué.
+
+164
+00:10:53,720 --> 00:10:56,240
+Por ejemplo, acá viste que cambié y definí,
+
+165
+00:10:56,620 --> 00:11:00,180
+cambié el agente comercial. Si pongo,
+
+166
+00:11:00,560 --> 00:11:04,880
+no sé, voy a cambiarle y voy a poner esto otro tipo de regla
+
+167
+00:11:04,881 --> 00:11:08,560
+de pago. hay determinados cambios que se guardan y no,
+
+168
+00:11:08,760 --> 00:11:12,740
+pero queda todo lo guiado. Por eso es importante también que cada uno utilice
+
+169
+00:11:12,741 --> 00:11:15,840
+su usuario, porque el sistema trackea todo.
+
+170
+00:11:16,040 --> 00:11:19,540
+Entonces, digo, para saber y para detectar errores,
+
+171
+00:11:19,660 --> 00:11:23,840
+tanto de uso como de sistema. Entonces acá definimos,
+
+172
+00:11:23,980 --> 00:11:28,840
+perfecto. Bien, los documentos como verán tienen estados.
+
+173
+00:11:30,160 --> 00:11:33,220
+Ahora estoy editando un documento, por lo cual el mismo está en borrador.
+
+174
+00:11:33,820 --> 00:11:36,700
+Yo esto me puedo ir, pero esto no se va a borrar,
+
+175
+00:11:36,860 --> 00:11:40,580
+si yo ya lo he guardé, esto se queda. Lo mismo pasa que si
+
+176
+00:11:40,581 --> 00:11:44,860
+yo tengo un cambio sin guardar, y yo me quiero ir desde la ventana,
+
+177
+00:11:44,960 --> 00:11:47,380
+la cierro, me va a avisar, me va a decir,
+
+178
+00:11:47,460 --> 00:11:49,480
+no mirá, tenés esto sin guardar, cuidado,
+
+179
+00:11:49,980 --> 00:11:52,700
+entonces acá vos podés elegir, descartar cambios, y si lo vas a guardar.
+
+180
+00:11:53,200 --> 00:11:56,480
+o regresar a la ventana para guardar los cambios que estén sin guardar.
+
+181
+00:11:56,920 --> 00:12:01,580
+Esto para evitar errores que hayan quedado cosas que pensaste que quedaban y no.
+
+182
+00:12:05,200 --> 00:12:07,680
+cambia el estado? El estado no.
+
+183
+00:12:08,180 --> 00:12:13,880
+El guardar solamente guarda un dato. El estado se guarda cuando…
+
+184
+00:12:13,881 --> 00:12:16,360
+¿Sí, perdón, Nati? ¿Dónde se guarda?
+
+185
+00:12:16,740 --> 00:12:19,440
+Yo cuando tengo un cambio, cualquier cambio que sea,
+
+186
+00:12:19,640 --> 00:12:22,420
+me muevo, me aparece un es el botón de guardar.
+
+187
+00:12:24,620 --> 00:12:27,880
+Solamente cuando hay algo por guardar, si no, el campo este se oculta.
+
+188
+00:12:27,900 --> 00:12:31,060
+Si no, no está. Si está así,
+
+189
+00:12:31,160 --> 00:12:32,580
+es que el registro está guardado.
+
+190
+00:12:36,940 --> 00:12:39,220
+Exacto, ¿bien? Bueno,
+
+191
+00:12:39,760 --> 00:12:44,320
+una cosa es guardar el documento y otra cosa es completar o cambiar el
+
+192
+00:12:44,321 --> 00:12:48,960
+estado. Acá como ven el estado aquí es un campo solo lectura que
+
+193
+00:12:48,961 --> 00:12:51,580
+me indica la situación que se encuentra el estado.
+
+194
+00:12:52,960 --> 00:12:55,380
+Esto también lo puedo ver como un monoregistro y si lo veo como un
+
+195
+00:12:55,381 --> 00:13:00,960
+monoregistro tiene diferentes colorcitos. Esto es importante porque
+
+196
+00:13:00,961 --> 00:13:05,260
+el estado es lo que realmente determina la validez del documento.
+
+197
+00:13:05,780 --> 00:13:08,160
+Todo esto está en proceso, después se lo voy a explicar por qué está
+
+198
+00:13:08,161 --> 00:13:13,150
+en proceso. no están completos,
+
+199
+00:13:13,710 --> 00:13:16,590
+por lo cual no están imputados contablemente, no están enviados al FDI,
+
+200
+00:13:16,850 --> 00:13:19,190
+no hay nada hecho en ese documento.
+
+201
+00:13:20,190 --> 00:13:24,390
+Es un paso siguiente a emborrador.
+
+202
+00:13:26,740 --> 00:13:29,160
+Si vemos acá, si yo aprieto clic,
+
+203
+00:13:30,120 --> 00:13:32,640
+veo el flujo.
+
+204
+00:13:33,160 --> 00:13:36,620
+Estamos en estado borrador y si quiero completar,
+
+205
+00:13:36,840 --> 00:13:40,880
+yo puedo simplemente hacer clic acá y esto es para completar.
+
+206
+00:13:40,900 --> 00:13:45,120
+y voy a completar el documento.
+
+207
+00:13:46,120 --> 00:13:49,880
+También lo puedo buscar en la lista desplegable para buscar las diferentes acciones que
+
+208
+00:13:49,881 --> 00:13:54,740
+puedo generar. Según el estado que estemos en el documento,
+
+209
+00:13:54,880 --> 00:14:00,580
+es que podremos accionar determinadas acciones. cuando
+
+210
+00:14:00,581 --> 00:14:04,380
+uno está en borrador puede ir a en proceso o completarlo,
+
+211
+00:14:05,300 --> 00:14:10,960
+cuando uno está completo puede anularlo o reversar,
+
+212
+00:14:11,100 --> 00:14:11,780
+que después lo voy a explicar.
+
+213
+00:14:23,800 --> 00:14:27,420
+Puntualmente, un documento por cobrar no se puede anular,
+
+214
+00:14:28,060 --> 00:14:30,640
+porque si tan bien se Deja y, no se puede anular,
+
+215
+00:14:30,780 --> 00:14:35,040
+es un control, solamente se puede anular si dejé y lo anula posteriormente que
+
+216
+00:14:35,041 --> 00:14:39,560
+son muy pocos casos que pasa eso. La manera de cancelar la factura
+
+217
+00:14:39,561 --> 00:14:42,020
+emitida es una nota de crédito.
+
+218
+00:14:44,380 --> 00:14:49,460
+completar quiere decir que la factura fue enviada debería
+
+219
+00:14:49,461 --> 00:14:54,040
+sí porque porque al debería vamos
+
+220
+00:14:54,041 --> 00:14:58,680
+a ver que podemos modificar hasta que dice el estado borrador inclusive
+
+221
+00:14:58,681 --> 00:15:02,160
+bueno No se puede volver de completar a borrador,
+
+222
+00:15:02,280 --> 00:15:04,720
+o completar, editar. No se puede.
+
+223
+00:15:05,380 --> 00:15:09,900
+Los estados que permiten editar son el estado
+
+224
+00:15:09,901 --> 00:15:12,920
+en borrador y el estado en proceso.
+
+225
+00:15:14,260 --> 00:15:17,120
+Si están en esos estados, el documento, está editable.
+
+226
+00:15:19,580 --> 00:15:24,440
+Muchas veces pasa también que cuando uno intenta completar pero no tiene los permisos
+
+227
+00:15:24,441 --> 00:15:28,000
+para completar, póngase un ejemplo de un orden de compra,
+
+228
+00:15:28,480 --> 00:15:32,000
+que muchas veces ustedes pueden poner un flujo de aprobación.
+
+229
+00:15:32,020 --> 00:15:35,120
+para permitir completar un orden de compra.
+
+230
+00:15:36,780 --> 00:15:40,560
+El usuario va a intentar completar,
+
+231
+00:15:40,880 --> 00:15:43,540
+pero se va a encontrar con un nodo de aprobación,
+
+232
+00:15:43,980 --> 00:15:47,540
+entonces queda suspendido ese documento.
+
+233
+00:15:47,860 --> 00:15:51,920
+espera de la aprobación. No va a quedar completo,
+
+234
+00:15:52,080 --> 00:15:55,460
+no se va a ver en ningún lado hasta que el mismo esté completo,
+
+235
+00:15:55,900 --> 00:16:01,500
+sea aprobado por el rol aprobador eventualmente.
+
+236
+00:16:03,380 --> 00:16:05,660
+¿Bien? Esto lo voy a empezar a explicar un poco más,
+
+237
+00:16:07,360 --> 00:16:12,160
+claro está que cuando uno completa es que Accional genera el asiento también,
+
+238
+00:16:13,140 --> 00:16:17,440
+automáticamente. Pero hasta ahora no hemos visto qué líneas se cargan,
+
+239
+00:16:17,560 --> 00:16:19,700
+es decir, qué tipo de, No, todavía no.
+
+240
+00:16:19,720 --> 00:16:22,240
+Acá estamos en el cabezal.
+
+241
+00:16:22,500 --> 00:16:25,160
+Solamente datos del registro en la parte superior,
+
+242
+00:16:25,520 --> 00:16:31,120
+digamos, que es la información del documento
+
+243
+00:16:31,121 --> 00:16:34,000
+por cobrar. Tipo de documento, un número de draft.
+
+244
+00:16:34,220 --> 00:16:38,360
+Esto es importante también. Acá no veis nada. que no tengo un número AXXX,
+
+245
+00:16:38,780 --> 00:16:41,700
+tengo un número DRAFT, que es un número de borrador.
+
+246
+00:16:42,940 --> 00:16:47,520
+Esto, cuando complete, se va a poner automáticamente el número correspondiente a la factura,
+
+247
+00:16:49,000 --> 00:16:52,200
+que lo vamos a ver ahora así queda todo más claro. Bien,
+
+248
+00:16:52,720 --> 00:16:55,420
+siguiendo un poco con esto. Acá,
+
+249
+00:16:55,480 --> 00:17:00,520
+bueno, esto es lo que te comentaba. Los documentos fiscales electrónicos,
+
+250
+00:17:00,700 --> 00:17:06,280
+o sea, los CFE, como es una difactura, tenemos un check para confirmar
+
+251
+00:17:06,281 --> 00:17:10,800
+que el mismo haya sido encargado. enviado. Acá vemos
+
+252
+00:17:10,801 --> 00:17:13,460
+que el documento está enviado o no, porque está borrador.
+
+253
+00:17:14,440 --> 00:17:16,540
+Cuando completemos, esto tiene que pasar enviado,
+
+254
+00:17:16,620 --> 00:17:19,560
+sí. ¿Vamos a verlo?
+
+255
+00:17:20,200 --> 00:17:24,680
+Sí, automáticamente. Se envía automáticamente. Ahora lo vamos a ver.
+
+256
+00:17:24,700 --> 00:17:27,800
+Sí, sí, se envía automáticamente, te digo, pero se pone eso,
+
+257
+00:17:28,020 --> 00:17:30,220
+cambia así automáticamente. Sí, sí,
+
+258
+00:17:30,440 --> 00:17:33,220
+sí. Bien, vamos a verlo.
+
+259
+00:17:33,820 --> 00:17:35,860
+Bueno, acá también tenemos el comentario fiscal,
+
+260
+00:17:35,960 --> 00:17:39,260
+que sería la adenda, acá, y acá tenemos un espacio de descripción.
+
+261
+00:17:39,280 --> 00:17:42,140
+por un tema interno de ustedes que quieran agregar,
+
+262
+00:17:43,340 --> 00:17:46,460
+acá sería lo que es la adenda,
+
+263
+00:17:46,780 --> 00:17:48,820
+sí, adenda, ejemplo,
+
+264
+00:17:49,840 --> 00:17:52,240
+esto sí, no, en descripción,
+
+265
+00:17:52,600 --> 00:17:54,800
+no, la adenda sí.
+
+266
+00:17:56,780 --> 00:18:00,240
+Bueno, vamos ahora a avanzar con el documento.
+
+267
+00:18:00,340 --> 00:18:05,440
+El documento tiene un cabezal y como vemos aquí abajo tiene las pestañas
+
+268
+00:18:05,441 --> 00:18:09,660
+hijas. En este caso tenemos documentos por cobrar,
+
+269
+00:18:09,860 --> 00:18:12,100
+un cabezal y carajoso. pestañas.
+
+270
+00:18:12,540 --> 00:18:15,500
+¿Qué vamos a agregar acá? Vamos a ir a la línea de factura.
+
+271
+00:18:16,300 --> 00:18:20,400
+Hay veces que es cómodo, cerramos la parte de arriba con el botoncito que
+
+272
+00:18:20,401 --> 00:18:24,980
+está acá, entonces solamente vemos lo que son
+
+273
+00:18:24,981 --> 00:18:28,340
+las pestañas hijas. Sabemos que estamos en la ventana de documentos por cobrar,
+
+274
+00:18:28,860 --> 00:18:32,920
+en la ventana esta, en la factura, me pone el número para saber dónde
+
+275
+00:18:32,921 --> 00:18:37,600
+estamos ubicados y no perder un poco referencia a dónde estamos y tenemos acá
+
+276
+00:18:37,601 --> 00:18:41,200
+las líneas para que pueda ser más ágil lo que es la creación de
+
+277
+00:18:41,201 --> 00:18:44,940
+datos. Ahora,
+
+278
+00:18:45,500 --> 00:18:48,680
+si vamos aquí, perfecto, vamos a buscar.
+
+279
+00:18:51,780 --> 00:18:56,140
+Bien, vamos a ver que estamos en este documento,
+
+280
+00:18:56,280 --> 00:19:00,940
+con doble clic podemos abrirlo. y vamos a ver
+
+281
+00:19:00,941 --> 00:19:03,680
+a las líneas y vamos a crear una línea,
+
+282
+00:19:04,860 --> 00:19:08,440
+venimos para abajo, a las líneas y ponemos nuevo.
+
+283
+00:19:10,180 --> 00:19:12,540
+Esto es solamente para generar documentos manualmente,
+
+284
+00:19:12,900 --> 00:19:15,140
+van a ver que muchas veces esto va a ser generalizado.
+
+285
+00:19:15,160 --> 00:19:18,520
+de manera masiva, por las obras y demás,
+
+286
+00:19:18,680 --> 00:19:21,260
+como les vamos a mostrar a continuación, pero está bueno comprender un poco la
+
+287
+00:19:21,261 --> 00:19:24,860
+lógica de toda la ventana, por si hay órdenes,
+
+288
+00:19:24,940 --> 00:19:27,480
+documentos que van a generar manualmente, una nota de crédito incluso,
+
+289
+00:19:27,680 --> 00:19:31,580
+puede generar manualmente, así Dios sabe. líneas,
+
+290
+00:19:32,000 --> 00:19:34,600
+vamos a tener el dato producto,
+
+291
+00:19:35,000 --> 00:19:37,800
+que en la gran mayoría de casos se entiende que ustedes van a facturar
+
+292
+00:19:37,801 --> 00:19:40,420
+productos. ¿Por qué digo esto?
+
+293
+00:19:40,460 --> 00:19:42,800
+Porque en verdad podríamos, tenemos dos opciones acá,
+
+294
+00:19:43,100 --> 00:19:48,260
+definir un producto o definir un cargo. cargo por
+
+295
+00:19:48,261 --> 00:19:53,260
+producto.
+
+296
+00:20:04,340 --> 00:20:08,940
+Y me presenta una tabla de búsqueda con todos los productos que
+
+297
+00:20:08,941 --> 00:20:13,840
+tenemos creados y los precios según la lista de precios que estamos utilizando.
+
+298
+00:20:15,420 --> 00:20:18,740
+En esto, obviamente, estos precios para ustedes se van a defender.
+
+299
+00:20:18,760 --> 00:20:21,200
+definir según cada contrato,
+
+300
+00:20:22,440 --> 00:20:24,580
+porque ustedes tienen diferentes precios por cada contrato.
+
+301
+00:20:26,620 --> 00:20:29,220
+Vamos a elegir ahora limpieza empresarial edificio.
+
+302
+00:20:29,420 --> 00:20:32,180
+Vamos a suponer que tiene el precio ¿Correcto?
+
+303
+00:20:32,400 --> 00:20:37,460
+¡Ah! Me importa. Ahora, Vamos a poner acá que fueran 150 horas.
+
+304
+00:20:39,640 --> 00:20:44,200
+Ponemos 150 horas. Con tabulador nos podemos mover de
+
+305
+00:20:44,201 --> 00:20:49,520
+los campos rápidamente o podemos ir para atrás con shift tabulador.
+
+306
+00:20:49,640 --> 00:20:53,100
+Esto tiene se puede mover fácilmente.
+
+307
+00:20:54,380 --> 00:20:57,240
+Bueno, el IVA, entiendo que ustedes cómo manejan los IVAs,
+
+308
+00:20:57,380 --> 00:20:59,600
+acá lo tendríamos que manejar mejor,
+
+309
+00:21:00,560 --> 00:21:05,740
+no sé si tienen muchos IVAs variados
+
+310
+00:21:05,741 --> 00:21:08,180
+o solamente un IVA ventas y va a compras,
+
+311
+00:21:08,200 --> 00:21:10,920
+ya está, ¿no? Y va a ventas,
+
+312
+00:21:11,020 --> 00:21:13,320
+y va a compras, y va, o sea, y va,
+
+313
+00:21:13,500 --> 00:21:15,820
+o sea, servicios exentos. Exentos.
+
+314
+00:21:16,000 --> 00:21:18,540
+Exentos, y está, y un mínimo, por ejemplo, es un producto que compres,
+
+315
+00:21:18,600 --> 00:21:21,300
+¿qué pasa? Exentos, pero por exportación de servicios,
+
+316
+00:21:21,440 --> 00:21:24,180
+porque vendemos a, ¿Dónde estamos? Estamos en el puerto,
+
+317
+00:21:24,240 --> 00:21:27,980
+¿no? Sí, pero también, no sé si los colegios allá están exentos.
+
+318
+00:21:28,240 --> 00:21:31,780
+Puede ser que en algún momento sea dentro de la ciudad y esté exento
+
+319
+00:21:31,781 --> 00:21:34,880
+algún servicio de IVA. No,
+
+320
+00:21:35,040 --> 00:21:38,540
+lo que, el servicio es por exportación.
+
+321
+00:21:38,560 --> 00:21:43,540
+de servicio, pero hay una factura puntual que están haciendo que
+
+322
+00:21:43,541 --> 00:21:46,440
+les facturas algo de un complemento de horas o algo así,
+
+323
+00:21:47,520 --> 00:21:51,680
+que se lo está facturando exento. ¿Cuál complemento de horas?
+
+324
+00:21:53,120 --> 00:21:54,380
+No sé si es complemento de horas.
+
+325
+00:22:03,280 --> 00:22:06,700
+¿Cómo se define el impuesto? El impuesto se toma automáticamente del producto.
+
+326
+00:22:07,900 --> 00:22:10,400
+Según como tengan el producto, el producto tiene una categoría.
+
+327
+00:22:10,420 --> 00:22:13,320
+el impuesto si va a definir el IVA correspondiente.
+
+328
+00:22:13,840 --> 00:22:17,340
+En este caso, le calculo,
+
+329
+00:22:17,500 --> 00:22:19,920
+te define el impuesto, desmeto,
+
+330
+00:22:20,380 --> 00:22:24,840
+el total de línea y el total de… Pregunta,
+
+331
+00:22:24,940 --> 00:22:28,260
+Nico. Sí. La pregunta, este Jacquard,
+
+332
+00:22:28,320 --> 00:22:31,080
+que es una empresa, en el producto,
+
+333
+00:22:31,740 --> 00:22:35,080
+o sea, en el contrato se puede definir los tipos de productos,
+
+334
+00:22:35,880 --> 00:22:40,440
+no me acuerdo, porque digo, no está bueno tipeando por error que
+
+335
+00:22:40,441 --> 00:22:42,480
+se le ponga no a la limpieza de edificios.
+
+336
+00:22:42,520 --> 00:22:47,100
+obviamente esto va a ser automático desde el contrato como vamos
+
+337
+00:22:47,101 --> 00:22:51,920
+a ver por lo cual no debería tener este error o sea esto
+
+338
+00:22:51,921 --> 00:22:55,400
+solamente lo hace imputar una vez de vez en cuando estoy explicando cómo se
+
+339
+00:22:55,401 --> 00:22:59,500
+define normalmente ustedes no van a facturar así o sea Estoy explicando ahora para
+
+340
+00:22:59,501 --> 00:23:04,160
+que ustedes tengan conocimiento. Ustedes van a facturar masivamente según
+
+341
+00:23:04,161 --> 00:23:06,940
+datos previamente cargados y generados a partir del contrato,
+
+342
+00:23:07,000 --> 00:23:10,880
+justamente. Así que esto no,
+
+343
+00:23:11,080 --> 00:23:13,700
+digo, está bueno igual saberlo, porque esto aplica también para compra,
+
+344
+00:23:13,860 --> 00:23:16,800
+para venta y todo lo más, ¿verdad? Entonces, definí el producto,
+
+345
+00:23:17,100 --> 00:23:19,980
+me seteó automáticamente el precio según la lista de precios.
+
+346
+00:23:20,320 --> 00:23:23,600
+Es importante, acá es obligatorio que el producto esté en la lista de precios
+
+347
+00:23:23,601 --> 00:23:26,060
+del documento,
+
+348
+00:23:26,061 --> 00:23:28,160
+si no te va a dar error, ¿verdad?
+
+349
+00:23:28,320 --> 00:23:31,160
+Entonces, en el día de mañana si ustedes llegan a… crea una nueva lista
+
+350
+00:23:31,161 --> 00:23:33,920
+de precios, no sé, digo, tienen que tener el producto creado en la lista
+
+351
+00:23:33,921 --> 00:23:38,900
+de precios, ¿no? Y después tenemos acá lo que es el impuesto correspondiente,
+
+352
+00:23:39,000 --> 00:23:41,900
+que lo toma el producto, tiene que estar bien cargado automáticamente,
+
+353
+00:23:42,020 --> 00:23:44,800
+se carga como si nada, por defecto.
+
+354
+00:23:45,460 --> 00:23:47,480
+Acá lo único que definí fue fuera la cantidad.
+
+355
+00:23:47,920 --> 00:23:52,540
+Me hizo la multiplicación correctamente. Entiendo que ustedes no tienen,
+
+356
+00:23:52,620 --> 00:23:56,720
+pero podrían aplicar un descuento acá en porcentaje y se aplicaría la diferencia de
+
+357
+00:23:56,721 --> 00:24:00,340
+precio sobre el precio de vista. Entiendo que ustedes por ahora no tienen eso,
+
+358
+00:24:00,420 --> 00:24:04,240
+así que no me detengo. Y lo que vamos a hacer acá es,
+
+359
+00:24:04,660 --> 00:24:09,060
+definimos una línea, vamos a poner un detalle de horas,
+
+360
+00:24:09,540 --> 00:24:12,200
+mes, equis, por ejemplo, una descripción.
+
+361
+00:24:13,240 --> 00:24:16,660
+Y esto puede ir también, si ustedes quieren, en la representación impresa de la
+
+362
+00:24:16,661 --> 00:24:21,160
+facturación. lo agrego como comentario y ahora lo vemos.
+
+363
+00:24:26,800 --> 00:24:30,360
+Porque una cosa es el producto y otra cosa es el detalle.
+
+364
+00:24:30,500 --> 00:24:32,800
+Yo vi que ustedes agregan detalle, ¿no? Muchas veces.
+
+365
+00:24:34,180 --> 00:24:36,900
+Sí, pero lo que te iba a decir es que en la descripción allá
+
+366
+00:24:36,901 --> 00:24:41,980
+arriba, cuando te pregunté, me dijiste que es interno la descripción que pongamos
+
+367
+00:24:41,981 --> 00:24:45,380
+y ahí abajo tiene el mismo nombre y puede llegar a estar en la
+
+368
+00:24:45,381 --> 00:24:50,000
+factura. Sí. Y se le puede cambiar
+
+369
+00:24:50,001 --> 00:24:52,580
+el nombre. nombre o algo que diga,
+
+370
+00:24:52,800 --> 00:24:55,440
+darnos cuenta, ¿no? Lo que pasa, en verdad,
+
+371
+00:24:56,580 --> 00:25:00,560
+esto es un tema de DGI. DGI acepta una descripción en la factura,
+
+372
+00:25:01,140 --> 00:25:04,060
+pero no acepta una descripción en el cabezal, acepta una adenda.
+
+373
+00:25:04,940 --> 00:25:09,420
+Por eso acá es el comentario final. es el tema del CFE.
+
+374
+00:25:10,340 --> 00:25:13,060
+¿Se puede cambiar? Sí. Podemos poner lo que quieran,
+
+375
+00:25:13,080 --> 00:25:15,320
+si quieren. No,
+
+376
+00:25:15,560 --> 00:25:17,800
+digo para no, Entiendo un poco el cambio, pero sí.
+
+377
+00:25:18,540 --> 00:25:22,040
+La descripción de la línea Siva viaja si usted,
+
+378
+00:25:22,060 --> 00:25:26,140
+ustedes quieren, pero si ustedes no quieren, en la representación impresa no se muestra.
+
+379
+00:25:27,240 --> 00:25:30,780
+Tenemos que informar al cliente que periodo de hora se está facturando,
+
+380
+00:25:30,880 --> 00:25:34,640
+o sea que sí. Está perfecto, entonces eso vemos después a ver cómo lo
+
+381
+00:25:34,641 --> 00:25:38,680
+agregamos, lo podemos agregar como a la venda también, ¿no? Pero bueno,
+
+382
+00:25:39,400 --> 00:25:41,420
+si vamos aquí, entonces, ¿qué tenemos acá?
+
+383
+00:25:42,140 --> 00:25:44,360
+La factura por una línea, por el total, ¿no?
+
+384
+00:25:44,560 --> 00:25:48,240
+Por el gran total, el neto, la moneda y acá lo que tenemos que
+
+385
+00:25:48,241 --> 00:25:50,880
+hacer es simplemente vamos a ir a completar.
+
+386
+00:25:51,020 --> 00:25:53,420
+¿Va? Aprieto acá, en este botón que está acá,
+
+387
+00:25:54,020 --> 00:25:58,830
+voy y le doy ok. Si quiero
+
+388
+00:25:58,831 --> 00:26:01,230
+agregar otra línea, por ejemplo, limpiamos vidrios.
+
+389
+00:26:02,090 --> 00:26:04,670
+Como está borrador no pasa nada, vamos para abajo,
+
+390
+00:26:05,610 --> 00:26:08,790
+yo lo puedo ver como grilla o como mono.
+
+391
+00:26:09,940 --> 00:26:14,520
+se agrega a registro como amor y ponemos acá vidrios,
+
+392
+00:26:15,740 --> 00:26:21,520
+vamos a ponerle 50 a
+
+393
+00:26:21,521 --> 00:26:24,160
+mes jota.
+
+394
+00:26:27,440 --> 00:26:30,080
+Y guardamos. Esto es 20.000, se va a agregar,
+
+395
+00:26:30,200 --> 00:26:32,420
+al guardar automáticamente se actualiza arriba.
+
+396
+00:26:35,800 --> 00:26:37,960
+¿Vean? Si tenemos aquí,
+
+397
+00:26:38,300 --> 00:26:40,380
+lo que vamos a hacer ahora es completar el documento.
+
+398
+00:26:40,440 --> 00:26:42,500
+¿Ok? completemos,
+
+399
+00:26:42,840 --> 00:26:45,940
+el mismo va a ser enviado a DGI, en el caso de la factura.
+
+400
+00:26:46,880 --> 00:26:48,020
+Así que vamos a poner OK,
+
+401
+00:26:53,560 --> 00:26:56,220
+completar. Este proceso es que está procesando,
+
+402
+00:26:56,760 --> 00:26:59,800
+cuando termina, me responde,
+
+403
+00:26:59,900 --> 00:27:02,560
+complite aquí abajo, viste, éxito,
+
+404
+00:27:03,220 --> 00:27:08,080
+si hubiese tenido un error me va a aparecer un cartel
+
+405
+00:27:08,081 --> 00:27:12,640
+acá con error y me notifica. para ver la descripción
+
+406
+00:27:12,641 --> 00:27:15,820
+del error, que muchas veces puede ser por temas de DGI,
+
+407
+00:27:16,360 --> 00:27:20,100
+validaciones del CFE, route incorrecto,
+
+408
+00:27:20,260 --> 00:27:22,960
+dirección que no tiene la región,
+
+409
+00:27:23,400 --> 00:27:27,500
+bueno, temas de CFE estándar. que si están generando una nueva factura les puede
+
+410
+00:27:27,501 --> 00:27:31,500
+pasar, les va a aparecer acá y entonces ustedes hacen clic en el error
+
+411
+00:27:31,501 --> 00:27:34,020
+y lo pueden ver grande, a ver cómo,
+
+412
+00:27:34,620 --> 00:27:37,320
+qué es lo que pasó. Ese error,
+
+413
+00:27:37,560 --> 00:27:40,100
+bueno, las primeras veces les sugiero que saquen foto,
+
+414
+00:27:40,820 --> 00:27:44,220
+copien, hay un botón que de copiar al texto o le sacan una foto
+
+415
+00:27:44,221 --> 00:27:46,580
+y nos lo comparten en Discord.
+
+416
+00:27:47,220 --> 00:27:49,360
+Entonces ahí podemos ir creando hilos,
+
+417
+00:27:49,540 --> 00:27:53,080
+canales con la descripción y demás. Bien.
+
+418
+00:27:54,640 --> 00:27:57,180
+Bueno, ahora veamos un poco este documento.
+
+419
+00:27:57,640 --> 00:28:00,840
+Esto está completo, todo documento sobre lectura,
+
+420
+00:28:01,780 --> 00:28:04,680
+no se puede modificar nada salvo la descripción.
+
+421
+00:28:06,400 --> 00:28:08,940
+Esto sí, es siempre actualizable,
+
+422
+00:28:09,500 --> 00:28:13,700
+es el único campo que pueden actualizar. También pueden actualizar este que está aquí.
+
+423
+00:28:13,720 --> 00:28:16,560
+que es referencia de orden socio de negocio.
+
+424
+00:28:17,140 --> 00:28:23,160
+Esto es cuando el cliente exige una orden de compra para
+
+425
+00:28:23,161 --> 00:28:25,940
+referenciarla. Va acá y bueno,
+
+426
+00:28:26,100 --> 00:28:28,900
+está siempre editable para que no, si se puso mal,
+
+427
+00:28:29,020 --> 00:28:33,440
+lo podamos decir. En este caso,
+
+428
+00:28:33,880 --> 00:28:36,720
+como ven, automáticamente quedó como documento enviado sí.
+
+429
+00:28:39,080 --> 00:28:43,940
+Este documento enviado sí, podemos ir a la bitácora de documento electrónico
+
+430
+00:28:43,941 --> 00:28:50,060
+que vemos aquí, la última pestaña ¡Gracias por ver! de la derecha y
+
+431
+00:28:50,061 --> 00:28:54,220
+podemos visualizar todos los datos referentes al CFE.
+
+432
+00:28:55,000 --> 00:28:57,500
+El número de serie, factura,
+
+433
+00:28:57,800 --> 00:29:00,460
+el QR. Bueno, estos son todos datos de prueba,
+
+434
+00:29:00,740 --> 00:29:04,340
+obviamente. firmado, fecha de vencimiento de los CAE.
+
+435
+00:29:04,680 --> 00:29:09,840
+Bueno, mucha información de cómo
+
+436
+00:29:09,841 --> 00:29:14,600
+se envió. Si hago clic aquí podría ver la representación impresa.
+
+437
+00:29:14,880 --> 00:29:17,260
+Ah, pues esto es algo de CFE directamente.
+
+438
+00:29:18,400 --> 00:29:22,900
+Normalmente esto es un tema más de auditoría y acá tenemos esto,
+
+439
+00:29:23,360 --> 00:29:25,600
+que es la respuesta de Invoicy,
+
+440
+00:29:25,760 --> 00:29:28,280
+que es nuestro carrier de facturación electrónica,
+
+441
+00:29:28,420 --> 00:29:30,920
+donde van a ver toda la información de facturación electrónica correspondiente.
+
+442
+00:29:33,220 --> 00:29:37,180
+Y, pero bueno, nosotros lo más fácil es visualizar,
+
+443
+00:29:37,220 --> 00:29:40,800
+un momento, ya te dejo, la factura.
+
+444
+00:29:42,040 --> 00:29:47,280
+Vamos a ocultar todos los otros que no van a utilizar porque no van
+
+445
+00:29:47,281 --> 00:29:51,130
+a imprimir factura. Imprimir factura,
+
+446
+00:29:51,230 --> 00:29:56,050
+ya podés generar directamente aquí la factura correspondiente a la que
+
+447
+00:29:56,051 --> 00:30:00,870
+acabamos de emitir. Acá tenés directamente
+
+448
+00:30:00,871 --> 00:30:02,920
+la factura. factura. Bien,
+
+449
+00:30:03,660 --> 00:30:06,800
+acá tenemos todos los datos de la factura y esto es lo que comentaba.
+
+450
+00:30:07,320 --> 00:30:11,780
+Tienes el producto, que esto lo podemos poner más o menos,
+
+451
+00:30:11,920 --> 00:30:15,580
+el código lo podemos ocultar si querés, incluso lo podemos cambiar como les comenté.
+
+452
+00:30:16,180 --> 00:30:18,220
+Acá tienen el ítem, el detalle, las horas,
+
+453
+00:30:18,560 --> 00:30:23,500
+el precio y el monto. El vencimiento,
+
+454
+00:30:24,600 --> 00:30:29,380
+10 días. Y si bajamos tenemos
+
+455
+00:30:29,381 --> 00:30:31,680
+todos los datos y acá tenemos la agenda que pusimos.
+
+456
+00:30:35,950 --> 00:30:40,630
+Bien. Este dato igual,
+
+457
+00:30:40,770 --> 00:30:43,390
+si ustedes quieren activar el envío de correos,
+
+458
+00:30:43,590 --> 00:30:46,390
+podrían compartir este mismo reporte directamente desde aquí.
+
+459
+00:30:47,250 --> 00:30:50,780
+Lo pueden descargar. lo pueden enviar por correo.
+
+460
+00:30:52,320 --> 00:30:55,200
+Directamente desde aquí. Esto lo pueden hacer desde aquí,
+
+461
+00:30:55,340 --> 00:30:59,920
+pero en verdad normalmente se va a enviar automáticamente por facturación electrónica a
+
+462
+00:30:59,921 --> 00:31:04,520
+la… al correo que define…
+
+463
+00:31:05,480 --> 00:31:08,000
+en la dirección que se haya facturado.
+
+464
+00:31:08,340 --> 00:31:13,120
+Eso es importante. Ustedes pueden tener la dirección facturada en el socio-negocio y
+
+465
+00:31:13,121 --> 00:31:17,200
+en la dirección, en la localización, en este caso esta dirección,
+
+466
+00:31:18,360 --> 00:31:22,880
+tienen un campo de correo que es donde se define el correo de
+
+467
+00:31:22,881 --> 00:31:26,600
+la administración donde quieren que se le envíe una factura o una copia adicional.
+
+468
+00:31:28,720 --> 00:31:31,640
+Entonces cada vez que se envía una facturación electrónica, se envía también a esa
+
+469
+00:31:31,641 --> 00:31:31,980
+casilla.
+
+470
+00:31:36,240 --> 00:31:40,680
+Bien, bueno, una vez tenemos esto completo,
+
+471
+00:31:41,860 --> 00:31:45,160
+número, dato, este definido,
+
+472
+00:31:46,060 --> 00:31:51,280
+vamos a poder ver el
+
+473
+00:31:51,281 --> 00:31:54,220
+asiento lo podemos ver en la pestaña lateral.
+
+474
+00:31:55,220 --> 00:32:00,080
+Y aquí vamos a poder visualizar la información contable y vamos a ver justamente
+
+475
+00:32:00,081 --> 00:32:04,900
+cómo cayó contablemente esta
+
+476
+00:32:04,901 --> 00:32:09,420
+factura. Esto un poco lo habíamos
+
+477
+00:32:09,421 --> 00:32:14,200
+visto la vez pasada Lo podemos modificar un poco más
+
+478
+00:32:15,260 --> 00:32:19,720
+Y si quieren podemos cambiarlo ahora No sé si quieren que me meta un
+
+479
+00:32:19,721 --> 00:32:23,680
+poco más contable ahora o lo vemos luego Es un poco,
+
+480
+00:32:23,681 --> 00:32:27,700
+No Ahora no. Esto en el día de mañana podemos modificar y lo dejamos
+
+481
+00:32:27,701 --> 00:32:31,200
+para otro día. A partir del producto se definen estas cuentas.
+
+482
+00:32:31,320 --> 00:32:33,840
+Acá por ejemplo estamos viendo que se está mandando la misma cuenta contable,
+
+483
+00:32:35,080 --> 00:32:39,540
+dos productos diferentes, dos servicios. Entonces podemos mandarlo esto a otra cuenta,
+
+484
+00:32:39,800 --> 00:32:44,880
+¿vale? que justamente no vaya limpieza de vidrios y limpieza
+
+485
+00:32:44,881 --> 00:32:47,500
+empresarial, todo junto a la misma cuenta.
+
+486
+00:32:48,080 --> 00:32:52,080
+Algo básico, yo les voy a mostrar después cómo se puede estructurar.
+
+487
+00:32:53,040 --> 00:32:57,730
+Y tenemos el asiento correspondiente. con todos los datos referentes
+
+488
+00:32:57,731 --> 00:33:00,630
+al documento en cuestión.
+
+489
+00:33:01,190 --> 00:33:03,710
+El cliente, el producto, la moneda,
+
+490
+00:33:03,930 --> 00:33:07,250
+la organización. Bien,
+
+491
+00:33:08,310 --> 00:33:10,890
+adicionalmente ustedes en todos los documentos podemos agregar notas.
+
+492
+00:33:12,040 --> 00:33:16,300
+Para, por ejemplo, llamé y paga mañana.
+
+493
+00:33:16,860 --> 00:33:19,160
+Podrían ponerlo acá, por ejemplo.
+
+494
+00:33:20,620 --> 00:33:24,680
+Podrían adjuntar, si quisiesen, algo que le quieran agregar en este documento.
+
+495
+00:33:26,560 --> 00:33:29,120
+Y tenemos acá lo que se llama. solicitudes,
+
+496
+00:33:29,320 --> 00:33:31,840
+que son las notificaciones internas entre ustedes,
+
+497
+00:33:32,480 --> 00:33:36,640
+por si quieren gestionar algo internamente.
+
+498
+00:33:37,000 --> 00:33:39,860
+Son avioncitos que ustedes se pueden mandar para tratar de evitar lo que son
+
+499
+00:33:39,861 --> 00:33:44,780
+los córregos. Cada documento es
+
+500
+00:33:44,781 --> 00:33:47,060
+generado y se define directamente,
+
+501
+00:33:47,260 --> 00:33:51,780
+o sea, generado de aquí y queda como vemos aquí como pagado o no.
+
+502
+00:33:52,800 --> 00:33:56,500
+Entonces a medida que son pagados se pueden ver si está pagado esto de
+
+503
+00:33:56,501 --> 00:34:01,320
+esta manera. Cuando esté pagado,
+
+504
+00:34:01,960 --> 00:34:05,180
+lo podemos, desde los documentos relacionados,
+
+505
+00:34:05,300 --> 00:34:08,260
+en este caso ahora tenemos muy pocas cosas relacionadas,
+
+506
+00:34:08,740 --> 00:34:13,260
+este botón de acá es muy utilizado, que es para vincular con
+
+507
+00:34:13,261 --> 00:34:15,500
+que se vincula, o sea, las relaciones que tenemos.
+
+508
+00:34:15,520 --> 00:34:18,760
+tiene el documento dentro del sistema. Por ejemplo,
+
+509
+00:34:19,360 --> 00:34:22,560
+un consumo de horas, una bandeja de facturas,
+
+510
+00:34:22,680 --> 00:34:27,040
+una facturación en lote. Bueno, cada documento tiene sus correspondientes relaciones que las vamos
+
+511
+00:34:27,041 --> 00:34:31,340
+sirviendo. Y está bueno esto porque vas navegando a sus documentos relacionados.
+
+512
+00:34:34,240 --> 00:34:39,480
+Acá vemos el estado completo y tenemos todos los pasos
+
+513
+00:34:39,481 --> 00:34:44,400
+que podrían haberse pasado. para ver el flujo,
+
+514
+00:34:44,760 --> 00:34:51,720
+quién lo activó, cuándo, a qué hora, quién lo completó
+
+515
+00:34:51,721 --> 00:34:52,380
+y demás.
+
+516
+00:35:00,780 --> 00:35:03,140
+El estado cerrado, depende del documento,
+
+517
+00:35:03,300 --> 00:35:08,020
+acciona a determinadas cosas. Normalmente en la factura no debería utilizarse
+
+518
+00:35:08,021 --> 00:35:13,100
+el cerrado. Lo que más utiliza el estado cerrado es en las órdenes
+
+519
+00:35:13,101 --> 00:35:15,140
+de compra, cuando vos haces una inversión.
+
+520
+00:35:15,160 --> 00:35:20,020
+compra de 10 unidades, el proveedor te entrega 8 y
+
+521
+00:35:20,021 --> 00:35:22,520
+querés cancelar el remanente,
+
+522
+00:35:22,680 --> 00:35:26,900
+digamos. No quiero que los dos que no me entregó me queden pendientes de
+
+523
+00:35:26,901 --> 00:35:30,980
+entregar. De esa manera si vos cerrás la orden te la bajas.
+
+524
+00:35:31,000 --> 00:35:33,680
+8, solamente lo que recepciones,
+
+525
+00:35:34,340 --> 00:35:37,120
+y así evitas que te llegue una factura por 10, por ejemplo.
+
+526
+00:35:37,600 --> 00:35:39,640
+No, recepcionaste 8, no quiero un saldo.
+
+527
+00:35:40,200 --> 00:35:44,140
+Esa es la acción más importante que hace la acción de cerrar.
+
+528
+00:35:44,880 --> 00:35:48,490
+Si no, no deberían utilizarla. Molesta,
+
+529
+00:35:48,610 --> 00:35:51,090
+porque en verdad vos cerrás y no podés tocar nada más el documento,
+
+530
+00:35:51,190 --> 00:35:54,170
+es como que es intocable, entonces nos tiene que pedir a nosotros.
+
+531
+00:35:56,370 --> 00:36:00,370
+Bien, bueno, algunos documentos se permite borrar en algún momento,
+
+532
+00:36:00,850 --> 00:36:04,600
+acá por ejemplo un documento procesado. ya no me deja borrarlo,
+
+533
+00:36:04,960 --> 00:36:09,580
+¿viste? Y en cada documento vamos a tener diferentes posibilidades
+
+534
+00:36:09,581 --> 00:36:14,180
+de generar acciones. Esto lo
+
+535
+00:36:14,181 --> 00:36:18,500
+vamos a ver luego, tenemos que borrar muchos para limpiar lo que no van
+
+536
+00:36:18,501 --> 00:36:22,520
+a utilizar. utilizar ustedes, pero a lo largo de las capacitaciones van a ver
+
+537
+00:36:22,521 --> 00:36:24,580
+que los documentos pueden tener acciones.
+
+538
+00:36:26,560 --> 00:36:29,600
+Cada documento tiene sus correspondientes acciones que las vamos a seguir viendo.
+
+539
+00:36:32,260 --> 00:36:37,020
+Bien, para… Para hacer la última explicación de esta
+
+540
+00:36:37,021 --> 00:36:40,820
+ventana, está el campo de en-negociación.
+
+541
+00:36:41,460 --> 00:36:43,860
+El campo de en-negociación es cuando ustedes,
+
+542
+00:36:44,020 --> 00:36:48,620
+por ejemplo, tienen un producto o un documento que por determinada
+
+543
+00:36:48,621 --> 00:36:51,650
+razón no quiere ser pagado. Por ejemplo,
+
+544
+00:36:52,130 --> 00:36:55,850
+que tengan una factura que dicen que las horas están mal calculadas,
+
+545
+00:36:56,310 --> 00:36:58,530
+que están cobrando de más, un precio incorrecto,
+
+546
+00:36:58,650 --> 00:37:01,610
+algo mal. Entonces, ya que ustedes pueden marcar,
+
+547
+00:37:01,730 --> 00:37:04,970
+este check está siempre editable, una vez que el documento está completo.
+
+548
+00:37:06,040 --> 00:37:08,440
+para marcar que este documento trabaja con problemas.
+
+549
+00:37:09,600 --> 00:37:12,100
+Este cheque está tanto en documento por cobrar como por pagar.
+
+550
+00:37:13,020 --> 00:37:16,740
+Así que ustedes también podrían hacer lo mismo a esas facturas de proveedores que
+
+551
+00:37:16,741 --> 00:37:21,280
+por determinada razón no quieren pagar. Al estar en el cheque
+
+552
+00:37:21,281 --> 00:37:26,140
+en negociación no entra la factura del documento por pagar en una
+
+553
+00:37:26,141 --> 00:37:28,340
+orden de pago, en una selección de pagos,
+
+554
+00:37:28,980 --> 00:37:33,900
+porque justamente es un filtro que te pone que no esté en negociación.
+
+555
+00:37:36,520 --> 00:37:40,160
+Esto se utiliza mucho. Muchas veces también cuando reciben una factura con un precio
+
+556
+00:37:40,161 --> 00:37:44,600
+incorrecto o una factura mal generada, entendemos nosotros que tienen que crear la factura
+
+557
+00:37:44,601 --> 00:37:48,880
+en el sistema para que contabilice porque ya te la emitieron a su ruto,
+
+558
+00:37:49,020 --> 00:37:52,980
+o sea, impuesto, IVA además, pero para que no se pague tienen que marcarla
+
+559
+00:37:52,981 --> 00:37:55,280
+como negociación. negociación para que, bueno, esté trancada,
+
+560
+00:37:55,460 --> 00:37:57,880
+digamos que. Adicionalmente,
+
+561
+00:37:57,940 --> 00:38:02,220
+cuando definen esto en una factura, perdón, ya le podrían acompañar,
+
+562
+00:38:02,260 --> 00:38:04,340
+cuando tenga esto en negociación,
+
+563
+00:38:04,860 --> 00:38:07,240
+lo acompañan con una solicitud,
+
+564
+00:38:08,380 --> 00:38:12,340
+notificándole. la persona encargada del problema reportado,
+
+565
+00:38:12,680 --> 00:38:16,400
+ya sea por pagar o por cobrar, para que se aplique la corrección correspondiente,
+
+566
+00:38:16,940 --> 00:38:20,980
+se genere la nota de crédito en caso de ser necesario y se pueda
+
+567
+00:38:20,981 --> 00:38:26,000
+cancelar o pagar esa factura. Y suponete… que en negociación
+
+568
+00:38:26,001 --> 00:38:30,860
+lo ponga Natalia y después Caro logra cobrar la factura.
+
+569
+00:38:31,460 --> 00:38:35,120
+¿Puede poner Caro en una negociación no o no tiene que hacer Natalia,
+
+570
+00:38:35,420 --> 00:38:36,260
+la persona que lo hizo?
+
+571
+00:38:41,050 --> 00:38:47,030
+Cada vez que se marque, lo
+
+572
+00:38:47,031 --> 00:38:51,390
+va a abuchonear. Se lo queda en el historial.
+
+573
+00:38:53,030 --> 00:38:55,330
+Se lo queda en el historial porque guarda el log justamente.
+
+574
+00:38:56,110 --> 00:38:59,840
+Si vamos a ver acá. Ah, ¿viste? Sí,
+
+575
+00:39:00,040 --> 00:39:03,760
+no, sí, no, no, sí. Y esto es muy válido,
+
+576
+00:39:03,880 --> 00:39:06,080
+o sea, y lo utilizamos mucho, esto,
+
+577
+00:39:06,160 --> 00:39:09,240
+estos temas. Te hago una consulta,
+
+578
+00:39:09,300 --> 00:39:11,680
+¿viste que esto tengo acá el usuario abierto? Sí.
+
+579
+00:39:12,880 --> 00:39:17,120
+ejemplo, mi usuario, supongo que es porque yo no facturo en eso que vos
+
+580
+00:39:17,121 --> 00:39:19,440
+mostraste, si querés hacer una nueva factura,
+
+581
+00:39:19,620 --> 00:39:24,400
+el botón de nuevo, yo no lo tengo. El botón de nuevo solamente está,
+
+582
+00:39:25,600 --> 00:39:27,820
+lo deberías de ver, no está bloqueado para ti.
+
+583
+00:39:28,440 --> 00:39:31,220
+Ustedes tienen el mismo rol que estoy mirando yo.
+
+584
+00:39:32,280 --> 00:39:35,660
+Solamente estamos con Admin, así que todos pueden hacer todo lo que hacemos,
+
+585
+00:39:36,260 --> 00:39:39,480
+lo que estoy mostrando. Porque yo tengo refrescar,
+
+586
+00:39:39,620 --> 00:39:42,120
+eliminar, en proceso, imprimir, pero no tengo nuevo.
+
+587
+00:39:44,560 --> 00:39:48,060
+en modo grilla y no monoregistro?
+
+588
+00:39:50,100 --> 00:39:53,940
+Si volvés así, no podés hacer nuevo.
+
+589
+00:39:55,860 --> 00:39:59,180
+Es solamente para crear o editar, lo tenés que modificar a mono.
+
+590
+00:39:59,960 --> 00:40:02,500
+Ahí está, ahí está. después te hago otra consulta.
+
+591
+00:40:03,680 --> 00:40:08,760
+Seleccioné una factura cualquiera que están todas en
+
+592
+00:40:09,340 --> 00:40:14,140
+proceso y le di imprimir y me dice que no se puede porque
+
+593
+00:40:14,141 --> 00:40:18,300
+está en proceso. Pensé que me podía dar un tipo,
+
+594
+00:40:18,440 --> 00:40:21,920
+un borrador de cómo, No,
+
+595
+00:40:22,200 --> 00:40:26,800
+porque en verdad esa representación impresa es generada directamente de SFE.
+
+596
+00:40:26,801 --> 00:40:31,820
+A factura. SFE. Nosotros tenemos otras representaciones impresas que,
+
+597
+00:40:32,420 --> 00:40:36,280
+si ustedes la utilizan, sí podríamos generarte la impresión.
+
+598
+00:40:36,760 --> 00:40:42,100
+Pero no te puedo imprimir la
+
+599
+00:40:42,101 --> 00:40:46,180
+factura esa, o sea, porque es ir a buscar al CFE,
+
+600
+00:40:46,220 --> 00:40:50,220
+¿entendés? Podríamos tener otra factura,
+
+601
+00:40:50,460 --> 00:40:56,000
+otra representación, pero no es el caso. Porque
+
+602
+00:40:56,001 --> 00:40:58,320
+ustedes no tienen la facturación que nosotros generamos,
+
+603
+00:40:58,940 --> 00:41:03,160
+que es diferente, y ya podrías ver impresa la factura,
+
+604
+00:41:04,020 --> 00:41:08,080
+sin el QR obviamente y sin el número de desemborrador.
+
+605
+00:41:08,380 --> 00:41:13,160
+Pero como nosotros la factura esa la tomamos directamente de la facturación electrónica,
+
+606
+00:41:13,400 --> 00:41:17,840
+no hay borrador. Bien,
+
+607
+00:41:19,120 --> 00:41:22,620
+bueno, para terminar nomás, dentro de una factura,
+
+608
+00:41:23,560 --> 00:41:28,280
+dentro de la ventana factura. La pestaña impuesto de la factura también
+
+609
+00:41:28,281 --> 00:41:32,380
+puede ser útil. Ustedes acá van a poder ver el desglose de impuestos que
+
+610
+00:41:32,381 --> 00:41:35,540
+tiene una factura. Simplemente informativo nomás.
+
+611
+00:41:36,240 --> 00:41:38,540
+Si tenés importes netos, perdón,
+
+612
+00:41:38,620 --> 00:41:42,120
+exentos o IVA básico, acá acá tenés todo el desglose por tipo de impuesto.
+
+613
+00:41:44,220 --> 00:41:48,600
+Y acá, por ejemplo, podemos ver facturas a asignar.
+
+614
+00:41:49,160 --> 00:41:53,820
+Esto, este campo es adquiere importancia cuando generen
+
+615
+00:41:53,821 --> 00:41:56,040
+una nota de crédito. Acá ustedes más.
+
+616
+00:41:56,080 --> 00:41:58,500
+asignan a qué factura referencia.
+
+617
+00:41:59,520 --> 00:42:04,220
+Entonces, cuando se completa, se notifica a DGI
+
+618
+00:42:04,221 --> 00:42:09,180
+la factura de referencia correspondiente y también lo
+
+619
+00:42:09,181 --> 00:42:13,620
+que hacemos es el monto a asignar. Ustedes así lo determinan,
+
+620
+00:42:13,700 --> 00:42:18,300
+que por defecto está así, al completar una nota de crédito con una
+
+621
+00:42:18,301 --> 00:42:22,820
+factura referenciada, genera automáticamente la asignación.
+
+622
+00:42:23,420 --> 00:42:24,420
+O sea que se cancela.
+
+623
+00:42:28,440 --> 00:42:31,180
+No, el monto asignar son siempre,
+
+624
+00:42:31,560 --> 00:42:34,480
+el tema de asignaciones y totales y demás,
+
+625
+00:42:34,800 --> 00:42:39,380
+no importa el IVA, es el total porque son saldos abiertos
+
+626
+00:42:39,381 --> 00:42:42,400
+y el saldo abierto es por montos total y va incluido,
+
+627
+00:42:42,500 --> 00:42:45,800
+o sea, con todo. Claro,
+
+628
+00:42:45,980 --> 00:42:49,220
+pero a veces hay que hacer una nota de crédito por menos plato,
+
+629
+00:42:49,320 --> 00:42:54,560
+por una hora. No, no importa. Ustedes pueden definir y
+
+630
+00:42:54,561 --> 00:42:56,740
+después se lo muestro si quieren, si quieren se lo muestro ahora.
+
+631
+00:42:57,360 --> 00:43:01,880
+Hacer una nota de crédito parcial por menos eligiendo las líneas
+
+632
+00:43:01,881 --> 00:43:04,440
+y la cantidad de horas que querés hacer una nota de crédito,
+
+633
+00:43:04,540 --> 00:43:06,780
+si querés ahora mismo hago una nota de crédito,
+
+634
+00:43:06,820 --> 00:43:09,160
+si querés. ¿Les parece bien?
+
+635
+00:43:11,720 --> 00:43:13,760
+Bueno, no sé si te opinan,
+
+636
+00:43:14,020 --> 00:43:17,550
+pero vamos a decir, Para entender todo el flujo.
+
+637
+00:43:17,670 --> 00:43:21,330
+Sí, sí, yo prefiero que sigas. Perfecto,
+
+638
+00:43:21,370 --> 00:43:23,630
+vamos a tomar este mismo ejercicio, este mismo ejemplo.
+
+639
+00:43:24,070 --> 00:43:27,670
+Tenemos esta factura, saldo abierto completamente,
+
+640
+00:43:27,910 --> 00:43:31,030
+no tenemos nada pagado. Si queremos hacemos el saldo,
+
+641
+00:43:31,130 --> 00:43:35,980
+vamos a dar saldo. dos pendientes para ver la situación que tenemos con Jackar.
+
+642
+00:44:00,440 --> 00:44:03,480
+Vamos a buscar aquí, este es el reporte de saldos públicos.
+
+643
+00:44:03,520 --> 00:44:08,500
+pendientes, Shakar. Buscamos
+
+644
+00:44:08,501 --> 00:44:10,940
+transacción de venta, sí, para la fecha de hoy.
+
+645
+00:44:16,000 --> 00:44:19,820
+Y tenemos aquí las facturas. Vemos aquí la que acabamos de generar.
+
+646
+00:44:20,220 --> 00:44:22,940
+Si vamos para la derecha tengo un saldo abierto de 103.
+
+647
+00:44:23,480 --> 00:44:26,480
+Bien. Vamos a generar entonces.
+
+648
+00:44:26,780 --> 00:44:30,040
+Voy a cerrar la ventana de documentos por cobrar para si arrancamos de cero.
+
+649
+00:44:30,600 --> 00:44:33,180
+Tengo que hacer una A. Nota de crédito,
+
+650
+00:44:33,220 --> 00:44:35,620
+me acaban de avisar porque el cliente no paga,
+
+651
+00:44:35,760 --> 00:44:38,240
+si no le generamos la nota de crédito sobre esta factura.
+
+652
+00:44:39,580 --> 00:44:41,980
+Para una consulta, eso, ese estado de cuenta,
+
+653
+00:44:42,140 --> 00:44:44,900
+¿cómo se puede exportar? veo ninguna impresorita,
+
+654
+00:44:45,060 --> 00:44:48,080
+nada. Para mandárselo al cliente.
+
+655
+00:44:48,700 --> 00:44:50,840
+Compartir, descargar. Ah,
+
+656
+00:44:51,000 --> 00:44:56,580
+ok. Vamos a venir aquí y lo generamos
+
+657
+00:44:56,581 --> 00:44:58,120
+en Excel y lo exportamos.
+
+658
+00:45:04,460 --> 00:45:08,760
+Bien, y aquí lo pueden descargar.
+
+659
+00:45:11,500 --> 00:45:13,920
+Lo que les iba a comentar, entonces vamos a hacer el documento,
+
+660
+00:45:13,980 --> 00:45:17,540
+vamos a ver acá, documento por cobrar,
+
+661
+00:45:18,440 --> 00:45:23,580
+entramos a la ventana, documento por cobrar, voy
+
+662
+00:45:23,581 --> 00:45:25,380
+a cortar el video y voy a hacer un nuevo video para que nos
+
+663
+00:45:25,381 --> 00:45:25,860
+quede separado.

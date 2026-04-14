@@ -1,0 +1,367 @@
+1
+00:00:00,180 --> 00:00:03,260
+Vamos a hacer una prueba de importar facturación electrónica,
+
+2
+00:00:03,460 --> 00:00:06,340
+ya con los hay descentralizados. Vamos al proceso,
+
+3
+00:00:06,560 --> 00:00:10,120
+importar facturas electrónicas, vamos a hacerse una de la organización,
+
+4
+00:00:10,440 --> 00:00:13,520
+el periodo, para la prueba y ok.
+
+5
+00:00:15,400 --> 00:00:16,000
+Esperamos
+
+6
+00:00:37,950 --> 00:00:42,630
+y aquí está. 45 facturas con sesenta y gríneas y 16
+
+7
+00:00:42,631 --> 00:00:51,770
+errores. si tenemos el histórico de caso de proceso en
+
+8
+00:00:51,771 --> 00:00:56,610
+total en realidad eran 480 infacturas
+
+9
+00:00:56,611 --> 00:01:01,550
+solo que lo limité para recibir menos para que la probase a más rápido
+
+10
+00:01:02,730 --> 00:01:07,770
+acá vemos con la que nos importaron estos
+
+11
+00:01:07,771 --> 00:01:10,610
+porque el error es que lista de presión no fue encontrada,
+
+12
+00:01:10,830 --> 00:01:13,730
+no hay una lista de peso con monedad huyo y que tengan puesto incluido
+
+13
+00:01:13,731 --> 00:01:16,510
+en el precio verdadero,
+
+14
+00:01:16,550 --> 00:01:20,750
+en los que están ok, tipo de documento,
+
+15
+00:01:20,810 --> 00:01:23,170
+uno, uno no encontrado, este es el tipo de documento cfe,
+
+16
+00:01:23,530 --> 00:01:28,230
+y esto simplemente que no hay un documento en el sistema aquí
+
+17
+00:01:28,231 --> 00:01:32,530
+adentro, que se haya configurado para este tipo de transacción fiscal,
+
+18
+00:01:33,190 --> 00:01:36,750
+881 que este es remito si me lo me equivoco,
+
+19
+00:01:37,090 --> 00:01:41,610
+los demás están ok ok ok ok ok y lista de
+
+20
+00:01:41,611 --> 00:01:44,310
+prisión muy bien,
+
+21
+00:01:45,010 --> 00:01:48,130
+computar acá vamos a la ventana a importar el documento,
+
+22
+00:01:48,190 --> 00:01:52,910
+se posee ese porpe si vemos
+
+23
+00:01:52,911 --> 00:01:58,050
+acá vamos ya aquí están todos los documentos y vamos a ver acá el
+
+24
+00:01:58,051 --> 00:02:01,230
+cargo residencia,
+
+25
+00:02:01,350 --> 00:02:06,630
+horne, sosio,
+
+26
+00:02:06,631 --> 00:02:11,550
+eh creo que la he estado quitando,
+
+27
+00:02:12,010 --> 00:02:14,250
+sosio, pues sí,
+
+28
+00:02:14,390 --> 00:02:16,770
+aquí te encargo, referencia,
+
+29
+00:02:17,570 --> 00:02:24,170
+horne, ok,
+
+30
+00:02:24,430 --> 00:02:29,110
+aquí vemos que automáticamente configuró los socios que ya existían,
+
+31
+00:02:29,410 --> 00:02:32,410
+tenemos teniendo,
+
+32
+00:02:32,411 --> 00:02:34,450
+recibiendo un número de referencias,
+
+33
+00:02:34,650 --> 00:02:37,770
+esto es la idea compra,
+
+34
+00:02:38,350 --> 00:02:41,350
+relaciona a la orden, una orden de compra que tenga el mismo socio de
+
+35
+00:02:41,351 --> 00:02:44,110
+negocio y el mismo número de documentos,
+
+36
+00:02:44,310 --> 00:02:47,550
+un socio de negocio que tiene configurado un cargo por defecto,
+
+37
+00:02:47,590 --> 00:02:52,090
+le colocó el cargo, igual acá,
+
+38
+00:02:52,490 --> 00:02:56,290
+este es de la orden, número de referencias consiguió una orden.
+
+39
+00:02:58,830 --> 00:03:01,890
+Teniendo acá podemos completar la información aquí en acciones,
+
+40
+00:03:02,110 --> 00:03:06,810
+completar datos de factura importada, que nos muestra
+
+41
+00:03:06,811 --> 00:03:11,610
+si las líneas que o no tengan socio de negocio o no tengan
+
+42
+00:03:11,611 --> 00:03:14,030
+ni producto ni karma, si no tienen ninguno de los dos,
+
+43
+00:03:14,730 --> 00:03:18,930
+nos hace mostrar aquí y si no tiene socio también se mostrará acá para
+
+44
+00:03:18,931 --> 00:03:21,430
+llenar la información por acá, si es necesario,
+
+45
+00:03:21,870 --> 00:03:27,410
+aquí hay un socios que yo sé que a cuento este
+
+46
+00:03:27,411 --> 00:03:32,030
+socio a cuento,
+
+47
+00:03:32,230 --> 00:03:36,310
+yo sé que este existe en error en la información del socio,
+
+48
+00:03:36,890 --> 00:03:40,630
+vamos a procesar y podemos llegar a la línea de ese el asocio,
+
+49
+00:03:40,790 --> 00:03:43,650
+producto o cargo, para agregar el asocio,
+
+50
+00:03:43,690 --> 00:03:46,370
+a cueducto,
+
+51
+00:03:46,490 --> 00:03:51,510
+y vamos a agregar un producto de una vez para ese
+
+52
+00:03:51,511 --> 00:03:54,350
+lado a esto, y ya no aparece aquí en la búsqueda,
+
+53
+00:03:54,910 --> 00:03:59,470
+ya no aparecería ese a
+
+54
+00:03:59,471 --> 00:04:01,950
+cueducto, tenemos menos registra,
+
+55
+00:04:02,890 --> 00:04:08,310
+vamos a seleccionar todo acá, completar
+
+56
+00:04:08,311 --> 00:04:10,830
+y vamos a configurarle producto,
+
+57
+00:04:11,370 --> 00:04:13,610
+un producto acá para todo, para la prueba.
+
+58
+00:04:17,050 --> 00:04:19,850
+Muy bien, 56 registro,
+
+59
+00:04:20,190 --> 00:04:22,610
+ya lo que falta es el socio en negocio, los socio en negocio se
+
+60
+00:04:22,611 --> 00:04:24,950
+pueden configurar ya sea, por ese ventana,
+
+61
+00:04:25,510 --> 00:04:28,990
+sí, para un socio que existe, o si el socio no existe,
+
+62
+00:04:29,530 --> 00:04:34,110
+se puede crear aquí al completar o al importar
+
+63
+00:04:34,111 --> 00:04:37,490
+de los documentos como tal. Nosotros más en acciones,
+
+64
+00:04:37,850 --> 00:04:41,310
+importar facturas seleccionamos una organización,
+
+65
+00:04:41,530 --> 00:04:52,650
+le dejamos en preparar los OK y
+
+66
+00:04:52,651 --> 00:04:56,910
+se crearon. Acabemos que se crearon 42 facturas,
+
+67
+00:04:57,390 --> 00:05:01,450
+se insertaron 60 líneas, es que 42 facturas insertada,
+
+68
+00:05:01,750 --> 00:05:06,290
+línea de factura se senta insertada y factura uno fue borrado,
+
+69
+00:05:06,370 --> 00:05:09,910
+una línea de factura fue borrado. Nosotros vemos acá,
+
+70
+00:05:10,130 --> 00:05:14,750
+vamos a buscar este otro
+
+71
+00:05:14,751 --> 00:05:18,070
+sesado, no,
+
+72
+00:05:18,610 --> 00:05:23,170
+no que no están procesados y vemos acá que quedan
+
+73
+00:05:23,171 --> 00:05:27,910
+dos líneas sin procesar, esto es porque una de las líneas
+
+74
+00:05:27,911 --> 00:05:33,010
+tiene impuesto invalido referencia identificador de impuesto que
+
+75
+00:05:33,011 --> 00:05:37,870
+no hay una impuesto que tenga configurado ese identificador de impuesto por
+
+76
+00:05:37,871 --> 00:05:42,370
+lo tanto no puede pasar y si una de las líneas de un documento
+
+77
+00:05:42,371 --> 00:05:46,970
+porque esto si vemos este un mismo documento de el mismo socio roce al
+
+78
+00:05:46,971 --> 00:05:51,710
+ver 2 a 6 1 es el mismo documento y
+
+79
+00:05:51,711 --> 00:05:55,850
+por las importaciones de ver la factura debería tener dos líneas,
+
+80
+00:05:56,150 --> 00:06:00,690
+pero como una de las líneas da error se devuelve y ya el
+
+81
+00:06:00,691 --> 00:06:04,110
+documento completo como tal las dos líneas no se genera,
+
+82
+00:06:04,290 --> 00:06:08,910
+entonces por eso estas dos quedan así para poder
+
+83
+00:06:08,911 --> 00:06:11,630
+solucionarlo tendría que por ejemplo,
+
+84
+00:06:11,730 --> 00:06:16,390
+es una prueba desde debería de haber un identificador o configurarse el
+
+85
+00:06:16,391 --> 00:06:19,190
+link puesto correcto pero para hacer una prueba nada más,
+
+86
+00:06:19,310 --> 00:06:23,190
+vamos a colocar acá 13 guardar,
+
+87
+00:06:23,191 --> 00:06:31,190
+vamos a importar otra vez y
+
+88
+00:06:31,191 --> 00:06:34,410
+aquí está, se insertó una factura con 2 líneas,
+
+89
+00:06:34,530 --> 00:06:37,250
+si buscámoslo procesados no,
+
+90
+00:06:37,530 --> 00:06:40,650
+no hay nada,
+
+91
+00:06:41,990 --> 00:06:45,970
+Ok, con esto queda la importación de facturas electrónicas,
+
+92
+00:06:46,470 --> 00:06:48,430
+de acona y descentralizada.

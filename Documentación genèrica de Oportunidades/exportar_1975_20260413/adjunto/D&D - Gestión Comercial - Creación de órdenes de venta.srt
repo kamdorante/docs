@@ -1,0 +1,443 @@
+1
+00:00:00,000 --> 00:00:05,060
+la sentación de, como generar pedidos de clientes mediante este
+
+2
+00:00:05,061 --> 00:00:09,380
+dentro de solop. Lo pedido de clientes serán eh,
+
+3
+00:00:09,840 --> 00:00:12,460
+dentro de solop serán considerado como órdenes de venta,
+
+4
+00:00:12,760 --> 00:00:16,880
+se podrán ver los mismos desde la ventana, órdenes de venta y la forma
+
+5
+00:00:16,881 --> 00:00:20,140
+de cargar diferentes órdenes de venta es la siete.
+
+6
+00:00:20,720 --> 00:00:26,640
+Desde la ventana vamos a poder generar nuevo y a generar
+
+7
+00:00:26,641 --> 00:00:31,320
+nuevo podemos seleccionar el tipo de documento destino,
+
+8
+00:00:31,500 --> 00:00:37,560
+en este caso para pedidos que se han entregado posteriormente desde una gestión
+
+9
+00:00:37,561 --> 00:00:42,280
+de destrucción, deberían ser pedidos del tipo ordenes de venta.
+
+10
+00:00:44,980 --> 00:00:49,080
+En el caso de socio-neodosio se pondrá definir el cliente,
+
+11
+00:00:49,680 --> 00:00:54,340
+en el cual si definen al definir el cliente se va a cargar
+
+12
+00:00:54,341 --> 00:00:59,220
+automáticamente según los datos que tenga definido dicho cliente
+
+13
+00:00:59,221 --> 00:01:02,440
+los datos correspondientes para el pedido,
+
+14
+00:01:03,060 --> 00:01:06,080
+así lista de precios, termino de pago,
+
+15
+00:01:06,760 --> 00:01:11,380
+descuento y eso.
+
+16
+00:01:12,140 --> 00:01:15,220
+Vamos a ver ahora por ejemplo, vamos a crear este,
+
+17
+00:01:15,400 --> 00:01:19,340
+vamos a buscar un cliente,
+
+18
+00:01:19,740 --> 00:01:24,560
+se puede digitar o se puede buscar, en este caso vamos a elegir
+
+19
+00:01:24,561 --> 00:01:29,300
+cualquier cliente que consideremos para
+
+20
+00:01:29,301 --> 00:01:34,160
+hacer el ejemplo, en este caso vamos a elegir
+
+21
+00:01:34,161 --> 00:01:36,220
+al cliente Casa Gutiérrez,
+
+22
+00:01:36,580 --> 00:01:41,160
+al definir Casa Gutiérrez se va a definir un usuario de
+
+23
+00:01:41,161 --> 00:01:45,700
+contacto, la dirección del cliente y la gente comercial se va a
+
+24
+00:01:45,701 --> 00:01:48,980
+definir en la gente el comercial del usuario que lo está creando.
+
+25
+00:01:49,400 --> 00:01:51,600
+Si este cliente tiene un vendedor,
+
+26
+00:01:51,601 --> 00:01:55,240
+se podrá definir el vendedor. ¿Cómo también se va a poder definir la lista
+
+27
+00:01:55,241 --> 00:01:59,980
+de precios que tenga definir al cliente? En este caso vamos a elegir ventas
+
+28
+00:01:59,981 --> 00:02:03,000
+general dólares,
+
+29
+00:02:03,220 --> 00:02:07,460
+que es una lista de precios general que hemos creado para contar con todos
+
+30
+00:02:07,461 --> 00:02:09,580
+los productos sin ningún problema.
+
+31
+00:02:09,581 --> 00:02:15,460
+Esto lo pueden definir como ustedes le parezca correcto.
+
+32
+00:02:15,461 --> 00:02:19,260
+Al guardar se define y vamos a definir la moneda.
+
+33
+00:02:19,600 --> 00:02:22,480
+Una vez definimos el cabezal, podemos definir acá la regla de Pau,
+
+34
+00:02:23,040 --> 00:02:27,220
+normalmente es acredito, o podemos definir otro tipo de regla de Pau.
+
+35
+00:02:28,080 --> 00:02:31,560
+Y según la regla de Pau, vamos a poder tener también la posibilidad de
+
+36
+00:02:31,561 --> 00:02:34,140
+definir el término de Pau si es necesario.
+
+37
+00:02:36,440 --> 00:02:41,600
+Vamos a seguir ahora a lo que son las líneas y
+
+38
+00:02:41,601 --> 00:02:45,040
+en las líneas se va a poder definir cada una de los productos que
+
+39
+00:02:45,041 --> 00:02:47,680
+le quieran agregar a esta línea,
+
+40
+00:02:48,320 --> 00:02:51,580
+se puede definir productos o cargos en el caso ustedes van a hacer más
+
+41
+00:02:51,581 --> 00:02:53,800
+que nada productos, artículos,
+
+42
+00:02:54,140 --> 00:02:58,800
+almacenables que si se busca del carrito vamos a poder visualizar toda la
+
+43
+00:02:58,801 --> 00:03:02,340
+lista de precios que estamos manejando en este caso,
+
+44
+00:03:02,720 --> 00:03:05,340
+esta lista de precios de ejemplo,
+
+45
+00:03:05,520 --> 00:03:10,680
+de ventas general, esta fue generada a partir de las listas de precios mayoristas,
+
+46
+00:03:11,200 --> 00:03:13,500
+precio mayorista, dólares,
+
+47
+00:03:14,300 --> 00:03:18,200
+pero se harió también en los respuestos, porque vimos que también venden algunas respuestas
+
+48
+00:03:18,201 --> 00:03:21,100
+y por eso utilizamos esta, esto se le pueden definir,
+
+49
+00:03:21,240 --> 00:03:24,460
+acá a cliente, la lista de precios que corresponda.
+
+50
+00:03:25,720 --> 00:03:30,500
+En este caso entonces vamos a poder seleccionar los productos que queramos,
+
+51
+00:03:30,840 --> 00:03:33,300
+se va a poner, se va a definir el precio, vamos a poder definir
+
+52
+00:03:33,301 --> 00:03:38,100
+la cantidad, vamos a guardar y se
+
+53
+00:03:38,101 --> 00:03:43,500
+van a definir la unidad, algunos datos del producto y podemos definirlo entonces acá
+
+54
+00:03:43,501 --> 00:03:48,420
+si son la cantidad que corresponda y
+
+55
+00:03:48,421 --> 00:03:53,320
+nos va a hacer la multiplicación debidamente según
+
+56
+00:03:53,321 --> 00:03:57,360
+lo definamos, vamos a hacer en este caso,
+
+57
+00:03:57,700 --> 00:04:02,480
+vamos a hacerle que entreguemos 20 y
+
+58
+00:04:02,481 --> 00:04:07,240
+así sucesivamente con todos los productos, inicialmente la forma
+
+59
+00:04:07,241 --> 00:04:09,640
+de cargar productos es esta,
+
+60
+00:04:09,740 --> 00:04:14,720
+luego podremos mostrar alguna más que puede ser este mediante una
+
+61
+00:04:14,721 --> 00:04:19,140
+entrada rápida que para definir justamente el producto,
+
+62
+00:04:19,700 --> 00:04:24,260
+la cantidad y con el control
+
+63
+00:04:24,261 --> 00:04:28,270
+y Con el alt enter va a generar el producto correspondiente,
+
+64
+00:04:28,610 --> 00:04:32,250
+definiendo el presión. Es una manera rápida de poder generar,
+
+65
+00:04:33,410 --> 00:04:35,830
+definiendo el producto, definiendo cantidad,
+
+66
+00:04:36,410 --> 00:04:40,950
+todo con el teclado, 20 alt enter y me
+
+67
+00:04:40,951 --> 00:04:47,030
+genera la línea. Va a definiendo la definición
+
+68
+00:04:47,031 --> 00:04:49,230
+por lo menos de los productos. Si podemos definir después,
+
+69
+00:04:49,790 --> 00:04:55,450
+la cantidad correctamente. Esto inicialmente desde
+
+70
+00:04:55,451 --> 00:05:00,170
+un, desde la ventana ordenes de venta y desde el cabezal
+
+71
+00:05:00,171 --> 00:05:07,530
+luego vamos a poder visualizar si
+
+72
+00:05:07,531 --> 00:05:11,590
+lo ampliamos de esta manera visualizar para volver a definir los datos.
+
+73
+00:05:13,270 --> 00:05:17,950
+Para poder, una tarea importante que tenemos que avanzar es la
+
+74
+00:05:17,951 --> 00:05:20,710
+definición de los datos en en cada uno de los clientes.
+
+75
+00:05:21,570 --> 00:05:26,490
+Para la diferencia en los datos podemos navegar al la ventana social negocio
+
+76
+00:05:26,491 --> 00:05:31,010
+y la ventana social negocio va a poder visualizar todos los clientes que
+
+77
+00:05:31,011 --> 00:05:35,550
+ya hemos importado. Ahora, la manera que maneja el sistema que
+
+78
+00:05:35,551 --> 00:05:40,230
+pueden basarse en ella, para la definición de datos que están faltando como puede
+
+79
+00:05:40,231 --> 00:05:43,510
+ser lista de precio, descuentos,
+
+80
+00:05:43,770 --> 00:05:49,010
+acá tenemos un descuento del 10, por ejemplo
+
+81
+00:05:49,011 --> 00:05:54,230
+vendedor o termina de pago por defecto,
+
+82
+00:05:54,231 --> 00:06:00,150
+esto lo pueden definir cliente por cliente o bien podrían ir al grupo de
+
+83
+00:06:00,151 --> 00:06:04,750
+socios de negocios, acercar al grupo de socios de negocios y desde
+
+84
+00:06:04,751 --> 00:06:09,490
+el grupo de socios de negocios le podrían definir listas de precio,
+
+85
+00:06:10,710 --> 00:06:12,790
+esquema de descuento,
+
+86
+00:06:13,610 --> 00:06:18,590
+lista de precio, es que me descuento y
+
+87
+00:06:18,591 --> 00:06:23,550
+también le podrían avanzar en la definición de la morosidad
+
+88
+00:06:23,551 --> 00:06:28,230
+a aplicar. Si lo definen aquí nosotros podríamos trasladar
+
+89
+00:06:28,231 --> 00:06:31,990
+luego y a actualizar todos los clientes que ya tienen definidos con este grupo,
+
+90
+00:06:31,991 --> 00:06:36,070
+este grupo, este grupo, que lo pueden misualizar dentro de,
+
+91
+00:06:36,350 --> 00:06:38,910
+con un filtro a la ventana de esos negocios,
+
+92
+00:06:39,370 --> 00:06:41,770
+o perfectamente lo podrían visualizar directamente desde aquí,
+
+93
+00:06:41,970 --> 00:06:44,430
+tenemos 53 soció de negocio,
+
+94
+00:06:44,790 --> 00:06:49,610
+dentro de este grupo, o otro
+
+95
+00:06:49,611 --> 00:06:54,770
+caso que podríamos ir confirmando o verificando es el tema de la organización,
+
+96
+00:06:55,850 --> 00:07:00,390
+todos aquellos clientes que deberían ser
+
+97
+00:07:00,391 --> 00:07:04,550
+de peninar o de idea que lo vean incorrectamente definidos,
+
+98
+00:07:05,670 --> 00:07:09,610
+no sabísan o pueden verificar todo lo que son las fichas de los clientes
+
+99
+00:07:09,611 --> 00:07:12,750
+para confirmar que esté todo correctamente generado.
+
+100
+00:07:14,310 --> 00:07:17,550
+Una vez completamos,
+
+101
+00:07:17,551 --> 00:07:20,550
+volviendo un poco al pedido en la venta,
+
+102
+00:07:21,230 --> 00:07:24,330
+una vez completamos estos ordenes de venta,
+
+103
+00:07:24,390 --> 00:07:29,490
+podemos venir aquí, podemos completar y a medida que estamos completando,
+
+104
+00:07:29,750 --> 00:07:34,430
+este pedido ya va a quedar pronto para poder ser entre
+
+105
+00:07:34,431 --> 00:07:37,510
+coordinada su entrega.
+
+106
+00:07:38,090 --> 00:07:41,530
+En cada una de las líneas vamos a poder ver que tenemos una cantidad
+
+107
+00:07:41,531 --> 00:07:44,370
+de entregada, primero una cantidad de ordenada,
+
+108
+00:07:44,930 --> 00:07:48,370
+después una cantidad de entregada, después una cantidad de facturada.
+
+109
+00:07:49,150 --> 00:07:53,050
+Todo esto se va a poder ir definiendo a medida que vayan pasando las
+
+110
+00:07:53,051 --> 00:07:57,690
+acciones en la gestión de distribución para hacer la entrega
+
+111
+00:07:57,691 --> 00:08:01,190
+y su correspondiente facturación que lo vamos a ver en otro vídeo.

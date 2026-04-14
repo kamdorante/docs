@@ -1,0 +1,89 @@
+# 📄 Cambiar Formato de Impresión de Facturas en Invoicy (Solop)
+
+## 🧭 Objetivo
+
+Esta guía explica cómo configurar y priorizar los distintos formatos de impresión de facturas en Invoicy desde el sistema Solop. Se detallan los pasos para modificar el formato desde tres ubicaciones clave y se visualizan los efectos de cada una.
+
+## 🗂️ Ubicaciones para configurar el Formato de Impresión
+
+El sistema permite definir el formato de impresión desde tres ventanas diferentes. El orden de prioridad es el siguiente (de menor a mayor):
+
+- Proveedor Fiscal
+
+- Terminal Punto de Venta
+
+- Tipo de Documento ✅ tiene la mayor prioridad
+
+## 1️⃣ Configuración desde Proveedor Fiscal
+
+- Ingresar a la ventana Proveedor Fiscal.
+
+- Ubicar el campo Formato de Documento.
+
+- Seleccionar uno de los siguientes valores:
+
+1. 110mm
+
+2. 70mm
+
+3. 80mm
+
+4. Hoja A4 Español
+
+5. Hoja A4 Español-Inglés
+
+6. Hoja A5
+
+7. No especificado
+
+[![enter image description here](https://stackoverflowteams.com/c/solop/images/s/090a9667-c34a-4ad1-8432-85bccef11beb.png)](https://stackoverflowteams.com/c/solop/images/s/090a9667-c34a-4ad1-8432-85bccef11beb.png)
+
+Guardar los cambios.
+
+📌 Este será el formato predeterminado si no hay una configuración más específica en las otras dos ubicaciones.
+
+## 2️⃣ Configuración desde Terminal Punto de Venta
+
+- Ir a la ventana Terminal PDV.
+
+- Localizar el campo Formato de Documento.
+
+- Seleccionar el valor deseado (por ejemplo, 70mm).
+
+- Guardar los cambios.
+
+- Reiniciar caché para aplicar los cambios.
+
+📌 Si hay un formato configurado en el Proveedor Fiscal, pero también en la Terminal, prevalecerá este último.
+
+[![enter image description here](https://stackoverflowteams.com/c/solop/images/s/67672b92-be30-4012-960b-9f7667817d01.png)](https://stackoverflowteams.com/c/solop/images/s/67672b92-be30-4012-960b-9f7667817d01.png)
+
+## 3️⃣ Configuración desde Tipo de Documento ✅
+
+- Ir a la ventana Tipo de Documento (por ejemplo, Factura, Ticket).
+
+- Establecer el Formato de Documento deseado (por ejemplo, A4, 110mm, etc.).
+
+- Guardar los cambios.
+
+- Reiniciar caché.
+
+Generar una nueva orden para visualizar el cambio.
+
+📌 Este valor tiene máxima prioridad sobre las otras configuraciones.
+
+[![enter image description here](https://stackoverflowteams.com/c/solop/images/s/7c6dcaca-7fdb-4071-909f-69f8a18730c0.png)](https://stackoverflowteams.com/c/solop/images/s/7c6dcaca-7fdb-4071-909f-69f8a18730c0.png)
+
+## 🧪 Pruebas y Resultados
+
+Ejemplos de configuraciones y sus resultados al imprimir facturas:
+
+Configuración	    Formato Seleccionado	    Resultado Visual
+Proveedor Fiscal	Hoja A5	                    Formato Mediano
+Terminal PDV	         70mm	                    Más angosto que A5
+Tipo de Documento	 110mm	                    Más grande que 70mm
+
+🌀 Importante: siempre reiniciar caché después de modificar una configuración, para que se apliquen los cambios correctamente.
+
+✅ Conclusión
+El sistema de Solop permite una configuración flexible de los formatos de impresión. Asegurate de revisar bien qué nivel tiene configurado un formato, ya que el valor en Tipo de Documento sobrescribe cualquier otro.

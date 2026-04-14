@@ -1,0 +1,51 @@
+1
+00:00:00,780 --> 00:00:03,140
+Bueno, tenemos un tema acá, con el tema de,
+
+2
+00:00:03,400 --> 00:00:08,600
+eh, el importe que sale del
+
+3
+00:00:08,601 --> 00:00:11,780
+lote procesador de pagos, tenemos 800, que es solamente un pago,
+
+4
+00:00:11,940 --> 00:00:15,520
+ponele, vamos a hacer un caso, de un solo pago, 300 pesos,
+
+5
+00:00:16,120 --> 00:00:21,560
+tiene una tarifa de nueve veinte y una retención de cinquenta y dos ahora
+
+6
+00:00:21,561 --> 00:00:24,040
+nueve veinte más más incuentidos,
+
+7
+00:00:24,760 --> 00:00:30,060
+da esto,
+
+8
+00:00:30,600 --> 00:00:35,140
+esto está descontando. el tema que el 9-20 hay que
+
+9
+00:00:35,141 --> 00:00:39,740
+sumarlo y viva entonces y esto acá esta tarifa no
+
+10
+00:00:39,741 --> 00:00:44,380
+está descontando acá el impuesto y esto entonces están
+
+11
+00:00:44,381 --> 00:00:48,460
+descontando y van a generar un documento que es menor O sea,
+
+12
+00:00:48,520 --> 00:00:51,680
+para descoltar de caja de 9-20 y,
+
+13
+00:00:51,760 --> 00:00:54,260
+en vez de hacerlo, 9-20 más iba.
