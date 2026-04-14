@@ -78,6 +78,11 @@ Documentación de referencia del diccionario de aplicación para el módulo de G
 ### Navegadores
 - [Consulta de Facturas por Pagar](payable-documents/browser-ap-invoice)
 
+## Gestión de Importaciones
+
+### Ventanas
+- [Expediente de Importación](import-management/import-expedient)
+
 ## Gestión de Shopping
 
 ### Ventanas

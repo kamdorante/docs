@@ -13,3 +13,6 @@ Gestión de pólizas y asientos contables manuales.
 ## Ventanas
 - [Lote de Pólizas Contables](gl-journal-batch)
 - [Póliza Contable](gl-journal)
+
+## Procesos
+- [Importación Masiva de Asientos Contables](import-journal-entries)

@@ -59,6 +59,17 @@ Estas retenciones quedan vinculadas al documento original y se puede navegar des
 
 ---
 
+## Ventanas de Retenciones
+
+El sistema cuenta con dos ventanas dedicadas para consultar las retenciones según su naturaleza:
+
+- **Retenciones por Pagar**: muestra las retenciones generadas desde documentos por pagar. Filtra automáticamente los documentos según los tipos configurados en *Definición de Retenciones* y en *Tipo de Retención*.
+- **Retenciones por Cobrar**: muestra las retenciones que los clientes aplican sobre las facturas emitidas por la empresa.
+
+Ambas ventanas incluyen los campos de facturación electrónica y la bitácora del documento electrónico, lo que permite verificar el estado de envío de cada resguardo directamente desde el registro.
+
+---
+
 ## Resguardos
 
 Los **resguardos** se generan en base a las retenciones aplicadas. Funcionan como una **Nota de Crédito Proveedor** y se gestionan desde el proceso:
@@ -83,6 +94,19 @@ Los **resguardos** se generan en base a las retenciones aplicadas. Funcionan com
 
 ::: tip
 Los resguardos siempre se generan en *moneda local*, convertida con la *tasa de cambio* del documento por pagar.
+:::
+
+### Opción de Consolidación
+
+Al ejecutar el proceso, se puede activar la opción **Consolidar**:
+
+- **Sin consolidación**: se genera un resguardo independiente por cada línea de retención seleccionada.
+- **Con consolidación**: agrupa las retenciones del mismo socio de negocio y moneda en un único documento con múltiples líneas.
+
+### Integración con Facturación Electrónica
+
+::: tip
+Para que el resguardo se envíe automáticamente al proveedor de facturación electrónica al completarse, el tipo de documento debe tener habilitado: **Facturación Electrónica**, el indicador **Retención** activo y la opción **Enviar después de Completar**.
 :::
 
 ### Impresión

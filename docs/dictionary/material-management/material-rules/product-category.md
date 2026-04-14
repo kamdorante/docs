@@ -92,3 +92,9 @@ Define los datos por defecto de reabastecimiento para esta categoria.
 | Tipo de Reabastecimiento | Tipo de reabastecimiento | Lista | Si |
 | Nivel Minimo | Nivel minimo de existencias | Numero | No |
 | Nivel Maximo | Nivel maximo de existencias | Numero | No |
+
+## Consideraciones importantes
+
+- El asiento contable toma la cuenta del **producto**, no directamente de la categoría. Por eso es obligatorio ejecutar **Copiar Cuentas** después de modificar la contabilidad de la categoría; sin ese paso, recontabilizar no tendrá efecto.
+- Si solo se quiere corregir la cuenta para un producto específico (no para toda la categoría), modificarla directamente en la pestaña **Contabilidad** del producto.
+- La acción **Copiar Cuentas** actualiza masivamente todos los productos de la categoría; si algunos productos tienen cuentas deliberadamente diferentes, deben revisarse individualmente después de ejecutar la acción.

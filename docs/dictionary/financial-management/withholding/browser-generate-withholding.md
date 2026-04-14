@@ -37,3 +37,21 @@ Menú: Gestión Financiera → Retenciones → Generar Retenciones
 | Tipo de Moneda | Tipo de tasa de conversión de moneda | No | No |
 | No. del Documento | Número de secuencia del documento | No | No |
 | Estado del Documento | Estado actual del documento | No | No |
+
+## Parámetros del Proceso
+
+| Parámetro | Descripción | Tipo | Obligatorio |
+|-----------|-------------|------|-------------|
+| Acción del Documento | Estado objetivo al procesar (Preparar o Completar) | Lista | Sí |
+| Consolidar | Agrupa las retenciones seleccionadas del mismo socio de negocio y moneda en un único resguardo con múltiples líneas. Sin esta opción, se genera un resguardo por cada línea seleccionada. | Sí/No | No |
+
+## Consideraciones importantes
+
+- Las retenciones deben estar en estado **Completado** para aparecer en este browser.
+- Con **Consolidar** desactivado: un resguardo por cada retención seleccionada.
+- Con **Consolidar** activado: un único resguardo por socio de negocio y moneda, con una línea por cada retención agrupada.
+
+## Ventanas Relacionadas
+
+- [Definición de Retenciones](withholding-definition)
+- [Retenciones por Pagar](withholding-vendor)

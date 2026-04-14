@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ls \"c:/Users/doran/Documents/documentacion solop/docs/Proceso de Importación/\"*/)"
+    ]
+  }
+}

@@ -180,3 +180,9 @@ Documentación de referencia del diccionario de aplicación para el módulo de G
 - [Tema de Subasta](market-place/bid-topic)
 - [Vendedor de la Subasta](market-place/auction-seller)
 - [Comprador de la Subasta](market-place/auction-buyer)
+
+## Tienda Web
+
+### Ventanas
+
+- [Tienda Web](web-store/web-store)
