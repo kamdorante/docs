@@ -177,5 +177,5 @@ Una organización importa un lote de producto desde el exterior con pago anticip
 ## Ventanas relacionadas
 
 - [Orden de Compra](../purchase-orders/purchase-order)
-- [Recepción de Material (Proveedor)](../reception/material-receipt-vendor)
+- [Recepción de Productos](../reception/material-receipt)
 - [Factura (Proveedor)](../payable-documents/invoice-vendor)
