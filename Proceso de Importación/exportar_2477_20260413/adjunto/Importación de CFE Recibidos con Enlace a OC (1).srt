@@ -1,0 +1,251 @@
+1
+00:00:02,220 --> 00:00:06,340
+Bueno, siguiendo con el ejemplo del caso del video anterior,
+
+2
+00:00:07,140 --> 00:00:10,260
+aquí tenemos el registro que habíamos importado,
+
+3
+00:00:10,540 --> 00:00:15,740
+¿sí? Y vamos a aclarar
+
+4
+00:00:15,741 --> 00:00:20,460
+un poco. algo, en primer lugar, que es que el proceso de importación de
+
+5
+00:00:20,461 --> 00:00:24,620
+documentos, en caso de que el socio negocio no exista,
+
+6
+00:00:25,220 --> 00:00:29,700
+se puede configurar para que el mismo sea creado automáticamente por el proceso.
+
+7
+00:00:30,680 --> 00:00:33,380
+Esto se configura en dos lugares. distintos.
+
+8
+00:00:33,960 --> 00:00:36,320
+Se puede configurar a nivel de la compañía.
+
+9
+00:00:37,020 --> 00:00:41,640
+Si queremos que esta parametrización aplique para todas las organizaciones de la compañía,
+
+10
+00:00:42,300 --> 00:00:45,720
+lo parametrizamos directamente en la compañía,
+
+11
+00:00:46,240 --> 00:00:49,100
+en información de la compañía. Aquí tenemos el check,
+
+12
+00:00:49,680 --> 00:00:53,520
+crear socios al importar documentos y si no,
+
+13
+00:00:53,880 --> 00:00:56,440
+si creemos que se maneje a nivel de organización,
+
+14
+00:00:57,720 --> 00:01:02,360
+es en la información de la organización para
+
+15
+00:01:02,361 --> 00:01:04,460
+cada una de las organizaciones, vamos mediante,
+
+16
+00:01:05,060 --> 00:01:07,840
+en este caso es una lista, con las opciones,
+
+17
+00:01:08,020 --> 00:01:12,000
+no es obligatoria, ¿sí? Aclarado esto,
+
+18
+00:01:12,220 --> 00:01:15,600
+volvemos aquí y vamos a verificar que,
+
+19
+00:01:15,700 --> 00:01:18,740
+bueno, el proceso enlazó a esta orden, ¿sí?
+
+20
+00:01:20,720 --> 00:01:24,760
+Vamos a verla primero desde la ventana.
+
+21
+00:01:33,850 --> 00:01:35,970
+Así la buscamos y vemos,
+
+22
+00:01:37,170 --> 00:01:39,690
+como está definida la orden de compra
+
+23
+00:01:52,000 --> 00:01:54,040
+es esta. Vemos que, bueno,
+
+24
+00:01:54,080 --> 00:01:59,600
+el importe 36.842,12 más impuestos y
+
+25
+00:01:59,601 --> 00:02:05,300
+tiene una sola línea con cantidad 150.376,
+
+26
+00:02:05,580 --> 00:02:07,980
+¿sí? Y el precio 0,001.
+
+27
+00:02:08,000 --> 00:02:11,840
+0.245 que nos da el total que vimos.
+
+28
+00:02:13,160 --> 00:02:21,760
+Entonces si nosotros venimos y
+
+29
+00:02:21,761 --> 00:02:24,580
+vamos a definir el término El término de pago,
+
+30
+00:02:24,780 --> 00:02:28,000
+porque no pudo enlazar el término de pago con este código.
+
+31
+00:02:28,940 --> 00:02:32,500
+Este es un tema de parametrización, vamos a ponerle 30 días en este caso.
+
+32
+00:02:33,460 --> 00:02:38,040
+Y vamos a procesarlo. El que tenemos que utilizar es importar
+
+33
+00:02:38,041 --> 00:02:41,380
+facturas con enlace a orden de compra. es este proceso.
+
+34
+00:02:41,880 --> 00:02:44,420
+Este proceso es el normal,
+
+35
+00:02:44,980 --> 00:02:50,460
+¿sí? Debemos utilizar el que hace enlace y elegimos la organización y
+
+36
+00:02:50,461 --> 00:02:53,640
+la vamos a generar en preparar. No la vamos a completar todavía.
+
+37
+00:02:58,000 --> 00:03:01,260
+Y aquí ya inserto una factura y una línea.
+
+38
+00:03:02,180 --> 00:03:06,820
+Si vemos aquí ya definió el ID de la orden y aquí tenemos
+
+39
+00:03:06,821 --> 00:03:11,340
+el ID de la orden de
+
+40
+00:03:11,341 --> 00:03:13,420
+compra. factura, quiero decir, el de por P.
+
+41
+00:03:14,000 --> 00:03:18,560
+Si acercamos, vemos que está aquí en
+
+42
+00:03:18,561 --> 00:03:21,920
+proceso, generada, aquí hereda los datos de proyectos,
+
+43
+00:03:22,000 --> 00:03:26,220
+sellos, etcétera, las dimensiones desde el orden de compra,
+
+44
+00:03:26,760 --> 00:03:29,060
+¿sí? Vemos que el El importe quedó correcto.
+
+45
+00:03:30,600 --> 00:03:33,480
+Vamos a la línea y aquí vemos que la cantidad también.
+
+46
+00:03:33,620 --> 00:03:38,600
+La cantidad no se definió 1 sino que la cantidad correcta de él definida
+
+47
+00:03:38,601 --> 00:03:40,880
+en la línea de compra, también con el producto.
+
+48
+00:03:42,800 --> 00:03:45,200
+Total, subtotal. etcétera.
+
+49
+00:03:46,040 --> 00:03:49,840
+También los datos de la línea se definen desde la línea de orden de
+
+50
+00:03:49,841 --> 00:03:52,720
+compra, se heredan desde ahí.
+
+51
+00:03:54,440 --> 00:03:57,620
+Vemos que la orden de compra no tiene cantidad facturada,
+
+52
+00:03:59,200 --> 00:04:02,250
+por lo cual ahora sí podemos, Podemos completarla.
+
+53
+00:04:13,740 --> 00:04:16,340
+Aquí ya completó y si venimos a la línea,
+
+54
+00:04:16,600 --> 00:04:21,260
+refrescamos, tenemos la cantidad facturada correcta y
+
+55
+00:04:21,261 --> 00:04:26,520
+se generó el match peor automáticamente.
+
+56
+00:04:30,140 --> 00:04:34,820
+Y por último Otra cosa a mencionar es que en la ventana de documentos
+
+57
+00:04:34,821 --> 00:04:38,100
+por pagar también tenemos una pestaña que es líneas de CFE,
+
+58
+00:04:38,780 --> 00:04:44,060
+que esto simplemente muestra las líneas tal cual se descargaron
+
+59
+00:04:44,061 --> 00:04:48,770
+desde invoicy, ¿sí? O sea, es en base a las líneas CFE que
+
+60
+00:04:48,771 --> 00:04:51,190
+son las líneas que se importan en esta ventana,
+
+61
+00:04:51,990 --> 00:04:56,450
+en base a estas líneas, es que luego se va generando y asignando las
+
+62
+00:04:56,451 --> 00:04:59,890
+líneas definitivas del documento por pagar.
+
+63
+00:05:02,650 --> 00:05:05,460
+Así que bueno, Esto sería todo de momento.

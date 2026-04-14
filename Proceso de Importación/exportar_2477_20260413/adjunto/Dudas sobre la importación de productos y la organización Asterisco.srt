@@ -1,0 +1,123 @@
+1
+00:00:02,510 --> 00:00:07,090
+Bueno, estoy viendo algo acá en Daydee Producción y tengo una
+
+2
+00:00:07,091 --> 00:00:11,740
+duda porque justamente, El importar productos se lo pasé
+
+3
+00:00:11,741 --> 00:00:15,000
+a planilla, la organización le seteó una organización a Asterisco.
+
+4
+00:00:16,080 --> 00:00:20,640
+Lo único que quería era actualizar ciertos
+
+5
+00:00:20,641 --> 00:00:23,780
+productos que ya existen, actualizarles el socio de negocio.
+
+6
+00:00:25,260 --> 00:00:27,700
+El tema, acá está el código socio-negocio,
+
+7
+00:00:27,920 --> 00:00:31,280
+esto está bien, el tema es que en el producto,
+
+8
+00:00:31,940 --> 00:00:33,280
+si vos Si te a compras,
+
+9
+00:00:37,760 --> 00:00:40,180
+lo que necesitabas es que estos,
+
+10
+00:00:40,200 --> 00:00:45,360
+Estos registros queden con la organización Asterisco y
+
+11
+00:00:45,361 --> 00:00:48,160
+no están editables, o sea, te quema de idea.
+
+12
+00:00:48,180 --> 00:00:53,520
+Yo no sé qué lógica usa si se toma la organización del
+
+13
+00:00:53,521 --> 00:00:56,260
+usuario rol que estés usando en ese momento.
+
+14
+00:00:56,280 --> 00:01:00,140
+El resultado de la importación,
+
+15
+00:01:00,180 --> 00:01:04,240
+evidentemente no, porque estaba seteado como asterisco. Tampoco te lo permite modificar desde Bitcoin.
+
+16
+00:01:04,260 --> 00:01:07,320
+Yo tampoco, entonces no sabe cómo hacerlo,
+
+17
+00:01:07,480 --> 00:01:09,640
+porque está bien, se lo digo bien, esto es más,
+
+18
+00:01:09,740 --> 00:01:11,900
+si yo me fijo en el registro es del día de hoy,
+
+19
+00:01:12,040 --> 00:01:15,800
+o sea que, Si le tomó bien la importación, le asignó el socio de
+
+20
+00:01:15,801 --> 00:01:19,520
+negocio en compras, pero el único detalle es éste.
+
+21
+00:01:20,400 --> 00:01:24,460
+Porque yo, si voy a otros, por ejemplo en precio,
+
+22
+00:01:26,040 --> 00:01:29,140
+acá, Si vos le generás,
+
+23
+00:01:30,420 --> 00:01:33,400
+le podés editar la organización.
+
+24
+00:01:36,480 --> 00:01:40,180
+a no tampoco le podes editar mira por eso hay algo raro acá o
+
+25
+00:01:40,181 --> 00:01:44,500
+sea no estoy seguro que es acá si yo voy a compras y podes
+
+26
+00:01:44,501 --> 00:01:48,820
+editar ¿Tengo algo nuevo? También,
+
+27
+00:01:48,960 --> 00:01:51,600
+me quema de ideas. Entonces,
+
+28
+00:01:51,760 --> 00:01:54,900
+no sé. Eso es Ellos necesitan esto,
+
+29
+00:01:55,060 --> 00:01:57,580
+quieren importarlo como organización asterisco,
+
+30
+00:01:58,060 --> 00:02:00,320
+pero no estoy seguro cómo hacerlo.
+
+31
+00:02:00,600 --> 00:02:02,620
+¿Qué organización me está tomando?

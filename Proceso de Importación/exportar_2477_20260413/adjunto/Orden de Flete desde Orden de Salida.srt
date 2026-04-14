@@ -1,0 +1,23 @@
+1
+00:00:01,780 --> 00:00:03,880
+Voy a probar acá en Deide.dev,
+
+2
+00:00:04,660 --> 00:00:07,760
+la orden de salida a la 49, la misma del video,
+
+3
+00:00:08,380 --> 00:00:10,600
+transporte a uno, Max Verstappen, camión, cargo,
+
+4
+00:00:11,060 --> 00:00:14,320
+orden de flete y colocándole carga. Acá,
+
+5
+00:00:14,640 --> 00:00:18,280
+vamos a verlo, ok. y generada por donde flete 8.
+
+6
+00:00:28,080 --> 00:00:30,260
+Se en la cabeza de generar esta orden de flete.

@@ -1,0 +1,223 @@
+1
+00:00:00,460 --> 00:00:04,060
+Vamos a hacer una prueba en italmundo para importar factores en lote,
+
+2
+00:00:04,100 --> 00:00:06,400
+tenemos el formato importación, import patch in voice,
+
+3
+00:00:07,460 --> 00:00:10,560
+lvdf8 y el documento para las factores en lote 3.000 líneas.
+
+4
+00:00:17,920 --> 00:00:22,820
+Vamos a darle a procesar. Tu
+
+5
+00:00:22,821 --> 00:00:28,419
+va a tardar un momento. de
+
+6
+00:00:28,420 --> 00:00:30,679
+3.770 líneas,
+
+7
+00:00:30,759 --> 00:00:34,439
+tenemos 3.769, la primera es el encabezado,
+
+8
+00:00:34,979 --> 00:00:39,639
+vamos
+
+9
+00:00:38,477 --> 00:00:41,897
+que vamos a importar facturas por lote,
+
+10
+00:00:42,917 --> 00:00:45,617
+vamos a buscar registros, los importados no,
+
+11
+00:00:45,997 --> 00:00:49,737
+para validar, aquí ya borre la primera línea que estaba vacía,
+
+12
+00:00:49,977 --> 00:00:54,797
+tenemos 3769 líneas, de aquí tenemos el botón
+
+13
+00:00:54,798 --> 00:00:58,157
+validar socio en negocio que este es el que llena la información de los
+
+14
+00:00:58,158 --> 00:01:01,457
+socios y los crea en caso de que no existen,
+
+15
+00:01:01,757 --> 00:01:04,057
+validar socio en negocio, compañerita el cred,
+
+16
+00:01:05,017 --> 00:01:05,717
+procesar,
+
+17
+00:01:15,361 --> 00:01:17,821
+una vez aquí podemos validar por acá,
+
+18
+00:01:18,441 --> 00:01:22,221
+que tenemos socio en negocio,
+
+19
+00:01:22,222 --> 00:01:25,041
+Terencio Carina, con su dirección,
+
+20
+00:01:25,761 --> 00:01:30,381
+y si vemos deprando
+
+21
+00:01:30,382 --> 00:01:34,881
+por acá que están los socios de negocio, muy bien,
+
+22
+00:01:40,581 --> 00:01:44,101
+aquí tenemos los usuarios negocios, una validación por base de datos nos muesta que
+
+23
+00:01:44,102 --> 00:01:48,761
+están todos creados, de pronto a vez que mejorar el
+
+24
+00:01:48,762 --> 00:01:51,361
+mensaje de que se diga cuánto han sido creados.
+
+25
+00:01:54,381 --> 00:01:55,441
+Pero una vez teniendo
+
+26
+00:02:00,928 --> 00:02:05,148
+este nc teniendo el esto así,
+
+27
+00:02:05,248 --> 00:02:08,528
+esto tiene su nombre de tipo de comienzo, vamos a importar por acá vamos
+
+28
+00:02:08,529 --> 00:02:13,888
+a colocar la gente comercial vamos
+
+29
+00:02:13,889 --> 00:02:22,188
+a dejar esto si vamos a Como
+
+30
+00:02:32,920 --> 00:02:37,660
+vemos, se ha importado tres facturas y 3.769
+
+31
+00:02:37,661 --> 00:02:40,240
+líneas de factura, insertado.
+
+32
+00:02:40,500 --> 00:02:45,140
+Bueno, estos facturas por lote, me porto mejorar también este mensaje para
+
+33
+00:02:45,141 --> 00:02:48,160
+que diga tres lotes y tantas líneas de lote.
+
+34
+00:03:06,526 --> 00:03:08,166
+Si me malo el lote de factura
+
+35
+00:03:12,906 --> 00:03:18,526
+que vemos bueno
+
+36
+00:03:18,527 --> 00:03:23,126
+es que no me deja ni no me
+
+37
+00:03:23,127 --> 00:03:27,866
+va a avanzar y
+
+38
+00:03:27,867 --> 00:03:32,506
+tenemos el lote que creamos álbum en
+
+39
+00:03:32,507 --> 00:03:37,086
+haber tres este este y este
+
+40
+00:03:42,386 --> 00:03:46,046
+3 lotes acá, cada uno con sus respectivas lías,
+
+41
+00:03:46,047 --> 00:03:47,726
+este tiene 3.041
+
+42
+00:03:52,906 --> 00:03:55,686
+este tiene 722,
+
+43
+00:03:56,066 --> 00:04:00,086
+este tiene 6
+
+44
+00:04:03,924 --> 00:04:07,344
+Aquí está el proceso de importar facturas por lotes en Intel mundo Sieg,
+
+45
+00:04:07,384 --> 00:04:12,064
+almeras con 3000 líneas. Tenemos una vez creado
+
+46
+00:04:12,065 --> 00:04:15,424
+el note, vamos a hacer una prueba con este que tiene 6 líneas,
+
+47
+00:04:15,944 --> 00:04:18,824
+vamos a generar facturas, vamos a completar,
+
+48
+00:04:31,084 --> 00:04:34,364
+que se generaron los documentos,
+
+49
+00:04:34,365 --> 00:04:38,124
+vamos a ver
+
+50
+00:04:43,644 --> 00:04:48,444
+y aquí está los
+
+51
+00:04:48,445 --> 00:04:50,884
+documentos ya completos,
+
+52
+00:04:50,885 --> 00:04:55,704
+procesados, vamos a colar
+
+53
+00:04:55,705 --> 00:04:58,624
+el sistema,
+
+54
+00:04:58,625 --> 00:05:04,604
+se ingois estos
+
+55
+00:05:05,664 --> 00:05:10,284
+creados, ahorita 30, se crearon acá de
+
+56
+00:05:10,285 --> 00:05:12,504
+las colas, los documentos, y aquí,

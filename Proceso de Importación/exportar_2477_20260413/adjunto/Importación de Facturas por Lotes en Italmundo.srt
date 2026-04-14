@@ -1,0 +1,151 @@
+1
+00:00:00,980 --> 00:00:04,800
+Vamos a probar en italmundo en la importación de facturas por lotes,
+
+2
+00:00:05,300 --> 00:00:10,500
+la creación de eso son negocios. como el cacá tengo un formato o
+
+3
+00:00:10,501 --> 00:00:15,050
+vamos a ver acá Vamos a ver que
+
+4
+00:00:15,051 --> 00:00:18,610
+hay dos campos nuevos, código grupo de impuestos y grupo de impuestos.
+
+5
+00:00:20,860 --> 00:00:25,400
+en el formato de importación te agregue acá jodido grupo de impuesto
+
+6
+00:00:25,401 --> 00:00:30,140
+al final aquí va el código aquí tengo tres socios Como uno
+
+7
+00:00:30,141 --> 00:00:34,220
+os conseguí o no corrutió, no condené y su nombre de contacto test estuvo
+
+8
+00:00:34,221 --> 00:00:37,290
+y test 4. ¿Verdad?
+
+9
+00:00:40,640 --> 00:00:45,020
+Vamos a lo que es cargado de un puesto de archivos,
+
+10
+00:00:45,460 --> 00:00:48,320
+aquí le cambia el nombre de importar facturas por lotes.
+
+11
+00:00:48,390 --> 00:00:53,930
+se lo colocan en español está en mi cpc30 de
+
+12
+00:00:53,931 --> 00:00:56,980
+la formato vamos a seleccionar Que va a cargar,
+
+13
+00:00:57,300 --> 00:01:01,160
+que va este prevasocio.
+
+14
+00:01:06,660 --> 00:01:09,200
+4 de 3, 3,
+
+15
+00:01:09,320 --> 00:01:11,780
+4 me habéis dicho, este lo voy a borrar.
+
+16
+00:01:13,370 --> 00:01:16,750
+y bien mojacá que tiene acá grupo de impuestos,
+
+17
+00:01:17,190 --> 00:01:19,950
+state, grupo de impuestos turut.
+
+18
+00:01:20,500 --> 00:01:23,120
+Bueno, código que lo puedo impuesto cuando le vamos a acabar la solución de
+
+19
+00:01:23,121 --> 00:01:23,380
+negocio.
+
+20
+00:01:27,420 --> 00:01:32,480
+Aquí se crean esto. se creo el sociotez 4 que
+
+21
+00:01:32,481 --> 00:01:35,340
+creo un grupo de impuestos DNA vamos a ver acá
+
+22
+00:01:43,120 --> 00:01:45,340
+Al el tanto, son de vos. 3, 4,
+
+23
+00:01:45,440 --> 00:01:48,860
+5, 8, 9 y en el número de identificación tiene lo mismo que en
+
+24
+00:01:48,861 --> 00:01:52,220
+el código de la misma forma,
+
+25
+00:01:52,300 --> 00:01:54,980
+pueden ver Eres, por ejemplo, este,
+
+26
+00:01:55,820 --> 00:01:59,680
+surcio, refrescamos, estos,
+
+27
+00:02:00,120 --> 00:02:04,130
+tiene ru, Y es, ¿tocam? Y test,
+
+28
+00:02:04,510 --> 00:02:07,810
+¿tiene esa? Y ganas,
+
+29
+00:02:07,890 --> 00:02:10,920
+¿tocam? Si no tiene el grupo impuesto,
+
+30
+00:02:11,120 --> 00:02:13,380
+el baja del bar, el que tenga predeterminado,
+
+31
+00:02:13,580 --> 00:02:16,680
+el social negocio, cada vez platilla platilla.
+
+32
+00:02:16,780 --> 00:02:22,580
+si negocio que este tiene el ru,
+
+33
+00:02:22,581 --> 00:02:24,800
+¿Cuál es eso?
+
+34
+00:02:24,820 --> 00:02:27,320
+Ya en el socio negocio, el número de identificación,
+
+35
+00:02:27,460 --> 00:02:30,560
+el mismo que el código con el que se importa y el grupo de
+
+36
+00:02:30,561 --> 00:02:32,840
+impuestos es configurable en la importación.
+
+37
+00:02:32,860 --> 00:02:36,200
+de documento o en la configuración de Rusia,
+
+38
+00:02:36,380 --> 00:02:38,280
+en la información de las facturas por lote.

@@ -1,0 +1,167 @@
+1
+00:00:01,810 --> 00:00:05,550
+Bonatento a los problemas que le fueron surgiendo en la carga masiva de Oroddenes
+
+2
+00:00:05,551 --> 00:00:10,350
+Roulet Manet en la vuestros video para mostrarles que la carga se genera correctamente.
+
+3
+00:00:10,590 --> 00:00:12,630
+Si definimos los datos, eh,
+
+4
+00:00:12,950 --> 00:00:15,870
+tanto de la order en que no exista el dato porque esto fue de
+
+5
+00:00:15,871 --> 00:00:18,470
+uno de los errores que ocurrió, o sea, las ordenes ya existían,
+
+6
+00:00:18,471 --> 00:00:21,150
+entonces, esta que había implicado, tiene que ser definirse.
+
+7
+00:00:21,470 --> 00:00:24,570
+Número de orden que no existan en el sistema y lo segundo sería,
+
+8
+00:00:25,430 --> 00:00:30,270
+eh definir, el código de ubicación global del social negocio.
+
+9
+00:00:30,271 --> 00:00:34,370
+que pareciera en el archivo que me pasaron que no está correcto,
+
+10
+00:00:34,630 --> 00:00:38,630
+entonces yo que hago bueno voy a localización del sdn y tomo este dato
+
+11
+00:00:38,631 --> 00:00:43,170
+como ejemplo de número de ubicación global y lo defino
+
+12
+00:00:43,171 --> 00:00:47,370
+en una planilla en la columna correcta y un número de orden que no
+
+13
+00:00:47,371 --> 00:00:51,590
+exista, entonces con esto voy a hacer una prueba para comprobarles que la carga
+
+14
+00:00:51,591 --> 00:00:55,190
+se genera correctamente, vamos a ir al cargador archivos,
+
+15
+00:00:55,410 --> 00:00:57,630
+elegir importar órdenes,
+
+16
+00:00:57,970 --> 00:01:03,350
+encargar rondalet, llute 18, luego voy a acargar
+
+17
+00:01:07,210 --> 00:01:11,690
+sería esto, código de cliente stockade,
+
+18
+00:01:12,030 --> 00:01:16,690
+la orden stockade, me dijo los datos están correctos entonces directamente
+
+19
+00:01:16,691 --> 00:01:20,210
+lo voy a importar,
+
+20
+00:01:23,310 --> 00:01:27,690
+entonces también Bueno,
+
+21
+00:01:27,850 --> 00:01:32,850
+me subí de las dos. Ahora voy a importar ordenes,
+
+22
+00:01:32,851 --> 00:01:37,690
+aquí refresco,
+
+23
+00:01:38,210 --> 00:01:40,310
+entre las dos líneas,
+
+24
+00:01:41,070 --> 00:01:44,290
+redizo, esto OK,
+
+25
+00:01:44,570 --> 00:01:49,130
+número de ubicación global, el número de documento
+
+26
+00:01:49,131 --> 00:01:55,510
+y el segundo también podemos importar,
+
+27
+00:01:55,511 --> 00:01:59,050
+un primero podría copiar el número de la orden,
+
+28
+00:01:59,610 --> 00:02:04,150
+la idea vamos a completar
+
+29
+00:02:04,151 --> 00:02:11,410
+y es ok, bien,
+
+30
+00:02:11,870 --> 00:02:15,050
+vamos a el histórico a ver detalle,
+
+31
+00:02:16,290 --> 00:02:20,130
+se generaron las dos órdenas,
+
+32
+00:02:20,230 --> 00:02:22,370
+bien, cinco, seis,
+
+33
+00:02:22,850 --> 00:02:27,990
+vamos a órdenas de venta,
+
+34
+00:02:28,470 --> 00:02:34,910
+vamos a consultar
+
+35
+00:02:34,911 --> 00:02:40,070
+y lo
+
+36
+00:02:40,071 --> 00:02:43,230
+definió para el este de necorrecto,
+
+37
+00:02:43,530 --> 00:02:46,510
+o sea, es este y el número está aquí,
+
+38
+00:02:46,890 --> 00:02:52,050
+porque no existía justamente así que bueno con esto creo
+
+39
+00:02:52,051 --> 00:02:56,750
+que les estamos mostrando que funciona correctamente pero definiendo con estos
+
+40
+00:02:56,751 --> 00:03:01,550
+datos, o sea el del sdn que
+
+41
+00:03:01,551 --> 00:03:05,810
+es la educación global y por otro lado órdenas que no existan en el
+
+42
+00:03:05,811 --> 00:03:06,030
+sistema

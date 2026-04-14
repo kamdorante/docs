@@ -1,0 +1,51 @@
+1
+00:00:00,080 --> 00:00:02,720
+¿Aquí voy a ver cómo se importa el paquete?
+
+2
+00:00:03,600 --> 00:00:06,260
+No vamos aquí, yo escribo paquín,
+
+3
+00:00:06,420 --> 00:00:09,580
+los primeros que me sale es esto.
+
+4
+00:00:11,860 --> 00:00:14,340
+Bueno, paquín por pacas,
+
+5
+00:00:14,460 --> 00:00:17,440
+este, porque está aquí, ehm,
+
+6
+00:00:17,620 --> 00:00:21,120
+nada, lo que esté por ahí que vemos, podemos hacer este mismo si queremos,
+
+7
+00:00:21,800 --> 00:00:24,040
+si no le damos copiar y no nos damos mala vida.
+
+8
+00:00:24,520 --> 00:00:27,780
+Cuardamos, e importante que esto esté así, barra TMP si no ha de un
+
+9
+00:00:27,781 --> 00:00:33,860
+error loco hay que ir unisada que y aquí en el primero seleccionamos
+
+10
+00:00:33,861 --> 00:00:37,920
+archivo, cargar archivo aquí tengo por aquí el de cargar rol,
+
+11
+00:00:38,100 --> 00:00:41,720
+aquí está, rol procesador que acabo de exportar,
+
+12
+00:00:41,721 --> 00:00:46,200
+cargar, lo cargar aquí me pareció esto lo de guardar y luego para aquí,
+
+13
+00:00:46,520 --> 00:00:49,360
+desde aquí y listo importado

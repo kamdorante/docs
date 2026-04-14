@@ -1,0 +1,15 @@
+1
+00:00:02,190 --> 00:00:07,150
+Nos vamos a hacer a la ventana de consulta y designación.
+
+2
+00:00:10,210 --> 00:00:14,770
+Ya vemos que el importe aprobado se pasó al campo
+
+3
+00:00:16,430 --> 00:00:20,790
+tipo Gran Total, tanto también como Monto,
+
+4
+00:00:22,150 --> 00:00:22,890
+ya fueron a ver.

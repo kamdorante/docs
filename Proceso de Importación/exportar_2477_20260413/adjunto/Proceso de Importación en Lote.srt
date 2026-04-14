@@ -1,0 +1,295 @@
+1
+00:00:01,100 --> 00:00:06,000
+Vamos a hacer un recorrido de lo que es el proceso
+
+2
+00:00:06,001 --> 00:00:08,860
+para importar en lote. Esto se divide en dos.
+
+3
+00:00:09,540 --> 00:00:12,080
+Primero que todo viene en FTP, en un servidor que no.
+
+4
+00:00:14,610 --> 00:00:16,750
+Y se dividen en dos,
+
+5
+00:00:16,930 --> 00:00:20,190
+pueden ser archivos BANG-120 o BDG-100.
+
+6
+00:00:20,880 --> 00:00:25,420
+108FE, que estos que está aquí son los de factura en lote,
+
+7
+00:00:25,640 --> 00:00:28,380
+y esto que está aquí entiendo que son la parte contable,
+
+8
+00:00:28,720 --> 00:00:31,920
+si los asientos de diario o algo así, esto todavía no está soportado.
+
+9
+00:00:34,040 --> 00:00:37,020
+Aquí lo primero que hace es iniciar el trigger.
+
+10
+00:00:40,700 --> 00:00:44,480
+Toma esto que son los datos de configuración de URL y todo lo demás
+
+11
+00:00:44,481 --> 00:00:48,060
+para donde vamos a apuntar, se listan los archivos de FTP.
+
+12
+00:00:48,350 --> 00:00:52,370
+Luego los buscamos en una base de datos Redis a ver si ya eso
+
+13
+00:00:52,371 --> 00:00:56,290
+está importado. Esto es una manera rápida de no volver a procesar lo mismo.
+
+14
+00:00:58,960 --> 00:01:02,520
+Después preguntamos de qué tipo es el archivo, si es de este tipo BAN120
+
+15
+00:01:02,521 --> 00:01:07,100
+o más bien BAN100. Si el archivo
+
+16
+00:01:07,101 --> 00:01:09,980
+está en la base de datos, pues lo descarta y si no,
+
+17
+00:01:10,380 --> 00:01:15,300
+si no está, entonces lo descarta. va y verifica por este filtro
+
+18
+00:01:15,301 --> 00:01:17,940
+si es del tipo de asiento contable o por aquí y si no,
+
+19
+00:01:18,020 --> 00:01:20,380
+va por aquí abajo. Particularmente,
+
+20
+00:01:20,400 --> 00:01:24,020
+Después de aquí lo que se hace es descargar el archivo, después se extrae
+
+21
+00:01:24,021 --> 00:01:27,760
+la información a tipo JSON y por último se ejecuta el request que ya
+
+22
+00:01:27,761 --> 00:01:30,080
+tenemos preparado. Vamos a ejecutarlo,
+
+23
+00:01:30,200 --> 00:01:34,560
+a ver. Esto lo más rápido es esto,
+
+24
+00:01:34,700 --> 00:01:37,060
+esto de FTP es un poco lento pero es por la La conexión es
+
+25
+00:01:37,061 --> 00:01:41,240
+ella, ahí vemos que comenzó por el de arriba,
+
+26
+00:01:41,420 --> 00:01:44,080
+consiguió uno, al final no va a hacer nada, lo va a convertir y
+
+27
+00:01:44,081 --> 00:01:46,780
+ya. no pasa nada. Y luego va por aquí abajo,
+
+28
+00:01:47,560 --> 00:01:52,120
+lo descarga, 22 items dice aquí y aquí vamos a ver que
+
+29
+00:01:52,121 --> 00:01:54,760
+termina. Bueno, ya terminó, vamos a ver,
+
+30
+00:01:55,060 --> 00:01:59,600
+copiamos este numerito que está aquí y nos
+
+31
+00:01:59,601 --> 00:02:01,540
+vamos a Le a este señor que está aquí.
+
+32
+00:02:06,290 --> 00:02:08,950
+Ok, lo primero es que la gente de compañía,
+
+33
+00:02:08,970 --> 00:02:11,070
+bueno, toma el primero que consiga,
+
+34
+00:02:11,430 --> 00:02:14,720
+para que esto se pueda mejorar. Yo voy a colocarle uno aquí.
+
+35
+00:02:16,180 --> 00:02:19,400
+Este número es aleatorio. Entonces lo coloca el,
+
+36
+00:02:20,100 --> 00:02:23,860
+este, manera aleatoria. Y bueno,
+
+37
+00:02:24,100 --> 00:02:27,420
+todas las líneas que están aquí coinciden que son 22,
+
+38
+00:02:27,920 --> 00:02:32,520
+22 líneas que tengo aquí con las 22 que tengo
+
+39
+00:02:32,521 --> 00:02:34,540
+aquí. aquí en este Excel, que es el mismo que me descargué allá.
+
+40
+00:02:36,580 --> 00:02:39,200
+Bueno, ¿cuál es la filosofía aquí?
+
+41
+00:02:39,360 --> 00:02:44,020
+Muy simple, si el, El tipo de documento lo busca
+
+42
+00:02:44,021 --> 00:02:46,280
+por nombre, esto ya viene en el archivo,
+
+43
+00:02:46,640 --> 00:02:48,760
+está por aquí, tipo de documento.
+
+44
+00:02:48,780 --> 00:02:51,240
+Aquí está.
+
+45
+00:02:52,920 --> 00:02:57,980
+Establece fechas. Según
+
+46
+00:02:57,981 --> 00:03:00,360
+lo que viene aquí en la fecha del comprobante,
+
+47
+00:03:00,980 --> 00:03:03,720
+este número que está aquí es el número comprobante,
+
+48
+00:03:03,920 --> 00:03:06,580
+me imagino que es un secuencial. que ellos tienen, no sé, pero lo tomé.
+
+49
+00:03:06,680 --> 00:03:09,960
+Igual, esto se sobrescribe cuando se completa la facturación electrónica.
+
+50
+00:03:11,120 --> 00:03:15,220
+Y nada, las cantidades y eso. Esto lo toma del guarder archivo,
+
+51
+00:03:15,420 --> 00:03:18,920
+igual que la moneda.
+
+52
+00:03:22,880 --> 00:03:25,420
+¿Qué sucede si este archivo no funciona?
+
+53
+00:03:25,440 --> 00:03:28,160
+Lo que falta aquí, que todavía no lo he habilitado, pero se puede habilitar,
+
+54
+00:03:28,340 --> 00:03:30,400
+es que si ya el archivo se procesó,
+
+55
+00:03:30,900 --> 00:03:32,920
+se guarde en Redis para que no vuelva a pasar.
+
+56
+00:03:32,940 --> 00:03:35,680
+Como estoy en modo prueba, pues lo estoy ejecutando cuantas veces quiera.
+
+57
+00:03:37,120 --> 00:03:40,140
+Aquí vemos que lo que tardo con 22 registros,
+
+58
+00:03:40,980 --> 00:03:45,540
+La ejecución de esto, no me acuerdo dónde
+
+59
+00:03:45,541 --> 00:03:48,940
+es que se ve, pero lo tarda alrededor de 4 segundos.
+
+60
+00:03:48,960 --> 00:03:51,160
+más o menos 4 o 5 segundos de ejecutarse.
+
+61
+00:03:53,280 --> 00:03:56,000
+Esto es todo lo que hay aquí. Faltaría el otro,
+
+62
+00:03:56,280 --> 00:04:00,420
+pero sería bueno validar esto, Nico. Ya esto está,
+
+63
+00:04:01,320 --> 00:04:06,000
+de probar, simplemente la prueba que haríamos sería que ellos nos carguen un archivo
+
+64
+00:04:06,001 --> 00:04:08,920
+FTP, pero que tenga data sustancial,
+
+65
+00:04:09,060 --> 00:04:12,760
+no entidad. 2 registros, sino que tenga miles y ver cómo se comporta esto.
+
+66
+00:04:13,340 --> 00:04:15,820
+Y lo segundo es simplemente comparar, que fue lo que yo hice.
+
+67
+00:04:18,000 --> 00:04:21,580
+Contra el archivo, bueno, más o menos vi que estaba prácticamente igual,
+
+68
+00:04:22,540 --> 00:04:25,420
+los códigos del producto.
+
+69
+00:04:25,440 --> 00:04:29,740
+y eso lo vi que estaban bien y nada,
+
+70
+00:04:30,080 --> 00:04:33,460
+comparar que si hace falta algo pues agregarlo si hace falta previsión.
+
+71
+00:04:33,480 --> 00:04:38,020
+terminar algo, pues que me digas para colocarlo y seguir el proceso en
+
+72
+00:04:38,021 --> 00:04:40,380
+adelante. Completaré esto y ver que todo fluya,
+
+73
+00:04:40,500 --> 00:04:43,840
+pero bueno, creo que es por hoy. Hasta aquí estuvo bien porque es la
+
+74
+00:04:43,841 --> 00:04:44,340
+importación.

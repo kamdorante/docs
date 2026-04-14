@@ -1,0 +1,2179 @@
+1
+00:00:00,660 --> 00:00:05,540
+Ya, la presentación de hoy es mostrarles cómo es la gestión de las
+
+2
+00:00:05,541 --> 00:00:09,800
+importaciones dentro de Solop, y cómo pueden hacer todo la,
+
+3
+00:00:09,801 --> 00:00:14,520
+ah, la completa imputación
+
+4
+00:00:14,521 --> 00:00:19,460
+de todos los documentos relacionados. la importación comenzando
+
+5
+00:00:19,461 --> 00:00:23,260
+de la orden de compra con el expediente, que se entiendo que ya fueron
+
+6
+00:00:23,261 --> 00:00:27,700
+avanzando en eso, no, el frenador de compra es el expediente y sobre eso
+
+7
+00:00:27,701 --> 00:00:31,980
+poder luego seguir avanzando y ir agregando cada uno de ellos.
+
+8
+00:00:32,000 --> 00:00:34,280
+los costos adicionales a dicho pedir.
+
+9
+00:00:35,280 --> 00:00:39,960
+En la primera etapa, el objetivo central es poder volcar esos
+
+10
+00:00:39,961 --> 00:00:44,560
+costos adicionales, aunque van a ser costos o momentos
+
+11
+00:00:44,561 --> 00:00:49,200
+que afectan el expediente, y poder hacer una distribución de
+
+12
+00:00:49,201 --> 00:00:52,020
+esos costos a las líneas del expediente.
+
+13
+00:00:52,940 --> 00:00:57,480
+Y aquí está un poco la principal característica o ventaja de los fusiles de
+
+14
+00:00:57,481 --> 00:01:02,320
+la nueva extrevo presentando para poder luego contar con costos actualizados.
+
+15
+00:01:04,000 --> 00:01:09,480
+inviendo a los detalladamente y según el elemento del coste hígico reconozco,
+
+16
+00:01:09,500 --> 00:01:12,340
+se empiezan a entrar en las figuras,
+
+17
+00:01:12,460 --> 00:01:14,820
+la mi lo contable también y lo que son costos,
+
+18
+00:01:14,900 --> 00:01:19,480
+por eso la hayas un poco centrarnos en este ejemplo que es que
+
+19
+00:01:19,481 --> 00:01:24,420
+está bueno porque, Simple, es un producto con las facturas correspondientes y
+
+20
+00:01:24,421 --> 00:01:28,320
+así bueno, podemos ver cualquier detalle y ir a comentándolo,
+
+21
+00:01:28,560 --> 00:01:31,100
+juntándolo, según los hayan comentado,
+
+22
+00:01:32,220 --> 00:01:34,520
+cualquier pregunta que tengan, bienvenirse,
+
+23
+00:01:36,000 --> 00:01:40,620
+Acá daníamos lo que es la orden de compra,
+
+24
+00:01:41,180 --> 00:01:46,040
+entiendo que me salguía
+
+25
+00:01:46,041 --> 00:01:49,280
+en unos casos como por ejemplo los pados y demás, porque quiero centrarme primero
+
+26
+00:01:49,281 --> 00:01:51,980
+en la primera etapa, que la importación de,
+
+27
+00:01:52,000 --> 00:01:55,460
+todos los documentos, después podemos hacer un más elaborado,
+
+28
+00:01:55,580 --> 00:01:58,400
+que son los pavos, los anticipos y demás,
+
+29
+00:01:59,440 --> 00:02:03,480
+para enfocarnos un poco, en lo que entiendo que es más urgente hoy en
+
+30
+00:02:03,481 --> 00:02:06,420
+día que es actualizar el coco y voy a encargar todo el acuerdo de
+
+31
+00:02:06,421 --> 00:02:10,120
+los cuadros de ¡Suscríbete! A partir de este producto,
+
+32
+00:02:10,900 --> 00:02:15,400
+bien, preciito que es el hecho de negocio que se le quiero,
+
+33
+00:02:16,400 --> 00:02:19,600
+vamos a un poco a ver, acá vamos a ir a la idea de
+
+34
+00:02:19,601 --> 00:02:22,820
+esto se hizo en Cuba.
+
+35
+00:02:24,000 --> 00:02:27,040
+¿No? Y vamos a verificar,
+
+36
+00:02:27,220 --> 00:02:31,660
+vamos a preguntar un poco más. Esta mostrará si le hicimos acá en pruebas,
+
+37
+00:02:31,800 --> 00:02:36,480
+podemos replicar la producción si quieren, pero primero quiero presentarles como es el ejemplo,
+
+38
+00:02:37,180 --> 00:02:41,920
+para luego, este ir volcando y viendo cómo vamos esterricando esto del
+
+39
+00:02:41,921 --> 00:02:46,660
+damne de rucho bueno lo que primero vamos
+
+40
+00:02:46,661 --> 00:02:51,720
+a comenzar es desde la ventana expediente de importación
+
+41
+00:02:52,720 --> 00:02:57,800
+El expediente importación es un dato importante tiene que estar generado y
+
+42
+00:02:57,801 --> 00:03:00,060
+en estado completo se se llenar la monía,
+
+43
+00:03:00,640 --> 00:03:03,080
+por ejemplo, es un veo que ya lo han avanzado antes,
+
+44
+00:03:03,640 --> 00:03:06,940
+la monía, la monía siempre en pesos, porque se convierta a peso de un,
+
+45
+00:03:07,760 --> 00:03:11,060
+¿Deuruade? ¿Está en cuenta? Y se define,
+
+46
+00:03:11,240 --> 00:03:14,140
+bueno, vamos a ver un tema de la conversión,
+
+47
+00:03:14,141 --> 00:03:19,040
+que se va a hacer la importación
+
+48
+00:03:19,041 --> 00:03:21,300
+y se va a empezar a cargar.
+
+49
+00:03:21,440 --> 00:03:26,380
+acá documentos en este caso le pusieron número 6 2 a un ejemplo nomás
+
+50
+00:03:26,381 --> 00:03:31,560
+y sobre acá podemos ir viendo el
+
+51
+00:03:31,561 --> 00:03:36,200
+número sí el número del expediente que creo que acá ustedes han definido
+
+52
+00:03:36,201 --> 00:03:39,100
+otros Dúmeros. Sí, más si identificado por usted,
+
+53
+00:03:39,400 --> 00:03:42,360
+está perfecto. Por mí no veo, no tiene tipo de cuenta.
+
+54
+00:03:43,720 --> 00:03:45,740
+Si, está, tiene, ¿no? No.
+
+55
+00:03:45,760 --> 00:03:48,620
+Tienes que hacer que la puja me ven.
+
+56
+00:03:48,900 --> 00:03:52,260
+¿Qué pasa? Ok, no sé por qué tienes,
+
+57
+00:03:52,261 --> 00:03:54,200
+Ah, el que no ha achado que el inactivito. Por eso no se ve
+
+58
+00:03:54,201 --> 00:03:57,040
+bien. Entonces el expediente,
+
+59
+00:03:57,200 --> 00:04:00,200
+abriando dos, había uno que le daba realmente, no importa si es diferente,
+
+60
+00:04:00,840 --> 00:04:03,760
+este lo actualizamos todos, lo actualizamos porque tienen todos con este número,
+
+61
+00:04:04,340 --> 00:04:07,960
+que es otro otro y de tipo de documento,
+
+62
+00:04:08,480 --> 00:04:11,820
+no, No creo que es el problema para todos,
+
+63
+00:04:12,220 --> 00:04:16,800
+para los que hay que dar para atrás. Ahora si van a crear un
+
+64
+00:04:16,801 --> 00:04:21,600
+nuevo solamente van a tener este. el otro es un antibío 1 y
+
+65
+00:04:21,601 --> 00:04:23,740
+este es el nuevo Vamos,
+
+66
+00:04:24,360 --> 00:04:26,460
+el otro Tajo, lo actualizamos todo,
+
+67
+00:04:26,640 --> 00:04:29,020
+si igual, el programa se está id y no debería ver diferente.
+
+68
+00:04:30,080 --> 00:04:32,300
+Esto es el primer programa que se tiene que hacer, es tener esto completo,
+
+69
+00:04:32,520 --> 00:04:34,880
+¿por qué? Porque si no, no nos van a poder seleccionar de las demás
+
+70
+00:04:34,881 --> 00:04:38,840
+colines de cola, solamente ver expedientes completos.
+
+71
+00:04:38,860 --> 00:04:43,420
+Una vez, creen el expediente lo completa van a ir a la verdad de
+
+72
+00:04:43,421 --> 00:04:48,020
+compra y definen el expediente que entiendo que acá vamos a
+
+73
+00:04:48,021 --> 00:04:55,000
+tener acá y vamos
+
+74
+00:04:55,001 --> 00:04:59,540
+a tener de compra que bueno también la vamos a poder ver relacionada como
+
+75
+00:04:59,541 --> 00:05:04,460
+también la vamos a poder ver en el expediente
+
+76
+00:05:04,461 --> 00:05:09,180
+en las órdenas de la relación acá pueden
+
+77
+00:05:09,181 --> 00:05:10,580
+agregar una o venido No te preocupes.
+
+78
+00:05:18,340 --> 00:05:23,000
+es como cuando dar más tu impotación es lo
+
+79
+00:05:23,001 --> 00:05:25,940
+que inicialmente van a ir a reforma,
+
+80
+00:05:26,040 --> 00:05:29,280
+esto será la reforma ¿Se va acualizando a con los pasaderos?
+
+81
+00:05:29,360 --> 00:05:33,440
+Bueno, vamos a recordar los recuestos y te despozca pa' que te despozco.
+
+82
+00:05:33,800 --> 00:05:35,860
+Yo vi que después de todo que agrieran,
+
+83
+00:05:36,060 --> 00:05:38,500
+yo no entres en el ejemplo, pero decía que no estaba.
+
+84
+00:05:39,520 --> 00:05:42,440
+No hay la pena para el caso, pero sí, el caso de ahí ustedes
+
+85
+00:05:42,441 --> 00:05:47,020
+pueden agriar. o reactivar la orden y cargar nuevos o
+
+86
+00:05:47,021 --> 00:05:51,580
+como se ditaba si reactivan la orden y la puede reactivar lo que
+
+87
+00:05:51,581 --> 00:05:55,260
+hablamos recién la orden de compra es una que sí se puede reactivar y
+
+88
+00:05:56,260 --> 00:06:00,020
+Pero una cosa es la orden de compra, otra cosa es la factura que
+
+89
+00:06:00,021 --> 00:06:02,620
+nos lleva, porque la factura para dar a vos cuando diger la factura,
+
+90
+00:06:02,780 --> 00:06:07,040
+pues poner un precio más alto y no tenés por qué haber actualizado el
+
+91
+00:06:07,041 --> 00:06:09,740
+cómodo de compra, eso vean lo. Mattill guides manteengue, para favor!
+
+92
+00:06:09,980 --> 00:06:14,000
+Nos vemos subscribe! No se vean,
+
+93
+00:06:14,420 --> 00:06:18,560
+la idea que hagan todo una prueba ustedes completan todas su casfística y obviamente
+
+94
+00:06:18,561 --> 00:06:21,400
+van a haber dudas, consultas y bueno,
+
+95
+00:06:21,500 --> 00:06:24,760
+de mitad que vamos, que van a saltar, que saldrán más en la prueba
+
+96
+00:06:24,761 --> 00:06:29,380
+final de ustedes. que son los que tiene el conocimiento y los
+
+97
+00:06:29,381 --> 00:06:32,060
+que leían con esto día a día. Bien,
+
+98
+00:06:32,340 --> 00:06:36,940
+entonces creamos la verdad de compra y acá lo que vamos
+
+99
+00:06:36,941 --> 00:06:39,040
+a hacer, en este caso si lo muestro,
+
+100
+00:06:39,180 --> 00:06:41,400
+si lo comento y después hacemos un caso tráculo, si quieren.
+
+101
+00:06:42,400 --> 00:06:47,340
+De la orden de compras, vamos luego a hacer la operativa
+
+102
+00:06:47,341 --> 00:06:50,500
+de estando. En verdades de acá,
+
+103
+00:06:51,140 --> 00:06:53,500
+vamos a hacer un pago en el anticipo.
+
+104
+00:06:53,620 --> 00:06:56,540
+O sea, pueden desde el pago eligen la orden de comprens.
+
+105
+00:06:56,580 --> 00:06:58,680
+Además, al elegir lo que te compra,
+
+106
+00:06:58,960 --> 00:07:01,400
+ya se marca el pago como un anticipo, en la factura,
+
+107
+00:07:02,100 --> 00:07:04,880
+se marca como un anticipo, así que yo hago una cuenta de anticipo,
+
+108
+00:07:04,980 --> 00:07:08,500
+yo lo pongo a barrujo, pero después cuando en marca,
+
+109
+00:07:09,080 --> 00:07:12,540
+ahí, bueno, puede comparar si ahí hacen una,
+
+110
+00:07:13,540 --> 00:07:17,000
+una recepción o no, la recepción la hace como que se viene acá,
+
+111
+00:07:17,700 --> 00:07:22,380
+pero si va a tener la
+
+112
+00:07:22,381 --> 00:07:24,720
+factura, la fina, cuando cargan,
+
+113
+00:07:24,880 --> 00:07:27,600
+ahí tiene la factura, ahí pueden cargar la factura.
+
+114
+00:07:27,670 --> 00:07:32,690
+una y podrían tener una imagen de tránsito,
+
+115
+00:07:32,830 --> 00:07:36,070
+por ejemplo, para cargar y hacer la recepción como en tránsito,
+
+116
+00:07:36,310 --> 00:07:39,090
+o se voy a saber que eso está en marcado.
+
+117
+00:07:39,390 --> 00:07:43,510
+En marcado, claro, es importante porque hacer la recepción te mueve.
+
+118
+00:07:43,720 --> 00:07:46,340
+Contabilidad, es como que está mar que viene entranche,
+
+119
+00:07:47,460 --> 00:07:50,080
+después podás tráelo para acá, dejad todo ahí,
+
+120
+00:07:50,160 --> 00:07:54,200
+después lo mueves en tránsito y lo haces un movimiento alimentario acá.
+
+121
+00:07:55,200 --> 00:07:57,520
+ha estado en un tránsito. Sí,
+
+122
+00:07:57,760 --> 00:08:00,100
+porque no estoy en el mazern, ni en el alcohén.
+
+123
+00:08:01,100 --> 00:08:04,260
+Por ejemplo, que está la recepción de este,
+
+124
+00:08:04,380 --> 00:08:06,620
+pero ni en el mazern en tránsito. Entonces,
+
+125
+00:08:06,660 --> 00:08:08,900
+capaz que tenés el maz, capaz de la pena ser una en el mazern
+
+126
+00:08:08,901 --> 00:08:11,780
+nueva de este importación. Trance, sí, clarica.
+
+127
+00:08:12,080 --> 00:08:14,800
+Obtablemente está conectivo, ya me figuran todo el ver tibus.
+
+128
+00:08:15,100 --> 00:08:18,000
+Exacto. Exacto. ¿Dede que está en trance?
+
+129
+00:08:18,640 --> 00:08:21,540
+Bien. Entonces, ahí por eso está buena la página de la recepción,
+
+130
+00:08:21,820 --> 00:08:26,060
+pasa una y pasa dos, después cargar las facturas a partir de la recepción.
+
+131
+00:08:26,240 --> 00:08:28,620
+Tendría que hacer, este, este,
+
+132
+00:08:29,220 --> 00:08:31,700
+similares en cantidades, ¿no? Y este,
+
+133
+00:08:32,560 --> 00:08:35,080
+porque te pueden entre el camino de ordenados, ¿no? Claro,
+
+134
+00:08:35,300 --> 00:08:38,320
+sí, eso. Sí, después of una antigua, claro, que se sentía en mi piel.
+
+135
+00:08:38,680 --> 00:08:41,540
+Claro. La recechana puede hacer.
+
+136
+00:08:42,240 --> 00:08:44,280
+Primero allá, o sea, que están parcados,
+
+137
+00:08:44,560 --> 00:08:46,800
+no están mentarios, se lo tienen que ver, pero hay que ser la otra
+
+138
+00:08:46,801 --> 00:08:50,880
+almacén para que acá no vean que tengas inventario en esa almacén,
+
+139
+00:08:51,340 --> 00:08:53,820
+no por si no la van a ver, pero si vos hagas un invitado
+
+140
+00:08:53,821 --> 00:08:56,660
+del producto, por eso van a probar también, van a ver que ese producto
+
+141
+00:08:56,661 --> 00:09:00,940
+está transiste. A ver que hay algo que está por venir.
+
+142
+00:09:01,480 --> 00:09:04,120
+Ah, no solamente ordenado, está bien. Viste,
+
+143
+00:09:04,320 --> 00:09:07,300
+si está atractor, no es ni en la río, porque está shibuó.
+
+144
+00:09:07,420 --> 00:09:09,960
+Bueno, y no es ni en la Exacto. Yo ven una vez sobre,
+
+145
+00:09:10,840 --> 00:09:13,380
+una vez en tránsito, y bueno, lo estoy contando a tener que hacer.
+
+146
+00:09:14,240 --> 00:09:16,160
+que se me va a llegar, que menta a llegar a 4 o 3
+
+147
+00:09:16,161 --> 00:09:19,280
+o 4 o 5, que son sus nomes.
+
+148
+00:09:19,400 --> 00:09:21,520
+¿Tá presó la ventilación? Sí, sí, sí. No,
+
+149
+00:09:21,660 --> 00:09:23,800
+no, no, no, no, no, no, no, no,
+
+150
+00:09:24,800 --> 00:09:28,140
+no, no, no, no, no, no, no. Bien,
+
+151
+00:09:28,360 --> 00:09:32,320
+entonces bueno, todos esos casos igual que le enfrentamos a ver después lo prevé,
+
+152
+00:09:32,480 --> 00:09:35,620
+la bueno vamos a hacer una prueba de que miraba, metí cuatrocientas,
+
+153
+00:09:35,860 --> 00:09:39,220
+por como llegó a caver en trescientos cincuenta. ¿Qué hacemos con esa cincuenta?
+
+154
+00:09:39,640 --> 00:09:41,660
+Como le damos de bajas, como simple devolución, como,
+
+155
+00:09:49,090 --> 00:09:53,150
+¿No? Con el final y el suma de fechas,
+
+156
+00:09:53,590 --> 00:09:55,990
+bueno, podemos ver si faltan definis fechas.
+
+157
+00:09:56,010 --> 00:09:58,750
+Están nuevades, están en el expediente, todas las que hemos visto,
+
+158
+00:09:59,170 --> 00:10:02,190
+de cómo hace un automatismo todo de las fechas y demás que le dejamos
+
+159
+00:10:02,191 --> 00:10:07,530
+fuera, pero bueno si hay campos que querrían agregar fechas
+
+160
+00:10:07,531 --> 00:10:11,990
+que está fuera de lo que es el estándar de la,
+
+161
+00:10:12,010 --> 00:10:15,970
+del expediente y tapamos a ver el campus y a ver a meía.
+
+162
+00:10:16,970 --> 00:10:20,910
+Sí, sí, acá tienes una moja en la media pero si yo te prometí
+
+163
+00:10:20,911 --> 00:10:23,230
+en la orden es van a coantregar a esa supermete.
+
+164
+00:10:23,710 --> 00:10:26,330
+No te atener, si no te compras, ¿qué te van?
+
+165
+00:10:26,410 --> 00:10:30,930
+para crear en China, entender esto se dio el expediente y en este
+
+166
+00:10:30,931 --> 00:10:34,830
+te tenemos que ver si podemos agregar acá claro que sí o podemos agregar
+
+167
+00:10:34,831 --> 00:10:37,210
+más fechas para mí es lo hace importante,
+
+168
+00:10:37,410 --> 00:10:39,890
+si no, si no vamos de usar el excel que le ya que no,
+
+169
+00:10:40,110 --> 00:10:42,310
+tal vez nos va a simplicitar más y tendrán más que eso.
+
+170
+00:10:42,410 --> 00:10:45,270
+Entonces, si le falta fecha, creen a medición y os mira,
+
+171
+00:10:45,530 --> 00:10:47,770
+falta, en este despediente para ponerlo con un nuevo completo,
+
+172
+00:10:48,410 --> 00:10:52,270
+entonces fecha 1, fecha 2, fecha 3, si se actualiza van a automáticamente eso
+
+173
+00:10:52,271 --> 00:10:56,550
+no te digo que no, pero pueden tener campos de fechas para para poder
+
+174
+00:10:56,551 --> 00:10:58,310
+guiar el sol, tenemos la pechana.
+
+175
+00:11:11,530 --> 00:11:14,390
+En ese caso entonces la crea que la fecha tiene que ser actualizada.
+
+176
+00:11:14,410 --> 00:11:17,250
+de ser este completo, de la fecha,
+
+177
+00:11:17,490 --> 00:11:19,770
+no está ya cada día,
+
+178
+00:11:19,810 --> 00:11:22,010
+solo la altura, de este campo, de la particularidad,
+
+179
+00:11:22,230 --> 00:11:24,690
+de ahí sí, de la fecha que pueda ser acariciada.
+
+180
+00:11:25,690 --> 00:11:30,370
+bien teniendo el orden de compra generada
+
+181
+00:11:30,371 --> 00:11:33,290
+puede generar la recepción como por ejemplo en este caso,
+
+182
+00:11:34,090 --> 00:11:36,170
+yo espero que no compras ya generar la recepción,
+
+183
+00:11:36,750 --> 00:11:39,270
+pero si esos están de crear resución, de revencompras,
+
+184
+00:11:39,410 --> 00:11:41,590
+esto es igual a lo que me conozco.
+
+185
+00:11:42,690 --> 00:11:47,510
+Y en este caso tengo una cantidad creada del total y tengo una cantidad
+
+186
+00:11:47,511 --> 00:11:52,050
+facturada del total. Ya queréis la recepción y ya queréis la facturada.
+
+187
+00:11:52,051 --> 00:11:56,750
+La pasaduración, si sería, es cuando van tanto o la
+
+188
+00:11:56,751 --> 00:12:01,870
+opción e icónica. lo que la recepción se hace
+
+189
+00:12:01,871 --> 00:12:05,510
+a una enazena entrancia, o sea, cuando se embarca,
+
+190
+00:12:05,750 --> 00:12:10,890
+cuando se la sección de la bordo no sé cómo hoy
+
+191
+00:12:10,891 --> 00:12:15,870
+vamos las señas y ahora vamos a estar y no
+
+192
+00:12:15,871 --> 00:12:18,110
+sé eso que ustedes y eso no,
+
+193
+00:12:18,111 --> 00:12:20,410
+no, no, no voy a ir a las zonas a decir, o sea,
+
+194
+00:12:20,870 --> 00:12:25,590
+cargar el orden, como en el sistema de necesidad de cargas que es ingresar
+
+195
+00:12:25,591 --> 00:12:29,230
+a los, Miren tus pastas en la importación de la simánica.
+
+196
+00:12:29,250 --> 00:12:31,550
+Me he choxado, es un pasco más importante.
+
+197
+00:12:31,950 --> 00:12:35,250
+Es anteriore expediente. La orden de compra?
+
+198
+00:12:35,990 --> 00:12:39,530
+Claro, son momentos diferentes que vas a estar entiendo. No son todos juntos.
+
+199
+00:12:39,970 --> 00:12:42,530
+Están en 16, la simánica de la obra. Ahora,
+
+200
+00:12:42,610 --> 00:12:44,790
+el orden de compra es cuando hace la orden,
+
+201
+00:12:44,990 --> 00:12:47,890
+o sea, confirma la importación, cuando estás haciendo la forma,
+
+202
+00:12:48,710 --> 00:12:53,410
+entiendo bien entre cases y eso, y te entregan
+
+203
+00:12:53,411 --> 00:12:55,510
+a intiérmelo ¿No? No,
+
+204
+00:12:55,850 --> 00:12:57,930
+no. Necesit. Si, en este caso, pues,
+
+205
+00:12:58,090 --> 00:13:00,450
+Oye, tenemos las reformas,
+
+206
+00:13:00,510 --> 00:13:03,430
+la noto, les llegamos y a ellas estábamos,
+
+207
+00:13:03,550 --> 00:13:05,890
+ya le tiramos, ya estábamos, ya estábamos lo mismo.
+
+208
+00:13:06,030 --> 00:13:09,890
+Oye, es decir que esta recepción nos va a descancer en un momento del
+
+209
+00:13:09,891 --> 00:13:12,090
+paro. Claro, si nada, diga,
+
+210
+00:13:12,210 --> 00:13:15,630
+no te, o sea, el sistema. No sé cómo le mejana antes,
+
+211
+00:13:15,770 --> 00:13:19,850
+pero digo cada vez. No sé si prioriramente o si lo hacemos,
+
+212
+00:13:20,050 --> 00:13:25,130
+que coincide con un momento que la cadría pasar a
+
+213
+00:13:25,131 --> 00:13:29,530
+propiedad no entre la cosa. La cadría pasar a propiedad no entre cuando se
+
+214
+00:13:29,531 --> 00:13:34,080
+vuelva. en el mismo momento nos parece con el caso de una
+
+215
+00:13:34,081 --> 00:13:38,920
+excepción y que pase el impidio de compra y carieltar bien.
+
+216
+00:13:39,560 --> 00:13:41,660
+Pues yo tenés ese inventario, que pasé, no, que pasé,
+
+217
+00:13:41,880 --> 00:13:45,360
+no, y pues el y tu poder estar marcado.
+
+218
+00:13:46,090 --> 00:13:50,630
+No se tiene que hacer una cosa de ser
+
+219
+00:13:50,631 --> 00:13:53,890
+media, entonces comenzando a ver la importación.
+
+220
+00:13:54,530 --> 00:13:57,570
+Otra cosa cuando confirmara por forma, que puede tenerías y vueltas,
+
+221
+00:13:58,970 --> 00:14:01,610
+cuando confirmara por forma, tiene que ir tiempo después.
+
+222
+00:14:02,300 --> 00:14:07,260
+de morar de la producción cuando te entregan es
+
+223
+00:14:07,261 --> 00:14:10,040
+que ahí está manejado de la fecha o que jala fechas cuando te entregan,
+
+224
+00:14:10,240 --> 00:14:12,920
+está en cuarto, ahí se llama sección.
+
+225
+00:14:13,540 --> 00:14:16,460
+Más de su impor, ¿dónde volvícamente a ir y pasen el divulgado?
+
+226
+00:14:17,440 --> 00:14:19,610
+Bueno, dad. Y eso también me gustaría no te detrás,
+
+227
+00:14:19,770 --> 00:14:22,510
+confirmen el tema de ese, y como es el tema de tipo de cambio.
+
+228
+00:14:22,890 --> 00:14:25,950
+Fiscalmente el tipo de cambio es que ha fijado en el momento de conocimiento
+
+229
+00:14:25,951 --> 00:14:29,650
+al báger, porque tiene que ser fíjate. Y ahí te decía la jacura también.
+
+230
+00:14:30,710 --> 00:14:33,150
+Ahí entonces le llamamos el patruta. Entonces,
+
+231
+00:14:33,151 --> 00:14:36,010
+ahora se arrige con el, eso con los actores, entonces ahí podría ser,
+
+232
+00:14:36,011 --> 00:14:38,930
+entonces la tasa de capa sería con los actores de proveedor que va a
+
+233
+00:14:38,931 --> 00:14:43,350
+reclamar en parque. Entonces sería expediente projuego,
+
+234
+00:14:43,650 --> 00:14:46,930
+por donde compra en parque y pasura final arriba,
+
+235
+00:14:47,670 --> 00:14:49,770
+eso sería el efecto. Al final, exacto.
+
+236
+00:14:50,140 --> 00:14:52,560
+Hasta que llegue acá, cuando se le río,
+
+237
+00:14:52,880 --> 00:14:56,960
+va a ser moveres inventarios de la almacén entranjito,
+
+238
+00:14:57,160 --> 00:15:00,260
+ah, tuvo el almacén de ellos. En el interín,
+
+239
+00:15:00,440 --> 00:15:03,620
+entiendo que van a ver todos los adicionales que vamos a dar.
+
+240
+00:15:04,870 --> 00:15:07,270
+Sí, pero está bien, porque si no, tiene que estar editando,
+
+241
+00:15:07,590 --> 00:15:10,870
+si lo carregas primero el expediente, pues hace el orden de compra,
+
+242
+00:15:11,210 --> 00:15:13,730
+va a quedar mal, porque lo vamos a estar editando, pues lo van a
+
+243
+00:15:13,731 --> 00:15:15,990
+refuerzo, está bien,
+
+244
+00:15:16,090 --> 00:15:18,510
+las romantos después, pues por el final está arriba. Mira,
+
+245
+00:15:18,790 --> 00:15:22,450
+después, vean luego, va a que también va. si agregan o aprodutos y no?
+
+246
+00:15:23,090 --> 00:15:26,110
+No, no, no. Pero no es que la jugaca es una recepción en un
+
+247
+00:15:26,111 --> 00:15:29,990
+momento de que embarcan. No esté la de la programa final.
+
+248
+00:15:30,550 --> 00:15:32,770
+Claro. Pues son las que llevó acá,
+
+249
+00:15:33,050 --> 00:15:35,470
+saben como cuando llevó, ya tenemos el costo de los letens,
+
+250
+00:15:35,710 --> 00:15:37,870
+los pralía de el porto acá. cuando tengamos toda la idea.
+
+251
+00:15:38,570 --> 00:15:41,090
+Ah, no, claro, que soy. ¿Lo tengo?
+
+252
+00:15:41,870 --> 00:15:44,350
+Ah, lo tengo. No ni idea. No tengo ni idea. No tengo ni idea.
+
+253
+00:15:45,630 --> 00:15:48,250
+¿Te habéis liado? No, no, no. ¿Te habéis liado? Sí.
+
+254
+00:15:49,090 --> 00:15:53,010
+O sea, la, ¿A cuya final? Puedo preparar todo el paso a este tema.
+
+255
+00:15:53,230 --> 00:15:55,350
+Viste que no reglará una bolsa, si agarraí más,
+
+256
+00:15:55,510 --> 00:15:57,950
+ni si pasí ni me duele, me duele al fin de vez, si no
+
+257
+00:15:57,951 --> 00:16:00,490
+me duele al fin No, pues obviamente no en un cuarto paso,
+
+258
+00:16:00,491 --> 00:16:03,490
+que si la recogá. Volte en un tercer paso,
+
+259
+00:16:03,590 --> 00:16:06,830
+y cuando empare a margar el día. Esa es el segundo paso.
+
+260
+00:16:07,050 --> 00:16:11,810
+Son segundos. O sea, el primer paso. El arriba que dice de él es
+
+261
+00:16:11,811 --> 00:16:14,030
+cuando saca el tránsito,
+
+262
+00:16:14,790 --> 00:16:17,110
+saca el tránsito y lo trae para acá.
+
+263
+00:16:17,670 --> 00:16:20,430
+Eso es el arriba que dice. Claro.
+
+264
+00:16:20,970 --> 00:16:22,790
+Es el último. No,
+
+265
+00:16:31,790 --> 00:16:36,270
+no, no, no. Claro. Por eso, el pediste es con la orden de cómo.
+
+266
+00:16:37,890 --> 00:16:42,110
+O sea, la la, la, la, la, la palabra. Esa es el primer paso.
+
+267
+00:16:42,170 --> 00:16:47,410
+Digamos que tiene que, tiene dos más. Recepción es el
+
+268
+00:16:47,411 --> 00:16:51,690
+segundo paso, con la factura, pero fue que ahí cuando camés la propiedad.
+
+269
+00:16:52,210 --> 00:16:54,530
+el tercero por primera vez, es un parcero.
+
+270
+00:16:55,190 --> 00:16:58,270
+Perfecto. En este caso sí, cuarto factura,
+
+271
+00:16:58,810 --> 00:17:02,770
+ni cuarto de era la captura, quinto para seguir,
+
+272
+00:17:04,130 --> 00:17:06,770
+no en factura de la captura, con Chau,
+
+273
+00:17:06,810 --> 00:17:09,170
+chau, chau, chau, chau. Buena dabla. que son los pasos de los pasos.
+
+274
+00:17:09,230 --> 00:17:11,790
+Si queréis hacer una recepción y factura, lo con el autor del mundo paso,
+
+275
+00:17:12,410 --> 00:17:14,670
+porque el momento es el mismo momento,
+
+276
+00:17:14,930 --> 00:17:19,790
+lo que hace la recepción y la factura. Después de una factura de adicionales,
+
+277
+00:17:20,070 --> 00:17:22,130
+para el lugar al landing costo,
+
+278
+00:17:22,190 --> 00:17:26,750
+o sea para agregarle los costos adicionales. de la importación y
+
+279
+00:17:26,751 --> 00:17:31,370
+por último sería el el el el el arriba se más
+
+280
+00:17:31,371 --> 00:17:35,270
+que es cuando llega acá y mover la marca de hería de una de
+
+281
+00:17:35,271 --> 00:17:40,350
+una de una almacena a otra de almacén en tránsito lo
+
+282
+00:17:40,351 --> 00:17:43,190
+pasa en la sede. O sea,
+
+283
+00:17:43,290 --> 00:17:45,570
+¿qué es eso? ¿Puede digas, ¿co? Sí, lo es.
+
+284
+00:17:46,130 --> 00:17:48,610
+Pero no, lo es, ¿qué es el cuerpo?
+
+285
+00:17:49,010 --> 00:17:52,110
+Eso es el último paso. Sí,
+
+286
+00:17:52,670 --> 00:17:55,990
+también. Eso es el cuerpo. Eso cuerpo. Eso es Eso es el cuerpo.
+
+287
+00:17:55,991 --> 00:17:58,150
+Eso es Bueno, de pa'cho, no va a llegar a la pa'cho,
+
+288
+00:17:58,230 --> 00:17:59,790
+fue a la de pa'cho, a la a la de pa'cho, a la de
+
+289
+00:17:59,791 --> 00:18:02,530
+pa Bueno, nada, no es nada, hay que haber todos movimiento entonces en ese
+
+290
+00:18:02,531 --> 00:18:05,650
+orden, para verificar que todo el corteo que viene y demás.
+
+291
+00:18:06,550 --> 00:18:09,870
+Sí, y se lo dió más, porque, si hubo los de pasan,
+
+292
+00:18:10,050 --> 00:18:12,070
+me veis, se lo puedo llegar.
+
+293
+00:18:12,210 --> 00:18:16,650
+No me agadría dos de febrero,
+
+294
+00:18:16,950 --> 00:18:20,010
+pero al fin de mi tiel yo febrero, se pasa el seguro,
+
+295
+00:18:20,250 --> 00:18:22,730
+como el seguro es anual, a fin de mesos,
+
+296
+00:18:22,850 --> 00:18:26,750
+el paro te hace el seguro, ahora lo sabrido del México.
+
+297
+00:18:26,751 --> 00:18:29,770
+Ok No estaba eso aclarado,
+
+298
+00:18:30,370 --> 00:18:34,910
+pero no, como quiera, vean en la vuelta de como licía mejor.
+
+299
+00:18:35,090 --> 00:18:38,110
+Capas que sigo lo que nos vamos a decir, para lo antes y todo
+
+300
+00:18:38,111 --> 00:18:41,110
+se llaman en el año, promedio, monelés y los costa de lo Claro,
+
+301
+00:18:41,250 --> 00:18:43,330
+si lo haces. Si lo haces. Si haces.
+
+302
+00:18:44,330 --> 00:18:46,690
+y algo que depende de vos o no,
+
+303
+00:18:46,970 --> 00:18:49,350
+no hay necesidad de estar solo,
+
+304
+00:18:49,850 --> 00:18:52,370
+vean lo está perfecto para bajar a la boca,
+
+305
+00:18:52,890 --> 00:18:57,130
+bien, entonces tenemos la hora donde compra y hicimos la recepción y hicimos la
+
+306
+00:18:57,131 --> 00:19:01,690
+factura de proveedores todo. de China no digo estándar como un proveedor de
+
+307
+00:19:01,691 --> 00:19:05,290
+plazas o de las escenas. Este es de esta hora de compra de importación,
+
+308
+00:19:06,110 --> 00:19:09,310
+eventualmente siquiera podían incluso obtener otro tipo de documento,
+
+309
+00:19:09,550 --> 00:19:13,490
+orden de compra de importación, para como clasificar lo diferente y poder verlo diferente
+
+310
+00:19:13,491 --> 00:19:15,910
+y que no se mezclen con la zona. en el compra de plaza.
+
+311
+00:19:17,630 --> 00:19:22,610
+Pese a que no tiene ninguna implicancia específica de momento.
+
+312
+00:19:24,130 --> 00:19:26,830
+Ahora, ¿cuna de términos la lejos en compra, el expediente?
+
+313
+00:19:28,090 --> 00:19:30,790
+Lo que van a ir haciendo es,
+
+314
+00:19:31,790 --> 00:19:34,150
+Y a medida que le siguen las facturas,
+
+315
+00:19:34,310 --> 00:19:37,110
+vamos a ir teniendo facturas relaciones.
+
+316
+00:19:38,110 --> 00:19:42,630
+Estos factura relacionados son las que van
+
+317
+00:19:42,631 --> 00:19:46,570
+a ir a, agregando al expediente,
+
+318
+00:19:46,571 --> 00:19:51,170
+no con esto bien otro, y acá van a poder
+
+319
+00:19:51,171 --> 00:19:54,250
+viviendo todas las las que tienen relacionas.
+
+320
+00:19:54,910 --> 00:19:57,630
+En este caso, como que comentaba, la tenemos un nuevo tipo un documento que
+
+321
+00:19:57,631 --> 00:20:02,530
+es una actura prudor internacional y acá pueden visualizar
+
+322
+00:20:02,531 --> 00:20:07,730
+la orden, los
+
+323
+00:20:07,731 --> 00:20:09,990
+importantes totales, la moneda,
+
+324
+00:20:10,210 --> 00:20:12,430
+la moneda que eran pesos,
+
+325
+00:20:12,730 --> 00:20:16,070
+para mí. Y van ir agregando todas las facturas.
+
+326
+00:20:16,410 --> 00:20:18,890
+¿Cómo se agrega las facturas? Bueno, podemos ir al expediente.
+
+327
+00:20:19,890 --> 00:20:23,690
+Vamos a ir de, no, en el choque se llama documento por par.
+
+328
+00:20:29,720 --> 00:20:34,420
+vamos a agregar acá creo que tenemos un ejemplo acá
+
+329
+00:20:34,421 --> 00:20:39,660
+de algo que podemos agregar un nuevo costo
+
+330
+00:20:39,661 --> 00:20:42,810
+que ¡Adiós! o filete interno,
+
+331
+00:20:43,070 --> 00:20:45,890
+factura filete interno digamos,
+
+332
+00:20:46,530 --> 00:20:50,330
+no sé si me va a hacer esto,
+
+333
+00:20:50,730 --> 00:20:55,690
+y creamos esto si quieren para ver cómo se agregan las capturas de este
+
+334
+00:20:55,691 --> 00:20:56,490
+adicionales.
+
+335
+00:21:08,280 --> 00:21:13,390
+queramos sacar entonces esta factura game ya
+
+336
+00:21:13,391 --> 00:21:16,730
+sale, ¿eh? ¿Cómo habríamos acabado?
+
+337
+00:21:17,190 --> 00:21:22,370
+Hagremos nuevo, ponemos el tipo
+
+338
+00:21:22,371 --> 00:21:25,930
+de documento, haríamos justamente una captura.
+
+339
+00:21:26,130 --> 00:21:29,250
+Bueno, esto es un groin. Nacional, más de terminas de esto,
+
+340
+00:21:29,430 --> 00:21:33,510
+más de terminas de nacionales de nacionales, solamente que este documento cuando los regiones,
+
+341
+00:21:34,310 --> 00:21:39,730
+automáticamente se va a marcar el check en sí lo que he comentado para
+
+342
+00:21:39,731 --> 00:21:42,110
+que no tengan para evitar ese roo.
+
+343
+00:21:42,111 --> 00:21:45,350
+¡Adiós! se te manda el río, el sumado de hueco en el lugar de
+
+344
+00:21:45,351 --> 00:21:48,130
+un huéso. No, al río hace el lino y cada lilla.
+
+345
+00:21:48,730 --> 00:21:52,610
+Si usted, por ejemplo, acá ya saben, tengo que por defecto la lita de
+
+346
+00:21:52,611 --> 00:21:55,710
+pechos en dólares, porque bueno, que van a poner pesos.
+
+347
+00:21:55,711 --> 00:21:58,470
+Ah, de paro chéis, de la loca que ni paramos.
+
+348
+00:21:58,670 --> 00:22:03,150
+¡Ladrón! Y cada ficha vos tenés esta posibilidad,
+
+349
+00:22:03,330 --> 00:22:05,670
+incluso de poner 100 cento de iba,
+
+350
+00:22:05,770 --> 00:22:10,430
+de poner en roda. Y en este caso le pongo piste de guardar,
+
+351
+00:22:10,970 --> 00:22:15,690
+ahí me marca este cheque automáticamente. Estamos porque hay que expediente vamos a margar,
+
+352
+00:22:16,050 --> 00:22:21,410
+vamos a elegir, buscamos, tengo el 6-2 que sí estamos manejando,
+
+353
+00:22:21,910 --> 00:22:26,470
+entonces tengo que crear la factura, se marca automáticamente el check y
+
+354
+00:22:26,471 --> 00:22:29,490
+vamos a agregar el expediente que estamos este,
+
+355
+00:22:29,510 --> 00:22:34,250
+la afectada ¿No? Veimos aquí bueno la línea no
+
+356
+00:22:34,251 --> 00:22:38,330
+entiendo que tienen encargo de ¿Qué es?
+
+357
+00:22:38,331 --> 00:22:40,930
+¿Qué es? ¿Qué es? Ah, perdón, no lo vi.
+
+358
+00:22:41,330 --> 00:22:45,910
+Y flot interno tendría que estar acá delincuento y babasco y ponemos
+
+359
+00:22:45,911 --> 00:22:51,930
+acá elincorte de que sería 15.400.
+
+360
+00:22:58,790 --> 00:23:05,710
+este ímbolemo a cantidad este y
+
+361
+00:23:05,711 --> 00:23:10,830
+de la factura y
+
+362
+00:23:10,831 --> 00:23:15,930
+recámonos es el cambiado con la bumbina es
+
+363
+00:23:15,931 --> 00:23:21,210
+el total no me sé si es el total a
+
+364
+00:23:21,211 --> 00:23:26,110
+dos contenidores cambiado con la bumbina la bumbina ok
+
+365
+00:23:33,210 --> 00:23:35,610
+Esto manejo la congelada, solamente hay que decir,
+
+366
+00:23:35,830 --> 00:23:38,390
+si no lo tienen así, si no lo tienen presionado,
+
+367
+00:23:38,630 --> 00:23:41,090
+porque si ponen el precio para saber si te lo ha aumentado,
+
+368
+00:23:41,410 --> 00:23:43,470
+si no, si volvamos a ver dos, y un total.
+
+369
+00:23:43,690 --> 00:23:47,170
+no sabes el precio de que va aumentando y cómo te va creciendo el
+
+370
+00:23:47,171 --> 00:23:52,150
+precio de la lo que detachan más de de
+
+371
+00:23:52,151 --> 00:23:54,450
+de gestión acá.
+
+372
+00:23:54,770 --> 00:23:57,370
+No, he presvido a superar dos y divino.
+
+373
+00:23:57,530 --> 00:23:59,550
+Y siete mil yante. Claro, impresión.
+
+374
+00:23:59,670 --> 00:24:03,150
+hablé por material, no? Y si no sabes cuánto tiene que ir a las
+
+375
+00:24:03,151 --> 00:24:05,990
+descripciones, justamente de lo que no se tiene. Petitana,
+
+376
+00:24:06,130 --> 00:24:09,070
+familiaridad de olada. ¿Qué se me parece?
+
+377
+00:24:09,410 --> 00:24:11,570
+¿Qué de este era? Sí, lo vemos antes.
+
+378
+00:24:11,571 --> 00:24:13,950
+Sabon el mundo. si no hay que ver todo el tiempo?
+
+379
+00:24:14,910 --> 00:24:17,650
+Sí, de la nacional de capa que da varias diferentes,
+
+380
+00:24:17,810 --> 00:24:20,430
+pero es importante porque vamos a ver todo el tiempo. Tengo que ver de
+
+381
+00:24:20,431 --> 00:24:23,990
+la era 30 años. A que se paga un poco de 30.000 o 30.000.
+
+382
+00:24:24,150 --> 00:24:28,010
+Claro. Los hay que hago. Sí, que vamos a ver como te debería por
+
+383
+00:24:28,011 --> 00:24:32,370
+todo el tiempo. porque no nada normalmente estoy siempre también contenedado entonces vos podés
+
+384
+00:24:32,371 --> 00:24:37,070
+ir viendo de mejor manera eso ¿Qué era
+
+385
+00:24:37,071 --> 00:24:40,170
+que enseñé un protocento así? Perfecto ¿Y ahora?
+
+386
+00:24:41,170 --> 00:24:46,050
+¿Qué vamos a hacer con esto? Bueno, Una desareamon de aquí y
+
+387
+00:24:46,051 --> 00:24:48,370
+este es el paso que vamos,
+
+388
+00:24:48,371 --> 00:24:51,230
+el más barbudo para que era distribución.
+
+389
+00:24:51,930 --> 00:24:54,810
+Si vamos a la línea de cada factura,
+
+390
+00:24:55,210 --> 00:24:58,830
+entonces en cada línea van a tener este para usar este naviado.
+
+391
+00:24:58,910 --> 00:25:03,510
+lo tenemos aquí que lo
+
+392
+00:25:03,511 --> 00:25:08,770
+que no va a permitir acá es buscar y distribuir
+
+393
+00:25:08,771 --> 00:25:11,390
+esto en diferentes receptiones,
+
+394
+00:25:12,530 --> 00:25:14,830
+o sea, de la marca herida y ya lo hará se viste.
+
+395
+00:25:14,910 --> 00:25:17,930
+En lo que tiene ese entrancimiento,
+
+396
+00:25:18,610 --> 00:25:22,070
+vos podés ir a agregarme esto. Lea ajustar,
+
+397
+00:25:22,870 --> 00:25:27,390
+distribuís el costo
+
+398
+00:25:27,391 --> 00:25:30,470
+de esta línea de fatura en las líneas de recepción.
+
+399
+00:25:31,790 --> 00:25:34,950
+En el caso voy a buscar por fecha, esto,
+
+400
+00:25:35,050 --> 00:25:37,850
+bueno, pueden ver, acá tienen muchos cosas para poder filtrar por.
+
+401
+00:25:38,970 --> 00:25:41,430
+Y acá tengo una recepción que yo sé que es la ejemplo,
+
+402
+00:25:42,630 --> 00:25:46,890
+que la recepción de la almacén que viene acá.
+
+403
+00:25:46,910 --> 00:25:50,710
+que bueno, me amaste para la adolescente idea y este preciito,
+
+404
+00:25:50,830 --> 00:25:54,670
+acá tengo viste todos los datos y tengo acá cada una de las líneas
+
+405
+00:25:54,671 --> 00:25:58,470
+que van a importar. Esto lo venía a hacer para todas,
+
+406
+00:25:59,130 --> 00:26:03,650
+para una, entonces acá también hay un ejemplo de importaciones con muchas líneas,
+
+407
+00:26:03,750 --> 00:26:08,410
+con pocas líneas, a ver cómo quieren destruir. Una vez se lige en las
+
+408
+00:26:08,411 --> 00:26:12,010
+líneas del embarque digamos,
+
+409
+00:26:12,330 --> 00:26:17,110
+lo que entró al tránsito de la selección,
+
+410
+00:26:17,590 --> 00:26:20,710
+y le ponemos Ok, y acá nos va a preguntar ¿Ok?
+
+411
+00:26:21,590 --> 00:26:24,350
+¿Qué está repartiendo? ¿Qué es esto?
+
+412
+00:26:25,910 --> 00:26:29,850
+Y acabamos a tener lo que son esta figura que les comentaba que es
+
+413
+00:26:29,851 --> 00:26:33,870
+el El elemento cuato va a ser la mente que tenemos un,
+
+414
+00:26:33,890 --> 00:26:37,830
+el método de cosas que es material de la mercadería,
+
+415
+00:26:37,950 --> 00:26:42,850
+compres en plaza ya, plaza no de y
+
+416
+00:26:42,851 --> 00:26:45,050
+después de origen y después todos los adicionados.
+
+417
+00:26:45,850 --> 00:26:49,770
+Esto es el método de propostos, son definidos.
+
+418
+00:26:49,890 --> 00:26:55,070
+ustedes, se pueden ser definidos por ustedes como mejor se sientan cómos para
+
+419
+00:26:55,071 --> 00:26:59,840
+ver esos adicioneros. Nosotros por defecto lo separamos en esto.
+
+420
+00:27:00,840 --> 00:27:03,460
+Flete cuando desflete, cuando desflete, cuando desigubro, cuando desgraci,
+
+421
+00:27:03,480 --> 00:27:05,520
+se descuanto de TCA, cuanto de Taza Consular.
+
+422
+00:27:06,860 --> 00:27:09,400
+Esto lo pueden hacer más chico o más grandes se buscan,
+
+423
+00:27:09,401 --> 00:27:11,780
+como ustedes se sientan más claros,
+
+424
+00:27:11,840 --> 00:27:13,920
+según la información que quieran visualizar.
+
+425
+00:27:14,020 --> 00:27:18,260
+Me degas a ver de darle este costo como es un elemento de costo
+
+426
+00:27:18,261 --> 00:27:21,600
+de flete. Y vamos a usar una distribución del costo,
+
+427
+00:27:21,780 --> 00:27:25,120
+que esto es donde quiere mayor inteligencia,
+
+428
+00:27:25,420 --> 00:27:30,300
+es cuando pueden distribuir este costo según estos criterios de distribución.
+
+429
+00:27:30,620 --> 00:27:34,440
+A lo mejorismo que se aplica para poder distribuir esto según la ley y
+
+430
+00:27:34,441 --> 00:27:37,200
+la ley. tenemos peso, tenemos volumen,
+
+431
+00:27:37,560 --> 00:27:42,220
+también muchas veces se define por eso en el tema de
+
+432
+00:27:41,460 --> 00:27:45,880
+de recletes, hay cosas que la ladera,
+
+433
+00:27:46,140 --> 00:27:48,420
+que corta con chomandes, lo más que no tiene importe.
+
+434
+00:27:49,700 --> 00:27:52,480
+El tema que no tiene, no tiene nada. de su cargado no voy a
+
+435
+00:27:52,481 --> 00:27:56,380
+ir, o sea, pero cuando para que se despegue de la voz de cargado
+
+436
+00:27:56,381 --> 00:27:59,120
+o que no es, no, eso es todo más de lo volumen de cabo,
+
+437
+00:27:59,680 --> 00:28:01,880
+ustedes empiezan a requercer los hubo hace datos,
+
+438
+00:28:02,180 --> 00:28:06,120
+si, lo van a poder hacer, eso es un indicador,
+
+439
+00:28:06,460 --> 00:28:08,900
+antes de ello, eso Puedes decir, por costo,
+
+440
+00:28:09,360 --> 00:28:12,360
+se propagó un valor, bueno, esto es como usted es que era por cantidad.
+
+441
+00:28:13,360 --> 00:28:15,920
+Ahora voy a hacerlo por línea, que no pasa simple acá,
+
+442
+00:28:16,360 --> 00:28:18,900
+lo distribuyo en esta línea. Tendrías mucha línea,
+
+443
+00:28:18,960 --> 00:28:21,460
+la pueden decidir seguir equitativamente en la línea que hay.
+
+444
+00:28:22,140 --> 00:28:26,720
+¿Ah? Y todo lo pueden ir a ese. Y no necesaria nada más,
+
+445
+00:28:26,960 --> 00:28:30,140
+solamente todos vos. Y le dano que me,
+
+446
+00:28:31,400 --> 00:28:33,500
+De esta manera. Línea necesaria tenia ese producto.
+
+447
+00:28:33,900 --> 00:28:37,020
+En este caso es, Y lo que cargaba. Sí, le importa a este producto.
+
+448
+00:28:37,180 --> 00:28:39,220
+Si tenías tres, Y a tres, y o sea,
+
+449
+00:28:39,280 --> 00:28:43,960
+estas trelinas de la de Iñitatín, y ahí fortantía,
+
+450
+00:28:44,600 --> 00:28:47,160
+entonces yo tengo que volver, y si le dije,
+
+451
+00:28:47,260 --> 00:28:50,740
+¿qué pasa y si se debe? Yo me voy a tomar la imita.
+
+452
+00:28:51,520 --> 00:28:52,620
+Por línea, por la imita.
+
+453
+00:29:00,660 --> 00:29:05,440
+para poder coger el solino a su realmente tengo que usar uno
+
+454
+00:29:05,441 --> 00:29:09,400
+de esas pírense porque lo te hicieron ahora en el volo de un error,
+
+455
+00:29:09,560 --> 00:29:13,620
+¿no? Vamos a hacer una reira de todo esto, yo como como como una
+
+456
+00:29:13,621 --> 00:29:16,100
+reira de todo esto, que todo lo costo, si sos en aburizante,
+
+457
+00:29:16,640 --> 00:29:18,740
+sin tener que ir asignando de vos, o como sea.
+
+458
+00:29:19,320 --> 00:29:21,380
+Si quieren, pues se puede hablar carpo,
+
+459
+00:29:21,480 --> 00:29:23,860
+pero no, para eso tiene que estar cargado,
+
+460
+00:29:24,000 --> 00:29:28,160
+pues no ¿Pero vamos a dar de alguna esta media que ha sido loas
+
+461
+00:29:28,161 --> 00:29:32,400
+entre ahí? No, no por eso. ¿A que tenés cuidado cuando se cagara ahora?
+
+462
+00:29:32,700 --> 00:29:35,400
+¿Tiene que ver? Sí. Sí, está. ¿Pues?
+
+463
+00:29:35,600 --> 00:29:40,280
+¿Pues? ¿Pues? ¿Pues? y el item al item
+
+464
+00:29:40,281 --> 00:29:43,300
+del producto, de un producto, de los productos.
+
+465
+00:29:44,840 --> 00:29:48,580
+Si podrían saber dar a medida que van a ser importaciones,
+
+466
+00:29:49,140 --> 00:29:52,480
+esos lo vas haciendo. lo que está de bueno,
+
+467
+00:29:52,620 --> 00:29:56,360
+que está si lo quieren hacer así, ella ira adelantando un poco,
+
+468
+00:29:57,280 --> 00:29:59,820
+ella va avanzando en eso y ir viendo como le va a quedar,
+
+469
+00:30:00,180 --> 00:30:02,400
+entonces por ejemplo está, suena ahora,
+
+470
+00:30:02,600 --> 00:30:04,620
+ahora tenemos dos situaciones, ¿no?
+
+471
+00:30:04,760 --> 00:30:09,100
+Una, tornamos a tiro con todo lo que hay. Entonces eso también lo si
+
+472
+00:30:09,101 --> 00:30:12,520
+quieren ahí a regalar ver ya distribuirló todo por el lumen,
+
+473
+00:30:12,720 --> 00:30:15,240
+hay que ir acá a productor y a regal le supo les ponente con
+
+474
+00:30:15,241 --> 00:30:20,660
+el lumen. Ve a lo si lo hacen nuevamente estar distribuyan
+
+475
+00:30:20,661 --> 00:30:23,460
+y vean antes por las. Tengo a su planilla,
+
+476
+00:30:23,500 --> 00:30:27,280
+digamos, su pasonamiento, y si ven diferencias,
+
+477
+00:30:27,360 --> 00:30:29,660
+no para validarlo, si ven diferencias nuevo en un momento.
+
+478
+00:30:30,240 --> 00:30:32,760
+Así lo hacemos antes, no? No, no dios por el húmer, o cómo le
+
+479
+00:30:32,761 --> 00:30:35,380
+hacemos? En decir, Bueno,
+
+480
+00:30:35,580 --> 00:30:40,160
+muy reciente, en mi abril. y después conoce a la iniciativa cargando toda
+
+481
+00:30:40,161 --> 00:30:43,280
+la cultura por precio de la gente, a un seada valoración,
+
+482
+00:30:43,680 --> 00:30:48,140
+no hacía el incremento que lo pudieron freno en esto que lo colocaban a
+
+483
+00:30:48,141 --> 00:30:52,880
+ti. General ha sido precio de una tonalidad.
+
+484
+00:31:09,040 --> 00:31:11,640
+Yo no lo rumo, yo creo que sí, la seamos al precio,
+
+485
+00:31:13,000 --> 00:31:15,700
+y ahí volvamos a tener un poco de la protota.
+
+486
+00:31:16,160 --> 00:31:19,100
+Sí. En cada una diferencia, la estamos todos ahora,
+
+487
+00:31:19,240 --> 00:31:23,060
+como lo volvamos a tener un poco de más o al total, tendríamos a
+
+488
+00:31:23,061 --> 00:31:27,660
+un plédero en el dólar. por eso tal eso puede validarlo
+
+489
+00:31:27,661 --> 00:31:32,340
+y verificar una vez que hayan eso vamos y
+
+490
+00:31:32,341 --> 00:31:37,120
+ya podemos completar también cuenta que esto se tiene que hacer línea
+
+491
+00:31:37,121 --> 00:31:40,320
+por lío de cada línea de cada ¿Qué pasa?
+
+492
+00:31:41,040 --> 00:31:45,580
+tienen que destruirlo a como ustedes quieren esto es porque hay facturas
+
+493
+00:31:45,581 --> 00:31:48,680
+que tienen diferentes criterios o que hay para para para para para para para
+
+494
+00:31:48,681 --> 00:31:53,540
+para para no por ejemplo en toda la figura de adicionales que tengan
+
+495
+00:31:54,180 --> 00:31:58,700
+esto hay que hacerlo en cada línea en cada partido en
+
+496
+00:31:58,701 --> 00:32:01,740
+el día de mañana igual y si quieren ir agregando mejor el práctil a
+
+497
+00:32:01,741 --> 00:32:04,860
+mejores lojes o yo, entonces pudiera agregando.
+
+498
+00:32:05,820 --> 00:32:10,480
+Para dejarlo ahora la funcionalidad de la
+
+499
+00:32:10,481 --> 00:32:12,960
+palabra parada a la hipócrica. Vamos a
+
+500
+00:32:28,220 --> 00:32:31,120
+esto le puedo llevar después a dar que quisiera ni como como corregir eso
+
+501
+00:32:31,121 --> 00:32:35,920
+para atrás y si vamos a gracias podemos completar tenemos
+
+502
+00:32:35,921 --> 00:32:37,980
+acá pesos rito con
+
+503
+00:32:44,270 --> 00:32:46,550
+la mía de Mónor y en Inésia,
+
+504
+00:32:46,670 --> 00:32:50,530
+por lo que está en lo magnate. Porque allá abajo,
+
+505
+00:32:50,970 --> 00:32:54,110
+ahí no ponen los expedientes, por lo solo en los expedientes.
+
+506
+00:32:55,130 --> 00:32:58,050
+Sí, si por lo menos eso, vamos a regresar, lo tiene. No,
+
+507
+00:32:58,230 --> 00:33:01,500
+no necesario. Bueno, si me lo agarras. Para eso no me voy a expulsar,
+
+508
+00:33:01,900 --> 00:33:04,860
+sino de acuerdo a Carlos Fijo, porque cuando he sido el tome en el
+
+509
+00:33:04,861 --> 00:33:08,140
+costo de la ciencia de la volumen para que me piquen una o una
+
+510
+00:33:08,141 --> 00:33:10,720
+de dos. Yo puedo hacer una idea. Yo puedo hacer una idea.
+
+511
+00:33:10,721 --> 00:33:14,240
+Yo puedo hacer una idea. Yo puedo hacer una idea. Yo puedo hacer Yo
+
+512
+00:33:14,241 --> 00:33:16,700
+puedo hacer una idea. Ahora,
+
+513
+00:33:17,700 --> 00:33:20,540
+si lo que se tiene que decir, a ver, para separar un poco lo
+
+514
+00:33:20,541 --> 00:33:23,960
+que es lo que sí, entonces entramos a la funcionalidad de estándar,
+
+515
+00:33:24,240 --> 00:33:26,400
+como está, si es de alguna error,
+
+516
+00:33:26,620 --> 00:33:28,700
+lo que es el cálculo, obviamente,
+
+517
+00:33:28,720 --> 00:33:33,800
+lo comentan, lo tienen que reportar en una petición específica
+
+518
+00:33:33,801 --> 00:33:37,020
+de mirado o que de pa, mirado en este error, para ir teniendo los
+
+519
+00:33:37,021 --> 00:33:41,220
+temas a escogir. Y acá tenemos que ver de lo que son errores,
+
+520
+00:33:41,560 --> 00:33:44,380
+que pueden hablar de cálculo lógica de más.
+
+521
+00:33:44,720 --> 00:33:48,440
+Y cualquier adicional que te va llamando, para adoptar un poco mejor a su
+
+522
+00:33:48,441 --> 00:33:51,940
+operativo, nuevos campos, los perfectos y más,
+
+523
+00:33:52,780 --> 00:33:56,360
+para poder manejarme los entrenando los verdaderamente cabos.
+
+524
+00:33:56,440 --> 00:34:00,300
+Si lo manejamos todos con todos los pendientes, es bien claro desde que cada
+
+525
+00:34:00,301 --> 00:34:03,040
+uno, el tema del volumen,
+
+526
+00:34:03,120 --> 00:34:06,420
+por ejemplo, el que va a ver, que va a que ahora no sé
+
+527
+00:34:06,421 --> 00:34:08,480
+si tiene por un control, porque no tiene nada,
+
+528
+00:34:08,800 --> 00:34:13,240
+si no sé, pueden probarte, te mandas volumen y repartís,
+
+529
+00:34:13,820 --> 00:34:17,180
+no sé si, que trampa o te divide más,
+
+530
+00:34:17,420 --> 00:34:19,780
+porque no tenéis nada de la solución. Entonces,
+
+531
+00:34:19,940 --> 00:34:22,720
+eso es como lo tendremos que ver, pero a verlo, por eso,
+
+532
+00:34:22,740 --> 00:34:25,320
+para eso también tienen cual, para eso también tienen test,
+
+533
+00:34:25,780 --> 00:34:30,260
+que test, la distancia de ID test es para crear pre-host y todas las
+
+534
+00:34:30,261 --> 00:34:33,480
+noches se actualizan. No se pueden hacer una prueba de lo que quieren en
+
+535
+00:34:33,481 --> 00:34:36,140
+este tipo de veces, totalmente descartado ni lo que dan ahí.
+
+536
+00:34:36,640 --> 00:34:39,180
+No sé, pero ¿qué cosa? Bueno, esto es 22 mal,
+
+537
+00:34:39,340 --> 00:34:42,160
+a mirada esto no, creo que definí esto, creo que definí el aquello.
+
+538
+00:34:43,240 --> 00:34:45,260
+Una recomendación, solamente, cuando bajaron las pruebas,
+
+539
+00:34:45,320 --> 00:34:48,140
+comienzan la y terminan las que eso mañana. estará,
+
+540
+00:34:48,260 --> 00:34:51,640
+este porque se va a actualizar con producción. Si quieren una base de datos
+
+541
+00:34:51,641 --> 00:34:54,740
+que sí persista es Cuba, es esta vida y Cuba,
+
+542
+00:34:55,560 --> 00:34:58,500
+que está así, no se actualiza hasta el terminado tiempo.
+
+543
+00:34:59,160 --> 00:35:02,640
+Esa pedido. Justamente para que tus casos se puedan.
+
+544
+00:35:03,320 --> 00:35:08,320
+visualizar y dauzcarlo para consultar.
+
+545
+00:35:09,000 --> 00:35:13,540
+Bien, bueno, voy a hacer la primera ejemplo acá.

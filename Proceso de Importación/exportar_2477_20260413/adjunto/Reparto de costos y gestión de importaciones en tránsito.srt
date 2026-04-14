@@ -1,0 +1,147 @@
+1
+00:00:01,040 --> 00:00:05,700
+Bueno, estoy tratando de repartir costos de
+
+2
+00:00:05,701 --> 00:00:10,180
+esta factura. y no sé por qué no lo estoy grabando.
+
+3
+00:00:12,320 --> 00:00:15,920
+Esta es la otra que repartí y repartí.
+
+4
+00:00:16,200 --> 00:00:20,820
+¿Tienes alguna idea? ¿Qué tengo acá?
+
+5
+00:00:21,300 --> 00:00:26,300
+Un cargo, y esta es la definición
+
+6
+00:00:26,301 --> 00:00:31,580
+y bueno, si vengo acá, yo lo pruebo desde Vue desde todos lados veo
+
+7
+00:00:31,581 --> 00:00:36,400
+el log, no hay problema y
+
+8
+00:00:36,401 --> 00:00:41,140
+voy a venir, no, acá no, voy a venir en esta para
+
+9
+00:00:41,141 --> 00:00:45,900
+que se tome y estoy de acuerdo con su
+
+10
+00:00:45,901 --> 00:00:50,530
+encargo vamos con
+
+11
+00:00:50,531 --> 00:00:56,920
+el dpd y voy a acercarlo Acá
+
+12
+00:00:56,921 --> 00:01:02,640
+saco todo, y acá pongo,
+
+13
+00:01:04,550 --> 00:01:07,750
+Intentaciones en Tránsito.
+
+14
+00:01:18,640 --> 00:01:20,760
+y acá seleccionan todos en la fila. Entonces,
+
+15
+00:01:20,880 --> 00:01:23,880
+en esa época,
+
+16
+00:01:23,881 --> 00:01:28,540
+el hijo Fleta…
+
+17
+00:01:31,480 --> 00:01:34,000
+Y acá, bueno, fui primero por piso,
+
+18
+00:01:34,120 --> 00:01:36,380
+por volumen, y no pasó nada.
+
+19
+00:01:37,320 --> 00:01:40,000
+No sé. No dice nada.
+
+20
+00:01:40,700 --> 00:01:45,400
+Voy a ir leyendo. Esto lo puedo ver
+
+21
+00:01:45,401 --> 00:01:50,220
+tanto, Eso ayuda,
+
+22
+00:01:50,400 --> 00:01:55,030
+hombre, ¡eh! Y saco
+
+23
+00:01:55,031 --> 00:01:58,250
+el reporte este y no hay nada,
+
+24
+00:01:58,770 --> 00:02:02,800
+o sea, me sigue mostrando lo primero que que generé,
+
+25
+00:02:02,920 --> 00:02:06,380
+pero nada más. No sé por qué.
+
+26
+00:02:07,840 --> 00:02:11,180
+Y bueno, pues nada. dudas, vengo acá y le hago lo mismo que había
+
+27
+00:02:11,181 --> 00:02:11,640
+hecho antes.
+
+28
+00:02:19,180 --> 00:02:21,280
+Ahora estamos en el momento.
+
+29
+00:02:24,840 --> 00:02:29,000
+Bueno, voy a definir acá, importaciones en tránsito,
+
+30
+00:02:29,180 --> 00:02:32,700
+agarro todo y,
+
+31
+00:02:35,080 --> 00:02:40,100
+Y bueno, voy a hacer por Flete y
+
+32
+00:02:40,101 --> 00:02:42,540
+luego por el Corte. costo, el otro sí,
+
+33
+00:02:43,800 --> 00:02:46,880
+el microgenero, tampoco me hace nada.
+
+34
+00:02:48,960 --> 00:02:54,440
+No sé si esto hay
+
+35
+00:02:54,441 --> 00:02:56,640
+que definir algo en el jete,
+
+36
+00:02:56,720 --> 00:02:59,580
+¿no? O sea, el otro me quedó bien,
+
+37
+00:03:00,540 --> 00:03:04,120
+pero estos otros me están repartiendo.

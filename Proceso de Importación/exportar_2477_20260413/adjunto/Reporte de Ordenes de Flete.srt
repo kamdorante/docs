@@ -1,0 +1,71 @@
+1
+00:00:05,200 --> 00:00:07,960
+Vamos a ver acá en DID.DEP.
+
+2
+00:00:09,100 --> 00:00:13,660
+orden de flete se agregó acá el botón para imprimir orden de flete
+
+3
+00:00:18,420 --> 00:00:23,020
+Esto muestra acá la información del encabezado de
+
+4
+00:00:23,021 --> 00:00:25,150
+la orden de flete. documento,
+
+5
+00:00:25,270 --> 00:00:28,110
+el transportista, vehículo, orden de salida,
+
+6
+00:00:28,850 --> 00:00:33,520
+fecha de documento Muestra acá,
+
+7
+00:00:33,720 --> 00:00:37,620
+esta tabla es la misma del reporte de productos por socio.
+
+8
+00:00:39,220 --> 00:00:42,480
+De hecho, esto es apuntes directamente a ese reporte,
+
+9
+00:00:42,540 --> 00:00:46,900
+ese formato de impresión de productos por socios de la orden de salida.
+
+10
+00:00:50,670 --> 00:00:53,190
+Es exactamente el mismo reporte,
+
+11
+00:00:53,250 --> 00:00:56,390
+así que, mostrando la información.
+
+12
+00:00:56,420 --> 00:01:00,880
+de la orden de salida asociada a la orden de fletería que den encabezado
+
+13
+00:01:00,881 --> 00:01:04,240
+orden de entrada y now pan
+
+14
+00:01:10,360 --> 00:01:12,460
+Con eso queda acá este reporte.
+
+15
+00:01:12,500 --> 00:01:15,940
+Esto es un formato de impresión,
+
+16
+00:01:16,240 --> 00:01:19,860
+hay que hacer el formato de impresión, tengo un paquete que,
+
+17
+00:01:20,560 --> 00:01:23,220
+ya lo tengo también compaqué de este formato impresión,
+
+18
+00:01:23,400 --> 00:01:25,940
+utilizando estos aquí así

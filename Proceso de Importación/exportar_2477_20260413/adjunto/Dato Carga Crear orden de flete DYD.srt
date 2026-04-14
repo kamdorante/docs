@@ -1,0 +1,63 @@
+1
+00:00:01,330 --> 00:00:06,310
+Bueno, voy a hacer un video por el tema de generar orden
+
+2
+00:00:06,311 --> 00:00:09,010
+de flete, que estaba dando un problema por el que no trae nada de
+
+3
+00:00:09,011 --> 00:00:11,690
+cargo. En este caso, eh,
+
+4
+00:00:14,390 --> 00:00:18,920
+este dato, cargo, está en carga está ligado al transportista,
+
+5
+00:00:18,980 --> 00:00:23,580
+por ejemplo voy
+
+6
+00:00:23,581 --> 00:00:25,880
+a seleccionar este que no tiene nada entonces que hacemos,
+
+7
+00:00:26,100 --> 00:00:32,200
+vamos a viajar a transportista, particularmente este Tras
+
+8
+00:00:32,201 --> 00:00:37,220
+porte de id y le vamos a crear mantir
+
+9
+00:00:37,221 --> 00:00:41,440
+una categoría si no podemos navegar la categoría de flete crearle nuevas categorías y
+
+10
+00:00:41,441 --> 00:00:43,740
+definirlo aquí, le pongo un válido de este
+
+11
+00:00:48,270 --> 00:00:52,870
+Así, se va a dar registro,
+
+12
+00:00:53,930 --> 00:00:59,430
+vamos a refrescar, te centras por te de idea y tiene perfecto
+
+13
+00:00:59,431 --> 00:01:04,220
+vamos a generar orden de deflete esto lo vamos a hacer el
+
+14
+00:01:04,221 --> 00:01:08,980
+carro y ahora sí me trae
+
+15
+00:01:08,981 --> 00:01:13,620
+la carga que tiene definida correspondente a este transportista esa
+
+16
+00:01:13,621 --> 00:01:18,000
+es la forma para poder definir el dato carga

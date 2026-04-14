@@ -1,0 +1,259 @@
+1
+00:00:00,000 --> 00:00:04,180
+Bueno, estoy avaliando para hacer un orden de flete desde un orden de salida.
+
+2
+00:00:05,840 --> 00:00:08,140
+Tengo estas órdenes,
+
+3
+00:00:08,500 --> 00:00:11,200
+vamos a rellenar aquí y vamos a filtrar por,
+
+4
+00:00:11,900 --> 00:00:15,900
+por estas líneas. Vamos a tomar el 15.
+
+5
+00:00:15,920 --> 00:00:19,540
+15. Vamos a tomar acá las 7,
+
+6
+00:00:19,620 --> 00:00:21,660
+8, 7, 9, 80, 81,
+
+7
+00:00:21,940 --> 00:00:26,780
+82, 83. Son
+
+8
+00:00:26,781 --> 00:00:28,400
+en total tantas como
+
+9
+00:00:34,900 --> 00:00:37,300
+Seleccionado, vamos a ver acá, 6,
+
+10
+00:00:38,260 --> 00:00:41,620
+que vemos aquí,
+
+11
+00:00:43,060 --> 00:00:46,820
+que son estos que estamos aquí, de la 78 a la 83.
+
+12
+00:00:49,930 --> 00:00:54,650
+datos de almacén, generamos orden de flete
+
+13
+00:00:54,651 --> 00:00:58,050
+con estos datos, perfecto,
+
+14
+00:00:58,490 --> 00:01:00,530
+generamos 6, son 6 líneas,
+
+15
+00:01:01,290 --> 00:01:04,100
+pueden ser más. La 21,
+
+16
+00:01:04,600 --> 00:01:07,220
+línea 6, ok,
+
+17
+00:01:07,460 --> 00:01:11,580
+bien. Ahora si vamos a lo que es la orden de flete.
+
+18
+00:01:17,230 --> 00:01:20,670
+Vamos a ver la 21,
+
+19
+00:01:21,250 --> 00:01:23,070
+perfecto.
+
+20
+00:01:27,090 --> 00:01:28,350
+Esto me está generando,
+
+21
+00:01:36,720 --> 00:01:39,300
+No sé cómo está funcionando esto,
+
+22
+00:01:39,920 --> 00:01:45,880
+pero está tomando cosas por
+
+23
+00:01:45,881 --> 00:01:50,200
+demás en tiempo. A menos que,
+
+24
+00:01:50,320 --> 00:01:56,000
+bueno, vamos a ver las órdenes de salida, del
+
+25
+00:01:56,001 --> 00:02:00,900
+15 eran todas esas que vamos a buscar por fecha 15.
+
+26
+00:02:04,590 --> 00:02:08,130
+Acá, por fecha 15 y
+
+27
+00:02:17,340 --> 00:02:21,940
+bueno, vamos a buscar que eran de la 78,
+
+28
+00:02:24,560 --> 00:02:26,800
+78, tiene,
+
+29
+00:02:27,220 --> 00:02:30,320
+opa, ok, ok,
+
+30
+00:02:30,500 --> 00:02:35,140
+capaz que es porque está, tiene todo esas líneas.
+
+31
+00:02:36,300 --> 00:02:39,620
+Lo cual es correcto, estaría bien, capaz que está bien.
+
+32
+00:02:40,740 --> 00:02:44,860
+79, o sea se muestra cabezales pero lo abre en líneas.
+
+33
+00:02:45,640 --> 00:02:48,740
+Entonces si vemos acá tenemos tantos como,
+
+34
+00:02:49,620 --> 00:02:55,940
+vamos a Vamos a hacer la calculadora, vamos
+
+35
+00:02:55,941 --> 00:03:01,780
+a hacer la calculadora acá, 9
+
+36
+00:03:01,781 --> 00:03:07,530
+más 1, 9 más Ok,
+
+37
+00:03:07,970 --> 00:03:12,570
+9 más 1, y vamos a hacer todas estas,
+
+38
+00:03:14,250 --> 00:03:16,570
+la 80, 14,
+
+39
+00:03:19,010 --> 00:03:21,130
+tenemos ya 72,
+
+40
+00:03:21,550 --> 00:03:23,860
+todo perfecto. Perfecto, la 81,
+
+41
+00:03:24,440 --> 00:03:28,860
+3, 27,
+
+42
+00:03:29,600 --> 00:03:33,240
+82, bien,
+
+43
+00:03:33,420 --> 00:03:35,600
+33, ok,
+
+44
+00:03:35,960 --> 00:03:39,580
+acá tenemos 8. La próxima doce,
+
+45
+00:03:39,800 --> 00:03:42,480
+bueno ya estaría, doce, perfecto.
+
+46
+00:03:43,960 --> 00:03:48,700
+Ahora la pregunta es, este orden de flete está bien entonces,
+
+47
+00:03:49,320 --> 00:03:52,980
+pero ¿estaría bueno poder definir acá el producto?
+
+48
+00:03:54,610 --> 00:03:57,510
+Porque acá no sé por qué no se define el producto,
+
+49
+00:03:57,630 --> 00:04:02,230
+estaría bueno, ¿no? Y de esta manera tenemos acá un reporte
+
+50
+00:04:02,231 --> 00:04:04,430
+bien pronto para poder hacer.
+
+51
+00:04:06,210 --> 00:04:08,410
+Que es muy similar al anterior, pero acá tenemos,
+
+52
+00:04:09,320 --> 00:04:14,740
+qué orden de ventas estamos definiendo en cada una de estas y
+
+53
+00:04:14,741 --> 00:04:17,700
+estaría a ser un golazo. Así que bueno,
+
+54
+00:04:17,800 --> 00:04:22,180
+eso sería, sería bueno poder agregar un reporte acá.
+
+55
+00:04:24,980 --> 00:04:29,800
+y ya quedaría pronto. Entiendo que esto siempre es generado
+
+56
+00:04:29,801 --> 00:04:32,180
+luego de la entrega, ¿no? O sea, que vos la entrega,
+
+57
+00:04:32,240 --> 00:04:34,660
+todo lo definimos en el anterior, y acá es,
+
+58
+00:04:34,700 --> 00:04:37,340
+ok, estas entregas, llevarlas,
+
+59
+00:04:37,420 --> 00:04:41,360
+acá no hay entrega de por medio. Porque veo que acá no tiene una
+
+60
+00:04:41,361 --> 00:04:44,760
+orden de compra, una orden de salida,
+
+61
+00:04:45,540 --> 00:04:50,380
+esto es un Output Order, sí, pero acá no hay nada de
+
+62
+00:04:50,381 --> 00:04:53,640
+la EMAIN OUT,
+
+63
+00:04:54,560 --> 00:04:56,640
+hay líneas nomás, no hay nada de EMAIN OUT.
+
+64
+00:04:56,660 --> 00:05:01,200
+y nada factura, o sea, la lógica se mantiene
+
+65
+00:05:01,201 --> 00:05:01,820
+en la anterior.

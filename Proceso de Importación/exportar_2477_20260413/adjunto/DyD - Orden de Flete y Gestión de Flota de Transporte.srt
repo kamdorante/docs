@@ -1,0 +1,303 @@
+1
+00:00:01,550 --> 00:00:04,290
+Presentación de cómo hacer una orden de flete,
+
+2
+00:00:04,930 --> 00:00:07,890
+eh, crear una orden de flete desde una orden de salida.
+
+3
+00:00:08,630 --> 00:00:11,370
+Eh, estoy aquí en producción,
+
+4
+00:00:11,670 --> 00:00:13,910
+ah, y tenemos orden de,
+
+5
+00:00:14,250 --> 00:00:18,880
+acá tenemos, por ejemplo, esta orden de de salida
+
+6
+00:00:18,881 --> 00:00:24,460
+que la crearon hoy.
+
+7
+00:00:25,320 --> 00:00:27,480
+Vamos a escuchar una anterior, cualquiera,
+
+8
+00:00:27,840 --> 00:00:29,920
+la que tenga un poquito más de productos, ahí va. Vamos a ver esta.
+
+9
+00:00:31,460 --> 00:00:34,380
+Y como decíamos, documentos relacionados, vemos que,
+
+10
+00:00:34,600 --> 00:00:38,960
+perdón, no tiene, esto fue creado hoy también.
+
+11
+00:00:39,840 --> 00:00:42,480
+Perfecto. Y aquí vemos que, bueno, esto ya fue,
+
+12
+00:00:42,840 --> 00:00:47,600
+tiene la línea orden de venta. línea de entrega y línea de factura.
+
+13
+00:00:48,860 --> 00:00:51,380
+Ahora de esto,
+
+14
+00:00:51,840 --> 00:00:56,120
+de esta orden de salida, vamos a generar un orden definitivo.
+
+15
+00:00:56,300 --> 00:01:00,340
+Para eso podemos venir aquí y generar un orden definitivo.
+
+16
+00:01:01,960 --> 00:01:07,040
+Para generar orden de flete vamos a tener estos campos que
+
+17
+00:01:07,041 --> 00:01:10,840
+tenemos que elegir un transportista, un conductor,
+
+18
+00:01:12,820 --> 00:01:17,400
+un vehículo, ahora les
+
+19
+00:01:17,401 --> 00:01:20,880
+voy a mostrar cómo se puede generar la definición de esto,
+
+20
+00:01:21,480 --> 00:01:23,500
+y una carga,
+
+21
+00:01:23,820 --> 00:01:26,760
+en este caso simplemente tenemos que es obligatorio definir la carga,
+
+22
+00:01:26,900 --> 00:01:29,380
+no lo marca como obligatorio, después lo vamos a poner como carga. obligatorio porque
+
+23
+00:01:29,381 --> 00:01:32,520
+si no te da error a generar la orden de transporte.
+
+24
+00:01:34,540 --> 00:01:36,920
+Y vamos a definir qué tipo de documento que es una orden de FLED.
+
+25
+00:01:38,200 --> 00:01:42,120
+El estado, completar, hoy. Si tuviese tarifa,
+
+26
+00:01:42,240 --> 00:01:44,800
+entonces podría agregar una tarifa o no, porque puede tener que completar.
+
+27
+00:01:44,820 --> 00:01:48,080
+costo. En este caso estos son transportistas internos que ahora lo vamos a dar.
+
+28
+00:01:48,620 --> 00:01:53,200
+Vamos a generar y el proceso me dice
+
+29
+00:01:53,201 --> 00:01:56,800
+que se quiere orden de flete número 9. Esta orden de flete número 9
+
+30
+00:01:56,820 --> 00:01:59,820
+vamos a poder visualizarla como relacionada.
+
+31
+00:02:01,040 --> 00:02:05,900
+Y la vamos a poder vincular y visualizar aquí como que esta orden
+
+32
+00:02:05,901 --> 00:02:09,660
+de salida se fue con esta orden de flete.
+
+33
+00:02:09,720 --> 00:02:11,780
+En esta orden de flete tiene todos los datos del camión,
+
+34
+00:02:12,160 --> 00:02:16,160
+del dato, demás. Así que se puede saber quién lo llevó y en esta
+
+35
+00:02:16,161 --> 00:02:20,320
+orden se muestra como en una línea que se llevó la orden de salida
+
+36
+00:02:20,321 --> 00:02:23,880
+que comentamos.
+
+37
+00:02:24,740 --> 00:02:28,700
+Solo podemos visualizar acá.
+
+38
+00:02:29,000 --> 00:02:33,540
+de entrada a orden de salida, esta es la que está enlazada
+
+39
+00:02:33,541 --> 00:02:39,980
+a esta orden de flete. Y eso se puede visualizar.
+
+40
+00:02:40,600 --> 00:02:45,440
+Perfecto, bien. Ahora
+
+41
+00:02:45,441 --> 00:02:50,320
+les voy a mostrar la definición
+
+42
+00:02:50,321 --> 00:02:55,000
+de cómo se pueden configurar esos datos que vimos,
+
+43
+00:02:55,240 --> 00:02:59,360
+que es mediante en la sección de gestión de distribución.
+
+44
+00:03:00,240 --> 00:03:03,920
+Vamos a ver. a abrir y tenemos una carpeta que es gestión de flota
+
+45
+00:03:03,921 --> 00:03:07,920
+de transporte y es aquí donde vamos a definir los transportistas,
+
+46
+00:03:08,460 --> 00:03:11,820
+el vehículo y el conductor. Comenzamos por el transportista,
+
+47
+00:03:13,800 --> 00:03:17,020
+Esto podemos definir si es interno, este sería el interno.
+
+48
+00:03:17,040 --> 00:03:22,680
+un transportista interno, qué asignación de vehículos tiene
+
+49
+00:03:22,681 --> 00:03:27,400
+este vehículo, qué transportista y qué flete tiene
+
+50
+00:03:27,401 --> 00:03:32,020
+este definido. Esto para justamente para la aplicación de cuando se quiere cobrar
+
+51
+00:03:32,021 --> 00:03:35,680
+o o pagar por cada uno de los transportes.
+
+52
+00:03:36,140 --> 00:03:40,140
+Este dato lo tenemos que tener definido y también si vamos acá a la
+
+53
+00:03:40,141 --> 00:03:42,260
+gestión de flota de transportes, podemos ver los vehículos.
+
+54
+00:03:43,000 --> 00:03:45,340
+Es aquí donde pueden ustedes configurar todos los vehículos que tengan.
+
+55
+00:03:48,220 --> 00:03:51,300
+Esto, dale por Pueden agarrar una foto del camión, datos,
+
+56
+00:03:51,620 --> 00:03:54,180
+bueno, datos del camión,
+
+57
+00:03:54,280 --> 00:03:57,860
+justamente esto por un tema de todo el volumen, para cuando tenés una gran
+
+58
+00:03:57,861 --> 00:04:00,320
+salida y lo querés colocar en un camión que te explique,
+
+59
+00:04:00,440 --> 00:04:02,740
+controles si te entra, por el peso,
+
+60
+00:04:02,940 --> 00:04:06,660
+por lo demás. Y aquí también También podremos manejar licencias,
+
+61
+00:04:06,980 --> 00:04:10,320
+la gestión de seguros, asignación de requisitos,
+
+62
+00:04:10,440 --> 00:04:13,180
+asignación de transporte, cuántos módulos tiene el camión,
+
+63
+00:04:13,380 --> 00:04:18,120
+y podemos acá agregar diferentes conductores
+
+64
+00:04:18,121 --> 00:04:20,920
+al camión. Por ejemplo acá, Max.
+
+65
+00:04:22,800 --> 00:04:26,320
+un conductor. ¿Y dónde se definen los conductores?
+
+66
+00:04:26,620 --> 00:04:29,320
+Bueno, también se definen los conductores, los podemos definir aquí.
+
+67
+00:04:33,480 --> 00:04:35,540
+Esto podemos tener acá los conductores,
+
+68
+00:04:35,700 --> 00:04:38,040
+en la imagen vamos a perdimos un poquito la ventana,
+
+69
+00:04:38,960 --> 00:04:43,740
+acá tenemos la asignación de licencias también, si tienen licencia de transporte,
+
+70
+00:04:43,860 --> 00:04:47,640
+entiendo que no aplica para ustedes, o asignación de requisitos que quieran agregarle para
+
+71
+00:04:47,641 --> 00:04:50,240
+el transportista, requisito de transporte,
+
+72
+00:04:50,360 --> 00:04:52,620
+pero esto no creo que sea necesario nada de todo esto,
+
+73
+00:04:53,020 --> 00:04:55,860
+pero vamos si por lo menos acá pueden tener un mantenimiento del conductor y
+
+74
+00:04:55,861 --> 00:04:58,460
+se puede vincular con el socio negocio, o sea con un empleado.
+
+75
+00:05:00,060 --> 00:05:03,520
+Se puede copiar y esto ya lo podrían visualizar,
+
+76
+00:05:03,580 --> 00:05:07,560
+ya está todo esto dentro de producción, así que podrían visualizarlo.

@@ -1,0 +1,87 @@
+1
+00:00:01,260 --> 00:00:05,200
+Estamos en IvyDev. Vamos a hacer una prueba de importar contrato manual.
+
+2
+00:00:05,860 --> 00:00:10,220
+Hacemos nuevo. Y vamos a ir directamente,
+
+3
+00:00:10,620 --> 00:00:10,900
+nombre.
+
+4
+00:00:18,910 --> 00:00:20,750
+Vamos a llenar los datos obligatorios
+
+5
+00:00:44,590 --> 00:00:47,610
+Ciudad de Montevideo, texto es obligatorio.
+
+6
+00:00:48,540 --> 00:00:57,120
+y la obligatoria también, región país
+
+7
+00:00:57,121 --> 00:00:57,720
+Uruguay
+
+8
+00:01:24,080 --> 00:01:25,380
+Vamos a poner producto
+
+9
+00:01:31,940 --> 00:01:38,410
+Fecha de documento, vamos a ponerle septiembre Fecha
+
+10
+00:01:38,411 --> 00:01:38,950
+de inicio
+
+11
+00:01:44,750 --> 00:01:49,510
+Fecha contable Fin
+
+12
+00:01:49,511 --> 00:01:50,210
+programado
+
+13
+00:01:59,030 --> 00:02:04,990
+Actividad Kinder Este
+
+14
+00:02:04,991 --> 00:02:10,040
+va a ser mensual Esto es obligatorio,
+
+15
+00:02:18,760 --> 00:02:19,500
+$20 pesos.
+
+16
+00:02:29,680 --> 00:02:33,460
+Vamos a poner el centro, frecuencia 1
+
+17
+00:03:45,640 --> 00:03:53,540
+Bueno, hasta acá, vamos a grabar y
+
+18
+00:03:53,541 --> 00:03:55,380
+vamos a importar.
+
+19
+00:04:13,800 --> 00:04:19,280
+Bueno, esta prueba fue exitosa. listo,
+
+20
+00:04:20,920 --> 00:04:27,700
+en este caso vamos a revisar
+
+21
+00:04:27,701 --> 00:04:28,240
+el contrato,
+
+22
+00:04:32,460 --> 00:04:34,440
+y aquí está, lo dejamos aquí. Este el proceso

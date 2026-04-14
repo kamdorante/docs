@@ -1,0 +1,423 @@
+1
+00:00:00,820 --> 00:00:03,640
+Ok, vamos a, al expediente de importación.
+
+2
+00:00:04,360 --> 00:00:06,740
+Voy a buscar aquí el, el que estamos trabajando.
+
+3
+00:00:07,240 --> 00:00:11,000
+Como ya este está listo, ,que ya generamos los reportes de,
+
+4
+00:00:12,180 --> 00:00:14,700
+Bueno, listo, entre comillas, porque aquí tengo nada más seguro y flete,
+
+5
+00:00:14,840 --> 00:00:18,600
+pero pueden haber más. Ahora voy a la declaración.
+
+6
+00:00:18,840 --> 00:00:22,100
+La declaración es como lo proceso de nacionalización.
+
+7
+00:00:22,840 --> 00:00:25,480
+Para eso tenemos esto de generar impuestos, importación, exportación.
+
+8
+00:00:28,380 --> 00:00:31,660
+El me busca por el expediente,
+
+9
+00:00:32,240 --> 00:00:35,140
+en este caso yo tengo dos cosas,
+
+10
+00:00:35,300 --> 00:00:38,340
+uno la planilla de IVA que es esta que aplica para todos,
+
+11
+00:00:38,520 --> 00:00:42,060
+no es una tasa particular para, Para un producto,
+
+12
+00:00:42,180 --> 00:00:44,300
+por decirlo así, en este caso, por ejemplo,
+
+13
+00:00:44,660 --> 00:00:47,160
+si yo tuviera más de un producto en esta planilla,
+
+14
+00:00:47,500 --> 00:00:52,060
+yo simplemente generaría, genero este primero y la razón es que yo no distribuyo
+
+15
+00:00:52,061 --> 00:00:54,760
+nada, simplemente voy a generar factura.
+
+16
+00:00:57,280 --> 00:00:59,540
+de ajuste, le coloco el número de planilla,
+
+17
+00:00:59,920 --> 00:01:04,340
+le coloco la moneda y una factura relacionada que es una de las de
+
+18
+00:01:04,341 --> 00:01:07,280
+cómoda. para que tengo. Esto no tiene ninguna asignación ni nada,
+
+19
+00:01:07,360 --> 00:01:11,520
+es simplemente informativo. Selecciono el proyecto y le damos OK.
+
+20
+00:01:14,260 --> 00:01:19,120
+Listo, se generó completo y lo puedo ver aquí en Impuesto de Expediente.
+
+21
+00:01:20,460 --> 00:01:22,880
+Ya veo que tengo un impuesto asociado,
+
+22
+00:01:23,220 --> 00:01:25,720
+el monto base,
+
+23
+00:01:25,920 --> 00:01:28,540
+el total del impuesto, esta es la planilla de IVA y es como para
+
+24
+00:01:28,541 --> 00:01:32,300
+que, para ver un detalle de cómo va eso. Pero resulta que tengo otros
+
+25
+00:01:32,301 --> 00:01:36,520
+que son distribuidos por producto. Ves que ahora ya no me aparece IVA porque
+
+26
+00:01:36,540 --> 00:01:39,300
+Lo que ya lo generé, ahora necesito distribuir todo esto.
+
+27
+00:01:39,980 --> 00:01:43,280
+En estos casos, no lo puedo generar completo. Esto es algo que yo pudiera
+
+28
+00:01:43,281 --> 00:01:46,380
+mejorar a futuro. para que le haga la distribución automática,
+
+29
+00:01:46,560 --> 00:01:52,200
+pero en este momento lo que hay es que seleccionar si generamos igual factura
+
+30
+00:01:52,201 --> 00:01:55,860
+de ajustes Distribución 01,
+
+31
+00:01:55,980 --> 00:02:00,640
+por decirlo así, la moneda.
+
+32
+00:02:00,660 --> 00:02:03,300
+la factura relacionada, que es informativo,
+
+33
+00:02:03,380 --> 00:02:06,200
+esto también lo podemos cambiar a futuro, el proyecto,
+
+34
+00:02:06,400 --> 00:02:08,540
+pero aquí lo dejamos preparar, ¿sí?
+
+35
+00:02:08,700 --> 00:02:14,240
+porque tenemos que hacer un trabajo con ellos. Damos OK y
+
+36
+00:02:14,241 --> 00:02:16,940
+ya se nos generó el documento. Si nos vamos a impuestos de Esto es
+
+37
+00:02:16,941 --> 00:02:19,120
+pediente, entonces ya vamos a ver que están todos ahí,
+
+38
+00:02:19,240 --> 00:02:24,760
+el arancel, la aduana y todo eso, todo lo relacionado.
+
+39
+00:02:24,780 --> 00:02:26,800
+con eso ahí.
+
+40
+00:02:27,460 --> 00:02:30,620
+Entonces, ve que cada uno,
+
+41
+00:02:30,621 --> 00:02:33,940
+vamos a ver aquí, Por ejemplo este,
+
+42
+00:02:34,720 --> 00:02:39,180
+que sería Arancel, no sé por qué no le colocó el código arancelario,
+
+43
+00:02:39,240 --> 00:02:43,960
+no lo tengo que ver. Luego tenemos esta tasa
+
+44
+00:02:43,961 --> 00:02:47,660
+aduana y tasa consular. Yo aquí puedo darle acercar,
+
+45
+00:02:47,900 --> 00:02:51,520
+vamos a darle aquí. documento de propaganda o lo tenía también en la pestaña
+
+46
+00:02:51,521 --> 00:02:56,360
+de ahí abajo, para
+
+47
+00:02:56,361 --> 00:03:00,880
+ver entonces. Entonces esto, y vemos DIS01
+
+48
+00:03:00,881 --> 00:03:05,060
+que es el que acabamos de generar, en este caso tengo que Yo dejo
+
+49
+00:03:05,061 --> 00:03:08,180
+la particularidad de que yo debo distribuir cada uno de ellos por producto.
+
+50
+00:03:08,860 --> 00:03:11,800
+Ese es el trabajo, por eso se dejan preparar. Yo agarro,
+
+51
+00:03:12,080 --> 00:03:14,740
+aquí me dice cómo se hace. se hizo el cálculo y yo lo que
+
+52
+00:03:14,741 --> 00:03:19,560
+agarro y digo, bueno voy a distribuir este señor que es Arancel
+
+53
+00:03:19,561 --> 00:03:24,460
+de Importación. Vamos
+
+54
+00:03:24,461 --> 00:03:27,520
+a quitarle el almacén.
+
+55
+00:03:29,100 --> 00:03:32,180
+y aquí sería este señor, aquí lo tengo,
+
+56
+00:03:33,840 --> 00:03:35,900
+demo, ok.
+
+57
+00:03:37,440 --> 00:03:43,320
+seleccionamos y distribuimos Ajá,
+
+58
+00:03:43,321 --> 00:03:47,580
+estoy en Arancel, sí, entonces tengo que decirle aquí Arancel,
+
+59
+00:03:47,920 --> 00:03:50,460
+aquí, bueno, como lo vaya a distraer, distribuir y le damos OK.
+
+60
+00:03:51,820 --> 00:03:54,200
+Listo por acá. Ahora nos vamos al segundo,
+
+61
+00:03:55,840 --> 00:03:57,460
+¿sí? ¿Qué sería y
+
+62
+00:04:02,600 --> 00:04:06,820
+seleccionamos. te desea aduana,
+
+63
+00:04:06,960 --> 00:04:09,500
+que por eso fue que creamos esos elementos de costo.
+
+64
+00:04:09,600 --> 00:04:13,420
+Lo hacemos por línea y lo demás le damos OK. Y luego nos vamos
+
+65
+00:04:13,421 --> 00:04:14,400
+a, Nos vemos en el próximo video.
+
+66
+00:04:21,500 --> 00:04:27,660
+que sería TSA aduana y
+
+67
+00:04:27,661 --> 00:04:30,340
+el último sería tasa consular. Lo mismo,
+
+68
+00:04:30,400 --> 00:04:32,580
+el mismo procedimiento, ok,
+
+69
+00:04:34,920 --> 00:04:39,920
+tasa consular. por línea y
+
+70
+00:04:39,921 --> 00:04:42,740
+listo. Bueno, ya con esto, así como está.
+
+71
+00:04:43,200 --> 00:04:45,320
+Ay, perdón, cerré la factura.
+
+72
+00:04:45,530 --> 00:04:47,690
+Vamos por aquí abajo entonces, a ver si lo vemos.
+
+73
+00:04:50,070 --> 00:04:55,740
+Donde está el teléfono es D01. Dicho,
+
+74
+00:04:56,180 --> 00:05:00,720
+se pasó aquí. A ver,
+
+75
+00:05:00,721 --> 00:05:04,400
+Facturado sí. 5.2 Ok,
+
+76
+00:05:04,540 --> 00:05:06,640
+bueno, como que la verdad desapareció,
+
+77
+00:05:07,180 --> 00:05:09,460
+fractura relacional, ajá.
+
+78
+00:05:11,430 --> 00:05:13,370
+Factura, ah no, que le di a la que no era, era aquí.
+
+79
+00:05:18,150 --> 00:05:23,070
+bueno por alguna razón no lo acerca un detalle ahí de view vamos
+
+80
+00:05:23,071 --> 00:05:26,930
+a darle aquí Ya la tengo.
+
+81
+00:05:28,510 --> 00:05:32,350
+Sería esto, ya todo está distribuido. Aquí nada más nos queda completar.
+
+82
+00:05:35,190 --> 00:05:39,490
+Listo, ya completó. Nos vamos nuevamente al expediente.
+
+83
+00:05:39,630 --> 00:05:43,540
+Es importante lo siguiente, este reporte que está aquí, Funciona directamente con el costo,
+
+84
+00:05:44,020 --> 00:05:46,920
+no hay manera de que él se genere si no están los documentos completos
+
+85
+00:05:46,921 --> 00:05:49,740
+y si no hay un asiento de costo. Eso nos asegura de que que
+
+86
+00:05:49,741 --> 00:05:53,680
+tanto el costo como la contabilidad queden perfectos para nosotros ir sacando esta auxiliar.
+
+87
+00:05:54,960 --> 00:05:59,220
+Aquí lo generamos. y vemos que ya entonces se ve un poco más serio
+
+88
+00:05:59,221 --> 00:06:02,620
+el reporte porque ya se ve cuánto fue el material,
+
+89
+00:06:02,880 --> 00:06:05,180
+cuánto gasté de flete, cuánto de seguro,
+
+90
+00:06:05,520 --> 00:06:08,760
+cuánto es el arancel, cuánto es el TSA aduanas y la tasa consular.
+
+91
+00:06:09,180 --> 00:06:12,060
+Y así en adelante todo. los elementos de costo que podamos agregar.
+
+92
+00:06:12,220 --> 00:06:15,840
+Si el reporte es muy extenso y lo quiero ver como material y adicional,
+
+93
+00:06:16,260 --> 00:06:20,100
+bueno, saco el otro reporte que tengo por aquí. que es por tipo de
+
+94
+00:06:20,101 --> 00:06:22,120
+costo, que es más sencillo.
+
+95
+00:06:26,680 --> 00:06:30,000
+¡Gracias por ver el vídeo!
+
+96
+00:06:30,120 --> 00:06:33,620
+No entre en el módulo de pago, porque el módulo de pago está,
+
+97
+00:06:34,180 --> 00:06:37,840
+¿cómo se dice?, asociado al escudo.
+
+98
+00:06:37,860 --> 00:06:41,680
+El expediente como referencia, pero a nivel de costo y nada de eso no
+
+99
+00:06:41,681 --> 00:06:44,880
+afecta nada, simplemente es que yo lo puedo ver aquí en los pagos relacionados.
+
+100
+00:06:45,900 --> 00:06:50,500
+y que de alguna manera sí preserva cosas como el tipo de
+
+101
+00:06:50,501 --> 00:06:53,000
+conversión, que es otro punto que lo hablaré más adelante.
+
+102
+00:06:53,940 --> 00:06:58,220
+Cuando viene del expediente lo conserva en el pago para que todo maneje un
+
+103
+00:06:58,221 --> 00:07:01,300
+tipo de conversión y una sola tasa, o sea, si hay variación sea en
+
+104
+00:07:01,301 --> 00:07:03,360
+esa tasa y no cuando viene Bueno,
+
+105
+00:07:05,120 --> 00:07:08,600
+lo demás pues creo que ya está bien claro este proceso aquí.
+
+106
+00:07:10,080 --> 00:07:10,680
+Y nada.

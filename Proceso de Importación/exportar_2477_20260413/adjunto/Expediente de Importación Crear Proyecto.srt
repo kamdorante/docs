@@ -1,0 +1,55 @@
+1
+00:00:00,000 --> 00:00:04,280
+Ah, crear un proyecto aquí. Vamos a ver,
+
+2
+00:00:04,360 --> 00:00:07,380
+estudiante ID producción. Esto no se lo que dice,
+
+3
+00:00:07,660 --> 00:00:11,720
+uno, uno, uno, uno. Una de new. Pediente de importación.
+
+4
+00:00:12,520 --> 00:00:17,030
+Eh, fecha de documento hoy. cualquier
+
+5
+00:00:17,031 --> 00:00:21,750
+cosa que se me ocurra lo guardamos con el número 3
+
+6
+00:00:23,070 --> 00:00:28,530
+y, bueno, aquí vamos a completar ahora
+
+7
+00:00:28,531 --> 00:00:28,870
+más
+
+8
+00:00:33,660 --> 00:00:36,320
+Al completar, el automaticamente crea el proyecto,
+
+9
+00:00:36,440 --> 00:00:43,540
+y aquí se ve, el error
+
+10
+00:00:43,541 --> 00:00:45,660
+que había era con el tipo de proyecto, ya yo lo resolví,
+
+11
+00:00:46,620 --> 00:00:50,580
+y este proyecto pues, Lo crea para darle,
+
+12
+00:00:52,200 --> 00:00:55,060
+como el expediente de importación no es una dimensión contable,
+
+13
+00:00:55,160 --> 00:00:57,900
+la idea es que se pueda ver como dimensión contable y por eso se
+
+14
+00:00:57,901 --> 00:00:58,500
+usa el proyecto.

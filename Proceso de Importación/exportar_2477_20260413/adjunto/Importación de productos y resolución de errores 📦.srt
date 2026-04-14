@@ -1,0 +1,123 @@
+1
+00:00:01,230 --> 00:00:03,530
+Bueno, estoy en la instancia de IDEP.
+
+2
+00:00:03,630 --> 00:00:07,190
+Vamos a probar esto de importar productos que he dado un error de la
+
+3
+00:00:07,191 --> 00:00:11,060
+categoría impuesto. Tengo el mismo archivo que me pasó el usuario,
+
+4
+00:00:11,940 --> 00:00:16,040
+así es la carga de productos. Esto está bien. Voy a sacar.
+
+5
+00:00:20,940 --> 00:00:28,020
+cargar cargo directamente el TSD y
+
+6
+00:00:28,021 --> 00:00:33,180
+vamos a Sí, bien, son
+
+7
+00:00:33,181 --> 00:00:38,660
+treinta y seis líneas. Y,
+
+8
+00:00:51,360 --> 00:00:56,140
+aquí no se puede, Ahí
+
+9
+00:00:56,141 --> 00:00:59,400
+está, 36, perfecto. Así vamos a importar,
+
+10
+00:00:59,480 --> 00:01:04,600
+voy a importar. refrescar, me debería traer las 36 líneas.
+
+11
+00:01:04,780 --> 00:01:07,360
+Bien, entonces,
+
+12
+00:01:09,220 --> 00:01:13,940
+importar, vamos a ver la idea
+
+13
+00:01:20,260 --> 00:01:23,440
+Bueno, Errores,
+
+14
+00:01:23,441 --> 00:01:28,040
+esto parece que estuvo bien. Vamos a refrescar.
+
+15
+00:01:34,110 --> 00:01:38,350
+A veces no refresca bien esto. Voy a volver a ingresar a importar productos.
+
+16
+00:01:44,290 --> 00:01:48,850
+Y los vamos a, Vamos
+
+17
+00:01:48,851 --> 00:01:50,130
+a ir por importado o no.
+
+18
+00:01:57,470 --> 00:02:00,130
+Claro, no hay nada, perfecto. Entonces,
+
+19
+00:02:07,180 --> 00:02:09,400
+Vamos a hacer solamente una prueba. Esto está bien,
+
+20
+00:02:10,660 --> 00:02:13,680
+pero me gustaría revisar solamente ,de esto,
+
+21
+00:02:14,800 --> 00:02:18,380
+de un producto. Aquí estoy haciendo esta prueba.
+
+22
+00:02:20,060 --> 00:02:24,740
+Quiero ver, Vamos ver cómo queda la actualización del
+
+23
+00:02:24,741 --> 00:02:27,680
+producto, porque aquí le definió un socio de negocio.
+
+24
+00:02:30,220 --> 00:02:33,820
+Es este. Igual yo ya sé cuál es.
+
+25
+00:02:34,020 --> 00:02:35,540
+Vamos a ir a la suela para compras.
+
+26
+00:02:46,660 --> 00:02:49,120
+Aquí está. Le definió esto.
+
+27
+00:02:50,280 --> 00:02:52,620
+Esto es otra cosa, ¿no? Pero está perfecto la prueba,
+
+28
+00:02:52,840 --> 00:02:56,660
+se lo ,importó bien o dio error. Pero esto es lo que,
+
+29
+00:02:57,360 --> 00:03:00,580
+,siempre me está clavando la organización en la que estoy.
+
+30
+00:03:02,130 --> 00:03:05,250
+Cuando ellos quieren que lo haga con asterisco.
+
+31
+00:03:06,270 --> 00:03:09,700
+Este registro particularmente de el socio de la negocio del producto.
