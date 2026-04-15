@@ -26,3 +26,4 @@ Gestión de pagos, cobros y procesamiento de transacciones con tarjetas y proces
 ## Procesos
 - [Cierre de Lote de Procesador de Pagos](processor-batch-closing)
 - [Generar Cobros de Facturas de Procesador de Pagos](generate-payments-for-processor-batch-invoices)
+- [Rechazo de Pago / Cobro](payment-return)
