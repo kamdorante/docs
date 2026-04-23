@@ -35,3 +35,10 @@ Documentación de referencia del diccionario de aplicación para el módulo de G
 - [Generar Ganancia/Pérdida No Realizada](processes/generate-not-realized-gain-loss)
 - [Cierre de Ejercicio](processes/fiscal-year-end)
 - [Consulta Arbitraje de Moneda BCU](processes/currency-arbitration)
+
+## Informes Financieros
+### Ventanas
+- [Informe Financiero](financial-reports/financial-report)
+
+### Reportes
+- [Balance de Prueba Navegable](financial-reports/trial-balance-navigable)
