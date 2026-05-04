@@ -17,6 +17,7 @@ Gestión de estados de cuenta bancarios, conciliaciones, transferencias y report
 - [Conciliación de Estado de Cuenta](bank-statement-match)
 
 ## Procesos
+- [Importación de Extracto Bancario](import-bank-statement)
 - [Transferencia Bancaria](bank-transfer)
 - [Transferencia Bancaria Inmediata](immediate-bank-transfer)
 - [Transferencia Bancaria Multimoneda](multi-currency-bank-transfer)
