@@ -16,7 +16,7 @@ Documentación de referencia del diccionario de aplicación para el módulo de F
 - [Notas de Crédito — Validaciones de Moneda y Tasa de Cambio](credit-note-currency-validations)
 - [Tipos de Conversión para Facturación Electrónica](conversion-types)
 - [Facturación de Contingencia](contingency-billing)
-- [Importación de Facturas Electrónicas (CxP)](get-electronic-invoices)
+- [Importación de CFE recibidos](get-electronic-invoices)
 - [Tipo de Documento según Grupo de Impuestos](document-type-by-tax-group)
 - [Contra e-Remito y Contra Resguardo](reverse-electronic-documents)
 - [Retenciones en Facturación Electrónica](retentions-electronic-billing)
