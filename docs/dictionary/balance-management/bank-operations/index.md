@@ -12,6 +12,7 @@ Gestión de estados de cuenta bancarios, conciliaciones, transferencias y report
 
 ## Ventanas
 - [Estado de Cuenta Bancario](bank-statement)
+- [Libreta de Cheques](check-book)
 
 ## Formularios
 - [Conciliación de Estado de Cuenta](bank-statement-match)

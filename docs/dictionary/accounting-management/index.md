@@ -13,6 +13,7 @@ Documentación de referencia del diccionario de aplicación para el módulo de G
 ## Asientos Contables
 - [Lote de Pólizas Contables](journal-entries/gl-journal-batch)
 - [Póliza Contable](journal-entries/gl-journal)
+- [Importación Masiva de Asientos Contables](journal-entries/import-journal-entries)
 
 ## Hechos Contables
 ### Ventanas

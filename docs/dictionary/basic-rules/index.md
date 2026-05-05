@@ -13,3 +13,7 @@ Documentación de referencia del diccionario de aplicación para la configuraci�
 ## Contenido
 
 Esta sección contiene la documentación de las herramientas de administración, configuración del diccionario de aplicación y reglas básicas del sistema.
+
+## Ventanas
+
+- [Corporación](corporation)
