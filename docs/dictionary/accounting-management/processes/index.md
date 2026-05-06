@@ -12,6 +12,7 @@ Procesos especiales de gestión contable.
 
 ## Procesos
 - [Contabilización y Costeo por Cola](accounting-cost-queue)
+- [Recontabilizar Documentos](repost-documents)
 - [Generar Ganancia/Pérdida No Realizada](generate-not-realized-gain-loss)
 - [Cierre de Ejercicio](fiscal-year-end)
 - [Consulta Arbitraje de Moneda BCU](currency-arbitration)

@@ -12,6 +12,7 @@ Gestión de pagos, cobros y procesamiento de transacciones con tarjetas y proces
 
 ## Ventanas
 - [Pago/Cobro](payment)
+- [Recibo de Pago](payment-receipt)
 - [Proveedor de Tarjeta](card-provider)
 - [Tarjeta](card)
 - [Lote de Procesador de Pagos](payment-processor-batch)
