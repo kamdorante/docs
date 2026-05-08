@@ -83,6 +83,9 @@ Documentación de referencia del diccionario de aplicación para el módulo de G
 ### Ventanas
 - [Expediente de Importación](import-management/import-expedient)
 
+### Reportes
+- [Reportes de Costos del Expediente de Importación](import-management/import-cost-reports)
+
 ## Gestión de Shopping
 
 ### Ventanas

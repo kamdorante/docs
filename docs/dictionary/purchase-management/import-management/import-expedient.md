@@ -174,8 +174,35 @@ Una organización importa un lote de producto desde el exterior con pago anticip
 - Si se necesita **reactivar** una orden de compra vinculada al expediente, es posible, pero las facturas ya emitidas sobre esa orden no se modifican automáticamente: deben revisarse una a una.
 - Cuando la cantidad recibida difiere de la cantidad ordenada, el sistema permite ajustar mediante devolución o movimiento de inventario según corresponda; no se modifica la orden original automáticamente.
 
+## Preguntas frecuentes
+
+### ¿Qué se hace cuando la mercadería aún está en tránsito y faltan facturas por cargar?
+
+El expediente puede mantenerse abierto y los reportes mostrarán un **costo parcial** con los costos ya imputados. Una vez que llegan todas las facturas, marcar el expediente como cerrado para fijar el costo definitivo.
+
+### ¿Qué pasa con el IVA de las facturas de costos adicionales?
+
+El IVA **no afecta el expediente**: se trata como impuesto recuperable, no como costo del producto. Solo se distribuyen los importes netos. La factura del IVA se registra contablemente pero no impacta el costo del inventario.
+
+### ¿Cómo se manejan los aranceles que llegan en un período posterior?
+
+Reabrir el expediente, cargar la nueva factura como costo adicional referenciando el expediente, distribuirla por línea y volver a cerrar. El sistema actualiza el costo unitario; las entregas posteriores tomarán el costo actualizado. El histórico de costo de las entregas previas queda con el valor que tenían en ese momento.
+
+### ¿Por qué los reportes muestran el costo en moneda local y no en la moneda de la factura?
+
+Los costos se calculan siempre en la **moneda del esquema contable** (moneda funcional). Las facturas en moneda extranjera se convierten al tipo de cambio del documento. Si la organización requiere ver el costo en otra moneda, se puede solicitar como ampliación funcional.
+
+### ¿Cómo se sabe si un costo afecta o no al expediente?
+
+Cuando se carga una factura, el campo **Expediente** debe estar completo y la línea debe estar configurada como costo adicional. Las líneas que no afectan al expediente (por ejemplo, líneas de IVA o líneas de servicio no relacionadas con la importación) no se distribuyen.
+
+### ¿Qué pasa si se vendieron unidades antes de cargar todos los costos del expediente?
+
+El costo de venta se calculó con el costo conocido al momento de la entrega. Si después se cargan más costos, el costo unitario del expediente se actualiza, pero las entregas previas mantienen el costo histórico. El sistema permite consultar el costo final actualizado por unidad para tomar decisiones comerciales (ajuste de precios futuros, análisis de rentabilidad).
+
 ## Ventanas relacionadas
 
 - [Orden de Compra](../purchase-orders/purchase-order)
 - [Recepción de Productos](../reception/material-receipt)
 - [Factura (Proveedor)](../payable-documents/invoice-vendor)
+- [Reportes de Costos del Expediente de Importación](import-cost-reports)
