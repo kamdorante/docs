@@ -35,8 +35,8 @@ Existen dos puntos de acceso según la etapa:
 
 | Parámetro | Descripción | Tipo | Obligatorio |
 |-----------|-------------|------|-------------|
-| Tipo de Documento | Tipo de documento del rechazo (por ejemplo, *Rechazo Cheque Propio* o *Rechazo Cheque Tercero*) | Lista | Sí |
-| Fecha de Pago | Fecha con la que se registra el rechazo (contable y de transacción) | Fecha | Sí |
+| Tipo de Documento | Determina el tipo de rechazo a generar. Opciones: *Rechazo Cheque Propio* (cheques emitidos por la organización rechazados) o *Rechazo Cheque Tercero* (cheques recibidos rechazados) | Lista | Sí |
+| Fecha de Pago | Fecha con la que se registra el rechazo. Por defecto se sugiere la fecha del día. Determina la fecha contable, la fecha de transacción y el vencimiento de la factura de rechazo | Fecha | Sí |
 
 ## Acciones disponibles
 
@@ -163,9 +163,10 @@ Desde el menú de acciones del documento, seleccionar **Rechazo de Pago / Cobro*
 
 El proceso automáticamente:
 
-- Marca el pago original con el sufijo *" - RECHAZADO"* en la descripción y lo deja completo.
-- Crea un nuevo pago/cobro de rechazo vinculado al original, con el mismo importe, misma forma de pago y numerado con el sufijo *" - RECHAZADO"*.
-- Genera el documento por cobrar o por pagar de rechazo, con el cargo configurado, y lo completa automáticamente.
+- Marca el pago original con el sufijo *" - RECHAZADO"* en la descripción y lo deja completo. El documento original queda **vinculado** al de rechazo y **no se puede volver a rechazar**.
+- Crea un nuevo **pago/cobro de rechazo** (de contrapartida) vinculado al original, con el mismo importe, misma forma de pago y numerado con el sufijo *" - RECHAZADO"*. Este pago neutraliza contablemente al original.
+- Genera una **factura de rechazo** (documento por cobrar o por pagar según corresponda) que **reabre la deuda con el socio del negocio**. El vencimiento de esa factura queda en la fecha del rechazo indicada en el parámetro *Fecha de Pago*.
+- Al finalizar, el sistema muestra un mensaje de confirmación indicando los documentos creados con sus respectivos números.
 
 ### 5. Validar la contabilización
 
@@ -187,6 +188,21 @@ Un cliente paga una factura con cheque y, días después, el banco devuelve el c
    - Se creó el documento por cobrar de tipo *Cobro Rechazado* con el mismo cargo y el importe correspondiente.
 4. Revisar el asiento del nuevo documento por cobrar: debita la cuenta *Cobros Rechazados* del cliente y acredita la cuenta del cargo de rechazo.
 5. Cuando el cliente regulariza el pago, abrir el **Visor de Depósito de Cheque Diferido**, seleccionar el documento *Cobro Rechazado* y registrar el nuevo cobro con la fecha y el número de cheque aportados por el cliente. El sistema cancela automáticamente el documento de rechazo.
+
+## Mensajes y errores frecuentes
+
+| Situación | Causa | Solución |
+|-----------|-------|----------|
+| **El estado del pago no es válido** | El pago no se encuentra en estado *Completo* o *Cerrado* | Completar el pago original antes de ejecutar el rechazo |
+| **Tipo de documento inconsistente** | El tipo de rechazo seleccionado no corresponde con el tipo del pago original (por ejemplo, rechazar un pago a proveedor con un documento de cobro) | Seleccionar el tipo de documento de rechazo correcto: *Rechazo Cheque Propio* para pagos emitidos, *Rechazo Cheque Tercero* para cheques recibidos |
+| **El pago ya fue rechazado** | Existe una referencia previa de rechazo en el documento | Verificar el documento de rechazo ya generado; un mismo pago no puede rechazarse dos veces |
+| **Lista de precios no encontrada** | No existe una lista de precios por defecto en la moneda del pago | Solicitar al área correspondiente la creación o marcado por defecto de una lista de precios en esa moneda |
+| **Dirección de facturación no encontrada** | El socio del negocio no tiene una dirección marcada como dirección de facturación | Configurar la dirección de facturación del socio del negocio antes de reintentar |
+| **Cuenta de rechazo no configurada** | La cuenta *Cobros Rechazados* o *Pagos Rechazados* del socio no está completa, ni se hereda del grupo de socios | Configurar la cuenta correspondiente en la pestaña *Contabilidad Cliente* o *Contabilidad Proveedor* del socio de negocio antes del primer uso |
+
+::: warning Atención
+Si las cuentas **Cobros Rechazados** o **Pagos Rechazados** no están configuradas, el rechazo no podrá completar la factura asociada. Validar la configuración contable antes del primer uso.
+:::
 
 ## Consideraciones importantes
 

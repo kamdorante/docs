@@ -24,3 +24,7 @@ Registro y control de tiempo y asistencia de empleados. Esta sección contiene l
 | Procesar Incidencia (Manual) | Navegador | Navegador para aprobar incidencias de empleados manualmente |
 | Crear Reporte de Gasto (desde Incidencia) | Navegador | Navegador para crear reportes de gasto a partir de incidencias de nómina |
 | Crear Asistencia Masiva desde Empleados | Navegador | Crea reportes de tiempo y gasto basados en empleados para proyectos |
+
+## Funcionalidad
+
+- [Reportar Horas de Personal (Time-Sheet)](report-personal-hours)
