@@ -15,6 +15,7 @@ Gestión de morosidad, incluyendo cálculos, cartas de cobro y seguimiento de de
 
 ## Procesos
 - [Crear Cálculo de Morosidad](create-dunning-calculation)
+- [Cálculo de Intereses por Mora](late-payment-interest)
 - [Imprimir Carta de Morosidad](print-dunning-letters)
 
 ## Visor Inteligente
