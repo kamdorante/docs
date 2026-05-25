@@ -17,6 +17,9 @@ Gestión de estados de cuenta bancarios, conciliaciones, transferencias y report
 ## Formularios
 - [Conciliación de Estado de Cuenta](bank-statement-match)
 
+## Visor Inteligente
+- [Crear Pagos desde Estado de Cuenta](create-payments-from-bank-statement)
+
 ## Procesos
 - [Importación de Extracto Bancario](import-bank-statement)
 - [Transferencia Bancaria](bank-transfer)
