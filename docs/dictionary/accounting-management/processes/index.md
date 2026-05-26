@@ -15,5 +15,5 @@ Procesos especiales de gestión contable.
 - [Recontabilizar Documentos](repost-documents)
 - [Generar Ganancia/Pérdida No Realizada](generate-not-realized-gain-loss)
 - [Cierre de Ejercicio](fiscal-year-end)
-- [Consulta Arbitraje de Moneda BCU](currency-arbitration)
+- [Importación de Tasa de Cambio](currency-arbitration)
 
