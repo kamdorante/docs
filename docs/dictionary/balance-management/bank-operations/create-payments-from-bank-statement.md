@@ -134,14 +134,7 @@ La transferencia también puede generarse desde el cabezal del estado de cuenta 
 
 ## Acciones disponibles
 
-- **Simular Coincidencia**
-  Antes de generar pagos, ejecutar el algoritmo de match automático sobre las líneas. Es el paso recomendado para no duplicar trabajo: solo lo que el match no resuelve pasa al visor de Crear Pagos.
-
-- **Asignación Manual**
-  Marcar una línea bancaria y un pago del sistema para asignarlos manualmente. Si hay diferencia entre los montos, el sistema absorbe la diferencia contra el cargo configurado en la cuenta bancaria.
-
-- **Match Múltiple**
-  Habilitar la multiselección con el check correspondiente. El sistema pregunta si la operación es solo pago o solo cobro para identificar los signos. Permite asignar varios movimientos bancarios contra varios pagos del sistema (relación n a n), cuando los montos sumados coinciden.
+> **Nota:** este documento cubre únicamente las acciones de **generación de pagos** sobre las líneas pendientes. Las acciones de emparejamiento (simular coincidencia, asignación manual, match múltiple, desasignar) pertenecen al proceso de [Conciliación de Estado de Cuenta](bank-statement-match) y se documentan allí.
 
 - **Crear Cargo Bancario**
   Genera un pago al socio del banco con un cargo configurado.
@@ -158,24 +151,15 @@ La transferencia también puede generarse desde el cabezal del estado de cuenta 
 - **Generar Transferencia entre Cuentas**
   Genera una transferencia entre dos cuentas bancarias propias, con o sin cambio de moneda.
 
-- **Desasignar Conciliación**
-  Quita la asignación de una línea ya conciliada cuando se detecta un match incorrecto, devolviéndola al pool de pendientes.
-
 ## Flujo del proceso
 
-### 1. Importar el extracto y ejecutar el match automático
+> **Requisito previo:** antes de usar este visor, el extracto debe estar cargado y conciliado. La carga del archivo y el emparejamiento automático/manual se realizan desde el [Estado de Cuenta Bancario](bank-statement) y la [Conciliación de Estado de Cuenta](bank-statement-match). Este visor resuelve únicamente las líneas que la conciliación dejó pendientes.
 
-Antes de usar el visor, cargar el extracto en el **Estado de Cuenta Bancario** e ir al **Formulario de Conciliación de Estado de Cuenta**. Ejecutar **Simular Coincidencia** y luego confirmar. El sistema resuelve automáticamente las líneas con coincidencia exacta.
+### 1. Abrir el visor Crear Pagos desde Estado de Cuenta
 
-### 2. Revisar y ajustar el match
+Desde el cabezal del estado de cuenta, abrir el visor. Por defecto aparece filtrado por *No Asignado*. El visor muestra las líneas pendientes de identificar.
 
-Para líneas mal asignadas, usar **Desasignar Conciliación** y reasignarlas manualmente con **Asignación Manual** o **Match Múltiple**.
-
-### 3. Abrir el visor Crear Pagos desde Estado de Cuenta
-
-Desde el cabezal del estado de cuenta, abrir el visor. Por defecto aparece filtrado por *No Asignado*. El visor muestra las líneas pendientes.
-
-### 4. Resolver línea por línea según el tipo de movimiento
+### 2. Resolver línea por línea según el tipo de movimiento
 
 Para cada línea pendiente, identificar el motivo (por descripción y monto) y aplicar el tipo de pago correspondiente:
 
@@ -199,32 +183,28 @@ Una vez todas las líneas tienen pago asignado, volver al cabezal y ejecutar **C
 
 ## Ejemplo de uso
 
-Conciliación de un extracto con 28 movimientos donde quedan 5 sin asignar tras el match automático:
+Un extracto quedó con 5 líneas pendientes después de la conciliación; todas deben resolverse generando pagos:
 
-1. Ejecutar el match automático → 23 líneas se conciliaron, 5 quedan pendientes.
-2. Abrir **Crear Pagos desde Estado de Cuenta** desde el cabezal. Las 5 líneas pendientes son:
+1. Abrir **Crear Pagos desde Estado de Cuenta** desde el cabezal. Las 5 líneas pendientes son:
    - 3 movimientos negativos pequeños (comisiones bancarias).
    - 1 movimiento positivo grande sin referencia.
    - 1 movimiento positivo etiquetado como "compra-venta moneda extranjera".
-3. Seleccionar las 3 líneas de comisiones, ejecutar **Crear Cargo Bancario** con cargo *Comisiones Bancarias*. El sistema genera 3 pagos al socio del banco; las líneas quedan conciliadas.
-4. Para el movimiento positivo grande, no se conoce el cliente. Seleccionar la línea y ejecutar **Crear Pago/Cobro sin Identificar**. Se genera un cobro marcado como *Sin Identificar*; queda pendiente de identificar más adelante.
-5. Para el movimiento de compra-venta de moneda, seleccionar la línea y ejecutar **Generar Transferencia entre Cuentas** con cuenta origen en USD, cuenta destino en pesos y tasa 38. El sistema crea dos pagos (uno en cada cuenta) con la misma descripción enlazada.
-6. Verificar que todas las líneas quedaron con pago asignado.
-7. Ejecutar **Completar** en el cabezal. El estado de cuenta se completa y actualiza el saldo.
+2. Seleccionar las 3 líneas de comisiones, ejecutar **Crear Cargo Bancario** con cargo *Comisiones Bancarias*. El sistema genera 3 pagos al socio del banco; las líneas quedan resueltas.
+3. Para el movimiento positivo grande, no se conoce el cliente. Seleccionar la línea y ejecutar **Crear Pago/Cobro sin Identificar**. Se genera un cobro marcado como *Sin Identificar*; queda pendiente de identificar más adelante.
+4. Para el movimiento de compra-venta de moneda, seleccionar la línea y ejecutar **Generar Transferencia entre Cuentas** con cuenta origen en USD, cuenta destino en pesos y tasa de cambio. El sistema crea dos pagos (uno en cada cuenta) con la misma descripción enlazada.
+5. Verificar que todas las líneas quedaron con pago asignado.
+6. Volver al [Estado de Cuenta Bancario](bank-statement) y ejecutar **Completar**.
 
 ## Consideraciones importantes
 
-- El visor **solo funciona** sobre líneas no asignadas. Las líneas ya conciliadas (automáticamente o manualmente) no aparecen salvo que se cambie el filtro *Modo de Búsqueda*.
-- El sistema **no permite completar** el estado de cuenta si queda al menos una línea sin pago asignado. Cuando se completa, recién se aplica el asiento contable y se actualiza el saldo.
+- El visor **solo funciona** sobre líneas no asignadas. Las líneas ya conciliadas (automáticamente o manualmente desde la [Conciliación de Estado de Cuenta](bank-statement-match)) no aparecen salvo que se cambie el filtro *Modo de Búsqueda*.
+- El sistema **no permite completar** el estado de cuenta si queda al menos una línea sin pago asignado. Por eso, todas las líneas que no corresponden a pagos del sistema deben resolverse desde este visor antes de completar.
 - Para **cargos bancarios**, el socio se toma automáticamente del banco configurado en la cuenta bancaria. Si esa configuración falta, el visor no puede generar el pago hasta que se complete.
-- El **cargo para ajuste** debe configurarse en la cuenta bancaria antes de la conciliación. Sin él, las asignaciones manuales con diferencia y el proceso de importación de conciliación con diferencia fallan.
-- En **asignación manual con diferencia**, el sistema absorbe la diferencia contra el cargo configurado en la cuenta bancaria. Si la diferencia es grande, conviene revisar antes de confirmar para evitar montos significativos al cargo.
-- El **match múltiple** habilita la multiselección. Al activarlo, el sistema pregunta si se está trabajando con pagos o cobros para identificar correctamente los signos. La suma de movimientos seleccionados a la izquierda debe coincidir con la suma de pagos seleccionados a la derecha (se pone en verde cuando el saldo es cero).
-- Los **pagos sin identificar** son útiles para no bloquear el cierre del estado de cuenta cuando aún no se conoce el socio. Pero requieren un seguimiento posterior con **Identificar Pago/Cobro** desde la ventana del pago.
+- Los **pagos sin identificar** son útiles para no bloquear el cierre del estado de cuenta cuando aún no se conoce el socio. Requieren un seguimiento posterior con **Identificar Pago/Cobro** desde la ventana del pago.
 - Para **transferencias multimoneda**, indicar siempre la **tasa de cambio** en el momento de generar. El sistema genera dos pagos (uno por cada cuenta) con la descripción enlazada para trazabilidad.
 - Cuando se crean **muchos pagos a la vez** (por ejemplo, todas las comisiones del mes), se pueden seleccionar todas las líneas y ejecutar la acción en bloque, lo que genera un pago por cada línea.
-- La acción **Desasignar Conciliación** funciona tanto sobre asignaciones automáticas como manuales, devolviendo la línea al pool de pendientes para reasignarla.
-- Cada pago generado desde el visor lleva en su descripción la **referencia al movimiento bancario** que lo originó, lo que facilita la auditoría y el seguimiento de cobranza.
+- Cada pago generado desde el visor se contabiliza contra la cuenta puente **Cheques en Tránsito** y lleva en su descripción la **referencia al movimiento bancario** que lo originó, lo que facilita la auditoría y el seguimiento de cobranza.
+- El **otro tipo de pago** permite registrar pagos a socios específicos distintos del banco (por ejemplo, organismos fiscales) cuando el movimiento del extracto corresponde a ese concepto.
 
 ## Ventanas relacionadas
 

@@ -10,9 +10,14 @@ article: false
 
 ## Descripción
 
-La ventana **Estado de Cuenta Bancario** es el documento central del proceso de conciliación bancaria. Cada registro representa un extracto cargado desde el banco para una cuenta bancaria específica y un período determinado (semanal, mensual o el que defina la organización). Desde el documento se cargan los movimientos, se concilian contra los pagos y cobros del sistema, se generan pagos faltantes (cargos bancarios, comisiones, cobros no identificados) y, al completarse, se actualizan los saldos contables de la cuenta bancaria.
+La ventana **Estado de Cuenta Bancario** es el documento central de la operativa bancaria. Cada registro representa un extracto cargado desde el banco para una cuenta bancaria específica y un período determinado (semanal, mensual o el que defina la organización). El documento agrupa los movimientos del extracto y, al completarse, actualiza los saldos contables de la cuenta bancaria.
 
-El flujo contable se diseñó para que la **cuenta del banco** se mueva solo al completar el estado de cuenta. Mientras tanto, los pagos y cobros se registran contra una **cuenta puente de cheques en tránsito** que se regulariza al finalizar la conciliación. De esta manera, la cuenta bancaria queda siempre conciliada con el saldo real y las diferencias quedan aisladas en la cuenta puente.
+Desde esta ventana se ejecutan **dos procesos independientes** que tienen su propia documentación:
+
+- **[Conciliación de Estado de Cuenta](bank-statement-match)**: empareja las líneas del extracto con los pagos y cobros ya registrados en el sistema (match automático, asignación manual, match múltiple, desasignar).
+- **[Crear Pagos desde Estado de Cuenta](create-payments-from-bank-statement)**: genera los pagos faltantes para las líneas que no corresponden a pagos existentes (cargos bancarios, cobros sin identificar, transferencias entre cuentas, etc.).
+
+El flujo contable se diseñó para que la **cuenta del banco** se mueva solo al completar el estado de cuenta. Mientras tanto, los pagos y cobros se registran contra una **cuenta puente de cheques en tránsito** que se regulariza al finalizar. De esta manera, la cuenta bancaria queda siempre conciliada con el saldo real y las diferencias quedan aisladas en la cuenta puente.
 
 ## ¿Cuándo se utiliza?
 
@@ -125,25 +130,27 @@ Una línea por cada movimiento del extracto importado o agregado manualmente. Lo
 
 ## Acciones disponibles
 
+La ventana ofrece las acciones propias del documento y da acceso a los dos procesos independientes que se documentan por separado.
+
+### Acciones del documento
+
 - **Carga de Estado de Cuenta**
-  Importa el archivo del banco y crea las líneas del extracto. Muestra la cantidad de líneas procesadas para validar contra el archivo original.
-
-- **Conciliación de Estado de Cuenta**
-  Abre el formulario de match automático/manual entre las líneas del extracto y los pagos/cobros del sistema.
-
-- **Crear Pagos desde Estado de Cuenta**
-  Visor que lista las líneas pendientes de identificar y permite generar pagos masivos por cargo bancario, comisiones, pagos sin factura, cobros no identificados o transferencias entre cuentas.
-
-- **Desasignar**
-  Quita la vinculación de un pago con una línea para reasignarlo.
-
-- **Match Múltiple**
-  Permite asignar varios pagos del sistema a una misma línea del extracto cuando el banco agrupa movimientos.
+  Importa el archivo del banco y crea las líneas del extracto. Muestra la cantidad de líneas procesadas para validar contra el archivo original. (El detalle del armado del archivo se documenta en [Importación de Extracto Bancario](import-bank-statement)).
 
 - **Completar**
   Finaliza el documento. Valida que todas las líneas tengan pago asignado y actualiza los saldos contables: saca de la cuenta puente *Cheques en Tránsito* y la acredita/debita contra la cuenta del banco.
 
+### Procesos independientes (documentación dedicada)
+
+- **[Conciliación de Estado de Cuenta](bank-statement-match)**
+  Empareja las líneas del extracto con los pagos y cobros existentes del sistema. Incluye el match automático, la asignación manual, el match múltiple y la desasignación. Ver su documentación dedicada.
+
+- **[Crear Pagos desde Estado de Cuenta](create-payments-from-bank-statement)**
+  Genera los pagos faltantes para las líneas que no corresponden a pagos existentes (cargos bancarios, cobros sin identificar, transferencias entre cuentas, etc.). Ver su documentación dedicada.
+
 ## Flujo del proceso
+
+El procesamiento de un estado de cuenta combina la ventana (carga y completar) con los dos procesos independientes.
 
 ### 1. Configurar la cuenta bancaria y los cargos
 
@@ -157,30 +164,15 @@ En **Estado de Cuenta Bancario**, crear un registro seleccionando la cuenta banc
 
 Ejecutar **Carga de Estado de Cuenta** y seleccionar el archivo descargado del banco. El sistema informa la cantidad de líneas procesadas; validar contra el archivo original.
 
-### 4. Ejecutar la conciliación automática
+### 4. Conciliar las líneas con pagos existentes
 
-Ejecutar **Conciliación de Estado de Cuenta**. El sistema empareja automáticamente las líneas del extracto con los pagos y cobros del sistema usando el algoritmo configurado (coincidencias exactas de importe, referencia, etc.).
+Ejecutar el proceso de **[Conciliación de Estado de Cuenta](bank-statement-match)** para emparejar las líneas del extracto con los pagos y cobros ya registrados en el sistema. Ese documento detalla el match automático, la asignación manual, el match múltiple y la desasignación.
 
-### 5. Revisar y ajustar manualmente
+### 5. Generar pagos para las líneas pendientes
 
-Las líneas no emparejadas automáticamente pueden ajustarse:
+Para las líneas que no corresponden a pagos existentes, ejecutar **[Crear Pagos desde Estado de Cuenta](create-payments-from-bank-statement)**. Ese documento detalla cada tipo de pago disponible (cargo bancario, sin identificar, transferencia entre cuentas, etc.).
 
-- **Asignación manual** cuando el match automático no funcionó.
-- **Desasignar** para corregir una asignación incorrecta.
-- **Match múltiple** cuando una línea del banco corresponde a varios pagos del sistema.
-
-### 6. Generar pagos desde las líneas pendientes
-
-Para las líneas que no corresponden a pagos ya registrados, ejecutar **Crear Pagos desde Estado de Cuenta**. Filtrar por importe o descripción, seleccionar las líneas y elegir el tipo de transacción:
-
-- *Cargo Bancario* (comisiones, mantenimientos): usa el socio del banco y el cargo seleccionado.
-- *Pago Pendiente de Factura*.
-- *Cobro No Identificado*.
-- *Transferencia entre Cuentas* (incluso multimoneda).
-
-El sistema genera un pago por cada línea, lo asigna automáticamente y lo contabiliza contra la cuenta puente *Cheques en Tránsito*.
-
-### 7. Validar saldos y completar
+### 6. Completar el estado de cuenta
 
 Confirmar que todas las líneas tienen pago asignado. El sistema no permite completar si queda alguna línea sin identificar. Ejecutar **Completar**:
 
@@ -194,28 +186,26 @@ Cierre mensual de la cuenta bancaria con 70 movimientos:
 
 1. Crear el **Estado de Cuenta Bancario** con la cuenta bancaria, tipo de documento *Extracto de Cuenta Bancaria*, nombre "Enero 2026" y fecha 31/01.
 2. Ejecutar **Carga de Estado de Cuenta** con el archivo descargado del banco. El sistema informa 70 líneas cargadas.
-3. Ejecutar **Conciliación de Estado de Cuenta**. El algoritmo automático concilia los pagos y cobros con importes coincidentes y deja 25 líneas pendientes.
-4. Filtrar las líneas pendientes por importe *entre -100 y 100* y seleccionar las 24 comisiones pequeñas. Ejecutar **Crear Pagos desde Estado de Cuenta** con tipo *Cargo Bancario* y el cargo *Comisiones Bancarias*. El sistema genera 24 pagos automáticos.
-5. Identificar manualmente las líneas grandes restantes (pagos a proveedores grandes que no se concilian por diferencia de fecha o descripción) asignando los pagos correspondientes del sistema.
-6. Verificar que todas las líneas tienen pago asignado y ejecutar **Completar**.
-7. Abrir la cuenta bancaria y confirmar que el saldo contable quedó actualizado al saldo final del extracto. Al crear el estado de cuenta de febrero, el saldo inicial ya aparecerá automáticamente.
+3. Ejecutar la **Conciliación de Estado de Cuenta**. El algoritmo automático empareja los pagos y cobros con importes coincidentes y deja 25 líneas pendientes (ver el documento de conciliación para el detalle).
+4. Para las líneas pendientes que no tienen pago en el sistema (comisiones, cobros sin identificar, transferencias), usar **Crear Pagos desde Estado de Cuenta** (ver su documento para el detalle de cada tipo).
+5. Verificar que todas las líneas tienen pago asignado y ejecutar **Completar**.
+6. Abrir la cuenta bancaria y confirmar que el saldo contable quedó actualizado al saldo final del extracto. Al crear el estado de cuenta de febrero, el saldo inicial ya aparecerá automáticamente.
 
 ## Consideraciones importantes
 
-- El sistema **no permite completar** un estado de cuenta si existen líneas sin pago asignado. Para avanzar, los movimientos sin identificar deben enviarse a "pago no identificado" y luego regularizarse.
+- El sistema **no permite completar** un estado de cuenta si existen líneas sin pago asignado. Cada línea debe quedar conciliada con un pago existente o resuelta con un pago generado.
 - No se admite **completado parcial**: el estado de cuenta se completa íntegramente o se deja en proceso.
 - El **saldo inicial** del próximo estado de cuenta se toma automáticamente del saldo final del último estado completo; para que funcione, los estados deben cerrarse en orden cronológico.
-- Los pagos generados desde el visor se contabilizan contra la cuenta puente **Cheques en Tránsito** y **no mueven la cuenta bancaria** hasta que se complete el estado de cuenta. Esto garantiza que la cuenta bancaria esté siempre conciliada con el saldo real.
+- Los pagos asociados a las líneas se contabilizan contra la cuenta puente **Cheques en Tránsito** y **no mueven la cuenta bancaria** hasta que se complete el estado de cuenta. Esto garantiza que la cuenta bancaria esté siempre conciliada con el saldo real.
 - Si aparecen partidas sin conciliar a una fecha determinada, quedan visibles en la cuenta puente, no en la cuenta del banco, lo que facilita su seguimiento.
-- El **match múltiple** es útil cuando el banco agrupa varios pagos en un solo movimiento (por ejemplo, una cobranza consolidada). En ese caso, una sola línea del extracto se asigna a varios pagos del sistema.
-- Los **cargos bancarios** no requieren indicar socio de negocio: el sistema usa automáticamente el socio configurado en la ventana **Banco**.
 - En líneas con diferencia de importe entre el banco y el pago, usar la funcionalidad de *Conciliación con Diferencia en Montos* para preservar el pago original y registrar un ajuste aislado.
-- Las **transferencias entre cuentas** se generan desde el mismo visor seleccionando el tipo correspondiente, y permiten operaciones multimoneda cuando aplica.
 - Los **algoritmos de conciliación** e identificación pueden personalizarse por cuenta bancaria para ajustarse a los formatos de cada banco (Itaú, Scotia, BROU, etc.).
 
-## Ventanas relacionadas
+## Procesos y ventanas relacionadas
 
 - [Conciliación de Estado de Cuenta](bank-statement-match)
+- [Crear Pagos desde Estado de Cuenta](create-payments-from-bank-statement)
+- [Importación de Extracto Bancario](import-bank-statement)
 - [Reporte de Estado de Cuenta Bancario](bank-statement-report)
 - [Pagos No Conciliados](unreconciled-payments)
 - [Conciliación Manual con Diferencia en Montos](../../accounting-management/reconciliation/bank-statement-assignment-with-difference)

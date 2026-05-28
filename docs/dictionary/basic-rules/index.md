@@ -17,3 +17,7 @@ Esta sección contiene la documentación de las herramientas de administración,
 ## Ventanas
 
 - [Corporación](corporation)
+
+## Funcionalidad General
+
+- [Descargar Registros a Planilla](export-records-to-spreadsheet)
