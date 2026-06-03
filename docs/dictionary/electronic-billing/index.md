@@ -20,6 +20,7 @@ Documentación de referencia del diccionario de aplicación para el módulo de F
 - [Tipo de Documento según Grupo de Impuestos](document-type-by-tax-group)
 - [Contra e-Remito y Contra Resguardo](reverse-electronic-documents)
 - [Retenciones en Facturación Electrónica](retentions-electronic-billing)
+- [Comentario Fiscal (Adenda) en CFE](fiscal-comment-adenda)
 - [Funcionalidades Complementarias](complementary-features)
 
 ## Ventanas
