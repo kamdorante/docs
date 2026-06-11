@@ -8,6 +8,9 @@ article: false
 
 # Gestion de Inventario
 
-Operaciones y herramientas para la gestion del inventario
+Operaciones y herramientas para la gestión del inventario en Solop ERP.
 
-Esta subcategoria sera expandida con los componentes especificos del diccionario de datos en futuras actualizaciones.
+## Ventanas
+
+- [Inventario Físico](physical-inventory)
+

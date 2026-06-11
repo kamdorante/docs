@@ -16,6 +16,9 @@ Documentación de referencia del diccionario de aplicación para el módulo CRM 
 - [Plantilla de Notificación por Evento](event-notice-template)
 - [Plantilla de Correo](mail-template)
 
+## Navegadores
+- [Registro de Horas en Solicitudes](register-worked-hours)
+
 ## Procesos
 - [Enviar Texto de Correo](send-mail-text)
-- [Generar Localización de Socio del Negocio](generate-business-partner-localization)
+- [Generar Localización de Socio del Negocio](generate-business-partner-localization)

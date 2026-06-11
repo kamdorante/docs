@@ -16,4 +16,5 @@ Procesos especiales de gestión contable.
 - [Generar Ganancia/Pérdida No Realizada](generate-not-realized-gain-loss)
 - [Cierre de Ejercicio](fiscal-year-end)
 - [Importación de Tasa de Cambio](currency-arbitration)
+- [Generar Cargo desde Cuenta Contable](generate-charge-from-account)
 

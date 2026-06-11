@@ -6,97 +6,106 @@ sticky: 9
 article: false
 ---
 
-En Solop ERP un inventario físico permite modificar las cantidades de productos en existencia. Este es un procedimiento delicado, que solo se debe realizar cuando la cantidad en existencia registrada en Solop ERP difiera de la cantidad real de existencia en la organización o almacén. El proceso consta en reemplazar la cantidad en existencia por la cantidad real contada.
+# Inventario Físico
+
+## Descripción
+
+La ventana **Inventario Físico** permite registrar el conteo real de productos en existencia y ajustar las cantidades en el sistema para que coincidan con la realidad del almacén. El proceso reemplaza la cantidad registrada en el sistema por la cantidad realmente contada, generando los movimientos internos necesarios para dejar el inventario actualizado.
+
+Este procedimiento es delicado y debe realizarse únicamente cuando exista una discrepancia comprobada entre las existencias físicas del almacén y los registros del sistema, por motivos como robo, hurto, error de registro u otras causas justificadas.
 
 ::: warning
- **Solop ERP** no recomienda realizar inventario físico.
- :::
+Solop ERP recomienda que el ajuste de inventario físico sea autorizado y supervisado por los responsables del almacén, el área de contabilidad y la gerencia de la organización antes de ser procesado.
+:::
 
-El procedimiento de inventario físico sólo debe ser realizado en casos críticos como la inconsistencia de cantidades de productos por motivo de robo, hurto o casos similares. De igual forma, deben estar presentes los responsables y supervisores del almacén donde existe la inconsistencia, así como también debe estar presente un representante de contabilidad y un jefe o gerente de la empresa para avalar el procedimiento.
+## ¿Cuándo se utiliza?
 
-El presente material elaborado por **Solop ERP**, pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para realizar en Solop ERP un inventario físico.
+Se utiliza cuando se necesita:
 
-- Registro de Inventario Físico
-- Consultar Detalle de Almacenamiento
+- Corregir diferencias entre el stock registrado en el sistema y el conteo físico real del almacén
+- Registrar pérdidas de inventario por robo, hurto, merma u otras causas justificadas
+- Actualizar las existencias tras realizar un conteo periódico o una auditoría de inventario
 
-### Registro de Inventario Físico
+## Acceso
 
-Para visualizar completamente el procedimiento del inventario físico, es generado el reporte **Detalle de Almacenamiento** seleccionando la ubicación donde será realizado el inventario físico y el producto por el cual es realizado dicho inventario. Ejemplificando el caso, el reporte puede ser visualizado de la siguiente manera.
+Menú: Gestión de Materiales → Inventario Físico
 
-![Icono Guardar Cambios](/assets/img/docs/materials-management/mam-materials-image75.png)
+## Pestañas
 
-Imagen 1. Primer Reporte de Detalle de Almacenamiento
+### Conteo de Inventario
 
-Ubique y seleccione en el menú de Solop ERP, la carpeta **Gestión de Materiales**, luego seleccione la ventana **Inventario Físico**.
+Encabezado del documento de inventario físico. Contiene los datos generales del ajuste:
 
-![Icono Guardar Cambios](/assets/img/docs/materials-management/mam-materials-image76.png)
+- **Organización** — Organización para la cual se realiza el ajuste de inventario
+- **Almacén** — Almacén donde se realizó el conteo físico y se detectó la discrepancia
+- **Fecha del movimiento** — Fecha en que se realizó el conteo real en el almacén. Por defecto se carga la fecha del día actual
+- **Tipo de documento** — Define el comportamiento del documento. Debe seleccionarse el tipo correspondiente a Inventario Físico
+- **Descripción** — Descripción opcional del motivo o contexto del ajuste
 
-Imagen 2. Menú de Solop ERP
+### Línea de Conteo de Inventario
 
-Podrá visualizar la ventana **Inventario Físico**, donde debe seleccionar el icono **Registro Nuevo** para crear un nuevo registro de inventario físico.
+Pestaña donde se registra una línea por cada producto que requiere ajuste:
 
-![Icono Guardar Cambios](/assets/img/docs/materials-management/mam-materials-image77.png)
+- **Producto** — Producto cuya cantidad se va a corregir
+- **Ubicación** — Ubicación exacta dentro del almacén donde se encuentra el producto
+- **Cantidad en libros** — Cantidad que el sistema tiene registrada para el producto a la fecha actual. Este campo es informativo y se carga automáticamente
+- **Cantidad contada** — Cantidad real que existe físicamente en el almacén. Este es el valor que se ingresa manualmente
 
-Imagen 3. Ventana Inventario Físico y Icono Registro Nuevo
+## Acciones disponibles
 
-Seleccione en el campo **Organización**, la organización para la cual esta realizando el documento de inventario físico.
+- **Completar**
+  Procesa el documento y genera los movimientos de inventario necesarios para llevar la cantidad registrada en el sistema hasta la cantidad contada. Si la cantidad contada es menor, se genera un ajuste negativo; si es mayor, se genera un ajuste positivo.
 
-Introduzca en el campo **Descripción**, una breve descripción referente al documento de inventario físico que esta realizando en la organización seleccionada.
+## Flujo del proceso
 
-Seleccione en el campo **Almacén**, el lugar donde es almacenado el producto por el cual se esta realizando el inventario físico.
+### 1. Crear el encabezado del documento
 
-Introduzca en el campo **Fecha del Movimiento**, la fecha en la cual es realizado en el almacén el conteo real del producto por el cual se esta realizando el inventario físico.
+Abrir la ventana **Inventario Físico** y crear un nuevo registro. Seleccionar la organización, el almacén donde se realizó el conteo y la fecha del movimiento. Confirmar que el tipo de documento es **Inventario Físico** y guardar el encabezado.
 
-Seleccione el tipo de documento a generar en el campo **Tipo de Documento**, la selección de este define el comportamiento del documento que se esta elaborando, dicho comportamiento se encuentra explicado en el documento Tipo de Documento elaborado por Solop ERP.
+### 2. Agregar las líneas de productos
 
-Recuerde guardar el registro de los campos de la pestaña seleccionando el icono **Guardar Registros** ubicado en la barra de herramientas de Solop ERP.
+Ir a la pestaña **Línea de Conteo de Inventario** y agregar una línea por cada producto que se necesita ajustar. Para cada línea:
 
-Seleccione la pestaña **Línea de Conteo de Inventario** y proceda al llenado de los campos correspondientes.
+1. Seleccionar el **Producto**
+2. Indicar la **Ubicación** dentro del almacén
+3. El sistema carga automáticamente la **Cantidad en libros** (existencia actual según el sistema)
+4. Ingresar la **Cantidad contada** (lo que realmente existe en el almacén)
 
-![Icono Guardar Cambios](/assets/img/docs/materials-management/mam-materials-image83.png)
+Repetir este paso para todos los productos que requieran ajuste.
 
-Imagen 9. Pestaña Línea de Conteo de Inventario
+### 3. Completar el documento
 
-Seleccione en el campo **Ubicación**, la ubicación exacta donde se encuentra localizado el producto dentro del almacén seleccionado. El mismo se puede seleccionar con ayuda del identificador ubicado del lado derecho del campo.
+Regresar a la pestaña principal **Conteo de Inventario** y seleccionar la acción **Completar**. El sistema genera automáticamente los movimientos necesarios para ajustar cada producto desde su cantidad en libros hasta la cantidad contada.
 
-Seleccione en el campo **Producto**, el producto por el cual se esta realizando el inventario físico.
+### 4. Verificar el ajuste
 
-Introduzca en el campo **Cantidad Contada**, la cantidad real en existencia del producto seleccionado.
+Para confirmar que el inventario quedó correctamente actualizado, ejecutar el reporte **Informe de Inventario Valorado** filtrando por la fecha en que se realizó el ajuste. El reporte mostrará las cantidades en existencia actualizadas para cada producto ajustado.
 
-Debe ser ingresada la cantidad real que existe físicamente en el almacén seleccionado.
+## Consideraciones importantes
 
-Seleccione el icono **Guardar Cambios**, ubicado en la barra de herramientas de Solop ERP, para guardar el registro de los campos de la pestaña.
+- La **Cantidad en libros** siempre refleja el estado del inventario al día actual, no a una fecha anterior. Por esta razón, si se necesita realizar un ajuste correspondiente a una fecha pasada (por ejemplo, del mes anterior), no es posible hacerlo directamente con este proceso. En ese caso, es necesario contactar al equipo de soporte de Solop ERP para que realice los ajustes correspondientes.
+- Los ajustes de inventario afectan directamente las existencias del almacén seleccionado. Es fundamental verificar que el almacén y los productos sean los correctos antes de completar el documento.
+- Se recomienda tener a la mano el conteo físico documentado y validado antes de ingresar los datos al sistema.
+- Una vez completado el documento, los cambios no pueden revertirse directamente. Cualquier corrección posterior requiere generar un nuevo ajuste.
 
-Podrá visualizar que es cargada automáticamente la cantidad de productos en existencia que se encuentran registrados en Solop ERP.
+## Ejemplo de uso
 
-Seleccione la pestaña principal **Conteo de Inventario** y luego la opción **Completar**, ubicada en la parte inferior derecha de la ventana.
+Durante una revisión del almacén central, se detecta que un producto tiene 14 unidades registradas en el sistema pero físicamente solo hay 10 unidades:
 
-![Icono Guardar Cambios](/assets/img/docs/materials-management/mam-materials-image89.png)
+1. Abrir la ventana **Inventario Físico** y crear un nuevo registro
+2. Seleccionar el **almacén central** y confirmar que la fecha del movimiento corresponde al día del conteo
+3. Seleccionar el tipo de documento **Inventario Físico** y guardar el encabezado
+4. En la pestaña **Línea de Conteo de Inventario**, agregar una línea para el producto en cuestión
+5. El sistema muestra automáticamente **Cantidad en libros: 14**
+6. Ingresar **Cantidad contada: 10**
+7. Guardar la línea y regresar al encabezado
+8. Seleccionar la acción **Completar**
+9. El sistema genera el movimiento de ajuste, reduciendo la existencia de 14 a 10 unidades
+10. Verificar el resultado ejecutando el **Informe de Inventario Valorado** para la fecha del ajuste
 
-Imagen 15. Pestaña Conteo de Inventario
+## Verificación con reportes
 
-Seleccione la acción **Completar** y la opción **OK**, para completar el documento **Inventario Físico** que esta realizando.
+Después de realizar el ajuste, se puede verificar el estado actualizado del inventario con los siguientes reportes:
 
-![Icono Guardar Cambios](/assets/img/docs/materials-management/mam-materials-image90.png)
-
-Imagen 16. Acción Completar y Opción OK
-
-### Consultar Detalle de Almacenamiento
-
-Al generar el reporte **Detalle de Almacenamiento** seleccionando la ubicación donde fue realizado el inventario físico y el producto por el cual fue realizado dicho inventario, se puede visualizar el reporte de la siguiente manera.
-
-![Icono Guardar Cambios](/assets/img/docs/materials-management/mam-materials-image999.png)
-
-Imagen 17. Segundo Reporte de Detalle de Almacenamiento
-
-### Inventario completo a la fecha
-
-La ventana de Detalle de Almacenamiento simple brinda el inventario al día, permitiendo filtrar por los siguientes parámetros:
-
-![Parámetros](/assets/img/docs/frequently-asked-questions/fra-asked-image1.png)
-
-### Inventario completo a una fecha determinada
-
-La ventana Informe de Inventario Valorado permite realizar una consulta sobre el estado del inventario a una fecha determinada (con filtro Fecha). Permite filtrar por los siguientes parámetros
-
-![Parámetros 2](/assets/img/docs/frequently-asked-questions/fra-asked-image2.png)
+- **Informe de Inventario Valorado** — Permite consultar el inventario a una fecha específica, ideal para validar que el ajuste se aplicó correctamente en la fecha del movimiento
+- **Detalle de Almacenamiento Simple** — Muestra las cantidades actuales en existencia, reservadas y disponibles por producto y ubicación

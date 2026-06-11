@@ -20,3 +20,6 @@ Gestión de morosidad, incluyendo cálculos, cartas de cobro y seguimiento de de
 
 ## Visor Inteligente
 - [Envío de Email a Socio del Negocio (Morosidad)](email-to-business-partner-dunning)
+
+## Gestión de Cobranzas
+- [Notas y Solicitudes para Cobranzas](collection-notes-and-requests)
