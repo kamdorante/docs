@@ -90,6 +90,10 @@ Una fila por cada movimiento bancario pendiente. Los campos relevantes son:
 
 El visor ofrece distintos tipos de pago según el motivo de la línea. Cada uno genera un *Pago/Cobro* diferente y deja la línea conciliada.
 
+::: warning Visibilidad de los Cargos
+En las acciones que requieren elegir un **Cargo** (*Cargo Bancario*, *Otro Tipo de Pago*, *Transferencia entre Cuentas*), el selector **solo muestra los cargos cuyo Tipo de Cargo está habilitado para el tipo de documento *Estado de Cuenta Bancario***. Si un cargo definido no aparece en el visor, es porque su Tipo de Cargo no está asignado a ese tipo de documento. Ver [Cargo](../../accounting-management/accounting-rules/charge) para el detalle de la regla de visibilidad y cómo configurarla.
+:::
+
 ### Cargo Bancario
 
 Para registrar comisiones, gastos bancarios o cargos del banco sobre la cuenta. Características:
@@ -205,6 +209,7 @@ Un extracto quedó con 5 líneas pendientes después de la conciliación; todas 
 - Cuando se crean **muchos pagos a la vez** (por ejemplo, todas las comisiones del mes), se pueden seleccionar todas las líneas y ejecutar la acción en bloque, lo que genera un pago por cada línea.
 - Cada pago generado desde el visor se contabiliza contra la cuenta puente **Cheques en Tránsito** y lleva en su descripción la **referencia al movimiento bancario** que lo originó, lo que facilita la auditoría y el seguimiento de cobranza.
 - El **otro tipo de pago** permite registrar pagos a socios específicos distintos del banco (por ejemplo, organismos fiscales) cuando el movimiento del extracto corresponde a ese concepto.
+- **Cargos visibles en el selector**: el visor solo muestra los cargos cuyo **Tipo de Cargo** esté asignado al tipo de documento **Estado de Cuenta Bancario** desde la pestaña *Tipo de Cargo por Tipo de Documento* de la ventana **Tipo de Documento**. Si un cargo creado no aparece, revisar que su Tipo de Cargo esté habilitado para ese tipo de documento. Ver [Cargo](../../accounting-management/accounting-rules/charge) para el detalle.
 
 ## Ventanas relacionadas
 
@@ -212,4 +217,5 @@ Un extracto quedó con 5 líneas pendientes después de la conciliación; todas 
 - [Conciliación de Estado de Cuenta](bank-statement-match)
 - [Importación de Extracto Bancario](import-bank-statement)
 - [Conciliación Manual con Diferencia en Montos](../../accounting-management/reconciliation/bank-statement-assignment-with-difference)
+- [Cargo](../../accounting-management/accounting-rules/charge)
 - [Pago/Cobro](../payments-and-receipts/payment)

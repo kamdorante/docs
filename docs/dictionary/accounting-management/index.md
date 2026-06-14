@@ -10,6 +10,9 @@ article: false
 
 Documentación de referencia del diccionario de aplicación para el módulo de Gestión Contable de Solop ERP.
 
+## Reglas Contables
+- [Cargo](accounting-rules/charge)
+
 ## Asientos Contables
 - [Lote de Pólizas Contables](journal-entries/gl-journal-batch)
 - [Póliza Contable](journal-entries/gl-journal)

@@ -31,6 +31,21 @@ Existen dos formas de acceder:
 1. **Desde el estado de cuenta bancario:** abrir el documento en **Gestión de Saldos Pendientes → Operaciones Bancarias → Estado de Cuenta Bancario** y ejecutar la acción **Conciliación de Estado de Cuenta**.
 2. **Desde el menú:** Gestión de Saldos Pendientes → Operaciones Bancarias → Conciliación de Estado de Cuenta.
 
+## Filtros del formulario
+
+Antes de ver las pestañas, conviene entender el **Modo de Búsqueda** porque determina qué líneas son visibles:
+
+- **No Asignado** (valor por defecto)
+  Muestra solo las líneas del extracto que todavía **no tienen pago vinculado**. Al ejecutar el match automático, las líneas que se concilian **desaparecen** de esta vista; eso no significa que se hayan borrado, sino que ya no son "pendientes".
+
+- **Asignado**
+  Muestra solo las líneas que ya están **vinculadas a un pago** (por match automático o manual). Este es el filtro que se usa cuando se quiere **revisar o corregir** un match ya hecho.
+
+- **Todos**
+  Muestra **todas las líneas** del extracto, asignadas y pendientes, en una misma vista.
+
+Tras cualquier acción (Simular, Aplicar, Asignar, Desasignar), pulsar **Refrescar** para actualizar la vista con el nuevo estado.
+
 ## Pestañas
 
 ### Líneas del Extracto
@@ -113,7 +128,12 @@ Las líneas que el algoritmo no pudo emparejar automáticamente quedan como *Pen
 
 ### 5. Corregir vinculaciones erróneas
 
-Si una línea quedó conciliada con un pago incorrecto, ejecutar **Desasignar**, dejar ambos en estado pendiente y volver a asignar manualmente.
+Si una línea quedó conciliada con un pago incorrecto:
+
+1. Cambiar el **Modo de Búsqueda** a **Asignado** (o **Todos**) para que aparezcan las líneas ya emparejadas. Refrescar.
+2. Marcar las líneas que se quieren liberar.
+3. Ejecutar **Desasignar Conciliación**. Las líneas vuelven al estado pendiente y los pagos del sistema quedan disponibles nuevamente.
+4. Volver al **Modo de Búsqueda = No Asignado** para continuar con la reasignación (manualmente o ejecutando otra simulación).
 
 ### 6. Iterar hasta completar
 
@@ -135,6 +155,30 @@ Conciliación de un extracto con 70 movimientos:
    - 1 línea del banco agrupa 4 cobros: ejecutar **Match Múltiple** y seleccionar los 4 pagos del sistema.
    - 21 son comisiones y cargos bancarios; se resolverán desde el visor *Crear Pagos desde Estado de Cuenta*.
 5. Cerrar el formulario y continuar con la generación de pagos faltantes.
+
+## Preguntas frecuentes
+
+### Hice un match automático y ahora no veo las líneas que se asignaron. ¿Cómo las recupero para desasignar?
+
+Las líneas asignadas siguen en el estado de cuenta; lo que ocurre es que el filtro **Modo de Búsqueda** por defecto es **No Asignado**, que las oculta. Para recuperarlas:
+
+1. Cambiar el **Modo de Búsqueda** a **Asignado** (solo las ya emparejadas) o **Todos** (toda la grilla, asignadas y pendientes).
+2. Pulsar **Refrescar** para actualizar la vista.
+3. Las líneas ya conciliadas aparecen con su pago vinculado.
+4. Marcar las que se quieren liberar y ejecutar **Desasignar Conciliación**.
+5. Volver al modo **No Asignado** para seguir conciliando lo que queda pendiente.
+
+### El estado de cuenta está en Borrador, ¿puedo deshacer un match?
+
+Sí. Mientras el estado de cuenta esté en **Borrador** o **En Proceso**, las acciones de **Desasignar Conciliación** están disponibles y se pueden ejecutar tantas veces como sea necesario. La conciliación queda firme solo al **Completar** el estado de cuenta desde su cabezal.
+
+### Después de un match automático masivo veo que muchas líneas quedaron mal. ¿Puedo deshacer todo de una vez?
+
+Sí. Cambiar el filtro a **Asignado**, **seleccionar todas** las líneas (multiselección) y ejecutar **Desasignar Conciliación**. El sistema libera todas las asignaciones de una sola operación y las líneas vuelven al pool pendiente para reiniciar el proceso (por ejemplo, ejecutar **Simular Conciliación** nuevamente con criterios distintos, o asignar manualmente).
+
+### ¿Necesito acceso a "Conciliación Automática de Cuentas" para deshacer el match?
+
+No. La **Conciliación Automática de Cuentas** del módulo contable es un proceso distinto (conciliación de hechos contables, no del extracto bancario). Para deshacer un match del estado de cuenta bancario, todo se hace desde el formulario **Conciliación de Estado de Cuenta** con la acción **Desasignar Conciliación**, cambiando previamente el filtro Modo de Búsqueda.
 
 ## Consideraciones importantes
 
