@@ -39,7 +39,7 @@ Existen dos formas de acceder:
 Pestaña principal donde se registra la oportunidad y su contexto comercial. La información se organiza en:
 
 - **Socio del Negocio y Contacto**
-  Cliente o prospecto al que corresponde la oportunidad, junto con la persona de contacto dentro del cliente. Cuando el socio tiene configurado un nombre fantasía, el sistema lo muestra en la cabecera.
+  Cliente o prospecto al que corresponde la oportunidad, junto con la persona de contacto dentro del cliente. Cuando el socio tiene configurado un nombre fantasía, el sistema lo muestra en la cabecera. El contacto se selecciona de la lista de interlocutores registrados en la ficha del socio de negocio.
 
 - **Agente Comercial**
   Vendedor responsable de gestionar la oportunidad. Se utiliza como filtro principal en la vista de lista y de embudo.
@@ -48,7 +48,7 @@ Pestaña principal donde se registra la oportunidad y su contexto comercial. La 
   Fase actual en el proceso comercial. Cada organización define sus propias etapas según el flujo de ventas.
 
 - **Probabilidad e Importe Ponderado**
-  Porcentaje de cierre estimado para la etapa actual. El sistema multiplica el presupuesto total por la probabilidad para calcular el importe ponderado usado en reportes de pronóstico.
+  Porcentaje de cierre estimado para la etapa actual. El sistema multiplica el presupuesto total por la probabilidad para calcular el importe ponderado usado en reportes de pronóstico. Al actualizar la probabilidad y guardar, el importe ponderado se recalcula de forma inmediata.
 
 - **Contrato**
   Contrato del socio de negocio asociado a la oportunidad. El selector muestra únicamente contratos del socio elegido que estén en estado *Completo*.
@@ -78,6 +78,11 @@ Muestra las cotizaciones y órdenes de venta generadas desde la oportunidad. Cam
 - **Socio del Negocio**
 - **Total General**
 
+Desde la cotización generada se puede:
+- Adjuntar material adicional: imágenes del soporte, documentos PDF y mapas con geolocalización
+- Enviar la cotización por correo electrónico al contacto del cliente usando una plantilla de diseño
+- El sistema registra el envío con fecha para permitir el seguimiento activo de la respuesta del cliente
+
 ### Línea de la Orden
 
 Detalle de las líneas de la cotización u orden generada, con producto, cantidad, precio y descuento aplicado.
@@ -97,7 +102,7 @@ Actividades de seguimiento registradas sobre la oportunidad: llamadas, correos o
 ## Acciones disponibles
 
 - **Generar Cotización**
-  Crea una cotización de venta que hereda automáticamente el socio, el contrato y las líneas de recursos de la oportunidad. Desde la cotización se pueden ajustar cantidades, aplicar descuentos por línea y enviarla por correo electrónico.
+  Crea una cotización de venta que hereda automáticamente el socio, el contrato y las líneas de recursos de la oportunidad. Desde la cotización se pueden ajustar cantidades, aplicar descuentos por línea, adjuntar material enriquecido (imágenes, PDFs, mapas con geolocalización) y enviarla por correo electrónico al contacto del cliente con una plantilla de diseño.
 
 - **Crear Proyecto**
   Genera un proyecto vinculado a la oportunidad junto con la orden de venta correspondiente, heredando contrato, líneas y descuentos.
@@ -106,7 +111,7 @@ Actividades de seguimiento registradas sobre la oportunidad: llamadas, correos o
   Desde la vista de embudo, arrastrar y soltar la oportunidad entre etapas para actualizar su fase y la probabilidad asociada.
 
 - **Registrar Actividad**
-  Agrega una nueva actividad de seguimiento (llamada, correo o tarea) asociada a la oportunidad.
+  Agrega una nueva actividad de seguimiento (llamada, correo o tarea) asociada a la oportunidad. Las actividades son visibles en el calendario del agente para planificación diaria.
 
 ## Flujo del proceso
 

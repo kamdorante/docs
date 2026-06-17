@@ -1,16 +1,16 @@
 ---
-title: Importación de Tasa de Cambio
+title: Consultar Tasa de Cambio al BCU
 category: Documentation
 star: 9
 sticky: 9
 article: false
 ---
 
-# Importación de Tasa de Cambio (Consultar Tasa de Cambio al BCU)
+# Consultar Tasa de Cambio al BCU
 
 ## Descripción
 
-El proceso **Consultar Tasa de Cambio al BCU** (también identificado como *Importación de Tasa de Cambio*) consulta directamente al **Banco Central del Uruguay (BCU)** las cotizaciones oficiales del día y las carga automáticamente en el sistema como registros de **Tasa de Cambio**. Evita el ingreso manual de las cotizaciones diarias y garantiza que las facturas, pagos y asientos contables en moneda extranjera usen el tipo de cambio oficial.
+El proceso **Consultar Tasa de Cambio al BCU** consulta directamente al **Banco Central del Uruguay (BCU)** las cotizaciones oficiales del día y las carga automáticamente en el sistema como registros de **Tasa de Cambio**. Evita el ingreso manual de las cotizaciones diarias y garantiza que las facturas, pagos y asientos contables en moneda extranjera usen el tipo de cambio oficial.
 
 ::: tip Regla operativa clave
 La tasa publicada por el BCU **con fecha X** es la que el sistema **aplica al día siguiente (X + 1)**. Por eso, para cargar la cotización del **día actual**, el proceso debe ejecutarse con **la fecha del día anterior** como parámetro.
@@ -33,7 +33,7 @@ Se utiliza cuando la organización necesita:
 
 Existen dos formas de ejecutar el proceso:
 
-1. **Manual desde el menú:** Gestión Contable → Procesos Contables → **Consultar Tasa de Cambio al BCU** (también identificado en algunas instancias como *Importación de Tasa de Cambio*).
+1. **Manual desde el menú:** Análisis de Desempeño → **Consultar Tasa de Cambio al BCU**.
 2. **Automática mediante el Programador de Procesos:** configurar la ejecución diaria a primera hora para que el sistema cargue las tasas sin intervención del usuario.
 
 ## Configuración previa

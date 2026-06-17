@@ -28,3 +28,6 @@ Esta sección contiene las ventanas de gestión de relaciones con clientes (CRM)
 
 ## Consultas Inteligentes
 - [Generar OC para Instalación de Producto](./generate-po-for-product-installation)
+
+## Configuración
+- [Servicios de Instalación en Productos de Arrendamiento](./rental-product-installation-services)
