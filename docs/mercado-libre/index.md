@@ -24,7 +24,6 @@ Casos típicos:
 
 ## Configuración Inicial
 
-- [Configuración de N8N para Publicaciones](n8n-configuration)
 - [Configuración de Tienda y Gestión de Stock](store-configuration)
 - [Configuración de Visualización](display-configuration)
 

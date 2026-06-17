@@ -32,6 +32,7 @@ Subcategoría del módulo de Gestión de Ventas que agrupa las ventanas, proceso
 - [Recalcular Precio de Orden/Factura](reprice-order-invoice.md) - Recalcular precios basándose en la lista de precios más reciente
 - [Generar OC desde Orden de Venta](generate-po-from-sales-order.md) - Crear órdenes de compra desde órdenes de venta
 - [Crear OC desde Proyectos](create-order-po-from-projects.md) - Crear órdenes de compra desde proyectos
+- [Generar Orden de Venta desde Líneas de Proyecto](generate-sales-order-from-project-lines.md) - Generar orden de venta consolidada o por fase desde las Fases del Proyecto
 - [Reabrir Orden](reopen-order.md) - Reabrir órdenes previamente cerradas
 
 ## Reportes

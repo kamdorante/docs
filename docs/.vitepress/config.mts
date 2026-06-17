@@ -53,6 +53,7 @@ export default defineConfig({
         text: 'Diccionario de Aplicación',
         items: [
           { text: 'Índice General', link: '/dictionary/' },
+          { text: 'Tienda Web', link: '/dictionary/web-store/' },
           { text: 'Gestión de Ventas', link: '/dictionary/sales-management/' },
           { text: 'Gestión de Compras', link: '/dictionary/purchase-management/' },
           { text: 'Gestión de Saldos Pendientes', link: '/dictionary/balance-management/' },

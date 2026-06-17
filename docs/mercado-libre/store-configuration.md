@@ -46,10 +46,10 @@ Integración Mercado Libre → Configuración → Tienda Web
   Lista de precios a utilizar para la publicación de productos.
 
 - **URL Categoría**
-  URL de N8N para la asignación de categorías.
+  URL del servicio de integración utilizado para la asignación de categorías.
 
 - **URL Atributos**
-  URL de N8N para la asignación de atributos.
+  URL del servicio de integración utilizado para la asignación de atributos.
 
 ## Flujo del proceso
 
@@ -79,7 +79,7 @@ Introducir la lista de precios que se utilizará para la publicación de product
 
 ### 5. Configurar URL para Categoría y Atributos
 
-Introducir las URLs de N8N para la correcta asignación de categorías y atributos.
+Introducir las URLs de los servicios de integración para la correcta asignación de categorías y atributos.
 
 ![URLs de configuración](/assets/img/docs/mercado-libre/8434f75d8d8341e1a69d7a92ea594a85.png)
 

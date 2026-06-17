@@ -28,6 +28,10 @@ Documentación de referencia del diccionario de aplicación para la subcategorí
 - [Navegador de Proyectos](project-browser)
 - [Navegador de Líneas de Proyectos](project-lines-browser)
 
+## Procesos
+
+- [Generar Orden de Venta desde Líneas de Proyecto](../sales-orders/generate-sales-order-from-project-lines)
+
 ## Reportes
 
 - [Rendimiento de Proyecto](project-performance)

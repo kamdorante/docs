@@ -34,6 +34,7 @@ Documentación de referencia del diccionario de aplicación para el módulo de G
 - [Recalcular Precio de Orden/Factura](sales-orders/reprice-order-invoice)
 - [Generar OC desde Orden de Venta](sales-orders/generate-po-from-sales-order)
 - [Crear OC desde Proyectos](sales-orders/create-order-po-from-projects)
+- [Generar Orden de Venta desde Líneas de Proyecto](sales-orders/generate-sales-order-from-project-lines)
 - [Reabrir Orden](sales-orders/reopen-order)
 
 ### Reportes
@@ -183,6 +184,4 @@ Documentación de referencia del diccionario de aplicación para el módulo de G
 
 ## Tienda Web
 
-### Ventanas
-
-- [Tienda Web](web-store/web-store)
+La documentación del módulo Tienda Web (Mercado Libre y otras tiendas externas) se trasladó a su propia sección del diccionario: [Tienda Web](../web-store/).
