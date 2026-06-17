@@ -41,7 +41,6 @@ Documentación de referencia del diccionario de aplicación para el módulo de G
 - [Generar Ganancia/Pérdida No Realizada](processes/generate-not-realized-gain-loss)
 - [Cierre de Ejercicio](processes/fiscal-year-end)
 - [Consultar Tasa de Cambio al BCU](processes/currency-arbitration)
-
 - [Generar Cargo desde Cuenta Contable](processes/generate-charge-from-account)
 
 ## Informes Financieros
