@@ -21,3 +21,13 @@ Esta sección contiene la documentación de las herramientas de administración,
 ## Funcionalidad General
 
 - [Descargar Registros a Planilla](export-records-to-spreadsheet)
+
+### Copiar Datos de Auditoría
+
+- [Copiar Datos de Auditoría (Resumen General)](copy-audit-data)
+- [Copiar Parámetros de un Reporte](copy-report-parameters)
+- [Copiar Parámetros de un Navegador](copy-browser-parameters)
+- [Copiar Datos de una Ventana](copy-window-data)
+- [Copiar Auditoría de un Documento](copy-document-audit)
+- [Copiar Auditoría Detallada de un Documento](copy-detailed-document-audit)
+- [Copiar Resultado de un Proceso con Error](copy-process-error)
