@@ -38,7 +38,9 @@ Para que la opción esté disponible, el usuario debe ingresar a Invoicy con un 
 
 Si el perfil no cuenta con esos accesos, el botón **Personalizar los mensajes enviados** no aparece en el panel.
 
-> [CAPTURA: pantalla *Datos del usuario* del panel de Invoicy con el campo *Perfil = Mantenimiento* y los dos accesos *CONFIGURACIONES PARA ENVIO DE E-MAILS* y *PERSONALIZAR MENSAJES ENVIADAS POR E-MAIL* recuadrados]
+![Perfil Mantenimiento y accesos requeridos en Invoicy](/assets/img/docs/electronic-billing/image1.png)
+
+*Pantalla **Datos del usuario** del panel de Invoicy. El campo **Perfil = Mantenimiento** y los accesos **Configuraciones para Envío de E-mails** y **Personalizar Mensajes Enviados por E-mail** deben estar activos para que la personalización esté disponible.*
 
 ## Secciones editables
 
@@ -91,7 +93,9 @@ Iniciar sesión en Invoicy con el perfil **Mantenimiento**, o con un perfil que 
 
 Desde el menú superior, ir a **Inicio → Panel de Control**.
 
-> [CAPTURA: pantalla *Panel de Control* del panel de Invoicy con el ícono *E-mail para Envío* señalado]
+![Panel de Control de Invoicy con E-mail para Envío](/assets/img/docs/electronic-billing/image2.png)
+
+*Pantalla **Panel de Control** de Invoicy. En la sección **Empresa** se encuentra el ícono **E-mail para Envío**, punto de entrada a la configuración de correo saliente.*
 
 ### 3. Ingresar a E-mail para Envío
 
@@ -101,13 +105,17 @@ En la sección **Empresa** del Panel de Control, pulsar **E-mail para Envío**. 
 
 En la esquina **superior derecha** de la pantalla, pulsar **Personalizar los mensajes enviados**.
 
-> [CAPTURA: pantalla *Configuración de e-mail para envío* con flecha apuntando al botón *Personalizar los mensajes enviados* en la esquina superior derecha]
+![Botón Personalizar los mensajes enviados](/assets/img/docs/electronic-billing/image3.png)
+
+*Pantalla **Configuración de e-mail para envío** con el botón **Personalizar los mensajes enviados** ubicado en la esquina superior derecha.*
 
 ### 5. Editar las plantillas necesarias
 
 Localizar la sección correspondiente al tipo de envío que se quiere personalizar (por ejemplo, *E-mail con el PDF de la Representación Impresa*). Modificar el **Asunto** y/o el **Cuerpo del e-mail**. Insertar los placeholders donde correspondan.
 
-> [CAPTURA: pantalla *Personalizar los mensajes de e-mail* con las secciones de Asunto y Cuerpo del e-mail para cada tipo de envío]
+![Editor de mensajes de e-mail de Invoicy](/assets/img/docs/electronic-billing/image4.png)
+
+*Pantalla **Personalizar los mensajes de e-mail**. Cada tipo de envío (XML, PDF de la Representación Impresa, XML + PDF, Recibo Electrónico) tiene su propio bloque con **Asunto** y **Cuerpo del e-mail** editables. Los placeholders (entre llaves dobles) se reemplazan al enviar.*
 
 ### 6. Guardar los cambios
 
@@ -126,10 +134,18 @@ Ajustar el mensaje que reciben los clientes cuando se les envía la Representaci
 3. Pulsar **Personalizar los mensajes enviados**.
 4. Ubicar la sección **E-mail con el PDF de la Representación Impresa**.
 5. Cambiar el **Asunto** por:
-   *`Comprobante {{CFETipo}} N° {{CFESerie}}-{{CFENumero}} — {{EmisorRazonSocial}}`*
+
+   ```text
+   Comprobante {{CFETipo}} N° {{CFESerie}}-{{CFENumero}} — {{EmisorRazonSocial}}
+   ```
+
 6. Cambiar el **Cuerpo del e-mail** por un texto propio, dejando los placeholders necesarios:
-   *`Estimado cliente,`*
-   *`Adjuntamos la Representación Impresa del comprobante {{CFETipo}}, serie {{CFESerie}}, número {{CFENumero}}, emitido por {{EmisorRazonSocial}} (RUT {{EmisorRUT}}).`*
+
+   ```text
+   Estimado cliente,
+
+   Adjuntamos la Representación Impresa del comprobante {{CFETipo}}, serie {{CFESerie}}, número {{CFENumero}}, emitido por {{EmisorRazonSocial}} (RUT {{EmisorRUT}}).
+   ```
 7. Pulsar **Guardar**.
 8. Emitir un CFE de prueba y confirmar que el correo recibido usa el nuevo texto con los datos del emisor y del comprobante reemplazados.
 
