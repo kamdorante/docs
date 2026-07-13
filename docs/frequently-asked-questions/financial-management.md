@@ -272,6 +272,53 @@ se calcula con los saldos de las conciliaciones Completas o Cerradas (que es un 
 Es importante que no haya conciliaciones en estado CERRADO, ya que pueden no ser consideradas en los reportes.
 :::
 
+### ¿Cómo puedo modificar un cargo definido en una línea de estado de cuenta bancario?
+
+El procedimiento depende de si desde esa línea **ya se generó** o **no** el pago o cobro asociado.
+
+**Caso 1 — Todavía no se generó el pago o cobro**
+
+Si en la línea aún no se ejecutó el proceso *Generar Pago/Cobro desde Línea de Estado de Cuenta*, alcanza con volver a ejecutarlo indicando el cargo correcto:
+
+1. Ubicarse en la línea del estado de cuenta bancario.
+2. Ejecutar nuevamente **Generar Pago/Cobro desde Línea de Estado de Cuenta**.
+3. En los parámetros, indicar el **Cargo** correcto.
+4. Procesar.
+
+**Caso 2 — El pago o cobro ya se generó con un cargo incorrecto**
+
+Si ya existe un pago o cobro asociado a la línea con un cargo equivocado, hay que deshacer la vinculación, anular el documento y volver a generarlo:
+
+1. Borrar el pago/cobro de la línea de conciliación (desasignarlo).
+2. **Anular** el pago o cobro.
+3. Volver a ejecutar **Generar Pago/Cobro desde Línea de Estado de Cuenta** definiendo el **Cargo** correcto.
+
+::: tip
+El pago/cobro anulado permanece en el sistema como referencia histórica; el pago/cobro nuevo, con el cargo correcto, es el que queda vinculado a la línea del estado de cuenta.
+:::
+
+### Después de una asignación automática, ¿cómo corrijo los cargos que quedaron mal por defecto?
+
+Cuando se ejecuta la asignación automática de la conciliación bancaria, el sistema usa el **cargo por defecto** para las líneas que resuelve. Si en algunas líneas ese cargo no es el correcto (por ejemplo, cobros de clientes que quedaron asociados a un cargo de gastos bancarios), la corrección se hace **línea por línea** aplicando el mismo procedimiento de la pregunta anterior:
+
+1. Identificar cada línea de estado de cuenta bancario con cargo incorrecto.
+2. Para cada línea con pago/cobro ya generado:
+   - Borrar el pago/cobro de la línea de conciliación.
+   - **Anular** el pago o cobro.
+   - Volver a generar el pago/cobro desde la línea, seleccionando el **Cargo** correcto.
+3. Si alguna línea aún no tenía pago/cobro generado, alcanza con volver a ejecutar el proceso indicando el cargo correcto.
+
+::: tip
+Antes de trabajar la conciliación del período siguiente, conviene revisar y ajustar el **cargo por defecto** que utiliza la asignación automática, para evitar repetir la corrección línea por línea en las próximas cargas.
+:::
+
+### Ventanas Relacionadas
+
+- [Conciliación de Estado de Cuenta](../dictionary/balance-management/bank-operations/bank-statement-match)
+- [Estado de Cuenta Bancario](../dictionary/balance-management/bank-operations/bank-statement)
+- [Generar Pago/Cobro desde Estado de Cuenta](../dictionary/balance-management/bank-operations/create-payments-from-bank-statement)
+- [Cargo](../dictionary/accounting-management/accounting-rules/charge)
+
 ### ¿En el proceso de “Generar Cobro Contado” en Recibo de Cobro, en el campo “Cuenta bancaria” aparecen las cuentas bancarias de los clientes o propias también?
 
 Aparecen Cuentas Bancarias propias. Las cuentas Bancarias de Clientes no se definen de esta manera. 
