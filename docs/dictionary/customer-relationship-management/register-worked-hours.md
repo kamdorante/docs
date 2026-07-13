@@ -25,26 +25,9 @@ Se utiliza cuando se necesita:
 
 ## Acceso
 
-Menú: Gestión de Relaciones con Clientes → Registro de HorasActúa como un Ingeniero de Documentación Senior.
+Menú: Gestión de Relaciones con Clientes → Registro de Horas en Solicitudes
 
-1. Contexto del Proyecto: 
-Estoy generando documentación técnica para una plataforma web. Debes procesar la información extraída de videos que se encuentra en exportar_2808_20260609, ademas de las transcripciones presta suma atencion a la conversacion.md y sus peticiones
-
-2. Referencias Obligatorias:
-
-Estructura Técnica: Usa como base el archivo skills\solop-dict-enricher\SKILL.md Este archivo define cómo debe funcionar el generador de documentación.
-
-Diseño y Estilo: El documento final debe seguir estrictamente el diseño, la jerarquía de encabezados y el tono de la documentación existente en: dictionary/human-management/leave-management/.
-
-3. Tarea Específica: 
-Toma los datos de los videos ademas de las transcripciones presta suma atencion a la conversacion md y sus peticiones en exportar_2808_20260609 y redacta un nuevo archivo de documentación que explique el proceso o la funcionalidad descrita en ellos.
-
-Asegúrese de que los bloques de código, las tablas y las listas sigan el estilo de la ruta de "leave-management".
-
-Si en los videos se mencionan procesos de base de datos o lógica de negocio, documéntalos con la claridad técnica que requiere un colaborador sin mostrar ningun dato sensible ya que esto lo vera el usuario final, es decir el cliente.
-
-4. Formato de Salida: 
-Introduzca el contenido en formato Markdown (.md) listo para ser integrado en el repositorio. de ya exitir dentro de docs\dictionary uno o varios documentos que hable de este tema o del proceso mencionado, lo que haras es modificarlos a cada uno
+## Campos solicitados
 
 Al momento de procesar el registro, el navegador solicita los siguientes datos:
 

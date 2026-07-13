@@ -3,7 +3,8 @@
     "allow": [
       "Bash(ls \"c:/Users/doran/Documents/documentacion solop/docs/Proceso de Importación/\"*/)",
       "Bash(ls \"c:/Users/doran/Documents/documentacion solop/docs/Rechazo de Pago/\"*/)",
-      "Bash(ls \"c:/Users/doran/Documents/documentacion solop/docs/exportar_1493652767858884739_20260415/\"*/)"
+      "Bash(ls \"c:/Users/doran/Documents/documentacion solop/docs/exportar_1493652767858884739_20260415/\"*/)",
+      "mcp__claude_ai_D_D__query_table_data"
     ]
   }
 }

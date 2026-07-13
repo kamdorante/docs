@@ -21,6 +21,7 @@ Documentación de referencia del diccionario de aplicación para el módulo de F
 - [Contra e-Remito y Contra Resguardo](reverse-electronic-documents)
 - [Retenciones en Facturación Electrónica](retentions-electronic-billing)
 - [Comentario Fiscal (Adenda) en CFE](fiscal-comment-adenda)
+- [Personalizar Mensajes de E-mail al Receptor del CFE (Invoicy)](customize-invoicy-email-messages)
 - [Funcionalidades Complementarias](complementary-features)
 
 ## Ventanas
