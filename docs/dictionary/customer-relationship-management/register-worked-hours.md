@@ -25,7 +25,7 @@ Se utiliza cuando se necesita:
 
 ## Acceso
 
-Menú: Gestión de Relaciones con Clientes → Registro de Horas en Solicitudes
+Menú: Gestión de Relaciones con Clientes → Registro de HorasActúa como un Ingeniero de Documentación Senior.
 
 ## Campos solicitados
 
