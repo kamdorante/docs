@@ -20,6 +20,10 @@ Documentacion de referencia del diccionario de aplicacion para el modulo de Gest
 
 - [Actualizar Almacenamiento](update-storage)
 
+## Funcionalidades
+
+- [Mostrar Detalle en Disponibles para Promesas](available-to-promise-detail) — Interruptor dentro de la vista emergente de detalle del Buscador de Productos que desglosa la existencia por instancia de atributos
+
 ## Navegadores
 
 - [Generar Orden de Distribucion desde Ordenes de Venta](generate-distribution-order-from-sales-orders)
