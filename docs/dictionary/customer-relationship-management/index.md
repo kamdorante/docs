@@ -22,4 +22,7 @@ Documentación de referencia del diccionario de aplicación para el módulo CRM 
 
 ## Procesos
 - [Enviar Texto de Correo](send-mail-text)
-- [Generar Localización de Socio del Negocio](generate-business-partner-localization)
+- [Generar Localización de Socio del Negocio](generate-business-partner-localization)
+
+## Funcionalidades
+- [País por Defecto al Crear Localización de Socio del Negocio](default-country-in-business-partner-locations)

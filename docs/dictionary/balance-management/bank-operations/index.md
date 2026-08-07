@@ -28,6 +28,9 @@ Gestión de estados de cuenta bancarios, conciliaciones, transferencias y report
 - [Cancelar Folio de Cheque](cancel-folio-check)
 - [Actualizar Saldo de Banco y Estados de Cuenta](update-bank-statements-balance)
 
+## Funcionalidades
+- [Retiro y Depósito Automáticos al Cerrar Caja POS](auto-deposit-on-pos-cash-close)
+
 ## Reportes
 - [Reporte de Estado de Cuenta Bancario](bank-statement-report)
 - [Pagos sin Conciliar](unreconciled-payments)

@@ -21,6 +21,7 @@ Esta sección contiene la documentación de las herramientas de administración,
 ## Funcionalidad General
 
 - [Descargar Registros a Planilla](export-records-to-spreadsheet)
+- [Copiar Formato de Impresión entre Instancias](copy-print-format-between-instances)
 
 ### Copiar Datos de Auditoría
 

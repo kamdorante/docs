@@ -24,6 +24,10 @@ Este módulo incluye las herramientas para la gestión de distribución y planif
 - [Orden de Distribución](distribution-order.md)
 - [Detalle de Orden de Distribución](distribution-order-detail.md)
 
+### Órdenes de Salida
+
+- [Orden de Salida](outbound-order.md)
+
 ### Procesos
 
 - [Ejecución de Órdenes de Distribución](distribution-run-orders.md)
