@@ -130,6 +130,16 @@ Al arribo físico, hacer el movimiento de inventario desde el almacén en tráns
 
 Capturar la factura del proveedor asociándola a la orden de compra o a la recepción. La factura se vincula al expediente automáticamente a través de la orden.
 
+::: tip El orden importa: primero el costo material, después los distribuibles
+La factura del **proveedor internacional** (la que aporta el **costo material**) debe registrarse y completarse **antes** de distribuir cualquier documento relacionado (flete, seguro, arancel, tasa aduana, tasa consular, gastos bancarios). Además, esa factura tiene que quedar **matcheada** con la recepción de la mercadería (*Match Invoice* entre la línea de factura y la línea de recepción); sin ese match el costo material **no aparece** en los reportes del expediente.
+
+Si un documento relacionado se registra o distribuye **antes** de que el costo material esté en su lugar, ese documento **no se distribuye correctamente** y hay que **anularlo y volver a registrarlo** una vez que la factura del material esté completada y matcheada. La secuencia funcional correcta es:
+
+1. Recepción de la mercadería.
+2. Factura del proveedor internacional generada **sobre la recepción** (queda con Match Invoice contra la línea de recepción).
+3. Recién ahí, incorporar los documentos relacionados (paso 7) y distribuirlos por elemento / tipo de costo.
+:::
+
 ### 7. Incorporar costos adicionales
 
 Registrar las facturas de costos adicionales (flete, seguro, gastos bancarios) asociadas al expediente. Cada factura se ingresa como un documento de proveedor referenciando el expediente.

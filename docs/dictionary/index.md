@@ -18,6 +18,7 @@ Esta sección contiene la documentación generada automáticamente desde el dicc
 - [Gestión de Compras](purchase-management/)
 - [Gestión de Relaciones con Clientes](customer-relationship-management/)
 - [Tienda Web](web-store/)
+- [Gestión de PDV](pdv-management/)
 
 ### Gestión Financiera
 

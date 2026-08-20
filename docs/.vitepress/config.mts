@@ -54,6 +54,7 @@ export default defineConfig({
         items: [
           { text: 'Índice General', link: '/dictionary/' },
           { text: 'Tienda Web', link: '/dictionary/web-store/' },
+          { text: 'Gestión de PDV', link: '/dictionary/pdv-management/' },
           { text: 'Gestión de Ventas', link: '/dictionary/sales-management/' },
           { text: 'Gestión de Compras', link: '/dictionary/purchase-management/' },
           { text: 'Gestión de Saldos Pendientes', link: '/dictionary/balance-management/' },
