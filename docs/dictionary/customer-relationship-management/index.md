@@ -13,6 +13,7 @@ Documentación de referencia del diccionario de aplicación para el módulo CRM 
 ## Ventanas
 - [Solicitud](request)
 - [Tipo de Solicitud Estándar](standard-request-type)
+- [Solicitud Estándar](standard-request)
 - [Información del Agente Comercial](sales-rep-info)
 - [Plantilla de Notificación por Evento](event-notice-template)
 - [Plantilla de Correo](mail-template)
