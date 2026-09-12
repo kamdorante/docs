@@ -132,6 +132,40 @@ Esto permite vender productos con precios en distintas monedas sin duplicar list
 
 ---
 
+## Definir un Término de Pago Fijo (Contado o Crédito)
+
+### Objetivo
+
+Permite que las facturas generadas desde una Terminal PDV se emitan siempre con una condición de pago específica (Contado o Crédito), sin depender de la condición de pago configurada en el Socio de Negocio (cliente).
+
+### ¿Cómo se determina si una factura es Contado o Crédito?
+
+En la factura, el campo **Pago** indica **CONTADO** o **CRÉDITO** según los días configurados en el Término de Pago aplicado:
+
+- Si el Término de Pago tiene **0 días** → la factura se imprime como **CONTADO**.
+- Si el Término de Pago tiene **más de 0 días** → la factura se imprime como **CRÉDITO**.
+
+### Pasos
+
+1. Acceder a la ventana **Terminal PDV** (**Gestión de Ventas > Órdenes de Venta > Punto de Venta > Terminal PDV**).
+2. Buscar y abrir la terminal que se desea configurar.
+3. En el campo **Término de Pago**, seleccionar la condición de pago que se desea aplicar a todas las ventas de esa terminal:
+   - Para que las facturas se generen **a Contado**, seleccionar una condición con **0 días**.
+   - Para que se generen **a Crédito**, seleccionar una condición con **más de 0 días**.
+4. Guardar los cambios.
+
+> Si el campo **Término de Pago** se deja vacío, el sistema continúa utilizando la condición de pago configurada en el Socio de Negocio (cliente), como funcionaba anteriormente.
+
+### Verificar o crear la condición de pago a utilizar
+
+Antes de asignarla en la Terminal PDV, se recomienda revisar la ventana **Condición de Pago** para confirmar que la condición deseada tenga configurados los días correctos (0 para Contado, más de 0 para Crédito). Si no existe una condición adecuada, puede crearse una nueva desde esa misma ventana.
+
+### Validación
+
+Luego de configurar el campo, se recomienda realizar una venta de prueba desde la terminal y verificar que la factura generada muestre correctamente **CONTADO** o **CRÉDITO** según lo esperado.
+
+---
+
 ## Beneficios
 
 - ✔️ Configuración completa por terminal.
