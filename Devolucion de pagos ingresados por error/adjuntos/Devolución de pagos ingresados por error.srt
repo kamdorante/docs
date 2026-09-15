@@ -1,0 +1,175 @@
+1
+00:00:01,420 --> 00:00:06,480
+Respondiendo una consulta de conciliación bancaria de cómo
+
+2
+00:00:06,481 --> 00:00:11,520
+devolver o ingresar en el sistema una
+
+3
+00:00:11,521 --> 00:00:15,960
+devolución de un pago generado a un cliente.
+
+4
+00:00:16,200 --> 00:00:18,240
+que pagó por error.
+
+5
+00:00:19,340 --> 00:00:23,640
+En este caso lo que se desea es ver cómo se puede ingresar en
+
+6
+00:00:23,641 --> 00:00:28,260
+Solop cuando tengo un ingreso a mi cuenta bancaria por un
+
+7
+00:00:28,261 --> 00:00:33,220
+importe que el cual luego tengo que devolver
+
+8
+00:00:33,221 --> 00:00:38,800
+ese ingreso a la persona que lo depositó
+
+9
+00:00:38,801 --> 00:00:41,760
+realizando una salida de mi cuenta bancaria.
+
+10
+00:00:42,500 --> 00:00:44,960
+Entonces, ¿cómo se puede resolver eso? Fácil,
+
+11
+00:00:45,520 --> 00:00:49,140
+¿verdad? En ese caso, como si el socio de la negocio existe?
+
+12
+00:00:49,680 --> 00:00:51,940
+Se refiere, se recomienda crear un pago,
+
+13
+00:00:52,460 --> 00:00:54,840
+perdón, hagamos el ejemplo con un cobro,
+
+14
+00:00:55,220 --> 00:00:59,780
+sea una cobranza, o sea, ingresan 10 mil pesos y
+
+15
+00:00:59,781 --> 00:01:02,400
+luego, como se detecta que es un error,
+
+16
+00:01:03,020 --> 00:01:05,340
+nos solicita que le devolvamos el esos 10.000 pesos.
+
+17
+00:01:05,920 --> 00:01:08,940
+¿Cómo se soluciona el sistema? De la siguiente manera.
+
+18
+00:01:09,440 --> 00:01:14,020
+Primero, sobre la línea que ingresaron los
+
+19
+00:01:14,021 --> 00:01:17,980
+10.000 pesos, supongamos que vamos a un ejemplo,
+
+20
+00:01:18,820 --> 00:01:22,680
+vamos a una línea cualquiera, y si vamos a ver aquí que esta línea
+
+21
+00:01:22,681 --> 00:01:27,120
+ingresó por error. Primero lo que tenemos que hacer es definir un socio de
+
+22
+00:01:27,121 --> 00:01:29,200
+negocio, si existe lo seleccionamos,
+
+23
+00:01:29,760 --> 00:01:34,820
+si no podemos seleccionar un socio de negocio genérico que utilicemos para
+
+24
+00:01:34,821 --> 00:01:39,140
+ciertas implicaciones. aplicaciones de administración interna,
+
+25
+00:01:39,240 --> 00:01:44,140
+por ejemplo, socionegocio de la empresa o uno sin identificar
+
+26
+00:01:44,141 --> 00:01:47,660
+o un socionegocio específico que sea genérico.
+
+27
+00:01:48,760 --> 00:01:52,660
+A continuación, tendremos que generar,
+
+28
+00:01:52,661 --> 00:01:57,680
+¿no? el documento para asignar
+
+29
+00:01:57,681 --> 00:02:03,060
+esta línea de conciliación, por lo cual si fue un ingreso de dinero vamos
+
+30
+00:02:03,061 --> 00:02:07,740
+a tener que generar un cobro y lo que es
+
+31
+00:02:07,741 --> 00:02:12,800
+más importante en este caso caso es que se debe definir un cargo de
+
+32
+00:02:12,801 --> 00:02:16,580
+ingresos incorrectos,
+
+33
+00:02:17,120 --> 00:02:21,700
+depósitos sin identificar o algún encargo que mueva
+
+34
+00:02:21,701 --> 00:02:24,820
+una cuenta contable, el cual cuando,
+
+35
+00:02:24,840 --> 00:02:27,440
+Cuando hagamos la devolución, y esto es lo más importante,
+
+36
+00:02:28,420 --> 00:02:30,640
+vamos a tener que hacer un pago en la otra línea,
+
+37
+00:02:31,860 --> 00:02:34,060
+un pago al mismo socio de negocio,
+
+38
+00:02:34,580 --> 00:02:38,800
+y hay que hacer en ese pago, definirle que mueva el mismo cargo.
+
+39
+00:02:39,240 --> 00:02:42,500
+De manera que se nos queda. Correctamente conciliado,
+
+40
+00:02:42,760 --> 00:02:44,900
+tanto el ingreso, la cobranza,
+
+41
+00:02:45,240 --> 00:02:49,400
+como el egreso, el pago. Nos va a mover la cuenta puente del cargo,
+
+42
+00:02:50,060 --> 00:02:54,860
+pero como ambos movimientos van a cerrar,
+
+43
+00:02:55,320 --> 00:02:59,420
+el saldo neto de la contable de ese cargo va a quedar neteado en
+
+44
+00:02:59,421 --> 00:03:02,360
+cero. Así me queda bien la transacción aplicada.

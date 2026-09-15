@@ -272,29 +272,37 @@ se calcula con los saldos de las conciliaciones Completas o Cerradas (que es un 
 Es importante que no haya conciliaciones en estado CERRADO, ya que pueden no ser consideradas en los reportes.
 :::
 
-### ¿Cómo puedo modificar un cargo definido en una línea de estado de cuenta bancario?
+### ¿Cómo puedo modificar el cargo o el tipo de pago de una línea de estado de cuenta bancario?
 
-El procedimiento depende de si desde esa línea **ya se generó** o **no** el pago o cobro asociado.
+El procedimiento aplica tanto si el **cargo** como si el **tipo de pago** de un pago/cobro general generado desde la conciliación quedaron mal definidos. Depende de si desde esa línea **ya se generó** o **no** el pago o cobro asociado.
 
 **Caso 1 — Todavía no se generó el pago o cobro**
 
-Si en la línea aún no se ejecutó el proceso *Generar Pago/Cobro desde Línea de Estado de Cuenta*, alcanza con volver a ejecutarlo indicando el cargo correcto:
+Si en la línea aún no se ejecutó el proceso *Generar Pago/Cobro desde Línea de Estado de Cuenta*, alcanza con volver a ejecutarlo indicando los valores correctos:
 
 1. Ubicarse en la línea del estado de cuenta bancario.
 2. Ejecutar nuevamente **Generar Pago/Cobro desde Línea de Estado de Cuenta**.
-3. En los parámetros, indicar el **Cargo** correcto.
+3. En los parámetros, indicar el **Cargo** y el **Tipo de Pago** correctos.
 4. Procesar.
 
-**Caso 2 — El pago o cobro ya se generó con un cargo incorrecto**
+**Caso 2 — El pago o cobro ya se generó con datos incorrectos**
 
-Si ya existe un pago o cobro asociado a la línea con un cargo equivocado, hay que deshacer la vinculación, anular el documento y volver a generarlo:
+Si ya existe un pago o cobro asociado a la línea con cargo o tipo de pago equivocado, hay que anular el documento, deshacer la vinculación con la línea y volver a generarlo. El orden recomendado es:
 
-1. Borrar el pago/cobro de la línea de conciliación (desasignarlo).
-2. **Anular** el pago o cobro.
-3. Volver a ejecutar **Generar Pago/Cobro desde Línea de Estado de Cuenta** definiendo el **Cargo** correcto.
+1. Desde la línea del estado de cuenta bancario, **navegar al pago/cobro** ya generado.
+2. Sobre ese documento, ejecutar la acción **Anular**. El sistema genera automáticamente su **reverso**.
+3. Regresar a la línea del estado de cuenta y **quitar el pago/cobro** de la línea (desvincularlo) para que la línea vuelva a quedar disponible en el navegador.
+4. **Refrescar** el navegador *Generar Pago/Cobro desde Estado de Cuenta*: la línea vuelve a aparecer como pendiente.
+5. Ejecutar el proceso nuevamente sobre esa línea, indicando el **Cargo** y el **Tipo de Pago** correctos (por ejemplo, *Pago a la espera de factura*), con el mismo Socio de Negocio.
+6. Verificar que el nuevo pago/cobro quedó **asignado** a la línea.
+7. Desde **Asignación de Pagos**, aplicar el nuevo pago/cobro contra la factura que corresponda.
 
 ::: tip
-El pago/cobro anulado permanece en el sistema como referencia histórica; el pago/cobro nuevo, con el cargo correcto, es el que queda vinculado a la línea del estado de cuenta.
+El pago/cobro anulado y su reverso quedan en el sistema como referencia histórica; el pago/cobro nuevo, con los datos correctos, es el que queda vinculado a la línea del estado de cuenta.
+:::
+
+::: warning
+Mientras la línea siga vinculada al pago/cobro anterior, el navegador *Generar Pago/Cobro desde Estado de Cuenta* **no la muestra**. Si al refrescar la línea no aparece, es porque quedó pendiente el paso 3 (quitar el pago/cobro de la línea).
 :::
 
 ### Después de una asignación automática, ¿cómo corrijo los cargos que quedaron mal por defecto?
@@ -303,13 +311,44 @@ Cuando se ejecuta la asignación automática de la conciliación bancaria, el si
 
 1. Identificar cada línea de estado de cuenta bancario con cargo incorrecto.
 2. Para cada línea con pago/cobro ya generado:
-   - Borrar el pago/cobro de la línea de conciliación.
-   - **Anular** el pago o cobro.
+   - Navegar desde la línea al **pago/cobro** vinculado.
+   - Ejecutar la acción **Anular** sobre el pago/cobro; el sistema genera el reverso automáticamente.
+   - Volver a la línea del estado de cuenta y **quitar el pago/cobro** de la línea (desvincularlo).
+   - **Refrescar** el navegador *Generar Pago/Cobro desde Estado de Cuenta* para que la línea vuelva a aparecer como pendiente.
    - Volver a generar el pago/cobro desde la línea, seleccionando el **Cargo** correcto.
 3. Si alguna línea aún no tenía pago/cobro generado, alcanza con volver a ejecutar el proceso indicando el cargo correcto.
+4. Al finalizar, aplicar los nuevos pagos/cobros desde **Asignación de Pagos** contra las facturas correspondientes.
 
 ::: tip
 Antes de trabajar la conciliación del período siguiente, conviene revisar y ajustar el **cargo por defecto** que utiliza la asignación automática, para evitar repetir la corrección línea por línea en las próximas cargas.
+:::
+
+### Nos ingresaron un pago por error y hay que devolverlo — ¿cómo se registra en la conciliación?
+
+Cuando un cliente (o un tercero) deposita un importe en nuestra cuenta bancaria por error y luego debemos devolvérselo, el estado de cuenta bancario refleja **dos movimientos**: la **entrada** por el ingreso original y la **salida** por la devolución. Ambos deben registrarse en la conciliación de forma que el impacto contable neto quede en **cero**. La técnica consiste en usar un **cargo puente** (por ejemplo, *Ingresos Incorrectos* o *Depósitos sin Identificar*) en ambos movimientos, con el **mismo socio de negocio**.
+
+**Procedimiento paso a paso**
+
+1. **Sobre la línea del ingreso (entrada de dinero)** del estado de cuenta bancario:
+   - Definir el **Socio de Negocio**. Si el pagador está identificado en el sistema, seleccionarlo; si no, usar un socio de negocio **genérico** dedicado a estos casos (por ejemplo, *"Depósitos sin identificar"* o el propio SDN de la organización).
+   - Ejecutar **Generar Pago/Cobro desde Línea de Estado de Cuenta** eligiendo **Cobro** (porque es una entrada).
+   - En los parámetros, indicar como **Cargo** un cargo puente del tipo *Ingresos Incorrectos* o *Depósitos sin Identificar*. Ese cargo apunta a una **cuenta contable puente** que va a servir para netear la operación.
+   - Procesar. La línea queda asignada al cobro generado.
+
+2. **Sobre la línea de la devolución (salida de dinero)** del estado de cuenta bancario:
+   - Definir el **mismo Socio de Negocio** que en el paso 1.
+   - Ejecutar **Generar Pago/Cobro desde Línea de Estado de Cuenta** eligiendo **Pago** (porque es una salida).
+   - En los parámetros, indicar exactamente **el mismo Cargo** que se usó en el paso 1.
+   - Procesar. La línea queda asignada al pago generado.
+
+3. **Completar la conciliación** normalmente. Ambos movimientos quedan conciliados y el saldo del cargo puente queda **neteado en cero** (el cobro lo suma, el pago lo resta por el mismo importe).
+
+::: tip Regla operativa
+Lo importante es que **ambos movimientos usen el mismo Cargo y el mismo Socio de Negocio**. Es lo que garantiza que la cuenta contable puente se neteé y no queden saldos abiertos que después haya que ajustar a mano.
+:::
+
+::: warning
+No usar cargos distintos para el ingreso y para la devolución. Si el cargo difiere, cada movimiento afecta una cuenta contable distinta y el neteo no ocurre; el saldo queda abierto en ambas cuentas y requiere un ajuste contable posterior.
 :::
 
 ### Ventanas Relacionadas
