@@ -1,0 +1,259 @@
+1
+00:00:01,400 --> 00:00:05,920
+Respuestas de preguntas frecuentes relacionado
+
+2
+00:00:05,921 --> 00:00:10,620
+con conciliación bancaria. En este caso vamos a responder una pregunta
+
+3
+00:00:10,621 --> 00:00:15,420
+que es ¿Cómo se puede corregir un pago
+
+4
+00:00:15,421 --> 00:00:20,740
+o cobro general generado desde una línea de conciliación bancaria si
+
+5
+00:00:20,741 --> 00:00:25,640
+le erramos o se definió incorrectamente
+
+6
+00:00:27,600 --> 00:00:31,380
+el cargo o el tipo de pago a generar.
+
+7
+00:00:32,500 --> 00:00:37,620
+En este caso, lo que se desea es poder corregir la
+
+8
+00:00:37,621 --> 00:00:40,540
+acción realizada y poder,
+
+9
+00:00:41,320 --> 00:00:45,620
+para poder generar un nuevo pago cobro de manera correcta.
+
+10
+00:00:46,420 --> 00:00:48,640
+En este caso, lo que tenemos que hacer es Primero,
+
+11
+00:00:49,140 --> 00:00:53,800
+desde cualquier línea de estado de cuenta bancario que hayamos
+
+12
+00:00:53,801 --> 00:00:56,640
+generado un cobro o un pago,
+
+13
+00:00:56,940 --> 00:01:01,420
+cualquiera sea, nosotros podemos navegar al mismo.
+
+14
+00:01:02,140 --> 00:01:04,460
+Por ejemplo, en esta línea. Tenemos la línea C.
+
+15
+00:01:04,480 --> 00:01:08,140
+por 9.369 pesos.
+
+16
+00:01:08,800 --> 00:01:14,520
+Está identificado el socionegocio y generamos ya el pago-cobro
+
+17
+00:01:14,521 --> 00:01:19,240
+que está aquí. En este caso,
+
+18
+00:01:19,760 --> 00:01:23,220
+si esto hubiese estado aquí, incorrecto.
+
+19
+00:01:23,540 --> 00:01:26,120
+Justo en este caso esto se generó.
+
+20
+00:01:27,880 --> 00:01:31,960
+Vamos a hacer, por ejemplo, otro caso de uno que no está creado.
+
+21
+00:01:33,220 --> 00:01:36,540
+Por ejemplo, este Pahok.
+
+22
+00:01:36,640 --> 00:01:41,480
+que está aquí. Vemos que tiene un pago-cobro generado.
+
+23
+00:01:42,360 --> 00:01:47,500
+Vamos a acercar el pago-cobro y ya tenemos un pago generado
+
+24
+00:01:47,501 --> 00:01:52,040
+a esta información. Supongamos que esto es incorrecto y se desea volver
+
+25
+00:01:52,041 --> 00:01:54,680
+a generarlo. Para ello,
+
+26
+00:01:54,860 --> 00:01:58,440
+para volver a generar, lo primero que tenemos que hacer es que esta línea
+
+27
+00:01:58,441 --> 00:02:01,100
+no tiene que tener un pago-cobro definido,
+
+28
+00:02:01,960 --> 00:02:04,700
+sino si tiene un pago-cobro aquí definido,
+
+29
+00:02:05,660 --> 00:02:07,760
+estamos en la línea 40.
+
+30
+00:02:08,800 --> 00:02:13,360
+¿Qué tenemos que hacer si vamos a generar pagos de estado de cuenta?
+
+31
+00:02:13,960 --> 00:02:17,000
+Esta línea 40 no la vamos a visualizar,
+
+32
+00:02:17,500 --> 00:02:20,080
+porque ya tiene el pago generado.
+
+33
+00:02:21,120 --> 00:02:24,620
+De manera que lo primero que tenemos que hacer va a ser,
+
+34
+00:02:25,180 --> 00:02:28,500
+quitar este pago de aquí.
+
+35
+00:02:30,200 --> 00:02:32,700
+Ahora, antes de quitarlo, lo mejor es,
+
+36
+00:02:32,820 --> 00:02:37,600
+hay que navegar al pago correspondiente y proceder
+
+37
+00:02:37,601 --> 00:02:40,180
+a anularlo, porque este pago es incorrecto.
+
+38
+00:02:40,380 --> 00:02:44,240
+No queremos que que mantener ambos pagos generados en el sistema,
+
+39
+00:02:44,660 --> 00:02:49,180
+sino que este pago al estar de manera incorrecta vamos a venir
+
+40
+00:02:49,181 --> 00:02:53,080
+acá a las acciones y el primer paso que tenemos que hacer es anular
+
+41
+00:02:53,081 --> 00:02:56,940
+el pago cobro generado de manera incorrecta.
+
+42
+00:02:59,140 --> 00:03:02,000
+Supongamos que es este el ejemplo,
+
+43
+00:03:02,640 --> 00:03:07,680
+vamos a anularlo, una vez lo anulamos se va a generar su reverso correspondiente.
+
+44
+00:03:13,650 --> 00:03:19,930
+se genera el reverso correspondiente y en este caso vamos
+
+45
+00:03:19,931 --> 00:03:22,910
+a venir a la línea y vamos a quitarlo de aquí,
+
+46
+00:03:24,250 --> 00:03:29,600
+lo quitamos ok para
+
+47
+00:03:29,601 --> 00:03:35,320
+que esta línea me quede habilitada nuevamente por
+
+48
+00:03:35,321 --> 00:03:39,960
+20. Y aquí también ya podríamos o generar un pago desde
+
+49
+00:03:39,961 --> 00:03:43,740
+aquí, desde el botón o ir a la al browser.
+
+50
+00:03:44,300 --> 00:03:48,980
+Refrescamos. Y ya vamos a ver nuevamente la línea para generar
+
+51
+00:03:48,981 --> 00:03:51,660
+el nuevo pago, como querríamos.
+
+52
+00:03:52,100 --> 00:03:57,880
+En este caso, pago a la espera de factura. Podemos
+
+53
+00:03:57,881 --> 00:04:01,340
+elegir el mismo socionegocio, obviamente, que ya hemos generado.
+
+54
+00:04:01,360 --> 00:04:06,240
+lo generamos y nos vamos a ver que ese pago
+
+55
+00:04:06,241 --> 00:04:08,640
+va a quedar generado,
+
+56
+00:04:10,000 --> 00:04:15,400
+asignado a la línea. Aquí visualizamos el éxito y
+
+57
+00:04:15,401 --> 00:04:19,940
+si vamos aquí Vamos a refrescar y
+
+58
+00:04:29,480 --> 00:04:33,100
+vemos correctamente el socio negocio que se le definió.
+
+59
+00:04:33,520 --> 00:04:38,280
+y esto queda como asignado o no. De manera que este pago
+
+60
+00:04:38,281 --> 00:04:44,680
+vamos a poder ir a asignación de pagos para
+
+61
+00:04:44,681 --> 00:04:47,180
+realizar su correspondiente asignación.
+
+62
+00:04:49,740 --> 00:04:50,680
+Eh, perdón.
+
+63
+00:05:06,880 --> 00:05:09,160
+Y aquí vemos el pago. Me quedo en esa organización,
+
+64
+00:05:09,260 --> 00:05:14,120
+por eso no lo veo. Ese sería el procedimiento para
+
+65
+00:05:14,121 --> 00:05:15,700
+corregir un pago generado.
