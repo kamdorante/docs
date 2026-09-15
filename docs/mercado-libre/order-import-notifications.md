@@ -66,6 +66,18 @@ La venta fue anulada: no se genera la etiqueta y **no se debe despachar el produ
 
 Estos errores impiden que se genere la orden en el sistema. Los dos principales son que no se encuentra el producto para importar y que el producto no está en la lista de precios. Cada aviso incluye los datos de la publicación y del pedido que falló.
 
+### Evento de Mercado Libre que originó la notificación
+
+El flujo de Mercado Libre solo envía notificaciones de error cuando se intenta crear la **orden** o el **paquete** en Solop **por primera vez** y ese intento falla. De esta forma se evita que lleguen muchas notificaciones iguales o al mismo tiempo sobre la misma orden, especialmente cuando no se pudo crear en el sistema.
+
+Ese concepto de "la primera vez" depende de la información que manda Mercado Libre en sus notificaciones. A veces pueden llegar **dos notificaciones con la misma información o el mismo estado** utilizado para validar, lo que puede ocasionar que la misma notificación de error salga hasta dos veces.
+
+Para dar contexto, se agrega un campo nuevo en las notificaciones —**Evento de MercadoLibre**— que indica **qué acción de Mercado Libre generó esa notificación específica**.
+
+![Notificación de error con el campo Evento de MercadoLibre](/assets/img/docs/mercado-libre/import-error-event-field.png)
+
+> **Nota:** como el flujo se configuró para generar una sola notificación de error al momento de crear por primera vez la orden en Solop, generalmente la acción será **Creación del pedido (Pagado)** o **Cambio del estado del pago (Pagado)**.
+
 ### La publicación no tiene el código del producto (sellerSKU)
 
 La publicación de Mercado Libre no tiene el sellerSKU con el código del producto del sistema, por lo que no se puede determinar a qué producto hace referencia. Algunas publicaciones tienen ese campo actualizado con el código del sistema y otras no.
