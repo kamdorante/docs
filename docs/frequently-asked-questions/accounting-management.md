@@ -77,6 +77,29 @@ Para re contabilizar un asiento se debe abrir el asiento desde el documento en c
 
 El Período de la fecha que dicho asiento fue contabilizado debe estar ABIERTO para permitir re-contabilizar (caso contrario, se deberá abrir el mismo desde la ventana Año, Calendario y Período).
 
+### ¿Existe alguna forma de plantilla para asientos contables que se repiten mes a mes?
+
+Solop no maneja una entidad *"plantilla"* específica para asientos contables, pero se logra el mismo resultado **copiando líneas de un asiento existente** hacia uno nuevo. De esta manera, para asientos que se repiten mensualmente (por ejemplo, *"Retiro socios contra Banco"*, asientos de sueldos con múltiples cuentas contables, provisiones, amortizaciones), alcanza con partir del asiento del mes anterior y ajustar los importes y la fecha.
+
+**Procedimiento**
+
+1. Abrir la ventana **Lote de Pólizas Contables** (o *Póliza Contable*, según cómo se opera el asiento).
+2. Ubicar el asiento anterior que se quiere replicar (por ejemplo, el mismo asiento del mes pasado).
+3. Crear un **nuevo Lote / Póliza** para el mes actual con su fecha y descripción.
+4. Ejecutar la acción **Copiar Líneas** desde el nuevo registro, seleccionando el asiento origen. Las líneas (cuentas, dimensiones contables) se replican en el nuevo asiento.
+5. Ajustar los **importes** del nuevo mes en las líneas copiadas.
+6. Completar el asiento normalmente.
+
+::: tip Buena práctica
+Conviene mantener un asiento **modelo** identificado con una descripción reconocible (por ejemplo, *"MODELO — Sueldos"* o *"MODELO — Retiro Socios"*) para que sea fácil encontrarlo mes a mes como origen de la copia. También sirve como referencia para nuevos usuarios.
+:::
+
+::: warning
+La acción **Copiar Líneas** replica cuentas, dimensiones y estructura, pero **no** replica los importes exactos del asiento origen: hay que verificar y ajustar los montos del período actual antes de completar. Además, la fecha y el período del nuevo asiento son independientes del origen.
+:::
+
+Si lo que se necesita en cambio es cargar **muchos asientos** desde una planilla externa (por ejemplo, integraciones con otros sistemas), ver [Importación Masiva de Asientos Contables](../dictionary/accounting-management/journal-entries/import-journal-entries) — que es una solución complementaria pensada para carga en volumen desde CSV, no para el caso de un único asiento repetitivo.
+
 ### ¿Qué realiza el proceso de Cierre de Cuentas Integrales? ¿Se puede evitar que genere diferencias?
 
 Este proceso cierra las cuentas de Activo/Pasivo al final del periodo anual fiscal llevándolas a cero y generando un nuevo asiento de Apertura al día siguiente con los mismos valores que cerró. 
