@@ -35,7 +35,7 @@ Documentación de referencia del diccionario de aplicación para el módulo de G
 - [Generar OC desde Orden de Venta](sales-orders/generate-po-from-sales-order)
 - [Crear OC desde Proyectos](sales-orders/create-order-po-from-projects)
 - [Generar Orden de Venta desde Líneas de Proyecto](sales-orders/generate-sales-order-from-project-lines)
-- [Crear Nuevo Cliente desde una Orden de Venta o Documento por Cobrar](create-business-partner-from-order.md) 
+- [Crear Nuevo Cliente desde una Orden de Venta o Documento por Cobrar](sales-orders/create-business-partner-from-order) 
 - [Reabrir Orden](sales-orders/reopen-order)
 
 ### Reportes
