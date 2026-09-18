@@ -26,4 +26,5 @@ Documentación de referencia del diccionario de aplicación para el módulo CRM 
 - [Generar Localización de Socio del Negocio](generate-business-partner-localization)
 
 ## Funcionalidades
-- [País por Defecto al Crear Localización de Socio del Negocio](default-country-in-business-partner-locations)
+- [País por Defecto al Crear Localización de Socio del Negocio](default-country-in-business-partner-locations)
+- [Corregir un Campo de Dirección Duplicado según el Formato de País](fix-duplicate-address-field-by-country)
