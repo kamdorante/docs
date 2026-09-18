@@ -33,6 +33,7 @@ Subcategoría del módulo de Gestión de Ventas que agrupa las ventanas, proceso
 - [Generar OC desde Orden de Venta](generate-po-from-sales-order.md) - Crear órdenes de compra desde órdenes de venta
 - [Crear OC desde Proyectos](create-order-po-from-projects.md) - Crear órdenes de compra desde proyectos
 - [Generar Orden de Venta desde Líneas de Proyecto](generate-sales-order-from-project-lines.md) - Generar orden de venta consolidada o por fase desde las Fases del Proyecto
+- [Crear Nuevo Cliente desde una Orden de Venta o Documento por Cobrar](create-business-partner-from-order.md) - Uso del modal para dar de alta un cliente nuevo al vuelo, con la Ciudad como campo indispensable para completar el documento
 - [Reabrir Orden](reopen-order.md) - Reabrir órdenes previamente cerradas
 
 ## Reportes

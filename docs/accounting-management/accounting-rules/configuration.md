@@ -491,3 +491,31 @@ Realice el procedimiento regular para configurar una combinación contable, el m
 ::: tip
 Recuerde guardar el registro de los campos de la pestaña **Contabilidad**, seleccionando el icono **Guardar Cambios**, ubicado en la barra de herramientas de Solop ERP.
 :::
+
+### Check *Impuesto de Venta*
+
+El campo **Impuesto de Venta** (pestaña *Impuesto*, cabecera del registro de la tasa) define si la tasa se utiliza para **operaciones de venta** o para **operaciones de compra**. Es el interruptor que decide qué cuenta contable de la pestaña **Contabilidad** usa el sistema al contabilizar un documento que lleva ese impuesto.
+
+- **Impuesto de Venta = Sí** → la tasa se comporta como un impuesto de **ventas**. Cuando se aplica en un documento (por ejemplo, una factura de cliente), el asiento debita/acredita la cuenta **Impuesto al Vender**. Si por alguna razón la tasa se termina usando en un documento de **compra**, el sistema **no** usa la cuenta de *Impuesto al Comprar*: usa la cuenta de **Gastos Impuesto**, que en la mayoría de las configuraciones apunta a la **misma cuenta** que *Impuesto al Vender* (por ejemplo, *IVA Ventas*). Este es el escenario que genera el error típico *"la factura de proveedor contabiliza IVA Ventas en lugar de IVA Compras"*.
+- **Impuesto de Venta = No** → la tasa se comporta como un impuesto de **compras**. Cuando se aplica en un documento de compra (por ejemplo, una factura de proveedor), el asiento usa la cuenta **Impuesto al Comprar** (o **Impuesto Acreditado**, según corresponda al tipo de impuesto y a la configuración fiscal).
+
+### Cómo se usa cada cuenta según el documento
+
+La siguiente tabla resume qué cuenta de la pestaña **Contabilidad** se usa según el tipo de documento y el valor del check *Impuesto de Venta*:
+
+| Tipo de documento | *Impuesto de Venta* = Sí | *Impuesto de Venta* = No |
+|-------------------|--------------------------|--------------------------|
+| Factura de cliente (venta) | **Impuesto al Vender** | *No aplica* — no debería usarse un impuesto de compras en un documento de venta |
+| Factura de proveedor (compra) | **Gastos Impuesto** *(genera el error de "IVA Ventas en factura de proveedor")* | **Impuesto al Comprar** *(configuración correcta)* |
+| Pago recibido con retención | **Impuesto Pagado** | *No aplica* |
+| Acreditación de impuesto a favor | *No aplica* | **Impuesto Acreditado** |
+
+::: warning Error típico: "el asiento contabiliza IVA Ventas en una factura de proveedor"
+Si al contabilizar una **factura de proveedor** el asiento muestra la cuenta de **IVA Ventas** (o la cuenta configurada en *Impuesto al Vender*) en lugar de **IVA Compras**, la causa habitual es que la tasa de impuesto usada en la línea tiene el check **Impuesto de Venta = Sí**. Al ser una tasa marcada como "de ventas", el sistema toma la cuenta de **Gastos Impuesto** — que normalmente apunta a la misma cuenta de *Impuesto al Vender* — en lugar de tomar *Impuesto al Comprar*.
+
+**Solución**: abrir la ventana **Tasa de Impuesto**, ubicar la tasa afectada y desmarcar el check **Impuesto de Venta**. Guardar. Recontabilizar el documento afectado desde la ventana *Información Contable* para que tome la cuenta correcta (*Impuesto al Comprar*).
+:::
+
+::: tip Recomendación de setup
+Como regla general, cada tasa de impuesto debe representar **un solo sentido**: o compras (*Impuesto de Venta = No*) o ventas (*Impuesto de Venta = Sí*). Si la organización maneja el mismo impuesto (por ejemplo, IVA Básico 22%) en ambos sentidos, conviene tener **dos registros de tasa** separados — uno para ventas y otro para compras — cada uno con su check correspondiente y sus cuentas de contabilidad. Esto evita ambigüedad al momento de contabilizar y previene errores como el descrito arriba.
+:::

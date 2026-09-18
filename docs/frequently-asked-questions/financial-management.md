@@ -351,6 +351,38 @@ Lo importante es que **ambos movimientos usen el mismo Cargo y el mismo Socio de
 No usar cargos distintos para el ingreso y para la devolución. Si el cargo difiere, cada movimiento afecta una cuenta contable distinta y el neteo no ocurre; el saldo queda abierto en ambas cuentas y requiere un ajuste contable posterior.
 :::
 
+### Si elimino la conciliación bancaria en borrador, ¿los pagos generados se eliminan también?
+
+**No.** Los pagos/cobros generados desde una conciliación bancaria (tanto los creados por el *match automático* como los generados manualmente desde una línea del estado de cuenta) son **documentos independientes** del estado de cuenta bancario. Al eliminar o anular la conciliación —incluso en estado *Borrador*— los pagos **quedan en el sistema** con su estado y su fecha originales.
+
+Esto pasa por diseño: el estado de cuenta bancario y el pago viven como documentos separados en Solop. La conciliación solo mantiene una **vinculación** (asignación) entre la línea del extracto y el pago; al desasignar o eliminar la línea, la vinculación se libera pero el pago sobrevive.
+
+**¿Cómo aparecen esos pagos "no válidos"?**
+
+Es habitual que un pago quede en estado **En Proceso** (o "no válido") cuando se generó con una **fecha fuera del período válido** (por ejemplo, un extracto que arrastró la fecha *08/2000* por un error de carga). Esos pagos:
+
+- Existen en la ventana **Pago/Cobro** con la fecha errónea.
+- No aparecen en **Asignación de Pagos** porque no están completos y no están asignados.
+- No se eliminan automáticamente al borrar la conciliación que los originó.
+
+**¿Cómo se limpian esos pagos "no válidos" en forma masiva?**
+
+Si lo que se necesita es dejar el sistema limpio antes de recargar la conciliación con la fecha correcta:
+
+1. Ir a la ventana **Pago/Cobro**.
+2. Filtrar por **Fecha Contable** en el rango de las fechas erróneas (por ejemplo, agosto de 2000) y por **Estado del Documento = En Proceso** (o el estado en que quedaron).
+3. Verificar que **no estén asignados** (el pago debe estar libre para poder eliminarlo).
+4. Desde la vista **multi-registro**, seleccionar todas las filas del filtro y ejecutar **Eliminar** (o **Anular**, según el estado del documento).
+5. Recargar la conciliación con la **fecha correcta**.
+
+::: tip Prevención
+El error habitual es cargar el extracto sin cambiar la **Fecha del Estado de Cuenta** de la cabecera antes de importar las líneas. Al importar, si la fecha del extracto no está bien definida, las líneas y los pagos generados heredan una fecha inválida (típicamente el default del sistema). **Antes de importar líneas o generar pagos, verificar siempre la fecha de la cabecera del estado de cuenta.**
+:::
+
+::: warning
+Eliminar la conciliación no libera los pagos "no válidos"; hay que borrarlos aparte desde la ventana **Pago/Cobro**. Si esos pagos quedan en el sistema, aparecen en reportes financieros y de auditoría con fecha errónea y pueden confundir análisis posteriores.
+:::
+
 ### Ventanas Relacionadas
 
 - [Conciliación de Estado de Cuenta](../dictionary/balance-management/bank-operations/bank-statement-match)
