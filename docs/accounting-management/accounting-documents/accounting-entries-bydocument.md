@@ -50,6 +50,12 @@ Orden de Compra (Productos Artículos Almacenables)
 | 51290 - Ajustes a Costos de Prod  | 18,352.00  |  0.00      | Producto        | Conciliación de Inven |
 | 21110 - Acreedores por Compras    | 0.00       | 28,352.00  | Socio del Neg.  | CxP del Proveedor     |
 
+::: warning La cuenta de IVA depende del check *Impuesto de Venta* de la Tasa
+La línea marcada como *"Impuesto al comprar"* solo se contabiliza contra la cuenta configurada en el campo **Impuesto al Comprar** de la tasa cuando esta tiene el check **Impuesto de Venta = No**. Si la tasa aplicada a la línea de la factura tiene el check **Impuesto de Venta = Sí**, el sistema toma en su lugar la cuenta configurada en **Gastos Impuesto** — que en la mayoría de las configuraciones apunta a la misma cuenta que *Impuesto al Vender* (por ejemplo, *IVA Ventas*) — y el asiento del documento por pagar aparece con IVA Ventas en lugar de IVA Compras.
+
+Para el detalle completo del mecanismo, la matriz de cuentas por tipo de documento y la solución al error típico, ver [Configuración Contable — Impuestos](../accounting-rules/configuration#check-impuesto-de-venta).
+:::
+
 ### Compras Productos /Servicios (No Almacenables)
 
 ### Orden de Compra (Productos Artículos No Almacenables)
