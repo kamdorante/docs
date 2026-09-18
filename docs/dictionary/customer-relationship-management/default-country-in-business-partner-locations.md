@@ -95,3 +95,4 @@ Un usuario opera habitualmente con socios de negocio de **Uruguay** pero su nave
 
 - [Generar Localización de Socio del Negocio](generate-business-partner-localization)
 - [Cliente](../sales-management/sales-management-crm/customer)
+- [Corregir un Campo de Dirección Duplicado según el Formato de País](fix-duplicate-address-field-by-country)
