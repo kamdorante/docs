@@ -89,4 +89,5 @@ Una integración externa de importación de productos desde una tienda web debe 
 
 ## Ventanas relacionadas
 
+- [Lista de Distribución Genérica para Errores](./generic-error-distribution-list)
 - [Cola de Notificación](./notification-queue)
