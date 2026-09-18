@@ -18,6 +18,7 @@ Esta sección contiene la documentación de las herramientas de administración,
 
 - [Corporación](corporation)
 - [Lista de Distribución de Notificaciones](notification-distribution-list)
+- [Lista de Distribución Genérica para Errores](generic-error-distribution-list)
 - [Cola de Notificación](notification-queue)
 
 ## Funcionalidad General
