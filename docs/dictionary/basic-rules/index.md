@@ -17,6 +17,7 @@ Esta sección contiene la documentación de las herramientas de administración,
 ## Ventanas
 
 - [Corporación](corporation)
+- [Cola de Notificación](admin-tools/notification-queue)
 
 ## Funcionalidad General
 
