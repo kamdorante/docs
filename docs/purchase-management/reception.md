@@ -68,6 +68,17 @@ Imagen 15. Opción Completar
 
 Seleccione la acción **Completar** y la opción **OK** para completar el documento.
 
+::: tip Regla operativa clave
+Desde la Orden de Compra sólo se debe generar el *primer* documento del proceso (Recepción o DxP). El *segundo* documento siempre debe generarse con "Crear Desde" apuntando al primero — nunca ambos por separado desde la Orden de Compra.
+
+| Opción | 1 | 2 | 3 |
+|---|---|---|---|
+| 1 | Orden de Compra | Recepción (Crear Desde → OC) | DxP (Crear Desde → Recepción) |
+| 2 | Orden de Compra | DxP (Crear Desde → OC) | Recepción (Crear Desde → DxP) |
+
+Si en cambio el DxP y la Recepción se generan **por separado**, ambos con "Crear Desde" apuntando a la Orden de Compra, el Match Invoice no queda vinculado a la Recepción y el costo de Material no aparece en el reporte.
+:::
+
 ## Recepción Rápida
 
 La opción de Recepción Rápida permite registrar la entrada de productos de una orden de compra, simplificando el proceso de ingreso al almacén.
