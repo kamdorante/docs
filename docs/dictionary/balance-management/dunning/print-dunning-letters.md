@@ -22,3 +22,10 @@ Menú: Gestión de Saldos Pendientes → Morosidad → Imprimir Carta de Morosid
 | Corrida de Morosidad | Corrida de morosidad | Búsqueda directa | No | |
 | Solo si el Socio tiene Saldo | Incluir solo si el socio del negocio tiene saldo pendiente | Sí/No | No | Sí |
 | Imprimir Solo No Procesados | Imprimir solo las entradas no procesadas (no impresas) | Sí/No | No | Sí |
+
+## Ventanas relacionadas
+
+- [Morosidad](dunning)
+- [Crear Cálculo de Morosidad](create-dunning-calculation)
+- [Corrida de Morosidad](dunning-run)
+- [Cola de Notificación](../../basic-rules/admin-tools/notification-queue)

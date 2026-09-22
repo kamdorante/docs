@@ -53,3 +53,11 @@ Detalle de las facturas incluidas en la corrida.
 | Monto Convertido | Monto convertido a la moneda de la morosidad | Monto | No |
 | Monto de Comisión | Monto de comisión por morosidad | Monto | No |
 | Días de Vencimiento | Número de días vencidos | Numérico entero | No |
+
+## Ventanas relacionadas
+
+- [Morosidad](dunning)
+- [Crear Cálculo de Morosidad](create-dunning-calculation)
+- [Imprimir Carta de Morosidad](print-dunning-letters)
+- [Envío de Email a Socio del Negocio (Morosidad)](email-to-business-partner-dunning)
+- [Cola de Notificación](../../basic-rules/admin-tools/notification-queue)

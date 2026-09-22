@@ -112,7 +112,7 @@ Detalle de cada factura vencida del socio. Cuando el socio tiene tipo de interé
 
 ### 1. Configurar la regla de morosidad
 
-Antes de ejecutar el cálculo, definir la **Regla de Morosidad** con sus niveles y criterios. Asignar la regla a los socios del negocio que deban incluirse en la gestión de cobranza.
+Antes de ejecutar el cálculo, definir la **Regla de Morosidad** con sus niveles y criterios desde la ventana [Morosidad](dunning). Asignar la regla a los socios del negocio que deban incluirse en la gestión de cobranza.
 
 ### 2. Configurar intereses por mora (opcional)
 
@@ -172,7 +172,9 @@ Cierre mensual de morosidad con cálculo de intereses incluido:
 
 ## Ventanas relacionadas
 
+- [Morosidad](dunning)
 - [Corrida de Morosidad](dunning-run)
 - [Cálculo de Intereses por Mora](late-payment-interest)
 - [Imprimir Carta de Morosidad](print-dunning-letters)
 - [Envío de Email a Socio del Negocio (Morosidad)](email-to-business-partner-dunning)
+- [Cola de Notificación](../../basic-rules/admin-tools/notification-queue)

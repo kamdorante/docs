@@ -29,3 +29,10 @@ Menú: Gestión de Saldos Pendientes → Morosidad → Envío de Email a Socio d
 | Email | Dirección de correo electrónico |
 | Monto | Monto de la morosidad |
 | Estado | Estado del envío |
+
+## Ventanas relacionadas
+
+- [Morosidad](dunning)
+- [Crear Cálculo de Morosidad](create-dunning-calculation)
+- [Corrida de Morosidad](dunning-run)
+- [Cola de Notificación](../../basic-rules/admin-tools/notification-queue)

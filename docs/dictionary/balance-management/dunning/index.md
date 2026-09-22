@@ -11,6 +11,7 @@ article: false
 Gestión de morosidad, incluyendo cálculos, cartas de cobro y seguimiento de deudas vencidas.
 
 ## Ventanas
+- [Morosidad](dunning)
 - [Corrida de Morosidad](dunning-run)
 
 ## Procesos
