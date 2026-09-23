@@ -69,7 +69,28 @@ export default defineConfig({
           { text: 'Facturación Electrónica', link: '/dictionary/electronic-billing/' },
           { text: 'Gestión de Relaciones', link: '/dictionary/customer-relationship-management/' },
           { text: 'Verticales', link: '/dictionary/verticals/' },
-          { text: 'Reglas Básicas', link: '/dictionary/basic-rules/' },
+          {
+            text: 'Reglas Básicas',
+            link: '/dictionary/basic-rules/',
+            collapsed: true,
+            items: [
+              { text: 'Corporación', link: '/dictionary/basic-rules/corporation' },
+              { text: 'Lista de Distribución de Notificaciones', link: '/dictionary/basic-rules/notification-distribution-list' },
+              { text: 'Lista de Distribución Genérica para Errores', link: '/dictionary/basic-rules/generic-error-distribution-list' },
+              { text: 'Cola de Notificación', link: '/dictionary/basic-rules/notification-queue' },
+              { text: 'Descargar Registros a Planilla', link: '/dictionary/basic-rules/export-records-to-spreadsheet' },
+              { text: 'Copiar Formato de Impresión entre Instancias', link: '/dictionary/basic-rules/copy-print-format-between-instances' },
+              { text: 'Copiar Datos de Auditoría', link: '/dictionary/basic-rules/copy-audit-data' },
+              { text: 'Copiar Parámetros de un Reporte', link: '/dictionary/basic-rules/copy-report-parameters' },
+              { text: 'Copiar Parámetros de un Navegador', link: '/dictionary/basic-rules/copy-browser-parameters' },
+              { text: 'Copiar Datos de una Ventana', link: '/dictionary/basic-rules/copy-window-data' },
+              { text: 'Copiar Auditoría de un Documento', link: '/dictionary/basic-rules/copy-document-audit' },
+              { text: 'Copiar Auditoría Detallada de un Documento', link: '/dictionary/basic-rules/copy-detailed-document-audit' },
+              { text: 'Copiar Resultado de un Proceso con Error', link: '/dictionary/basic-rules/copy-process-error' },
+              { text: 'Herramientas de Administración', link: '/dictionary/basic-rules/admin-tools/' },
+              { text: 'Etiquetas', link: '/dictionary/basic-rules/tags/' },
+            ]
+          },
           { text: 'Dispositivos', link: '/dictionary/devices/' },
         ]
       }
