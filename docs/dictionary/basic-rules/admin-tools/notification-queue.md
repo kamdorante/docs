@@ -26,7 +26,7 @@ Se utiliza cuando el usuario necesita:
 
 Menú: Herramientas de Administración → Cola de Notificación
 
-También se accede indirectamente desde cualquier proceso que genera notificaciones masivas (por ejemplo, [Imprimir Carta de Morosidad](../../balance-management/dunning/print-dunning-letters) o [Envío de Email a Socio del Negocio (Morosidad)](../../balance-management/dunning/email-to-business-partner-dunning)), ya que cada envío que se dispara desde esos procesos crea un registro en esta cola.
+También se accede indirectamente desde cualquier proceso que genera notificaciones masivas (por ejemplo, [Imprimir Carta de Morosidad](../../balance-management/dunning/print-dunning-letters) o [Envío de Email a Socio del Negocio (Morosidad)](../../balance-management/dunning/email-to-business-partner-dunning)), ya que cada envío que se dispara desde esos procesos crea un registro en esta cola. Lo mismo ocurre con las solicitudes automáticas definidas en [Tipo de Solicitud Estándar](../../customer-relationship-management/standard-request-type) (por ejemplo, un aviso al cliente cuando se completa una entrega): cada disparo de la regla crea un registro en esta ventana.
 
 ## Pestañas
 
@@ -108,3 +108,5 @@ Verificación de un envío masivo de cartas de morosidad a cuatro clientes:
 - [Imprimir Carta de Morosidad](../../balance-management/dunning/print-dunning-letters)
 - [Envío de Email a Socio del Negocio (Morosidad)](../../balance-management/dunning/email-to-business-partner-dunning)
 - [Crear Cálculo de Morosidad](../../balance-management/dunning/create-dunning-calculation)
+- [Tipo de Solicitud Estándar](../../customer-relationship-management/standard-request-type)
+- [Solicitud Estándar](../../customer-relationship-management/standard-request)

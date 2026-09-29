@@ -42,6 +42,7 @@ Antes de completar el bloque *Solicitud Estándar* deben estar disponibles:
 - Los **tipos de solicitud**, **categorías**, **prioridades** y **tipos de tarea** habituales del módulo CRM (configuradas por el administrador).
 - El **rol** al que se quiera notificar como grupo (por ejemplo, *Vendedor*).
 - Los usuarios destinatarios deben tener correo configurado para recibir la notificación por correo electrónico.
+- El **socio de negocio** del documento (destinatario por defecto de toda solicitud generada) debe tener un contacto con correo electrónico cargado en su ficha; de lo contrario, la solicitud se genera pero el correo no llega a destino.
 
 ## Campos
 
@@ -120,6 +121,7 @@ Definir la solicitud que se envía al cliente cuando queda un pedido listo para 
 ## Consideraciones importantes
 
 - **Destinatarios por defecto:** cada solicitud generada llega automáticamente al **socio de negocio** del documento y al **usuario que completó** el documento. Los campos *Agente Comercial* y *Rol* de esta pestaña **agregan** destinatarios; no los reemplazan.
+- **Correo del socio de negocio:** si el destinatario incluye al socio de negocio (por ejemplo, avisarle a un cliente), este debe tener un contacto con correo electrónico cargado. Es la causa más frecuente de que un registro quede en la Cola de Notificación sin poder enviarse.
 - **Segunda notificación:** se genera **solo si la solicitud original no se cerró** dentro del tiempo de holgura. Si el destinatario atendió y cerró antes, no hay recordatorio.
 - **Notificación por rol:** cuando se carga un rol, la notificación llega a **todos los usuarios** que lo tienen asignado, no solo al usuario original. Conviene usarlo cuando el aviso debe alertar a un equipo completo.
 - **Confidencialidad:** *Confidencial Tercero* asegura que el contenido pueda compartirse con el cliente. Para notificaciones internas, usar un nivel más restrictivo.
@@ -135,4 +137,5 @@ Definir la solicitud que se envía al cliente cuando queda un pedido listo para 
 - [Plantilla de Correo](mail-template)
 - [Información del Agente Comercial](sales-rep-info)
 - [Enviar Texto de Correo](send-mail-text)
+- [Cola de Notificación](../basic-rules/admin-tools/notification-queue)
 - [Entregas (Cliente)](../sales-management/shipments/shipment-customer)
