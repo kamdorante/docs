@@ -55,7 +55,7 @@ Define los datos principales de cada producto.
 
 ### Lista de Materiales (BOM)
 
-Define los productos que se generan a partir de otros productos. Una lista de materiales se compone de uno o mas productos o sublistas.
+Define los productos que se generan a partir de otros productos. Una lista de materiales se compone de uno o mas productos o sublistas. La definicion detallada de la composicion y su verificacion se realiza en la ventana [Lista de Materiales y Formula](../../production-management/engineering/bom-and-formula), y se consume desde la ventana [Produccion](../production).
 
 #### Campos
 

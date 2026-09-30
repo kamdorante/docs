@@ -108,10 +108,14 @@ Dar de baja 2 unidades de un producto por rotura detectada en un control de cali
 - El **cargo** determina la cuenta contable donde se refleja la salida. Es recomendable definir cargos específicos por motivo (rotura, muestra, consumo administrativo) para facilitar el análisis posterior.
 - La **Fecha del Documento** define en qué fecha queda registrada la salida. Es la fecha que va a usar el reporte de Detalle de Transacciones y los cálculos de saldos por fecha.
 - La **Descripción** queda registrada en el documento y es útil para auditar la razón de la baja, en especial cuando el cargo es genérico.
+- Si el consumo abarca **varios productos** en un mismo documento, usar la ventana [Inventario de Uso Interno](../internal-use-inventory).
 - Este proceso **no reemplaza** al Inventario Físico ni al Ajuste de Inventario: se usa para consumos, no para corregir un conteo. Para corregir una diferencia detectada en un conteo, ver [Ajuste de Inventario del Producto](product-inventory-adjustment).
 
 ## Ventanas relacionadas
 
+- [Inventario de Uso Interno](../internal-use-inventory)
+- [Producción](../production)
+- [Lista de Materiales y Fórmula](../../production-management/engineering/bom-and-formula)
 - [Mover un Producto](move-product)
 - [Ajuste de Inventario del Producto](product-inventory-adjustment)
 - [Inventario Físico](../inventory-management/physical-inventory)

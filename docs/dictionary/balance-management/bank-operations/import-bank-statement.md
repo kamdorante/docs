@@ -79,6 +79,9 @@ Pestaña de la tabla donde quedan los registros descargados desde el cargador an
 - **Estado de Importación**
   Indica si el registro fue ya procesado al estado de cuenta o si está pendiente.
 
+- **Monto de Cargo de Simulación**
+  Campo que el sistema completa durante la conciliación con la diferencia entre el monto del movimiento bancario y el pago asignado. Al ejecutar la importación, ese valor se establece como **Monto de Cargo** de la línea del estado de cuenta (también cuando el registro ya importado se actualiza). Ver [Conciliación Manual con Diferencia en Montos](../../accounting-management/reconciliation/bank-statement-assignment-with-difference).
+
 ## Acciones disponibles
 
 - **Cargar Archivo** (desde Cargador de Archivos)

@@ -1096,6 +1096,26 @@ UPDATE AD_Menu SET DocBaseURL = '/dictionary/human-management/leave-management/l
 -- Crear Permiso Repetido para Empleado (menu)
 UPDATE AD_Menu SET DocBaseURL = '/dictionary/human-management/leave-management/create-repeated-leave' WHERE AD_Menu_ID = 54489;
 
+-- === Consumo de Materiales por Lista de Materiales ===
+
+-- Lista de Materiales y Fórmula (AD_Window)
+UPDATE AD_Window SET DocBaseURL = '/dictionary/production-management/engineering/bom-and-formula' WHERE AD_Window_ID = 53006;
+
+-- Producción (AD_Window)
+UPDATE AD_Window SET DocBaseURL = '/dictionary/material-management/production' WHERE AD_Window_ID = 191;
+
+-- Inventario de Uso Interno (AD_Window)
+UPDATE AD_Window SET DocBaseURL = '/dictionary/material-management/internal-use-inventory' WHERE AD_Window_ID = 341;
+
+-- Lista de Materiales y Fórmula (AD_Menu)
+UPDATE AD_Menu SET DocBaseURL = '/dictionary/production-management/engineering/bom-and-formula' WHERE AD_Menu_ID = 53024;
+
+-- Producción (AD_Menu)
+UPDATE AD_Menu SET DocBaseURL = '/dictionary/material-management/production' WHERE AD_Menu_ID = 228;
+
+-- Inventario de Uso Interno (AD_Menu)
+UPDATE AD_Menu SET DocBaseURL = '/dictionary/material-management/internal-use-inventory' WHERE AD_Menu_ID = 503;
+
 -- === Notas sobre slugs sin DocBaseURL ===
 -- /dictionary/financial-management/investments/loan-simulator → Form 53075 (AD_Form no tiene DocBaseURL)
 -- /dictionary/accounting-management/journal-entries/gl-journal → Window 132 (ya asignado a gl-journal-batch)

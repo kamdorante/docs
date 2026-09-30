@@ -15,6 +15,8 @@ Documentacion de referencia del diccionario de aplicacion para el modulo de Gest
 - [Reservas de Productos](product-reservations)
 - [Instantanea de Almacenamiento](storage-snapshot)
 - [Definicion de Conteo Personalizado](custom-count-definition)
+- [Produccion](production)
+- [Inventario de Uso Interno](internal-use-inventory)
 
 ## Procesos
 

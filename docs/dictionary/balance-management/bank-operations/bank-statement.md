@@ -111,7 +111,10 @@ Una línea por cada movimiento del extracto importado o agregado manualmente. Lo
   Importe reportado por el banco. Positivo si es cobro; negativo si es pago.
 
 - **Monto de la Transacción**
-  Importe efectivo aplicado en la conciliación. Coincide con el del banco cuando no hay diferencia.
+  Cuando la línea proviene de una importación con Monto de Cargo de Simulación, se calcula como el Monto del Estado de Cuenta menos ese monto.
+
+- **Monto de Cargo**
+  Proviene del Monto de Cargo de Simulación del registro de importación.
 
 - **Tipo de Referencia y Número de Referencia**
   Datos enviados por el banco para identificar el movimiento.
