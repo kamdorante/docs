@@ -1116,6 +1116,9 @@ UPDATE AD_Menu SET DocBaseURL = '/dictionary/material-management/production' WHE
 -- Inventario de Uso Interno (AD_Menu)
 UPDATE AD_Menu SET DocBaseURL = '/dictionary/material-management/internal-use-inventory' WHERE AD_Menu_ID = 503;
 
+-- Restaura Asignación Directa (AD_Process) — acción de Consulta de Asignación
+UPDATE AD_Process SET DocBaseURL = '/dictionary/balance-management/allocation/view-allocation' WHERE AD_Process_ID = 53199;
+
 -- === Notas sobre slugs sin DocBaseURL ===
 -- /dictionary/financial-management/investments/loan-simulator → Form 53075 (AD_Form no tiene DocBaseURL)
 -- /dictionary/accounting-management/journal-entries/gl-journal → Window 132 (ya asignado a gl-journal-batch)

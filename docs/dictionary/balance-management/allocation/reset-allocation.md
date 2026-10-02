@@ -58,7 +58,7 @@ Al procesar, el sistema elimina el/los registro/s de asignación indicados. La f
 
 ### 4. Reasignar correctamente
 
-Con los documentos liberados, ingresar a la ventana [Asignación de Pagos](../../../balance-management/assignment-management-general/assignment) y vincular la factura con el pago o cobro correcto.
+Con los documentos liberados, ingresar a la ventana [Asignación de Pagos](./payment-allocation) y vincular la factura con el pago o cobro correcto.
 
 ## Ejemplo de uso
 
@@ -70,10 +70,29 @@ Un cobro quedó asignado por error a la factura de saldo inicial de un cliente, 
 4. El sistema borra la asignación; la factura de saldo inicial y el cobro quedan libres.
 5. Se ingresa a **Asignación de Pagos** y se vincula el cobro con la factura correcta.
 
+## Preguntas frecuentes
+
+### ¿Tengo que usar este proceso para desasignar una sola factura de un cobro?
+
+No es necesario. Para una asignación puntual es más directo abrirla en [Consulta de Asignación](./view-allocation) y ejecutar la acción **Restaura Asignación Directa**, que no pide parámetros. Este proceso es más útil cuando se necesita borrar varias asignaciones a la vez, por ejemplo todas las de un socio del negocio o de una fecha contable.
+
+### ¿Sirve para desasignar cobros (recibos) de facturas de venta?
+
+Sí. El proceso aplica a asignaciones de Cuentas por Cobrar y de Cuentas por Pagar por igual.
+
+### Ejecuté el proceso sin completar ningún parámetro, ¿qué pasa?
+
+Los parámetros son los que acotan qué asignaciones se borran. Para evitar borrar más de lo previsto, completar siempre al menos el **Socio del Negocio** y la **Asignación** o la **Fecha Contable**, y activar **Todas las Asignaciones** solo cuando la intención sea un borrado masivo.
+
+### ¿Puedo recuperar una asignación que borré por error?
+
+No existe un "deshacer": la asignación se borra sin dejar registro. Para recuperarla, volver a vincular la factura con el pago o cobro desde [Asignación de Pagos](./payment-allocation).
+
 ## Consideraciones importantes
 
 - El borrado realizado por este proceso **no genera log ni asiento de reverso**; solo puede ejecutarse mientras el período contable de la asignación esté abierto.
 - Si el período está cerrado, este proceso no es la herramienta adecuada: usar la acción **Reversar** desde [Consulta de Asignación](./view-allocation).
+- Para borrar una única asignación, la acción **Restaura Asignación Directa** de [Consulta de Asignación](./view-allocation) hace lo mismo sin necesidad de completar parámetros.
 - Activar el check **Todas las Asignaciones** borra en un solo paso **todas** las asignaciones que cumplan los filtros indicados; usarlo con precaución y preferentemente acotado por Socio del Negocio y Fecha Contable.
 - Aplica por igual a asignaciones de Cuentas por Pagar y de Cuentas por Cobrar: el proceso no filtra por tipo de operación, sino por los parámetros indicados.
 - Después de restaurar la asignación, la factura y el pago/cobro vuelven a aparecer como pendientes en los reportes de [Facturas sin Asignar](./unallocated-invoices) y [Pagos sin Asignar](./unallocated-payments) hasta que se reasignen.
@@ -81,6 +100,6 @@ Un cobro quedó asignado por error a la factura de saldo inicial de un cliente, 
 ## Ventanas relacionadas
 
 - [Consulta de Asignación](./view-allocation)
-- [Asignación de Pagos](../../../balance-management/assignment-management-general/assignment)
+- [Asignación de Pagos](./payment-allocation)
 - [Facturas sin Asignar](./unallocated-invoices)
 - [Pagos sin Asignar](./unallocated-payments)
