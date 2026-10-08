@@ -206,6 +206,19 @@ Los costos se calculan siempre en la **moneda del esquema contable** (moneda fun
 
 Cuando se carga una factura, el campo **Expediente** debe estar completo y la línea debe estar configurada como costo adicional. Las líneas que no afectan al expediente (por ejemplo, líneas de IVA o líneas de servicio no relacionadas con la importación) no se distribuyen.
 
+### Una factura (flete, honorarios de despachante, etc.) incluye mercadería de varios expedientes. ¿Cómo se distribuye?
+
+Una factura **no puede asociarse a más de un expediente** desde su cabecera: el campo **Expediente de Importación/Exportación** admite un único valor por documento. Cuando el costo corresponde a mercadería de varios expedientes (por ejemplo, un mismo flete trae productos de 2, 5 o más expedientes), el procedimiento soportado es:
+
+1. Asociar la factura a **uno** de los expedientes involucrados (el que oficia de cabecera).
+2. Desde la pestaña **Costos Adicionales** de la factura, agregar una línea de distribución **por cada expediente** afectado, seleccionando en el campo **Entrega/Recibo** el documento de recepción de cada expediente y la tipología de distribución que corresponda (cantidad, costo, línea, peso o volumen). Ver [Costos Adicionales](../../../accounting-management/accounting-rules/costs#costos-adicionales).
+
+Con esto, el **costo del producto** queda correctamente calculado en todos los expedientes alcanzados, sin importar cuántos reciban parte de la distribución.
+
+::: warning Limitación conocida
+El expediente que tiene la factura cargada en su propia cabecera muestra el gasto completo en su **reporte de costos**; los demás expedientes que reciben parte de la distribución **no reflejan esa factura** en su propio reporte (aunque el costo del producto sí quedó bien aplicado en ambos). Si el número de expedientes involucrados es alto, **dividir la factura en un documento por expediente no es una alternativa viable**: el mecanismo soportado es distribuir el costo adicional contra la recepción de cada expediente, como se describe arriba.
+:::
+
 ### ¿Qué pasa si se vendieron unidades antes de cargar todos los costos del expediente?
 
 El costo de venta se calculó con el costo conocido al momento de la entrega. Si después se cargan más costos, el costo unitario del expediente se actualiza, pero las entregas previas mantienen el costo histórico. El sistema permite consultar el costo final actualizado por unidad para tomar decisiones comerciales (ajuste de precios futuros, análisis de rentabilidad).

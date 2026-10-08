@@ -29,6 +29,14 @@ Es una funcionalidad del sistema que lo necesita para que se pueda ver en el ár
 Seguramente esto sucedió debido a que se creó manualmente sin "Copiar Cuenta" por lo que no se está seteando el menú por defecto. 
 :::
 
+### La factura de proveedor contabiliza IVA Ventas en lugar de IVA Compras
+
+Esto ocurre cuando la **Tasa de Impuesto** usada en la línea de la factura tiene marcado el check **Impuesto de Venta = Sí**. Al estar marcada como tasa "de ventas", el sistema toma la cuenta de **Gastos Impuesto** (que normalmente apunta a la misma cuenta que *Impuesto al Vender*, por ejemplo *IVA Ventas*) en lugar de **Impuesto al Comprar**.
+
+**Solución:** abrir la ventana **Tasa de Impuesto**, ubicar la tasa afectada, desmarcar el check **Impuesto de Venta** y guardar. Luego recontabilizar el documento afectado desde **Información Contable** para que tome la cuenta correcta.
+
+Ver la explicación completa, con la tabla de cuentas según tipo de documento, en [Configuración Contable (Maestros) — Check "Impuesto de Venta"](../accounting-management/accounting-rules/configuration#check-impuesto-de-venta).
+
 ### Creación de Tasas de Cambio:
 
 Entrar como Administrador, y en el caso de que la Compañía tenga varias Organizaciones, entrar como asterisco (*).
