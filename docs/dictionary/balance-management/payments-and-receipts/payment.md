@@ -45,3 +45,8 @@ Ingrese pagos o cobros para un socio del negocio. Si es para una sola factura pu
 | Descripción | Descripción corta opcional | Texto | No |
 | Estado del Documento | Estado actual del documento | Lista | No |
 | Acción del Documento | Acción a realizar sobre el documento | Botón | No |
+
+## Consideraciones importantes
+
+- Si el **Socio del Negocio** del pago o cobro está vinculado a otra organización (campo **Liga Organización**) y la organización del documento tiene a su vez un socio vinculado, el documento es una transacción inter-organización y el sistema busca una regla en [Contra Documentos](../../accounting-management/accounting-rules/counter-document) para su tipo de documento. Sin esa regla, al completar se muestra el error **"No encontrado Tipo de Contra Documento"** y el documento queda en Borrador. Esto incluye los **Retiros de Caja** generados en la apertura de caja del punto de venta.
+- Cuando se genera un contra documento, el pago o cobro creado en la otra organización queda relacionado con el original en el campo **Pago Referido**.

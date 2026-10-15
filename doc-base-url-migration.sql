@@ -1123,3 +1123,11 @@ UPDATE AD_Process SET DocBaseURL = '/dictionary/balance-management/allocation/vi
 -- /dictionary/financial-management/investments/loan-simulator → Form 53075 (AD_Form no tiene DocBaseURL)
 -- /dictionary/accounting-management/journal-entries/gl-journal → Window 132 (ya asignado a gl-journal-batch)
 -- /dictionary/purchase-management/purchase-orders/price-list → Window 146 (ya asignado a material-rules/price-list)
+
+-- === Gestión Contable / Reglas Contables ===
+
+-- Contra Documentos (AD_Window)
+UPDATE AD_Window SET DocBaseURL = '/dictionary/accounting-management/accounting-rules/counter-document' WHERE AD_Window_ID = 327;
+
+-- Contra Documentos (AD_Menu)
+UPDATE AD_Menu SET DocBaseURL = '/dictionary/accounting-management/accounting-rules/counter-document' WHERE AD_Menu_ID = 476;

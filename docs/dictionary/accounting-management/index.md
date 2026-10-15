@@ -12,6 +12,7 @@ Documentación de referencia del diccionario de aplicación para el módulo de G
 
 ## Reglas Contables
 - [Cargo](accounting-rules/charge)
+- [Contra Documentos](accounting-rules/counter-document)
 
 ## Asientos Contables
 - [Lote de Pólizas Contables](journal-entries/gl-journal-batch)
