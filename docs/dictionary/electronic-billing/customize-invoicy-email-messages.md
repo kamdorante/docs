@@ -167,4 +167,4 @@ Ajustar el mensaje que reciben los clientes cuando se les envía la Representaci
 - [Enviar Entrega al Proveedor Fiscal](send-shipment-to-fiscal-provider)
 - [Emisor Fiscal](fiscal-sender)
 - [Bitácora de Documento Electrónico](electronic-document-log)
-- [Comentario Fiscal (Adenda) en CFE](fiscal-comment-adenda)
+- [Comentario Fiscal y Adenda Genérica en CFE](fiscal-comment-adenda)

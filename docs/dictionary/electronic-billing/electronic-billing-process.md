@@ -70,7 +70,7 @@ Encabezado del documento electrónico. Los campos relevantes para facturación e
   Campo obligatorio en notas de crédito. Referencia la factura original a la que la nota de crédito corresponde. Sin este dato, la nota de crédito no puede enviarse al proveedor fiscal.
 
 - **Descripción y Adenda**
-  Información adicional que se envía al CFE. La adenda es el comentario fiscal que aparece en el comprobante.
+  Información adicional que se envía al CFE. La adenda es el comentario fiscal que aparece en el comprobante. Al crear la factura, el sistema le agrega al final, en una línea nueva, la **Nota del Documento Para Facturar** configurada en **Organización → Información de la Organización** (si existe). Ver [Comentario Fiscal y Adenda Genérica en CFE](fiscal-comment-adenda#configuracion-de-la-adenda-generica).
 
 ### Líneas
 
@@ -183,6 +183,7 @@ Una organización emite una factura electrónica a un cliente con RUC:
 - [Notas de Crédito — Validaciones de Moneda y Tasa de Cambio](credit-note-currency-validations)
 - [Tipos de Conversión para Facturación Electrónica](conversion-types)
 - [Facturación de Contingencia](contingency-billing)
+- [Comentario Fiscal y Adenda Genérica en CFE](fiscal-comment-adenda)
 - [Contra e-Remito y Contra Resguardo](reverse-electronic-documents)
 - [Retenciones en Facturación Electrónica](retentions-electronic-billing)
 - [Importación de CFE Recibidos](get-electronic-invoices)
