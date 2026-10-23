@@ -287,15 +287,19 @@ Si en la línea aún no se ejecutó el proceso *Generar Pago/Cobro desde Línea 
 
 **Caso 2 — El pago o cobro ya se generó con datos incorrectos**
 
-Si ya existe un pago o cobro asociado a la línea con cargo o tipo de pago equivocado, hay que anular el documento, deshacer la vinculación con la línea y volver a generarlo. El orden recomendado es:
+Si ya existe un pago o cobro asociado a la línea con cargo o tipo de pago equivocado, hay que deshacer la vinculación con la línea, volver a generarlo y anular el documento anterior. El orden recomendado es:
 
-1. Desde la línea del estado de cuenta bancario, **navegar al pago/cobro** ya generado.
-2. Sobre ese documento, ejecutar la acción **Anular**. El sistema genera automáticamente su **reverso**.
-3. Regresar a la línea del estado de cuenta y **quitar el pago/cobro** de la línea (desvincularlo) para que la línea vuelva a quedar disponible en el navegador.
-4. **Refrescar** el navegador *Generar Pago/Cobro desde Estado de Cuenta*: la línea vuelve a aparecer como pendiente.
-5. Ejecutar el proceso nuevamente sobre esa línea, indicando el **Cargo** y el **Tipo de Pago** correctos (por ejemplo, *Pago a la espera de factura*), con el mismo Socio de Negocio.
-6. Verificar que el nuevo pago/cobro quedó **asignado** a la línea.
+1. Desde la línea del estado de cuenta bancario, identificar el **pago/cobro** ya generado.
+2. En la línea del estado de cuenta, **quitar el pago/cobro** de la línea (desvincularlo) para que la línea vuelva a quedar disponible en el navegador.
+3. **Refrescar** el navegador *Generar Pago/Cobro desde Estado de Cuenta*: la línea vuelve a aparecer como pendiente.
+4. Ejecutar el proceso nuevamente sobre esa línea, indicando el **Cargo** y el **Tipo de Pago** correctos (por ejemplo, *Pago a la espera de factura*, que no lleva cargo), con el Socio de Negocio correcto.
+5. Verificar que el nuevo pago/cobro quedó **asignado** a la línea.
+6. Abrir el pago/cobro anterior y ejecutar la acción **Anular** o **Reversar - Corregir**. El sistema genera automáticamente su **reverso**.
 7. Desde **Asignación de Pagos**, aplicar el nuevo pago/cobro contra la factura que corresponda.
+
+::: warning
+Si el pago/cobro se anula **antes** de quitarlo de la línea y el estado de cuenta no está completo, el sistema no lo permite. Ver [¿Qué hago si al anular un pago el sistema indica que está incluido en una línea de conciliación bancaria no completada?](#¿que-hago-si-al-anular-un-pago-el-sistema-indica-que-esta-incluido-en-una-linea-de-conciliacion-bancaria-no-completada)
+:::
 
 ::: tip
 El pago/cobro anulado y su reverso quedan en el sistema como referencia histórica; el pago/cobro nuevo, con los datos correctos, es el que queda vinculado a la línea del estado de cuenta.
@@ -311,11 +315,11 @@ Cuando se ejecuta la asignación automática de la conciliación bancaria, el si
 
 1. Identificar cada línea de estado de cuenta bancario con cargo incorrecto.
 2. Para cada línea con pago/cobro ya generado:
-   - Navegar desde la línea al **pago/cobro** vinculado.
-   - Ejecutar la acción **Anular** sobre el pago/cobro; el sistema genera el reverso automáticamente.
-   - Volver a la línea del estado de cuenta y **quitar el pago/cobro** de la línea (desvincularlo).
+   - Identificar desde la línea el **pago/cobro** vinculado.
+   - **Quitar el pago/cobro** de la línea del estado de cuenta (desvincularlo).
    - **Refrescar** el navegador *Generar Pago/Cobro desde Estado de Cuenta* para que la línea vuelva a aparecer como pendiente.
    - Volver a generar el pago/cobro desde la línea, seleccionando el **Cargo** correcto.
+   - Ejecutar la acción **Anular** sobre el pago/cobro anterior; el sistema genera el reverso automáticamente.
 3. Si alguna línea aún no tenía pago/cobro generado, alcanza con volver a ejecutar el proceso indicando el cargo correcto.
 4. Al finalizar, aplicar los nuevos pagos/cobros desde **Asignación de Pagos** contra las facturas correspondientes.
 
@@ -350,6 +354,41 @@ Lo importante es que **ambos movimientos usen el mismo Cargo y el mismo Socio de
 ::: warning
 No usar cargos distintos para el ingreso y para la devolución. Si el cargo difiere, cada movimiento afecta una cuenta contable distinta y el neteo no ocurre; el saldo queda abierto en ambas cuentas y requiere un ajuste contable posterior.
 :::
+
+### ¿Qué hago si al anular un pago el sistema indica que está incluido en una línea de conciliación bancaria no completada?
+
+Al intentar **Anular** o **Reversar - Corregir** un pago o cobro, el sistema muestra el mensaje:
+
+*"Este pago está incluido en la línea X de la conciliación bancaria Y, la cual aún no está completada. Elimine la referencia del pago en esa línea de conciliación o complete la conciliación antes de anular el pago."*
+
+Esto ocurre porque el pago/cobro está vinculado a una línea de un **Estado de Cuenta Bancario** que todavía está en *Borrador* o *En Proceso*. El sistema no permite anularlo mientras siga vinculado, ya que la línea quedaría apuntando a un documento anulado y el saldo de la conciliación quedaría mal.
+
+El mensaje indica el número de **línea** (X) y de **estado de cuenta** (Y) donde está el pago.
+
+#### Pasos para anular el pago
+
+1. Abrir la ventana **Estado de Cuenta Bancario** y buscar el documento **Y** indicado en el mensaje.
+2. En la pestaña **Línea del Estado de Cuenta**, ubicar la línea **X**.
+3. **Quitar el pago** de la línea: dejar vacío el campo **Pago** y guardar, o ejecutar **Desasignar Conciliación** desde la **Conciliación de Estado de Cuenta**. No eliminar la línea, ya que representa un movimiento real del banco; solo se elimina si fue cargada por error.
+4. Abrir el pago en la ventana **Pago/Cobro** y verificar en la pestaña **Línea de Estado de Cuenta** (*Bank Statement Line*) que ya no figura en ninguna línea.
+5. Ejecutar la acción **Anular** o **Reversar - Corregir** sobre el pago. El sistema genera el reverso.
+6. Si la línea del estado de cuenta necesita un pago, generarlo nuevamente desde **Crear Pagos desde Estado de Cuenta** con los datos correctos. Si es un pago a un proveedor o un cobro de un cliente cuya factura se aplicará después, usar **Pago a la Espera de Factura**, que no lleva cargo.
+
+::: tip
+Si el objetivo es **corregir** un pago (por ejemplo, porque quedó con un cargo o un socio equivocado), conviene generar primero el pago correcto desde la línea y después anular el anterior. Al generar el pago nuevo, la línea deja de apuntar al anterior y este puede anularse sin el mensaje de error. Ver [Corregir un pago generado con datos incorrectos](../dictionary/balance-management/bank-operations/create-payments-from-bank-statement#corregir-un-pago-generado-con-datos-incorrectos).
+:::
+
+::: warning
+Un pago en estado **Completo** no se puede volver a habilitar para editarlo. Para cambiar su cargo, socio o importe, siempre se genera un pago nuevo y se anula el anterior.
+:::
+
+**Ventanas relacionadas**
+
+- [Estado de Cuenta Bancario](../dictionary/balance-management/bank-operations/bank-statement)
+- [Conciliación de Estado de Cuenta](../dictionary/balance-management/bank-operations/bank-statement-match)
+- [Crear Pagos desde Estado de Cuenta](../dictionary/balance-management/bank-operations/create-payments-from-bank-statement)
+- [Pago/Cobro](../dictionary/balance-management/payments-and-receipts/payment)
+- [Asignación de Pagos](../dictionary/balance-management/allocation/payment-allocation)
 
 ### Si elimino la conciliación bancaria en borrador, ¿los pagos generados se eliminan también?
 

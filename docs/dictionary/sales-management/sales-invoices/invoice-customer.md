@@ -159,3 +159,28 @@ Asignación de la Factura a los Pagos o al Efectivo.
 | Monto de Descuento | Monto del descuento aplicado | Texto | No |
 | Monto de Ajuste | Monto del ajuste por diferencia | Texto | No |
 | Sobre/Sub Pago | Monto de sobre o sub pago | Texto | No |
+
+### Facturas a Asignar
+
+Facturas que una nota de crédito referencia y a las que se asignará al completarse. Se carga automáticamente al usar **Crear Desde** o **Copiar Líneas**, y puede cargarse manualmente en notas de crédito creadas a mano.
+
+#### Campos principales
+
+| Campo | Descripción | Tipo | Obligatorio |
+|---|---|---|---|
+| Documento de Referencia | Factura que referencia la nota de crédito | Texto | Sí |
+| Monto a Asignar | Importe de la factura que se cancela con la nota de crédito. No puede ser mayor al total de la nota de crédito | Monto | Sí |
+| Factura | Nota de crédito a la que pertenece el registro | Texto | Sí |
+| Solo Referencia | Si está marcado, la factura solo se informa como referencia en el CFE, sin generar asignación | Sí/No | No |
+| Activo | Indica si el registro está activo | Sí/No | Sí |
+
+::: warning
+Si el **Monto a Asignar** supera el total de la nota de crédito, el documento no se completa. Ver [¿Cómo hago una nota de crédito a un cliente por un concepto que no figura en la factura?](../../../frequently-asked-questions/billing#¿como-hago-una-nota-de-credito-a-un-cliente-por-un-concepto-que-no-figura-en-la-factura)
+
+En notas de crédito parciales creadas con **Crear Desde**, la cantidad parcial debe indicarse dentro del formulario y no después en la línea, ya que el **Monto a Asignar** no se recalcula. Ver [¿Por qué me da error una nota de crédito parcial hecha con Crear Desde?](../../../frequently-asked-questions/billing#¿por-que-me-da-error-una-nota-de-credito-parcial-hecha-con-crear-desde)
+:::
+
+## Ventanas relacionadas
+
+- [Asignación de Pagos](../../balance-management/allocation/payment-allocation)
+- [Nota de Crédito Genérica sin Referenciar Facturas](../../electronic-billing/credit-note-without-invoice-reference)

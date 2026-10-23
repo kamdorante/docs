@@ -179,6 +179,8 @@ En el proceso de "Asignación de pagos", los pagos sin asignar que se hayan hech
 Existen casos (no frecuentes) en los cuales la carga de la tasa automática falla por temas de comunicación con el BCU u otros motivos. En estos casos hay documentos en estado completo que no se encuentren contabilizados debido a la falta de la tasa de cambio (operaciones en moneda extranjera).
 En estos casos la solución es ingresar en la ventana **Documentos sin Aplicar**, realizar la búsqueda del documento en cuestión por fecha y estado. Y desde allí realizar la recontabilización (botón azul debajo del campo Estado del documento).
 
+Ver el procedimiento completo en [Documentos sin Aplicar](../dictionary/accounting-management/fact-details/unposted-documents).
+
 ### Proceso de Asignación
 
 * El proceso de Asignación (automático) considera Notas de Crédito?

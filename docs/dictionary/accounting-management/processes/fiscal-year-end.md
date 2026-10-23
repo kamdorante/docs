@@ -28,3 +28,13 @@ Menú: Gestión Contable → Procesos Contables → Cierre de Ejercicio
 | Fecha Contable | Fecha contable del asiento de cierre | Fecha | No |
 | Tipo de Documento | Tipo de documento para el lote generado | Tabla Directa | No |
 | Categoría GL | Categoría del libro mayor para los asientos | Tabla Directa | No |
+
+::: warning Antes de ejecutar el cierre
+Verificar en [Documentos sin Aplicar](../fact-details/unposted-documents) que todos los documentos procesados del ejercicio tengan su asiento contable. Un documento sin aplicar no se incluye en los saldos que el cierre transfiere.
+:::
+
+## Ventanas relacionadas
+
+- [Documentos sin Aplicar](../fact-details/unposted-documents)
+- [Recontabilizar Documentos](repost-documents)
+- [Balance de Prueba Navegable](../financial-reports/trial-balance-navigable)

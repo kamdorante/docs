@@ -34,6 +34,10 @@ Cuando las Notas de crédito se crean desde el Botón Crear desde en el cabezal 
 
 El problema surge cuando la Nota de crédito se crea manualmente, aquí hay que ajustar manualmente el campo Total asignado de la pestaña CFE Referidos en la Nota de crédito, ya que el importe asignado de la factura quedará como todo el disponible de la misma, siendo mayor al de la Nota de crédito.
 
+::: tip
+En las versiones actuales la pestaña se llama **Facturas a Asignar** y el campo **Monto a Asignar**. El mensaje que se muestra es: *"El monto a asignar X supera el total de la factura Y en el documento Z. El monto a asignar no puede ser mayor que el total de la factura"*. La solución es la misma: dejar en **Monto a Asignar** un importe igual o menor al total de la Nota de crédito. Ver [¿Cómo hago una nota de crédito a un cliente por un concepto que no figura en la factura?](#¿como-hago-una-nota-de-credito-a-un-cliente-por-un-concepto-que-no-figura-en-la-factura)
+:::
+
 ### ¿De qué manera se define la Forma de pago como Contado en un documento por cobrar?
 
 La definición de la Forma de Pago en el CFE se definirá según la Regla de Pago definida en el Documento por Cobrar en Solop.
@@ -131,14 +135,48 @@ Para generar una Nota de Crédito Cliente se utilizará la ventana Documentos po
 Se deberá ingresar:
 
 * Tipo de Documento: Nota de Crédito
-* Socio de Negocio: Proveedor que nos facturará
+* Socio de Negocio: Cliente al que se le emite la nota de crédito
 * Dirección de Socio de Negocio
 
 Luego se deberá seleccionar el botón “Crear desde”:
 
 Este botón permitirá crear la Nota de crédito desde una Orden de venta, Factura o Recibo.
 
-Luego de ingresado el documento permitirá modificarse en la línea de la factura, las cantidades y los importes de la misma para luego proceder a completarla.
+Si la Nota de crédito es **parcial**, las líneas y cantidades a acreditar deben indicarse **dentro del formulario Crear Desde**, antes de confirmar. Si las cantidades se modifican después en la línea de la factura, la pestaña **Facturas a Asignar** conserva el monto completo de la factura y el documento no se completa. Ver [¿Por qué me da error una nota de crédito parcial hecha con Crear Desde?](#¿por-que-me-da-error-una-nota-de-credito-parcial-hecha-con-crear-desde)
+
+### ¿Por qué me da error una nota de crédito parcial hecha con Crear Desde?
+
+El error ocurre cuando en el formulario **Crear Desde** se selecciona la factura, pero **no se indica la cantidad parcial** de la línea a acreditar. El sistema crea la nota de crédito con la cantidad completa de la línea y, en la pestaña **Facturas a Asignar**, carga la factura con un **Monto a Asignar** calculado sobre esa cantidad completa.
+
+Si luego se reduce la cantidad o el precio directamente en la **Línea de la Factura**, el total de la nota de crédito baja, pero el **Monto a Asignar** no se recalcula. Al completar, el sistema detecta que se intenta asignar más de lo que vale la nota y muestra el mensaje:
+
+*"El monto a asignar X supera el total de la factura Y en el documento Z. El monto a asignar no puede ser mayor que el total de la factura"*
+
+#### Cómo hacer correctamente una nota de crédito parcial
+
+1. En **Documentos por Cobrar**, crear un registro **Nuevo** con el **Tipo de Documento Destino** de nota de crédito, el **Socio del Negocio** y su **Dirección**.
+2. Pulsar **Crear Desde** y, en el criterio de búsqueda, elegir el tipo de origen **Factura** (*Invoice*) y seleccionar la factura.
+3. En la grilla de líneas, **marcar solo las líneas** que se van a acreditar.
+4. En la columna **Cantidad** de cada línea marcada, **escribir la cantidad parcial** a acreditar (por ejemplo, 1 de las 4 unidades facturadas).
+5. Confirmar el formulario. La nota de crédito se crea con esas cantidades y la pestaña **Facturas a Asignar** queda con el **Monto a Asignar** correcto.
+6. Revisar el **Gran Total** de la nota y **Completar**.
+
+#### Si la nota de crédito ya fue creada con la cantidad completa
+
+Hay dos alternativas:
+
+- **Recomendada:** eliminar la nota de crédito en borrador y volver a crearla indicando la cantidad parcial en el formulario **Crear Desde**, como se explica arriba.
+- Ajustar manualmente, en la pestaña **Facturas a Asignar**, el campo **Monto a Asignar** para que sea igual al **Gran Total** de la nota de crédito, y luego completar.
+
+::: tip
+Si el crédito corresponde a un concepto que **no está en la factura** (un gasto, una bonificación o un descuento por otro motivo), no se usa Crear Desde. Ver [¿Cómo hago una nota de crédito a un cliente por un concepto que no figura en la factura?](#¿como-hago-una-nota-de-credito-a-un-cliente-por-un-concepto-que-no-figura-en-la-factura)
+:::
+
+**Ventanas relacionadas**
+
+- [Documentos por Cobrar](../dictionary/sales-management/sales-invoices/invoice-customer)
+- [Asignación de Pagos](../dictionary/balance-management/allocation/payment-allocation)
+- [Nota de Crédito Genérica sin Referenciar Facturas](../dictionary/electronic-billing/credit-note-without-invoice-reference)
 
 ### Asignar una Nota de Crédito con su correspondiente Factura relacionada de manera automática
 
@@ -161,6 +199,94 @@ Estas Notas de Débito NO TIENEN IVA, son todas exentas, ya que el que descuenta
 ### ¿Es posible vincular notas de crédito manuales a facturas en tiempo posterior a su creación?
 
 En el caso de no haber generado una Nota de Crédito desde "copiar líneas" o "Crear Desde" es posible generar la vinculación desde el proceso de *Asignación de Pagos*. Desde esta opción es posible seleccionar factura y Nota de crédito que se deseen vincular.
+
+### ¿Cómo hago una nota de crédito a un cliente por un concepto que no figura en la factura?
+
+Cuando el crédito corresponde a un concepto que **nunca se facturó** (un gasto a reintegrar, una bonificación, un descuento por otro motivo), no se deben usar las opciones **Crear Desde** ni **Copiar Líneas**: ambas traen únicamente las líneas que ya existen en la factura, por lo que obligan a acreditar productos que no corresponden. En este caso la nota de crédito se arma de forma **manual** en la ventana **Documentos por Cobrar**.
+
+#### Pasos
+
+1. En **Documentos por Cobrar**, crear un registro **Nuevo** con el **Tipo de Documento Destino** de nota de crédito que corresponda al cliente (por ejemplo, *e-Factura Nota de Crédito* o *e-Ticket Nota de Crédito*).
+2. Completar **Socio del Negocio** y **Dirección del Socio del Negocio**.
+3. Dejar en **Fecha de Facturación** la fecha de emisión real de la nota de crédito (normalmente la fecha del día), no la fecha de la factura a la que se quiere aplicar.
+4. En el campo **Descripción**, escribir el **motivo** del crédito (por ejemplo: *"Nota de crédito por reintegro de gasto"*). Este texto viaja en el CFE como motivo de la nota de crédito y es **obligatorio** cuando la nota no referencia una factura.
+5. En la pestaña **Línea de la Factura**, agregar una línea con el producto o cargo que represente el concepto, con **Cantidad** = 1 y el **Precio** correspondiente.
+6. Verificar los totales del cabezal. Si el importe acordado es **IVA incluido**, el **Gran Total** debe coincidir con ese importe. Por ejemplo, para un crédito de 5.000 con IVA básico (22 %) incluido, el **Total de Líneas** debe ser 4.098,36 y el **Gran Total** 5.000,00.
+7. **Completar** el documento. La nota de crédito se envía al proveedor fiscal y queda como crédito a favor del cliente.
+
+#### Aplicar la nota de crédito a una factura (opcional)
+
+Si se desea que la nota de crédito descuente el saldo de una factura puntual, se puede **asignar** después de completada, desde **Asignación de Pagos**, seleccionando la factura y la nota de crédito del cliente.
+
+La asignación se hace **a nivel de documento**: reduce el **saldo total** de la factura en el importe de la nota de crédito, sin modificar las líneas ni los productos facturados.
+
+::: warning Si se carga la factura en la pestaña Facturas a Asignar
+Al referenciar la factura en la pestaña **Facturas a Asignar** de la nota de crédito, el campo **Monto a Asignar** toma un importe de la factura y no el de la nota de crédito. Si ese importe es mayor que el total de la nota, el documento no se completa. Antes de completar, modificar **Monto a Asignar** a un valor igual o menor al **Gran Total** de la nota de crédito.
+
+Si solo se quiere que el CFE mencione la factura, sin descontar su saldo, marcar **Solo Referencia = Sí** en ese registro.
+:::
+
+#### Errores frecuentes
+
+| Mensaje | Causa | Solución |
+|---|---|---|
+| *Error 982 - Cuando el campo Indicador Global [RefIndGlobal] es igual a 1, se debe informar el motivo de la referencia* | La nota de crédito no referencia ninguna factura, por lo que se envía como CFE de referencia global, y la normativa exige indicar el motivo. | Completar el campo **Descripción** con el motivo del crédito y volver a **Completar** el documento. |
+| *El monto a asignar X supera el total de la factura Y en el documento Z. El monto a asignar no puede ser mayor que el total de la factura* | En la pestaña **Facturas a Asignar** el **Monto a Asignar** es mayor que el total de la nota de crédito. | Modificar el **Monto a Asignar** a un importe igual o menor al total de la nota, o eliminar el registro y asignar luego desde **Asignación de Pagos**. |
+
+::: tip
+Emitir una nota de crédito por un concepto que no se facturó es una decisión contable y fiscal de la empresa. Ante dudas sobre su tratamiento, se recomienda validarlo con el contador.
+:::
+
+Para el detalle completo del flujo, ver [Nota de Crédito Genérica sin Referenciar Facturas](../dictionary/electronic-billing/credit-note-without-invoice-reference).
+
+**Ventanas relacionadas**
+
+- [Documentos por Cobrar](../dictionary/sales-management/sales-invoices/invoice-customer)
+- [Nota de Crédito Genérica sin Referenciar Facturas](../dictionary/electronic-billing/credit-note-without-invoice-reference)
+- [Asignación de Pagos](../dictionary/balance-management/allocation/payment-allocation)
+- [Bitácora de Documento Electrónico](../dictionary/electronic-billing/electronic-document-log)
+
+### ¿Cómo hago una sola nota de crédito por productos que pertenecen a varias facturas?
+
+Cuando un cliente devuelve o reclama productos que se le vendieron en **distintas facturas** (por ejemplo, un cliente que compra de a poco y devuelve muchos productos juntos), no es necesario hacer una nota de crédito por cada factura. Se puede emitir **una sola nota de crédito manual** con todos los productos, sin referenciar ninguna factura, y luego **repartir su importe** entre las facturas del cliente desde **Asignación de Pagos**.
+
+El **Crear Desde** no sirve para este caso, porque trae las líneas de **una sola factura** por vez.
+
+#### Pasos
+
+1. En **Documentos por Cobrar**, crear un registro **Nuevo** con el **Tipo de Documento Destino** de nota de crédito que corresponda al cliente (por ejemplo, *e-Factura Nota de Crédito* o *e-Ticket Nota de Crédito*).
+2. Completar **Socio del Negocio** y **Dirección del Socio del Negocio**, y dejar en **Fecha de Facturación** la fecha de emisión de la nota de crédito.
+3. Verificar que la **Lista de Precios** sea la misma con la que se facturaron los productos, para que los precios coincidan con los vendidos.
+4. En el campo **Descripción**, escribir el **motivo** y aclarar que la nota no está asociada a una factura en particular (por ejemplo: *"Devolución de mercadería correspondiente a varias facturas"*). Este texto es **obligatorio** cuando la nota no referencia una factura, ya que viaja en el CFE como motivo.
+5. En la pestaña **Línea de la Factura**, agregar **una línea por cada producto** devuelto, con su **Cantidad** y su **Precio**.
+6. Verificar el **Gran Total** de la nota y **Completar** el documento. La nota de crédito se envía al proveedor fiscal y queda como crédito a favor del cliente.
+
+#### Repartir la nota de crédito entre varias facturas
+
+1. Abrir **Asignación de Pagos** y seleccionar el **Socio del Negocio**.
+2. En el panel de pagos y créditos, marcar la **nota de crédito**.
+3. En el panel de facturas, marcar las **facturas** a las que se aplica e indicar en cada una el **monto a asignar**. La suma de los montos asignados debe ser igual o menor al total de la nota de crédito.
+4. Confirmar la asignación. Cada factura baja su saldo en el monto asignado.
+
+Si el total de la nota de crédito es mayor que lo asignado, el saldo restante queda como crédito a favor del cliente y se puede asignar más adelante.
+
+::: warning Devoluciones con mercadería
+La nota de crédito manual **no mueve stock**. Si los productos vuelven físicamente al depósito, el ingreso de la mercadería se registra con el circuito de devoluciones ([ADM de Cliente](../dictionary/return-management/customer-rma) y [Devolución de Cliente](../dictionary/return-management/customer-return)), que además puede generar la nota de crédito.
+:::
+
+::: tip
+Si se prefiere que cada nota de crédito quede referenciada a su factura en el CFE, la alternativa es hacer **una nota de crédito por factura** con **Crear Desde**, marcando en cada una solo los productos devueltos de esa factura y su cantidad. Ver [¿Por qué me da error una nota de crédito parcial hecha con Crear Desde?](#¿por-que-me-da-error-una-nota-de-credito-parcial-hecha-con-crear-desde)
+:::
+
+Para emitir notas de crédito por conceptos que no son productos facturados, ver [¿Cómo hago una nota de crédito a un cliente por un concepto que no figura en la factura?](#¿como-hago-una-nota-de-credito-a-un-cliente-por-un-concepto-que-no-figura-en-la-factura)
+
+**Ventanas relacionadas**
+
+- [Documentos por Cobrar](../dictionary/sales-management/sales-invoices/invoice-customer)
+- [Nota de Crédito Genérica sin Referenciar Facturas](../dictionary/electronic-billing/credit-note-without-invoice-reference)
+- [Asignación de Pagos](../dictionary/balance-management/allocation/payment-allocation)
+- [ADM de Cliente](../dictionary/return-management/customer-rma)
+- [Devolución de Cliente](../dictionary/return-management/customer-return)
 
 ### ¿Cómo llegar a un recibo desde Documentos por cobrar?
 

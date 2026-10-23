@@ -125,3 +125,4 @@ Durante el cierre mensual se detecta que la cuenta *Otros Gastos* tiene un saldo
 - [Contabilización y Costeo por Cola](accounting-cost-queue)
 - [Balance de Prueba Navegable](../financial-reports/trial-balance-navigable)
 - [Informe Financiero](../financial-reports/financial-report)
+- [Documentos sin Aplicar](../fact-details/unposted-documents)

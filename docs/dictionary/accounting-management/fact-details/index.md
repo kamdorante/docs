@@ -13,6 +13,7 @@ Consulta y reportes de hechos contables.
 ## Ventanas
 - [Detalle de Hechos Contables](accounting-fact-details-window)
 - [Saldos de Hechos Contables](accounting-fact-balances)
+- [Documentos sin Aplicar](unposted-documents)
 
 ## Reportes
 - [Reporte de Detalle de Hechos Contables](accounting-fact-details-report)

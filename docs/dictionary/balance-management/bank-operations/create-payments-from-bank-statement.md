@@ -185,6 +185,38 @@ Para los pagos creados como *Sin Identificar*, abrir el **Pago/Cobro** desde la 
 
 Una vez todas las líneas tienen pago asignado, volver al cabezal y ejecutar **Completar**. El sistema valida que no quedan líneas sin identificar; si las hay, muestra los errores y no completa. Al completar, se aplica el asiento contable y se actualiza el saldo de la cuenta bancaria.
 
+## Corregir un pago generado con datos incorrectos
+
+Si un pago generado desde una línea del estado de cuenta quedó con datos equivocados (por ejemplo, con un **Cargo** que no corresponde o con otro **Socio del Negocio**), y el estado de cuenta todavía **no está completo**, el pago se reemplaza por uno nuevo. El orden de los pasos es importante: primero se libera la línea y recién después se anula el pago anterior.
+
+### 1. Liberar la línea del estado de cuenta
+
+En el **Estado de Cuenta Bancario**, ubicar la línea que tiene asociado el pago incorrecto y **quitar el pago** de la línea (dejar vacío el campo **Pago**, o usar **Desasignar Conciliación** desde la [Conciliación de Estado de Cuenta](bank-statement-match)). La línea vuelve a quedar pendiente.
+
+### 2. Generar el pago correcto desde la línea
+
+Abrir **Crear Pagos desde Estado de Cuenta**, ubicar la línea liberada y generar el pago con el tipo que corresponda. Si el movimiento es un pago a un proveedor o un cobro de un cliente cuya factura se va a aplicar después, usar **Crear Pago a la Espera de Factura** e indicar el **Socio del Negocio** correcto. Este tipo de pago **no lleva cargo**: queda a nombre del socio y sin asignar, disponible para aplicarlo a la factura.
+
+### 3. Verificar el pago nuevo
+
+Desde la línea del estado de cuenta, abrir el pago generado y verificar que el **Socio del Negocio**, el **Importe** y el campo **Cargo** (vacío, en el caso de un pago a la espera de factura) sean los esperados.
+
+### 4. Anular el pago incorrecto
+
+Abrir el pago anterior en la ventana **Pago/Cobro** y comprobar en la pestaña **Línea de Estado de Cuenta** (*Bank Statement Line*) que ya no figura en ninguna línea. Recién entonces ejecutar la acción **Anular** o **Reversar - Corregir**. El sistema genera el reverso y el pago incorrecto queda como referencia histórica.
+
+### 5. Asignar el pago nuevo a la factura
+
+Desde **Asignación de Pagos**, aplicar el pago nuevo contra la factura del socio cuando corresponda.
+
+::: warning
+Si se intenta anular el pago incorrecto **antes** de liberar la línea, el sistema lo impide con el mensaje *"Este pago está incluido en la línea X de la conciliación bancaria Y, la cual aún no está completada..."*. Ver [¿Qué hago si al anular un pago el sistema indica que está incluido en una línea de conciliación bancaria no completada?](../../../frequently-asked-questions/financial-management#¿que-hago-si-al-anular-un-pago-el-sistema-indica-que-esta-incluido-en-una-linea-de-conciliacion-bancaria-no-completada)
+:::
+
+::: tip
+Un pago **Completo** no se puede modificar ni volver a habilitar para edición: la corrección siempre se hace generando un pago nuevo y anulando el anterior, como se describe arriba.
+:::
+
 ## Ejemplo de uso
 
 Un extracto quedó con 5 líneas pendientes después de la conciliación; todas deben resolverse generando pagos:
@@ -209,6 +241,8 @@ Un extracto quedó con 5 líneas pendientes después de la conciliación; todas 
 - Cuando se crean **muchos pagos a la vez** (por ejemplo, todas las comisiones del mes), se pueden seleccionar todas las líneas y ejecutar la acción en bloque, lo que genera un pago por cada línea.
 - Cada pago generado desde el visor se contabiliza contra la cuenta puente **Cheques en Tránsito** y lleva en su descripción la **referencia al movimiento bancario** que lo originó, lo que facilita la auditoría y el seguimiento de cobranza.
 - El **otro tipo de pago** permite registrar pagos a socios específicos distintos del banco (por ejemplo, organismos fiscales) cuando el movimiento del extracto corresponde a ese concepto.
+- El tipo **Pago a la Espera de Factura** no aplica cargo. Cuando el movimiento corresponde a un socio cuya factura se va a asignar después, usar este tipo y no **Otro Tipo de Pago**, que sí imputa el importe a un cargo contable.
+- Un pago que forma parte de una línea de un estado de cuenta **no completado** no se puede anular hasta quitarlo de esa línea. Ver [Corregir un pago generado con datos incorrectos](#corregir-un-pago-generado-con-datos-incorrectos).
 - **Cargos visibles en el selector**: el visor solo muestra los cargos cuyo **Tipo de Cargo** esté asignado al tipo de documento **Estado de Cuenta Bancario** desde la pestaña *Tipo de Cargo por Tipo de Documento* de la ventana **Tipo de Documento**. Si un cargo creado no aparece, revisar que su Tipo de Cargo esté habilitado para ese tipo de documento. Ver [Cargo](../../accounting-management/accounting-rules/charge) para el detalle.
 
 ## Ventanas relacionadas
@@ -219,3 +253,4 @@ Un extracto quedó con 5 líneas pendientes después de la conciliación; todas 
 - [Conciliación Manual con Diferencia en Montos](../../accounting-management/reconciliation/bank-statement-assignment-with-difference)
 - [Cargo](../../accounting-management/accounting-rules/charge)
 - [Pago/Cobro](../payments-and-receipts/payment)
+- [Asignación de Pagos](../allocation/payment-allocation)

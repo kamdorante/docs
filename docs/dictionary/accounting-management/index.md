@@ -23,6 +23,7 @@ Documentación de referencia del diccionario de aplicación para el módulo de G
 ### Ventanas
 - [Detalle de Hechos Contables](fact-details/accounting-fact-details-window)
 - [Saldos de Hechos Contables](fact-details/accounting-fact-balances)
+- [Documentos sin Aplicar](fact-details/unposted-documents)
 
 ### Reportes
 - [Reporte de Detalle](fact-details/accounting-fact-details-report)

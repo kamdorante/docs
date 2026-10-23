@@ -163,6 +163,9 @@ Emitir una nota de crédito genérica al cliente por un ajuste comercial de un m
 - El **envío al proveedor fiscal** ocurre al completar el documento, siempre que el tipo de documento tenga marcado *Maneja Facturación Electrónica = Sí* y *Enviar después de Completar = Sí*.
 - Este flujo es válido cuando el tipo de documento correspondiente en el **grupo de impuestos** del cliente sea el de Nota de Crédito adecuado (por ejemplo, *eFactura NC* para clientes con *eFactura*).
 - Se recomienda **probar el flujo en ambiente de testing** antes de replicarlo en producción, especialmente para confirmar cómo se ve el motivo en la representación impresa recibida por el cliente.
+- Cuando el crédito corresponde a un concepto que **no figura en la factura**, no se deben usar **Crear Desde** ni **Copiar Líneas**, ya que solo traen las líneas facturadas. La nota de crédito puede crearse como registro **Nuevo** en lugar de copiar uno existente. Ver [¿Cómo hago una nota de crédito a un cliente por un concepto que no figura en la factura?](../../frequently-asked-questions/billing#¿como-hago-una-nota-de-credito-a-un-cliente-por-un-concepto-que-no-figura-en-la-factura)
+- Para acreditar en una sola nota de crédito productos vendidos en **varias facturas**, cargar una línea por producto y repartir luego el importe entre las facturas desde **Asignación de Pagos**. Ver [¿Cómo hago una sola nota de crédito por productos que pertenecen a varias facturas?](../../frequently-asked-questions/billing#¿como-hago-una-sola-nota-de-credito-por-productos-que-pertenecen-a-varias-facturas)
+- Si al completar aparece el **Error 982** (*"Cuando el campo Indicador Global [RefIndGlobal] es igual a 1, se debe informar el motivo de la referencia"*), falta el motivo en el campo **Descripción**. Al no referenciar facturas, el CFE se envía con referencia global y el motivo es obligatorio.
 - El crédito emitido queda **abierto** en la cuenta del cliente hasta que se asigne desde **Asignación de Pagos** contra alguna factura o saldo pendiente. Si nunca se asigna, permanece como un crédito no aplicado.
 
 ## Ventanas relacionadas
@@ -175,3 +178,4 @@ Emitir una nota de crédito genérica al cliente por un ajuste comercial de un m
 - [Factura (Cliente)](../sales-management/sales-invoices/invoice-customer)
 - [Asignación de Pagos](../balance-management/allocation/payment-allocation)
 - [Lista de Precios](../material-management/material-rules/price-list)
+- [Preguntas frecuentes de Facturación](../../frequently-asked-questions/billing)
