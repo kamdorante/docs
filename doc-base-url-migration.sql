@@ -1131,3 +1131,11 @@ UPDATE AD_Window SET DocBaseURL = '/dictionary/accounting-management/accounting-
 
 -- Contra Documentos (AD_Menu)
 UPDATE AD_Menu SET DocBaseURL = '/dictionary/accounting-management/accounting-rules/counter-document' WHERE AD_Menu_ID = 476;
+
+-- === Gestión de Importación y Exportación ===
+
+-- Reporte de Costo de Expediente (AD_Process)
+UPDATE AD_Process SET DocBaseURL = '/dictionary/purchase-management/import-management/expedient-cost-report' WHERE AD_Process_ID = 54974;
+
+-- Reporte de Costo de Expediente (AD_Menu)
+UPDATE AD_Menu SET DocBaseURL = '/dictionary/purchase-management/import-management/expedient-cost-report' WHERE AD_Menu_ID = 55155;

@@ -181,3 +181,17 @@ Muestra las transacciones procesadas para este producto.
 | Fecha del Movimiento | Fecha en que se realizo el movimiento | Fecha | No |
 | Cantidad del Movimiento | Cantidad del movimiento | Numero | No |
 | Localizador | Ubicacion en el almacen | Tabla Directa | No |
+
+### Expediente de Producto
+
+Lista los expedientes de importacion / exportacion en los que participa el producto, es decir, aquellos expedientes que tienen facturas con este producto en sus lineas. Es una pestaña de **solo lectura**: no permite agregar, modificar ni eliminar registros.
+
+La relacion se carga con el script de datos historicos que acompaña la funcionalidad y, a partir de ahi, se actualiza automaticamente cada vez que se completa un [Expediente de Importacion](../../purchase-management/import-management/import-expedient). La utiliza el [Reporte de Costo de Expediente](../../purchase-management/import-management/expedient-cost-report) para encontrar rapidamente la ultima importacion de cada producto.
+
+#### Campos
+
+| Campo | Descripcion | Tipo | Obligatorio |
+|-------|-------------|------|-------------|
+| Organizacion | Organizacion del registro | Tabla Directa | Si |
+| Producto | Producto relacionado | Tabla Directa | Si |
+| Expediente de Importacion / Exportacion | Expediente en cuyas facturas aparece el producto | Tabla Directa | Si |

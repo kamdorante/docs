@@ -19,6 +19,10 @@ Existen dos reportes complementarios:
 
 Los reportes se calculan en la **moneda del esquema contable** (moneda funcional). Las facturas en moneda extranjera se convierten al tipo de cambio del documento.
 
+::: tip Vista por producto, sin abrir cada expediente
+Para ver, en una sola grilla, el costo de la última importación de cada producto junto con su costo actual, precios de lista, existencias y ventas (y en la moneda que se elija), usar el [Reporte de Costo de Expediente](expedient-cost-report), que se ejecuta desde el menú.
+:::
+
 ## ¿Cuándo se utiliza?
 
 Se utiliza cuando la organización necesita:
@@ -174,6 +178,7 @@ Validar el costo final de un expediente al cerrar la operación:
 ## Ventanas relacionadas
 
 - [Expediente de Importación](import-expedient)
+- [Reporte de Costo de Expediente](expedient-cost-report)
 - [Recepción de Productos](../reception/material-receipt)
 - [Aplicar Costo de Desembarque](../reception/apply-landed-cost)
 - [Factura (Proveedor)](../payable-documents/invoice-vendor)
