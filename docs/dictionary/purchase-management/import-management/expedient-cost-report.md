@@ -1,16 +1,16 @@
 ---
-title: Reporte de Costo de Expediente
+title: Reporte de Costo
 category: Documentation
 star: 9
 sticky: 9
 article: false
 ---
 
-# Reporte de Costo de Expediente
+# Reporte de Costo
 
 ## Descripción
 
-El reporte **Reporte de Costo de Expediente** presenta, por producto, una vista consolidada de costos, precios, existencias y ventas a una fecha determinada. Combina en una sola grilla la información de la **última importación** del producto (costo de origen y fecha), su **costo actual** según el motor de costeo, los **precios de las listas** configuradas para la organización y la **rotación** (ventas de los últimos 30 días, de los últimos 60 días y totales).
+El **Reporte de Costo** presenta, por producto, una vista consolidada de costos, precios, existencias y ventas a una fecha determinada. Combina en una sola grilla la información de la **última importación** del producto (costo de origen y fecha), su **costo actual** según el motor de costeo, los **precios de las listas** configuradas para la organización y la **rotación** (ventas de los últimos 30 días, de los últimos 60 días y totales).
 
 A diferencia de los [Reportes de Costos del Expediente de Importación](import-cost-reports), que se ejecutan desde un expediente puntual y muestran la apertura de costos de ese expediente, este reporte se ejecuta desde el menú y recorre **todos los productos** (o los que se filtren), tomando para cada uno el último expediente de importación anterior a la fecha indicada. Es la herramienta pensada para el área comercial al momento de revisar precios y márgenes frente al costo de reposición.
 
@@ -29,11 +29,7 @@ Se utiliza cuando la organización necesita:
 
 ## Acceso
 
-Menú: **Gestión de Importación y Exportación → Reporte de Costo de Expediente**
-
-::: tip Nombre en el menú
-Según la versión instalada, el reporte puede figurar en el menú simplemente como **Reporte de Costo**. Se trata del mismo reporte, con los mismos parámetros.
-:::
+Menú: **Gestión de Importación y Exportación → Reporte de Costo**
 
 ## Configuración previa
 
@@ -84,7 +80,7 @@ La pestaña **Expediente de Producto** de la ventana **Producto** debe tener dat
 
 Los parámetros **Esquema Contable**, **Moneda**, **Organización** y **A Fecha** definen el contexto del cálculo; los demás son filtros para acotar los productos que se listan.
 
-![Parámetros del Reporte de Costo de Expediente](/assets/img/docs/purchase-management/expedient-cost-report-parameters.png)
+![Parámetros del Reporte de Costo](/assets/img/docs/purchase-management/expedient-cost-report-parameters.png)
 
 ## Columnas del reporte
 
@@ -144,7 +140,7 @@ Confirmar que la organización tiene asignadas las tres listas de precios en **I
 
 ### 2. Abrir el reporte
 
-Buscar **Reporte de Costo de Expediente** en el menú.
+Buscar **Reporte de Costo** en el menú.
 
 ### 3. Completar los parámetros de contexto
 
@@ -165,7 +161,7 @@ Ejecutar el reporte y revisar las columnas de costo, precios, fechas, existencia
 
 **Prueba con un solo producto, en moneda local:**
 
-1. Abrir **Reporte de Costo de Expediente**.
+1. Abrir **Reporte de Costo**.
 2. Dejar el esquema contable propuesto, elegir moneda **UYU**, la organización a analizar y **A Fecha** = fecha del día.
 3. En **Producto**, seleccionar un producto que tenga importaciones y al que se le hayan corregido los costos.
 4. Ejecutar. El reporte muestra una línea con el costo de origen (material de la última importación), el costo actual (con costos adicionales), el proveedor predeterminado, los tres precios de lista, la última fecha de importación y de venta, la existencia y las ventas de 30 días, 60 días y totales.

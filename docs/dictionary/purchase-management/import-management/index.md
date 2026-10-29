@@ -17,4 +17,4 @@ Documentación de referencia del diccionario de aplicación para el módulo de G
 ## Reportes
 
 - [Reportes de Costos del Expediente de Importación](import-cost-reports)
-- [Reporte de Costo de Expediente](expedient-cost-report)
+- [Reporte de Costo](expedient-cost-report)

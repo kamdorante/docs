@@ -90,7 +90,7 @@ Pagos y anticipos realizados contra la orden de compra del expediente. Al selecc
 ## Acciones disponibles
 
 - **Completar**
-  Finaliza el expediente, habilitándolo para ser referenciado desde órdenes de compra, recepciones, facturas y procesos de distribución. Al completarse, el sistema registra automáticamente la relación entre el expediente y los productos de sus facturas en la pestaña **Expediente de Producto** de la ventana Producto, que utiliza el [Reporte de Costo de Expediente](expedient-cost-report).
+  Finaliza el expediente, habilitándolo para ser referenciado desde órdenes de compra, recepciones, facturas y procesos de distribución. Al completarse, el sistema registra automáticamente la relación entre el expediente y los productos de sus facturas en la pestaña **Expediente de Producto** de la ventana Producto, que utiliza el [Reporte de Costo](expedient-cost-report).
 
 - **Reactivar**
   Retorna el expediente a borrador para corregir datos. La orden de compra asociada también puede reactivarse; las facturas ya emitidas mantienen sus datos aunque se modifique la orden.
@@ -229,4 +229,4 @@ El costo de venta se calculó con el costo conocido al momento de la entrega. Si
 - [Recepción de Productos](../reception/material-receipt)
 - [Factura (Proveedor)](../payable-documents/invoice-vendor)
 - [Reportes de Costos del Expediente de Importación](import-cost-reports)
-- [Reporte de Costo de Expediente](expedient-cost-report)
+- [Reporte de Costo](expedient-cost-report)

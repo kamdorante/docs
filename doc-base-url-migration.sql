@@ -1134,8 +1134,8 @@ UPDATE AD_Menu SET DocBaseURL = '/dictionary/accounting-management/accounting-ru
 
 -- === Gestión de Importación y Exportación ===
 
--- Reporte de Costo de Expediente (AD_Process)
+-- Reporte de Costo (AD_Process)
 UPDATE AD_Process SET DocBaseURL = '/dictionary/purchase-management/import-management/expedient-cost-report' WHERE AD_Process_ID = 54974;
 
--- Reporte de Costo de Expediente (AD_Menu)
+-- Reporte de Costo (AD_Menu)
 UPDATE AD_Menu SET DocBaseURL = '/dictionary/purchase-management/import-management/expedient-cost-report' WHERE AD_Menu_ID = 55155;
