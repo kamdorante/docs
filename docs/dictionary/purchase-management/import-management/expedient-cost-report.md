@@ -16,8 +16,6 @@ A diferencia de los [Reportes de Costos del Expediente de Importación](import-c
 
 Para que el reporte encuentre rápidamente los expedientes de cada producto, el sistema mantiene la relación **producto ↔ expediente** en la pestaña [Expediente de Producto](../../material-management/material-rules/product#expediente-de-producto) de la ventana **Producto**.
 
-<!-- ![Resultado del Reporte de Costo de Expediente](/assets/img/docs/purchase-management/expedient-cost-report-result.png) -->
-
 ## ¿Cuándo se utiliza?
 
 Se utiliza cuando la organización necesita:
@@ -32,6 +30,10 @@ Se utiliza cuando la organización necesita:
 ## Acceso
 
 Menú: **Gestión de Importación y Exportación → Reporte de Costo de Expediente**
+
+::: tip Nombre en el menú
+Según la versión instalada, el reporte puede figurar en el menú simplemente como **Reporte de Costo**. Se trata del mismo reporte, con los mismos parámetros.
+:::
 
 ## Configuración previa
 
@@ -50,7 +52,7 @@ En la ventana **Organización**, pestaña **Información de la Organización**, 
 - **Lista de Precios Detalle**
   Lista de la que se toma el *Precio Consumidor Final*.
 
-<!-- ![Listas de precios en Información de la Organización](/assets/img/docs/purchase-management/expedient-cost-report-org-price-lists.png) -->
+![Listas de precios en Información de la Organización](/assets/img/docs/purchase-management/expedient-cost-report-org-price-lists.png)
 
 ::: warning Configuración por organización
 Los campos se configuran **en cada organización** que vaya a usar el reporte. Si una organización no tiene las listas asignadas, las columnas de precios salen vacías para esa organización.
@@ -63,7 +65,7 @@ La pestaña **Expediente de Producto** de la ventana **Producto** debe tener dat
 - **Datos históricos:** con el script de carga inicial que se entrega junto con la funcionalidad. Se ejecuta una sola vez, al instalarla, y relaciona cada producto con los expedientes de importación/exportación en cuyas facturas aparece.
 - **Datos nuevos:** automáticamente, cada vez que se **completa** un expediente de importación/exportación.
 
-<!-- ![Pestaña Expediente de Producto en la ventana Producto](/assets/img/docs/purchase-management/expedient-cost-report-product-tab.png) -->
+![Pestaña Expediente de Producto en la ventana Producto](/assets/img/docs/purchase-management/expedient-cost-report-product-tab.png)
 
 ## Parámetros
 
@@ -82,7 +84,7 @@ La pestaña **Expediente de Producto** de la ventana **Producto** debe tener dat
 
 Los parámetros **Esquema Contable**, **Moneda**, **Organización** y **A Fecha** definen el contexto del cálculo; los demás son filtros para acotar los productos que se listan.
 
-<!-- ![Parámetros del Reporte de Costo de Expediente](/assets/img/docs/purchase-management/expedient-cost-report-parameters.png) -->
+![Parámetros del Reporte de Costo de Expediente](/assets/img/docs/purchase-management/expedient-cost-report-parameters.png)
 
 ## Columnas del reporte
 
