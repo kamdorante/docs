@@ -45,7 +45,7 @@ Muestra y permite mantener todos los productos para el proveedor seleccionado.
 | Moneda | Moneda de las compras al proveedor | Tabla Directa | Si |
 | Precio de Lista | Precio de lista del proveedor | Monto | No |
 | Precio de OC | Precio de orden de compra | Monto | No |
-| Clave del Socio | Numero de producto segun el proveedor | Texto | No |
+| Clave del Socio | Numero de producto segun el proveedor. Tambien se usa en [Importar Productos](./import-product) como tercer criterio para encontrar un producto existente (junto con el proveedor) | Texto | No |
 | Nombre del Proveedor | Nombre del producto segun el proveedor | Texto | No |
 | Cantidad minima de Orden | Cantidad minima de orden | Numero | No |
 | Cantidad de Paquete | Cantidad del paquete de compra | Numero | No |

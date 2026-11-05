@@ -1139,3 +1139,14 @@ UPDATE AD_Process SET DocBaseURL = '/dictionary/purchase-management/import-manag
 
 -- Reporte de Costo (AD_Menu)
 UPDATE AD_Menu SET DocBaseURL = '/dictionary/purchase-management/import-management/expedient-cost-report' WHERE AD_Menu_ID = 55155;
+
+-- === Gestión de Materiales / Reglas de Material ===
+
+-- Importar Productos (AD_Window)
+UPDATE AD_Window SET DocBaseURL = '/dictionary/material-management/material-rules/import-product' WHERE AD_Window_ID = 247;
+
+-- Importar Productos (AD_Process)
+UPDATE AD_Process SET DocBaseURL = '/dictionary/material-management/material-rules/import-product' WHERE AD_Process_ID = 196;
+
+-- Importar Productos (AD_Menu)
+UPDATE AD_Menu SET DocBaseURL = '/dictionary/material-management/material-rules/import-product' WHERE AD_Menu_ID = 340;

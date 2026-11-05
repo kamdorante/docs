@@ -16,6 +16,10 @@ La ventana Producto permite definir y mantener todos los productos utilizados po
 
 Menu: Gestion de Materiales → Reglas de Material → Producto
 
+::: tip Carga y actualizacion masiva
+Los productos tambien pueden crearse o actualizarse en lote desde [Importar Productos](./import-product). La importacion busca el producto existente por UPC/EAN, luego por Clave de Busqueda y luego por el codigo del producto segun el proveedor; si lo encuentra, actualiza sus datos pero **no modifica la Clave de Busqueda**.
+:::
+
 ## Pestanas
 
 ### Producto

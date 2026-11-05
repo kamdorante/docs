@@ -26,6 +26,7 @@ Documentacion de referencia del diccionario de aplicacion para el submenu Reglas
 - [Categoria de Flete](freight-category)
 - [Detalles del Proveedor](vendor-details)
 - [Inventario Perpetuo](perpetual-inventory)
+- [Importar Productos](import-product)
 
 ## Procesos
 
