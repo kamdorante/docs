@@ -35,7 +35,7 @@ Para filtrar solo los pedidos provenientes de la tienda, usar el filtro **Tipo d
 Para que los pedidos lleguen correctamente:
 
 - [Tienda Web](web-store) debe estar configurada con su **Tipo de Documento**, **Plantilla de Socio de Negocio**, **Lista de Precios con Impuesto Incluido** y **Almacén de Entrega Directa**.
-- El **Tipo de Documento** asociado a la tienda puede tener marcadas las opciones de **Entrega Directa** y/o **Costo Asociado** según el modelo de negocio (esto define si se generan entregas y/o documentos relacionados de forma automática).
+- Si la organización que vende no tiene el stock y otra organización o un proveedor despacha el pedido, debe existir una regla en [Configuración de Entrega Directa](../purchase-management/purchase-orders/drop-ship-setup) para la **organización de la tienda** y el **tipo de documento** de la orden (por ejemplo, *Venta Web*). Esa regla es la que marca la orden como entrega directa y genera automáticamente la orden de compra al completarla.
 
 ## Pestañas
 
@@ -74,7 +74,7 @@ Cada línea de la orden refleja un producto comprado. Además de los campos est�
 ## Acciones disponibles
 
 - **Completar Orden**
-  Acción estándar de la orden de venta. Si el tipo de documento tiene marcada la opción de **Entrega Directa**, la entrega se genera automáticamente al completar.
+  Acción estándar de la orden de venta. Si existe una regla de [Configuración de Entrega Directa](../purchase-management/purchase-orders/drop-ship-setup) para la organización y el tipo de documento de la orden, al completar la orden queda marcada como entrega directa y se genera la orden de compra vinculada.
 
 - **Imprimir Etiqueta de Envío**
   Acción específica para órdenes de Mercado Libre. Genera el PDF con la etiqueta del paquete y la guía de despacho. Se documenta en [Imprimir Etiqueta de Envío de Mercado Libre](print-mercado-libre-package).
@@ -102,9 +102,16 @@ El canal envía el pedido a Solop. El sistema:
 - Si el comprador **no existía** en el sistema, se crea automáticamente tomando como base la **Plantilla de Socio de Negocio** definida en la Tienda Web (grupo, esquema contable, condiciones de pago, etc.). Se completan los datos que vinieron del canal (nombre, documento, dirección, etc.).
 - Si el comprador **ya existía** (por ejemplo, había comprado antes), se **reutiliza** el registro y no se duplica.
 
-### 4. Entrega automática (si aplica)
+### 4. Entrega directa y orden de compra automática (si aplica)
 
-Si el **Tipo de Documento** de la orden tiene marcada la opción **Entrega Directa**, al completarse la orden el sistema **genera automáticamente la entrega** desde el **Almacén de Entrega Directa** configurado en la Tienda Web.
+Si existe una regla de [Configuración de Entrega Directa](../purchase-management/purchase-orders/drop-ship-setup) para la organización de la tienda y el tipo de documento de la orden, al completarse la orden el sistema:
+
+- Marca la orden como **Entrega Directa**, con el socio y la dirección de entrega directa de la regla.
+- Registra la entrega en el **almacén de entrega directa** de la regla.
+- Crea automáticamente la **orden de compra** al proveedor de entrega directa, con el tipo de documento de compra configurado (por ejemplo, *Compra Web*) y vinculada a la orden de venta.
+- Si el proveedor es otra organización del grupo, al completarse la orden de compra se genera la **orden de venta intercompañía** en la organización que despacha.
+
+Si no existe una regla para la organización de la tienda, la orden se procesa como una venta estándar desde el stock propio.
 
 ### 5. Continuar el flujo estándar
 
@@ -121,7 +128,7 @@ Un comprador adquiere un *Horno Kassel* en Mercado Libre:
    - **Código de Publicación**: el identificador del producto en el marketplace, presente en la cabecera y en la línea.
    - **Socio de Negocio**: comprador creado automáticamente desde la plantilla configurada (es la primera compra del cliente).
    - **Precios**: ya con impuestos incluidos, coincidentes con lo pagado en el marketplace.
-3. Como el Tipo de Documento *Venta Web* tiene marcada **Entrega Directa**, al completar la orden se genera automáticamente la entrega desde el almacén configurado.
+3. Como la organización de la tienda tiene una regla de **Configuración de Entrega Directa** para *Venta Web*, al completar la orden queda marcada como entrega directa y se crea automáticamente la orden de compra *Compra Web* a la organización que tiene el stock, con la descripción *Pedido MercadoLibre #…*.
 4. Desde la orden se imprime la **Etiqueta de Envío** y se prepara el paquete para despachar.
 
 ## Consideraciones importantes
@@ -131,9 +138,10 @@ Un comprador adquiere un *Horno Kassel* en Mercado Libre:
 - Los **precios coinciden con lo pagado en el marketplace** porque la lista de precios de la Tienda Web se configuró con impuesto incluido. Si llegaran precios distintos a los esperados o aparecieran **descuentos inesperados**, validar la configuración de la lista de precios y la versión activa.
 - La **plantilla de Socio de Negocio** determina la configuración inicial del comprador (grupo, esquema contable, condiciones). Si los compradores creados no tienen los atributos esperados, ajustar la plantilla.
 - Los **compradores recurrentes** no se duplican: el sistema detecta que el comprador ya existe y reutiliza el registro existente.
-- La **Entrega Directa Automática** depende del tipo de documento. Si no se quiere generar la entrega de forma automática, desmarcar la opción en el tipo de documento.
+- La **entrega directa** y la **orden de compra automática** dependen de la regla de [Configuración de Entrega Directa](../purchase-management/purchase-orders/drop-ship-setup) (organización + tipo de documento), no del check *Entrega Directa* del tipo de documento. Si no se quiere generar la compra de forma automática, desmarcar **Crear Orden de Compra Automáticamente** en la regla o desactivarla.
+- Dos tiendas web que usan el mismo tipo de documento (*Venta Web*) pueden comportarse distinto: la tienda de una organización con regla de entrega directa genera orden de compra; la tienda de una organización sin regla vende desde su stock propio.
 - Para imprimir la **guía de despacho** del marketplace, usar la acción específica documentada en [Imprimir Etiqueta de Envío de Mercado Libre](print-mercado-libre-package).
-- Si la orden requiere **documentos contables o de costo asociados** (por ejemplo, una orden de compra contra otra organización), el tipo de documento puede configurar la generación automática de esos documentos enlazados a esta orden de venta.
+- Si la orden requiere una **orden de compra contra otra organización**, esa compra se genera desde la regla de [Configuración de Entrega Directa](../purchase-management/purchase-orders/drop-ship-setup) y queda enlazada a esta orden de venta en el campo **Orden Vinculada**.
 
 ## Ventanas relacionadas
 
@@ -143,3 +151,5 @@ Un comprador adquiere un *Horno Kassel* en Mercado Libre:
 - [Imprimir Etiqueta de Envío de Mercado Libre](print-mercado-libre-package)
 - [Orden de Venta](../sales-management/sales-orders/sales-order)
 - [Entregas (Cliente)](../sales-management/shipments/shipment-customer)
+- [Configuración de Entrega Directa](../purchase-management/purchase-orders/drop-ship-setup)
+- [Órdenes de Compra](../purchase-management/purchase-orders/purchase-order)

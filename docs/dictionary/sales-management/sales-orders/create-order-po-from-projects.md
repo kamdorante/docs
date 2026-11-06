@@ -26,3 +26,14 @@ Menú: Gestión de Ventas → Órdenes de Venta → Crear OC desde Proyectos
 | Entrega Directa | Indica si el envío será directo del proveedor al cliente | Lista | No | |
 | Orden | Orden existente a la que se asociará | Búsqueda | No | |
 | Proveedor | Proveedor al que se le generará la orden de compra | Tabla | No | |
+
+## Consideraciones importantes
+
+- Cuando la orden de venta del proyecto se completa con una regla de [Configuración de Entrega Directa](../../purchase-management/purchase-orders/drop-ship-setup) con creación automática, la orden de compra se genera en ese momento tomando la información de la línea de proyecto. Marcar **Socio de Negocio Basado en Documento** en la regla para que el proveedor se tome del proyecto.
+- Este proceso es la alternativa manual para generar la orden de compra desde el proyecto cuando no se usa la creación automática.
+
+## Ventanas relacionadas
+
+- [Configuración de Entrega Directa](../../purchase-management/purchase-orders/drop-ship-setup)
+- [Orden de Venta](sales-order)
+- [Órdenes de Compra](../../purchase-management/purchase-orders/purchase-order)

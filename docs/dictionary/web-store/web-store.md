@@ -65,7 +65,7 @@ Pestaña principal donde se definen los parámetros de la tienda. Los campos cla
   Almacén cuya existencia se considera como stock publicado. También define implícitamente la organización a la que pertenece la tienda.
 
 - **Almacén de Entrega Directa**
-  Almacén que se utiliza como **referencia para el inventario publicado** y para las entregas automáticas generadas a partir del pedido. Si se completa este campo, el inventario que se envía al canal se toma de este almacén en lugar del almacén principal.
+  Almacén que se utiliza como **referencia para el inventario publicado**. Si se completa este campo, el inventario que se envía al canal se toma de este almacén en lugar del almacén principal. No define dónde se registra la entrega directa de los pedidos: eso lo determina la regla de [Configuración de Entrega Directa](../purchase-management/purchase-orders/drop-ship-setup).
 
 - **Tipo de Documento**
   Tipo de documento con el que se crean las órdenes de venta provenientes de esta tienda. Permite identificar fácilmente los pedidos de la tienda (por ejemplo, *Venta Web*) y aplicar la configuración fiscal y de entrega directa correspondiente.
@@ -155,7 +155,8 @@ A partir de este punto, los productos están listos para configurarse y publicar
 - La **lista de precios** debe ser preferentemente **con impuesto incluido**. Si la lista no incluye impuesto, al publicar el sistema arma el precio con impuesto sumado, pero el manejo más claro y alineado con Mercado Libre es publicar precios finales tal cual los ve el comprador.
 - El **almacén de entrega directa** controla **qué stock se publica**. Si se define, el inventario publicado se toma de ahí y no del almacén principal de la tienda; esto permite separar el stock disponible para venta web del stock del resto de la operación.
 - La **plantilla de socio de negocio** debe estar bien configurada (grupo, esquema contable, condiciones de pago). Los compradores creados a partir de ella heredan toda esa configuración.
-- El **tipo de documento** asignado define cómo se identifican las órdenes recibidas. Combinado con la opción de **Entrega Directa**, permite automatizar la generación de entregas a partir de la orden.
+- El **tipo de documento** asignado define cómo se identifican las órdenes recibidas. Si la organización de la tienda no tiene el stock, crear una regla en [Configuración de Entrega Directa](../purchase-management/purchase-orders/drop-ship-setup) para esa organización y ese tipo de documento: al completar cada orden se genera automáticamente la orden de compra a la organización o proveedor que despacha.
+- La **organización** de la tienda es determinante: la regla de entrega directa se busca por la organización de la orden. Dos tiendas con el mismo tipo de documento en organizaciones distintas pueden tener comportamientos diferentes (una con entrega directa y otra con venta desde stock propio).
 - Las **URL de Categoría y Atributos** son endpoints de integración. Si no están disponibles, los procesos *Sugerir Categoría* y *Publicar Productos* fallan con error de conectividad.
 - Una misma cuenta del marketplace puede atender múltiples tiendas web del ERP, siempre que cada una tenga su propio registro con sus parámetros (lista de precios, almacén, tipo de documento, etc.).
 
@@ -168,4 +169,5 @@ A partir de este punto, los productos están listos para configurarse y publicar
 - [Producto](../material-management/material-rules/product)
 - [Categoría de Producto](../material-management/material-rules/product-category)
 - [Orden de Venta](../sales-management/sales-orders/sales-order)
+- [Configuración de Entrega Directa](../purchase-management/purchase-orders/drop-ship-setup)
 - [Lista de Precios](../material-management/material-rules/price-list)

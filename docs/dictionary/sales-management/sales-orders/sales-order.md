@@ -208,3 +208,15 @@ Pestaña para definir el calendario de facturación de la orden.
 | Factura | Factura generada para la cuota | Búsqueda directa | No |
 | Descripción | Descripción de la cuota | Texto | No |
 | Número de Cuota | Número secuencial de la cuota | Numérico entero | No |
+
+## Consideraciones importantes
+
+- Los campos **Entrega Directa**, **Socio Entrega Directa** y **Dirección Entrega Directa** se completan automáticamente al completar la orden cuando existe una regla de [Configuración de Entrega Directa](../../purchase-management/purchase-orders/drop-ship-setup) para la organización y el tipo de documento de la orden. Si la regla tiene marcada **Crear Orden de Compra Automáticamente**, la orden de compra generada queda vinculada en el campo **Orden Vinculada**.
+- Si la orden no tiene regla de entrega directa, la orden de compra al proveedor puede generarse manualmente con el proceso [Generar OC desde Orden de Venta](generate-po-from-sales-order).
+
+## Ventanas relacionadas
+
+- [Configuración de Entrega Directa](../../purchase-management/purchase-orders/drop-ship-setup)
+- [Generar OC desde Orden de Venta](generate-po-from-sales-order)
+- [Órdenes de Compra](../../purchase-management/purchase-orders/purchase-order)
+- [Entregas (Cliente)](../shipments/shipment-customer)

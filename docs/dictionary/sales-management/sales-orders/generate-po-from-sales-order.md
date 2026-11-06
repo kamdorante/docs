@@ -29,3 +29,14 @@ Menú: Gestión de Ventas → Órdenes de Venta → Generar OC desde Orden de Ve
 | Proveedor | Proveedor al que se le generará la orden de compra | Tabla | No | |
 | Orden | Orden de venta específica a procesar | Búsqueda | No | |
 | Entrega Directa | Indica si el envío será directo del proveedor al cliente | Lista | No | |
+
+## Consideraciones importantes
+
+- Si la organización y el tipo de documento de la orden de venta tienen una regla de [Configuración de Entrega Directa](../../purchase-management/purchase-orders/drop-ship-setup) con **Crear Orden de Compra Automáticamente** marcado, la orden de compra se genera al completar la orden de venta y no es necesario ejecutar este proceso.
+- Este proceso es la alternativa manual cuando la regla no existe o tiene la creación automática desmarcada.
+
+## Ventanas relacionadas
+
+- [Orden de Venta](sales-order)
+- [Configuración de Entrega Directa](../../purchase-management/purchase-orders/drop-ship-setup)
+- [Órdenes de Compra](../../purchase-management/purchase-orders/purchase-order)

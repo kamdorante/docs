@@ -175,3 +175,10 @@ Bitácora de documento electrónico y envío.
 ## Consideraciones importantes
 
 - Si el **Socio del Negocio** de la entrega está vinculado a otra organización (campo **Liga Organización**) y la organización de la entrega tiene a su vez un socio vinculado, la entrega es una transacción inter-organización y el sistema busca una regla en [Contra Documentos](../../accounting-management/accounting-rules/counter-document) para su tipo de documento (por ejemplo, *e-Remito*). Sin esa regla, al completar se muestra el error **"No encontrado Tipo de Contra Documento"** y la entrega queda en Borrador. Si la entrega no debe generar una recepción en la otra organización, crear la regla con **Crea Contra-Documento** desmarcado.
+- Una entrega marcada como **Entrega Directa** corresponde a una orden de venta atendida mediante una regla de [Configuración de Entrega Directa](../../purchase-management/purchase-orders/drop-ship-setup). La entrega se registra en el **almacén de entrega directa** de la regla (o, en su defecto, en el de la información de la organización), y la mercadería la despacha el socio de entrega directa.
+
+## Ventanas relacionadas
+
+- [Orden de Venta](../sales-orders/sales-order)
+- [Configuración de Entrega Directa](../../purchase-management/purchase-orders/drop-ship-setup)
+- [Contra Documentos](../../accounting-management/accounting-rules/counter-document)
