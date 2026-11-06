@@ -1150,3 +1150,13 @@ UPDATE AD_Process SET DocBaseURL = '/dictionary/material-management/material-rul
 
 -- Importar Productos (AD_Menu)
 UPDATE AD_Menu SET DocBaseURL = '/dictionary/material-management/material-rules/import-product' WHERE AD_Menu_ID = 340;
+
+-- === Relación con Socios del Negocio / Control de Límite de Crédito ===
+-- Nota: AD_Window 123 (Socio del Negocio) y AD_Menu 110 ya apuntan a otro documento
+-- (email-to-business-partner-dunning). Se deja la sentencia comentada hasta confirmar cuál debe abrir la ayuda de la ventana.
+
+-- Socio del Negocio (AD_Window)
+-- UPDATE AD_Window SET DocBaseURL = '/dictionary/customer-relationship-management/business-partner-credit-limit-control' WHERE AD_Window_ID = 123;
+
+-- Socio del Negocio (AD_Menu)
+-- UPDATE AD_Menu SET DocBaseURL = '/dictionary/customer-relationship-management/business-partner-credit-limit-control' WHERE AD_Menu_ID = 110;

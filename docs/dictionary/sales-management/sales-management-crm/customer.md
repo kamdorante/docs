@@ -32,6 +32,10 @@ Información principal del cliente (Socio del Negocio marcado como cliente).
 | Regla de Pago | Método de pago | Lista | No |
 | Límite de Crédito | Monto máximo de crédito | Monto | No |
 
+::: tip Control de límite de crédito
+El **Límite de Crédito** se compara con el **Saldo Actual** del cliente (facturas abiertas menos cobros sin asignar), no con el **Crédito Usado**. Para saber qué documentos se bloquean y por qué un cliente puede superar el límite sin bloqueo, ver [Control de Límite de Crédito del Socio del Negocio](../../customer-relationship-management/business-partner-credit-limit-control).
+:::
+
 ### Oportunidades
 Oportunidades de venta asociadas al cliente.
 

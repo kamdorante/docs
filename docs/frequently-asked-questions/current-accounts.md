@@ -22,6 +22,18 @@ Si el Pago tiene asignado un "Cargo" no se visualizará en el estado de cuenta c
 El sistema antes consideraba una tolerancia de +- 0.99 para marcar como asignada una factura, lo que hacía que a las facturas se les marque el check de PAGADO cuando existe un saldo abierto que entra en dicha tolerancia. Esta tolerancia se quitó, para que las facturas queden con el check de PAGADO = NO, y puedan ser consideradas por este proceso (Dar de baja CxC y CxP). Por lo cual estos casos solo pueden darse en documentos antiguos.
 Este proceso solo ajusta documentos por pagar o Documentos por cobrar.
 
+### ¿Por qué un cliente superó su Límite de Crédito y el sistema no bloqueó la orden ni la factura?
+
+El sistema no compara el **Crédito Usado** con el límite, sino el **Saldo Actual** del socio. El Saldo Actual es lo que el cliente debe en facturas abiertas **menos los cobros que todavía no están asignados** a ninguna factura. Por eso:
+
+- Si el cliente tiene **cobros sin asignar**, su Saldo Actual baja (incluso puede quedar negativo) y el sistema considera que todavía tiene margen. El **Estado del Crédito** sigue en **Crédito Correcto** aunque el Crédito Usado supere el límite.
+- La **Orden de Venta** controla solo su propio total contra el saldo de ese momento: varias órdenes completadas antes de facturar no se suman entre sí.
+- La **factura de venta** no controla el límite; solo se bloquea si el cliente está en **Crédito Detenido**.
+
+Para que el control vuelva a funcionar, revisar los cobros sin asignar del cliente (reporte **Pagos sin Asignar**) y asignarlos a sus facturas desde **Asignación de Pagos**. Si se necesita frenar al cliente de inmediato, cambiar su Estado del Crédito a **Crédito Detenido**.
+
+Ver el detalle completo en [Control de Límite de Crédito del Socio del Negocio](../dictionary/customer-relationship-management/business-partner-credit-limit-control).
+
 ## Acciones
 
 ### ¿Qué representa el SALDO INICIAL en el reporte de estado de cuenta corriente?
