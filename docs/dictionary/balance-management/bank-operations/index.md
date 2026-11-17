@@ -19,6 +19,7 @@ Gestión de estados de cuenta bancarios, conciliaciones, transferencias y report
 
 ## Visor Inteligente
 - [Crear Pagos desde Estado de Cuenta](create-payments-from-bank-statement)
+- [Depósito de Cheques](check-deposit)
 
 ## Procesos
 - [Importación de Extracto Bancario](import-bank-statement)

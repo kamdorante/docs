@@ -62,6 +62,10 @@ Presenta filtros de **Socio del negocio**, **moneda**, **fecha de facturación**
 
 ![Depósito de Cheques](/assets/img/docs/balance-management/bam-deferred6.png)
 
+::: tip Cheques diferidos que siguen abiertos
+Un cheque diferido por cobrar sin depósito se mantiene como documento por cobrar abierto y aparece en el reporte **Saldos Abiertos a la Fecha**, aunque el cliente ya lo haya cobrado en el banco. Para cerrarlo, ejecutar **Depósito de Cheques**, seleccionar el cheque, indicar la cuenta bancaria y la fecha del depósito, y confirmar con **OK**. Ver [Depósito de Cheques](../../dictionary/balance-management/bank-operations/check-deposit).
+:::
+
 #### Débito Cheques Propios
 
 Los Débitos de Cheques Propios se deben realizar mediante el proceso automatizado de **Débito de Cheques**, el cual representa la salida de fondos de la empresa a causa del vencimiento de la fecha del cheque diferido.

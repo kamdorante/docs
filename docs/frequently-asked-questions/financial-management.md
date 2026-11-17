@@ -49,6 +49,20 @@ Definimos los filtros que deseemos aplicar y realizamos la búsqueda “Smart br
 
 Luego seleccionamos los cheques a depositar indicando la Cuenta bancaria destino y la Fecha de la transacción y hacemos click en la opción “OK”.
   
+### ¿Por qué un cheque diferido ya cobrado sigue apareciendo en Saldos Abiertos a la Fecha y cómo lo cierro?
+
+Un **Cheque Diferido por Cobrar** es un documento por cobrar y permanece abierto hasta que se registra su depósito. Si el cheque ya se cobró en el banco pero nunca se depositó en el sistema, seguirá apareciendo en el reporte **Saldos Abiertos a la Fecha**. No aparece en **Saldos Pendientes**, que solo lista facturas.
+
+Para cerrarlo:
+
+1. Abrir el navegador **Depósito de Cheques** y ejecutar **Comenzar Búsqueda** (ampliar las fechas si el cheque es antiguo).
+2. Seleccionar el cheque o los cheques a cerrar.
+3. Indicar la **Cuenta Bancaria** donde ingresó el dinero y la **Fecha de la Transacción** (por ejemplo, el mes del vencimiento).
+4. Confirmar con **OK**.
+5. Volver a ejecutar **Saldos Abiertos a la Fecha**: el cheque ya no aparece.
+
+Antes de hacerlo, verificar que ese dinero no haya ingresado al banco por otro movimiento, para no duplicar el ingreso en la conciliación. Ver [Depósito de Cheques](../dictionary/balance-management/bank-operations/check-deposit).
+
 ### Check Conciliado al Anular un Pago/Cobro
 
 Al anularse un depósito de cheque de tercero, al reversar el documento, se consulta si para el pago hay una linea de conciliación con dicho pago, si no existe entonces se marca el check de conciliado a ambos documentos.

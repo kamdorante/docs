@@ -1166,3 +1166,11 @@ UPDATE AD_Menu SET DocBaseURL = '/dictionary/material-management/material-rules/
 
 -- Gestión de Asistencias (AD_Menu)
 UPDATE AD_Menu SET DocBaseURL = '/dictionary/human-management/time-attendance/attendance-management' WHERE AD_Menu_ID = 55162;
+
+-- === Saldos Pendientes / Operaciones Bancarias — Depósito de Cheques ===
+
+-- Depósito de Cheques (AD_Browse)
+UPDATE AD_Browse SET DocBaseURL = '/dictionary/balance-management/bank-operations/check-deposit' WHERE AD_Browse_ID = 2000023;
+
+-- Depósito de Cheques (AD_Menu)
+UPDATE AD_Menu SET DocBaseURL = '/dictionary/balance-management/bank-operations/check-deposit' WHERE AD_Menu_ID = 2000134;
