@@ -37,6 +37,8 @@ Existen varios puntos de acceso según la etapa:
 3. **Completar datos:** Facturación Electrónica → Completar Datos de Factura.
 4. **Importar facturas:** Facturación Electrónica → Importar Facturas.
 5. **Importar facturas con enlace a OC:** Facturación Electrónica → Importar Facturas con Enlace a Orden de Compra.
+6. **Importar facturas electrónicas (Gestión de Compras):** Gestión de Compras → Transacciones → **Importar Facturas Electrónicas**. Este proceso consulta al proveedor de facturación electrónica y deja los CFE en la tabla auxiliar de importación.
+7. **Ventana de importación (tabla auxiliar):** Gestión del Sistema → Datos → Importar Datos → **Importar Documentos CxC/CxP**. Aquí se revisan los registros descargados, el número de orden de compra identificado y, desde esta ventana, se ejecuta la importación hacia documentos por pagar.
 
 ## Configuración previa
 
@@ -72,6 +74,45 @@ La organización debe tener al menos una lista de precios que coincida con: la *
 ### Configuración de Referencias (Match con Orden de Compra)
 
 Algunos proveedores envían en el CFE un número de referencia (por ejemplo, *CC ID Compra*) que permite enlazar la factura a una orden de compra. La ventana de configuración de referencias define qué clase se usa para resolver cada tipo de referencia y contra qué tabla del sistema se hace el match.
+
+## Enlace automático con la Orden de Compra
+
+Al descargar los CFE recibidos, el sistema intenta identificar a qué **Orden de Compra (OC)** corresponde cada comprobante. El número de la orden se extrae del XML del CFE y se guarda en el registro importado; luego, al importar con enlace, la factura se vincula a esa orden.
+
+### ¿Dónde se busca el número de la orden?
+
+El número de orden de compra puede venir informado en tres lugares del CFE. El proceso los revisa en este orden:
+
+| Prioridad | Ubicación en el CFE | Descripción |
+|---|---|---|
+| 1 | Campo de **ID de compra** del encabezado | Campo específico del CFE destinado a identificar la compra |
+| 2 | **Adenda** | Texto libre del comprobante donde el proveedor puede indicar la orden |
+| 3 | **Detalle de la línea** | Descripción de cada ítem del CFE |
+
+### Formato del número de orden
+
+Cuando el número viene en la adenda o en el detalle de la línea, el proceso lo reconoce por un **prefijo** seguido de un guion y del número de la orden:
+
+| Prefijo | Formato reconocido |
+|---|---|
+| OP | `OP-12345` |
+| OA | `OA-12345` |
+| OG | `OG-12345` |
+
+- El número puede tener **cualquier cantidad de dígitos**; no existe un largo fijo.
+- Se considera que el número **termina** en un espacio en blanco o en un guion.
+- Con el número identificado, el sistema busca en las órdenes de compra aquella que tenga ese número de documento.
+
+> Los prefijos reconocidos son los predeterminados del proceso. Se recomienda acordar con los proveedores que incluyan el número de orden con alguno de estos formatos.
+
+### Cómo se genera la factura enlazada
+
+Al ejecutar **Importar Facturas con Enlace a Orden de Compra** sobre un registro con orden identificada:
+
+- El sistema **respeta las líneas de la orden de compra**: cantidades, productos, dimensiones y demás datos provienen de la OC.
+- El emparejamiento entre lo recibido en el CFE y las líneas de la orden se hace **por importes**: los importes del CFE se van asignando a las líneas de la orden que correspondan.
+- Si el importe de una línea del CFE se reparte entre varias líneas de la orden, la factura generada puede tener **más líneas que el CFE original** (por ejemplo, un CFE de una sola línea que genera cuatro líneas de factura).
+- Las **Líneas CFE** (pestaña del documento por pagar) conservan una línea por cada registro descargado del proveedor fiscal; a partir de ellas se generan las líneas de la factura.
 
 ## Pestañas (Bandeja CFE)
 
@@ -153,6 +194,18 @@ Ejecutar **Completar Datos de Factura** para que el sistema resuelva término de
 
 Ejecutar **Importar Facturas** (o **Importar Facturas con Enlace a Orden de Compra** si se desea el match). Seleccionar la organización y elegir si los documentos se crean en *Preparar* o *Completar*.
 
+#### Importar con enlace a Orden de Compra paso a paso
+
+1. Ejecutar **Importar Facturas Electrónicas** (Gestión de Compras → Transacciones) indicando la fecha o rango de fechas de los comprobantes a traer. Mientras corre, el sistema descarga los CFE del proveedor fiscal.
+2. Abrir la ventana **Importar Documentos CxC/CxP** y actualizar la vista. Se listan los registros descargados; cada línea del CFE genera un registro.
+3. Buscar el CFE de interés y verificar que el **número de orden de compra** fue identificado correctamente (se muestra en el registro importado).
+4. Revisar que la descripción, la cantidad y el precio (importe sin impuestos) sean los esperados.
+5. Si la tabla contiene registros que no interesa importar (por ejemplo, de otras fechas), eliminarlos antes de continuar para trabajar solo con los necesarios.
+6. Ejecutar el proceso **Importar Facturas con Enlace a Orden de Compra** y elegir la acción **Preparar** para poder verificar el documento antes de completarlo.
+7. Abrir el documento por pagar generado y comprobar el ID de la orden de compra enlazada, los importes (subtotal y total deben coincidir con la orden) y las líneas.
+
+> Se debe usar el proceso **con enlace a orden de compra**. El proceso de importación original no realiza el enlace, es decir, no hace el match con la orden de compra.
+
 ### 5. Revisar el histórico
 
 Abrir el histórico del proceso y verificar cuántas facturas se generaron, cuántas líneas tienen y cuántos CFE quedaron con error. Cada error incluye el número del documento, el RUT del emisor y el detalle de la causa.
@@ -179,8 +232,26 @@ Una organización recibe 50 CFE del proveedor fiscal y desea importarlos como fa
 5. Crear la lista de precios en euros con impuesto incluido, configurar el tipo de documento 181 como *Documento de Compra Electrónico*, y volver a ejecutar **Importar Facturas**.
 6. Al completar las facturas preparadas, el sistema enlaza las que tenían referencia a orden de compra, hereda cantidades y precios y genera el match automáticamente.
 
+## Ejemplo de uso: CFE con número de orden en la adenda
+
+Un proveedor emite un CFE de una sola línea el 30 de septiembre. En su representación impresa, la adenda indica `OP-47908`.
+
+1. Verificar en **Órdenes de Compra** que la orden 47908 existe y revisar su importe.
+2. Ejecutar **Importar Facturas Electrónicas** solo para el 30 de septiembre. El proceso descarga los CFE de esa fecha (por ejemplo, 40 registros).
+3. En **Importar Documentos CxC/CxP**, buscar el CFE por su número. Aparece un único registro (el CFE tiene una sola línea) con la orden de compra 47908 ya identificada.
+4. Eliminar los demás registros descargados para trabajar solo con el CFE de la prueba.
+5. Ejecutar **Importar Facturas con Enlace a Orden de Compra** con acción **Preparar**.
+6. Se genera un documento por pagar enlazado a la orden: el subtotal y el total coinciden con ella y las líneas respetan las de la orden. Si el importe se reparte entre varias líneas de la OC, el documento tiene más líneas que el CFE original.
+7. Si la orden ya estaba facturada, el documento no podrá completarse porque los controles de match lo impiden (ver consideraciones).
+
+El mismo criterio aplica cuando el número aparece en el detalle de la línea (por ejemplo, `OP-10766 - Descripción`) o en el campo de ID de compra del encabezado.
+
 ## Consideraciones importantes
 
+- La importación **no controla si la orden de compra enlazada ya está facturada**. Sin embargo, si se genera un documento por pagar contra una orden ya facturada, **no se podrá completar** debido a los controles de match con la orden.
+- El proceso controla que el **importe del CFE no supere el de la orden de compra**. Si lo supera, el registro se marca como **Error** con el mensaje *"Monto total de líneas excede el monto de la Orden de Compra"* y no se importan los registros asociados a esa orden.
+- Se recomienda generar los documentos con la acción **Preparar** para validar el resultado antes de completar.
+- Para que el enlace funcione, el número de orden debe figurar en alguno de los tres lugares del CFE con el prefijo y formato reconocidos (ver *Enlace automático con la Orden de Compra*).
 - Cada **tipo de CFE** esperado debe estar configurado como *Documento de Compra Electrónico* con su *Tipo de Documento Fiscal* y *Tipo de Transacción Fiscal*. Sin esta configuración, los CFE de ese tipo quedan en error.
 - La **lista de precios** utilizada debe tener *Impuesto Incluido en el Precio = Sí* y la moneda del CFE. Es una causa frecuente de error en la importación.
 - Si el proveedor no envía el **término de pago** en el CFE, el sistema no puede resolverlo automáticamente; se asigna manualmente antes de completar la factura.
@@ -191,7 +262,13 @@ Una organización recibe 50 CFE del proveedor fiscal y desea importarlos como fa
 - La subpestaña **Líneas CFE** del documento por pagar conserva las líneas originales del CFE; no deben modificarse, ya que son la base para las líneas definitivas del documento.
 - El proceso puede disparar la creación dinámica de socios incluyendo el **código de país** que envía el CFE; los nuevos socios quedan listos para cargos y configuraciones posteriores.
 
+## Preguntas frecuentes
+
+Ver [¿Cómo identifica el sistema a qué orden de compra pertenece un CFE recibido?](../../frequently-asked-questions/electronic-billing) en las FAQ de Facturación Electrónica.
+
 ## Ventanas relacionadas
 
 - [Bandeja CFE](../sales-management/sales-invoices/invoice-import)
 - [Factura (Proveedor)](../sales-management/sales-invoices/invoice-customer)
+- [Órdenes de Compra](../purchase-management/purchase-orders/purchase-order)
+- Importar Documentos CxC/CxP (Gestión del Sistema → Datos → Importar Datos)

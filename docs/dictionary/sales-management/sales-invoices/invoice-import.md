@@ -164,6 +164,8 @@ Un analista administrativo debe importar un CFE recibido enlazándolo con una or
 - Al generar la factura en estado *Preparar*, aún no se actualiza la cantidad facturada de la OC; esto ocurre al completar el documento.
 - Si un registro queda con error, el mensaje describe la causa exacta (tipo de documento faltante, lista de precios incompatible, moneda no soportada). Corregir la configuración y reintentar el proceso sin necesidad de volver a descargar el CFE.
 - La pestaña **Línea de CFE** conserva las líneas originales del proveedor y no debe editarse; cualquier ajuste se hace sobre la factura generada.
+- El número de la **orden de compra** se identifica al descargar el CFE a partir del campo de ID de compra, la adenda o el detalle de la línea (prefijos OP-, OA- u OG-). Ver [Enlace automático con la Orden de Compra](../../electronic-billing/get-electronic-invoices).
+- Si el importe del CFE supera el de la orden de compra, el registro queda con error *"Monto total de líneas excede el monto de la Orden de Compra"*. Si la orden ya está facturada, la factura generada no podrá completarse por los controles de match.
 - Cuando el socio tiene **Criterio de Facturación Electrónica** configurado (Proyecto, Fase, Tarea, Por Factura, Por Línea, Contrato), las líneas de resumen se generan automáticamente al preparar el documento según el criterio seleccionado.
 
 ## Ventanas relacionadas

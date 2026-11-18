@@ -119,6 +119,32 @@ Si el mail fuese enviado por el proveedor, y en ese caso se visualizara en la ca
 
 Al realizar en Solop ERP la importación de CFE recibidos, las casillas de mail siempre deben ser las mismas tanto en DGI como Invoicy.
 
+### ¿Cómo identifica el sistema a qué orden de compra pertenece un CFE recibido?
+
+Al descargar los CFE recibidos con el proceso **Importar Facturas Electrónicas** (Gestión de Compras → Transacciones), el sistema busca el número de la orden de compra en tres lugares del comprobante:
+
+1. El campo de **ID de compra** del encabezado del CFE.
+2. La **adenda**.
+3. El **detalle de la línea**.
+
+En la adenda y en el detalle de la línea, el número debe venir con alguno de estos prefijos seguido de un guion: **OP-**, **OA-** u **OG-** (por ejemplo, `OP-12345`). El número puede tener cualquier cantidad de dígitos y se considera terminado en un espacio en blanco o en un guion.
+
+El número identificado queda registrado en la ventana **Importar Documentos CxC/CxP** (Gestión del Sistema → Datos → Importar Datos). Para generar la factura enlazada se debe ejecutar el proceso **Importar Facturas con Enlace a Orden de Compra**; el proceso original de importación no realiza el enlace.
+
+Más detalle en [Importación de CFE Recibidos](../dictionary/electronic-billing/get-electronic-invoices).
+
+### Importé un CFE con enlace a una orden de compra y la factura no se puede completar. ¿Por qué?
+
+La importación no controla si la orden de compra ya está facturada. Si la orden ya fue facturada (su cantidad facturada es el total), el documento por pagar se genera igualmente, pero **no se puede completar** debido a los controles de match con la orden. Verificar en la orden de compra la cantidad facturada de sus líneas y, si corresponde, no completar el documento generado.
+
+### Al importar un CFE con enlace a orden de compra aparece "Monto total de líneas excede el monto de la Orden de Compra". ¿Qué significa?
+
+El proceso controla que el importe del CFE recibido no supere el importe de la orden de compra enlazada. Cuando lo supera, el registro queda marcado como **Error** con ese mensaje y no se importan los registros asociados a esa orden. Para resolverlo, verificar los importes del CFE contra los de la orden de compra y, si corresponde, ajustar la orden antes de volver a importar.
+
+### Importé un CFE de una sola línea y la factura tiene varias líneas. ¿Es correcto?
+
+Sí. Con el enlace a orden de compra, el sistema respeta las líneas de la orden y asigna los importes del CFE a esas líneas, por lo que la factura puede tener más líneas que el CFE original. En la pestaña **Líneas CFE** del documento por pagar se conserva una línea por cada registro descargado del proveedor fiscal.
+
 ## Acciones
 
 ### Cómo cargar un CAE en InvoiCy?
