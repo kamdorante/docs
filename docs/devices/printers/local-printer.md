@@ -27,7 +27,7 @@ Define la configuración necesaria para utilizar el servicio de impresión local
 
 ## Instalación del Servicio
 
-1. El instalador queda disponible en para descargar
+1. El instalador queda disponible para descargar desde la **Página de Inicio** del sistema, en la aplicación **Cliente de Aplicaciones** (elegir **win-x64** o **win-x86** según el equipo). Ver [Aplicaciones de la Página de Inicio](../landing-page-apps).
 
 https://solop.nyc3.digitaloceanspaces.com/public/downloads/ERP-App-Service-2.0.1-win-x64.exe
 

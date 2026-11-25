@@ -194,6 +194,14 @@ En Ventana Usuario, Campo "Expiración de Sesión" es posible definir el timeout
 
 Esta configuración es por cada Usuario, lo que permite tener un usuario exclusivo para la consulta de precios y que se reinicie cada una semana.
 
+### ¿Dónde descargo la aplicación móvil o el Cliente de Aplicaciones (impresión)?
+
+Desde la **Página de Inicio** del sistema, donde se muestran las aplicaciones disponibles. Las descargas externas aparecen como una aplicación más: **Aplicación Móvil**, **Cliente de Aplicaciones (win-x64)**, **Cliente de Aplicaciones (win-x86)** y **Actualizador de Aplicaciones (win-x86)**. Al hacer clic sobre la tarjeta se inicia la descarga del instalador.
+
+Por defecto solo las ven los roles **Administrador** y **System Administrator**. Si el usuario no las ve, debe solicitar a un administrador que le otorgue acceso a esa aplicación en su rol.
+
+El **Cliente de Aplicaciones** es el servicio que se instala en el equipo para imprimir de forma directa. Ver [Aplicaciones de la Página de Inicio](../devices/landing-page-apps) e [Impresora Local](../devices/printers/local-printer).
+
 ## Procesos
 
 ### BÚSQUEDA INTELIGENTE (SMARTBROWSER)
