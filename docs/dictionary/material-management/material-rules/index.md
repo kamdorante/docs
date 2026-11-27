@@ -31,4 +31,4 @@ Documentacion de referencia del diccionario de aplicacion para el submenu Reglas
 ## Procesos
 
 - [Organizacion de Almacen](warehouse-organization)
-- [Organizacion de Producto](product-organization)
+- [Productos de la Organización](product-organization)

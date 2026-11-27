@@ -122,6 +122,18 @@ Al momento de contabilizar las salidas de proyectos, el costo se intenta obtener
 
 ## Procesos
 
+### ¿Cómo cambio la organización con la que está registrado un producto?
+
+Para modificar la organización de un producto (por ejemplo, pasarlo de una organización específica a la organización **\***, de modo que esté disponible para todas) se utiliza el proceso [Productos de la Organización](../dictionary/material-management/material-rules/product-organization):
+
+1. Ingresar con el rol **Administrador**.
+2. Abrir **Gestión de Materiales → Reglas de Material → Productos de la Organización**.
+3. Seleccionar la **Organización** que se desea asignar (**\*** para todas) y el **Producto** a modificar. Para cambiar varios productos a la vez, seleccionar la **Categoría de Producto**.
+4. Pulsar **Aceptar**. El sistema informa que el proceso finalizó correctamente.
+5. Abrir la ventana **Producto**, buscar el artículo y verificar que el campo **Organización** muestre el nuevo valor.
+
+El cambio también se aplica a las entidades dependientes del producto (Lista de Materiales, Sustitutos, Reabastecimiento, Compras, Información de Socios de Negocio y Costeo).
+
 ### ¿Qué función cumple el Proceso "Reabastecimiento desde Línea de Proyecto"?
 
 Visualiza líneas de proyecto y permite generar documentos de orden de compra o requisición, según la “Cantidad Planeada” indicada en la línea de proyecto.
