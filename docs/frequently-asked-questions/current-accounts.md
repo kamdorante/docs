@@ -17,6 +17,37 @@ No se muestran en el reporte Saldos Pendientes justamente porque este reporte mu
 
 Si el Pago tiene asignado un "Cargo" no se visualizará en el estado de cuenta corriente del proveedor.
 
+### ¿Por qué aparece en el Estado de Cuenta Corriente una línea de "Asignación" con Debe y Haber en 0,00?
+
+Es el comportamiento esperado del reporte y **no indica un error**. El **Estado de Cuenta Corriente** también incluye las **Asignaciones** que tienen al menos una línea imputada a un **Cargo** (por ejemplo, un cargo de **Redondeo**). Se muestran para que el saldo acumulado cierre exactamente con el saldo pendiente del socio.
+
+Un caso típico es el siguiente: al asignar los pagos a las facturas queda una diferencia mínima (por ejemplo, de centésimas o milésimas). Esa diferencia se ajusta contra el cargo de redondeo dentro de la misma asignación. Como el cargo no es un documento del socio, la línea aparece con **Debe = 0,00** y **Haber = 0,00**, y el **Saldo Acumulado** queda igual antes y después de ella. Por eso **no modifica el saldo**.
+
+En la columna de usuario/descripción de esa línea se ve el nombre del usuario que realizó la asignación, ya que las asignaciones manuales hechas desde **Asignación de Pagos** guardan al usuario en la **Descripción**.
+
+#### Cómo revisar la asignación que se ve en el reporte
+
+1. En el **Estado de Cuenta Corriente**, tomar nota del número de la asignación y de su fecha, y de los filtros utilizados (**Organización**, **Socio del Negocio** y **Moneda**).
+2. Ir a **Consulta de Asignación** y buscar esa asignación por su número o por el rango de fechas.
+3. Verificar que el documento esté **Completo** y revisar sus líneas en la pestaña de detalle:
+   - Las líneas de **pago aplicado a cada factura**.
+   - Las líneas de **ajuste** (diferencia mínima) contra la factura, sin pago asociado.
+   - La línea con el **Cargo** (por ejemplo, **Redondeo**), que figura por **0** en el reporte.
+4. Confirmar que el **Saldo Acumulado** del reporte no cambia entre la línea anterior y la línea de la asignación.
+
+::: tip
+Si el saldo acumulado **sí** cambia en esa línea, o la línea del cargo tiene un importe distinto de 0, se debe analizar el caso porque la asignación puede estar imputando un importe a un cargo en lugar de a una factura.
+:::
+
+Ver también: [¿Por qué no se muestra vinculado un Pago a un Proveedor en el estado de cuenta corriente?](#por-qué-no-se-muestra-vinculado-un-pago-a-un-proveedor-en-el-estado-de-cuenta-corriente), donde el Pago con **Cargo** se comporta distinto al de una asignación con línea de cargo.
+
+**Ventanas relacionadas**
+
+- [Estado de Cuenta Corriente](../dictionary/balance-management/payments-and-receipts/account-status)
+- [Consulta de Asignación](../dictionary/balance-management/allocation/view-allocation)
+- [Asignación de Pagos](../dictionary/balance-management/allocation/payment-allocation)
+- [Cargo](../dictionary/accounting-management/accounting-rules/charge)
+
 ### ¿Por qué motivo pueden mostrarse saldos pendientes en documentos por pagar y que no puedan ajustarse en el proceso de Dar de baja CxC y CxP?
 
 El sistema antes consideraba una tolerancia de +- 0.99 para marcar como asignada una factura, lo que hacía que a las facturas se les marque el check de PAGADO cuando existe un saldo abierto que entra en dicha tolerancia. Esta tolerancia se quitó, para que las facturas queden con el check de PAGADO = NO, y puedan ser consideradas por este proceso (Dar de baja CxC y CxP). Por lo cual estos casos solo pueden darse en documentos antiguos.
